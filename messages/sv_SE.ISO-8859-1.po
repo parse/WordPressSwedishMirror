@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-03-13 17:57-0600\n"
-"PO-Revision-Date: 2006-01-02 00:09+0200\n"
+"PO-Revision-Date: 2006-01-07 14:29+0200\n"
 "Last-Translator: Sebastian Djupsjöbacka <sebastian.djupsjobacka@gmail.com>\n"
 "Language-Team: Swedish <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "av: %s"
 
 #: wp-commentsrss2.php:68
 msgid "Protected Comments: Please enter your password to view comments."
-msgstr "Skyddade kommentarer: fyll i ditt lösenord för att visa kommentarerna."
+msgstr "Skyddade kommentarer: ange ditt lösenord för att visa kommentarerna."
 
 #: wp-login.php:43
 msgid "Lost Password"
@@ -307,25 +307,25 @@ msgstr "Gå tillbaka till bloggen"
 msgid "Home"
 msgstr "Hem"
 
-#: wp-settings.php:126
+#: wp-settings.php:130
 #, php-format
 msgid "It doesn't look like you've installed WP yet. Try running <a href='%s'>install.php</a>."
 msgstr "Det ser ut som om du inte har installerat WP ännu. Försök köra <a href='%s'>install.php</a>."
 
-#: wp-includes/classes.php:831
+#: wp-includes/classes.php:838
 #, php-format
 msgid "Suspected spam comments: <strong>%s</strong>"
 msgstr "Misstänkta spamkommentarer: <strong>%s</strong>"
 
-#: wp-includes/classes.php:835
+#: wp-includes/classes.php:842
 msgid "Move suspect comments to moderation queue &raquo;"
 msgstr "Flytta misstänkta kommentarer till modereringskön  &raquo;"
 
-#: wp-includes/classes.php:838
+#: wp-includes/classes.php:845
 msgid "Check Comments Results:"
 msgstr "Kontrollera resultat av kommentarer:"
 
-#: wp-includes/classes.php:840
+#: wp-includes/classes.php:847
 msgid "&laquo; Return to Discussion Options page."
 msgstr "&laquo; Tillbaka till diskussionsinställningarna."
 
@@ -517,6 +517,10 @@ msgstr "Hittade en likadan kommentar; det verkar som om du redan hade sagt det h
 msgid "Sorry, you can only post a new comment once every 15 seconds. Slow down cowboy."
 msgstr "Tyvärr, du kan bara lämna en ny kommentar var 15 sekund. Ta det lugnt."
 
+#: wp-includes/comment-functions.php:293
+msgid "Enter your password to view comments"
+msgstr "Ange ditt lösenord för att visa kommentarerna"
+
 #: wp-includes/comment-functions.php:315
 #, php-format
 msgid "Comment on %s"
@@ -569,6 +573,12 @@ msgstr "Kan inte läsa filen."
 #: wp-includes/functions.php:1807
 msgid "Template is missing."
 msgstr "Mall saknas."
+
+#: wp-includes/functions-post.php:910
+#: wp-includes/functions-post.php:944
+#, php-format
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Kan inte skapa katalogen %s. Har servern skrivrättigheter till moderkatalogen?"
 
 #: wp-includes/locale.php:5
 #: wp-includes/locale.php:16
@@ -957,7 +967,7 @@ msgstr "Logga ut"
 
 #: wp-includes/template-functions-general.php:52
 msgid "Site Admin"
-msgstr "Webbplatsadministratör"
+msgstr "Webbplatsadministration"
 
 #: wp-includes/template-functions-general.php:485
 #, php-format
@@ -967,6 +977,11 @@ msgstr "Se inlägg för %1$s %2$s"
 #: wp-includes/template-functions-post.php:5
 msgid "This post is password protected. To view it please enter your password below:"
 msgstr "Detta inlägg är lösenordsskyddat. För att se det måste du ange ditt lösenord nedan:"
+
+#: wp-includes/template-functions-post.php:6
+#: wp-content/plugins/wp-db-backup.php:849
+msgid "Submit"
+msgstr "Spara"
 
 #: wp-includes/template-functions-post.php:36
 #, php-format
@@ -1534,10 +1549,10 @@ msgstr "Filen motsvarar inte säkerhetsreglerna. Försök med en annan."
 #: wp-admin/admin-functions.php:1768
 #, php-format
 msgid "The uploaded file could not be moved to %s."
-msgstr "Den uppladdade filen kunde inte flyttas till %s."
+msgstr "Kunde inte flytta den uppladdade filen till %s."
 
 #: wp-admin/admin-functions.php:1805
-#: wp-admin/inline-uploading.php:665
+#: wp-admin/inline-uploading.php:661
 msgid "File:"
 msgstr "Fil:"
 
@@ -1550,7 +1565,7 @@ msgid "Import"
 msgstr "Importera"
 
 #: wp-admin/admin-functions.php:1809
-#: wp-admin/inline-uploading.php:686
+#: wp-admin/inline-uploading.php:682
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -1572,7 +1587,7 @@ msgstr "Tumnageln är länkad till ett underinlägg"
 
 #: wp-admin/admin-header.php:148
 msgid "Add"
-msgstr "Lägg till"
+msgstr "Spara"
 
 #: wp-admin/admin-header.php:156
 msgid "Separate multiple categories with commas."
@@ -1682,7 +1697,7 @@ msgid "Category parent:"
 msgstr "Kategorigrupp"
 
 #: wp-admin/categories.php:83
-#: wp-admin/inline-uploading.php:673
+#: wp-admin/inline-uploading.php:669
 msgid "Description:"
 msgstr "Beskrivning:"
 
@@ -1958,7 +1973,7 @@ msgstr "Tillåt pingar"
 #: wp-admin/edit-form-advanced.php:82
 #: wp-admin/edit-page-form.php:59
 msgid "Password-Protect Post"
-msgstr "Skydda inlägget med lösenord"
+msgstr "Lösenord för inlägget"
 
 #: wp-admin/edit-form-advanced.php:87
 #: wp-admin/edit-page-form.php:84
@@ -2540,7 +2555,7 @@ msgstr "Förkasta"
 msgid "Approve"
 msgstr "Godkänn"
 
-#: wp-admin/execute-pings.php:28
+#: wp-admin/execute-pings.php:32
 msgid "Done."
 msgstr "Färdig."
 
@@ -2590,7 +2605,7 @@ msgstr "Flera inlägg..."
 
 #: wp-admin/index.php:85
 msgid "Scheduled Entries:"
-msgstr "Schemalagda inlägg:"
+msgstr "Tidsinställda inlägg:"
 
 #: wp-admin/index.php:91
 #, php-format
@@ -2603,7 +2618,7 @@ msgstr "Redigera inlägget"
 
 #: wp-admin/index.php:99
 msgid "Blog Stats"
-msgstr "Blogstatistik"
+msgstr "Bloggstatistik"
 
 #: wp-admin/index.php:110
 #, php-format
@@ -2616,7 +2631,7 @@ msgstr "Välkommen till WordPress"
 
 #: wp-admin/index.php:118
 msgid "Use these links to get started:"
-msgstr "Med dessa länkar kommer du igång:"
+msgstr "De här länkarna hjälper dig att komma igång:"
 
 #: wp-admin/index.php:121
 msgid "Write a post"
@@ -2735,42 +2750,42 @@ msgstr "Filtyp:"
 msgid "This script was not meant to be called directly."
 msgstr "Det är inte meningen att detta skript skall anropas direkt."
 
-#: wp-admin/inline-uploading.php:627
-#: wp-admin/inline-uploading.php:684
+#: wp-admin/inline-uploading.php:623
+#: wp-admin/inline-uploading.php:680
 msgid "Upload"
 msgstr "Ladda upp"
 
-#: wp-admin/inline-uploading.php:629
+#: wp-admin/inline-uploading.php:625
 msgid "Browse"
 msgstr "Bläddra"
 
-#: wp-admin/inline-uploading.php:632
+#: wp-admin/inline-uploading.php:628
 msgid "Browse All"
 msgstr "Bläddra alla"
 
-#: wp-admin/inline-uploading.php:637
+#: wp-admin/inline-uploading.php:633
 msgid "First"
 msgstr "Förnamn"
 
-#: wp-admin/inline-uploading.php:638
-#: wp-admin/inline-uploading.php:641
+#: wp-admin/inline-uploading.php:634
+#: wp-admin/inline-uploading.php:637
 msgid "Back"
 msgstr "Föregående"
 
-#: wp-admin/inline-uploading.php:644
-#: wp-admin/inline-uploading.php:647
+#: wp-admin/inline-uploading.php:640
+#: wp-admin/inline-uploading.php:643
 msgid "Next"
 msgstr "Följande"
 
-#: wp-admin/inline-uploading.php:645
+#: wp-admin/inline-uploading.php:641
 msgid "Last"
 msgstr "Efternamn"
 
-#: wp-admin/inline-uploading.php:654
+#: wp-admin/inline-uploading.php:650
 msgid "You can drag and drop these items into your post. Click on one for more options."
 msgstr "Du kan dra och släppa de här elementen i ditt inlägg. Tryck på en för fler alternativ."
 
-#: wp-admin/inline-uploading.php:669
+#: wp-admin/inline-uploading.php:665
 msgid "Title:"
 msgstr "Titel:"
 
@@ -2810,7 +2825,7 @@ msgstr "Webbloggens titel:"
 
 #: wp-admin/install.php:107
 msgid "Your e-mail:"
-msgstr "Din e-post: %s"
+msgstr "Din e-post:"
 
 #: wp-admin/install.php:111
 msgid "Double-check that email address before continuing."
@@ -2975,7 +2990,7 @@ msgstr "Redigera &#8220;%s&#8221; Kategori"
 #: wp-admin/link-categories.php:117
 #: wp-admin/link-categories.php:370
 msgid "Category Options"
-msgstr "Kategoriinställningar"
+msgstr "Inställningar för kategorier"
 
 #: wp-admin/link-categories.php:124
 #: wp-admin/link-categories.php:377
@@ -3981,7 +3996,7 @@ msgstr "Hantera insticksprogram"
 
 #: wp-admin/plugins.php:67
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
-msgstr "Insticksprogram utvidgar och utvecklar WordPress funktioner. När ett insticksprogram är installerat kan du aktiver eller deaktivera det här."
+msgstr "Insticksprogram utvidgar och utvecklar WordPress funktioner. När ett insticksprogram är installerat kan du aktivera eller deaktivera det här."
 
 #: wp-admin/plugins.php:77
 msgid "Couldn't open plugins directory or there are no plugins available."
@@ -4018,7 +4033,7 @@ msgstr "Av %s"
 
 #: wp-admin/plugins.php:117
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>wp-content/plugins</code> directory and it will be automatically deactivated."
-msgstr "Om någonting går fel med insticksprogrammet och du inte kommer åt WordPress kan du radera filen i katalogen <code>wp-content/plugins</code> så deaktiveras den automatiskt."
+msgstr "Om det uppstår ett fel i insticksprogrammet och du inte kommer åt WordPress kan du radera filen i katalogen <code>wp-content/plugins</code> så deaktiveras den automatiskt."
 
 #: wp-admin/plugins.php:119
 msgid "Get More Plugins"
@@ -4026,7 +4041,7 @@ msgstr "Ytterligare insticksprogram"
 
 #: wp-admin/plugins.php:120
 msgid "You can find additional plugins for your site in the <a href=\"http://wordpress.org/extend/plugins/\">WordPress plugin directory</a>. To install a plugin you generally just need to upload the plugin file into your <code>wp-content/plugins</code> directory. Once a plugin is uploaded, you may activate it here."
-msgstr "Ytterligare insticksprogram för din blogg kan du hitta i <a href=\"http://wordpress.org/extend/plugins/\">WordPress insticksprogramkatalog</a>. Du installerar vanligen ett tema genom att helt enkelt lägga insticksprogramfilen i katalogen <code>wp-content/plugins</code>. När ett insticksprogram är installerat kan du aktivera det här."
+msgstr "Ytterligare insticksprogram för din blogg kan du hitta i <a href=\"http://wordpress.org/extend/plugins/\">WordPress insticksprogramkatalog</a>. Du installerar vanligen ett insticksprogram genom att helt enkelt lägga insticksprogramfilen i katalogen <code>wp-content/plugins</code>. När ett insticksprogram är installerat kan du aktivera det här."
 
 #: wp-admin/post.php:84
 msgid "Post Preview (updated when post is saved)"
@@ -4462,7 +4477,7 @@ msgstr "Administratör"
 
 #: wp-admin/upgrade-schema.php:246
 msgid "Editor"
-msgstr "Editor"
+msgstr "Redaktör"
 
 #: wp-admin/upgrade-schema.php:248
 msgid "Contributor"
@@ -4843,13 +4858,13 @@ msgid "Couldn't get post ID"
 msgstr "Kunde inte få inläggets ID"
 
 #: wp-admin/import/livejournal.php:117
-#: wp-admin/import/mt.php:332
+#: wp-admin/import/mt.php:333
 #, php-format
 msgid "(%s comments)"
 msgstr "(%s kommentarer)"
 
 #: wp-admin/import/livejournal.php:138
-#: wp-admin/import/mt.php:391
+#: wp-admin/import/mt.php:392
 #: wp-admin/import/rss.php:139
 #, php-format
 msgid "All done. <a href=\"%s\">Have fun!</a>"
@@ -4883,12 +4898,12 @@ msgstr "Här nedan kan du se författarna till MovableType-inläggen med <i>kursiv<
 msgid "If a new user is created by WordPress, the password will be set, by default, to \"changeme\". Quite suggestive, eh? ;)"
 msgstr "Om en ny användare skapas av WordPress får den automatiskt lösenordet \"changeme\"."
 
-#: wp-admin/import/mt.php:380
+#: wp-admin/import/mt.php:381
 #, php-format
 msgid "(%s pings)"
 msgstr "(%s pingar)"
 
-#: wp-admin/import/mt.php:428
+#: wp-admin/import/mt.php:429
 msgid "Import posts and comments from your Movable Type blog"
 msgstr "Importera inlägg och kommentarer från din Movable Type-blogg."
 
@@ -5097,7 +5112,7 @@ msgstr "Säkerhetskopian färdig!"
 #: wp-content/plugins/wp-db-backup.php:762
 #: wp-content/plugins/wp-db-backup.php:801
 msgid "Backup"
-msgstr "Ta säkerhetskopia"
+msgstr "Säkerhetskopiering"
 
 #: wp-content/plugins/wp-db-backup.php:115
 msgid "Progress"
@@ -5318,10 +5333,6 @@ msgstr "Daglig"
 msgid "Tables to include:"
 msgstr "Inkludera tabeller:"
 
-#: wp-content/plugins/wp-db-backup.php:849
-msgid "Submit"
-msgstr "Spara"
-
 #: wp-content/plugins/akismet/akismet.php:16
 #: wp-content/plugins/akismet/akismet.php:33
 msgid "Akismet Configuration"
@@ -5330,7 +5341,7 @@ msgstr "Konfigurera Akismet"
 #: wp-content/plugins/akismet/akismet.php:34
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
-msgstr "För många kommer <a href=\"%1$s\">Akismet</a> att minska eller totalt eliminera kommentarspammen och trackbackspammen från webbplatsen. Om någonting slinker genom kan du enkelt märka det som \"spam\" på moderationssidan och Akismet kommer att lära sig av sina misstag. Om du inte har ett WordPress.com-konto redan kan du skaffa dig ett på <a href=\"%2$s\">WordPress.com</a>."
+msgstr "För många kommer <a href=\"%1$s\">Akismet</a> att minska eller totalt eliminera kommentarspammen och trackbackspammen på webbplatsen. Om någonting slinker genom kan du enkelt märka det som \"spam\" på moderationssidan och Akismet kommer att lära sig av sina misstag. Om du inte har ett WordPress.com-konto redan kan du skaffa dig ett på <a href=\"%2$s\">WordPress.com</a>."
 
 #: wp-content/plugins/akismet/akismet.php:37
 msgid "WordPress.com API Key"
@@ -5382,7 +5393,7 @@ msgstr "Fångad spam"
 #: wp-content/plugins/akismet/akismet.php:224
 #, php-format
 msgid "Akismet has caught <strong>%1$s</strong> for you since you installed it."
-msgstr "Akismet har fångat <strong>%1$s</strong> sedan du installerade det."
+msgstr "Akismet har fångat <strong>%1$s</strong> sedan installationen."
 
 #: wp-content/plugins/akismet/akismet.php:229
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
