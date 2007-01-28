@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-03-13 17:57-0600\n"
-"PO-Revision-Date: 2007-01-25 23:02+0200\n"
+"PO-Revision-Date: 2007-01-28 15:09+0200\n"
 "Last-Translator: Sebastian Djupsjöbacka <sebastian.djupsjobacka@gmail.com>\n"
 "Language-Team: Swedish <sebastian.djupsjobacka@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Generator: KBabel 1.9.1\n"
+"X-Poedit-Language: Swedish\n"
 
 #: wp-admin/admin-ajax.php:22
 #: wp-admin/admin-functions.php:955
@@ -210,6 +211,10 @@ msgstr "Förvald"
 #: wp-admin/edit.php:180
 msgid "Unpublished"
 msgstr "Opublicerat"
+
+#: wp-admin/admin-functions.php:833
+msgid "Y-m-d g:i a"
+msgstr "d.m Y G:i"
 
 #: wp-admin/admin-functions.php:834
 #: wp-admin/edit-comments.php:220
@@ -577,7 +582,7 @@ msgstr "Importera"
 #: wp-admin/edit.php:133
 #: wp-admin/link-manager.php:101
 #: wp-admin/menu.php:41
-#: wp-includes/category-template.php:222
+#: wp-includes/category-template.php:225
 msgid "Categories"
 msgstr "Kategorier"
 
@@ -727,16 +732,16 @@ msgstr "Är du säker på att du vill göra det?"
 #: wp-admin/comment.php:65
 #: wp-admin/edit-link-form.php:73
 #: wp-admin/link-manager.php:145
-#: wp-includes/functions.php:1208
-#: wp-includes/functions.php:1210
+#: wp-includes/functions.php:1216
+#: wp-includes/functions.php:1218
 msgid "No"
 msgstr "Nej"
 
 #: wp-admin/comment.php:66
 #: wp-admin/edit-link-form.php:70
 #: wp-admin/link-manager.php:145
-#: wp-includes/functions.php:1208
-#: wp-includes/functions.php:1210
+#: wp-includes/functions.php:1216
+#: wp-includes/functions.php:1218
 msgid "Yes"
 msgstr "Ja"
 
@@ -912,7 +917,7 @@ msgstr "Kategorigrupp"
 
 #: wp-admin/edit-category-form.php:38
 #: wp-admin/upload-js.php:118
-#: wp-includes/deprecated.php:464
+#: wp-includes/deprecated.php:463
 msgid "None"
 msgstr "Ingen"
 
@@ -1677,6 +1682,10 @@ msgstr "När"
 msgid "Author"
 msgstr "Författare"
 
+#: wp-admin/edit.php:180
+msgid "Y-m-d \\<\\b\\r \\/\\> g:i:s a"
+msgstr "d.m Y \\<\\b\\r \\/\\> G:i:s"
+
 #: wp-admin/edit.php:186
 msgid " - <strong>Private</strong>"
 msgstr "<strong>Privat</strong>"
@@ -1713,6 +1722,10 @@ msgstr "&laquo; Tidigare inlägg"
 #: wp-admin/edit.php:254
 msgid "Next Entries &raquo;"
 msgstr "Senare inlägg &raquo;"
+
+#: wp-admin/edit.php:282
+msgid "M j, g:i A"
+msgstr "d F G:i"
 
 #: wp-admin/export.php:3
 #: wp-admin/export.php:13
@@ -2657,53 +2670,53 @@ msgstr "Redigera inlägget"
 msgid "Blog Stats"
 msgstr "Bloggstatistik"
 
-#: wp-admin/index.php:111
+#: wp-admin/index.php:105
 #, php-format
 msgid "%1$s <a href=\"%2$s\" title=\"Posts\">post</a>"
 msgid_plural "%1$s <a href=\"%2$s\" title=\"Posts\">posts</a>"
 msgstr[0] "%1$s <a href=\"%2$s\" title=\"Inlägg\">inlägg</a>"
 msgstr[1] "%1$s <a href=\"%2$s\" title=\"Inlägg\">inlägg</a>"
 
-#: wp-admin/index.php:112
+#: wp-admin/index.php:106
 #, php-format
 msgid "%1$s <a href=\"%2$s\" title=\"Comments\">comment</a>"
 msgid_plural "%1$s <a href=\"%2$s\" title=\"Comments\">comments</a>"
 msgstr[0] "%1$s <a href=\"%2$s\" title=\"Kommentarer\">kommentar</a>"
 msgstr[1] "%1$s <a href=\"%2$s\" title=\"Kommentarer\">kommentarer</a>"
 
-#: wp-admin/index.php:113
+#: wp-admin/index.php:107
 #, php-format
 msgid "%1$s <a href=\"%2$s\" title=\"Categories\">category</a>"
 msgid_plural "%1$s <a href=\"%2$s\" title=\"Categories\">categories</a>"
 msgstr[0] "%1$s <a href=\"%2$s\" title=\"Kategorier\">kategori</a>"
 msgstr[1] "%1$s <a href=\"%2$s\" title=\"Kategorier\">kategorier</a>"
 
-#: wp-admin/index.php:115
+#: wp-admin/index.php:110
 #, php-format
 msgid "There are currently %1$s and %2$s, contained within %3$s."
 msgstr "För närvarande finns %1$s och %2$s i %3$s."
 
-#: wp-admin/index.php:121
+#: wp-admin/index.php:116
 msgid "Use these links to get started:"
 msgstr "De här länkarna hjälper dig att komma igång:"
 
-#: wp-admin/index.php:125
+#: wp-admin/index.php:120
 msgid "Write a post"
 msgstr "Skriv inlägg"
 
-#: wp-admin/index.php:127
+#: wp-admin/index.php:122
 msgid "Update your profile or change your password"
 msgstr "Uppdatera din profil eller ändra ditt lösenord"
 
-#: wp-admin/index.php:129
+#: wp-admin/index.php:124
 msgid "Add a bookmark to your blogroll"
 msgstr "Lägg till ett bokmärke till din länklista"
 
-#: wp-admin/index.php:132
+#: wp-admin/index.php:127
 msgid "Change your site&#8217;s look or theme"
 msgstr "Ändra din webbplats utseende eller tema"
 
-#: wp-admin/index.php:135
+#: wp-admin/index.php:130
 msgid "Need help with WordPress? Please see our <a href='http://codex.wordpress.org/'>documentation</a> or visit the <a href='http://wordpress.org/support/'>support forums</a>."
 msgstr "Behöver du hjälp med WordPress? Läs gärna i vår <a href='http://codex.wordpress.org/'>dokumentation</a> eller besök <a href='http://wordpress.org/support/'>stödforumen</a>."
 
@@ -3275,6 +3288,10 @@ msgstr "Datum och klockslag"
 msgid "<abbr title=\"Coordinated Universal Time\">UTC</abbr> time is:"
 msgstr "<abbr title=\"Coordinated Universal Time\">UTC</abbr>-tiden är:"
 
+#: wp-admin/options-general.php:63
+msgid "Y-m-d g:i:s a"
+msgstr "d.m Y G:i:s"
+
 #: wp-admin/options-general.php:66
 msgid "Times in the weblog should differ by:"
 msgstr "Tider i bloggen skall avvika med:"
@@ -3684,15 +3701,19 @@ msgstr "Ogiltigt insticksprogram."
 msgid "Plugin file does not exist."
 msgstr "Insticksprogrammets fil saknas."
 
-#: wp-admin/plugins.php:32
+#: wp-admin/plugins.php:33
 msgid "Manage Plugins"
 msgstr "Redigera insticksprogram"
 
-#: wp-admin/plugins.php:62
+#: wp-admin/plugins.php:63
+msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
+msgstr "Insticksprogrammet kunde inte aktiveras eftersom det orsakade ett <strong>allvarligt fel</strong>."
+
+#: wp-admin/plugins.php:65
 msgid "Plugin <strong>activated</strong>."
 msgstr "Insticksprogram <strong>aktiverat</strong>."
 
-#: wp-admin/plugins.php:66
+#: wp-admin/plugins.php:67
 msgid "Plugin <strong>deactivated</strong>."
 msgstr "Insticksprogram <strong>avaktiverad</strong>."
 
@@ -4079,7 +4100,7 @@ msgid "User already exists.  Password inherited."
 msgstr "Användaren finns redan. Lösenordet ärvt."
 
 #: wp-admin/upgrade-functions.php:61
-#: wp-includes/category-template.php:90
+#: wp-includes/category-template.php:91
 msgid "Uncategorized"
 msgstr "Okategoriserade"
 
@@ -4531,8 +4552,8 @@ msgid "User List by Role"
 msgstr "Användarförteckning enligt roll"
 
 #: wp-admin/users.php:341
-msgid "Search \tusers &raquo;"
-msgstr "Sök \tanvändare &raquo;"
+msgid "Search Users &raquo;"
+msgstr "Sök användare &raquo;"
 
 #: wp-admin/users.php:359
 msgid "&laquo; Back to All Users"
@@ -5041,18 +5062,18 @@ msgid "Bookmarks"
 msgstr "Bokmärken"
 
 #: wp-includes/category-template.php:56
-#: wp-includes/category-template.php:101
 #: wp-includes/category-template.php:104
-#: wp-includes/category-template.php:111
-#: wp-includes/category-template.php:124
+#: wp-includes/category-template.php:107
+#: wp-includes/category-template.php:114
 #: wp-includes/category-template.php:127
-#: wp-includes/category-template.php:134
+#: wp-includes/category-template.php:130
+#: wp-includes/category-template.php:137
 #, php-format
 msgid "View all posts in %s"
 msgstr "Se alla inlägg i %s"
 
-#: wp-includes/category-template.php:238
-#: wp-includes/category-template.php:240
+#: wp-includes/category-template.php:241
+#: wp-includes/category-template.php:243
 msgid "No categories"
 msgstr "Inga kategorier"
 
@@ -5296,188 +5317,188 @@ msgid_plural "%s days"
 msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
-#: wp-includes/functions.php:1009
-#: wp-includes/functions.php:1047
+#: wp-includes/functions.php:1017
+#: wp-includes/functions.php:1055
 #, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Kan inte skapa katalogen %s. Har servern skrivrättigheter till moderkatalogen?"
 
-#: wp-includes/functions.php:1019
+#: wp-includes/functions.php:1027
 msgid "Empty filename"
 msgstr "Tomt filnamn"
 
-#: wp-includes/functions.php:1023
+#: wp-includes/functions.php:1031
 msgid "Invalid file type"
 msgstr "Ogiltig filtyp"
 
-#: wp-includes/functions.php:1053
+#: wp-includes/functions.php:1061
 #, php-format
 msgid "Could not write file %s"
 msgstr "Kunde inte skriva till filen %s"
 
-#: wp-includes/functions.php:1130
+#: wp-includes/functions.php:1138
 #, php-format
 msgid "Are you sure you want to edit this attachment: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här bilagan: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1132
+#: wp-includes/functions.php:1140
 msgid "Are you sure you want to add this category?"
 msgstr "Är du säker på att du vill lägga till den här kategorin?"
 
-#: wp-includes/functions.php:1133
+#: wp-includes/functions.php:1141
 #, php-format
 msgid "Are you sure you want to delete this category: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill radera den här kategorin: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1134
+#: wp-includes/functions.php:1142
 #, php-format
 msgid "Are you sure you want to edit this category: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här kategorin: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1136
+#: wp-includes/functions.php:1144
 #, php-format
 msgid "Are you sure you want to delete this comment: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill radera den här kommentaren: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1137
+#: wp-includes/functions.php:1145
 #, php-format
 msgid "Are you sure you want to unapprove this comment: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill förkasta den här kommentaren: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1138
+#: wp-includes/functions.php:1146
 #, php-format
 msgid "Are you sure you want to approve this comment: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill godkänna den här kommentaren: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1139
+#: wp-includes/functions.php:1147
 #, php-format
 msgid "Are you sure you want to edit this comment: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här kommentaren: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1140
+#: wp-includes/functions.php:1148
 msgid "Are you sure you want to bulk modify comments?"
 msgstr "Är du säker på att du vill massredigera kommentarerna?"
 
-#: wp-includes/functions.php:1141
+#: wp-includes/functions.php:1149
 msgid "Are you sure you want to moderate comments?"
 msgstr "Är du säker på att du vill moderera kommentarer?"
 
-#: wp-includes/functions.php:1143
+#: wp-includes/functions.php:1151
 msgid "Are you sure you want to add this bookmark?"
 msgstr "Är du säker på att du vill lägga till den här länken?"
 
-#: wp-includes/functions.php:1144
+#: wp-includes/functions.php:1152
 #, php-format
 msgid "Are you sure you want to delete this bookmark: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill radera den här länken: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1145
+#: wp-includes/functions.php:1153
 #, php-format
 msgid "Are you sure you want to edit this bookmark: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här länken: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1146
+#: wp-includes/functions.php:1154
 msgid "Are you sure you want to bulk modify bookmarks?"
 msgstr "Är du säker på att du vill massredigera länkarna?"
 
-#: wp-includes/functions.php:1148
+#: wp-includes/functions.php:1156
 msgid "Are you sure you want to add this page?"
 msgstr "Är du säker på att du vill lägga till den här sidan?"
 
-#: wp-includes/functions.php:1149
+#: wp-includes/functions.php:1157
 #, php-format
 msgid "Are you sure you want to delete this page: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill radera den här sidan: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1150
+#: wp-includes/functions.php:1158
 #, php-format
 msgid "Are you sure you want to edit this page: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här sidan: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1152
+#: wp-includes/functions.php:1160
 #, php-format
 msgid "Are you sure you want to edit this plugin file: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här insticksfilen: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1153
+#: wp-includes/functions.php:1161
 #, php-format
 msgid "Are you sure you want to activate this plugin: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill aktivera det här insticksprogrammet: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1154
+#: wp-includes/functions.php:1162
 #, php-format
 msgid "Are you sure you want to deactivate this plugin: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill deaktivera det här insticksprogrammet: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1156
+#: wp-includes/functions.php:1164
 msgid "Are you sure you want to add this post?"
 msgstr "Är du säker på att du vill lägga till det här inlägget?"
 
-#: wp-includes/functions.php:1157
+#: wp-includes/functions.php:1165
 #, php-format
 msgid "Are you sure you want to delete this post: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill radera det här inlägget: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1158
+#: wp-includes/functions.php:1166
 #, php-format
 msgid "Are you sure you want to edit this post: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera det här inlägget: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1160
+#: wp-includes/functions.php:1168
 msgid "Are you sure you want to add this user?"
 msgstr "Är du säker på att du vill lägga till den här användaren?"
 
-#: wp-includes/functions.php:1161
+#: wp-includes/functions.php:1169
 msgid "Are you sure you want to delete users?"
 msgstr "Är du säker på att du vill radera användare?"
 
-#: wp-includes/functions.php:1162
+#: wp-includes/functions.php:1170
 msgid "Are you sure you want to bulk modify users?"
 msgstr "Är du säker på att du vill massredigera användarna?"
 
-#: wp-includes/functions.php:1163
+#: wp-includes/functions.php:1171
 #, php-format
 msgid "Are you sure you want to edit this user: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här användaren: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1164
+#: wp-includes/functions.php:1172
 #, php-format
 msgid "Are you sure you want to modify the profile for: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill modifiera profilen för: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1166
+#: wp-includes/functions.php:1174
 msgid "Are you sure you want to edit your settings?"
 msgstr "Är du säker på att du vill redigera dina inställningar?"
 
-#: wp-includes/functions.php:1167
+#: wp-includes/functions.php:1175
 #, php-format
 msgid "Are you sure you want to change your permalink structure to: %s?"
 msgstr "Är du säker på att du vill ändra din permalänkstruktur till: %s?"
 
-#: wp-includes/functions.php:1168
+#: wp-includes/functions.php:1176
 #, php-format
 msgid "Are you sure you want to edit this file: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera den här filen: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1169
+#: wp-includes/functions.php:1177
 #, php-format
 msgid "Are you sure you want to edit this theme file: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill redigera det här temat: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1170
+#: wp-includes/functions.php:1178
 #, php-format
 msgid "Are you sure you want to switch to this theme: &quot;%s&quot;?"
 msgstr "Är du säker på att du vill byta till det här temat: &quot;%s&quot;?"
 
-#: wp-includes/functions.php:1185
+#: wp-includes/functions.php:1193
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
 
-#: wp-includes/functions.php:1195
+#: wp-includes/functions.php:1203
 msgid "WordPress Confirmation"
 msgstr "WordPressbekräftelse"
 
-#: wp-includes/functions.php:1222
+#: wp-includes/functions.php:1230
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fel"
 
@@ -5550,7 +5571,7 @@ msgstr "Sparar utkast..."
 msgid "Are you sure you want to delete this %s?"
 msgstr "Är du säker på att du vill radera den här %s?"
 
-#: wp-includes/js/list-manipulation-js.php:54
+#: wp-includes/js/list-manipulation-js.php:56
 msgid "Jump to new item"
 msgstr "Hoppa till en ny punkt"
 
@@ -5734,15 +5755,15 @@ msgstr "Ligger på Sourceforges server"
 msgid "Also on freshmeat"
 msgstr "Även på freshmeat"
 
-#: wp-includes/js/wp-ajax-js.php:57
+#: wp-includes/js/wp-ajax-js.php:55
 msgid "You don't have permission to do that."
 msgstr "Du saknar rättigheter att göra det."
 
-#: wp-includes/js/wp-ajax-js.php:60
+#: wp-includes/js/wp-ajax-js.php:58
 msgid "Something strange happened.  Try refreshing the page."
 msgstr "Något märkvärdigt har inträffat. Försök ladda sidan på nytt."
 
-#: wp-includes/js/wp-ajax-js.php:84
+#: wp-includes/js/wp-ajax-js.php:82
 msgid "Slow down, I'm still sending your data!"
 msgstr "Ta det lugnt, jag sänder fortfarande data!"
 
