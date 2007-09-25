@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-03-13 17:57-0600\n"
-"PO-Revision-Date: 2007-09-19 23:36+0200\n"
+"PO-Revision-Date: 2007-09-25 13:16+0200\n"
 "Last-Translator: Sebastian Djupsjöbacka <sebastian.djupsjobacka@gmail.com>\n"
 "Language-Team: Swedish <sebastian.djupsjobacka@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -142,7 +142,7 @@ msgstr "Importera"
 #: wp-admin/categories.php:16
 #: wp-admin/categories.php:31
 #: wp-admin/categories.php:60
-#: wp-admin/import/wp-cat2tag.php:201
+#: wp-admin/import/wp-cat2tag.php:203
 #: wp-admin/includes/bookmark.php:9
 #: wp-admin/link-category.php:13
 #: wp-admin/link-category.php:28
@@ -268,17 +268,10 @@ msgstr "Handling"
 msgid "<strong>Note:</strong><br />Deleting a category does not delete the posts in that category. Instead, posts that were only assigned to the deleted category are set to the category <strong>%s</strong>."
 msgstr "<strong>Observera:</strong><br />När du raderar en kategori försvinner inte inläggen. Inlägg som var tilldelade endast den raderade kategorin tilldelas istället kategorin <strong>%s</strong>."
 
-#: wp-admin/categories.php:119
-msgid "Importers &amp; Converters"
-msgstr "Importörer &amp; konverterare"
-
-#: wp-admin/categories.php:122
-msgid "Selectively convert categories to tags"
-msgstr "Konvertera utvalda kategorier till etiketter"
-
-#: wp-admin/categories.php:123
-msgid "Import Ultimate Tag Warrior tags"
-msgstr "Importera etiketter från Ultimate Tag Warrior"
+#: wp-admin/categories.php:114
+#, php-format
+msgid "Categories can be selectively converted to tags using the <a href=\"%s\">category to tag converter</a>."
+msgstr "Med <a href=\"%s\">kategori till etikett-konverteraren</a> kan man konvertera kategorier selektivt."
 
 #: wp-admin/comment.php:14
 msgid "Edit Comment"
@@ -339,7 +332,7 @@ msgstr "Är du säker på att du vill göra det?"
 
 #: wp-admin/comment.php:65
 #: wp-admin/edit-link-form.php:73
-#: wp-admin/import/wp-cat2tag.php:170
+#: wp-admin/import/wp-cat2tag.php:172
 #: wp-admin/link-manager.php:144
 #: wp-includes/functions.php:1201
 #: wp-includes/functions.php:1203
@@ -348,7 +341,7 @@ msgstr "Nej"
 
 #: wp-admin/comment.php:66
 #: wp-admin/edit-link-form.php:70
-#: wp-admin/import/wp-cat2tag.php:170
+#: wp-admin/import/wp-cat2tag.php:172
 #: wp-admin/link-manager.php:144
 #: wp-includes/functions.php:1201
 #: wp-includes/functions.php:1203
@@ -1182,7 +1175,7 @@ msgstr "Förvald mall"
 
 #: wp-admin/edit-page-form.php:100
 msgid "Page Slug"
-msgstr "Sidans titel"
+msgstr "Sidans permalänk"
 
 #: wp-admin/edit-page-form.php:106
 msgid "Page Author"
@@ -1708,7 +1701,7 @@ msgstr "Hejsan! Den här importören hämtar inlägg ur en Blogware XML-exportfi
 #: wp-admin/import/blogware.php:89
 #: wp-admin/import/livejournal.php:69
 #: wp-admin/import/mt.php:208
-#: wp-admin/import/wordpress.php:330
+#: wp-admin/import/wordpress.php:339
 #, php-format
 msgid "Post <i>%s</i> already exists."
 msgstr "Inlägget <i>%s</i> finns redan."
@@ -1716,7 +1709,7 @@ msgstr "Inlägget <i>%s</i> finns redan."
 #: wp-admin/import/blogware.php:91
 #: wp-admin/import/livejournal.php:71
 #: wp-admin/import/mt.php:211
-#: wp-admin/import/wordpress.php:345
+#: wp-admin/import/wordpress.php:354
 #, php-format
 msgid "Importing post <i>%s</i>..."
 msgstr "Importerar inlägget <i>%s</i>..."
@@ -1730,7 +1723,7 @@ msgstr "Kunde inte få inläggets ID"
 #: wp-admin/import/blogware.php:144
 #: wp-admin/import/livejournal.php:122
 #: wp-admin/import/mt.php:241
-#: wp-admin/import/wordpress.php:401
+#: wp-admin/import/wordpress.php:429
 #, php-format
 msgid "(%s comments)"
 msgstr "(%s kommentarer)"
@@ -1758,7 +1751,7 @@ msgstr "Importera Bunny&#8217;s Technorati Tags"
 #: wp-admin/import/btt.php:8
 #: wp-admin/import/dotclear.php:116
 #: wp-admin/import/jkw.php:8
-#: wp-admin/import/stp.php:8
+#: wp-admin/import/stp.php:6
 #: wp-admin/import/textpattern.php:33
 #: wp-admin/import/utw.php:8
 msgid "Steps may take a few minutes depending on the size of your database. Please be patient."
@@ -1778,7 +1771,7 @@ msgstr "Alla existerande Bunny&#8217;s Technorati Tags kommer att raderas efter 
 
 #: wp-admin/import/btt.php:20
 #: wp-admin/import/jkw.php:20
-#: wp-admin/import/stp.php:20
+#: wp-admin/import/stp.php:18
 #: wp-admin/import/utw.php:20
 msgid "Don&#8217;t be stupid - backup your database before proceeding!"
 msgstr "Var inte dum - gör en säkerhetskopia av databasen innan du fortsätter!"
@@ -1807,13 +1800,13 @@ msgstr "Färdigt! <strong>%s</strong> inlägg med etiketter lästes."
 #: wp-admin/import/btt.php:93
 #: wp-admin/import/jkw.php:109
 #: wp-admin/import/jkw.php:142
-#: wp-includes/general-template.php:982
+#: wp-includes/general-template.php:984
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
 #: wp-admin/import/btt.php:100
 #: wp-admin/import/jkw.php:163
-#: wp-admin/import/stp.php:172
+#: wp-admin/import/stp.php:139
 #: wp-admin/import/utw.php:250
 msgid "Import Complete!"
 msgstr "Importeringen är färdig!"
@@ -2354,73 +2347,73 @@ msgstr "RSS"
 msgid "Import posts from an RSS feed"
 msgstr "Importera inlägg från ett RSS-flöde."
 
-#: wp-admin/import/stp.php:7
+#: wp-admin/import/stp.php:5
 msgid "Import Simple Tagging"
 msgstr "Importera Simple Tagging"
 
-#: wp-admin/import/stp.php:17
+#: wp-admin/import/stp.php:15
 msgid "Howdy! This imports tags from an existing Simple Tagging 1.6.2 installation into this blog using the new WordPress native tagging structure."
 msgstr "Hejsan! Det här importerar etiketter från en existerande installation av Simple Tagging 1.6.2 till den här bloggen genom att använda WordPress nya inbyggda etikettstruktur."
 
-#: wp-admin/import/stp.php:18
+#: wp-admin/import/stp.php:16
 msgid "This has not been tested on any other versions of Simple Tagging. Mileage may vary."
 msgstr "Det här har inte testats på andra versioner av Simple Tagging. Resultatet kan variera."
 
-#: wp-admin/import/stp.php:19
+#: wp-admin/import/stp.php:17
 msgid "To accommodate larger databases for those tag-crazy authors out there, we have made this into an easy 4-step program to help you kick that nasty Simple Tagging habit. Just keep clicking along and we will let you know when you are in the clear!"
 msgstr "För att hantera etikettgalna författares stora databaser har utvecklat det här till ett program i fyra steg som hjälper dig att komma loss från dina fula Simple Tagging-vanor. Klicka bara vidare så låter vi dig veta när du har ditt på det torra!"
 
-#: wp-admin/import/stp.php:23
+#: wp-admin/import/stp.php:21
 #: wp-admin/import/utw.php:22
 msgid "Step 1 &raquo;"
 msgstr "Steg 1 &raquo;"
 
-#: wp-admin/import/stp.php:64
+#: wp-admin/import/stp.php:58
 msgid "Reading STP Post Tags&#8230;"
 msgstr "Läser inläggsetiketter från STP&#8230;"
 
-#: wp-admin/import/stp.php:71
+#: wp-admin/import/stp.php:65
 #: wp-admin/import/utw.php:124
 msgid "No posts were found to have tags!"
 msgstr "Inga inlägg hade etiketter!"
 
-#: wp-admin/import/stp.php:86
+#: wp-admin/import/stp.php:76
 #: wp-admin/import/utw.php:139
 #, php-format
 msgid "Done! <strong>%s</strong> tag to post relationships were read."
 msgstr "Färdigt! <strong>%s</strong> relationer mellan etiketter och inlägg lästes."
 
-#: wp-admin/import/stp.php:92
+#: wp-admin/import/stp.php:81
 #: wp-admin/import/utw.php:109
 msgid "Step 2 &raquo;"
 msgstr "Steg 2 &raquo;"
 
-#: wp-admin/import/stp.php:102
+#: wp-admin/import/stp.php:89
 #: wp-admin/import/utw.php:155
 msgid "Adding Tags to Posts&#8230;"
 msgstr "Lägger etiketter till inlägg&#8230;"
 
-#: wp-admin/import/stp.php:107
+#: wp-admin/import/stp.php:94
 #: wp-admin/import/utw.php:160
 #, php-format
 msgid "Done! <strong>%s</strong> tags where added!"
 msgstr "Färdigt! <strong>%s</strong> etiketter lades till!"
 
-#: wp-admin/import/stp.php:111
+#: wp-admin/import/stp.php:97
 #: wp-admin/import/utw.php:145
 msgid "Step 3 &raquo;"
 msgstr "Steg 3 &raquo;"
 
-#: wp-admin/import/stp.php:174
+#: wp-admin/import/stp.php:140
 msgid "OK, so we lied about this being a 4-step program! You&#8217;re done!"
 msgstr "OK, vi ljög när vi sade att programmet hade fyra steg! Det är färdigt!"
 
-#: wp-admin/import/stp.php:176
+#: wp-admin/import/stp.php:141
 #: wp-admin/import/utw.php:254
 msgid "Now wasn&#8217;t that easy?"
 msgstr "Det var väl lätt?"
 
-#: wp-admin/import/stp.php:196
+#: wp-admin/import/stp.php:154
 msgid "Import Simple Tagging tags into the new native tagging structure."
 msgstr "Importera Simple Tagging-etiketter till den nya inbyggda etikettstrukturen."
 
@@ -2563,7 +2556,7 @@ msgstr "Allt klart."
 msgid "Have fun!"
 msgstr "Ha det så roligt!"
 
-#: wp-admin/import/wordpress.php:459
+#: wp-admin/import/wordpress.php:487
 msgid "Import <strong>posts, comments, custom fields, pages, and categories</strong> from a WordPress export file"
 msgstr "Importera <strong>inlägg, kommentarer, anpassade fält, sidor och kategorier</strong> från en WordPress-exportfil"
 
@@ -2583,49 +2576,49 @@ msgstr "Kom ihåg att om du konverterar en kategori med underkategorier kommer u
 msgid "You have no categories to convert!"
 msgstr "Inga kategorier att konvertera!"
 
-#: wp-admin/import/wp-cat2tag.php:64
+#: wp-admin/import/wp-cat2tag.php:66
 msgid "Convert All Categories"
 msgstr "Konvertera alla kategorier"
 
-#: wp-admin/import/wp-cat2tag.php:64
+#: wp-admin/import/wp-cat2tag.php:66
 msgid "Convert &raquo;"
 msgstr "Konvertera &raquo;"
 
-#: wp-admin/import/wp-cat2tag.php:105
+#: wp-admin/import/wp-cat2tag.php:107
 #, php-format
 msgid "Uh, oh. Something didn't work. Please <a href=\"%s\">try again</a>."
 msgstr "Oj då. Någonting gick visst snett. Vänligen <a href=\"%s\">försök på nytt</a>."
 
-#: wp-admin/import/wp-cat2tag.php:120
+#: wp-admin/import/wp-cat2tag.php:122
 #, php-format
 msgid "Converting category #%s ... "
 msgstr "Konverterar kategorin #%s ..."
 
-#: wp-admin/import/wp-cat2tag.php:123
+#: wp-admin/import/wp-cat2tag.php:125
 msgid "Category doesn't exist!"
 msgstr "Kategorin finns inte!"
 
-#: wp-admin/import/wp-cat2tag.php:128
+#: wp-admin/import/wp-cat2tag.php:130
 msgid "Category is already a tag."
 msgstr "Kategorin är redan en etikett."
 
-#: wp-admin/import/wp-cat2tag.php:152
+#: wp-admin/import/wp-cat2tag.php:154
 msgid "Converted successfully."
 msgstr "Konverteringen lyckades."
 
-#: wp-admin/import/wp-cat2tag.php:164
+#: wp-admin/import/wp-cat2tag.php:166
 msgid "Confirm"
 msgstr "Bekräfta"
 
-#: wp-admin/import/wp-cat2tag.php:166
+#: wp-admin/import/wp-cat2tag.php:168
 msgid "You are about to convert all categories to tags. Are you sure you want to continue?"
 msgstr "Du håller på att konvertera alla kategorier till etiketter. Är du säker på att du vill fortsätta?"
 
-#: wp-admin/import/wp-cat2tag.php:236
+#: wp-admin/import/wp-cat2tag.php:238
 msgid "Categories to Tags Converter"
 msgstr "Kategori till etikett-konverterare"
 
-#: wp-admin/import/wp-cat2tag.php:236
+#: wp-admin/import/wp-cat2tag.php:238
 msgid "Convert existing categories to tags, selectively."
 msgstr "Konverterar existerande kategorier till etiketter, selektivt."
 
@@ -3000,7 +2993,7 @@ msgstr "En ny version av WordPress finns tillgänglig! <a href=\"%s\">Vänligen 
 msgid "A new version of WordPress is available! Please notify the site administrator."
 msgstr "En ny version av WordPress finns tillgänglig! Vänligen meddela webbplatsens administratör."
 
-#: wp-admin/includes/update.php:113
+#: wp-admin/includes/update.php:117
 #, php-format
 msgid "There is a new version of %s available. <a href=\"%s\">Download version %s here</a>."
 msgstr "En ny version av %s finns tillgänglig. <a href=\"%s\">Ladda ner version %s här</a>."
@@ -3385,10 +3378,6 @@ msgstr "Bloggens titel:"
 #: wp-admin/install.php:49
 msgid "Your e-mail:"
 msgstr "Din e-post:"
-
-#: wp-admin/install.php:53
-msgid "Privacy:"
-msgstr "Skydd:"
 
 #: wp-admin/install.php:54
 msgid "Allow my blog to appear in search engines like Google and Technorati."
@@ -5929,21 +5918,21 @@ msgstr "Av: %s"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Skyddade kommentarer: ange ditt lösenord för att visa kommentarerna."
 
-#: wp-includes/formatting.php:779
+#: wp-includes/formatting.php:776
 #, php-format
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minut"
 msgstr[1] "%s minuter"
 
-#: wp-includes/formatting.php:785
+#: wp-includes/formatting.php:782
 #, php-format
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s timme"
 msgstr[1] "%s timmar"
 
-#: wp-includes/formatting.php:791
+#: wp-includes/formatting.php:788
 #, php-format
 msgid "%s day"
 msgid_plural "%s days"
@@ -6163,32 +6152,32 @@ msgstr "Registrera"
 msgid "Site Admin"
 msgstr "Webbplatsadministration"
 
-#: wp-includes/general-template.php:400
+#: wp-includes/general-template.php:402
 #, php-format
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
-#: wp-includes/general-template.php:544
+#: wp-includes/general-template.php:546
 #: wp-includes/widgets.php:1132
 #: wp-includes/widgets.php:1133
 msgid "Calendar"
 msgstr "Kalender"
 
-#: wp-includes/general-template.php:569
-#: wp-includes/general-template.php:579
+#: wp-includes/general-template.php:571
+#: wp-includes/general-template.php:581
 #, php-format
 msgid "View posts for %1$s %2$s"
 msgstr "Se inlägg för %1$s %2$s"
 
-#: wp-includes/general-template.php:879
+#: wp-includes/general-template.php:881
 msgid "Visual"
 msgstr "Visuell"
 
-#: wp-includes/general-template.php:880
+#: wp-includes/general-template.php:882
 msgid "Code"
 msgstr "Kod"
 
-#: wp-includes/general-template.php:981
+#: wp-includes/general-template.php:983
 msgid "&laquo; Previous"
 msgstr "&laquo; Föregående"
 
@@ -6382,7 +6371,7 @@ msgstr "Redigera kommentar"
 
 #: wp-includes/link-template.php:438
 msgid "Previous Post"
-msgstr "Föregående inlägg"
+msgstr "Tidigare inlägg"
 
 #: wp-includes/link-template.php:459
 msgid "Next Post"
@@ -6635,152 +6624,152 @@ msgstr "<strong>FEL</strong>: Felaktigt användarnamn."
 msgid "<strong>ERROR</strong>: Incorrect password."
 msgstr "<strong>FEL</strong>: Felaktigt lösenord."
 
-#: wp-includes/pluggable.php:508
+#: wp-includes/pluggable.php:515
 #, php-format
 msgid "New comment on your post #%1$s \"%2$s\""
 msgstr "Ny kommentar till ditt inlägg #%1$s \"%2$s\""
 
-#: wp-includes/pluggable.php:509
-#: wp-includes/pluggable.php:583
+#: wp-includes/pluggable.php:516
+#: wp-includes/pluggable.php:590
 #, php-format
 msgid "Author : %1$s (IP: %2$s , %3$s)"
 msgstr "Författare: %1$s (IP: %2$s, %3$s)"
 
-#: wp-includes/pluggable.php:510
-#: wp-includes/pluggable.php:584
+#: wp-includes/pluggable.php:517
+#: wp-includes/pluggable.php:591
 #, php-format
 msgid "E-mail : %s"
 msgstr "E-post: %s"
 
-#: wp-includes/pluggable.php:511
-#: wp-includes/pluggable.php:519
+#: wp-includes/pluggable.php:518
 #: wp-includes/pluggable.php:526
-#: wp-includes/pluggable.php:585
+#: wp-includes/pluggable.php:533
+#: wp-includes/pluggable.php:592
 #, php-format
 msgid "URL    : %s"
 msgstr "URL    : %s"
 
-#: wp-includes/pluggable.php:512
-#: wp-includes/pluggable.php:586
+#: wp-includes/pluggable.php:519
+#: wp-includes/pluggable.php:593
 #, php-format
 msgid "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
 msgstr "Whois  : http://ws.arin.net/cgi-bin/whois.pl?queryinput=%s"
 
-#: wp-includes/pluggable.php:513
-#: wp-includes/pluggable.php:587
+#: wp-includes/pluggable.php:520
+#: wp-includes/pluggable.php:594
 msgid "Comment: "
 msgstr "Kommentar:"
 
-#: wp-includes/pluggable.php:514
+#: wp-includes/pluggable.php:521
 msgid "You can see all comments on this post here: "
 msgstr "Alla kommentarer till det här inlägget:"
 
-#: wp-includes/pluggable.php:515
+#: wp-includes/pluggable.php:522
 #, php-format
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Kommentar: \"%2$s\""
 
-#: wp-includes/pluggable.php:517
+#: wp-includes/pluggable.php:524
 #, php-format
 msgid "New trackback on your post #%1$s \"%2$s\""
 msgstr "Ny trackback till ditt inlägg #%1$s \"%2$s\""
 
-#: wp-includes/pluggable.php:518
 #: wp-includes/pluggable.php:525
+#: wp-includes/pluggable.php:532
 #, php-format
 msgid "Website: %1$s (IP: %2$s , %3$s)"
 msgstr "Webbplats: %1$s (IP: %2$s, %3$s)"
 
-#: wp-includes/pluggable.php:520
 #: wp-includes/pluggable.php:527
+#: wp-includes/pluggable.php:534
 msgid "Excerpt: "
 msgstr "Utdrag:"
 
-#: wp-includes/pluggable.php:521
+#: wp-includes/pluggable.php:528
 msgid "You can see all trackbacks on this post here: "
 msgstr "Alla trackbackar till det här inlägget:"
 
-#: wp-includes/pluggable.php:522
+#: wp-includes/pluggable.php:529
 #, php-format
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Trackback: \"%2$s\""
 
-#: wp-includes/pluggable.php:524
+#: wp-includes/pluggable.php:531
 #, php-format
 msgid "New pingback on your post #%1$s \"%2$s\""
 msgstr "Ny pingback till ditt inlägg #%1$s \"%2$s\""
 
-#: wp-includes/pluggable.php:528
+#: wp-includes/pluggable.php:535
 msgid "You can see all pingbacks on this post here: "
 msgstr "Alla pingbackar till det här inlägget:"
 
-#: wp-includes/pluggable.php:529
+#: wp-includes/pluggable.php:536
 #, php-format
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Pingback: \"%2$s\""
 
-#: wp-includes/pluggable.php:532
-#: wp-includes/pluggable.php:589
+#: wp-includes/pluggable.php:539
+#: wp-includes/pluggable.php:596
 #, php-format
 msgid "Delete it: %s"
 msgstr "Radera den: %s"
 
-#: wp-includes/pluggable.php:533
-#: wp-includes/pluggable.php:590
+#: wp-includes/pluggable.php:540
+#: wp-includes/pluggable.php:597
 #, php-format
 msgid "Spam it: %s"
 msgstr "Märk som spam: %s"
 
-#: wp-includes/pluggable.php:581
+#: wp-includes/pluggable.php:588
 #, php-format
 msgid "A new comment on the post #%1$s \"%2$s\" is waiting for your approval"
 msgstr "En ny kommentar till inlägget #%1$s \"%2$s\" väntar på ditt godkännande"
 
-#: wp-includes/pluggable.php:588
+#: wp-includes/pluggable.php:595
 #, php-format
 msgid "Approve it: %s"
 msgstr "Godkänn den: %s"
 
-#: wp-includes/pluggable.php:591
+#: wp-includes/pluggable.php:598
 #, php-format
 msgid "Currently %s comments are waiting for approval. Please visit the moderation panel:"
 msgstr "För närvarande väntar %s kommentarer på ditt godkännande. Vänligen besök administrationspanelen för att moderera:"
 
-#: wp-includes/pluggable.php:594
+#: wp-includes/pluggable.php:601
 #, php-format
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Vänligen moderera: \"%2$s\""
 
-#: wp-includes/pluggable.php:613
+#: wp-includes/pluggable.php:620
 #, php-format
 msgid "New user registration on your blog %s:"
 msgstr "En ny användare har registrerat sig på din blogg %s:"
 
-#: wp-includes/pluggable.php:614
-#: wp-includes/pluggable.php:622
+#: wp-includes/pluggable.php:621
+#: wp-includes/pluggable.php:629
 #: wp-login.php:117
 #: wp-login.php:188
 #, php-format
 msgid "Username: %s"
 msgstr "Användarnamn: %s"
 
-#: wp-includes/pluggable.php:615
+#: wp-includes/pluggable.php:622
 #, php-format
 msgid "E-mail: %s"
 msgstr "E-post: %s"
 
-#: wp-includes/pluggable.php:617
+#: wp-includes/pluggable.php:624
 #, php-format
 msgid "[%s] New User Registration"
 msgstr "[%s] Registrering av ny användare"
 
-#: wp-includes/pluggable.php:623
+#: wp-includes/pluggable.php:630
 #: wp-login.php:189
 #, php-format
 msgid "Password: %s"
 msgstr "Lösenord: %s"
 
-#: wp-includes/pluggable.php:626
+#: wp-includes/pluggable.php:633
 #, php-format
 msgid "[%s] Your username and password"
 msgstr "[%s] Ditt användarnamn och lösenord"
@@ -6969,19 +6958,24 @@ msgstr ""
 #: wp-includes/taxonomy.php:235
 #: wp-includes/taxonomy.php:356
 #: wp-includes/taxonomy.php:458
-#: wp-includes/taxonomy.php:849
-#: wp-includes/taxonomy.php:985
+#: wp-includes/taxonomy.php:853
+#: wp-includes/taxonomy.php:996
 msgid "Invalid Taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:909
-#: wp-includes/taxonomy.php:1026
+#: wp-includes/taxonomy.php:913
+#: wp-includes/taxonomy.php:1069
 msgid "Invalid taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:912
+#: wp-includes/taxonomy.php:916
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
+
+#: wp-includes/taxonomy.php:1113
+#, php-format
+msgid "The slug \"%s\" is already in use by another term"
+msgstr "Permalänken \"%s\" används redan"
 
 #: wp-includes/theme.php:161
 msgid "Stylesheet is missing."
