@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress i18n Theme\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2007-10-17 09:17+0200\n"
+"PO-Revision-Date: 2007-10-29 22:27+0200\n"
 "Last-Translator: Sebastian Djupsjöbacka <sebastian.djupsjobacka@gmail.com>\n"
 "Language-Team: sv_SE <sebastian.djupsjobacka@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +28,9 @@ msgid "Posts Tagged &#8216;%s&#8217;"
 msgstr "Inlägg med etiketten &#8216;%s&#8217;"
 
 #: archive.php:13
-#: archive.php:15
-#: archive.php:17
 #, php-format
-msgid "Archive for %s"
-msgstr "Arkiv för %s"
+msgid "Archive for %s|Daily archive page"
+msgstr ""
 
 #: archive.php:13
 #: comments.php:36
@@ -41,8 +39,18 @@ msgid "F jS, Y"
 msgstr ""
 
 #: archive.php:15
+#, php-format
+msgid "Archive for %s|Monthly archive page"
+msgstr ""
+
+#: archive.php:15
 #: sidebar.php:27
 msgid "F, Y"
+msgstr ""
+
+#: archive.php:17
+#, php-format
+msgid "Archive for %s|Yearly archive page"
 msgstr ""
 
 #: archive.php:17
@@ -90,7 +98,8 @@ msgstr ""
 #: archive.php:39
 #: index.php:17
 #: search.php:21
-msgid "Tags: "
+#: single.php:19
+msgid "Tags:"
 msgstr "Etiketter:"
 
 #: archive.php:39
@@ -197,10 +206,6 @@ msgstr "Redigera det här inlägget."
 
 #: attachment.php:59
 msgid "Sorry, no attachments matched your criteria."
-msgstr ""
-
-#: comments.php:3
-msgid "Please do not load this page directly. Thanks!"
 msgstr ""
 
 #: comments.php:9
@@ -599,10 +604,6 @@ msgstr "XFN"
 #: sidebar.php:61
 msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr ""
-
-#: single.php:19
-msgid "Tags:"
-msgstr "Etiketter:"
 
 #: single.php:58
 msgid "Sorry, no posts matched your criteria."
