@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2008-11-21 00:55+0000\n"
-"PO-Revision-Date: 2008-11-21 02:15+0100\n"
+"POT-Creation-Date: 2008-11-21 20:55+0000\n"
+"PO-Revision-Date: 2008-11-22 00:03+0100\n"
 "Last-Translator: Mattias Tengblad <mst@wp-support.se>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -274,22 +274,22 @@ msgstr "<a href=\"http://codex.wordpress.org/\">Dokumentation</a>"
 msgid "<a href=\"http://wordpress.org/support/forum/4\">Feedback</a>"
 msgstr "<a href=\"http://wordpress.org/support/4\">Feedback</a>"
 
-#: wp-admin/admin-header.php:88
+#: wp-admin/admin-header.php:92
 msgid "Visit site"
 msgstr "Besök sida"
 
-#: wp-admin/admin-header.php:92
+#: wp-admin/admin-header.php:96
 #, php-format
 msgid "Howdy, <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
 msgstr "Hej, <a href=\"%1$s\" title=\"Redigera din profil\">%2$s</a>"
 
-#: wp-admin/admin-header.php:93
+#: wp-admin/admin-header.php:97
 #: wp-admin/menu.php:92
 #: wp-admin/turbo.php:12
 msgid "Turbo"
 msgstr "Turbo"
 
-#: wp-admin/admin-header.php:94
+#: wp-admin/admin-header.php:98
 msgid "Log Out"
 msgstr "Logga ut"
 
@@ -710,14 +710,11 @@ msgstr "URL"
 #: wp-admin/comment.php:126
 #: wp-admin/edit-form-advanced.php:428
 #: wp-admin/edit-pages.php:284
-#: wp-admin/includes/dashboard.php:214
 #: wp-admin/includes/template.php:767
 #: wp-content/themes/classic/comments-popup.php:52
 #: wp-content/themes/classic/comments.php:24
-msgid "Comment"
-msgid_plural "Comments"
-msgstr[0] "Kommentar"
-msgstr[1] "Kommentarer"
+msgid "Comment|noun"
+msgstr "Kommentar"
 
 #: wp-admin/comment.php:179
 msgid "You are not allowed to edit comments on this post, so you cannot disapprove this comment."
@@ -1008,7 +1005,6 @@ msgstr[0] "Inväntar granskning (<span class=\"pending-count\">%s</span>)"
 msgstr[1] "Inväntar granskning (<span class=\"pending-count\">%s</span>)"
 
 #: wp-admin/edit-comments.php:128
-#: wp-admin/edit-form-comment.php:50
 #: wp-admin/includes/dashboard.php:230
 #: wp-includes/comment.php:255
 msgid "Approved"
@@ -1574,18 +1570,18 @@ msgstr "Redigerar Kommentar # %s"
 msgid "View Comment"
 msgstr "Visa kommentar"
 
+#: wp-admin/edit-form-comment.php:50
+msgid "Approved|adjective"
+msgstr "Godkänd"
+
 #: wp-admin/edit-form-comment.php:51
-#: wp-admin/includes/dashboard.php:262
-#: wp-admin/includes/template.php:3208
-msgid "Pending"
-msgid_plural "Pending"
-msgstr[0] "Väntande"
-msgstr[1] "Väntande"
+msgid "Pending|adjective"
+msgstr "Väntande"
 
 #: wp-admin/edit-form-comment.php:52
-#: wp-admin/includes/dashboard.php:449
-msgid "Spam|verb"
-msgstr "Skräppost"
+#: wp-includes/comment.php:256
+msgid "Spam|adjective"
+msgstr "Skräp"
 
 #: wp-admin/edit-form-comment.php:58
 #, php-format
@@ -3829,11 +3825,16 @@ msgid "At a Glance"
 msgstr "I korthet"
 
 #: wp-admin/includes/dashboard.php:191
-#: wp-admin/includes/template.php:680
 msgid "Post"
 msgid_plural "Posts"
 msgstr[0] "Inlägg"
 msgstr[1] "Inlägg"
+
+#: wp-admin/includes/dashboard.php:214
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] "Kommentar"
+msgstr[1] "Kommentarer"
 
 #: wp-admin/includes/dashboard.php:223
 msgid "Page"
@@ -3848,7 +3849,6 @@ msgstr[0] "Kategori"
 msgstr[1] "Kategorier"
 
 #: wp-admin/includes/dashboard.php:246
-#: wp-admin/includes/template.php:1996
 #: wp-content/plugins/akismet/akismet.php:692
 msgid "Spam"
 msgid_plural "Spam"
@@ -3861,6 +3861,13 @@ msgid "Tag"
 msgid_plural "Tags"
 msgstr[0] "Etikett"
 msgstr[1] "Etiketter"
+
+#: wp-admin/includes/dashboard.php:262
+#: wp-admin/includes/template.php:3208
+msgid "Pending"
+msgid_plural "Pending"
+msgstr[0] "Väntande"
+msgstr[1] "Väntande"
 
 #: wp-admin/includes/dashboard.php:276
 msgid "Change Theme"
@@ -3938,6 +3945,11 @@ msgstr "Svara"
 #: wp-admin/includes/template.php:1996
 msgid "Mark this comment as spam"
 msgstr "Markera denna kommentar som skräp"
+
+#: wp-admin/includes/dashboard.php:449
+#: wp-admin/includes/template.php:1996
+msgid "Spam|verb"
+msgstr "Skräppost"
 
 #: wp-admin/includes/dashboard.php:474
 #, php-format
@@ -5151,6 +5163,10 @@ msgid ""
 msgstr ""
 "Vill du radera etiketten '%s'?\n"
 "'Avbryt' för att avbryta, 'OK' för att radera."
+
+#: wp-admin/includes/template.php:680
+msgid "Post|noun"
+msgstr "Inlägg"
 
 #: wp-admin/includes/template.php:686
 #: wp-admin/includes/template.php:733
@@ -8727,6 +8743,13 @@ msgstr "Se alla inlägg i %s"
 msgid "No categories"
 msgstr "Inga kategorier"
 
+#: wp-includes/category-template.php:594
+#, php-format
+msgid "%s topic"
+msgid_plural "%s topics"
+msgstr[0] "%s ämne"
+msgstr[1] "%s ämnen"
+
 #: wp-includes/class-pop3.php:83
 msgid "No server specified"
 msgstr "Ingen server angiven"
@@ -8862,10 +8885,6 @@ msgstr "%1$s kl %2$s"
 #: wp-includes/comment.php:254
 msgid "Unapproved"
 msgstr "Förkastad"
-
-#: wp-includes/comment.php:256
-msgid "Spam|adjective"
-msgstr "Skräp"
 
 #: wp-includes/comment.php:411
 #: wp-includes/comment.php:413
@@ -12900,10 +12919,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 #~ msgstr "Av"
 #~ msgid "Invalid plugin."
 #~ msgstr "Ogiltigt tillägg."
-#~ msgid "%d topic"
-#~ msgid_plural "%d topics"
-#~ msgstr[0] "%d ämne"
-#~ msgstr[1] "%d ämnen"
 #~ msgid "Speed up!"
 #~ msgstr "Snabba upp!"
 #~ msgid "Current comment break down: %1$s, %2$s, %3$s and %4$s."
