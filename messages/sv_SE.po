@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2008-11-26 04:55+0000\n"
-"PO-Revision-Date: 2008-11-26 07:32+0100\n"
+"POT-Creation-Date: 2008-11-26 12:55+0000\n"
+"PO-Revision-Date: 2008-11-26 14:54+0100\n"
 "Last-Translator: Mattias Tengblad <mst@wp-support.se>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -794,7 +794,6 @@ msgid "Choose an image from your computer:"
 msgstr "Välj en bild på din dator:"
 
 #: wp-admin/custom-header.php:295
-#: wp-admin/includes/media.php:1242
 #: wp-admin/includes/media.php:1295
 #: wp-admin/includes/template.php:3089
 msgid "Upload"
@@ -1311,13 +1310,13 @@ msgstr "j F, Y @ G:i"
 #: wp-admin/edit-page-form.php:179
 #, php-format
 msgid "Scheduled for: <b>%1$s</b>"
-msgstr "Tidsinställt för:<strong>%1$s</strong>"
+msgstr "Tidsinställt för: <strong>%1$s</strong>"
 
 #: wp-admin/edit-form-advanced.php:193
 #: wp-admin/edit-page-form.php:181
 #, php-format
 msgid "Published on: <b>%1$s</b>"
-msgstr "Publicerat den:<strong>%1$s</strong>"
+msgstr "Publicerat den: <strong>%1$s</strong>"
 
 #: wp-admin/edit-form-advanced.php:195
 #: wp-admin/edit-form-advanced.php:203
@@ -1330,13 +1329,13 @@ msgstr "Publicera <strong>direkt</strong>"
 #: wp-admin/edit-page-form.php:185
 #, php-format
 msgid "Schedule for: <b>%1$s</b>"
-msgstr "Tidsinställ för:<strong>%1$s</strong>"
+msgstr "Tidsinställ för: <strong>%1$s</strong>"
 
 #: wp-admin/edit-form-advanced.php:199
 #: wp-admin/edit-page-form.php:187
 #, php-format
 msgid "Publish on: <b>%1$s</b>"
-msgstr "Publicera den:<strong>%1$s</strong>"
+msgstr "Publicera den: <strong>%1$s</strong>"
 
 #: wp-admin/edit-form-advanced.php:225
 #: wp-admin/edit-page-form.php:213
@@ -1906,10 +1905,6 @@ msgstr "Exampel: <code>http://wordpress.org/</code> &#8212; glöm inte <code>htt
 #: wp-admin/edit-link-form.php:393
 msgid "This will be shown when someone hovers over the link in the blogroll, or optionally below the link."
 msgstr "Detta kommer att visas om någon har musen över en länk i länklistan, eller valfritt under länken."
-
-#: wp-admin/edit-page-drafts.php:16
-msgid "View Draft Pages"
-msgstr "Visa utkast av sidor"
 
 #: wp-admin/edit-page-form.php:21
 #, php-format
@@ -4432,7 +4427,6 @@ msgid "Empty Title filled from filename."
 msgstr "Rensa titeln ifylld från filnamnet."
 
 #: wp-admin/includes/media.php:945
-#: wp-admin/includes/media.php:1821
 #: wp-includes/js/tinymce/langs/wp-langs.php:291
 msgid "Link URL"
 msgstr "Länkadress"
@@ -4465,6 +4459,10 @@ msgstr "Infoga i inlägg"
 #, php-format
 msgid "You are about to delete <strong>%s</strong>."
 msgstr "Du håller på att radera följande <strong>%s</strong>."
+
+#: wp-admin/includes/media.php:1242
+msgid "Select Files"
+msgstr "Välj filer"
 
 #: wp-admin/includes/media.php:1285
 msgid "Choose files to upload"
@@ -4611,9 +4609,9 @@ msgid "Image Caption"
 msgstr "Bildbeskrivning"
 
 #: wp-admin/includes/media.php:1783
-#: wp-includes/js/tinymce/langs/wp-langs.php:431
-msgid "Source"
-msgstr "Källa"
+#: wp-includes/js/tinymce/langs/wp-langs.php:274
+msgid "Image URL"
+msgstr "Bildadress"
 
 #: wp-admin/includes/media.php:1791
 msgid "Image Title"
@@ -4639,6 +4637,10 @@ msgstr "Centrera"
 #: wp-includes/js/tinymce/langs/wp-langs.php:383
 msgid "Right"
 msgstr "Höger"
+
+#: wp-admin/includes/media.php:1821
+msgid "Link Image To:"
+msgstr "Länka bild till:"
 
 #: wp-admin/includes/media.php:1826
 msgid "Link to image"
@@ -9413,7 +9415,7 @@ msgid "Does not appear to be chunked encoded or body is malformed."
 msgstr "Verkar inte vara styckeskodat eller så är bodyn felformaterad."
 
 #: wp-includes/http.php:572
-#: wp-includes/http.php:1025
+#: wp-includes/http.php:1026
 msgid "Too many redirects."
 msgstr "För många omdirigeringar."
 
@@ -10295,10 +10297,6 @@ msgstr "Färg:"
 msgid "Select custom character"
 msgstr "Välj specialtecken"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:274
-msgid "Image URL"
-msgstr "Bildadress"
-
 #: wp-includes/js/tinymce/langs/wp-langs.php:275
 msgid "Image description"
 msgstr "Bildbeskrivning"
@@ -10758,6 +10756,10 @@ msgstr "Länkad till bild"
 #: wp-includes/js/tinymce/langs/wp-langs.php:430
 msgid "Advanced Image Settings"
 msgstr "Avancerade bildinställningar"
+
+#: wp-includes/js/tinymce/langs/wp-langs.php:431
+msgid "Source"
+msgstr "Källa"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:434
 #: wp-includes/js/tinymce/langs/wp-langs.php:439
@@ -12429,6 +12431,8 @@ msgstr "<strong>FEL</strong>: <code>$table_prefix</code> i <code>wp-config.php</
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta funkar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "View Draft Pages"
+#~ msgstr "Visa utkast av sidor"
 #~ msgid "Classic"
 #~ msgstr "Klassisk"
 #~ msgid "Fresh"
@@ -12569,8 +12573,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 #~ msgstr "Länk till:"
 #~ msgid "Send to editor &raquo;"
 #~ msgstr "Skicka till redigeraren &raquo;"
-#~ msgid "Delete File"
-#~ msgstr "Radera filen"
 #~ msgid "Save &raquo;"
 #~ msgstr "Spara &raquo;"
 #~ msgid ""
