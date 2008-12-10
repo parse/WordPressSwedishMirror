@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2008-12-09 20:55+0000\n"
-"PO-Revision-Date: 2008-12-09 23:17+0100\n"
+"POT-Creation-Date: 2008-12-10 00:55+0000\n"
+"PO-Revision-Date: 2008-12-10 05:33+0100\n"
 "Last-Translator: Mattias Tengblad <mst@wp-support.se>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -345,7 +345,7 @@ msgstr "Du saknar rättigheter att ladda upp filer."
 #: wp-admin/includes/template.php:1030
 #: wp-admin/menu.php:36
 #: wp-admin/press-this.php:473
-#: wp-includes/category-template.php:467
+#: wp-includes/category-template.php:465
 #: wp-includes/widgets.php:1085
 #: wp-includes/widgets.php:1231
 msgid "Categories"
@@ -7655,8 +7655,8 @@ msgstr "För att aktivera det klicka på knappen nedan."
 
 #: wp-admin/tools.php:39
 #: wp-admin/tools.php:72
-msgid "However, Gears should not be enabled if this is a public or shared computer."
-msgstr "Om detta är en delad eller publik dator, så bör inte Gears aktiveras."
+msgid "Note: Do not enable Gears if this is a public or shared computer!"
+msgstr "Notera: Aktivera inte Gears om detta är en delad eller publik dator!"
 
 #: wp-admin/tools.php:40
 msgid "Enable Gears"
@@ -8989,12 +8989,12 @@ msgstr "Bokmärken"
 msgid "View all posts in %s"
 msgstr "Se alla inlägg i %s"
 
+#: wp-includes/category-template.php:489
 #: wp-includes/category-template.php:491
-#: wp-includes/category-template.php:493
 msgid "No categories"
 msgstr "Inga kategorier"
 
-#: wp-includes/category-template.php:596
+#: wp-includes/category-template.php:594
 #, php-format
 msgid "%s topic"
 msgid_plural "%s topics"
@@ -11800,6 +11800,10 @@ msgstr "Kunde inte infoga term i databasen"
 #, php-format
 msgid "The slug \"%s\" is already in use by another term"
 msgstr "Permalänken \"%s\" används redan"
+
+#: wp-includes/taxonomy.php:2245
+msgid "Invalid object ID"
+msgstr "Ogiltigt objekt ID."
 
 #: wp-includes/theme.php:295
 msgid "Stylesheet is missing."
