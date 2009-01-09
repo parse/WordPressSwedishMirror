@@ -1,76 +1,75 @@
 <?php
 /** 
- * Baskonfiguration för WordPress.
+ * Baskonfiguration fÃ¶r WordPress.
  *
- * Denna fil innehåller följande konfigurationer: MySQL inställningar, Tabellprefix,
- * Säkerhetsnycklar, WordPress Språk, och ABSPATH. Du kan hitta med information genom
- * att besöka {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php}. Dina MySQL uppgifter för du från ditt webbhotell.
+ * Denna fil innehÃ¥ller fÃ¶ljande konfigurationer: MySQL instÃ¤llningar, Tabellprefix,
+ * SÃ¤kerhetsnycklar, WordPress SprÃ¥k, och ABSPATH. Du kan hitta med information genom
+ * att besÃ¶ka {@link http://codex.wordpress.org/Editing_wp-config.php Editing
+ * wp-config.php}. Dina MySQL uppgifter fÃ¶r du frÃ¥n ditt webbhotell.
  *
- * Denna fil används av wp-config.php genereringsskript under installationen.
- * Du behöver inte använda webbplatsen, du kan kopiera denna fil direkt till
- * "wp-config.php" och fylla i värdena.
+ * Denna fil anvÃ¤nds av wp-config.php genereringsskript under installationen.
+ * Du behÃ¶ver inte anvÃ¤nda webbplatsen, du kan kopiera denna fil direkt till
+ * "wp-config.php" och fylla i vÃ¤rdena.
  *
  * @package WordPress
  */
 
-// ** MySQL inställningar - MySQL uppgifter för du från ditt webbhotell ** //
-/** Namnet på databasen du vill använda för WordPress */
+// ** MySQL instÃ¤llningar - MySQL uppgifter fÃ¶r du frÃ¥n ditt webbhotell ** //
+/** Namnet pÃ¥ databasen du vill anvÃ¤nda fÃ¶r WordPress */
 define('DB_NAME', 'ange-databasnamn');
 
-/** MySQL databasens användarnamn */
-define('DB_USER', 'ange-databasanvändare');
+/** MySQL databasens anvÃ¤ndarnamn */
+define('DB_USER', 'ange-databasanvÃ¤ndare');
 
-/** MySQL databasens lösenord */
-define('DB_PASSWORD', 'ange-ditt-databaslösenord');
+/** MySQL databasens lÃ¶senord */
+define('DB_PASSWORD', 'ange-ditt-databaslÃ¶senord');
 
 /** MySQL server */
 define('DB_HOST', 'localhost');
 
-/** Teckenkodning för tabellerna i databasen. */
+/** Teckenkodning fÃ¶r tabellerna i databasen. */
 define('DB_CHARSET', 'utf8');
 
-/** Kollationeringstyp för databasen. ändra inte om du är osäker. */
+/** Kollationeringstyp fÃ¶r databasen. Ã¤ndra inte om du Ã¤r osÃ¤ker. */
 define('DB_COLLATE', '');
 
 /**#@+
  * Unika autentiseringsnycklar.
  *
- * Ändra dessa till unika fraser!
+ * Ã„ndra dessa till unika fraser!
  * Du kan generera nycklar med {@link http://api.wordpress.org/secret-key/1.1/ WordPress.org secret-key service}
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'ange en unik fras här');
-define('SECURE_AUTH_KEY', 'ange en unik fras här');
-define('LOGGED_IN_KEY', 'ange en unik fras här');
-define('NONCE_KEY', 'ange en unik fras här');
+define('AUTH_KEY', 'ange en unik fras hÃ¤r');
+define('SECURE_AUTH_KEY', 'ange en unik fras hÃ¤r');
+define('LOGGED_IN_KEY', 'ange en unik fras hÃ¤r');
+define('NONCE_KEY', 'ange en unik fras hÃ¤r');
 /**#@-*/
 
 /**
- * Tabellprefix för WordPress Databasen.
+ * Tabellprefix fÃ¶r WordPress Databasen.
  *
  * Du kan ha flera installationer i samma databas om du ger varje installation ett unikt
- * prefix. Endast nummer, bokstäver och understreck!
+ * prefix. Endast nummer, bokstÃ¤ver och understreck!
  */
 $table_prefix  = 'wp_';
 
 /**
- * WordPress Språk, förinställt för svenska.
+ * WordPress SprÃ¥k, fÃ¶rinstÃ¤llt fÃ¶r svenska.
  *
- * Du kan ändra detta för att ändra språk för WordPress.  En motsvarande .mo fil
- * för det valda språket måste finnas i wp-content/languages. Exempel, lägg till
- * sv_SE.mo i wp-content/languages och ange WPLANG till 'sv_SE' för att få sidan
- * på svenska.
+ * Du kan Ã¤ndra detta fÃ¶r att Ã¤ndra sprÃ¥k fÃ¶r WordPress.  En motsvarande .mo fil
+ * fÃ¶r det valda sprÃ¥ket mÃ¥ste finnas i wp-content/languages. Exempel, lÃ¤gg till
+ * sv_SE.mo i wp-content/languages och ange WPLANG till 'sv_SE' fÃ¶r att fÃ¥ sidan
+ * pÃ¥ svenska.
  */
 define ('WPLANG', 'sv_SE');
 
-/* Det var allt, sluta redigera här! Blogga på. */
+/* Det var allt, sluta redigera hÃ¤r! Blogga pÃ¥. */
 
-/** WordPress absoluta sökväg till Wordpress katalogen. */
+/** WordPress absoluta sÃ¶kvÃ¤g till Wordpress katalogen. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Anger WordPress värden och inkluderade filer. */
+/** Anger WordPress vÃ¤rden och inkluderade filer. */
 require_once(ABSPATH . 'wp-settings.php');
-?>
