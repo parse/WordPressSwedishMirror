@@ -42,8 +42,8 @@ if ( !is_writable('../'))
 if (file_exists('../wp-config.php'))
 	wp_die("<p>Filen 'wp-config.php' finns redan. Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka att <a href='install.php'>installera nu</a>.</p>");
 
-// Check if wp-config.php exists above the root directory
-if (file_exists('../../wp-config.php') && ! file_exists('../../wp-load.php'))
+// Check if wp-config.php exists above the root directory but is not part of another install
+if (file_exists('../../wp-config.php') && ! file_exists('../../wp-settings.php'))
 	wp_die("<p>Filen 'wp-config.php' finns redan en nivå ovanför din WordPress installation.  Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka att <a href='install.php'>installera nu</a>.</p>");
 
 if (isset($_GET['step']))
