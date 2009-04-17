@@ -57,7 +57,7 @@
 </div>
 
 <?php if ( get_option('comment_registration') && !$user_ID ) : ?>
-<p>Du m&aring;ste vara <a href="<?php echo get_option('siteurl'); ?>/wp-login.php?redirect_to=<?php echo urlencode(get_permalink()); ?>">inloggad</a> f&ouml;r att posta kommentarer.</p>
+<p>Du m&aring;ste vara <a href="<?php echo wp_login_url( get_permalink() ); ?>">inloggad</a> f&ouml;r att posta kommentarer.</p>
 <?php else : ?>
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">

@@ -4,7 +4,7 @@
  * @subpackage Default_Theme
  */
 ?>
-	<div id="sidebar">
+	<div id="sidebar" role="complementary">
 		<ul>
 			<?php 	/* Widgetized sidebar, if you have the plugin installed. */
 					if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar() ) : ?>
@@ -47,7 +47,10 @@
 
 			<?php } ?>
 
-			</li> <?php }?>
+			</li> 
+	        <?php }?> 
+	        </ul>  
+	        <ul role="navigation">
 
 			<?php wp_list_pages('title_li=<h2>Sidor</h2>' ); ?>
 
@@ -58,6 +61,9 @@
 			</li>
 
 			<?php wp_list_categories('show_count=1&title_li=<h2>Kategorier</h2>'); ?>
+            
+            </ul> 
+	        <ul> 
 
 			<?php /* If this is the frontpage */ if ( is_home() || is_page() ) { ?>
 				<?php wp_list_bookmarks(); ?>

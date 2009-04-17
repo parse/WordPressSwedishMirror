@@ -7,7 +7,7 @@
 get_header();
 ?>
 
-	<div id="content" class="widecolumn">
+	<div id="content" class="widecolumn" role="main">
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -30,7 +30,7 @@ get_header();
 						Detta inl&auml;gg postades
 						<?php /* This is commented, because it requires a little adjusting sometimes.
 							You'll need to download this plugin, and follow the instructions:
-							http://binarybonsai.com/archives/2004/08/17/time-since-plugin/ */
+							http://binarybonsai.com/wordpress/time-since/ */
 							/* $entry_datetime = abs(strtotime($post->post_date) - (60*120)); echo time_since($entry_datetime); echo ' ago'; */ ?>
 						<?php the_time('l, j F, Y') ?> kl <?php the_time() ?>
 						i <?php the_category(', ') ?>.
