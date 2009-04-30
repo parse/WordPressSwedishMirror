@@ -32,19 +32,19 @@ get_header();
 						<?php the_taxonomies(); ?>
 						Du kan f&ouml;lja svar via <?php post_comments_feed_link('RSS 2.0'); ?> fl&ouml;det.
 
-						<?php if (('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
+						<?php if ( comments_open() && pings_open() ) {
 							// Both Comments and Pings are open ?>
 							Du kan <a href="#respond">l&auml;mna en kommentar</a>, eller en <a href="<?php trackback_url(); ?>" rel="trackback">trackback</a> fr&aring;n din egen sida.
 
-						<?php } elseif (!('open' == $post-> comment_status) && ('open' == $post->ping_status)) {
+						<?php } elseif ( !comments_open() && pings_open() ) {
 							// Only Pings are Open ?>
 							Kommentering &auml;r avst&auml;ngd, men du kan l&auml;mna en <a href="<?php trackback_url(); ?> " rel="trackback">trackback</a> fr&aring;n din egen sida.
 
-						<?php } elseif (('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
+						<?php } elseif ( comments_open() && !pings_open() ) {
 							// Comments are open, Pings are not ?>
 							Du kan hoppa till slutet f&ouml;r att kommentera. Pingning &auml;r inte till&aring;ten.
 
-						<?php } elseif (!('open' == $post-> comment_status) && !('open' == $post->ping_status)) {
+						<?php } elseif ( !comments_open() && !pings_open() ) {
 							// Neither Comments, nor Pings are open ?>
 							B&aring;de pingning och kommentering &auml;r avst&auml;ngt.
 

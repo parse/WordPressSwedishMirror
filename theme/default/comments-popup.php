@@ -29,7 +29,7 @@ while ( have_posts() ) : the_post();
 
 <p><a href="<?php echo get_post_comments_feed_link($post->ID); ?>"><abbr title="Really Simple Syndication">RSS</abbr> fl&ouml;de f&ouml;r kommentarer p&aring; detta inl&auml;gg.</a></p>
 
-<?php if ('open' == $post->ping_status) { ?>
+<?php if ( pings_open() ) { ?>
 <p><abbr title="Universal Resource Locator">URL</abbr> f&ouml;r Trackback av detta inl&auml;gg &auml;r: <em><?php trackback_url() ?></em></p>
 <?php } ?>
 
@@ -57,7 +57,7 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 	<p>Inga kommentarer &auml;n.</p>
 <?php } ?>
 
-<?php if ('open' == $post->comment_status) { ?>
+<?php if ( comments_open() ) { ?>
 <h2>L&auml;mna en kommentar</h2>
 <p>Rader och paragrafer radbryts automatiskt, e-postadressen visas aldrig, <acronym title="Hypertext Markup Language">HTML</acronym> till&aring;ten: <code><?php echo allowed_tags(); ?></code></p>
 
@@ -89,7 +89,7 @@ if ( post_password_required($post) ) {  // and it doesn't match the cookie
 
 	<p>
       <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
-	  <input type="hidden" name="redirect_to" value="<?php echo attribute_escape($_SERVER["REQUEST_URI"]); ?>" />
+	  <input type="hidden" name="redirect_to" value="<?php echo attr($_SERVER["REQUEST_URI"]); ?>" />
 	  <input name="submit" type="submit" tabindex="5" value="Skicka!" />
 	</p>
 	<?php do_action('comment_form', $post->ID); ?>

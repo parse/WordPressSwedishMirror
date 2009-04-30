@@ -35,7 +35,7 @@
 	</div>
  <?php else : // this is displayed if there are no comments so far ?>
 
-	<?php if ('open' == $post->comment_status) : ?>
+	<?php if ( comments_open() ) : ?>
 		<!-- If comments are open, but there are no comments. -->
 
 	 <?php else : // comments are closed ?>
@@ -46,7 +46,7 @@
 <?php endif; ?>
 
 
-<?php if ('open' == $post->comment_status) : ?>
+<?php if ( comments_open() ) : ?>
 
 <div id="respond">
 
@@ -56,13 +56,13 @@
 	<small><?php cancel_comment_reply_link(); ?></small>
 </div>
 
-<?php if ( get_option('comment_registration') && !$user_ID ) : ?>
+<?php if ( get_option('comment_registration') && !is_user_logged_in() ) : ?>
 <p>Du m&aring;ste vara <a href="<?php echo wp_login_url( get_permalink() ); ?>">inloggad</a> f&ouml;r att posta kommentarer.</p>
 <?php else : ?>
 
 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform">
 
-<?php if ( $user_ID ) : ?>
+<?php if ( is_user_logged_in() ) : ?>
 
 <p>Inloggad som <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a>. <a href="<?php echo wp_logout_url(get_permalink()); ?>" title="Logga ut">Logga ut &raquo;</a></p>
 
