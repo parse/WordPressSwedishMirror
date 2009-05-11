@@ -27,23 +27,23 @@
 			<p>Du bl&auml;ddrar just nu i arkivet f&ouml;r kategori <?php single_cat_title(''); ?>.</p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_day()) { ?>
-			<p>Du bl&auml;ddrar just nu i <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>s bloggarkiv 
+			<p>Du bl&auml;ddrar just nu i arkivet p&aring; <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>  
 			f&ouml;r <?php the_time('l, j F, Y'); ?>.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_month()) { ?>
-			<p>Du bl&auml;ddrar just nu i <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>s bloggarkiv 
+			<p>Du bl&auml;ddrar just nu i arkivet p&aring; <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> 
 			f&ouml;r <?php the_time('F, Y'); ?>.</p>
 
 			<?php /* If this is a yearly archive */ } elseif (is_year()) { ?>
-			<p>Du bl&auml;ddrar just nu i <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>s bloggarkiv 
+			<p>Du bl&auml;ddrar just nu i arkivet p&aring; <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> 
 			f&ouml;r &aring;ret <?php the_time('Y'); ?>.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (is_search()) { ?>
-			<p>Du har s&ouml;kt i <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>s bloggarkiv
+			<p>Du har s&ouml;kt i arkivet p&aring; <a href="<?php echo bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a> 
 			efter <strong>'<?php the_search_query(); ?>'</strong>. Om du inte hittar det du s&ouml;ker i dessa resultat, f&ouml;rs&ouml;k med n&aring;gon av dessa l&auml;nkar.</p>
 
 			<?php /* If this is a monthly archive */ } elseif (isset($_GET['paged']) && !empty($_GET['paged'])) { ?>
-			<p>Du bl&auml;ddrar just nu i <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>s bloggarkiv.</p>
+			<p>Du bl&auml;ddrar just nu i arkivet p&aring; <a href="<?php bloginfo('url'); ?>/"><?php echo bloginfo('name'); ?></a>.</p>
 
 			<?php } ?>
 
