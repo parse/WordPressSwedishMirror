@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-05-30 12:55+0000\n"
-"PO-Revision-Date: 2009-05-30 17:28+0100\n"
+"POT-Creation-Date: 2009-05-31 12:55+0000\n"
+"PO-Revision-Date: 2009-05-31 22:13+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -304,6 +304,10 @@ msgstr "Opublicerat"
 #: wp-admin/upload.php:370
 msgid "Y/m/d"
 msgstr "Y/m/d"
+
+#: wp-admin/admin-ajax.php:1294
+msgid "An error has occured. Please reload the page and try again."
+msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
 #: wp-admin/admin-footer.php:19
 msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
@@ -1197,7 +1201,7 @@ msgstr "Det finns en autosparad version av detta inlägg som är nyare än versi
 #: wp-admin/edit-link-form.php:63
 #: wp-admin/edit-link-form.php:106
 #: wp-admin/edit-page-form.php:69
-#: wp-admin/includes/widgets.php:188
+#: wp-admin/includes/widgets.php:194
 #: wp-content/themes/default/functions.php:383
 #: wp-content/themes/default/functions.php:390
 #: wp-includes/js/tinymce/langs/wp-langs.php:76
@@ -4125,14 +4129,14 @@ msgstr "FTP användarnamn är obligatoriskt"
 msgid "FTP password is required"
 msgstr "FTP lösenord är obligatoriskt"
 
-#: wp-admin/includes/class-wp-filesystem-ftpext.php:74
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:72
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:67
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:71
 #, php-format
 msgid "Failed to connect to FTP Server %1$s:%2$s"
 msgstr "Anslutningen till FTP-servern misslyckades %1$s:%2$s"
 
-#: wp-admin/includes/class-wp-filesystem-ftpext.php:79
+#: wp-admin/includes/class-wp-filesystem-ftpext.php:77
 #: wp-admin/includes/class-wp-filesystem-ftpsockets.php:76
 #: wp-admin/includes/class-wp-filesystem-ssh2.php:126
 #, php-format
@@ -4977,23 +4981,23 @@ msgstr "Kunde inte skapa katalogen"
 msgid "Could not copy file"
 msgstr "Kunde inte kopiera filen"
 
-#: wp-admin/includes/file.php:715
+#: wp-admin/includes/file.php:719
 msgid "<strong>Error:</strong> There was an error connecting to the server, Please verify the settings are correct."
 msgstr "<strong>Fel:</strong> Det var problem med att ansluta till servern, verifiera att inställningarna är korrekta."
 
-#: wp-admin/includes/file.php:737
+#: wp-admin/includes/file.php:741
 msgid "Connection Information"
 msgstr "Uppgifter för anslutning"
 
-#: wp-admin/includes/file.php:738
+#: wp-admin/includes/file.php:742
 msgid "To perform the requested action, connection information is required."
 msgstr "För att genomföra en efterfrågad uppdatering så krävs uppgifter för anslutningen."
 
-#: wp-admin/includes/file.php:742
+#: wp-admin/includes/file.php:746
 msgid "Hostname"
 msgstr "Servernamn"
 
-#: wp-admin/includes/file.php:747
+#: wp-admin/includes/file.php:751
 #: wp-admin/includes/template.php:898
 #: wp-admin/install.php:129
 #: wp-admin/user-edit.php:187
@@ -5003,7 +5007,7 @@ msgstr "Servernamn"
 msgid "Username"
 msgstr "Användarnamn"
 
-#: wp-admin/includes/file.php:752
+#: wp-admin/includes/file.php:756
 #: wp-admin/includes/template.php:1079
 #: wp-admin/install.php:133
 #: wp-admin/options-writing.php:97
@@ -5012,44 +5016,40 @@ msgstr "Användarnamn"
 msgid "Password"
 msgstr "Lösenord"
 
-#: wp-admin/includes/file.php:753
-msgid "(Password not shown)"
-msgstr "(Lösenord, visas ej)"
-
-#: wp-admin/includes/file.php:757
+#: wp-admin/includes/file.php:762
 msgid "Authentication Keys"
 msgstr "Identifieringsnycklar"
 
-#: wp-admin/includes/file.php:759
+#: wp-admin/includes/file.php:764
 msgid "Public Key:"
 msgstr "Publik nyckel:"
 
-#: wp-admin/includes/file.php:760
+#: wp-admin/includes/file.php:765
 msgid "Private Key:"
 msgstr "Privat nyckel:"
 
-#: wp-admin/includes/file.php:763
+#: wp-admin/includes/file.php:768
 msgid "Enter the location on the server where the keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "Ange sökvägen på servern där nycklarna finns tillgängliga. Om en lösenordsfras krävs, ange den i lösenordsfältet ovan."
 
-#: wp-admin/includes/file.php:767
-#: wp-admin/includes/file.php:769
+#: wp-admin/includes/file.php:773
+#: wp-admin/includes/file.php:775
 msgid "Connection Type"
 msgstr "Anslutningstyp"
 
-#: wp-admin/includes/file.php:770
+#: wp-admin/includes/file.php:776
 msgid "FTP"
 msgstr "FTP"
 
-#: wp-admin/includes/file.php:771
+#: wp-admin/includes/file.php:778
 msgid "FTPS (SSL)"
 msgstr "FTPS (SSL)"
 
-#: wp-admin/includes/file.php:772
+#: wp-admin/includes/file.php:781
 msgid "SSH"
 msgstr "SSH"
 
-#: wp-admin/includes/file.php:785
+#: wp-admin/includes/file.php:795
 msgid "Proceed"
 msgstr "Fortsätt"
 
@@ -6315,6 +6315,7 @@ msgid "Find Posts or Pages"
 msgstr "Hitta inlägg eller sidor"
 
 #: wp-admin/includes/template.php:3175
+#: wp-admin/includes/widgets.php:189
 #: wp-includes/js/tinymce/langs/wp-langs.php:31
 #: wp-includes/js/tinymce/wp-mce-help.php:258
 msgid "Close"
@@ -7001,13 +7002,13 @@ msgstr ""
 "Notera: du använder fortfarande det automatiskt genererade lösenordet för ditt konto. Vill du ändra detta till något som är lättare att komma ihåg?<br />\n"
 "\t\t\t  <a href='%s'>Ja, skicka mig till min profil</a> | <a href='%s' id='default-password-nag-no'>Nej tack, påminn mig inte igen</a>"
 
-#: wp-admin/includes/widgets.php:175
+#: wp-admin/includes/widgets.php:176
 #: wp-admin/widgets.php:249
 #: wp-includes/widgets.php:67
 msgid "There are no options for this widget."
 msgstr "Det finns inga inställningar för denna widget."
 
-#: wp-admin/includes/widgets.php:186
+#: wp-admin/includes/widgets.php:188
 #: wp-admin/widgets.php:286
 msgid "Remove"
 msgstr "Ta bort"
@@ -13765,6 +13766,8 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta funkar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "(Password not shown)"
+#~ msgstr "(Lösenord, visas ej)"
 #~ msgid "View Site"
 #~ msgstr "Besök sida"
 #~ msgid ""
