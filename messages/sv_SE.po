@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-06-28 00:55+0000\n"
-"PO-Revision-Date: 2009-06-28 15:07+0100\n"
+"POT-Creation-Date: 2009-06-29 20:55+0000\n"
+"PO-Revision-Date: 2009-06-30 22:22+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -2281,6 +2281,17 @@ msgstr[1] "Privata <span class=\"count\">(%s)</span>"
 #: wp-includes/post-template.php:741
 msgid "Pages"
 msgstr "Sidor"
+
+#: wp-admin/edit-pages.php:109
+#: wp-admin/edit.php:99
+#: wp-admin/link-manager.php:74
+#: wp-admin/menu.php:94
+#: wp-admin/plugins.php:255
+#: wp-admin/themes.php:127
+#: wp-admin/upload.php:167
+#: wp-admin/users.php:242
+msgid "Add New"
+msgstr "Lägg till ny"
 
 #: wp-admin/edit-pages.php:117
 #, php-format
@@ -6331,7 +6342,7 @@ msgid "Close"
 msgstr "Stäng"
 
 #: wp-admin/includes/template.php:3180
-#: wp-admin/plugin-editor.php:173
+#: wp-admin/plugin-editor.php:175
 #: wp-admin/theme-editor.php:139
 msgid "Select"
 msgstr "Välj"
@@ -7289,10 +7300,6 @@ msgstr "Profil"
 msgid "Authors &amp; Users"
 msgstr "Författare &amp; användare"
 
-#: wp-admin/menu.php:94
-msgid "Add New"
-msgstr "Lägg till ny"
-
 #: wp-admin/menu.php:95
 #: wp-admin/menu.php:98
 msgid "Your Profile"
@@ -8072,72 +8079,72 @@ msgstr "Någon sådan fil existerar inte! Kontrollera namnet och försök på ny
 msgid "Files of this type are not editable."
 msgstr "Filer av denna typ är inte redigeringsbara."
 
-#: wp-admin/plugin-editor.php:115
+#: wp-admin/plugin-editor.php:116
 #: wp-admin/theme-editor.php:98
 msgid "Function Name..."
 msgstr "Funktionsnamn..."
 
-#: wp-admin/plugin-editor.php:127
+#: wp-admin/plugin-editor.php:129
 #: wp-admin/theme-editor.php:111
 msgid "File edited successfully."
 msgstr "Redigering av fil lyckad."
 
-#: wp-admin/plugin-editor.php:129
+#: wp-admin/plugin-editor.php:131
 msgid "This plugin has been deactivated because your changes resulted in a <strong>fatal error</strong>."
 msgstr "Tillägget har inaktiverats eftersom dina ändringar orsakade ett <strong>allvarligt fel</strong>."
 
-#: wp-admin/plugin-editor.php:145
+#: wp-admin/plugin-editor.php:147
 #, php-format
 msgid "Editing <strong>%s</strong> (active)"
 msgstr "Redigerar <strong>%s</strong> (aktiv)"
 
-#: wp-admin/plugin-editor.php:147
+#: wp-admin/plugin-editor.php:149
 #, php-format
 msgid "Browsing <strong>%s</strong> (active)"
 msgstr "Visar <strong>%s</strong> (aktiv)"
 
-#: wp-admin/plugin-editor.php:150
+#: wp-admin/plugin-editor.php:152
 #, php-format
 msgid "Editing <strong>%s</strong> (inactive)"
 msgstr "Redigerar <strong>%s</strong> (inte aktiv)"
 
-#: wp-admin/plugin-editor.php:152
+#: wp-admin/plugin-editor.php:154
 #, php-format
 msgid "Browsing <strong>%s</strong> (inactive)"
 msgstr "Visar <strong>%s</strong> (inte aktiv)"
 
-#: wp-admin/plugin-editor.php:158
+#: wp-admin/plugin-editor.php:160
 msgid "Select plugin to edit:"
 msgstr "Välj tillägg att redigera:"
 
-#: wp-admin/plugin-editor.php:180
+#: wp-admin/plugin-editor.php:182
 msgid "Plugin Files"
 msgstr "Filer för tillägg"
 
-#: wp-admin/plugin-editor.php:208
+#: wp-admin/plugin-editor.php:210
 #: wp-admin/theme-editor.php:207
 msgid "Documentation:"
 msgstr "Dokumentation:"
 
-#: wp-admin/plugin-editor.php:208
+#: wp-admin/plugin-editor.php:210
 #: wp-admin/theme-editor.php:209
 msgid "Lookup"
 msgstr "Uppslag"
 
-#: wp-admin/plugin-editor.php:212
+#: wp-admin/plugin-editor.php:214
 msgid "<strong>Warning:</strong> Making changes to active plugins is not recommended.  If your changes cause a fatal error, the plugin will be automatically deactivated."
 msgstr "<strong>Varning:</strong> Det är inte rekommenderat att göra ändringar i aktiva tillägg. Om dina ändringar orsakar ett allvarligt fel kommer tillägget att deaktiveras automatiskt."
 
-#: wp-admin/plugin-editor.php:217
+#: wp-admin/plugin-editor.php:219
 msgid "Update File and Attempt to Reactivate"
 msgstr "Uppdatera filen och försök återaktivera"
 
-#: wp-admin/plugin-editor.php:219
+#: wp-admin/plugin-editor.php:221
 #: wp-admin/theme-editor.php:217
 msgid "Update File"
 msgstr "Uppdatera fil"
 
-#: wp-admin/plugin-editor.php:223
+#: wp-admin/plugin-editor.php:225
 #: wp-admin/theme-editor.php:221
 msgid "You need to make this file writable before you can save your changes. See <a href=\"http://codex.wordpress.org/Changing_File_Permissions\">the Codex</a> for more information."
 msgstr "Du måste göra denna fil skrivbar innan du kan spara ändringar. Se <a href=\"http://wp-support.se/dokumentation/Installation:Att_%C3%A4ndra_skrivr%C3%A4ttigheter\">dokumentationen</a> för mer information."
@@ -8792,39 +8799,44 @@ msgstr "Visa denna uppdatering"
 msgid "This localized version contains both the translation and various other localization fixes. You can skip upgrading if you want to keep your current translation."
 msgstr "Denna språk-version innehåller både översättningar och diverse andra åtgärder för dessa. Du kan hoppa över uppgraderingen om du vill behålla nuvarande översättning."
 
-#: wp-admin/update-core.php:64
-#: wp-admin/update-core.php:76
+#: wp-admin/update-core.php:57
+#, php-format
+msgid "You are about to install WordPress %s <strong>in English.</strong> There is a chance this upgrade will break your translation. You may prefer to wait for the localized version to be released."
+msgstr "Du är på väg att installera WordPress %s <strong>på engelska</strong>. Detta kan medföra att ditt nuvarande svenska språkpaket inte kommer att funka som det ska. Du kanske hellre vill vänta tills den nya svenska versionen släpps. "
+
+#: wp-admin/update-core.php:67
+#: wp-admin/update-core.php:79
 msgid "Show hidden updates"
 msgstr "Visa gömda uppdateringar"
 
-#: wp-admin/update-core.php:65
+#: wp-admin/update-core.php:68
 msgid "Hide hidden updates"
 msgstr "Göm gömda uppdateringar"
 
-#: wp-admin/update-core.php:99
-#: wp-admin/update-core.php:162
-#: wp-admin/update-core.php:210
-#: wp-admin/update-core.php:217
+#: wp-admin/update-core.php:102
+#: wp-admin/update-core.php:165
+#: wp-admin/update-core.php:213
+#: wp-admin/update-core.php:220
 msgid "Upgrade WordPress"
 msgstr "Uppgradera WordPress"
 
-#: wp-admin/update-core.php:103
+#: wp-admin/update-core.php:106
 msgid "You have the latest version of WordPress. You do not need to upgrade"
 msgstr "Du har den senaste versionen av WordPress. Ingen uppgradering nödvändig"
 
-#: wp-admin/update-core.php:107
+#: wp-admin/update-core.php:110
 msgid "<strong>Important:</strong> before upgrading, please <a href=\"http://codex.wordpress.org/WordPress_Backups\">backup your database and files</a>."
 msgstr "<strong>Viktigt:</strong> Innan du uppgraderar, ta en <a href=\"http://wp-support.se/dokumentation/Installation:Att_ta_backup_av_din_databas\">backup av din databas och filer</a>."
 
-#: wp-admin/update-core.php:111
+#: wp-admin/update-core.php:114
 msgid "There is a new version of WordPress available for upgrade"
 msgstr "Det finns en ny version av WordPress tillgänglig för uppgradering"
 
-#: wp-admin/update-core.php:179
+#: wp-admin/update-core.php:182
 msgid "Installation Failed"
 msgstr "Installationen misslyckades"
 
-#: wp-admin/update-core.php:181
+#: wp-admin/update-core.php:184
 msgid "WordPress upgraded successfully"
 msgstr "Uppgradering av WordPress lyckades"
 
