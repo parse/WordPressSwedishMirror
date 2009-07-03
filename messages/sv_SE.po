@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-06-29 20:55+0000\n"
-"PO-Revision-Date: 2009-06-30 22:22+0100\n"
+"POT-Creation-Date: 2009-07-01 08:55+0000\n"
+"PO-Revision-Date: 2009-07-03 03:05+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "<strong>NOTERA: Du är utloggad!</strong> Kunde inte spara utkast. <a hr
 #: wp-admin/edit-comments.php:214
 #: wp-admin/edit-link-categories.php:100
 #: wp-admin/edit-pages.php:199
-#: wp-admin/edit-tags.php:190
+#: wp-admin/edit-tags.php:191
 #: wp-admin/edit.php:184
 #: wp-admin/includes/media.php:1777
 #: wp-admin/includes/plugin-install.php:287
@@ -51,7 +51,7 @@ msgstr "&laquo;"
 #: wp-admin/edit-comments.php:215
 #: wp-admin/edit-link-categories.php:101
 #: wp-admin/edit-pages.php:200
-#: wp-admin/edit-tags.php:191
+#: wp-admin/edit-tags.php:192
 #: wp-admin/edit.php:185
 #: wp-admin/includes/media.php:1778
 #: wp-admin/includes/plugin-install.php:288
@@ -62,7 +62,7 @@ msgstr "&laquo;"
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-admin/admin-ajax.php:252
+#: wp-admin/admin-ajax.php:250
 #: wp-admin/categories.php:47
 #: wp-admin/categories.php:67
 #: wp-admin/edit-link-categories.php:27
@@ -71,98 +71,94 @@ msgstr "&raquo;"
 msgid "Can&#8217;t delete the <strong>%s</strong> category: this is the default one"
 msgstr "Kan inte radera kategorin <strong>%s</strong>: den är förvald"
 
-#: wp-admin/admin-ajax.php:326
+#: wp-admin/admin-ajax.php:324
 #, php-format
 msgid "Comment %d does not exist"
 msgstr "Kommentar %d existerar inte."
 
-#: wp-admin/admin-ajax.php:445
-#: wp-admin/admin-ajax.php:498
+#: wp-admin/admin-ajax.php:443
+#: wp-admin/admin-ajax.php:496
 #: wp-admin/includes/taxonomy.php:119
 msgid "You did not enter a category name."
 msgstr "Du angav inget kategorinamn."
 
-#: wp-admin/admin-ajax.php:453
+#: wp-admin/admin-ajax.php:451
 msgid "The category you are trying to create already exists."
 msgstr "Kategorin du försöker skapa existrerar redan."
 
-#: wp-admin/admin-ajax.php:486
+#: wp-admin/admin-ajax.php:484
 #, php-format
 msgid "Category <a href=\"#%s\">%s</a> added"
 msgstr "Kategori <a href=\"#%s\">%s</a> sparad"
 
-#: wp-admin/admin-ajax.php:533
-msgid "You did not enter a tag name."
-msgstr "Du angav inget etikettnamn."
+#: wp-admin/admin-ajax.php:532
+#: wp-admin/admin-ajax.php:1268
+msgid "An error has occured. Please reload the page and try again."
+msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
-#: wp-admin/admin-ajax.php:564
-#, php-format
-msgid "Tag <a href=\"#%s\">%s</a> added"
-msgstr "Etikett <a href=\"#%s\">%s</a> sparad"
-
-#: wp-admin/admin-ajax.php:580
+#: wp-admin/admin-ajax.php:551
 msgid "No tags found!"
 msgstr "Inga etiketter funna!"
 
-#: wp-admin/admin-ajax.php:678
+#: wp-admin/admin-ajax.php:649
 msgid "Error: you are replying to a comment on a draft post."
 msgstr "Fel: du svarar på en kommentar i ett utkast."
 
-#: wp-admin/admin-ajax.php:693
+#: wp-admin/admin-ajax.php:664
 msgid "Sorry, you must be logged in to reply to a comment."
 msgstr "Beklagar, du måste vara inloggad för att kunna svara på en kommentar."
 
-#: wp-admin/admin-ajax.php:697
-#: wp-admin/admin-ajax.php:743
+#: wp-admin/admin-ajax.php:668
+#: wp-admin/admin-ajax.php:714
 #: wp-comments-post.php:71
 msgid "Error: please type a comment."
 msgstr "Fel: Var vänlig skriv en kommentar."
 
-#: wp-admin/admin-ajax.php:795
-#: wp-admin/admin-ajax.php:800
+#: wp-admin/admin-ajax.php:766
+#: wp-admin/admin-ajax.php:771
 msgid "Please provide a custom field value."
 msgstr "Var vänlig ange ett värde för det egna fältet."
 
-#: wp-admin/admin-ajax.php:863
+#: wp-admin/admin-ajax.php:834
 #, php-format
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Användaren <a href=\"#%s\">%s</a> skapad"
 
 #. translators: draft saved date format, see http://php.net/date
-#: wp-admin/admin-ajax.php:884
+#: wp-admin/admin-ajax.php:855
 msgid "g:i:s a"
 msgstr "G:i"
 
-#: wp-admin/admin-ajax.php:885
+#: wp-admin/admin-ajax.php:856
 #, php-format
 msgid "Draft Saved at %s."
 msgstr "Utkast sparat kl %s."
 
-#: wp-admin/admin-ajax.php:906
-#: wp-admin/admin-ajax.php:1067
+#: wp-admin/admin-ajax.php:877
+#: wp-admin/admin-ajax.php:1038
 msgid "Someone"
 msgstr "Någon"
 
-#: wp-admin/admin-ajax.php:908
+#: wp-admin/admin-ajax.php:879
 #, php-format
 msgid "Autosave disabled: %s is currently editing this page."
 msgstr "Autospara inaktiverat: %s redigerar just nu denna sida."
 
-#: wp-admin/admin-ajax.php:908
+#: wp-admin/admin-ajax.php:879
 #, php-format
 msgid "Autosave disabled: %s is currently editing this post."
 msgstr "Autospar inaktiverat: %s redigerar just nu detta inlägg."
 
-#: wp-admin/admin-ajax.php:917
-#: wp-admin/admin-ajax.php:1059
+#: wp-admin/admin-ajax.php:888
+#: wp-admin/admin-ajax.php:1030
 #: wp-admin/includes/post.php:143
 #: wp-admin/includes/post.php:1125
 #: wp-admin/page.php:113
 msgid "You are not allowed to edit this page."
 msgstr "Du saknar rättigheter för att redigera den här sidan."
 
-#: wp-admin/admin-ajax.php:920
-#: wp-admin/admin-ajax.php:1062
+#: wp-admin/admin-ajax.php:891
+#: wp-admin/admin-ajax.php:1033
 #: wp-admin/includes/post.php:146
 #: wp-admin/includes/post.php:1128
 #: wp-admin/post.php:150
@@ -170,17 +166,17 @@ msgstr "Du saknar rättigheter för att redigera den här sidan."
 msgid "You are not allowed to edit this post."
 msgstr "Du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-admin/admin-ajax.php:1068
+#: wp-admin/admin-ajax.php:1039
 #, php-format
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Sparande inaktiverat: %s redigerar just nu denna sida."
 
-#: wp-admin/admin-ajax.php:1068
+#: wp-admin/admin-ajax.php:1039
 #, php-format
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Sparande inaktiverat: %s redigerar just nu detta inlägg."
 
-#: wp-admin/admin-ajax.php:1116
+#: wp-admin/admin-ajax.php:1087
 #: wp-admin/categories.php:26
 #: wp-admin/categories.php:41
 #: wp-admin/categories.php:92
@@ -207,24 +203,24 @@ msgstr "Sparande inaktiverat: %s redigerar just nu detta inlägg."
 msgid "Cheatin&#8217; uh?"
 msgstr "Fuskar du?"
 
-#: wp-admin/admin-ajax.php:1138
-#: wp-admin/admin-ajax.php:1147
+#: wp-admin/admin-ajax.php:1109
+#: wp-admin/admin-ajax.php:1118
 #: wp-admin/categories.php:127
 #: wp-admin/edit-link-categories.php:59
 msgid "Category not updated."
 msgstr "Kategorin uppdaterades inte."
 
-#: wp-admin/admin-ajax.php:1163
-#: wp-admin/admin-ajax.php:1167
+#: wp-admin/admin-ajax.php:1131
+#: wp-admin/admin-ajax.php:1135
 #: wp-admin/edit-tags.php:144
 msgid "Tag not updated."
 msgstr "Etiketten uppdaterades inte."
 
-#: wp-admin/admin-ajax.php:1199
+#: wp-admin/admin-ajax.php:1167
 msgid "No posts found."
 msgstr "Hittade inga inlägg."
 
-#: wp-admin/admin-ajax.php:1201
+#: wp-admin/admin-ajax.php:1169
 #: wp-admin/edit-form-advanced.php:594
 #: wp-admin/edit-page-form.php:438
 #: wp-admin/includes/dashboard.php:388
@@ -240,17 +236,17 @@ msgstr "Hittade inga inlägg."
 msgid "Title"
 msgstr "Titel"
 
-#: wp-admin/admin-ajax.php:1201
+#: wp-admin/admin-ajax.php:1169
 msgid "Time"
 msgstr "Tid"
 
-#: wp-admin/admin-ajax.php:1201
+#: wp-admin/admin-ajax.php:1169
 #: wp-admin/edit-form-comment.php:36
 #: wp-admin/includes/template.php:1203
 msgid "Status"
 msgstr "Status"
 
-#: wp-admin/admin-ajax.php:1207
+#: wp-admin/admin-ajax.php:1175
 #: wp-admin/edit-form-advanced.php:114
 #: wp-admin/edit-form-advanced.php:135
 #: wp-admin/edit-page-form.php:108
@@ -260,12 +256,12 @@ msgstr "Status"
 #: wp-admin/includes/template.php:1644
 #: wp-includes/post.php:359
 #: wp-includes/post.php:379
-#: wp-includes/script-loader.php:291
-#: wp-includes/script-loader.php:314
+#: wp-includes/script-loader.php:296
+#: wp-includes/script-loader.php:319
 msgid "Published"
 msgstr "Publicerat"
 
-#: wp-admin/admin-ajax.php:1210
+#: wp-admin/admin-ajax.php:1178
 #: wp-admin/edit-form-advanced.php:117
 #: wp-admin/edit-form-advanced.php:139
 #: wp-admin/edit-page-form.php:111
@@ -276,7 +272,7 @@ msgstr "Publicerat"
 msgid "Scheduled"
 msgstr "Tidsinställt"
 
-#: wp-admin/admin-ajax.php:1213
+#: wp-admin/admin-ajax.php:1181
 #: wp-admin/edit-form-advanced.php:120
 #: wp-admin/edit-form-advanced.php:141
 #: wp-admin/edit-page-form.php:114
@@ -286,7 +282,7 @@ msgstr "Tidsinställt"
 msgid "Pending Review"
 msgstr "Väntar på granskning"
 
-#: wp-admin/admin-ajax.php:1216
+#: wp-admin/admin-ajax.php:1184
 #: wp-admin/edit-attachment-rows.php:130
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1626
@@ -295,7 +291,7 @@ msgid "Unpublished"
 msgstr "Opublicerat"
 
 #. translators: date format in table columns, see http://php.net/date
-#: wp-admin/admin-ajax.php:1224
+#: wp-admin/admin-ajax.php:1192
 #: wp-admin/edit-attachment-rows.php:141
 #: wp-admin/edit-attachment-rows.php:155
 #: wp-admin/includes/template.php:1416
@@ -304,10 +300,6 @@ msgstr "Opublicerat"
 #: wp-admin/upload.php:370
 msgid "Y/m/d"
 msgstr "Y/m/d"
-
-#: wp-admin/admin-ajax.php:1300
-msgid "An error has occured. Please reload the page and try again."
-msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
 #: wp-admin/admin-footer.php:19
 msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
@@ -458,8 +450,8 @@ msgstr "Sök kategorier"
 #: wp-admin/edit-link-categories.php:166
 #: wp-admin/edit-pages.php:216
 #: wp-admin/edit-pages.php:255
-#: wp-admin/edit-tags.php:202
-#: wp-admin/edit-tags.php:245
+#: wp-admin/edit-tags.php:203
+#: wp-admin/edit-tags.php:246
 #: wp-admin/edit.php:194
 #: wp-admin/edit.php:274
 #: wp-admin/link-manager.php:103
@@ -485,8 +477,8 @@ msgstr "Välj åtgärd..."
 #: wp-admin/edit-page-form.php:219
 #: wp-admin/edit-pages.php:218
 #: wp-admin/edit-pages.php:257
-#: wp-admin/edit-tags.php:203
-#: wp-admin/edit-tags.php:246
+#: wp-admin/edit-tags.php:204
+#: wp-admin/edit-tags.php:247
 #: wp-admin/edit.php:196
 #: wp-admin/edit.php:276
 #: wp-admin/includes/dashboard.php:545
@@ -522,8 +514,8 @@ msgstr "Radera"
 #: wp-admin/edit-link-categories.php:169
 #: wp-admin/edit-pages.php:220
 #: wp-admin/edit-pages.php:259
-#: wp-admin/edit-tags.php:205
-#: wp-admin/edit-tags.php:248
+#: wp-admin/edit-tags.php:206
+#: wp-admin/edit-tags.php:249
 #: wp-admin/edit.php:198
 #: wp-admin/edit.php:278
 #: wp-admin/includes/template.php:3673
@@ -905,9 +897,9 @@ msgstr "Redigera &#8221;%s&#8221;"
 #: wp-admin/menu.php:60
 #: wp-admin/plugins.php:400
 #: wp-admin/upload.php:342
-#: wp-includes/script-loader.php:275
-#: wp-includes/script-loader.php:299
-#: wp-includes/script-loader.php:325
+#: wp-includes/script-loader.php:280
+#: wp-includes/script-loader.php:304
+#: wp-includes/script-loader.php:330
 msgid "Edit"
 msgstr "Redigera"
 
@@ -1205,7 +1197,7 @@ msgstr "Det finns en autosparad version av detta inlägg som är nyare än versi
 #: wp-content/themes/default/functions.php:383
 #: wp-content/themes/default/functions.php:390
 #: wp-includes/js/tinymce/langs/wp-langs.php:76
-#: wp-includes/script-loader.php:262
+#: wp-includes/script-loader.php:267
 msgid "Save"
 msgstr "Spara"
 
@@ -1213,15 +1205,15 @@ msgstr "Spara"
 #: wp-admin/edit-page-form.php:75
 #: wp-admin/includes/dashboard.php:415
 #: wp-admin/press-this.php:460
-#: wp-includes/script-loader.php:285
-#: wp-includes/script-loader.php:309
+#: wp-includes/script-loader.php:290
+#: wp-includes/script-loader.php:314
 msgid "Save Draft"
 msgstr "Spara utkast"
 
 #: wp-admin/edit-form-advanced.php:83
 #: wp-admin/edit-page-form.php:77
-#: wp-includes/script-loader.php:284
-#: wp-includes/script-loader.php:308
+#: wp-includes/script-loader.php:289
+#: wp-includes/script-loader.php:313
 msgid "Save as Pending"
 msgstr "Spara som väntande"
 
@@ -1252,8 +1244,8 @@ msgstr "Status:"
 #: wp-admin/edit-form-advanced.php:137
 #: wp-admin/edit-page-form.php:105
 #: wp-admin/edit-page-form.php:131
-#: wp-includes/script-loader.php:290
-#: wp-includes/script-loader.php:313
+#: wp-includes/script-loader.php:295
+#: wp-includes/script-loader.php:318
 msgid "Privately Published"
 msgstr "Publicerat privat"
 
@@ -1295,10 +1287,10 @@ msgstr "OK"
 #: wp-admin/press-this.php:298
 #: wp-admin/widgets.php:284
 #: wp-includes/js/tinymce/langs/wp-langs.php:30
-#: wp-includes/script-loader.php:263
-#: wp-includes/script-loader.php:274
-#: wp-includes/script-loader.php:298
-#: wp-includes/script-loader.php:324
+#: wp-includes/script-loader.php:268
+#: wp-includes/script-loader.php:279
+#: wp-includes/script-loader.php:303
+#: wp-includes/script-loader.php:329
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -1315,8 +1307,8 @@ msgstr "Synlighet"
 #: wp-admin/includes/template.php:3388
 #: wp-includes/post.php:358
 #: wp-includes/post.php:378
-#: wp-includes/script-loader.php:286
-#: wp-includes/script-loader.php:310
+#: wp-includes/script-loader.php:291
+#: wp-includes/script-loader.php:315
 msgid "Private"
 msgstr "Privat"
 
@@ -1329,7 +1321,7 @@ msgid "Password protected"
 msgstr "Lösenordsskyddat"
 
 #: wp-admin/edit-form-advanced.php:163
-#: wp-includes/script-loader.php:288
+#: wp-includes/script-loader.php:293
 msgid "Public, Sticky"
 msgstr "Publik, Klistrad"
 
@@ -1337,8 +1329,8 @@ msgstr "Publik, Klistrad"
 #: wp-admin/edit-form-advanced.php:177
 #: wp-admin/edit-page-form.php:158
 #: wp-admin/edit-page-form.php:169
-#: wp-includes/script-loader.php:287
-#: wp-includes/script-loader.php:311
+#: wp-includes/script-loader.php:292
+#: wp-includes/script-loader.php:316
 msgid "Public"
 msgstr "Publikt"
 
@@ -1413,8 +1405,8 @@ msgstr ""
 #: wp-admin/edit-form-advanced.php:242
 #: wp-admin/edit-page-form.php:229
 #: wp-admin/edit-page-form.php:230
-#: wp-includes/script-loader.php:282
-#: wp-includes/script-loader.php:306
+#: wp-includes/script-loader.php:287
+#: wp-includes/script-loader.php:311
 msgid "Schedule"
 msgstr "Tidsinställ"
 
@@ -1428,8 +1420,8 @@ msgstr "Tidsinställ"
 #: wp-admin/press-this.php:457
 #: wp-admin/press-this.php:462
 #: wp-admin/sidebar.php:121
-#: wp-includes/script-loader.php:281
-#: wp-includes/script-loader.php:305
+#: wp-includes/script-loader.php:286
+#: wp-includes/script-loader.php:310
 msgid "Publish"
 msgstr "Publicera"
 
@@ -1445,7 +1437,7 @@ msgstr "Skicka till granskning"
 #: wp-admin/edit-form-advanced.php:253
 #: wp-admin/edit-form-advanced.php:254
 #: wp-admin/includes/template.php:1259
-#: wp-includes/script-loader.php:283
+#: wp-includes/script-loader.php:288
 msgid "Update Post"
 msgstr "Uppdatera inlägg"
 
@@ -1459,7 +1451,7 @@ msgstr "Lägg till eller ta bort etiketter"
 
 #: wp-admin/edit-form-advanced.php:286
 #: wp-admin/press-this.php:502
-#: wp-includes/script-loader.php:272
+#: wp-includes/script-loader.php:277
 msgid "Add new tag"
 msgstr "Lägg till ny etikett"
 
@@ -1470,7 +1462,7 @@ msgstr "Lägg till ny etikett"
 #: wp-admin/press-this.php:486
 #: wp-admin/press-this.php:503
 #: wp-includes/script-loader.php:214
-#: wp-includes/script-loader.php:271
+#: wp-includes/script-loader.php:276
 msgid "Add"
 msgstr "Lägg till"
 
@@ -2058,7 +2050,7 @@ msgstr ""
 #: wp-admin/edit-page-form.php:241
 #: wp-admin/edit-page-form.php:242
 #: wp-admin/includes/template.php:1259
-#: wp-includes/script-loader.php:307
+#: wp-includes/script-loader.php:312
 msgid "Update Page"
 msgstr "Uppdatera sida"
 
@@ -2424,16 +2416,16 @@ msgstr "Etiketten lades inte till."
 msgid "Tags deleted."
 msgstr "Etiketter raderade."
 
-#: wp-admin/edit-tags.php:162
-#: wp-admin/edit-tags.php:164
+#: wp-admin/edit-tags.php:163
+#: wp-admin/edit-tags.php:165
 msgid "Search Tags"
 msgstr "Sök etiketter"
 
-#: wp-admin/edit-tags.php:263
+#: wp-admin/edit-tags.php:264
 msgid "Popular Tags"
 msgstr "Populära etiketter"
 
-#: wp-admin/edit-tags.php:276
+#: wp-admin/edit-tags.php:277
 msgid "Add a New Tag"
 msgstr "Skapa en ny etikett"
 
@@ -3281,7 +3273,7 @@ msgstr "Det ser ut som du försökt importera dina LiveJournal inlägg tidigare 
 
 #: wp-admin/import/livejournal.php:187
 msgid "Continue previous import"
-msgstr "Fortsätt på föregående importering"
+msgstr "Fortsätt på tidigare importering"
 
 #: wp-admin/import/livejournal.php:189
 msgid "Cancel &amp; start a new import"
@@ -4948,7 +4940,7 @@ msgstr "Kan inte skriva till skivan."
 #: wp-admin/includes/file.php:243
 #: wp-admin/includes/file.php:351
 msgid "File upload stopped by extension."
-msgstr "Filuppladdningen stoppades av anslutning."
+msgstr "Filuppladdningen stoppades av PHP-tillägget."
 
 #: wp-admin/includes/file.php:259
 #: wp-admin/includes/file.php:367
@@ -6410,7 +6402,7 @@ msgid "Drafts"
 msgstr "Utkast"
 
 #: wp-admin/includes/template.php:3305
-#: wp-includes/script-loader.php:360
+#: wp-includes/script-loader.php:365
 msgid "(no title)"
 msgstr "(ingen titel)"
 
@@ -8490,7 +8482,7 @@ msgid "Tags:"
 msgstr "Etiketter"
 
 #: wp-admin/sidebar.php:115
-#: wp-includes/script-loader.php:273
+#: wp-includes/script-loader.php:278
 msgid "Separate tags with commas"
 msgstr "Skilj etiketter med kommatecken"
 
@@ -9188,7 +9180,7 @@ msgstr "Skriv ditt nya lösenord igen."
 
 #: wp-admin/user-edit.php:303
 #: wp-admin/user-new.php:124
-#: wp-includes/script-loader.php:231
+#: wp-includes/script-loader.php:236
 msgid "Strength indicator"
 msgstr "Indikator för styrka"
 
@@ -11429,7 +11421,7 @@ msgid "Cell"
 msgstr "Cell"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:146
-#: wp-includes/script-loader.php:499
+#: wp-includes/script-loader.php:504
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Ändringarna du gjort kommer att förloras om du går i från sidan utan att spara."
 
@@ -13025,10 +13017,12 @@ msgid "Enter a description of the image"
 msgstr "Ange en beskrivning av bilden"
 
 #: wp-includes/script-loader.php:96
+#: wp-includes/script-loader.php:225
 msgid "You do not have permission to do that."
 msgstr "Du saknar rättigheter att göra det."
 
 #: wp-includes/script-loader.php:97
+#: wp-includes/script-loader.php:226
 msgid "An unidentified error has occurred."
 msgstr "Ett oidentifierat fel har uppstått."
 
@@ -13101,97 +13095,97 @@ msgstr "Raderade"
 msgid "Separate multiple categories with commas."
 msgstr "Skilj flera kategorier från varandra med kommatecken."
 
-#: wp-includes/script-loader.php:232
+#: wp-includes/script-loader.php:237
 msgid "Very weak"
 msgstr "Väldigt svagt"
 
-#: wp-includes/script-loader.php:233
+#: wp-includes/script-loader.php:238
 msgid "Weak"
 msgstr "Svagt"
 
 #. translators: password strength
-#: wp-includes/script-loader.php:235
+#: wp-includes/script-loader.php:240
 msgctxt "password strength"
 msgid "Medium"
 msgstr "Medium"
 
-#: wp-includes/script-loader.php:236
+#: wp-includes/script-loader.php:241
 msgid "Strong"
 msgstr "Starkt"
 
-#: wp-includes/script-loader.php:270
+#: wp-includes/script-loader.php:275
 msgid "Tags used on this post:"
 msgstr "Etiketter använda för detta inlägg:"
 
-#: wp-includes/script-loader.php:276
-#: wp-includes/script-loader.php:300
+#: wp-includes/script-loader.php:281
+#: wp-includes/script-loader.php:305
 msgid "Publish on:"
 msgstr "Publicera den:"
 
-#: wp-includes/script-loader.php:277
-#: wp-includes/script-loader.php:301
+#: wp-includes/script-loader.php:282
+#: wp-includes/script-loader.php:306
 msgid "Schedule for:"
 msgstr "Tidsinställ för:"
 
-#: wp-includes/script-loader.php:278
-#: wp-includes/script-loader.php:302
+#: wp-includes/script-loader.php:283
+#: wp-includes/script-loader.php:307
 msgid "Published on:"
 msgstr "Publicerat den:"
 
-#: wp-includes/script-loader.php:279
-#: wp-includes/script-loader.php:303
+#: wp-includes/script-loader.php:284
+#: wp-includes/script-loader.php:308
 msgid "Show more comments"
 msgstr "Visa fler kommentarer"
 
-#: wp-includes/script-loader.php:280
-#: wp-includes/script-loader.php:304
+#: wp-includes/script-loader.php:285
+#: wp-includes/script-loader.php:309
 msgid "No more comments found."
 msgstr "Inga fler kommentarer hittade."
 
-#: wp-includes/script-loader.php:289
-#: wp-includes/script-loader.php:312
+#: wp-includes/script-loader.php:294
+#: wp-includes/script-loader.php:317
 msgid "Password Protected"
 msgstr "Lösenordsskyddat"
 
-#: wp-includes/script-loader.php:326
+#: wp-includes/script-loader.php:331
 msgid "Submitted on:"
 msgstr "Skickat den:"
 
-#: wp-includes/script-loader.php:341
+#: wp-includes/script-loader.php:346
 #, php-format
 msgid "Word count: %d"
 msgstr "Antal ord: %d"
 
-#: wp-includes/script-loader.php:347
+#: wp-includes/script-loader.php:352
 msgid "Update completed."
 msgstr "Uppdatering klar."
 
-#: wp-includes/script-loader.php:348
+#: wp-includes/script-loader.php:353
 msgid "Error:"
 msgstr "Fel:"
 
-#: wp-includes/script-loader.php:358
-#: wp-includes/script-loader.php:367
+#: wp-includes/script-loader.php:363
+#: wp-includes/script-loader.php:372
 msgid "Error while saving the changes."
 msgstr "Fel vid sparande av ändringar."
 
-#: wp-includes/script-loader.php:359
+#: wp-includes/script-loader.php:364
 msgid "Remove From Bulk Edit"
 msgstr "Ta bort från massredigering"
 
-#: wp-includes/script-loader.php:374
+#: wp-includes/script-loader.php:379
 msgid "Plugin Information:"
 msgstr "Tilläggsinformation:"
 
-#: wp-includes/script-loader.php:495
+#: wp-includes/script-loader.php:500
 msgid "Preview this Page"
 msgstr "Förhandsgranska sida"
 
-#: wp-includes/script-loader.php:496
+#: wp-includes/script-loader.php:501
 msgid "Preview this Post"
 msgstr "Förhandsgranska inlägg"
 
-#: wp-includes/script-loader.php:498
+#: wp-includes/script-loader.php:503
 msgid "Saving Draft&#8230;"
 msgstr "Sparar utkast&#8230;"
 
@@ -13837,6 +13831,10 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta funkar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "You did not enter a tag name."
+#~ msgstr "Du angav inget etikettnamn."
+#~ msgid "Tag <a href=\"#%s\">%s</a> added"
+#~ msgstr "Etikett <a href=\"#%s\">%s</a> sparad"
 #~ msgid ""
 #~ "Enable keyboard shortcuts for comment moderation. <a href=\"http://codex."
 #~ "wordpress.org/Keyboard_Shortcuts\">More information</a>"
