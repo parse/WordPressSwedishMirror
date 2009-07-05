@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-07-01 08:55+0000\n"
-"PO-Revision-Date: 2009-07-03 04:12+0100\n"
+"POT-Creation-Date: 2009-07-03 20:55+0000\n"
+"PO-Revision-Date: 2009-07-05 07:54+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -1040,7 +1040,7 @@ msgstr[0] "%s kommentar markerad som skräp "
 msgstr[1] "%s kommentarer markerade som skräp"
 
 #: wp-admin/edit-comments.php:141
-#: wp-content/plugins/akismet/akismet.php:573
+#: wp-content/plugins/akismet/akismet.php:726
 msgid "All"
 msgid_plural "All"
 msgstr[0] "Alla"
@@ -1114,7 +1114,7 @@ msgstr "Visa alla kommentarstyper"
 #: wp-admin/includes/template.php:1166
 #: wp-admin/includes/template.php:3140
 #: wp-admin/includes/template.php:3256
-#: wp-content/plugins/akismet/akismet.php:578
+#: wp-content/plugins/akismet/akismet.php:731
 #: wp-content/themes/classic/comments-popup.php:29
 msgid "Comments"
 msgstr "Kommentarer"
@@ -1141,7 +1141,7 @@ msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Inga kommentarer väntar på granskning&hellip; än."
 
 #: wp-admin/edit-comments.php:375
-#: wp-content/plugins/akismet/akismet.php:704
+#: wp-content/plugins/akismet/akismet.php:857
 msgid "No results found."
 msgstr "Hittade inga resultat."
 
@@ -4577,7 +4577,7 @@ msgstr[0] "Etikett"
 msgstr[1] "Etiketter"
 
 #: wp-admin/includes/dashboard.php:306
-#: wp-content/plugins/akismet/akismet.php:729
+#: wp-content/plugins/akismet/akismet.php:882
 msgid "Spam"
 msgid_plural "Spam"
 msgstr[0] "Skräppost"
@@ -5316,6 +5316,7 @@ msgid "Descending"
 msgstr "Fallande"
 
 #: wp-admin/includes/media.php:1592
+#: wp-content/plugins/akismet/akismet.php:195
 msgid "Clear"
 msgstr "Rensa"
 
@@ -5501,7 +5502,7 @@ msgstr "Tillägg utvidgar och utvecklar WordPress funktioner. Du kan automatiskt
 #: wp-admin/includes/theme-install.php:162
 #: wp-admin/plugin-install.php:24
 #: wp-admin/theme-install.php:29
-#: wp-content/plugins/akismet/akismet.php:540
+#: wp-content/plugins/akismet/akismet.php:693
 #: wp-content/themes/classic/sidebar.php:21
 #: wp-includes/default-widgets.php:176
 #: wp-includes/general-template.php:127
@@ -5909,7 +5910,7 @@ msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Videos <span class=\"count\">(%s)</span>"
 
 #: wp-admin/includes/post.php:976
-#: wp-content/plugins/akismet/akismet.php:658
+#: wp-content/plugins/akismet/akismet.php:811
 msgid "View Post"
 msgstr "Visa inlägg"
 
@@ -7599,7 +7600,7 @@ msgid "Timezone"
 msgstr "Tidszon"
 
 #: wp-admin/options-general.php:123
-#: wp-includes/functions.php:3303
+#: wp-includes/functions.php:3316
 #, php-format
 msgid "UTC %s"
 msgstr "UTC %s"
@@ -8457,7 +8458,7 @@ msgid "Post published."
 msgstr "Inlägg publicerat."
 
 #: wp-admin/sidebar.php:103
-#: wp-content/plugins/akismet/akismet.php:910
+#: wp-content/plugins/akismet/akismet.php:1063
 #: wp-includes/default-widgets.php:67
 #: wp-includes/default-widgets.php:197
 #: wp-includes/default-widgets.php:263
@@ -9358,7 +9359,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Tillbaka till alla användare"
 
 #: wp-admin/widgets.php:23
-#: wp-includes/functions.php:2740
+#: wp-includes/functions.php:2753
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -9499,230 +9500,296 @@ msgid "Error: please enter a valid email address."
 msgstr "Fel: vänligen ange en e-postadress"
 
 #: wp-content/plugins/akismet/akismet.php:51
-#: wp-content/plugins/akismet/akismet.php:125
+#: wp-content/plugins/akismet/akismet.php:127
 msgid "Akismet Configuration"
 msgstr "Konfigurera Akismet"
 
-#: wp-content/plugins/akismet/akismet.php:112
+#: wp-content/plugins/akismet/akismet.php:114
 msgid "Your key has been cleared."
 msgstr "Din nyckel har nollställts."
 
-#: wp-content/plugins/akismet/akismet.php:113
+#: wp-content/plugins/akismet/akismet.php:115
 msgid "Your key has been verified. Happy blogging!"
 msgstr "Din nyckel är bekräftad. Blogga på!"
 
-#: wp-content/plugins/akismet/akismet.php:114
+#: wp-content/plugins/akismet/akismet.php:116
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "Din nyckel verkar inte vara korrekt. Kolla den en gång till."
 
-#: wp-content/plugins/akismet/akismet.php:115
+#: wp-content/plugins/akismet/akismet.php:117
 msgid "The key you entered could not be verified because a connection to akismet.com could not be established. Please check your server configuration."
 msgstr "Nyckeln som du gav kunde inte verifieras eftersom det inte gick att kontakta akismet.com. Vänligen kontrollera din serverkonfiguration."
 
-#: wp-content/plugins/akismet/akismet.php:116
+#: wp-content/plugins/akismet/akismet.php:118
 msgid "There was a problem connecting to the Akismet server. Please check your server configuration."
 msgstr "Kunde inte kontakta Akismet-servern. Vänligen kontrollera din serverkonfiguration."
 
-#: wp-content/plugins/akismet/akismet.php:117
+#: wp-content/plugins/akismet/akismet.php:119
 #, php-format
 msgid "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</a>)"
 msgstr "Ange en API-nyckel. (<a href=\"%s\" style=\"color:#fff\">Skaffa dig en nyckel.</a>)"
 
-#: wp-content/plugins/akismet/akismet.php:118
+#: wp-content/plugins/akismet/akismet.php:120
 msgid "This key is valid."
 msgstr "Den här nyckeln är giltig."
 
-#: wp-content/plugins/akismet/akismet.php:119
+#: wp-content/plugins/akismet/akismet.php:121
 msgid "The key below was previously validated but a connection to akismet.com can not be established at this time. Please check your server configuration."
 msgstr "Nyckeln har tidigare godkänts men nu kunde akismet.com inte kontaktas. Vänligen kontrollera din serverkonfiguration."
 
-#: wp-content/plugins/akismet/akismet.php:122
+#: wp-content/plugins/akismet/akismet.php:124
 #: wp-content/themes/default/functions.php:366
 msgid "Options saved."
 msgstr "Inställningarna sparade."
 
-#: wp-content/plugins/akismet/akismet.php:129
+#: wp-content/plugins/akismet/akismet.php:131
 #, php-format
 msgid "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even completely eliminate the comment and trackback spam you get on your site. If one does happen to get through, simply mark it as \"spam\" on the moderation screen and Akismet will learn from the mistakes. If you don't have a WordPress.com account yet, you can get one at <a href=\"%2$s\">WordPress.com</a>."
 msgstr "För många kommer <a href=\"%1$s\">Akismet</a> att minska eller totalt eliminera skräpkommentarer och skräptrackbacks på webbplatsen. Om någonting slinker genom kan du enkelt märka det som \"skräp\" på granskningssidan och Akismet kommer att lära sig av sina misstag. Om du inte har ett WordPress.com-konto redan kan du skaffa dig ett på <a href=\"%2$s\">WordPress.com</a>."
 
-#: wp-content/plugins/akismet/akismet.php:132
+#: wp-content/plugins/akismet/akismet.php:134
 msgid "WordPress.com API Key"
 msgstr "WordPress.com API-nyckel"
 
-#: wp-content/plugins/akismet/akismet.php:136
+#: wp-content/plugins/akismet/akismet.php:138
 msgid "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">What is this?</a>"
 msgstr "<a href=\"http://faq.wordpress.com/2005/10/19/api-key/\">Vad är det här?</a>"
 
-#: wp-content/plugins/akismet/akismet.php:138
+#: wp-content/plugins/akismet/akismet.php:140
 msgid "Why might my key be invalid?"
 msgstr "Hur kan det komma sig att min nyckel är ogiltig?"
 
-#: wp-content/plugins/akismet/akismet.php:139
+#: wp-content/plugins/akismet/akismet.php:141
 msgid "This can mean one of two things, either you copied the key wrong or that the plugin is unable to reach the Akismet servers, which is most often caused by an issue with your web host around firewalls or similar."
 msgstr "Det kan betyda två olika saker, antingen har du gjort ett fel när du kopierade nyckeln eller så kan tillägget inte kontaka Akismets servrar, vilket oftast beror på att ditt webbhotell har problem med brandväggar eller liknande."
 
-#: wp-content/plugins/akismet/akismet.php:142
+#: wp-content/plugins/akismet/akismet.php:144
 msgid "Automatically discard spam comments on posts older than a month."
 msgstr "Radera skräpkommentar äldre än en månad automatiskt."
 
-#: wp-content/plugins/akismet/akismet.php:143
+#: wp-content/plugins/akismet/akismet.php:145
 msgid "Update options &raquo;"
 msgstr "Uppdatera inställningar &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:152
+#: wp-content/plugins/akismet/akismet.php:150
+msgid "Server Connectivity"
+msgstr "Servertillgänglighet"
+
+#: wp-content/plugins/akismet/akismet.php:157
+msgid "Unable to reach some Akismet servers."
+msgstr "Det går inte att nå vissa Akismet-servrar."
+
+#: wp-content/plugins/akismet/akismet.php:158
+#, php-format
+msgid "A network problem or firewall is blocking some connections from your web server to Akismet.com.  Akismet is working but this may cause problems during times of network congestion.  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr "Ett nätverksproblem eller en brandvägg blockerar vissa anslutningar från din server mot Akismet.com. Akismet fungerar, men detta kan orsaka problem vid belastningar av nätet. Var vänliga kontakta ditt webbhotell eller ansvarig för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information om Akismet och brandväggar</a>."
+
+#: wp-content/plugins/akismet/akismet.php:162
+msgid "Unable to reach any Akismet servers."
+msgstr "Det går inte att nå någon Akismet-server."
+
+#: wp-content/plugins/akismet/akismet.php:163
+#, php-format
+msgid "A network problem or firewall is blocking all connections from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr "Ett nätverksproblem eller en brandvägg blockerar alla anslutningar från din server mot Akismet.com. <strong>Akismet kommer inte att fungera förens detta är åtgärdat.</strong> Var vänliga kontakta ditt webbhotell eller ansvarig för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information om Akismet och brandväggar</a>."
+
+#: wp-content/plugins/akismet/akismet.php:168
+msgid "Akismet is working correctly.  All servers are accessible."
+msgstr "Akismet fungerar korrekt. Samtliga servrar tillgängliga."
+
+#: wp-content/plugins/akismet/akismet.php:173
+msgid "Network functions are disabled."
+msgstr "Nätverksfunktioner inaktiverade."
+
+#: wp-content/plugins/akismet/akismet.php:174
+#, php-format
+msgid "Your web host or server administrator has disabled PHP's <code>fsockopen</code> function.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet's system requirements</a>."
+msgstr "Ditt webbhotell eller serveradministratör har inaktiverats PHP-funktionen <code>fsockopen</code>. <strong>Akismet kommer inte att fungera förens detta är åtgärdat.</strong> Var vänliga kontakta ditt webbhotell eller ansvarig för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information om Akismets systemkrav</a>."
+
+#: wp-content/plugins/akismet/akismet.php:178
+msgid "Unable to find Akismet servers."
+msgstr "Det går inte att hitta någon Akismet-server."
+
+#: wp-content/plugins/akismet/akismet.php:179
+#, php-format
+msgid "A DNS problem or firewall is preventing all access from your web server to Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</strong>  Please contact your web host or firewall administrator and give them <a href=\"%s\" target=\"_blank\">this information about Akismet and firewalls</a>."
+msgstr "Ett DNS-problem eller en brandvägg blockerar alla anslutningsförsök från din server mot Akismet.com. <strong>Akismet kommer inte att fungera förens detta är åtgärdat.</strong> Var vänliga kontakta ditt webbhotell eller ansvarig för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information om Akismet och brandväggar</a>."
+
+#: wp-content/plugins/akismet/akismet.php:195
+msgid "Obstructed"
+msgstr "Blockeras"
+
+#: wp-content/plugins/akismet/akismet.php:203
+#, php-format
+msgid "Last checked %s ago."
+msgstr "Senast kontrollerat %s sedan."
+
+#: wp-content/plugins/akismet/akismet.php:204
+msgid "Check network status &raquo;"
+msgstr "Kontrollera nätverksstatus &raquo;"
+
+#: wp-content/plugins/akismet/akismet.php:214
 msgid "Akismet Stats"
 msgstr "Akismet statistik"
 
-#: wp-content/plugins/akismet/akismet.php:208
+#: wp-content/plugins/akismet/akismet.php:319
 msgid "Akismet is almost ready."
 msgstr "Akismet är nästan redo."
 
-#: wp-content/plugins/akismet/akismet.php:208
+#: wp-content/plugins/akismet/akismet.php:319
 #, php-format
 msgid "You must <a href=\"%1$s\">enter your WordPress.com API key</a> for it to work."
 msgstr "Du måste <a href=\"%1$s\">ge din WordPress.com API-nyckel</a> före det fungerar."
 
-#: wp-content/plugins/akismet/akismet.php:415
+#: wp-content/plugins/akismet/akismet.php:327
+msgid "Akismet has detected a problem."
+msgstr "Akismet har upptäckt ett problem."
+
+#: wp-content/plugins/akismet/akismet.php:327
+#, php-format
+msgid "A server or network problem is preventing Akismet from working correctly.  <a href=\"%1$s\">Click here for more information</a> about how to fix the problem."
+msgstr "Ett server eller nätverksproblem förhindrar Akismet från att fungera korrekt. <a href=\"%1$s\">Klicka här för mer information</a> om hur man åtgärdar detta problem."
+
+#: wp-content/plugins/akismet/akismet.php:568
 #, php-format
 msgid "Akismet Spam (%s)"
 msgstr "Akismet skräp (%s)"
 
-#: wp-content/plugins/akismet/akismet.php:417
-#: wp-content/plugins/akismet/akismet.php:419
+#: wp-content/plugins/akismet/akismet.php:570
+#: wp-content/plugins/akismet/akismet.php:572
 msgid "Akismet Spam"
 msgstr "Akismet skräp"
 
-#: wp-content/plugins/akismet/akismet.php:429
-#: wp-content/plugins/akismet/akismet.php:448
+#: wp-content/plugins/akismet/akismet.php:582
+#: wp-content/plugins/akismet/akismet.php:601
 msgid "You do not have sufficient permission to moderate comments."
 msgstr "Du saknar rättigheter att moderera kommentarer."
 
-#: wp-content/plugins/akismet/akismet.php:460
+#: wp-content/plugins/akismet/akismet.php:613
 #, php-format
 msgid "%1$s comments recovered."
 msgstr "%1$s kommentarer återställda."
 
-#: wp-content/plugins/akismet/akismet.php:464
+#: wp-content/plugins/akismet/akismet.php:617
 msgid "All spam deleted."
 msgstr "All skräp har raderats."
 
-#: wp-content/plugins/akismet/akismet.php:512
+#: wp-content/plugins/akismet/akismet.php:665
 msgid "Caught Spam"
 msgstr "Fångad skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:517
+#: wp-content/plugins/akismet/akismet.php:670
 #, php-format
 msgid "Akismet has caught <strong>%1$s spam</strong> for you since you first installed it."
 msgstr "Akismet har fångat <strong>%1$s</strong> skräpposter sedan installationen."
 
-#: wp-content/plugins/akismet/akismet.php:524
+#: wp-content/plugins/akismet/akismet.php:677
 msgid "You have no spam currently in the queue. Must be your lucky day. :)"
 msgstr "Du har inga skräpposter i kön. Du har tydligen tur idag. :)"
 
-#: wp-content/plugins/akismet/akismet.php:527
+#: wp-content/plugins/akismet/akismet.php:680
 msgid "You can delete all of the spam from your database with a single click. This operation cannot be undone, so you may wish to check to ensure that no legitimate comments got through first. Spam is automatically deleted after 15 days, so don&#8217;t sweat it."
 msgstr "Du kan radera alla skräpposter från din databas med ett enda knapptryck. Den här operationen kan inte återhämtas så kontrollera noggrant att inga riktiga kommentarer har fastnat i filtret. Skräpposterna raderas automatiskt efter 15 dagar så du kan ta det lugnt."
 
-#: wp-content/plugins/akismet/akismet.php:533
-#: wp-content/plugins/akismet/akismet.php:711
+#: wp-content/plugins/akismet/akismet.php:686
+#: wp-content/plugins/akismet/akismet.php:864
 #, php-format
 msgid "There are currently %1$s comments identified as spam."
 msgstr "För närvarande är %1$s kommentarer markerade som skräp."
 
-#: wp-content/plugins/akismet/akismet.php:533
-#: wp-content/plugins/akismet/akismet.php:711
+#: wp-content/plugins/akismet/akismet.php:686
+#: wp-content/plugins/akismet/akismet.php:864
 msgid "Delete all"
 msgstr "Radera alla"
 
-#: wp-content/plugins/akismet/akismet.php:542
+#: wp-content/plugins/akismet/akismet.php:695
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Detta är de senaste kommentarer som Akismet har identifierat som skräp. Om du lägger märke till några misstag kan du enkelt markera kommentaren som \"inte skräp\". Akismet kommer att lära sig av sitt misstag. Om du vill rädda en kommentar ur skräpposterna kan du välja kommentaren och klicka på Inte skräp. Efter 15 dagar rensar vi automatiskt bort skräpet."
 
-#: wp-content/plugins/akismet/akismet.php:596
+#: wp-content/plugins/akismet/akismet.php:749
 msgid "Search Spam &raquo;"
 msgstr "Sök bland skräpposter &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:603
-#: wp-content/plugins/akismet/akismet.php:670
+#: wp-content/plugins/akismet/akismet.php:756
+#: wp-content/plugins/akismet/akismet.php:823
 #: wp-includes/link-template.php:1446
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Föregående sida"
 
-#: wp-content/plugins/akismet/akismet.php:624
-#: wp-content/plugins/akismet/akismet.php:691
+#: wp-content/plugins/akismet/akismet.php:777
+#: wp-content/plugins/akismet/akismet.php:844
 #: wp-includes/link-template.php:1447
 msgid "Next Page &raquo;"
 msgstr "Nästa sida &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:646
+#: wp-content/plugins/akismet/akismet.php:799
 msgid "IP:"
 msgstr "IP:"
 
-#: wp-content/plugins/akismet/akismet.php:652
+#: wp-content/plugins/akismet/akismet.php:805
 msgid "Not Spam"
 msgstr "Inte skräp"
 
-#: wp-content/plugins/akismet/akismet.php:697
+#: wp-content/plugins/akismet/akismet.php:850
 msgid "De-spam marked comments &raquo;"
 msgstr "Ta bort skräppostmarkering för valda kommentarer &raquo;"
 
-#: wp-content/plugins/akismet/akismet.php:699
+#: wp-content/plugins/akismet/akismet.php:852
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "De kommentarer du markerar som inte skräp skickas till Akismet så att systemet kan lära sig och bli bättre."
 
-#: wp-content/plugins/akismet/akismet.php:735
+#: wp-content/plugins/akismet/akismet.php:888
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">%3$s spam comments</a>."
 msgstr "<a href=\"%1$s\">Akismet</a> har skyddat din webbplats mot <a href=\"%2$s\">%3$s skräpkommentarer</a>."
 
-#: wp-content/plugins/akismet/akismet.php:753
+#: wp-content/plugins/akismet/akismet.php:906
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment already,"
 msgid_plural "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comments already,"
 msgstr[0] "<a href=\"%1$s\">Akismet</a> har redan skyddat din webbplats mot %2$s skräpkommentar,"
 msgstr[1] "<a href=\"%1$s\">Akismet</a> har redan skyddat din webbplats mot %2$s skräpkommentarer,"
 
-#: wp-content/plugins/akismet/akismet.php:758
+#: wp-content/plugins/akismet/akismet.php:911
 #, php-format
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog,"
 msgstr "<a href=\"%1$s\">Akismet</a> blockerar skräpinlägg från att hamna i din blogg,"
 
-#: wp-content/plugins/akismet/akismet.php:763
+#: wp-content/plugins/akismet/akismet.php:916
 #, php-format
 msgid "and there's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural "and there are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
 msgstr[0] "och det finns <a href=\"%2$s\">%1$s kommentar</a> i din skräppost-kö just nu."
 msgstr[1] "och det finns <a href=\"%2$s\">%1$s kommentarer</a> i din skräppost-kö just nu."
 
-#: wp-content/plugins/akismet/akismet.php:768
+#: wp-content/plugins/akismet/akismet.php:921
 #, php-format
 msgid "but there's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr "men det finns inget i din <a href='%1$s'>skräppost-kö</a> för tillfället."
 
-#: wp-content/plugins/akismet/akismet.php:771
+#: wp-content/plugins/akismet/akismet.php:924
 #, php-format
 msgid "%1$s %2$s|akismet_rightnow"
 msgstr "%1$s %2$s"
 
-#: wp-content/plugins/akismet/akismet.php:786
+#: wp-content/plugins/akismet/akismet.php:939
 msgid "Recheck Queue for Spam"
 msgstr "Ladda om skräppost-kön"
 
-#: wp-content/plugins/akismet/akismet.php:803
+#: wp-content/plugins/akismet/akismet.php:956
 msgid "Check for Spam"
 msgstr "Kolla efter skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:878
+#: wp-content/plugins/akismet/akismet.php:1031
 #, php-format
 msgid "%1$s %2$sspam comments%3$s %4$sblocked by%5$s<br />%6$sAkismet%7$s"
 msgstr "%1$s %2$sskräpkommentarer%3$s %4$sblockerade av%5$s<br />%6$sAkismet%7$s"
 
-#: wp-content/plugins/akismet/akismet.php:940
+#: wp-content/plugins/akismet/akismet.php:1093
 msgid "spam comments"
 msgstr "skräpkommentarer"
 
-#: wp-content/plugins/akismet/akismet.php:940
+#: wp-content/plugins/akismet/akismet.php:1093
 msgid "blocked by"
 msgstr "blockerad av"
 
@@ -10784,23 +10851,23 @@ msgstr "&laquo; Tillbaka"
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fel"
 
-#: wp-includes/functions.php:2918
-#: wp-includes/functions.php:2955
+#: wp-includes/functions.php:2931
+#: wp-includes/functions.php:2968
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s! Använd %3$s istället."
 
-#: wp-includes/functions.php:2920
-#: wp-includes/functions.php:2957
+#: wp-includes/functions.php:2933
+#: wp-includes/functions.php:2970
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3275
+#: wp-includes/functions.php:3288
 msgid "Select a city"
 msgstr "Välj en stad"
 
-#: wp-includes/functions.php:3290
+#: wp-includes/functions.php:3303
 msgid "Manual offsets"
 msgstr "Manuella kompensationer"
 
@@ -16600,8 +16667,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 #~ msgstr "Visar %1$s länkar sorterade enligt %2$s"
 #~ msgid "Update &raquo;"
 #~ msgstr "Uppdatera &raquo;"
-#~ msgid "Delete Checked Links &raquo;"
-#~ msgstr "Radera valda länkar &raquo;"
 #~ msgid ""
 #~ "You are about to delete these links permanently.\n"
 #~ "'Cancel' to stop, 'OK' to delete."
