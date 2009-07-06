@@ -88,8 +88,8 @@ switch($step) {
 	<li>Serveradress för databasen</li>
 	<li>Tabellprefix (om du vill köra flera installationer av WordPress i samma databas) </li>
 </ol>
-<p><strong>Om av någon anledning denna automatiska konfigurationsfil kan skapas så behöver du inte oroa dig. Allt detta göra är att fylla i databasinformationen i en konfigurationsfil. Du kan helt enkelt bara öppna <code>wp-config-sample.php</code> i en textredigerare, fylla i uppgifterna själv och spara den som <code>wp-config.php</code>. </strong></p>
-<p>Det mest troliga är att du fått dessa uppgifter från ditt webbhotell, eller när du skapat en databas. Om du saknar uppgifterna så behöver du kontakta webbhotellet innan du kan fortsätta. Du är helt redo&hellip;</p>
+<p><strong>Om det inte av någon anledning går att skapa denna automatiska konfigurationsfil så behöver du inte oroa dig. Allt du behöver göra är att fylla i databasinformationen i en konfigurationsfil. Du kan helt enkelt bara öppna <code>wp-config-sample.php</code> i en textredigerare, fylla i uppgifterna själv och spara den som <code>wp-config.php</code>. </strong></p>
+<p>Det mest troliga är att du fått dessa uppgifter från ditt webbhotell, eller när du skapat en databas. Om du saknar uppgifterna så behöver du kontakta webbhotellet innan du kan fortsätta. Är du redo&hellip;</p>
 
 <p class="step"><a href="setup-config.php?step=1" class="button">Då kör vi!</a></p>
 <?php
