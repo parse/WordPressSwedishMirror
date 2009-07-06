@@ -19,10 +19,10 @@
 define('DB_NAME', 'ange-databasnamn');
 
 /** MySQL databasens användarnamn */
-define('DB_USER', 'ange-databasanvändare');
+define('DB_USER', 'ange-databasanvandare');
 
 /** MySQL databasens lösenord */
-define('DB_PASSWORD', 'ange-ditt-databaslösenord');
+define('DB_PASSWORD', 'ange-ditt-databaslosenord');
 
 /** MySQL server */
 define('DB_HOST', 'localhost');
@@ -43,10 +43,10 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'ange en unik fras här');
-define('SECURE_AUTH_KEY', 'ange en unik fras här');
-define('LOGGED_IN_KEY', 'ange en unik fras här');
-define('NONCE_KEY', 'ange en unik fras här');
+define('AUTH_KEY', 'ange en unik fras');
+define('SECURE_AUTH_KEY', 'ange en unik fras');
+define('LOGGED_IN_KEY', 'ange en unik fras');
+define('NONCE_KEY', 'ange en unik fras');
 /**#@-*/
 
 /**
