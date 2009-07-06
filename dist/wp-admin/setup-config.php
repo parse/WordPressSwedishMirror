@@ -114,12 +114,12 @@ switch($step) {
 		<tr>
 			<th scope="row"><label for="pwd">Lösenord</label></th>
 			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
-			<td>...och MySQL lösenord.</td>
+			<td>...och MySQL-lösenord.</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="dbhost">Databasserver</label></th>
 			<td><input name="dbhost" id="dbhost" type="text" size="25" value="localhost" /></td>
-			<td>Det är 99% chans att du inte behöver ändra detta värde.</td>
+			<td>9 gånger av 10 så behöver inte detta ändras.</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="prefix">Tabellprefix</label></th>
@@ -127,7 +127,7 @@ switch($step) {
 			<td>Om du vill köra flera installationer av WordPress i samma databas, ändra detta.</td>
 		</tr>
 	</table>
-	<p class="step"><input name="submit" type="submit" value="Skicka" class="button" /></p>
+	<p class="step"><input name="submit" type="submit" value="Vidare" class="button" /></p>
 </form>
 <?php
 	break;
@@ -183,7 +183,7 @@ switch($step) {
 
 	display_header();
 ?>
-<p>Ok! Du har fixat det så här långt av installationen. WordPress kan nu kommunicer med din databas. Om du är redo så är det dags att&hellip;</p>
+<p>OK! Du har klarat av installationen så här långt. WordPress kan nu kommunicera med din databas. Om du är redo så är det dags att&hellip;</p>
 
 <p class="step"><a href="install.php" class="button">Köra installationen</a></p>
 <?php
