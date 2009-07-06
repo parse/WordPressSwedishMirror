@@ -66,7 +66,7 @@ function display_header() {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; Inställning Konfigurationsfil</title>
+<title>WordPress &rsaquo; Inställningar konfigurationsfil</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -163,10 +163,10 @@ switch($step) {
 				fwrite($handle, str_replace("ange-databasnamn", $dbname, $line));
 				break;
 			case "define('DB_USER'":
-				fwrite($handle, str_replace("'ange-databasanvändare'", "'$uname'", $line));
+				fwrite($handle, str_replace("'ange-databasanvandare'", "'$uname'", $line));
 				break;
 			case "define('DB_PASSW":
-				fwrite($handle, str_replace("'ange-ditt-databaslösenord'", "'$passwrd'", $line));
+				fwrite($handle, str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line));
 				break;
 			case "define('DB_HOST'":
 				fwrite($handle, str_replace("localhost", $dbhost, $line));
