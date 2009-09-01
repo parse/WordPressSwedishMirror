@@ -81,7 +81,7 @@
 
 <!--<p><small><strong>XHTML:</strong> Du kan anv&auml;nda f&ouml;ljande taggar: <code><?php echo allowed_tags(); ?></code></small></p>-->
 
-<p><textarea name="comment" id="comment" cols="100%" rows="10" tabindex="4"></textarea></p>
+<p><textarea name="comment" id="comment" cols="58" rows="10" tabindex="4"></textarea></p>
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="Skicka kommentar" />
 <?php comment_id_fields(); ?>

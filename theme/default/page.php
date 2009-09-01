@@ -21,6 +21,7 @@ get_header(); ?>
 		<?php endwhile; endif; ?>
 	<?php edit_post_link('Redigera.', '<p>', '</p>'); ?>
 	</div>
+    <?php comments_template(); ?>
 
 <?php get_sidebar(); ?>
 
