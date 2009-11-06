@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-11-01 12:56+0000\n"
-"PO-Revision-Date: 2009-11-02 02:26+0100\n"
+"POT-Creation-Date: 2009-11-06 00:56+0000\n"
+"PO-Revision-Date: 2009-11-06 05:30+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,7 @@ msgstr "Beklagar, du måste vara inloggad för att kunna svara på en kommentar.
 
 #: wp-admin/admin-ajax.php:725
 #: wp-admin/admin-ajax.php:771
-#: wp-comments-post.php:71
+#: wp-comments-post.php:74
 msgid "Error: please type a comment."
 msgstr "Fel: Var vänlig skriv en kommentar."
 
@@ -240,7 +240,7 @@ msgstr "Hittade inga inlägg."
 #: wp-admin/includes/template.php:807
 #: wp-admin/includes/template.php:1040
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:3529
+#: wp-includes/post.php:3632
 msgid "Title"
 msgstr "Titel"
 
@@ -777,7 +777,7 @@ msgstr "Använd ursprunglig färg"
 #: wp-admin/import/blogger.php:666
 #: wp-admin/options-discussion.php:226
 #: wp-admin/options-general.php:277
-#: wp-admin/options-media.php:103
+#: wp-admin/options-media.php:105
 #: wp-admin/options-misc.php:72
 #: wp-admin/options-permalink.php:224
 #: wp-admin/options-privacy.php:45
@@ -1299,7 +1299,7 @@ msgstr "Inläggsminiatyr"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:307
-#: wp-includes/post.php:3531
+#: wp-includes/post.php:3634
 msgid "Excerpt"
 msgstr "Utdrag"
 
@@ -3654,7 +3654,7 @@ msgid "Invalid Data provided."
 msgstr "Ogiltig data tillhandahållen."
 
 #: wp-admin/includes/class-wp-upgrader.php:45
-#: wp-admin/includes/file.php:482
+#: wp-admin/includes/file.php:500
 #: wp-admin/includes/plugin.php:436
 #: wp-admin/includes/theme.php:79
 msgid "Could not access filesystem."
@@ -3944,8 +3944,8 @@ msgid "Please select a file"
 msgstr "Vänligen välj en fil"
 
 #: wp-admin/includes/class-wp-upgrader.php:1140
-#: wp-admin/includes/file.php:301
-#: wp-admin/includes/file.php:411
+#: wp-admin/includes/file.php:315
+#: wp-admin/includes/file.php:425
 #, php-format
 msgid "The uploaded file could not be moved to %s."
 msgstr "Kunde inte flytta den uppladdade filen till %s."
@@ -4149,7 +4149,7 @@ msgid "Press This"
 msgstr "Blogga det här"
 
 #: wp-admin/includes/dashboard.php:400
-#: wp-includes/post.php:3530
+#: wp-includes/post.php:3633
 msgid "Content"
 msgstr "Innehåll"
 
@@ -4447,125 +4447,137 @@ msgstr "Mall för kommentarer"
 msgid "Popup Comments Template"
 msgstr "Mall för poppuppkommentarer"
 
-#: wp-admin/includes/file.php:199
+#: wp-admin/includes/file.php:207
 msgid "Sorry, can&#8217;t edit files with &#8220;..&#8221; in the name. If you are trying to edit a file in your WordPress home directory, you can just type the name of the file in."
 msgstr "Kan tyvärr inte redigera filer med &#8221;..&#8221; i namnet. Om du försöker redigera en fil i WordPress hemkatalog, behöver du bara skriva in namnet på filen."
 
-#: wp-admin/includes/file.php:202
+#: wp-admin/includes/file.php:210
 msgid "Sorry, can&#8217;t call files with their real path."
 msgstr "Tyvärr, kan inte anropa filer med dess faktiska sökväg."
 
-#: wp-admin/includes/file.php:205
+#: wp-admin/includes/file.php:213
 msgid "Sorry, that file cannot be edited."
 msgstr "Tyvärr, den filen kan inte redigeras."
 
-#: wp-admin/includes/file.php:237
-#: wp-admin/includes/file.php:345
+#: wp-admin/includes/file.php:251
+#: wp-admin/includes/file.php:359
 msgid "The uploaded file exceeds the <code>upload_max_filesize</code> directive in <code>php.ini</code>."
 msgstr "Den uppladdade filen är större är vad som tillåts enligt inställningen <code>upload_max_filesize</code> i <code>php.ini</code>."
 
-#: wp-admin/includes/file.php:238
-#: wp-admin/includes/file.php:346
+#: wp-admin/includes/file.php:252
+#: wp-admin/includes/file.php:360
 msgid "The uploaded file exceeds the <em>MAX_FILE_SIZE</em> directive that was specified in the HTML form."
 msgstr "Den uppladdade filen är större är vad som tillåts enligt inställningen <code>MAX_FILE_SIZE</code> i HTML-formuläret."
 
-#: wp-admin/includes/file.php:239
-#: wp-admin/includes/file.php:347
+#: wp-admin/includes/file.php:253
+#: wp-admin/includes/file.php:361
 msgid "The uploaded file was only partially uploaded."
 msgstr "Filen är endast delvis uppladdad."
 
-#: wp-admin/includes/file.php:240
-#: wp-admin/includes/file.php:348
+#: wp-admin/includes/file.php:254
+#: wp-admin/includes/file.php:362
 msgid "No file was uploaded."
 msgstr "Ingen fil laddades upp."
 
-#: wp-admin/includes/file.php:242
-#: wp-admin/includes/file.php:350
+#: wp-admin/includes/file.php:256
+#: wp-admin/includes/file.php:364
 msgid "Missing a temporary folder."
 msgstr "En temporär katalog saknas."
 
-#: wp-admin/includes/file.php:243
-#: wp-admin/includes/file.php:351
+#: wp-admin/includes/file.php:257
+#: wp-admin/includes/file.php:365
 msgid "Failed to write file to disk."
 msgstr "Kan inte skriva till disken."
 
-#: wp-admin/includes/file.php:244
-#: wp-admin/includes/file.php:352
+#: wp-admin/includes/file.php:258
+#: wp-admin/includes/file.php:366
 msgid "File upload stopped by extension."
 msgstr "Filuppladdningen stoppades av PHP-tillägget."
 
-#: wp-admin/includes/file.php:260
-#: wp-admin/includes/file.php:368
+#: wp-admin/includes/file.php:274
+#: wp-admin/includes/file.php:382
 msgid "Invalid form submission."
 msgstr "Ogiltigt formulär."
 
-#: wp-admin/includes/file.php:268
+#: wp-admin/includes/file.php:282
 #: wp-admin/includes/import.php:63
 msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini or by post_max_size being defined as smaller than upload_max_filesize in php.ini."
 msgstr "Filen är tom. Vänligen ladda upp något med lite mer substans. Felet kan också bero på att uppladdningar är inaktiverade i din php.ini eller att den post_max_size som har definierats är lägre än upload_max_filesize i php.ini"
 
-#: wp-admin/includes/file.php:272
+#: wp-admin/includes/file.php:286
 msgid "Specified file failed upload test."
 msgstr "Den valda filen klarade inte uppladdningsprovet."
 
-#: wp-admin/includes/file.php:281
-#: wp-admin/includes/file.php:389
+#: wp-admin/includes/file.php:295
+#: wp-admin/includes/file.php:403
 msgid "File type does not meet security guidelines. Try another."
 msgstr "Filen motsvarar inte säkerhetsreglerna. Försök med en annan."
 
-#: wp-admin/includes/file.php:376
+#: wp-admin/includes/file.php:390
 msgid "File is empty. Please upload something more substantial. This error could also be caused by uploads being disabled in your php.ini."
 msgstr "Filen är tom. Vänligen ladda upp något med lite mer substans. Felet kan också bero på att uppladdningar är avstängda i din php.ini."
 
-#: wp-admin/includes/file.php:380
+#: wp-admin/includes/file.php:394
 msgid "Specified file does not exist."
 msgstr "Den specificerade filen finns inte."
 
-#: wp-admin/includes/file.php:439
+#: wp-admin/includes/file.php:453
 msgid "Invalid URL Provided"
 msgstr "Ogiltig URL angiven"
 
-#: wp-admin/includes/file.php:443
-#: wp-admin/includes/file.php:447
+#: wp-admin/includes/file.php:457
+#: wp-admin/includes/file.php:461
 msgid "Could not create Temporary file"
 msgstr "Kunde inte skapa temporär fil"
 
-#: wp-admin/includes/file.php:495
+#: wp-admin/includes/file.php:513
 msgid "Incompatible archive"
 msgstr "Inkompatibelt arkiv"
 
-#: wp-admin/includes/file.php:498
+#: wp-admin/includes/file.php:516
 msgid "Empty archive"
 msgstr "Töm arkiv"
 
-#: wp-admin/includes/file.php:507
 #: wp-admin/includes/file.php:525
-#: wp-admin/includes/file.php:570
+#: wp-admin/includes/file.php:543
+#: wp-admin/includes/file.php:589
 msgid "Could not create directory"
 msgstr "Kunde inte skapa katalogen"
 
-#: wp-admin/includes/file.php:534
-#: wp-admin/includes/file.php:564
+#: wp-admin/includes/file.php:552
+#: wp-admin/includes/file.php:583
 msgid "Could not copy file"
 msgstr "Kunde inte kopiera filen"
 
-#: wp-admin/includes/file.php:730
+#: wp-admin/includes/file.php:770
 msgid "<strong>Error:</strong> There was an error connecting to the server, Please verify the settings are correct."
 msgstr "<strong>Fel:</strong> Det var problem med att ansluta till servern, verifiera att inställningarna är korrekta."
 
-#: wp-admin/includes/file.php:752
+#: wp-admin/includes/file.php:778
+msgid "FTP"
+msgstr "FTP"
+
+#: wp-admin/includes/file.php:780
+msgid "FTPS (SSL)"
+msgstr "FTPS (SSL)"
+
+#: wp-admin/includes/file.php:782
+msgid "SSH2"
+msgstr "SSH2"
+
+#: wp-admin/includes/file.php:803
 msgid "Connection Information"
 msgstr "Uppgifter för anslutning"
 
-#: wp-admin/includes/file.php:753
+#: wp-admin/includes/file.php:804
 msgid "To perform the requested action, connection information is required."
 msgstr "För att genomföra en efterfrågad uppdatering så krävs uppgifter för anslutningen."
 
-#: wp-admin/includes/file.php:757
+#: wp-admin/includes/file.php:808
 msgid "Hostname"
 msgstr "Servernamn"
 
-#: wp-admin/includes/file.php:762
+#: wp-admin/includes/file.php:813
 #: wp-admin/includes/template.php:902
 #: wp-admin/install.php:135
 #: wp-admin/user-edit.php:187
@@ -4575,7 +4587,7 @@ msgstr "Servernamn"
 msgid "Username"
 msgstr "Användarnamn"
 
-#: wp-admin/includes/file.php:767
+#: wp-admin/includes/file.php:818
 #: wp-admin/includes/template.php:1080
 #: wp-admin/install.php:139
 #: wp-admin/options-writing.php:100
@@ -4584,40 +4596,28 @@ msgstr "Användarnamn"
 msgid "Password"
 msgstr "Lösenord"
 
-#: wp-admin/includes/file.php:773
+#: wp-admin/includes/file.php:824
 msgid "Authentication Keys"
 msgstr "Identifieringsnycklar"
 
-#: wp-admin/includes/file.php:775
+#: wp-admin/includes/file.php:826
 msgid "Public Key:"
 msgstr "Publik nyckel:"
 
-#: wp-admin/includes/file.php:776
+#: wp-admin/includes/file.php:827
 msgid "Private Key:"
 msgstr "Privat nyckel:"
 
-#: wp-admin/includes/file.php:779
+#: wp-admin/includes/file.php:830
 msgid "Enter the location on the server where the keys are located. If a passphrase is needed, enter that in the password field above."
 msgstr "Ange sökvägen på servern där nycklarna finns tillgängliga. Om en lösenordsfras krävs, ange den i lösenordsfältet ovan."
 
-#: wp-admin/includes/file.php:784
-#: wp-admin/includes/file.php:786
+#: wp-admin/includes/file.php:835
+#: wp-admin/includes/file.php:837
 msgid "Connection Type"
 msgstr "Anslutningstyp"
 
-#: wp-admin/includes/file.php:787
-msgid "FTP"
-msgstr "FTP"
-
-#: wp-admin/includes/file.php:789
-msgid "FTPS (SSL)"
-msgstr "FTPS (SSL)"
-
-#: wp-admin/includes/file.php:792
-msgid "SSH"
-msgstr "SSH"
-
-#: wp-admin/includes/file.php:806
+#: wp-admin/includes/file.php:860
 msgid "Proceed"
 msgstr "Fortsätt"
 
@@ -6930,7 +6930,7 @@ msgstr "Sidopanel till höger"
 
 #: wp-admin/includes/theme-install.php:187
 #: wp-admin/options-media.php:36
-#: wp-admin/options-media.php:89
+#: wp-admin/options-media.php:91
 #: wp-includes/js/tinymce/langs/wp-langs.php:434
 msgid "Width"
 msgstr "Bredd"
@@ -8023,7 +8023,7 @@ msgid "Thumbnail size"
 msgstr "Miniatyrstorlek"
 
 #: wp-admin/options-media.php:38
-#: wp-admin/options-media.php:91
+#: wp-admin/options-media.php:93
 #: wp-includes/js/tinymce/langs/wp-langs.php:435
 #: wp-includes/js/tinymce/langs/wp-langs.php:440
 msgid "Height"
@@ -8066,25 +8066,21 @@ msgstr "Automatisk inbäddning"
 msgid "Attempt to automatically embed all plain text URLs"
 msgstr "Försök att automatiskt bädda in alla vanliga textlänkar"
 
-#: wp-admin/options-media.php:80
-msgid "oEmbed"
-msgstr "oEmbed"
-
 #: wp-admin/options-media.php:81
-#, php-format
-msgid "Use <a href=\"%s\">oEmbed</a> to assist in rich content embedding"
-msgstr "Använd <a href=\"%s\">oEmbed</a> för att möjliggöra inbäddning i innehåll"
+msgid "oEmbed discovery"
+msgstr "oEmbed hantering"
 
 #: wp-admin/options-media.php:82
+#: wp-admin/options-media.php:83
 #, php-format
-msgid "Use <a href=\"%s\">oEmbed</a> to allow embedding content from additional websites"
-msgstr "Använd <a href=\"%s\">oEmbed</a> för att möjliggöra inbäddning av innehåll från externa webbplatser"
+msgid "Attempt to embed content from unknown URLs using <a href=\"%s\">oEmbed</a>"
+msgstr "Försök att bädda in innehåll från okända URLer genom att använda <a href=\"%s\">oEmbed</a>"
 
-#: wp-admin/options-media.php:87
-msgid "Embed size"
-msgstr "Storlek för inbäddning"
+#: wp-admin/options-media.php:89
+msgid "Maximum embed size"
+msgstr "Maximal inbäddningsstorlek"
 
-#: wp-admin/options-media.php:93
+#: wp-admin/options-media.php:95
 msgid "If the width value is left blank, embeds will default to the max width of your theme."
 msgstr "Om värdet för bredd lämnas tomt så kommer inbäddningar som standard styras av den maximala bredden i ditt tema."
 
@@ -9886,15 +9882,15 @@ msgstr "Ett fel har inträffat vid ett försök att komma åt metadatan för inl
 msgid "Sorry, comments are closed for this item."
 msgstr "Tyvärr är kommentarer avstängda för det här inlägget."
 
-#: wp-comments-post.php:58
+#: wp-comments-post.php:61
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Tyvärr måste du vara inloggad för att skriva en kommentar."
 
-#: wp-comments-post.php:65
+#: wp-comments-post.php:68
 msgid "Error: please fill the required fields (name, email)."
 msgstr "Fel: fyll i de nödvändiga fälten (namn, e-post)."
 
-#: wp-comments-post.php:67
+#: wp-comments-post.php:70
 msgid "Error: please enter a valid email address."
 msgstr "Fel: vänligen ange en e-postadress"
 
@@ -10722,7 +10718,7 @@ msgstr "Hittade en likadan kommentar; det verkar som om du redan hade sagt det h
 msgid "You are posting comments too quickly.  Slow down."
 msgstr "Du postar kommentarer alltför snabbt. Sänk farten."
 
-#: wp-includes/comment.php:1204
+#: wp-includes/comment.php:1208
 msgid "Could not update comment status"
 msgstr "Kunde inte uppdatera kommentarsstatus"
 
@@ -13414,39 +13410,39 @@ msgstr "Jämför versioner"
 msgid "Date Created"
 msgstr "Datum skapat"
 
-#: wp-includes/post.php:1499
+#: wp-includes/post.php:1596
 msgid "Content, title, and excerpt are empty."
 msgstr "Innehåll, titel och utdrag är tomma."
 
-#: wp-includes/post.php:1624
+#: wp-includes/post.php:1721
 msgid "Could not update post in the database"
 msgstr "Kunde inte uppdatera inlägget i databasen"
 
-#: wp-includes/post.php:1640
+#: wp-includes/post.php:1737
 msgid "Could not insert post into the database"
 msgstr "Kunde inte infoga inlägget i databasen"
 
-#: wp-includes/post.php:1684
+#: wp-includes/post.php:1781
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:3721
+#: wp-includes/post.php:3824
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:3897
+#: wp-includes/post.php:4000
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
-#: wp-includes/registration.php:315
+#: wp-includes/registration.php:312
 msgid "AIM"
 msgstr "AIM"
 
-#: wp-includes/registration.php:316
+#: wp-includes/registration.php:313
 msgid "Yahoo IM"
 msgstr "Yahoo IM"
 
-#: wp-includes/registration.php:317
+#: wp-includes/registration.php:314
 msgid "Jabber / Google Talk"
 msgstr "Jabber / Google Talk"
 
@@ -14332,6 +14328,17 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta funkar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "oEmbed"
+#~ msgstr "oEmbed"
+#~ msgid "Use <a href=\"%s\">oEmbed</a> to assist in rich content embedding"
+#~ msgstr ""
+#~ "Använd <a href=\"%s\">oEmbed</a> för att möjliggöra inbäddning i innehåll"
+#~ msgid ""
+#~ "Use <a href=\"%s\">oEmbed</a> to allow embedding content from additional "
+#~ "websites"
+#~ msgstr ""
+#~ "Använd <a href=\"%s\">oEmbed</a> för att möjliggöra inbäddning av "
+#~ "innehåll från externa webbplatser"
 #~ msgid "Moved to Trash"
 #~ msgstr "Flyttad till papperskorgen"
 #~ msgid "View trash"
