@@ -16,6 +16,14 @@
  */
 define('WP_INSTALLING', true);
 
+/** 
+ * Disable error reporting 
+ * 
+ * Set this to error_reporting( E_ALL ) or error_reporting( E_ALL | E_STRICT ) f
+ or debugging 
+ */ 
+error_reporting(0); 
+
 /**#@+
  * These three defines are required to allow us to use require_wp_db() to load
  * the database class while being wp-content/db.php aware.
@@ -34,9 +42,6 @@ if (!file_exists(ABSPATH . 'wp-config-sample.php'))
 	wp_die('Beklagar, vi behöver en wp-config-sample.php fil att arbeta utifrån. Var vänlig ladda upp denna fil från dina WordPress filer.');
 
 $configFile = file(ABSPATH . 'wp-config-sample.php');
-
-if ( !is_writable(ABSPATH))
-	wp_die("Beklagar, vi måste kunna skriva till katalogen. Du måste antingen ändra rättigheterna för din WordPress katalog eller skapa din wp-config.php manuellt.");
 
 // Check if wp-config.php has been created
 if (file_exists(ABSPATH . 'wp-config.php'))
@@ -155,39 +160,53 @@ switch($step) {
 	if ( !empty($wpdb->error) )
 		wp_die($wpdb->error->get_error_message());
 
-	$handle = fopen(ABSPATH . 'wp-config.php', 'w');
-
 	foreach ($configFile as $line_num => $line) {
 		switch (substr($line,0,16)) {
 			case "define('DB_NAME'":
-				fwrite($handle, str_replace("ange-databasnamn", $dbname, $line));
+				f$configFile[$line_num] = str_replace("ange-databasnamn", $dbname, $line));
 				break;
 			case "define('DB_USER'":
-				fwrite($handle, str_replace("'ange-databasanvandare'", "'$uname'", $line));
+				$configFile[$line_num] = str_replace("'ange-databasanvandare'", "'$uname'", $line));
 				break;
 			case "define('DB_PASSW":
-				fwrite($handle, str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line));
+				$configFile[$line_num] = str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line));
 				break;
 			case "define('DB_HOST'":
-				fwrite($handle, str_replace("localhost", $dbhost, $line));
+				$configFile[$line_num] = str_replace("localhost", $dbhost, $line));
 				break;
 			case '$table_prefix  =':
-				fwrite($handle, str_replace('wp_', $prefix, $line));
-				break;
-			default:
-				fwrite($handle, $line);
+				$configFile[$line_num] = str_replace('wp_', $prefix, $line); 
+                break;
 		}
 	}
-	fclose($handle);
-	chmod(ABSPATH . 'wp-config.php', 0666);
-
-	display_header();
+    if ( ! is_writable(ABSPATH) ) : 
+        display_header(); 
+?> 
+<p>Ledsen, vi kan inte skapa filen <code>wp-config.php</code>.</p> 
+<p>Du kan skapa filen <code>wp-config.php</code> manuellt och kopiera in följande kod.</p> 
+<textarea cols="90" rows="15"><?php 
+        foreach( $configFile as $line ) { 
+            echo htmlentities($line); 
+        } 
+?></textarea> 
+<p>När du är klar med det, klicka på "Kör installation"</p> 
+<p class="step"><a href="install.php" class="button">Kör installation</a></p> 
+<?php 
+    else : 
+        $handle = fopen(ABSPATH . 'wp-config.php', 'w'); 
+        foreach( $configFile as $line ) { 
+            fwrite($handle, $line); 
+        } 
+        fclose($handle); 
+        chmod(ABSPATH . 'wp-config.php', 0666); 
+        display_header(); 
 ?>
 <p>OK! Du har klarat av installationen så här långt. WordPress kan nu kommunicera med din databas. Om du är redo så är det dags att&hellip;</p>
 
 <p class="step"><a href="install.php" class="button">Köra installationen</a></p>
 <?php
 	break;
+	endif;
 }
 ?>
 </body>
