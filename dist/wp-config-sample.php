@@ -38,8 +38,7 @@ define('DB_COLLATE', '');
  *
  * Ändra dessa till unika fraser!
  * Du kan generera nycklar med {@link http://api.wordpress.org/secret-key/1.1/ WordPress.org secret-key service}
- * Du kan när som helst ändra dessa nycklar för att göra aktiva cookies obrukbara, 
- * vilket tvingar alla användare att logga in på nytt.
+ * Du kan när som helst ändra dessa nycklar för att göra aktiva cookies obrukbara, vilket tvingar alla användare att logga in på nytt.
  *
  * @since 2.6.0
  */
