@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-07 04:56+0000\n"
-"PO-Revision-Date: 2009-12-08 20:43+0100\n"
+"POT-Creation-Date: 2009-12-09 00:55+0000\n"
+"PO-Revision-Date: 2009-12-10 00:00+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -158,7 +158,7 @@ msgstr "Autospar inaktiverat: %s redigerar just nu detta inlägg."
 #: wp-admin/admin-ajax.php:953
 #: wp-admin/admin-ajax.php:1090
 #: wp-admin/includes/post.php:143
-#: wp-admin/includes/post.php:1222
+#: wp-admin/includes/post.php:1231
 #: wp-admin/page.php:101
 msgid "You are not allowed to edit this page."
 msgstr "Du saknar rättigheter för att redigera den här sidan."
@@ -166,7 +166,7 @@ msgstr "Du saknar rättigheter för att redigera den här sidan."
 #: wp-admin/admin-ajax.php:956
 #: wp-admin/admin-ajax.php:1093
 #: wp-admin/includes/post.php:146
-#: wp-admin/includes/post.php:1225
+#: wp-admin/includes/post.php:1234
 #: wp-admin/post.php:134
 #: wp-admin/upload.php:41
 msgid "You are not allowed to edit this post."
@@ -875,7 +875,7 @@ msgstr "Redigera &#8221;%s&#8221;"
 #: wp-admin/includes/meta-boxes.php:78
 #: wp-admin/includes/meta-boxes.php:120
 #: wp-admin/includes/meta-boxes.php:173
-#: wp-admin/includes/post.php:1052
+#: wp-admin/includes/post.php:1054
 #: wp-admin/includes/template.php:130
 #: wp-admin/includes/template.php:301
 #: wp-admin/includes/template.php:669
@@ -1341,8 +1341,8 @@ msgid "Publish"
 msgstr "Publicera"
 
 #: wp-admin/edit-form-advanced.php:102
-msgid "Post Thumbnail"
-msgstr "Inläggsminiatyr"
+msgid "Post Image"
+msgstr "Bild för inlägg"
 
 #: wp-admin/edit-form-advanced.php:103
 #: wp-admin/includes/meta-boxes.php:313
@@ -1641,8 +1641,8 @@ msgid "Page Slug"
 msgstr "Sidans permalänk"
 
 #: wp-admin/edit-page-form.php:84
-msgid "Page Thumbnail"
-msgstr "Sidminiatyr"
+msgid "Page Image"
+msgstr "Bild för sida"
 
 #: wp-admin/edit-page-form.php:90
 msgid "Page Author"
@@ -1757,7 +1757,7 @@ msgid "Draft"
 msgstr "Utkast"
 
 #: wp-admin/edit-pages.php:112
-#: wp-admin/includes/post.php:820
+#: wp-admin/includes/post.php:822
 msgctxt "manage posts header"
 msgid "Drafts"
 msgstr "Utkast"
@@ -4345,7 +4345,7 @@ msgstr "Denna panelwidget hämtar info från <a href=\"http://blogsearch.google.
 
 #: wp-admin/includes/dashboard.php:662
 #: wp-admin/includes/dashboard.php:664
-#: wp-admin/includes/post.php:1140
+#: wp-admin/includes/post.php:1149
 msgid "Somebody"
 msgstr "Någon"
 
@@ -4866,16 +4866,16 @@ msgstr "Kunde inte spara bilden."
 msgid "Image saved"
 msgstr "Bilden sparad."
 
-#: wp-admin/includes/image.php:132
+#: wp-admin/includes/image.php:155
 #, php-format
 msgid "File &#8220;%s&#8221; doesn&#8217;t exist?"
 msgstr "Saknas filen &#8221;%s&#8221;?"
 
-#: wp-admin/includes/image.php:135
+#: wp-admin/includes/image.php:158
 msgid "The GD image library is not installed."
 msgstr "GD-grafikbiblioteket är inte installerat."
 
-#: wp-admin/includes/image.php:142
+#: wp-admin/includes/image.php:165
 #, php-format
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Filen &#8221;%s&#8221; är inte en bild."
@@ -5085,8 +5085,8 @@ msgstr "Infoga i inlägg"
 
 #: wp-admin/includes/media.php:1243
 #: wp-includes/script-loader.php:388
-msgid "Use as thumbnail"
-msgstr "Använd som miniatyr"
+msgid "Use as post image"
+msgstr "Använd som bild för inlägg"
 
 #: wp-admin/includes/media.php:1382
 msgid "Select Files"
@@ -6067,247 +6067,247 @@ msgstr "Du saknar rättigheter för att göra sidor i den här bloggen."
 msgid "You are not allowed to create posts or drafts on this blog."
 msgstr "Du saknar rättigheter för att skriva inlägg eller utkast i den här bloggen."
 
-#: wp-admin/includes/post.php:817
+#: wp-admin/includes/post.php:819
 msgctxt "post"
 msgid "Published"
 msgstr "Publicerat"
 
-#: wp-admin/includes/post.php:817
+#: wp-admin/includes/post.php:819
 msgid "Published posts"
 msgstr "Publicerade inlägg"
 
-#: wp-admin/includes/post.php:817
+#: wp-admin/includes/post.php:819
 #, php-format
 msgid "Published <span class=\"count\">(%s)</span>"
 msgid_plural "Published <span class=\"count\">(%s)</span>"
 msgstr[0] "Publicerad <span class=\"count\">(%s)</span>"
 msgstr[1] "Publicerade <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:818
+#: wp-admin/includes/post.php:820
 msgctxt "post"
 msgid "Scheduled"
 msgstr "Tidsinställt"
 
-#: wp-admin/includes/post.php:818
+#: wp-admin/includes/post.php:820
 msgid "Scheduled posts"
 msgstr "Tidsinställda inlägg"
 
-#: wp-admin/includes/post.php:818
+#: wp-admin/includes/post.php:820
 #, php-format
 msgid "Scheduled <span class=\"count\">(%s)</span>"
 msgid_plural "Scheduled <span class=\"count\">(%s)</span>"
 msgstr[0] "Tidsinställt <span class=\"count\">(%s)</span>"
 msgstr[1] "Tidsinställda <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:819
+#: wp-admin/includes/post.php:821
 msgctxt "post"
 msgid "Pending Review"
 msgstr "Väntar på granskning"
 
-#: wp-admin/includes/post.php:819
+#: wp-admin/includes/post.php:821
 msgid "Pending posts"
 msgstr "Väntande inlägg"
 
-#: wp-admin/includes/post.php:819
+#: wp-admin/includes/post.php:821
 #, php-format
 msgid "Pending Review <span class=\"count\">(%s)</span>"
 msgid_plural "Pending Review <span class=\"count\">(%s)</span>"
 msgstr[0] "Inväntar granskning <span class=\"count\">(%s)</span>"
 msgstr[1] "Inväntar granskning <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:820
+#: wp-admin/includes/post.php:822
 msgctxt "post"
 msgid "Draft"
 msgstr "Utkast"
 
-#: wp-admin/includes/post.php:820
+#: wp-admin/includes/post.php:822
 #, php-format
 msgid "Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Drafts <span class=\"count\">(%s)</span>"
 msgstr[0] "Utkast <span class=\"count\">(%s)</span>"
 msgstr[1] "Utkast <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:821
+#: wp-admin/includes/post.php:823
 msgctxt "post"
 msgid "Private"
 msgstr "Privat"
 
-#: wp-admin/includes/post.php:821
+#: wp-admin/includes/post.php:823
 msgid "Private posts"
 msgstr "Privata inlägg"
 
-#: wp-admin/includes/post.php:821
+#: wp-admin/includes/post.php:823
 #, php-format
 msgid "Private <span class=\"count\">(%s)</span>"
 msgid_plural "Private <span class=\"count\">(%s)</span>"
 msgstr[0] "Privat <span class=\"count\">(%s)</span>"
 msgstr[1] "Privat <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:822
+#: wp-admin/includes/post.php:824
 msgctxt "post"
 msgid "Trash"
 msgstr "Papperskorg"
 
-#: wp-admin/includes/post.php:822
+#: wp-admin/includes/post.php:824
 msgid "Trash posts"
 msgstr "Inlägg i papperskorgen"
 
-#: wp-admin/includes/post.php:822
+#: wp-admin/includes/post.php:824
 #, php-format
 msgid "Trash <span class=\"count\">(%s)</span>"
 msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Papperskorg <span class=\"count\">(%s)</span>"
 msgstr[1] "Papperskorg <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:865
+#: wp-admin/includes/post.php:867
 msgid "Images"
 msgstr "Bilder"
 
-#: wp-admin/includes/post.php:865
+#: wp-admin/includes/post.php:867
 msgid "Manage Images"
 msgstr "Redigera bilder"
 
-#: wp-admin/includes/post.php:865
+#: wp-admin/includes/post.php:867
 #, php-format
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
 msgstr[0] "Bild <span class=\"count\">(%s)</span>"
 msgstr[1] "Bilder <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:866
+#: wp-admin/includes/post.php:868
 msgid "Audio"
 msgstr "Ljud"
 
-#: wp-admin/includes/post.php:866
+#: wp-admin/includes/post.php:868
 msgid "Manage Audio"
 msgstr "Redigera ljud"
 
-#: wp-admin/includes/post.php:866
+#: wp-admin/includes/post.php:868
 #, php-format
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
 msgstr[0] "Ljudfil <span class=\"count\">(%s)</span>"
 msgstr[1] "Ljudfiler <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:867
+#: wp-admin/includes/post.php:869
 msgid "Video"
 msgstr "Video"
 
-#: wp-admin/includes/post.php:867
+#: wp-admin/includes/post.php:869
 msgid "Manage Video"
 msgstr "Redigera video"
 
-#: wp-admin/includes/post.php:867
+#: wp-admin/includes/post.php:869
 #, php-format
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Videos <span class=\"count\">(%s)</span>"
 
-#: wp-admin/includes/post.php:1016
+#: wp-admin/includes/post.php:1018
 #: wp-content/plugins/akismet/akismet.php:838
 msgid "View Post"
 msgstr "Visa inlägg"
 
-#: wp-admin/includes/post.php:1016
+#: wp-admin/includes/post.php:1018
 msgid "View Page"
 msgstr "Visa sida"
 
-#: wp-admin/includes/post.php:1017
+#: wp-admin/includes/post.php:1019
 msgid "Click to edit this part of the permalink"
 msgstr "Klicka för att redigera denna del av permalänken"
 
-#: wp-admin/includes/post.php:1019
+#: wp-admin/includes/post.php:1021
 msgid "Temporary permalink. Click to edit this part."
 msgstr "Temporär permalänk. Klicka för att redigera denna del."
 
-#: wp-admin/includes/post.php:1023
-#: wp-admin/includes/post.php:1051
+#: wp-admin/includes/post.php:1025
+#: wp-admin/includes/post.php:1053
 msgid "Permalink:"
 msgstr "Permalänk:"
 
-#: wp-admin/includes/post.php:1025
+#: wp-admin/includes/post.php:1027
 msgid "Change Permalinks"
 msgstr "Ändra permalänkar"
 
-#: wp-admin/includes/post.php:1071
-msgid "Set thumbnail"
-msgstr "Ange miniatyr"
+#: wp-admin/includes/post.php:1074
+msgid "Set image"
+msgstr "Ange bild"
 
-#: wp-admin/includes/post.php:1077
-msgid "Remove thumbnail"
-msgstr "Ta bort miniatyr"
+#: wp-admin/includes/post.php:1085
+msgid "Remove image"
+msgstr "Ta bort bild"
 
-#: wp-admin/includes/post.php:1144
+#: wp-admin/includes/post.php:1153
 #, php-format
 msgid "Warning: %s is currently editing this post"
 msgstr "Varning: %s redigerar just nu detta inlägg"
 
-#: wp-admin/includes/post.php:1147
+#: wp-admin/includes/post.php:1156
 #, php-format
 msgid "Warning: %s is currently editing this page"
 msgstr "Varning: %s redigerar just nu denna sida"
 
-#: wp-admin/includes/post.php:1150
+#: wp-admin/includes/post.php:1159
 #, php-format
 msgid "Warning: %s is currently editing this."
 msgstr "Varning: %s redigerar just nu detta."
 
-#: wp-admin/includes/post.php:1206
+#: wp-admin/includes/post.php:1215
 msgid "Preview not available. Please save as a draft first."
 msgstr "Förhandsgranskning ej tillgänglig. Var vänlig spara som utkast först."
 
-#: wp-admin/includes/schema.php:203
+#: wp-admin/includes/schema.php:202
 msgid "My Blog"
 msgstr "Min blogg"
 
-#: wp-admin/includes/schema.php:204
+#: wp-admin/includes/schema.php:203
 msgid "Just another WordPress weblog"
 msgstr "En WordPressblogg till"
 
 #. translators: default date format, see http://php.net/date
-#: wp-admin/includes/schema.php:225
+#: wp-admin/includes/schema.php:224
 #: wp-admin/options-general.php:204
 msgid "F j, Y"
 msgstr "j F, Y"
 
 #. translators: default time format, see http://php.net/date
-#: wp-admin/includes/schema.php:227
+#: wp-admin/includes/schema.php:226
 #: wp-admin/options-general.php:237
 msgid "g:i a"
 msgstr "G:i"
 
 #. translators: links last updated date format, see http://php.net/date
-#: wp-admin/includes/schema.php:229
+#: wp-admin/includes/schema.php:228
 msgid "F j, Y g:i a"
 msgstr "j F, Y G:i"
 
 #. translators: user role
-#: wp-admin/includes/schema.php:390
+#: wp-admin/includes/schema.php:389
 msgctxt "User role"
 msgid "Administrator"
 msgstr "Administratör"
 
 #. translators: user role
-#: wp-admin/includes/schema.php:392
+#: wp-admin/includes/schema.php:391
 msgctxt "User role"
 msgid "Editor"
 msgstr "Redaktör"
 
 #. translators: user role
-#: wp-admin/includes/schema.php:394
+#: wp-admin/includes/schema.php:393
 msgctxt "User role"
 msgid "Author"
 msgstr "Författare"
 
 #. translators: user role
-#: wp-admin/includes/schema.php:396
+#: wp-admin/includes/schema.php:395
 msgctxt "User role"
 msgid "Contributor"
 msgstr "Medarbetare"
 
 #. translators: user role
-#: wp-admin/includes/schema.php:398
+#: wp-admin/includes/schema.php:397
 msgctxt "User role"
 msgid "Subscriber"
 msgstr "Prenumerant"
@@ -13257,13 +13257,13 @@ msgstr ","
 msgid "number_format_thousands_sep"
 msgstr " "
 
-#: wp-includes/media.php:342
+#: wp-includes/media.php:362
 msgid "Could not read image size"
 msgstr "Kunde inte läsa bildens storlek"
 
-#: wp-includes/media.php:375
-#: wp-includes/media.php:378
-#: wp-includes/media.php:383
+#: wp-includes/media.php:395
+#: wp-includes/media.php:398
+#: wp-includes/media.php:403
 msgid "Resize path invalid"
 msgstr "Storleksyta felaktig"
 
@@ -14476,6 +14476,16 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta funkar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "Post Thumbnail"
+#~ msgstr "Inläggsminiatyr"
+#~ msgid "Page Thumbnail"
+#~ msgstr "Sidminiatyr"
+#~ msgid "Use as thumbnail"
+#~ msgstr "Använd som miniatyr"
+#~ msgid "Set thumbnail"
+#~ msgstr "Ange miniatyr"
+#~ msgid "Remove thumbnail"
+#~ msgstr "Ta bort miniatyr"
 #~ msgid "Allow Comments on this page."
 #~ msgstr "Tillåt kommentarer på den här sidan."
 #~ msgid "Undo?"
@@ -14610,8 +14620,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 #~ msgstr "Media raderad."
 #~ msgid "Media removed from Trash."
 #~ msgstr "Media borttaget ur papperskorgen."
-#~ msgid "Keep this post private"
-#~ msgstr "Behåll detta inlägg privat"
 #~ msgid "Post Password"
 #~ msgstr "Inläggets lösenord"
 #~ msgid "Password Protect This Post"
