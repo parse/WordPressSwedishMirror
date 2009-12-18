@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-17 00:56+0000\n"
-"PO-Revision-Date: 2009-12-17 05:02+0100\n"
+"POT-Creation-Date: 2009-12-18 12:56+0000\n"
+"PO-Revision-Date: 2009-12-18 15:34+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -1577,8 +1577,8 @@ msgstr "Länken sparad."
 #: wp-admin/includes/template.php:2453
 #: wp-admin/includes/template.php:2542
 #: wp-admin/themes.php:277
-#: wp-admin/update-core.php:224
-#: wp-admin/update-core.php:231
+#: wp-admin/update-core.php:232
+#: wp-admin/update-core.php:239
 #: wp-admin/user-edit.php:183
 #: wp-content/themes/classic/comments-popup.php:71
 #: wp-content/themes/classic/comments.php:57
@@ -4030,7 +4030,7 @@ msgid "Incoming Links"
 msgstr "Inkommande länkar"
 
 #: wp-admin/includes/dashboard.php:50
-#: wp-admin/update-core.php:153
+#: wp-admin/update-core.php:161
 #: wp-includes/js/tinymce/langs/wp-langs.php:254
 msgid "Plugins"
 msgstr "Tillägg"
@@ -4680,7 +4680,7 @@ msgid "Proceed"
 msgstr "Fortsätt"
 
 #: wp-admin/includes/image-edit.php:19
-#: wp-admin/includes/image-edit.php:539
+#: wp-admin/includes/image-edit.php:540
 msgid "Image data does not exist. Please re-upload the image."
 msgstr "Bilddata saknas. Var vänlig ladda upp bilden igen."
 
@@ -4859,19 +4859,19 @@ msgstr "Bilden har återställts."
 msgid "Unable to create new image."
 msgstr "Kunde inte skapa ny bild."
 
-#: wp-admin/includes/image-edit.php:523
+#: wp-admin/includes/image-edit.php:524
 msgid "Error while saving the scaled image. Please reload the page and try again."
 msgstr "Ett fel uppstod när den skalade bilden skulle sparas. Ladda om sidan och försök igen."
 
-#: wp-admin/includes/image-edit.php:531
+#: wp-admin/includes/image-edit.php:532
 msgid "Nothing to save, the image has not changed."
 msgstr "Det finns inget att spara, bilden har inte ändrats."
 
-#: wp-admin/includes/image-edit.php:574
+#: wp-admin/includes/image-edit.php:575
 msgid "Unable to save the image."
 msgstr "Kunde inte spara bilden."
 
-#: wp-admin/includes/image-edit.php:659
+#: wp-admin/includes/image-edit.php:660
 msgid "Image saved"
 msgstr "Bilden sparad."
 
@@ -7129,11 +7129,26 @@ msgstr "Verifierar uppackade filer"
 msgid "The update could not be unpacked"
 msgstr "Uppdateringen kunde inte packas upp"
 
-#: wp-admin/includes/update-core.php:230
+#: wp-admin/includes/update-core.php:237
+#, php-format
+msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
+msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
+
+#: wp-admin/includes/update-core.php:239
+#, php-format
+msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
+msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s eller senare. Du kör PHP %3$s."
+
+#: wp-admin/includes/update-core.php:241
+#, php-format
+msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
+msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst MySQL %2$s eller nyare. Du kör MySQL %3$s."
+
+#: wp-admin/includes/update-core.php:243
 msgid "Installing the latest version"
 msgstr "Installerar den senaste versionen"
 
-#: wp-admin/includes/update-core.php:255
+#: wp-admin/includes/update-core.php:268
 msgid "Upgrading database"
 msgstr "Uppgraderar databasen"
 
@@ -7624,7 +7639,7 @@ msgid "Appearance"
 msgstr "Utseende"
 
 #: wp-admin/menu.php:71
-#: wp-admin/update-core.php:219
+#: wp-admin/update-core.php:227
 msgid "Themes"
 msgstr "Teman"
 
@@ -9265,70 +9280,75 @@ msgstr "Visa gömda uppdateringar"
 msgid "Hide hidden updates"
 msgstr "Göm gömda uppdateringar"
 
-#: wp-admin/update-core.php:102
-#: wp-admin/update-core.php:281
-#: wp-admin/update-core.php:346
+#: wp-admin/update-core.php:104
+#: wp-admin/update-core.php:289
+#: wp-admin/update-core.php:363
 msgid "Upgrade WordPress"
 msgstr "Uppgradera WordPress"
 
-#: wp-admin/update-core.php:106
+#: wp-admin/update-core.php:108
+msgid "Please select one or more plugins to upgrade."
+msgstr "Var vänlig välj ett eller flera tillägg att uppgradera."
+
+#: wp-admin/update-core.php:114
 msgid "You have the latest version of WordPress. You do not need to upgrade"
 msgstr "Du har den senaste versionen av WordPress. Ingen uppgradering nödvändig"
 
-#: wp-admin/update-core.php:110
+#: wp-admin/update-core.php:118
 msgid "<strong>Important:</strong> before upgrading, please <a href=\"http://codex.wordpress.org/WordPress_Backups\">backup your database and files</a>."
 msgstr "<strong>Viktigt:</strong> Innan du uppgraderar, ta en <a href=\"http://wp-support.se/dokumentation/Installation:Att_ta_backup_av_din_databas\">backup av din databas och filer</a>."
 
-#: wp-admin/update-core.php:114
+#: wp-admin/update-core.php:122
 msgid "There is a new version of WordPress available for upgrade"
 msgstr "Det finns en ny version av WordPress tillgänglig för uppgradering"
 
-#: wp-admin/update-core.php:154
+#: wp-admin/update-core.php:162
 msgid "The following plugins have new versions available.  Check the ones you want to upgrade and then click \"Upgrade Plugins\"."
 msgstr "Följande tillägg har tillgängliga uppgraderingar. Markera dem du vill uppgradera och klicka sedan på \"Uppgradera tillägg\"."
 
-#: wp-admin/update-core.php:157
-#: wp-admin/update-core.php:209
-#: wp-admin/update-core.php:338
+#: wp-admin/update-core.php:165
+#: wp-admin/update-core.php:217
+#: wp-admin/update-core.php:349
 msgid "Upgrade Plugins"
 msgstr "Uppgradera tillägg"
 
-#: wp-admin/update-core.php:162
-#: wp-admin/update-core.php:169
+#: wp-admin/update-core.php:170
+#: wp-admin/update-core.php:177
 #: wp-includes/js/tinymce/langs/wp-langs.php:116
 msgid "Select All"
 msgstr "Välj alla"
 
-#: wp-admin/update-core.php:178
-msgid "Compatibility with WordPress %1$s: 100% (according to its author)"
-msgstr "Kompatibilitet med WordPress %1$s: 100% (enligt dess skapare)"
+#: wp-admin/update-core.php:186
+#, php-format
+msgid "Compatibility with WordPress %1$s: 100%% (according to its author)"
+msgstr "Kompatibilitet med WordPress %1$s: 100%% (enligt dess skapare)"
 
-#: wp-admin/update-core.php:181
 #: wp-admin/update-core.php:189
+#: wp-admin/update-core.php:197
 #, php-format
 msgid "Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4$d total)"
 msgstr "Kompatibilitet med WordPress %1$s: %2$d%% (%3$d har markerat det som \"kompatibelt\" av totalt %4$d)"
 
-#: wp-admin/update-core.php:183
+#: wp-admin/update-core.php:191
 #, php-format
 msgid "Compatibility with WordPress %1$s: Unknown)"
 msgstr "Kompatibilitet med WordPress %1$s: Okänd)"
 
-#: wp-admin/update-core.php:191
+#: wp-admin/update-core.php:199
 #, php-format
 msgid "Compatibility with WordPress %1$s: Unknown"
 msgstr "Kompatibilitet med WordPress %1$s: Okänd"
 
-#: wp-admin/update-core.php:203
+#: wp-admin/update-core.php:211
 #, php-format
 msgid "You are running version %1$s. Upgrade to %2$s."
 msgstr "Du använder version %1$s. Uppgradera till %2$s."
 
-#: wp-admin/update-core.php:298
+#: wp-admin/update-core.php:306
 msgid "Installation Failed"
 msgstr "Installationen misslyckades"
 
-#: wp-admin/update-core.php:300
+#: wp-admin/update-core.php:308
 msgid "WordPress upgraded successfully"
 msgstr "Uppgradering av WordPress lyckades"
 
@@ -10797,7 +10817,7 @@ msgstr "Hittade en likadan kommentar; det verkar som om du redan hade sagt det h
 msgid "You are posting comments too quickly.  Slow down."
 msgstr "Du postar kommentarer alltför snabbt. Sänk farten."
 
-#: wp-includes/comment.php:1266
+#: wp-includes/comment.php:1274
 msgid "Could not update comment status"
 msgstr "Kunde inte uppdatera kommentarsstatus"
 
@@ -11483,19 +11503,19 @@ msgstr "Nästa &raquo;"
 msgid "User has blocked requests through HTTP."
 msgstr "Användaren har blockerat förfrågningar via HTTP."
 
-#: wp-includes/http.php:744
-#: wp-includes/http.php:1367
+#: wp-includes/http.php:746
+#: wp-includes/http.php:1380
 msgid "Too many redirects."
 msgstr "För många omdirigeringar."
 
-#: wp-includes/http.php:824
-#: wp-includes/http.php:951
+#: wp-includes/http.php:826
+#: wp-includes/http.php:955
 #, php-format
 msgid "Malformed URL: %s"
 msgstr "Felformaterad URL: %s"
 
-#: wp-includes/http.php:835
-#: wp-includes/http.php:1008
+#: wp-includes/http.php:837
+#: wp-includes/http.php:1012
 #, php-format
 msgid "Could not open handle for fopen() to %s"
 msgstr "Kunde inte öppna hantering för fopen() till %s"
@@ -13819,7 +13839,7 @@ msgstr "Kan inte läsa filen."
 msgid "Template is missing."
 msgstr "Mall saknas."
 
-#: wp-includes/theme.php:595
+#: wp-includes/theme.php:597
 msgid "Stylesheet is missing."
 msgstr "Stilmall saknas."
 
@@ -17081,8 +17101,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 #, fuzzy
 #~ msgid "Delete Checked Comments"
 #~ msgstr "Radera valda kommentarer &raquo;"
-#~ msgid "Please select some comments to delete"
-#~ msgstr "Välj några kommentarer att radera"
 #~ msgid ""
 #~ "You are about to delete %s comments permanently \n"
 #~ "  'Cancel' to stop, 'OK' to delete."
