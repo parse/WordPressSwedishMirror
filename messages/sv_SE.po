@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2009-12-18 12:56+0000\n"
-"PO-Revision-Date: 2009-12-18 19:12+0100\n"
+"POT-Creation-Date: 2009-12-18 18:23+0000\n"
+"PO-Revision-Date: 2009-12-18 20:16+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -7121,34 +7121,34 @@ msgstr "Kan inte lokalisera WordPress temakatalog."
 msgid "Could not fully remove the theme %s"
 msgstr "Kunde inte ta bort temat %s fullständigt"
 
-#: wp-admin/includes/update-core.php:223
-msgid "Verifying the unpacked files"
-msgstr "Verifierar uppackade filer"
-
-#: wp-admin/includes/update-core.php:227
-msgid "The update could not be unpacked"
-msgstr "Uppdateringen kunde inte packas upp"
-
-#: wp-admin/includes/update-core.php:237
+#: wp-admin/includes/update-core.php:231
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
 
-#: wp-admin/includes/update-core.php:239
+#: wp-admin/includes/update-core.php:233
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s eller senare. Du kör PHP %3$s."
 
-#: wp-admin/includes/update-core.php:241
+#: wp-admin/includes/update-core.php:235
 #, php-format
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst MySQL %2$s eller nyare. Du kör MySQL %3$s."
 
-#: wp-admin/includes/update-core.php:243
+#: wp-admin/includes/update-core.php:238
+msgid "Verifying the unpacked files"
+msgstr "Verifierar uppackade filer"
+
+#: wp-admin/includes/update-core.php:242
+msgid "The update could not be unpacked"
+msgstr "Uppdateringen kunde inte packas upp"
+
+#: wp-admin/includes/update-core.php:245
 msgid "Installing the latest version"
 msgstr "Installerar den senaste versionen"
 
-#: wp-admin/includes/update-core.php:268
+#: wp-admin/includes/update-core.php:270
 msgid "Upgrading database"
 msgstr "Uppgraderar databasen"
 
@@ -9330,10 +9330,6 @@ msgid "Compatibility with WordPress %1$s: %2$d%% (%3$d \"works\" votes out of %4
 msgstr "Kompatibilitet med WordPress %1$s: %2$d%% (%3$d har markerat det som \"kompatibelt\" av totalt %4$d)"
 
 #: wp-admin/update-core.php:191
-#, php-format
-msgid "Compatibility with WordPress %1$s: Unknown)"
-msgstr "Kompatibilitet med WordPress %1$s: Okänt"
-
 #: wp-admin/update-core.php:199
 #, php-format
 msgid "Compatibility with WordPress %1$s: Unknown"
@@ -14456,6 +14452,8 @@ msgstr "ltr"
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta fungerar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
 
+#~ msgid "Compatibility with WordPress %1$s: Unknown)"
+#~ msgstr "Kompatibilitet med WordPress %1$s: Okänt"
 #~ msgid "Delete Comment"
 #~ msgstr "Radera kommentar"
 #~ msgid "oEmbed discovery"
