@@ -211,8 +211,8 @@ switch($step) {
 
 <p class="step"><a href="install.php" class="button">Köra installationen</a></p>
 <?php
-	break;
 	endif;
+	break;
 }
 ?>
 </body>
