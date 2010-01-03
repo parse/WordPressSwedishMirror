@@ -169,16 +169,16 @@ switch($step) {
 	foreach ($configFile as $line_num => $line) {
 		switch (substr($line,0,16)) {
 			case "define('DB_NAME'":
-				f$configFile[$line_num] = str_replace("ange-databasnamn", $dbname, $line));
+				$configFile[$line_num] = str_replace("ange-databasnamn", $dbname, $line);
 				break;
 			case "define('DB_USER'":
-				$configFile[$line_num] = str_replace("'ange-databasanvandare'", "'$uname'", $line));
+				$configFile[$line_num] = str_replace("'ange-databasanvandare'", "'$uname'", $line);
 				break;
 			case "define('DB_PASSW":
-				$configFile[$line_num] = str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line));
+				$configFile[$line_num] = str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line);
 				break;
 			case "define('DB_HOST'":
-				$configFile[$line_num] = str_replace("localhost", $dbhost, $line));
+				$configFile[$line_num] = str_replace("localhost", $dbhost, $line);
 				break;
 			case '$table_prefix  =':
 				$configFile[$line_num] = str_replace('wp_', $prefix, $line); 
