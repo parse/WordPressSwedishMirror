@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-01-27 00:56+0000\n"
-"PO-Revision-Date: 2010-01-27 03:59+0100\n"
+"PO-Revision-Date: 2010-02-02 22:54+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -1399,9 +1399,9 @@ msgid "Post submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
 msgstr "Inlägg sparat. <a target=\"_blank\" href=\"%s\">Förhandsgranska inlägg</a>"
 
 #: wp-admin/edit-form-advanced.php:35
-#, fuzzy, php-format
+#, php-format
 msgid "Post scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview post</a>"
-msgstr "Inlägg schemalagt till: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Förhandsgranska inlägg</a>"
+msgstr "Inlägg schemalagt till: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Förhandsgranska inlägg</a>"
 
 #. translators: Publish box date format, see http://php.net/date
 #. translators: Publish box date formt, see http://php.net/date
@@ -1442,9 +1442,9 @@ msgid "Page submitted. <a target=\"_blank\" href=\"%s\">Preview page</a>"
 msgstr "Sidan sparad. <a target=\"_blank\" href=\"%s\">Förhandsgranska sidan</a>"
 
 #: wp-admin/edit-form-advanced.php:49
-#, fuzzy, php-format
+#, php-format
 msgid "Page scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview page</a>"
-msgstr "Sida schemalagd till: <b>%1$s</b>. <a target=\"_blank\" href=\"%2$s\">Förhandsgranska sida</a>"
+msgstr "Sida schemalagd till: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Förhandsgranska sida</a>"
 
 #: wp-admin/edit-form-advanced.php:50
 #, php-format
@@ -1884,33 +1884,33 @@ msgstr[0] " %s sida ej uppdaterad, någon annan redigerar den."
 msgstr[1] " %s sidor ej uppdaterade, någon annan redigerar dem."
 
 #: wp-admin/edit.php:194
-#, fuzzy, php-format
+#, php-format
 msgid "Item permanently deleted."
 msgid_plural "%s items permanently deleted."
-msgstr[0] "Sidan raderad permanent."
-msgstr[1] "%s sidor raderade permanent."
+msgstr[0] "Posten raderad permanent."
+msgstr[1] "%s poster raderade permanent."
 
 #: wp-admin/edit.php:199
-#, fuzzy, php-format
+#, php-format
 msgid "Item moved to the trash."
 msgid_plural "%s items moved to the trash."
-msgstr[0] "flyttad till papperskorgen."
-msgstr[1] "flyttad till papperskorgen."
+msgstr[0] "Posten flyttad till papperskorgen."
+msgstr[1] "%s poster flyttade till papperskorgen."
 
 #: wp-admin/edit.php:206
-#, fuzzy, php-format
+#, php-format
 msgid "Item restored from the trash."
 msgid_plural "%s items restored from the trash."
-msgstr[0] "Sidan återställd från papperskorgen."
-msgstr[1] "%s sidor återställda från papperskorgen."
+msgstr[0] "Posten återställd från papperskorgen."
+msgstr[1] "%s poster återställda från papperskorgen."
 
 #: wp-admin/edit.php:228
-#, fuzzy, php-format
+#, php-format
 msgctxt "posts"
 msgid "Mine <span class=\"count\">(%s)</span>"
 msgid_plural "Mine <span class=\"count\">(%s)</span>"
-msgstr[0] "Video <span class=\"count\">(%s)</span>"
-msgstr[1] "Videos <span class=\"count\">(%s)</span>"
+msgstr[0] "Min <span class=\"count\">(%s)</span>"
+msgstr[1] "Mina <span class=\"count\">(%s)</span>"
 
 #: wp-admin/edit.php:234
 #, php-format
@@ -2708,9 +2708,8 @@ msgid "You have no comments to import!"
 msgstr "Du har inga kommentarer att importera!"
 
 #: wp-admin/import/livejournal.php:493
-#, fuzzy
 msgid "Comment metadata downloaded successfully, proceeding with comment bodies..."
-msgstr " Kommentar metadata nerladdat, fortsätter med kommentarinnehållet..."
+msgstr " Kommentar metadata nedladdat, fortsätter med kommentarinnehållet..."
 
 #: wp-admin/import/livejournal.php:518
 msgid "Failed to retrieve comment bodies from LiveJournal. Please try again soon."
@@ -4589,9 +4588,8 @@ msgid "Discard any changes and restore the original image."
 msgstr "Förkasta alla ändringar och återställ originalbilden."
 
 #: wp-admin/includes/image-edit.php:102
-#, fuzzy
 msgid "Previously edited copies of the image will not be deleted."
-msgstr " Tidigare redigerade kopior av bilden kommer inte att raderas."
+msgstr "Tidigare redigerade kopior av bilden kommer inte att raderas."
 
 #: wp-admin/includes/image-edit.php:106
 msgid "Restore image"
@@ -5358,7 +5356,6 @@ msgid "Allow <a href=\"%s\" target=\"_blank\">trackbacks and pingbacks</a> on th
 msgstr "Tillåt <a href=\"%s\" target=\"_blank\">trackbacks and pingar</a> till den här sidan."
 
 #: wp-admin/includes/meta-boxes.php:395
-#, fuzzy
 msgid "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 msgstr "http://codex.wordpress.org/Introduction_to_Blogging#Managing_Comments"
 
@@ -5821,14 +5818,13 @@ msgid "Activate this plugin for all blogs across the entire network"
 msgstr "Aktivera det här tillägget för alla bloggar i nätverket"
 
 #: wp-admin/includes/ms.php:813
-#, fuzzy, php-format
+#, php-format
 msgid "Activate %s Site Wide"
-msgstr "Aktivera \"%s\""
+msgstr "Aktivera %s för hela webbplatsen"
 
 #: wp-admin/includes/ms.php:857
-#, fuzzy
 msgid "Currently Active Site Wide Plugins"
-msgstr "Nuvarande aktiva tillägg"
+msgstr "Nuvarande aktiva tillägg för hela webbplatsen"
 
 #: wp-admin/includes/ms.php:859
 msgid "Plugins that appear in the list below are activate for all blogs across this installation."
@@ -5843,9 +5839,8 @@ msgid "Plugin"
 msgstr "Tillägg"
 
 #: wp-admin/includes/ms.php:882
-#, fuzzy
 msgid "Deactivate this plugin site wide"
-msgstr "Inaktivera det här tillägget"
+msgstr "Inaktivera det här tillägget för hela webbplatsen"
 
 #: wp-admin/includes/ms.php:882
 #: wp-admin/ms-sites.php:489
@@ -6010,9 +6005,8 @@ msgid "Install a plugin in .zip format"
 msgstr "Installera ett tillägg i ZIP-format"
 
 #: wp-admin/includes/plugin-install.php:218
-#, fuzzy
 msgid "If you have a plugin in a .zip format, you may install it by uploading it here."
-msgstr "Om du har ett tillägg i ZIP-format så kan du installera det genom att ladda upp det här."
+msgstr "Om du har ett tillägg i .zip-format så kan du installera det genom att ladda upp det här."
 
 #: wp-admin/includes/plugin-install.php:221
 msgid "Plugin zip file"
@@ -6348,9 +6342,9 @@ msgid "F j, Y g:i a"
 msgstr "j F, Y h:i"
 
 #: wp-admin/includes/schema.php:322
-#, fuzzy, php-format
+#, php-format
 msgid "Just another %s site"
-msgstr "En WordPressblogg till"
+msgstr "En till %s webbplats"
 
 #. translators: user role
 #: wp-admin/includes/schema.php:391
@@ -6462,9 +6456,8 @@ msgstr "Massredigera"
 #: wp-admin/includes/template.php:1295
 #: wp-admin/includes/template.php:1324
 #: wp-admin/includes/template.php:1345
-#, fuzzy
 msgid "&mdash; No Change &mdash;"
-msgstr "&mdash; Ingen roll för den här bloggen &mdash;"
+msgstr "&mdash; Ingen ändring &mdash;"
 
 #. translators: Between password field and private checkbox on post quick edit interface
 #: wp-admin/includes/template.php:1204
@@ -7144,9 +7137,9 @@ msgid "Unable to locate WordPress theme directory."
 msgstr "Kan inte lokalisera WordPress temakatalog."
 
 #: wp-admin/includes/theme.php:97
-#, fuzzy, php-format
+#, php-format
 msgid "Could not fully remove the theme %s."
-msgstr "Kunde inte ta bort temat %s fullständigt"
+msgstr "Kunde inte ta bort temat %s fullständigt."
 
 #: wp-admin/includes/update-core.php:234
 #, php-format
@@ -7254,9 +7247,8 @@ msgid "Blogroll"
 msgstr "Länklista"
 
 #: wp-admin/includes/upgrade.php:168
-#, fuzzy
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
-msgstr "Välkommen till WordPress. Det här är ditt första inlägg. Redigera det eller radera det. Sedan kan du börja blogga!"
+msgstr "Välkommen till <a href=\"SITE_URL\">SITE_NAME</a>. Det här är ditt första inlägg. Redigera det eller radera det. Sedan kan du börja blogga!"
 
 #: wp-admin/includes/upgrade.php:173
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
@@ -7609,14 +7601,13 @@ msgid "To allow use of this page to automatically repair database problems, plea
 msgstr "<p>För att tillåta denna sida att automatiskt reparera databasproblem, ange följande rad i din wp-config.php. När denna rad har lagts till i din konfigurationsfil, ladda om denna sida.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
 
 #: wp-admin/maint/repair.php:69
-#, fuzzy, php-format
+#, php-format
 msgid "Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href=\"%s\">WordPress support forums</a> to get additional assistance."
-msgstr "<p>Vissa databasproblem kunde inte repareras. Var vänlig klipp-och-klistra in följande rader av felmeddelanden i <a href=\"%s\">WordPress supportforum</a> för att få assistans.</p>"
+msgstr "Vissa databasproblem kunde inte repareras. Var vänlig klipp-och-klistra in följande rader av felmeddelanden i <a href=\"%s\">WordPress supportforum</a> för att få assistans."
 
 #: wp-admin/maint/repair.php:75
-#, fuzzy
 msgid "Repairs complete.  Please remove the following line from wp-config.php to prevent this page from being used by unauthorized users."
-msgstr "<p>Reparation klar. Var vänlig ta bort följande rad i din wp-config.php så att ingen obehörig använder denna sida.</p><code>define('WP_ALLOW_REPAIR', true);</code>"
+msgstr "Reparationen är klar. Var vänlig ta bort följande rad i din wp-config.php så att ingen obehörig använder den här sidan."
 
 #: wp-admin/maint/repair.php:79
 msgid "One or more database tables is unavailable.  To allow WordPress to attempt to repair these tables, press the \"Repair Database\" button. Repairing can take awhile, so please be patient."
@@ -7879,9 +7870,8 @@ msgid "Search Blogs"
 msgstr "Sök bloggar"
 
 #: wp-admin/ms-delete-site.php:9
-#, fuzzy
 msgid "You do not have sufficient permissions to delete this blog."
-msgstr "Du saknar rättigheter för att redigera den här bloggens tillägg."
+msgstr "Du saknar behörighet för att redera den här bloggen."
 
 #: wp-admin/ms-delete-site.php:25
 #, php-format
@@ -8084,9 +8074,8 @@ msgid "If registration is disabled, please set \"NOBLOGREDIRECT\" in wp-config.p
 msgstr "Om registreringen är avstängd, ange en url för \"NOBLOGREDIRECT\" i wp-config.php som användare ska skickas till om de besöker en ej existerande blogg."
 
 #: wp-admin/ms-options.php:66
-#, fuzzy
 msgid "Registration notification"
-msgstr "Registreringsformulär"
+msgstr "Registreringsnotifikation"
 
 #: wp-admin/ms-options.php:74
 msgid "Send the site admin an email notification every time someone registers a blog or user account."
@@ -8387,18 +8376,17 @@ msgid "Archived"
 msgstr "Arkiverat"
 
 #: wp-admin/ms-sites.php:126
-#, fuzzy
 msgid "Mature"
-msgstr "Egenskaper"
+msgstr "Vuxenmaterial"
 
 #: wp-admin/ms-sites.php:140
 msgid "Deleted"
 msgstr "Raderade"
 
 #: wp-admin/ms-sites.php:151
-#, fuzzy, php-format
+#, php-format
 msgid "Blog options (%soptions)"
-msgstr "Personliga inställningar"
+msgstr "Blogginställningar (%sinställningar)"
 
 #: wp-admin/ms-sites.php:207
 #: wp-admin/ms-themes.php:28
@@ -8481,14 +8469,14 @@ msgid "Backend"
 msgstr "Adminpanel"
 
 #: wp-admin/ms-sites.php:487
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to activate the blog %s"
-msgstr "Du håller på att godkänna följande kommentar:"
+msgstr "Du håller på att aktivera bloggen %s"
 
 #: wp-admin/ms-sites.php:489
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to deactivate the blog %s"
-msgstr "Du håller på att radera följande kommentar:"
+msgstr "Du håller på att inaktivera bloggen %s"
 
 #: wp-admin/ms-sites.php:492
 #, fuzzy, php-format
@@ -8577,19 +8565,16 @@ msgid "The username and password will be mailed to this email address."
 msgstr "Användarnamn och lösenord kommer att mailas till den här e-postadressen."
 
 #: wp-admin/ms-themes.php:4
-#, fuzzy
 msgid "WordPress &rsaquo; Admin &rsaquo; Themes"
-msgstr "WordPress &rsaquo; uppgradering"
+msgstr "WordPress &rsaquo; Adminteman"
 
 #: wp-admin/ms-themes.php:13
-#, fuzzy
 msgid "Site themes saved."
-msgstr "Inställningarna sparade."
+msgstr "Webbplatsteman sparade."
 
 #: wp-admin/ms-themes.php:23
-#, fuzzy
 msgid "Site Themes"
-msgstr "Redigera teman"
+msgstr "Webbplatsteman"
 
 #: wp-admin/ms-themes.php:24
 msgid "Disable themes site-wide. You can enable themes on a site by site basis."
@@ -8604,14 +8589,14 @@ msgid "Total"
 msgstr "Totalt"
 
 #: wp-admin/ms-themes.php:72
-#, fuzzy, php-format
+#, php-format
 msgid "Themes Installed: %d"
-msgstr "Temainstallerare"
+msgstr "Teman installerade: %d"
 
 #: wp-admin/ms-themes.php:74
-#, fuzzy, php-format
+#, php-format
 msgid "Themes Activated: %d"
-msgstr "Aktivera \"%s\""
+msgstr "Teman aktiverade: %d"
 
 #: wp-admin/ms-upgrade-site.php:9
 #: wp-admin/ms-upgrade-site.php:18
@@ -8624,9 +8609,8 @@ msgid "If your browser doesn't start loading the next page automatically click t
 msgstr "Om du inte skickas vidare automatiskt, klicka på följande länk:"
 
 #: wp-admin/ms-upgrade-site.php:47
-#, fuzzy
 msgid "Next Blogs"
-msgstr "Följande inlägg"
+msgstr "Nästkommande bloggar"
 
 #: wp-admin/ms-upgrade-site.php:57
 msgid "All Done!"
@@ -8772,9 +8756,8 @@ msgid "Replace the contents of your <code>.htaccess</code> with the following:"
 msgstr ""
 
 #: wp-admin/network.php:105
-#, fuzzy
 msgid "Installing Network of WordPress Sites"
-msgstr "Installera WordPress"
+msgstr "Installera nätverk av WordPress-webbplatser"
 
 #: wp-admin/network.php:106
 msgid "I will help you enable the features for creating a network of sites by asking you a few questions so that you can create configuration files and make a directory to store all your uploaded files."
@@ -8801,23 +8784,21 @@ msgid "If the <code>mod_rewrite</code> module is disabled ask your administrator
 msgstr ""
 
 #: wp-admin/network.php:120
-#, fuzzy
 msgid "<strong>Warning!</strong> It looks like mod_rewrite is not installed."
-msgstr "<strong>Varning:</strong> de här sidorna borde inte vara likadana!"
+msgstr "<strong>Varning:</strong> det verkar som om mod_rewrite inte är installerat."
 
 #: wp-admin/network.php:124
 msgid "Please make sure <code>mod_rewrite</code> is installed as it will be activated at the end of this install."
 msgstr ""
 
 #: wp-admin/network.php:130
-#, fuzzy, php-format
+#, php-format
 msgid "%s Sites"
-msgstr "Besök sida"
+msgstr "%s Webbplatser"
 
 #: wp-admin/network.php:139
-#, fuzzy
 msgid "Site Addresses"
-msgstr "Webbadress"
+msgstr "Webbplatsadress"
 
 #: wp-admin/network.php:140
 msgid "Please choose whether you would like sites in your WordPress install to use sub-domains or sub-directories. You cannot change this later."
@@ -8837,9 +8818,8 @@ msgstr ""
 
 #: wp-admin/network.php:149
 #: wp-admin/network.php:155
-#, fuzzy
 msgid "Server Address"
-msgstr "Ordna efter adress"
+msgstr "Serveradress"
 
 #: wp-admin/network.php:151
 #, php-format
@@ -8856,19 +8836,16 @@ msgid "Do not use an IP address (like 127.0.0.1) or a single word hostname like 
 msgstr ""
 
 #: wp-admin/network.php:164
-#, fuzzy
 msgid "Site Details"
-msgstr "Detaljer"
+msgstr "Webbplatsdetaljer"
 
 #: wp-admin/network.php:167
-#, fuzzy
 msgid "Site&nbsp;Title"
-msgstr "Visa&nbsp;alla"
+msgstr "Webbplatstitel"
 
 #: wp-admin/network.php:170
-#, fuzzy
 msgid "What would you like to call your site?"
-msgstr "Vad vill du kalla den här webbplatsen."
+msgstr "Vad vill du kalla den här webbplatsen?"
 
 #: wp-admin/network.php:177
 msgid "Your email address."
@@ -8940,7 +8917,7 @@ msgstr "Användare måste vara registrerade och inloggade för att kunna komment
 
 #: wp-admin/options-discussion.php:55
 msgid " (Signup has been disabled. Only members of this site can comment)"
-msgstr ""
+msgstr " (Registreringar har inaktiverats. Endast medlemmar på den här webbplatsen kan kommentera)"
 
 #: wp-admin/options-discussion.php:61
 #, php-format
@@ -9875,7 +9852,7 @@ msgstr "Valda tillägg <strong>inaktiverade</strong>."
 
 #: wp-admin/plugins.php:327
 msgid "No out of date plugins were selected."
-msgstr ""
+msgstr "Inga föråldrade tillägg har markerats."
 
 #: wp-admin/plugins.php:467
 msgid "No plugins to show"
@@ -14584,9 +14561,8 @@ msgid "Username must be at least 4 characters"
 msgstr "Användarnamn måste bestå av minst 4 tecken"
 
 #: wp-includes/ms-functions.php:974
-#, fuzzy
 msgid "Sorry, usernames may not contain the character '_'!"
-msgstr "<strong>FEL</strong>: Lösenord kan inte innehålla tecknet \"\\\"."
+msgstr "Användarnamn kan inte innehålla tecknet '_'!"
 
 #: wp-includes/ms-functions.php:980
 msgid "Sorry, usernames must have letters too!"
@@ -14606,23 +14582,20 @@ msgid "Sorry, that email address is not allowed!"
 msgstr "Tyvärr, den nyckeln verkar inte stämma."
 
 #: wp-includes/ms-functions.php:997
-#, fuzzy
 msgid "Sorry, that username already exists!"
-msgstr "Inlägg <em>%s</em> finns redan."
+msgstr "Det användarnamnet finns redan registrerat!"
 
 #: wp-includes/ms-functions.php:1001
-#, fuzzy
 msgid "Sorry, that email address is already used!"
-msgstr "En riktig e-postadress krävs"
+msgstr "Den e-postadressen används redan!"
 
 #: wp-includes/ms-functions.php:1013
 msgid "That username is currently reserved but may be available in a couple of days."
 msgstr ""
 
 #: wp-includes/ms-functions.php:1016
-#, fuzzy
 msgid "username and email used"
-msgstr "Användarnamn eller E-post:"
+msgstr "användarnamn och e-postadress använt"
 
 #: wp-includes/ms-functions.php:1026
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
@@ -15584,9 +15557,9 @@ msgid "Sidebar %d"
 msgstr "Sidopanel %d"
 
 #: wp-includes/wp-db.php:1182
-#, fuzzy, php-format
+#, php-format
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
-msgstr "<strong>FEL</strong>: WordPress %s kräver MySQL 4.1.2 eller senare"
+msgstr "<strong>FEL</strong>: WordPress %1$s kräver MySQL %2$s eller senare"
 
 #: wp-login.php:86
 msgid "Powered by WordPress"
@@ -15939,7 +15912,7 @@ msgstr ""
 #: wp-signup.php:366
 #, php-format
 msgid "Have you entered your email correctly?  We think it's %s but if you've entered it incorrectly, you won't receive it."
-msgstr ""
+msgstr "Har du angett din e-postadress korrekt? Vi tror att det är %s men om du angett det felaktigt så kommer du inte att få det."
 
 #: wp-signup.php:381
 #, php-format
