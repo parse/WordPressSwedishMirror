@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-02-06 20:56+0000\n"
-"PO-Revision-Date: 2010-02-07 04:27+0100\n"
+"PO-Revision-Date: 2010-02-08 05:30+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -577,9 +577,9 @@ msgid "Show Text"
 msgstr "Visa texten"
 
 #: wp-admin/custom-header.php:283
-#, fuzzy, php-format
+#, php-format
 msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
-msgstr "Sidomenyn uppdaterad. <a href=\"%s\">Visa webbplatsen &raquo;</a>"
+msgstr "Sidhuvud uppdaterat. <a href=\"%s\">Visa din webbplats</a> för att se hur det blev."
 
 #: wp-admin/custom-header.php:289
 msgid "Your Header Image"
@@ -5598,6 +5598,19 @@ msgid ""
 "All at ###SITENAME###\n"
 "###SITEURL###"
 msgstr ""
+"Kära användare,\n"
+"\n"
+"Du efterfrågade nyligen om att få din e-postadress ändrad för ditt konto.\n"
+"Om detta stämmer, klicka på följande länk för att ändra den:\n"
+"###ADMIN_URL###\n"
+"\n"
+"Du kan ignorera och radera detta mail om du inte vill utföra detta.\n"
+"\n"
+"Detta mail har skickats till ###EMAIL###\n"
+"\n"
+"Hälsningar\n"
+"###SITENAME###\n"
+"###SITEURL###"
 
 #: wp-admin/includes/ms.php:316
 #, php-format
@@ -5703,9 +5716,8 @@ msgstr "Tack för att du uppgraderar! Var vänlig gå till sidan <a href=\"ms-up
 
 #. translators: My sites label
 #: wp-admin/includes/ms.php:685
-#, fuzzy
 msgid "Primary Site"
-msgstr "Primär blogg"
+msgstr "Primär webbplats"
 
 #: wp-admin/includes/ms.php:760
 #, php-format
@@ -6009,9 +6021,8 @@ msgid "You are not allowed to edit posts."
 msgstr "Du saknar rättigheter för att redigera inlägg."
 
 #: wp-admin/includes/post.php:357
-#, fuzzy
 msgid "Auto Draft"
-msgstr "Starta automatiskt"
+msgstr "Automatiskt utkast"
 
 #: wp-admin/includes/post.php:469
 msgid "You are not allowed to create pages on this blog."
@@ -6121,9 +6132,8 @@ msgstr "Min blogg"
 
 #. translators: blog tagline
 #: wp-admin/includes/schema.php:200
-#, fuzzy
 msgid "Just another WordPress site"
-msgstr "En WordPressblogg till"
+msgstr "En WordPresswebbplats till"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:221
@@ -6226,7 +6236,7 @@ msgstr ""
 
 #: wp-admin/includes/schema.php:752
 msgid "From the README.txt:"
-msgstr ""
+msgstr "Ur filen README.txt:"
 
 #: wp-admin/includes/schema.php:753
 msgid "If you want to host blogs of the form http://blog.domain.tld/ where domain.tld is the domain name of your machine then you must add a wildcard record to your DNS records. This usually means adding a '*' hostname record pointing at your webserver in your DNS configuration tool.  Matt has a more detailed <a href='http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/'>explanation</a> on his blog. If you still have problems, these <a href='http://mu.wordpress.org/forums/tags/wildcard'>forum messages</a> may help."
@@ -7733,9 +7743,8 @@ msgid "You have %1$s and %2$s."
 msgstr "Du har %1$s och %2$s."
 
 #: wp-admin/ms-admin.php:35
-#, fuzzy
 msgid "Create a New Site"
-msgstr "Skapa en ny användare"
+msgstr "Skapa en ny webbplats"
 
 #: wp-admin/ms-admin.php:36
 msgid "Create a New User"
@@ -7749,9 +7758,8 @@ msgid "Search Users"
 msgstr "Sök användare"
 
 #: wp-admin/ms-admin.php:55
-#, fuzzy
 msgid "Search Sites"
-msgstr "Sök widgets"
+msgstr "Sök webbplats"
 
 #: wp-admin/ms-delete-site.php:9
 msgid "You do not have sufficient permissions to delete this blog."
@@ -7775,6 +7783,20 @@ msgid ""
 "Webmaster\n"
 "SITE_NAME\n"
 msgstr ""
+"Kära användare,\n"
+"Du klickade nyligen på 'Radera blogg'-länken i din blogg och fyllde i \n"
+"ett formulär på samma sida.\n"
+"Om du verkligen vill radera din blogg, klicka på länken nedan. Du kommer inte\n"
+"att frågas efter bekräftelse igen, så klicka bara på länken om du är 100% säker:\n"
+"URL_DELETE\n"
+"\n"
+"Om du väljer att radera din blogg så är du alltid välkommen tillbaka\n"
+"i framtiden! (Men kom ihåg din nuvarande blogg och ditt användarnamn \n"
+"försvinner för gott.)\n"
+"\n"
+"Tack för att du använder sidan,\n"
+"Webmaster\n"
+"SITE_NAME\n"
 
 #: wp-admin/ms-delete-site.php:42
 msgid "Delete My Blog"
@@ -7782,21 +7804,21 @@ msgstr "Radera min blogg"
 
 #: wp-admin/ms-delete-site.php:44
 msgid "Thank you. Please check your email for a link to confirm your action. Your blog will not be deleted until this link is clicked."
-msgstr ""
+msgstr "Tack. Var vänlig se din e-post för bekräftelselänk. Din blogg kommer inte att tas bort fören länken har besökts."
 
 #: wp-admin/ms-delete-site.php:49
 #, php-format
 msgid "Thank you for using %s, your blog has been deleted. Happy trails to you until we meet again."
-msgstr ""
+msgstr "Tack för att du använt %s, din blogg har raderats. Ha det bra tills vi ses igen."
 
 #: wp-admin/ms-delete-site.php:51
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
-msgstr ""
+msgstr "Beklagar, länken du klickade på är gammal. Var vänlig gör ett nytt val."
 
 #: wp-admin/ms-delete-site.php:55
 #, php-format
 msgid "If you do not want to use your %s blog any more, you can delete it using the form below. When you click <strong>Delete My Blog</strong> you will be sent an email with a link in it. Click on this link to delete your blog."
-msgstr ""
+msgstr "Om du inte vill använda din %s blogg något mer så kan du radera den genom att använda formuläret nedan. När du klickar på <strong>Radera min blogg</strong> så kommer du att få ett mail med en länk i. Klicka på denna länk för att ta bort din blogg."
 
 #: wp-admin/ms-delete-site.php:56
 msgid "Remember, once deleted your blog cannot be restored."
@@ -7805,7 +7827,7 @@ msgstr "Kom ihåg, en raderad blogg kan inte återställas."
 #: wp-admin/ms-delete-site.php:59
 #, php-format
 msgid "I'm sure I want to permanently disable my blog, and I am aware I can never get it back or use %s again."
-msgstr ""
+msgstr "Jag är säker på att jag permanent vill inaktivera min blogg, jag vet att den inte kan återställas och jag kan inte använda %s igen."
 
 #: wp-admin/ms-delete-site.php:60
 msgid "Delete My Blog Permanently"
@@ -7875,9 +7897,8 @@ msgid "Warning! User cannot be modified. The user %s is a site admnistrator."
 msgstr "Varning! Användaren kan inte modifieras. Användaren %s är webbplatsadministratör."
 
 #: wp-admin/ms-edit.php:487
-#, fuzzy
 msgid "Cannot create an empty user."
-msgstr "Kan inte ladda importören."
+msgstr "Kan inte skapa en tom användare."
 
 #: wp-admin/ms-edit.php:490
 msgid "Missing username and email."
@@ -7892,9 +7913,8 @@ msgid "Missing email."
 msgstr "E-postadress saknas."
 
 #: wp-admin/ms-edit.php:500
-#, fuzzy
 msgid "Duplicated username or email address."
-msgstr "du måste ange en e-postadress."
+msgstr "Dubbelt användarnamn eller e-postadress."
 
 #: wp-admin/ms-options.php:17
 #: wp-content/plugins/akismet/akismet.php:130
@@ -7919,9 +7939,8 @@ msgid "What you would like to call this website."
 msgstr "Vad vill du kalla den här webbplatsen."
 
 #: wp-admin/ms-options.php:39
-#, fuzzy
 msgid "Site Admin Email"
-msgstr "Administration"
+msgstr "Administratörens E-post"
 
 #: wp-admin/ms-options.php:43
 #, php-format
@@ -7982,30 +8001,28 @@ msgid "Blogname ('dashboard', 'control', 'manager', etc) or blog id.<br />New us
 msgstr "Bloggnamn ('panel', 'kontroll', 'hanterare', osv) eller bloggens ID.<br /> Nya användare läggs till som prenumeranter i den här bloggen (eller användarrollen angiven nedan) om de inte har en blogg. Lämna tomt om huvudbloggen. Användare med rollen 'Prenumerant' kommer att flyttas till den nya bloggen om angivet. Den nya bloggen kommer att skapas om den inte redan finns."
 
 #: wp-admin/ms-options.php:105
-#, fuzzy
 msgid "Dashboard User Default Role"
-msgstr "Förvald roll för nya användare"
+msgstr "Förvald användarroll för huvudwebbplatsen"
 
 #: wp-admin/ms-options.php:112
 msgid "The default role for new users on the Dashboard blog. This should probably be 'Subscriber' or maybe 'Contributor'."
-msgstr ""
+msgstr "Den förvalda rollen för nya användare i huvudbloggen. Detta bör vara 'Prenumerant' eller kanske 'Medarbetare'."
 
 #: wp-admin/ms-options.php:117
 msgid "Banned Names"
 msgstr "Förbjudna namn"
 
 #: wp-admin/ms-options.php:121
-#, fuzzy
 msgid "Users are not allowed to register these blogs. Separate names by spaces."
-msgstr "Du saknar rättigheter för att återställa denns sida från papperskorgen."
+msgstr "Användare kan ej registrera dessa bloggar. Separera namn med mellanslag."
 
 #: wp-admin/ms-options.php:126
 msgid "Limited Email Registrations"
-msgstr ""
+msgstr "Begränsad E-postregistrering"
 
 #: wp-admin/ms-options.php:132
 msgid "If you want to limit blog registrations to certain domains. One domain per line."
-msgstr ""
+msgstr "Om du vill begränsa bloggregistreringar till vissa domäner. Ange ett domän per rad."
 
 #: wp-admin/ms-options.php:137
 msgid "Banned Email Domains"
@@ -8013,7 +8030,7 @@ msgstr "Förbjudna e-postdomäner"
 
 #: wp-admin/ms-options.php:141
 msgid "If you want to ban certain email domains from blog registrations. One domain per line."
-msgstr ""
+msgstr "Om du vill bannlysa vissa e-postdomän från registrering. Ange en domän per rad."
 
 #: wp-admin/ms-options.php:146
 msgid "Welcome Email"
@@ -8038,7 +8055,7 @@ msgstr "Första inlägget"
 
 #: wp-admin/ms-options.php:166
 msgid "First post on a new blog."
-msgstr ""
+msgstr "Första posten i en ny blogg."
 
 #: wp-admin/ms-options.php:170
 msgid "First Page"
@@ -8046,7 +8063,7 @@ msgstr "Första sidan"
 
 #: wp-admin/ms-options.php:174
 msgid "First page on a new blog."
-msgstr ""
+msgstr "Första sidan i en ny blogg."
 
 #: wp-admin/ms-options.php:178
 msgid "First Comment"
@@ -8054,7 +8071,7 @@ msgstr "Första kommentaren"
 
 #: wp-admin/ms-options.php:182
 msgid "First comment on a new blog."
-msgstr ""
+msgstr "Första kommentaren i en ny blogg."
 
 #: wp-admin/ms-options.php:186
 msgid "First Comment Author"
@@ -8062,7 +8079,7 @@ msgstr "Första kommentarsförfattare"
 
 #: wp-admin/ms-options.php:190
 msgid "Author of first comment on a new blog."
-msgstr ""
+msgstr "Första kommentarsförfattaren i en ny blogg."
 
 #: wp-admin/ms-options.php:194
 msgid "First Comment URL"
@@ -8070,12 +8087,11 @@ msgstr "Första kommentars-url"
 
 #: wp-admin/ms-options.php:198
 msgid "URL on first comment on a new blog."
-msgstr ""
+msgstr "URL för den första kommentaren i en ny blogg."
 
 #: wp-admin/ms-options.php:203
-#, fuzzy
 msgid "Upload media button"
-msgstr "Uppladdat den:"
+msgstr "Knapp för mediauppladdning"
 
 #: wp-admin/ms-options.php:206
 msgid "Videos"
@@ -8087,11 +8103,11 @@ msgstr "Musik"
 
 #: wp-admin/ms-options.php:208
 msgid "The media upload buttons to display on the \"Write Post\" page. Make sure you update the \"Upload File Types\" below as well."
-msgstr ""
+msgstr "Knappar för mediauppladdning att visa under \"Nytt inlägg\". Försäkra dig om att uppdatera \"Filtyper för uppladdningar\" nedan."
 
 #: wp-admin/ms-options.php:211
 msgid "Blog upload space check"
-msgstr ""
+msgstr "Kontroll av uppladdningsutrymme i bloggar"
 
 #: wp-admin/ms-options.php:213
 #: wp-admin/ms-options.php:276
@@ -8101,16 +8117,15 @@ msgstr "Aktivera"
 
 #: wp-admin/ms-options.php:215
 msgid "By default there is a limit on the total size of files uploaded but it can be disabled here."
-msgstr ""
+msgstr "Som standard så är en gräns satt för det totalat utrymmet som kan användas för uppladdningar, men det kan inaktiveras här."
 
 #: wp-admin/ms-options.php:218
 msgid "Blog upload space"
-msgstr ""
+msgstr "Utrymmeskvot för uppladdning i bloggar"
 
 #: wp-admin/ms-options.php:223
-#, fuzzy
 msgid "Upload File Types"
-msgstr "Laddar upp filer"
+msgstr "Filtyper för uppladdningar"
 
 #: wp-admin/ms-options.php:228
 msgid "Max upload file size"
@@ -8118,20 +8133,19 @@ msgstr "Maximal storlek för filuppladdningar"
 
 #: wp-admin/ms-options.php:232
 msgid "Admin Notice Feed"
-msgstr ""
+msgstr "Flöde för administratörsnotifikationer"
 
 #: wp-admin/ms-options.php:234
 msgid "Display the latest post from this RSS or Atom feed on all blog dashboards. Leave blank to disable."
-msgstr ""
+msgstr "Visa senaste inläggen från detta RSS eller Atom flöde i alla bloggars panel. Lämna tomt för att inaktivera."
 
 #: wp-admin/ms-options.php:236
 msgid "A good one to use would be the feed from your main blog: "
-msgstr ""
+msgstr "Ett bra flöde att ange är kanske flödet från den primära bloggen:"
 
 #: wp-admin/ms-options.php:240
-#, fuzzy
 msgid "Administration Settings"
-msgstr "Diskussionsinställningar"
+msgstr "Administrationsinställningar"
 
 #: wp-admin/ms-options.php:243
 msgid "Site Admins"
@@ -8139,11 +8153,11 @@ msgstr "Webbplatsadministratörer"
 
 #: wp-admin/ms-options.php:247
 msgid "These users may login to the main blog and administer the site. Space separated list of usernames."
-msgstr ""
+msgstr "Dessa användare kan logga in och administrera sidan. Separera användarnamn med mellanslag."
 
 #: wp-admin/ms-options.php:252
 msgid "Site Wide Settings <em>(These settings may be overridden by blog owners)</em>"
-msgstr ""
+msgstr "Inställningar för hela nätverket <em>(Dessa inställningar kan skrivas över av blogganvändare)</em>"
 
 #: wp-admin/ms-options.php:260
 msgid "Default Language"
@@ -8170,12 +8184,11 @@ msgstr "Uppdatera inställningar"
 
 #: wp-admin/ms-sites.php:26
 msgid "Blogs mark as not spam !"
-msgstr ""
+msgstr "Bloggar avmarkerade som spam !"
 
 #: wp-admin/ms-sites.php:29
-#, fuzzy
 msgid "Blogs mark as spam !"
-msgstr "Markera som skräppost"
+msgstr "Bloggar markerade som spam !"
 
 #: wp-admin/ms-sites.php:32
 msgid "Blogs deleted !"
@@ -8186,45 +8199,40 @@ msgid "Blog deleted !"
 msgstr "Blogg raderad !"
 
 #: wp-admin/ms-sites.php:38
-#, fuzzy
 msgid "Blog added !"
-msgstr "Bloggens namn"
+msgstr "Bloggen tillagd !"
 
 #: wp-admin/ms-sites.php:41
-#, fuzzy
 msgid "Blog archived !"
-msgstr " post arkiverad"
+msgstr "Bloggen arkiverad !"
 
 #: wp-admin/ms-sites.php:44
 msgid "Blog unarchived !"
-msgstr ""
+msgstr "Blogg avarkiverad !"
 
 #: wp-admin/ms-sites.php:47
-#, fuzzy
 msgid "Blog activated !"
-msgstr "Bloggens titel"
+msgstr "Bloggen aktiverad !"
 
 #: wp-admin/ms-sites.php:50
-#, fuzzy
 msgid "Blog deactivated !"
-msgstr "Inaktivera"
+msgstr "Bloggen inaktiverad !"
 
 #: wp-admin/ms-sites.php:53
 msgid "Blog mark as not spam !"
-msgstr ""
+msgstr "Blogg avmarkerad som spam !"
 
 #: wp-admin/ms-sites.php:56
-#, fuzzy
 msgid "Blog mark as spam !"
-msgstr "Markera som skräppost"
+msgstr "Bloggen markerad som spam !"
 
 #: wp-admin/ms-sites.php:59
 msgid "Blog mark as not mature !"
-msgstr ""
+msgstr "Blogg avmarkerad för vuxenmaterial !"
 
 #: wp-admin/ms-sites.php:62
 msgid "Blog mark as mature !"
-msgstr ""
+msgstr "Blogg markerad för vuxenmaterial !"
 
 #: wp-admin/ms-sites.php:65
 msgid "Options saved !"
@@ -8317,7 +8325,7 @@ msgstr "Klicka för att ta bort användare"
 
 #: wp-admin/ms-sites.php:256
 msgid "N/A"
-msgstr ""
+msgstr "Ej tillgängligt"
 
 #: wp-admin/ms-sites.php:267
 msgid "Add a new user"
@@ -8337,9 +8345,8 @@ msgid "Role:"
 msgstr "Roll:"
 
 #: wp-admin/ms-sites.php:295
-#, fuzzy
 msgid "Misc Blog Actions"
-msgstr "Välj åtgärd..."
+msgstr "Övriga bloggval"
 
 #: wp-admin/ms-sites.php:380
 msgid "Search blogs by name"
@@ -8388,28 +8395,27 @@ msgid "You are about to unarchive the blog %s"
 msgstr "Du håller på att godkänna följande kommentar:"
 
 #: wp-admin/ms-sites.php:502
-#, fuzzy
 msgid "Unarchive"
-msgstr "Arkiv"
+msgstr "Avarkivera"
 
 #: wp-admin/ms-sites.php:504
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to archive the blog %s"
-msgstr "Du håller på att godkänna följande kommentar:"
+msgstr "Du är på väg att arkivera bloggen %s"
 
 #: wp-admin/ms-sites.php:504
 msgid "Archive"
 msgstr "Arkiv"
 
 #: wp-admin/ms-sites.php:507
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to unspam the blog %s"
-msgstr "Du håller på att godkänna följande kommentar:"
+msgstr "Du är på väg att avmarkera bloggen %s som spam"
 
 #: wp-admin/ms-sites.php:509
-#, fuzzy, php-format
+#, php-format
 msgid "You are about to mark the blog %s as spam"
-msgstr "Du håller på att markera följande kommentar som skräp:"
+msgstr "Du är på väg att markera bloggen %s som spam"
 
 #: wp-admin/ms-sites.php:511
 #, php-format
@@ -8444,12 +8450,10 @@ msgstr "Inga bloggar hittade."
 
 #: wp-admin/ms-sites.php:594
 #: wp-admin/ms-sites.php:623
-#, fuzzy
 msgid "Add Site"
-msgstr "Lägg till en video"
+msgstr "Lägg till webbplats"
 
 #: wp-admin/ms-sites.php:599
-#, fuzzy
 msgid "Site Address"
 msgstr "Webbplatsadress"
 
@@ -8458,7 +8462,6 @@ msgid "Only the characters a-z and 0-9 recommended."
 msgstr "Endast tecken a-z och 0-9 rekommenderat."
 
 #: wp-admin/ms-sites.php:611
-#, fuzzy
 msgid "Site Title"
 msgstr "Webbplatstitel"
 
@@ -8534,7 +8537,7 @@ msgstr "Allt är klart!"
 
 #: wp-admin/ms-upgrade-site.php:61
 msgid "You can upgrade all the blogs on your site through this page. It works by calling the upgrade script of each blog automatically. Hit the link below to upgrade."
-msgstr ""
+msgstr "Du kan uppgradera alla bloggar i nätverket på den här sidan. Detta utförs genom att starta uppgraderingsskriptet i vardera blogg automatiskt. Klicka på knappen nedan för att uppgradera."
 
 #: wp-admin/ms-users.php:23
 msgid "User deleted !"
@@ -8637,9 +8640,9 @@ msgid "If you post a message to the WordPress support forum at <a target=\"_blan
 msgstr ""
 
 #: wp-admin/network.php:44
-#, fuzzy, php-format
+#, php-format
 msgid "ERROR: %s"
-msgstr "FEL:"
+msgstr "FEL: %s"
 
 #: wp-admin/network.php:55
 #, php-format
@@ -8792,9 +8795,8 @@ msgid "Your email address."
 msgstr "Din e-postadress."
 
 #: wp-admin/network.php:220
-#, fuzzy
 msgid "Enabling WordPress Sites"
-msgstr "Installera WordPress"
+msgstr "Aktiverar WordPress-webbplatser"
 
 #: wp-admin/network.php:221
 msgid "Complete the following steps to enable the features for creating a network of sites. <strong>Note:</strong> We recommend you make a backup copy of your existing <code>wp-config.php</code> and <code>.htaccess</code> files."
@@ -9820,9 +9822,8 @@ msgid "This plugin can only be activated for all sites in a network"
 msgstr ""
 
 #: wp-admin/plugins.php:495
-#, fuzzy
 msgid "Network Only"
-msgstr "Nätverk"
+msgstr "Endast nätverk"
 
 #: wp-admin/plugins.php:499
 #, fuzzy
@@ -9880,11 +9881,11 @@ msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Inaktiva <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:620
-#, fuzzy, php-format
+#, php-format
 msgid "Network <span class=\"count\">(%s)</span>"
 msgid_plural "Network <span class=\"count\">(%s)</span>"
-msgstr[0] "Video <span class=\"count\">(%s)</span>"
-msgstr[1] "Videos <span class=\"count\">(%s)</span>"
+msgstr[0] "Nätverk <span class=\"count\">(%s)</span>"
+msgstr[1] "Nätverk <span class=\"count\">(%s)</span>"
 
 #: wp-admin/plugins.php:624
 #, php-format
@@ -10885,9 +10886,9 @@ msgid ""
 msgstr ""
 
 #: wp-admin/user-new.php:72
-#, fuzzy, php-format
+#, php-format
 msgid "[%s] Joining confirmation"
-msgstr "%1$s väntar på moderation"
+msgstr "[%s] Medlemsverifiering"
 
 #: wp-admin/user-new.php:104
 #: wp-admin/user-new.php:132
@@ -10896,11 +10897,11 @@ msgstr "Lägg till ny användare"
 
 #: wp-admin/user-new.php:116
 msgid "Invitation email sent to new user. A confirmation link must be clicked before their account is created."
-msgstr ""
+msgstr "E-postinbjudan skickad till den nya användaren. En bekräftelselänk måste besökas innan kontot skapas."
 
 #: wp-admin/user-new.php:119
 msgid "Invitation email sent to user. A confirmation link must be clicked for them to be added to your blog."
-msgstr ""
+msgstr "E-postinbjudan skickad till användaren. En bekräftelselänk måste besökas innan de läggs till i din blogg."
 
 #: wp-admin/user-new.php:122
 msgid "User has been added to your blog."
@@ -10926,15 +10927,15 @@ msgstr "Du kan lägga till nya användare i din blogg på två sätt:"
 
 #: wp-admin/user-new.php:167
 msgid "Enter the username and email address of an existing user on this site."
-msgstr ""
+msgstr "Ange användarnamnet och e-postadressen för en existerande medlem på sidan."
 
 #: wp-admin/user-new.php:167
 msgid "Enter the username and the email address of a person who is not already a member of this site. Choose the username carefully, it cannot be changed."
-msgstr ""
+msgstr "Ange användarnamnet och e-postadressen för en person som inte redan är medlem på sidan. Välj användarnamnet varsamt, det kan inte ändras i efterhand."
 
 #: wp-admin/user-new.php:168
 msgid "That person will be sent an email asking them to click a link confirming the invite. New users will then be sent an email with a randomly generated password and a login link."
-msgstr ""
+msgstr "Den här personen kommer att få ett mail med en länk de ombedes besöka för att bekräfta inbjudan. Nya användare kommer få ett mail med ett slumpgenererat lösenord och en inloggningslänk."
 
 #. translators: password input field
 #: wp-admin/user-new.php:208
@@ -10951,11 +10952,11 @@ msgstr "Skicka det här lösenordet till den nya användaren via e-post."
 
 #: wp-admin/user-new.php:236
 msgid "Skip Confirmation Email"
-msgstr ""
+msgstr "Skippa bekräftelsemail"
 
 #: wp-admin/user-new.php:237
 msgid "Site administrators can add a user without sending the confirmation email."
-msgstr ""
+msgstr "Sidadministratörer kan lägga till användare utan att skicka bekräftelsemailen."
 
 #: wp-admin/user-new.php:242
 msgid "Add User"
@@ -14527,7 +14528,7 @@ msgstr "Fel: Bloggurlen är redan upptagen."
 
 #: wp-includes/ms-functions.php:800
 msgid "error: problem creating blog entry"
-msgstr ""
+msgstr "fel: det uppstod problem med att skapa ditt blogginlägg"
 
 #: wp-includes/ms-functions.php:931
 msgid "Please enter a username"
@@ -14544,7 +14545,7 @@ msgstr "Det användarnamnet är inte tillåtet"
 
 #: wp-includes/ms-functions.php:948
 msgid "You cannot use that email address to signup. We are having problems with them blocking some of our email. Please use another email provider."
-msgstr ""
+msgstr "Du kan tyvärr inte använda angiven e-postadress för registrering. Vi har problem med att dom blockerar vissa av våra mail. Var vänlig använd en annan e-postleverantör."
 
 #: wp-includes/ms-functions.php:951
 msgid "Username must be at least 4 characters"
@@ -14577,7 +14578,7 @@ msgstr "Den e-postadressen används redan!"
 
 #: wp-includes/ms-functions.php:990
 msgid "That username is currently reserved but may be available in a couple of days."
-msgstr ""
+msgstr "De valda användarnamnet är för närvarande reserverat, men kan bli ledigt igen inom några dagar."
 
 #: wp-includes/ms-functions.php:993
 msgid "username and email used"
@@ -14585,7 +14586,7 @@ msgstr "användarnamn och e-postadress använt"
 
 #: wp-includes/ms-functions.php:1003
 msgid "That email address has already been used. Please check your inbox for an activation email. It will become available in a couple of days if you do nothing."
-msgstr ""
+msgstr "E-postadressen används redan. Kolla din inkorg för aktiveringsmail. Du kan registrera dig med e-postadressen igen inom några dagar om ingen aktivering sker."
 
 #: wp-includes/ms-functions.php:1026
 msgid "Please enter a blog name"
@@ -14694,9 +14695,9 @@ msgid ""
 msgstr ""
 
 #: wp-includes/ms-functions.php:1340
-#, fuzzy, php-format
+#, php-format
 msgid "New Blog Registration: %s"
-msgstr "[%s] Registrering av ny användare"
+msgstr "Ny bloggregistrering: %s"
 
 #: wp-includes/ms-functions.php:1358
 #, php-format
@@ -14708,9 +14709,9 @@ msgid ""
 msgstr ""
 
 #: wp-includes/ms-functions.php:1364
-#, fuzzy, php-format
+#, php-format
 msgid "New User Registration: %s"
-msgstr "[%s] Registrering av ny användare"
+msgstr "Ny användarregistrering: %s"
 
 #: wp-includes/ms-functions.php:1398
 msgid "<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>"
@@ -14728,7 +14729,7 @@ msgstr "Ny %1$s användare: %2$s"
 
 #: wp-includes/ms-functions.php:1634
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
-msgstr ""
+msgstr "Beklagar, du har använt allt utrymme tilldelat. Var vänlig radera några filer för att kunna ladda upp nya."
 
 #: wp-includes/ms-functions.php:1723
 #, php-format
@@ -14742,7 +14743,7 @@ msgstr "Var vänlig försök igen!"
 #: wp-includes/ms-functions.php:1774
 #, php-format
 msgid "You have been added to this blog. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">login</a> using your username and password."
-msgstr ""
+msgstr "Du har lagts till i denna blogg. Var vänlig besök <a href=\"%s\">webbplatsen</a> eller <a href=\"%s\">logga in</a> med ditt användarnamn och lösenord."
 
 #: wp-includes/ms-functions.php:1869
 msgid ""
@@ -14762,16 +14763,16 @@ msgstr ""
 
 #: wp-includes/ms-load.php:46
 msgid "This user has elected to delete their account and the content is no longer available."
-msgstr ""
+msgstr "Användaren har valt att avsluta sitt konto därav finns inget innehåll kvar."
 
 #: wp-includes/ms-load.php:54
 #, php-format
 msgid "This blog has not been activated yet. If you are having problems activating your blog, please contact <a href=\"mailto:%1$s\">%1$s</a>."
-msgstr ""
+msgstr "Den här bloggen har inte blivit aktiverad än. Om du har problem med aktiveringen av din blogg, var vänlig kontakta <a href=\"mailto:%1$s\">%1$s</a>."
 
 #: wp-includes/ms-load.php:62
 msgid "This blog has been archived or suspended."
-msgstr ""
+msgstr "Den bloggen har blivit arkiverad eller avstängd."
 
 #: wp-includes/ms-load.php:167
 #, php-format
@@ -14784,7 +14785,7 @@ msgstr ""
 
 #: wp-includes/ms-load.php:187
 msgid "Fatal Error"
-msgstr ""
+msgstr "Allvarligt fel"
 
 #: wp-includes/ms-load.php:188
 msgid "If your blog does not display, please contact the owner of this site."
@@ -14805,9 +14806,8 @@ msgid "<strong>Could Not Find Blog!</strong> Searched for table <em>%1$s</em> in
 msgstr ""
 
 #: wp-includes/ms-load.php:194
-#, fuzzy
 msgid "What do I do now?"
-msgstr "Vad behöver jag?"
+msgstr "Vad gör jag nu?"
 
 #: wp-includes/ms-load.php:196
 msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
@@ -14828,7 +14828,7 @@ msgstr "Du håller på att radera följande kommentar:"
 
 #: wp-includes/ms-settings.php:113
 msgid "Database tables are missing."
-msgstr ""
+msgstr "Databastabeller saknas."
 
 #: wp-includes/ms-settings.php:114
 msgid "No blog by that name on this system."
@@ -15173,17 +15173,16 @@ msgstr[0] "Papperskorg <span class=\"count\">(%s)</span>"
 msgstr[1] "Papperskorg <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:93
-#, fuzzy
 msgctxt "post"
 msgid "Auto-Draft"
-msgstr "Utkast"
+msgstr "Automatiskt utkast"
 
 #: wp-includes/post.php:96
-#, fuzzy, php-format
+#, php-format
 msgid "Auto-Draft <span class=\"count\">(%s)</span>"
 msgid_plural "Auto-Drafts <span class=\"count\">(%s)</span>"
-msgstr[0] "Utkast <span class=\"count\">(%s)</span>"
-msgstr[1] "Utkast <span class=\"count\">(%s)</span>"
+msgstr[0] "Automatiskt utkast <span class=\"count\">(%s)</span>"
+msgstr[1] "Automatiskta utkast <span class=\"count\">(%s)</span>"
 
 #: wp-includes/post.php:1960
 msgid "Content, title, and excerpt are empty."
@@ -15742,7 +15741,7 @@ msgstr "Sessionen har upphört. Vänligen logga in igen."
 
 #: wp-mail.php:14
 msgid "This action has been disabled by the administrator"
-msgstr ""
+msgstr "Den här åtgärden har inaktiverats av administratören"
 
 #: wp-mail.php:29
 msgid "Slow down cowboy, no need to check for new mails so often!"
@@ -15799,7 +15798,7 @@ msgstr "domän."
 
 #: wp-signup.php:84
 msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed so choose carefully!)"
-msgstr ""
+msgstr "Måste bestå av minst 4 tecken, endast bokstäver och siffror. (Kan inte ändras, så välj varsamt!)"
 
 #: wp-signup.php:89
 msgid "Blog Title:"
@@ -15815,7 +15814,7 @@ msgstr "Jag vill att min blogg syns i sökmotorer som Google och Technorati. Jag
 
 #: wp-signup.php:131
 msgid "(Must be at least 4 characters, letters and numbers only.)"
-msgstr ""
+msgstr "(Måste bestå av minst 4 tecken, endast bokstäver och siffror.)"
 
 #: wp-signup.php:134
 msgid "Email&nbsp;Address:"
@@ -15823,12 +15822,12 @@ msgstr "E-postadress:"
 
 #: wp-signup.php:138
 msgid "(We&#8217;ll send your password to this address, so <strong>triple-check it</strong>.)"
-msgstr ""
+msgstr "(Vi kommer att skicka ditt lösenord till den här adressen, så <strong>kontrollera att den verkligen stämmer</strong>. )"
 
 #: wp-signup.php:163
 #, php-format
 msgid "Get <em>another</em> %s blog in seconds"
-msgstr ""
+msgstr "Skapa <em>en till</em> %s blogg på bara några sekunder"
 
 #: wp-signup.php:166
 msgid "There was a problem, please correct the form below and try again."
@@ -15837,7 +15836,7 @@ msgstr "Ett fel har uppstått. Var vänlig kontrollera formuläret nedan och fö
 #: wp-signup.php:169
 #, php-format
 msgid "Welcome back, %s. By filling out the form below, you can <strong>add another blog to your account</strong>. There is no limit to the number of blogs you can have, so create to your heart's content, but blog responsibly."
-msgstr ""
+msgstr "Välkommen tillbaka, %s. Genom att fylla i formuläret nedan så kan du <strong>skapa flera boggar på ditt konto</strong>. Det finns ingen gräns för hur många bloggar du kan skapa. Blogga ansvarsfullt."
 
 #: wp-signup.php:175
 msgid "Blogs you are already a member of:"
@@ -15845,7 +15844,7 @@ msgstr "Bloggar som du redan är medlem i:"
 
 #: wp-signup.php:184
 msgid "If you&#8217;re not going to use a great blog domain, leave it for a new user. Now have at it!"
-msgstr ""
+msgstr "Om du inte ska använda detta bloggnamn, låt någon annan få möjligheten att använda det."
 
 #: wp-signup.php:189
 msgid "Create Blog"
@@ -15864,7 +15863,7 @@ msgstr "<a href=\"http://%1$s\">http://%2$s</a> är din nya blogg.  <a href=\"%3
 #: wp-signup.php:245
 #, php-format
 msgid "Get your own %s account in seconds"
-msgstr ""
+msgstr "Skapa ett eget %s konto på bara några sekunder"
 
 #: wp-signup.php:258
 msgid "Gimme a blog!"
@@ -15885,16 +15884,16 @@ msgstr "%s är ditt nya användarnamn"
 
 #: wp-signup.php:293
 msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
-msgstr ""
+msgstr "Men, innan du kan börja använda ditt nya användarnamn så <strong>måste du aktivera det</strong>."
 
 #: wp-signup.php:294
 #, php-format
 msgid "Check your inbox at <strong>%1$s</strong> and click the link given."
-msgstr ""
+msgstr "Kolla din inkorg för <strong>%1$s</strong> och klicka på länken given."
 
 #: wp-signup.php:295
 msgid "If you do not activate your username within two days, you will have to sign up again."
-msgstr ""
+msgstr "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera dig igen."
 
 #: wp-signup.php:321
 msgid "Signup"
@@ -15907,16 +15906,16 @@ msgstr "Grattis! Din nya blogg, %s, är nästan redo att använda."
 
 #: wp-signup.php:357
 msgid "But, before you can start using your blog, <strong>you must activate it</strong>."
-msgstr ""
+msgstr "Men, innan du kan börja använda din blogg så <strong>måste du aktivera den</strong>."
 
 #: wp-signup.php:358
 #, php-format
 msgid "Check your inbox at <strong>%s</strong> and click the link given. It should arrive within 30 minutes."
-msgstr ""
+msgstr "Kolla din inkorg för <strong>%s</strong> och klicka på länken angiven. Det bör komma fram inom 30 minuter."
 
 #: wp-signup.php:359
 msgid "If you do not activate your blog within two days, you will have to sign up again."
-msgstr ""
+msgstr "Om du inte aktiverar din blogg inom 2 dagar så måste du registrera den på nytt."
 
 #: wp-signup.php:360
 msgid "Still waiting for your email?"
@@ -15924,15 +15923,15 @@ msgstr "Väntar du fortfarande på ditt mail?"
 
 #: wp-signup.php:362
 msgid "If you haven't received your email yet, there are a number of things you can do:"
-msgstr ""
+msgstr "Om du inte fått ditt mail än så finns ett par saker du kan göra:"
 
 #: wp-signup.php:364
 msgid "Wait a little longer.  Sometimes delivery of email can be delayed by processes outside of our control."
-msgstr ""
+msgstr "Vänta en liten stund till. Ibland fördröjs mail av orsaker utanför vår kontroll."
 
 #: wp-signup.php:365
 msgid "Check the junk email or spam folder of your email client.  Sometime emails wind up there by mistake."
-msgstr ""
+msgstr "Kolla ditt skräppostfilter/skräppostmapp i ditt e-postprogram. Ibland hamnar mail där av misstag."
 
 #: wp-signup.php:366
 #, php-format
@@ -15942,7 +15941,7 @@ msgstr "Har du angett din e-postadress korrekt? Vi tror att det är %s men om du
 #: wp-signup.php:381
 #, php-format
 msgid "Greetings Site Administrator! You are currently allowing '%s' registrations. To change or disable registration go to your <a href='wp-admin/ms-options.php'>Options page</a>."
-msgstr ""
+msgstr "Välkommen Administratör! Du tillåter just nu '%s' registreringar. För att ändra eller inaktivera registreringsmöjligheter, gå till  <a href='wp-admin/ms-options.php'>sidan för inställningar</a>."
 
 #: wp-signup.php:387
 msgid "Registration has been disabled."
