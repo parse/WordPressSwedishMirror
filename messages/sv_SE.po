@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-02-09 00:56+0000\n"
-"PO-Revision-Date: 2010-02-09 04:15+0100\n"
+"PO-Revision-Date: 2010-02-09 05:19+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -8482,7 +8482,7 @@ msgstr "Endast tecken a-z och 0-9 rekommenderat."
 
 #: wp-admin/ms-sites.php:611
 msgid "Site Title"
-msgstr "Webbplatstitel"
+msgstr "Titel för webbplats"
 
 #: wp-admin/ms-sites.php:615
 msgid "Admin Email"
@@ -8706,7 +8706,7 @@ msgstr "Ledsen, det behövs en %s att arbeta utifrån. Var vänlig ladda upp den
 #: wp-admin/network.php:97
 #, php-format
 msgid "Sorry, I need to be able to read %s. Please check the permissions on this file."
-msgstr ""
+msgstr "Vi behöver kunna läsa %s. Var vänlig kontrollera rättigheterna för den här filen."
 
 #: wp-admin/network.php:100
 msgid "Replace the contents of your <code>.htaccess</code> with the following:"
@@ -8714,23 +8714,23 @@ msgstr "Byt ut innehållet i din <code>.htaccess</code> mot följande:"
 
 #: wp-admin/network.php:117
 msgid "Installing Network of WordPress Sites"
-msgstr "Installera nätverk av WordPress-webbplatser"
+msgstr "Skapa ett nätverk av WordPress-webbplatser"
 
 #: wp-admin/network.php:118
 msgid "I will help you enable the features for creating a network of sites by asking you a few questions so that you can create configuration files and make a directory to store all your uploaded files."
-msgstr ""
+msgstr "Vi kommer att hjälpa dig att aktivera funktionerna för att skapa ett nätverk av webbplatser genom att ställa ett par frågor så att du sedan kan skapa konfigurationsfilerna och en mapp för alla filuppladdningar."
 
 #: wp-admin/network.php:120
 msgid "What do I need?"
-msgstr "Vad behöver jag?"
+msgstr "Vad behöver du?"
 
 #: wp-admin/network.php:122
 msgid "Access to your server to change directory permissions. This can be done through ssh or ftp for example."
-msgstr ""
+msgstr "Tillgång till din server för att kunna ändra rättigheter på mappar. Detta kan t.ex genomföras via ssh eller ftp."
 
 #: wp-admin/network.php:123
 msgid "A valid email where your password and administrative emails will be sent."
-msgstr ""
+msgstr "En riktigt e-postadress dit vi kan skicka ditt lösenord och andra administrativa meddelanden."
 
 #: wp-admin/network.php:124
 msgid "Wildcard dns records if you're going to use the virtual host (sub-domain) functionality. Check the <a href='http://trac.mu.wordpress.org/browser/trunk/README.txt'>README</a> for further details."
@@ -8738,7 +8738,7 @@ msgstr ""
 
 #: wp-admin/network.php:127
 msgid "If the <code>mod_rewrite</code> module is disabled ask your administrator to enable that module, or look at the <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache documentation</a> or <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">elsewhere</a> for help setting it up."
-msgstr ""
+msgstr "Om <code>mod_rewrite</code> modulen är inaktiverad, be din serveradministratör att aktivera den. Alternativt läs <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache-dokumentationen</a> eller <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">annan dokumentation</a> för hjälp med att aktivera den."
 
 #: wp-admin/network.php:132
 msgid "<strong>Warning!</strong> It looks like mod_rewrite is not installed."
@@ -8746,7 +8746,7 @@ msgstr "<strong>Varning:</strong> det verkar som om mod_rewrite inte är install
 
 #: wp-admin/network.php:136
 msgid "Please make sure <code>mod_rewrite</code> is installed as it will be activated at the end of this install."
-msgstr ""
+msgstr "Försäkra dig om att <code>mod_rewrite</code> är installerat då det kommer att aktiveras i slutet av den här installationen."
 
 #: wp-admin/network.php:148
 #, php-format
@@ -8759,7 +8759,7 @@ msgstr "Existerande webbplatser"
 
 #: wp-admin/network.php:160
 msgid "An existing WordPress Network was detected."
-msgstr ""
+msgstr "Ett existerande WordPress-nätverk har hittats."
 
 #: wp-admin/network.php:162
 msgid "Yes, keep the existing network of sites."
@@ -8771,19 +8771,19 @@ msgstr "Webbplatsadress"
 
 #: wp-admin/network.php:170
 msgid "Please choose whether you would like sites in your WordPress install to use sub-domains or sub-directories. You cannot change this later."
-msgstr ""
+msgstr "Välj om du vill att webbplatserna i din installation av WordPress ska använda subdomäner eller undermappar. Du kan inte ändra det här sen."
 
 #: wp-admin/network.php:172
 msgid "<strong>Note</strong> It looks like <code>mod_rewrite</code> is not installed."
-msgstr ""
+msgstr "<strong>Notera</strong> det ser inte ut som om <code>mod_rewrite</code> är installerat."
 
 #: wp-admin/network.php:175
 msgid "Sub-domains (like <code>blog1.example.com</code>)"
-msgstr ""
+msgstr "Subdomäner (som <code>blogg1.exempel.se</code>)"
 
 #: wp-admin/network.php:176
 msgid "Sub-directories (like <code>example.com/blog1</code>)"
-msgstr ""
+msgstr "Undermappar (som <code>exempel.se/blogg1</code>)"
 
 #: wp-admin/network.php:179
 #: wp-admin/network.php:185
@@ -8798,19 +8798,19 @@ msgstr ""
 #: wp-admin/network.php:188
 #, php-format
 msgid "This will be the Internet address of your site: <strong><em>%s</em></strong>."
-msgstr ""
+msgstr "Det här kommer att vara Internetadressen för din webbplats: <strong><em>%s</em></strong>."
 
 #: wp-admin/network.php:191
 msgid "Do not use an IP address (like 127.0.0.1) or a single word hostname like <q>localhost</q> as your server address."
-msgstr ""
+msgstr "Använd inte en IP-adress (som 127.0.0.1) eller ett hostnamn med enkelord som <q>localhost</q> som din serveradress."
 
 #: wp-admin/network.php:197
 msgid "Site Details"
-msgstr "Webbplatsdetaljer"
+msgstr "Detaljer för webbplats"
 
 #: wp-admin/network.php:200
 msgid "Site&nbsp;Title"
-msgstr "Webbplatstitel"
+msgstr "Titel&nbsp;för&nbsp;webbplats"
 
 #: wp-admin/network.php:203
 msgid "What would you like to call your site?"
@@ -8828,7 +8828,7 @@ msgstr "Aktiverar WordPress-webbplatser"
 #: wp-admin/network.php:230
 #, php-format
 msgid "Please <a href=\"%s\">deactivate</a> your plugins before enabling WordPress Sites. Once WordPress Sites are enabled, you may reactivate your plugins."
-msgstr ""
+msgstr "Var vänlig <a href=\"%s\">inaktivera</a> dina tillägg innan du aktiverar ett WordPress-nätverk. Så snart ditt WordPress-nätverk är aktiverat så kan du återaktivera dina tillägg igen."
 
 #: wp-admin/network.php:259
 msgid "Complete the following steps to enable the features for creating a network of sites. <strong>Note:</strong> We recommend you make a backup copy of your existing <code>wp-config.php</code> and <code>.htaccess</code> files."
@@ -8841,11 +8841,11 @@ msgstr ""
 #: wp-admin/network.php:281
 #, php-format
 msgid "Sorry, I need a <code>%s</code> to work from. Please re-upload this file to your WordPress installation."
-msgstr ""
+msgstr "Vi behöver en <code>%s</code> att jobba utifrån. Var vänlig ladda upp den här filen till din installation av WordPress på nytt."
 
 #: wp-admin/network.php:285
 msgid "Replace the contents of your <code>wp-config.php</code> with the following:"
-msgstr ""
+msgstr "Byt ut innehållet i din <code>wp-config.php</code> med följande:"
 
 #: wp-admin/network.php:385
 msgid "Network already enabled."
@@ -9119,7 +9119,7 @@ msgstr "Adressen används för administrativa behov."
 
 #: wp-admin/options-general.php:107
 msgid "If you change this we will send you an email at your new address to confirm it. <strong>The new address will not become active until confirmed.</strong>"
-msgstr ""
+msgstr "Om du ändrar det här så kommer vi att skicka ett meddelande till din nya adress för att bekräfta den. <strong>Den nya adressen kommer inte att ändras fören bekräftad.</strong>"
 
 #: wp-admin/options-general.php:114
 #: wp-admin/options-general.php:170
