@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
 "POT-Creation-Date: 2010-02-09 00:56+0000\n"
-"PO-Revision-Date: 2010-02-09 05:19+0100\n"
+"PO-Revision-Date: 2010-02-09 05:59+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WP-Support Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -5095,7 +5095,7 @@ msgstr "Publicerat privat"
 
 #: wp-admin/includes/meta-boxes.php:78
 msgid "Unsaved"
-msgstr ""
+msgstr "Osparat"
 
 #: wp-admin/includes/meta-boxes.php:103
 #: wp-admin/includes/meta-boxes.php:149
@@ -7344,19 +7344,19 @@ msgid "You appear to have already installed WordPress. To reinstall please clear
 msgstr "Du verkar redan ha installerat WordPress. Var god och töm dina gamla databastabeller före du ominstallerar."
 
 #: wp-admin/install.php:91
-#, fuzzy, php-format
+#, php-format
 msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
-msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
+msgstr "Du kan inte installera WordPress %1$s eftersom det kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
 
 #: wp-admin/install.php:93
-#, fuzzy, php-format
+#, php-format
 msgid "You cannot install because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
-msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst PHP %2$s eller senare. Du kör PHP %3$s."
+msgstr "Du kan inte installera WordPress %1$s eftersom det kräver minst PHP %2$s eller senare. Du kör PHP %3$s."
 
 #: wp-admin/install.php:95
-#, fuzzy, php-format
+#, php-format
 msgid "You cannot install because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
-msgstr "Uppgraderingen kan inte installeras eftersom WordPress %1$s kräver minst MySQL %2$s eller nyare. Du kör MySQL %3$s."
+msgstr "Du kan inte installera WordPress %1$s eftersom det kräver minst MySQL %2$s eller senare. Du kör MySQL %3$s."
 
 #: wp-admin/install.php:99
 msgid "Insufficient Requirements"
@@ -8793,7 +8793,7 @@ msgstr "Serveradress"
 #: wp-admin/network.php:181
 #, php-format
 msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the \"www\" prefix with an address like <code>%2$s</code> but any links will not have the \"www\" prefix."
-msgstr ""
+msgstr "Vi rekommenderar dig att ändra din webbplatsurl till <code>%1$s</code> innan du aktiverar nätverksfunktionerna. Det kommer fortfarande gå att besöka din webbplats med prefixet \"www\" med en adress som <code>%2$s</code>, men länkar kommer inte att ha prefixet \"www\"."
 
 #: wp-admin/network.php:188
 #, php-format
@@ -8832,11 +8832,11 @@ msgstr "Var vänlig <a href=\"%s\">inaktivera</a> dina tillägg innan du aktiver
 
 #: wp-admin/network.php:259
 msgid "Complete the following steps to enable the features for creating a network of sites. <strong>Note:</strong> We recommend you make a backup copy of your existing <code>wp-config.php</code> and <code>.htaccess</code> files."
-msgstr ""
+msgstr "Fullfölj dessa steg för att aktivera funktionerna som behövs för att skapa ett nätverk av webbplatser. <strong>Notera:</strong> Vi rekommenderar att du tar en backup av dina filer <code>wp-config.php</code> och <code>.htaccess</code>."
 
 #: wp-admin/network.php:261
 msgid "Create a <code>blogs.dir</code> directory in your <code>wp-content</code> directory. This directory is used to stored uploaded media for your additional sites and must be writeable by the web server."
-msgstr ""
+msgstr "Skapa en <code>blogs.dir</code>-mapp i din <code>wp-content</code>-mapp. Denna mapp kommer att användas för att lagra uppladdade filer för webbplatser i nätverket och måste vara skrivbar."
 
 #: wp-admin/network.php:281
 #, php-format
@@ -12026,7 +12026,7 @@ msgstr "Publicerat"
 #: wp-content/themes/twentyten/single.php:46
 #, php-format
 msgid "This entry was posted in %1$s%2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>. Follow any comments here with the <a href=\"%5$s\" title=\"Comments RSS to %4$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS feed for this post</a>."
-msgstr ""
+msgstr "Det här inlägget postades i %1$s%2$s. Bokmärk <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalänken</a>. Följ kommentarerna för det här inlägget via <a href=\"%5$s\" title=\"Kommentarsflöde till %4$s\" rel=\"alternate\" type=\"application/rss+xml\">RSS-flödet</a>."
 
 #: wp-content/themes/twentyten/attachment.php:47
 #: wp-content/themes/twentyten/single.php:48
@@ -13030,14 +13030,14 @@ msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternativ
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
 #: wp-includes/functions.php:3135
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
-msgstr "%1$s har <strong>upphört</strong> sedan version %2$s! Använd %3$s istället."
+msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan version %2$s! %3$s"
 
 #: wp-includes/functions.php:3137
-#, fuzzy, php-format
+#, php-format
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
-msgstr "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
+msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
 #: wp-includes/functions.php:3664
 msgid "Select a city"
@@ -15041,6 +15041,15 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
+"För att aktivera din blogg, var vänlig besök följande länk:\n"
+"\n"
+"%s\n"
+"\n"
+"Efter aktiveringen så kommer du att få *ytterligare ett mail* med dina inloggningsuppgifter.\n"
+"\n"
+"Efter aktiveringen så kan du besöka din blogg här:\n"
+"\n"
+"%s"
 
 #: wp-includes/ms-functions.php:1159
 #, php-format
@@ -15057,6 +15066,12 @@ msgid ""
 "After you activate, you will receive *another email* with your login.\n"
 "\n"
 msgstr ""
+"För att aktivera din användare, var vänlig besök följande länk:\n"
+"\n"
+"%s\n"
+"\n"
+"Efter aktiveringen så kommer du att få *ytterligare ett mail* med dina inloggningsuppgifter.\n"
+"\n"
 
 #: wp-includes/ms-functions.php:1189
 msgid "Invalid activation key."
@@ -15238,7 +15253,7 @@ msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att dat
 
 #: wp-includes/ms-load.php:203
 msgid "If you suspect a problem please report it to the support forums but you must include the information asked for in the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug reporting guidelines</a>! "
-msgstr ""
+msgstr "Om du misstänker problem var vänlig rapportera dessa i supportforumet, du måste inkludera informationen enligt beskrivningen i dokumentet <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug reporting guidelines</a>! "
 
 #: wp-includes/ms-load.php:207
 msgid "Your bug report must include the following text:"
