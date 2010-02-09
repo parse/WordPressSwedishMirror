@@ -1,5 +1,5 @@
 <?php
-/** 
+/**
  * Baskonfiguration för WordPress.
  *
  * Denna fil innehåller följande konfigurationer: Inställningar för MySQL , Tabellprefix,
@@ -34,18 +34,23 @@ define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
 
 /**#@+
- * Unika autentiseringsnycklar.
+ * Unika autentiseringsnycklar och salter.
  *
  * Ändra dessa till unika fraser!
- * Du kan generera nycklar med {@link http://api.wordpress.org/secret-key/1.1/ WordPress.org secret-key service}
+ * Du kan generera nycklar med {@link http://api.wordpress.org/secret-key/1.1/?salt=1 WordPress.org secret-key service}
  * Du kan när som helst ändra dessa nycklar för att göra aktiva cookies obrukbara, vilket tvingar alla användare att logga in på nytt.
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'ange en unik fras');
-define('SECURE_AUTH_KEY', 'ange en unik fras');
-define('LOGGED_IN_KEY', 'ange en unik fras');
-define('NONCE_KEY', 'ange en unik fras');
+define('AUTH_KEY',         'ange en unik fras'); 
+define('SECURE_AUTH_KEY',  'ange en unik fras'); 
+define('LOGGED_IN_KEY',    'ange en unik fras'); 
+define('NONCE_KEY',        'ange en unik fras'); 
+define('AUTH_SALT',        'ange en unik fras'); 
+define('SECURE_AUTH_SALT', 'ange en unik fras'); 
+define('LOGGED_IN_SALT',   'ange en unik fras'); 
+define('NONCE_SALT',       'ange en unik fras'); 
+
 /**#@-*/
 
 /**
@@ -68,7 +73,7 @@ define ('WPLANG', 'sv_SE');
 
 /* Det var allt, sluta redigera här! Blogga på. */
 
-/** WordPress absoluta sökväg till WordPress-katalogen. */
+/** Absoluta sökväg till WordPress-katalogen. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
