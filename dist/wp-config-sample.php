@@ -71,6 +71,15 @@ $table_prefix  = 'wp_';
  */
 define ('WPLANG', 'sv_SE');
 
+/** 
+ * För utvecklare: WordPress felsökningsläge. 
+ * 
+ * Ändra detta till true för att aktivera meddelanden under utveckling. 
+ * Det är rekommderat att man som tilläggsskapare och temaskapare använder WP_DEBUG 
+ * i sin utvecklingsmiljö. 
+ */ 
+define('WP_DEBUG', false);
+
 /* Det var allt, sluta redigera här! Blogga på. */
 
 /** Absoluta sökväg till WordPress-katalogen. */
