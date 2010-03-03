@@ -22,7 +22,7 @@ define('DB_NAME', 'ange-databasnamn');
 define('DB_USER', 'ange-databasanvandare');
 
 /** MySQL-databasens lösenord */
-define('DB_PASSWORD', 'ange-ditt-databaslosenord');
+define('DB_PASSWORD', 'ange-databaslosenord');
 
 /** MySQL-server */
 define('DB_HOST', 'localhost');

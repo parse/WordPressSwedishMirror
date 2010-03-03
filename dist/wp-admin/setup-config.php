@@ -16,13 +16,17 @@
  */
 define('WP_INSTALLING', true);
 
-/** 
- * Disable error reporting 
- * 
- * Set this to error_reporting( E_ALL ) or error_reporting( E_ALL | E_STRICT ) f
- or debugging 
- */ 
-error_reporting(0); 
+/**
+ * We are blissfully unaware of anything.
+ */
+define('WP_SETUP_CONFIG', true);
+
+/**
+ * Disable error reporting
+ *
+ * Set this to error_reporting( E_ALL ) or error_reporting( E_ALL | E_STRICT ) for debugging
+ */
+error_reporting(0);
 
 /**#@+
  * These three defines are required to allow us to use require_wp_db() to load
@@ -32,11 +36,14 @@ error_reporting(0);
 define('ABSPATH', dirname(dirname(__FILE__)).'/');
 define('WPINC', 'wp-includes');
 define('WP_CONTENT_DIR', ABSPATH . 'wp-content');
+define('WP_DEBUG', false);
 /**#@-*/
 
+require_once(ABSPATH . WPINC . '/load.php');
 require_once(ABSPATH . WPINC . '/compat.php');
 require_once(ABSPATH . WPINC . '/functions.php');
 require_once(ABSPATH . WPINC . '/classes.php');
+require_once(ABSPATH . WPINC . '/version.php');
 
 if (!file_exists(ABSPATH . 'wp-config-sample.php'))
 	wp_die('Beklagar, vi behöver en wp-config-sample.php fil att arbeta utifrån. Var vänlig ladda upp denna fil från dina WordPress filer.');
@@ -45,18 +52,18 @@ $configFile = file(ABSPATH . 'wp-config-sample.php');
 
 // Check if wp-config.php has been created
 if (file_exists(ABSPATH . 'wp-config.php'))
-	wp_die("<p>Filen 'wp-config.php' finns redan. Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka att <a href='install.php'>installera nu</a>.</p>");
+	wp_die("<p>Filen 'wp-config.php' finns redan. Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka med att <a href='install.php'>installera nu</a>.</p>");
 
 // Check if wp-config.php exists above the root directory but is not part of another install
 if (file_exists(ABSPATH . '../wp-config.php') && ! file_exists(ABSPATH . '../wp-settings.php'))
 	wp_die("<p>Filen 'wp-config.php' finns redan en nivå ovanför din WordPress installation.  Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka att <a href='install.php'>installera nu</a>.</p>");
 
-if ( version_compare( '4.3', phpversion(), '>' ) ) 
-	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'Din server k&ouml;r PHP version %s men WordPress kr&auml;ver minst 4.3.'/*/WP_I18N_OLD_PHP*/, phpversion() ) );
-	
+if ( version_compare( $required_php_version, phpversion(), '>' ) )
+	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'Your server is running PHP version %1$s but WordPress requires at least %2$s.'/*/WP_I18N_OLD_PHP*/, phpversion(), $required_php_version ) );
+
 if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
-	wp_die( /*WP_I18N_OLD_MYSQL*/'Din PHP-installation verkar sakna MySQL-till&auml;gget som WordPress kr&auml;ver.'/*/WP_I18N_OLD_MYSQL*/ );
-	
+	wp_die( /*WP_I18N_OLD_MYSQL*/'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.'/*/WP_I18N_OLD_MYSQL*/ );
+
 if (isset($_GET['step']))
 	$step = $_GET['step'];
 else
@@ -77,7 +84,7 @@ function display_header() {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>WordPress &rsaquo; Inställningar konfigurationsfil</title>
+<title>WordPress &rsaquo; Inställningar för konfigurationsfil</title>
 <link rel="stylesheet" href="css/install.css" type="text/css" />
 
 </head>
@@ -91,7 +98,7 @@ switch($step) {
 		display_header();
 ?>
 
-<p>Välkommen till WordPress. Innan vi börjar så behöver vi lite databasinformation. Du behöver ha följande uppgifter innan du kan forsätta.</p>
+<p>Välkommen till WordPress. Innan vi börjar så behöver vi lite information för databasen. Du behöver ha följande uppgifter innan du kan forsätta.</p>
 <ol>
 	<li>Databasnamn</li>
 	<li>Användarnamn för databasen</li>
@@ -99,10 +106,10 @@ switch($step) {
 	<li>Serveradress för databasen</li>
 	<li>Tabellprefix (om du vill köra flera installationer av WordPress i samma databas) </li>
 </ol>
-<p><strong>Om det inte av någon anledning går att skapa denna automatiska konfigurationsfil så behöver du inte oroa dig. Allt du behöver göra är att fylla i databasinformationen i en konfigurationsfil. Du kan helt enkelt bara öppna <code>wp-config-sample.php</code> i en textredigerare, fylla i uppgifterna själv och spara den som <code>wp-config.php</code>. </strong></p>
+<p><strong>Om det av någon anledning inte går att skapa denna automatiska konfigurationsfil så behöver du inte oroa dig. Allt du behöver göra är att fylla i databasinformationen i en konfigurationsfil. Du kan helt enkelt öppna <code>wp-config-sample.php</code> i en textredigerare, fylla i uppgifterna själv och spara den som <code>wp-config.php</code>. </strong></p>
 <p>Det mest troliga är att du fått dessa uppgifter från ditt webbhotell, eller när du skapat en databas. Om du saknar uppgifterna så behöver du kontakta webbhotellet innan du kan fortsätta. Är du redo&hellip;</p>
 
-<p class="step"><a href="setup-config.php?step=1" class="button">Då kör vi!</a></p>
+<p class="step"><a href="setup-config.php?step=1<?php if ( isset( $_GET['noapi'] ) ) echo '&amp;noapi'; ?>" class="button">Då kör vi!</a></p>
 <?php
 	break;
 
@@ -110,27 +117,27 @@ switch($step) {
 		display_header();
 	?>
 <form method="post" action="setup-config.php?step=2">
-	<p>Nedan bör du ange dina databasuppgifter. Om du är osäker på vilka dessa är, kontakta ditt webbhotell. </p>
+	<p>Nedan behöver du ange dina databasuppgifter. Om du är osäker på vilka dessa är, kontakta ditt webbhotell. </p>
 	<table class="form-table">
 		<tr>
 			<th scope="row"><label for="dbname">Databasnamn</label></th>
 			<td><input name="dbname" id="dbname" type="text" size="25" value="wordpress" /></td>
-			<td>Namnet på databasen du vill använda för WordPress.</td>
+			<td>Namnet på databasen du vill använda för WordPress. </td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="uname">Användarnamn</label></th>
-			<td><input name="uname" id="uname" type="text" size="25" value="username" /></td>
-			<td>MySQL databasens användarnamn.</td>
+			<th scope="row"><label for="uname">Databasavändare</label></th>
+			<td><input name="uname" id="uname" type="text" size="25" value="användare" /></td>
+			<td>Databasanvändaren för MySQL.</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="pwd">Lösenord</label></th>
-			<td><input name="pwd" id="pwd" type="text" size="25" value="password" /></td>
+			<td><input name="pwd" id="pwd" type="text" size="25" value="lösenord" /></td>
 			<td>...och MySQL-lösenord.</td>
 		</tr>
 		<tr>
-			<th scope="row"><label for="dbhost">Databasserver</label></th>
+			<th scope="row"><label for="dbhost">Databasserver (host)</label></th>
 			<td><input name="dbhost" id="dbhost" type="text" size="25" value="localhost" /></td>
-			<td>9 gånger av 10 så behöver inte detta ändras.</td>
+			<td>Du bör kunna få denna information från ditt webbhotell, om inte <code>localhost</code> fungerar.</td>
 		</tr>
 		<tr>
 			<th scope="row"><label for="prefix">Tabellprefix</label></th>
@@ -138,6 +145,7 @@ switch($step) {
 			<td>Om du vill köra flera installationer av WordPress i samma databas, ändra detta.</td>
 		</tr>
 	</table>
+	<?php if ( isset( $_GET['noapi'] ) ) { ?><input name="noapi" type="hidden" value="true" /><?php } ?>
 	<p class="step"><input name="submit" type="submit" value="Vidare" class="button" /></p>
 </form>
 <?php
@@ -166,6 +174,34 @@ switch($step) {
 	if ( !empty($wpdb->error) )
 		wp_die($wpdb->error->get_error_message());
 
+	// Fetch or generate keys and salts.
+	$no_api = isset( $_POST['noapi'] );
+	require_once( ABSPATH . WPINC . '/plugin.php' );
+	if ( ! $no_api ) {
+		require_once( ABSPATH . WPINC . '/http.php' );
+		wp_fix_server_vars();
+		/**#@+
+		 * @ignore
+		 */
+		function get_bloginfo() {
+			return ( ( is_ssl() ? 'https://' : 'http://' ) . $_SERVER['HTTP_HOST'] . str_replace( $_SERVER['PHP_SELF'], '/wp-admin/setup-config.php', '' ) );
+		}
+		/**#@-*/
+		$secret_keys = wp_remote_get( 'https://api.wordpress.org/secret-key/1.1/salt/' );
+	}
+
+	if ( $no_api || is_wp_error( $secret_keys ) ) {
+		$secret_keys = array();
+		require_once( ABSPATH . WPINC . '/pluggable.php' );
+		for ( $i = 0; $i < 8; $i++ )
+			$secret_keys[] = wp_generate_password( 64, true, true );
+	} else {
+		$secret_keys = explode( "\n", wp_remote_retrieve_body( $secret_keys ) );
+		foreach ( $secret_keys as $k => $v )
+			$secret_keys[$k] = substr( $v, 28, 64 );
+	}
+	$key = 0;
+
 	foreach ($configFile as $line_num => $line) {
 		switch (substr($line,0,16)) {
 			case "define('DB_NAME'":
@@ -175,37 +211,47 @@ switch($step) {
 				$configFile[$line_num] = str_replace("'ange-databasanvandare'", "'$uname'", $line);
 				break;
 			case "define('DB_PASSW":
-				$configFile[$line_num] = str_replace("'ange-ditt-databaslosenord'", "'$passwrd'", $line);
+				$configFile[$line_num] = str_replace("'ange-databaslosenord'", "'$passwrd'", $line);
 				break;
 			case "define('DB_HOST'":
 				$configFile[$line_num] = str_replace("localhost", $dbhost, $line);
 				break;
 			case '$table_prefix  =':
-				$configFile[$line_num] = str_replace('wp_', $prefix, $line); 
-                break;
+				$configFile[$line_num] = str_replace('wp_', $prefix, $line);
+				break;
+			case "define('AUTH_KEY":
+			case "define('SECURE_A":
+			case "define('LOGGED_I":
+			case "define('NONCE_KE":
+			case "define('AUTH_SAL":
+			case "define('SECURE_A":
+			case "define('LOGGED_I":
+			case "define('NONCE_SA":
+				$configFile[$line_num] = str_replace('ange en unik fras', $secret_keys[$key++], $line );
+				break;
 		}
 	}
-    if ( ! is_writable(ABSPATH) ) : 
-        display_header(); 
-?> 
-<p>Ledsen, vi kan inte skapa filen <code>wp-config.php</code>.</p> 
-<p>Du kan skapa filen <code>wp-config.php</code> manuellt och kopiera in följande kod.</p> 
-<textarea cols="90" rows="15"><?php 
-        foreach( $configFile as $line ) { 
-            echo htmlentities($line); 
-        } 
-?></textarea> 
-<p>När du är klar med det, klicka på "Kör installation"</p> 
-<p class="step"><a href="install.php" class="button">Kör installation</a></p> 
-<?php 
-    else : 
-        $handle = fopen(ABSPATH . 'wp-config.php', 'w'); 
-        foreach( $configFile as $line ) { 
-            fwrite($handle, $line); 
-        } 
-        fclose($handle); 
-        chmod(ABSPATH . 'wp-config.php', 0666); 
-        display_header(); 
+	if ( ! is_writable(ABSPATH) ) :
+		display_header();
+?>
+<p>Beklagar, filen <code>wp-config.php</code> kan inte skapas.</p>
+<p>Du kan skapa filen <code>wp-config.php</code> manuellt och kopiera in följande kod.</p>
+<textarea cols="90" rows="15"><?php
+		foreach( $configFile as $line ) {
+			echo htmlentities($line, ENT_COMPAT, 'UTF-8');
+		}
+?></textarea>
+<p>När du är klar med det, klicka på "Kör installation".</p>
+<p class="step"><a href="install.php" class="button">Kör installation</a></p>
+<?php
+	else :
+		$handle = fopen(ABSPATH . 'wp-config.php', 'w');
+		foreach( $configFile as $line ) {
+			fwrite($handle, $line);
+		}
+		fclose($handle);
+		chmod(ABSPATH . 'wp-config.php', 0666);
+		display_header();
 ?>
 <p>OK! Du har klarat av installationen så här långt. WordPress kan nu kommunicera med din databas. Om du är redo så är det dags att&hellip;</p>
 
