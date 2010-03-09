@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-03-05 06:55+0000\n"
-"PO-Revision-Date: 2010-03-05 14:07+0100\n"
+"POT-Creation-Date: 2010-03-08 22:56+0000\n"
+"PO-Revision-Date: 2010-03-09 03:00+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige / Mattias Tengblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -28,12 +28,12 @@ msgid "Activation Key:"
 msgstr "Aktiveringsnyckel:"
 
 #: wp-activate.php:52
-#: wp-admin/includes/class-wp-upgrader.php:1049
-#: wp-admin/includes/class-wp-upgrader.php:1106
+#: wp-admin/includes/class-wp-upgrader.php:1147
+#: wp-admin/includes/class-wp-upgrader.php:1204
 #: wp-admin/includes/plugin.php:1575
-#: wp-admin/ms-sites.php:512
-#: wp-admin/plugins.php:575
-#: wp-admin/plugins.php:651
+#: wp-admin/ms-sites.php:606
+#: wp-admin/plugins.php:562
+#: wp-admin/plugins.php:638
 #: wp-admin/themes.php:225
 msgid "Activate"
 msgstr "Aktivera"
@@ -91,7 +91,8 @@ msgstr "<strong>NOTERA: Du är utloggad!</strong> Kunde inte spara utkast. <a hr
 #: wp-admin/includes/media.php:1901
 #: wp-admin/includes/plugin-install.php:294
 #: wp-admin/includes/theme-install.php:384
-#: wp-admin/plugins.php:491
+#: wp-admin/ms-sites.php:392
+#: wp-admin/plugins.php:478
 #: wp-admin/themes.php:83
 #: wp-admin/upload.php:273
 msgid "&laquo;"
@@ -105,7 +106,8 @@ msgstr "&laquo;"
 #: wp-admin/includes/media.php:1902
 #: wp-admin/includes/plugin-install.php:295
 #: wp-admin/includes/theme-install.php:385
-#: wp-admin/plugins.php:492
+#: wp-admin/ms-sites.php:393
+#: wp-admin/plugins.php:479
 #: wp-admin/themes.php:84
 #: wp-admin/upload.php:274
 msgid "&raquo;"
@@ -271,7 +273,7 @@ msgstr "Hittade inga inlägg."
 #: wp-admin/includes/media.php:2122
 #: wp-admin/includes/media.php:2157
 #: wp-admin/includes/template.php:959
-#: wp-admin/ms-sites.php:627
+#: wp-admin/ms-sites.php:747
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
 #: wp-includes/post.php:4168
 msgid "Title"
@@ -406,7 +408,7 @@ msgstr "Kan inte ladda importören."
 #: wp-admin/import.php:15
 #: wp-admin/import/blogger.php:193
 #: wp-admin/import/textpattern.php:73
-#: wp-admin/menu.php:156
+#: wp-admin/menu.php:180
 msgid "Import"
 msgstr "Importera"
 
@@ -494,6 +496,7 @@ msgid "This comment is currently in the Trash."
 msgstr "Denna kommentar ligger för närvarande i papperskorgen."
 
 #: wp-admin/comment.php:142
+#: wp-admin/network.php:88
 msgid "Caution:"
 msgstr "Varning:"
 
@@ -670,11 +673,11 @@ msgstr "Välj en färg"
 #: wp-admin/custom-background.php:308
 #: wp-admin/custom-header.php:390
 #: wp-admin/custom-header.php:401
-#: wp-admin/custom-header.php:433
+#: wp-admin/custom-header.php:432
 #: wp-admin/import/blogger.php:667
 #: wp-admin/nav-menus.php:440
 #: wp-admin/options-discussion.php:236
-#: wp-admin/options-general.php:329
+#: wp-admin/options-general.php:332
 #: wp-admin/options-media.php:126
 #: wp-admin/options-misc.php:44
 #: wp-admin/options-permalink.php:234
@@ -690,12 +693,12 @@ msgid "Upload New Background Image"
 msgstr "Ladda upp ny bakgrundsbild"
 
 #: wp-admin/custom-background.php:315
-#: wp-admin/custom-header.php:411
+#: wp-admin/custom-header.php:410
 msgid "Choose an image from your computer:"
 msgstr "Välj en bild på din dator:"
 
 #: wp-admin/custom-background.php:319
-#: wp-admin/custom-header.php:415
+#: wp-admin/custom-header.php:414
 #: wp-admin/includes/media.php:1487
 #: wp-admin/includes/media.php:1488
 #: wp-admin/includes/template.php:3416
@@ -767,46 +770,46 @@ msgstr "Ladda upp ny bild för sidhuvudet"
 msgid "Here you can upload a custom header image to be shown at the top of your blog instead of the default one. On the next screen you will be able to crop the image."
 msgstr "Här kan du ladda upp en egen sidhuvudsbild som visas högst uppe på din blogg istället för den förvalda bilden. På nästa skärm kan du beskära bilden."
 
-#: wp-admin/custom-header.php:408
+#: wp-admin/custom-header.php:407
 #, php-format
 msgid "Images of exactly <strong>%1$d x %2$d pixels</strong> will be used as-is."
 msgstr "En bild som är exakt <strong>%1$d x %2$d px</strong> används som den är."
 
-#: wp-admin/custom-header.php:423
+#: wp-admin/custom-header.php:422
 msgid "Reset Header Image and Color"
 msgstr "Återställ sidhuvudets bild och färg"
 
-#: wp-admin/custom-header.php:429
+#: wp-admin/custom-header.php:428
 msgid "Use one of these cool headers."
 msgstr "Använd någon av dessa snygga bilder för sidhuvudet."
 
-#: wp-admin/custom-header.php:437
+#: wp-admin/custom-header.php:436
 msgid "This will restore the original header image and color. You will not be able to retrieve any customizations."
 msgstr "Det här återställer det ursprunliga sidhuvudets bild och färg. Du kan inte återkalla några förändringar."
 
-#: wp-admin/custom-header.php:438
+#: wp-admin/custom-header.php:437
 msgid "Restore Original Header"
 msgstr "Återställ ursprungligt sidhuvud"
 
-#: wp-admin/custom-header.php:487
-#: wp-admin/custom-header.php:544
+#: wp-admin/custom-header.php:486
+#: wp-admin/custom-header.php:543
 msgid "Image could not be processed.  Please go back and try again."
 msgstr "Bilden kunde inte bearbetas. Var vänlig gå tillbaka och försök igen."
 
-#: wp-admin/custom-header.php:487
-#: wp-admin/custom-header.php:544
+#: wp-admin/custom-header.php:486
+#: wp-admin/custom-header.php:543
 msgid "Image Processing Error"
 msgstr "Fel vid bearbetning av bild"
 
-#: wp-admin/custom-header.php:503
+#: wp-admin/custom-header.php:502
 msgid "Choose the part of the image you want to use as your header."
 msgstr "Välj den del av bilden som du vill använda som sidhuvud."
 
-#: wp-admin/custom-header.php:518
+#: wp-admin/custom-header.php:517
 msgid "Crop Header"
 msgstr "Beskär sidhuvudet"
 
-#: wp-admin/custom-header.php:592
+#: wp-admin/custom-header.php:591
 msgid "You do not have permission to customize headers."
 msgstr "Du saknar behörighet för att modifiera sidhuvden."
 
@@ -844,13 +847,13 @@ msgstr "Redigera &#8221;%s&#8221;"
 #: wp-admin/includes/template.php:2156
 #: wp-admin/includes/widgets.php:177
 #: wp-admin/link-manager.php:203
-#: wp-admin/menu.php:59
-#: wp-admin/menu.php:78
-#: wp-admin/menu.php:84
-#: wp-admin/menu.php:96
-#: wp-admin/ms-sites.php:508
+#: wp-admin/menu.php:83
+#: wp-admin/menu.php:102
+#: wp-admin/menu.php:108
+#: wp-admin/menu.php:120
+#: wp-admin/ms-sites.php:602
 #: wp-admin/ms-users.php:237
-#: wp-admin/plugins.php:580
+#: wp-admin/plugins.php:567
 #: wp-admin/upload.php:406
 #: wp-content/themes/twentyten/attachment.php:28
 #: wp-content/themes/twentyten/attachment.php:80
@@ -1026,6 +1029,7 @@ msgstr "Redigera kommentarer"
 #: wp-admin/edit-tags.php:181
 #: wp-admin/edit.php:170
 #: wp-admin/link-manager.php:77
+#: wp-admin/ms-sites.php:413
 #: wp-admin/upload.php:173
 #: wp-admin/users.php:265
 #, php-format
@@ -1154,8 +1158,9 @@ msgstr "Sök kommentarer"
 #: wp-admin/edit-comments.php:298
 #: wp-admin/edit.php:356
 #: wp-admin/includes/user.php:753
+#: wp-admin/ms-sites.php:474
 #: wp-admin/ms-users.php:100
-#: wp-admin/plugins.php:496
+#: wp-admin/plugins.php:483
 #: wp-admin/themes.php:168
 #: wp-admin/upload.php:280
 #, php-format
@@ -1172,7 +1177,9 @@ msgstr "Visar %s&#8211;%s av %s"
 #: wp-admin/edit.php:385
 #: wp-admin/link-manager.php:114
 #: wp-admin/link-manager.php:261
-#: wp-admin/plugins.php:649
+#: wp-admin/ms-sites.php:463
+#: wp-admin/ms-sites.php:714
+#: wp-admin/plugins.php:636
 #: wp-admin/upload.php:291
 #: wp-admin/upload.php:467
 #: wp-admin/users.php:321
@@ -1198,15 +1205,17 @@ msgstr "Godkänn"
 
 #: wp-admin/edit-comments.php:319
 #: wp-admin/edit-comments.php:416
-#: wp-admin/ms-sites.php:407
+#: wp-admin/ms-sites.php:465
+#: wp-admin/ms-sites.php:716
 msgid "Mark as Spam"
 msgstr "Markera som skräp"
 
 #: wp-admin/edit-comments.php:324
 #: wp-admin/edit-comments.php:424
 #: wp-admin/includes/template.php:2144
-#: wp-admin/ms-sites.php:408
-#: wp-admin/ms-sites.php:522
+#: wp-admin/ms-sites.php:466
+#: wp-admin/ms-sites.php:616
+#: wp-admin/ms-sites.php:717
 #: wp-admin/ms-users.php:127
 #: wp-admin/ms-users.php:280
 #: wp-content/plugins/akismet/akismet.php:832
@@ -1233,10 +1242,12 @@ msgstr "Flytta till papperskorgen"
 #: wp-admin/edit-tags.php:291
 #: wp-admin/edit.php:304
 #: wp-admin/edit.php:396
-#: wp-admin/includes/template.php:3819
+#: wp-admin/includes/template.php:3825
 #: wp-admin/link-manager.php:117
 #: wp-admin/link-manager.php:264
-#: wp-admin/plugins.php:666
+#: wp-admin/ms-sites.php:468
+#: wp-admin/ms-sites.php:719
+#: wp-admin/plugins.php:653
 #: wp-admin/upload.php:302
 #: wp-admin/upload.php:478
 #: wp-admin/users.php:324
@@ -1428,7 +1439,7 @@ msgstr "Egna fält"
 
 #: wp-admin/edit-form-advanced.php:123
 #: wp-admin/includes/dashboard.php:286
-#: wp-admin/menu.php:167
+#: wp-admin/menu.php:191
 msgid "Discussion"
 msgstr "Diskussion"
 
@@ -1531,7 +1542,7 @@ msgid "URL:"
 msgstr "URL:"
 
 #: wp-admin/edit-link-categories.php:48
-#: wp-admin/menu.php:81
+#: wp-admin/menu.php:105
 msgid "Link Categories"
 msgstr "Länkkategorier"
 
@@ -1575,12 +1586,13 @@ msgstr "Sök kategorier"
 #: wp-admin/link-manager.php:115
 #: wp-admin/link-manager.php:204
 #: wp-admin/link-manager.php:262
-#: wp-admin/ms-sites.php:406
-#: wp-admin/ms-sites.php:526
+#: wp-admin/ms-sites.php:464
+#: wp-admin/ms-sites.php:620
+#: wp-admin/ms-sites.php:715
 #: wp-admin/ms-users.php:125
 #: wp-admin/ms-users.php:278
-#: wp-admin/plugins.php:583
-#: wp-admin/plugins.php:663
+#: wp-admin/plugins.php:570
+#: wp-admin/plugins.php:650
 #: wp-admin/themes.php:228
 #: wp-admin/users.php:322
 #: wp-admin/users.php:388
@@ -1723,10 +1735,9 @@ msgstr "Länken sparad."
 #: wp-admin/includes/template.php:2363
 #: wp-admin/includes/template.php:2378
 #: wp-admin/includes/template.php:2467
+#: wp-admin/ms-sites.php:451
 #: wp-admin/ms-users.php:144
 #: wp-admin/themes.php:284
-#: wp-admin/update-core.php:248
-#: wp-admin/update-core.php:255
 #: wp-admin/user-edit.php:209
 #: wp-content/themes/classic/comments-popup.php:71
 #: wp-content/themes/classic/comments.php:57
@@ -1756,8 +1767,8 @@ msgstr "Exampel: <code>http://wordpress.org/</code> &#8212; glöm inte <code>htt
 #: wp-admin/includes/template.php:795
 #: wp-admin/ms-themes.php:31
 #: wp-admin/nav-menus.php:434
-#: wp-admin/plugins.php:518
-#: wp-admin/plugins.php:526
+#: wp-admin/plugins.php:505
+#: wp-admin/plugins.php:513
 #: wp-admin/press-this.php:130
 #: wp-admin/press-this.php:165
 #: wp-admin/themes.php:285
@@ -1835,8 +1846,8 @@ msgid "Update %s"
 msgstr "Uppdatera %s"
 
 #: wp-admin/edit-tags.php:18
-#: wp-includes/taxonomy.php:1476
-#: wp-includes/taxonomy.php:1766
+#: wp-includes/taxonomy.php:1502
+#: wp-includes/taxonomy.php:1792
 msgid "Invalid taxonomy"
 msgstr "Ogiltig taxonomi"
 
@@ -1954,8 +1965,8 @@ msgstr "Redigera %s"
 #. translators: add new post
 #. translators: add new custom post type
 #: wp-admin/edit.php:168
-#: wp-admin/menu.php:61
-#: wp-admin/menu.php:98
+#: wp-admin/menu.php:85
+#: wp-admin/menu.php:122
 msgctxt "post"
 msgid "Add New"
 msgstr "Lägg till ny"
@@ -2043,10 +2054,12 @@ msgid "View all categories"
 msgstr "Visa alla kategorier"
 
 #: wp-admin/edit.php:365
+#: wp-admin/ms-sites.php:484
 msgid "List View"
 msgstr "Listad visning"
 
 #: wp-admin/edit.php:366
+#: wp-admin/ms-sites.php:485
 msgid "Excerpt View"
 msgstr "Lista med utdrag"
 
@@ -2059,7 +2072,7 @@ msgid "You do not have sufficient permissions to export the content of this blog
 msgstr "Du saknar behörighet för att exportera innehåll från denna blogg."
 
 #: wp-admin/export.php:17
-#: wp-admin/menu.php:157
+#: wp-admin/menu.php:181
 msgid "Export"
 msgstr "Exportera"
 
@@ -2076,7 +2089,7 @@ msgid "Once you&#8217;ve saved the download file, you can use the Import functio
 msgstr "När du har sparat den nedladdade filen kan du använda importeringsfunktion på en annan WordPressblogg för att importera den här bloggen."
 
 #: wp-admin/export.php:64
-#: wp-admin/includes/template.php:3815
+#: wp-admin/includes/template.php:3821
 #: wp-admin/menu.php:36
 #: wp-admin/ms-options.php:7
 msgid "Options"
@@ -2136,7 +2149,7 @@ msgstr "Allt innehåll"
 
 #: wp-admin/export.php:120
 #: wp-admin/includes/template.php:3324
-#: wp-admin/menu.php:83
+#: wp-admin/menu.php:107
 #: wp-includes/default-widgets.php:19
 #: wp-includes/default-widgets.php:25
 #: wp-includes/post-template.php:753
@@ -2150,7 +2163,7 @@ msgstr "Sidor"
 #: wp-admin/includes/template.php:797
 #: wp-admin/includes/template.php:808
 #: wp-admin/includes/template.php:3322
-#: wp-admin/menu.php:58
+#: wp-admin/menu.php:82
 #: wp-includes/post.php:18
 msgid "Posts"
 msgstr "Inlägg"
@@ -2539,8 +2552,8 @@ msgstr "Välkommen till Wordpress. Vi hoppas (och tror att!) att du skall tycka 
 #: wp-admin/import/textpattern.php:575
 #: wp-admin/includes/ms.php:174
 #: wp-admin/menu.php:34
-#: wp-admin/menu.php:139
-#: wp-admin/ms-sites.php:428
+#: wp-admin/menu.php:163
+#: wp-admin/ms-sites.php:500
 #: wp-admin/ms-users.php:7
 #: wp-admin/ms-users.php:111
 #: wp-admin/users.php:22
@@ -3155,7 +3168,7 @@ msgid "You need to supply your OPML url. Press back on your browser and try agai
 msgstr "Du måste ange din OPML-adress. Försök igen."
 
 #: wp-admin/import/opml.php:150
-#: wp-admin/includes/upgrade.php:126
+#: wp-admin/includes/upgrade.php:129
 msgid "Blogroll"
 msgstr "Länklista"
 
@@ -3796,176 +3809,191 @@ msgstr "Aktiverar underhållsläge&#8230;"
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Inaktiverar underhållsläge&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:367
+#: wp-admin/includes/class-wp-upgrader.php:369
 msgid "The plugin is at the latest version."
 msgstr "Tillägget är av den senaste versionen."
 
-#: wp-admin/includes/class-wp-upgrader.php:368
-#: wp-admin/includes/class-wp-upgrader.php:596
-#: wp-admin/includes/class-wp-upgrader.php:753
+#: wp-admin/includes/class-wp-upgrader.php:370
+#: wp-admin/includes/class-wp-upgrader.php:599
+#: wp-admin/includes/class-wp-upgrader.php:757
 msgid "Upgrade package not available."
 msgstr "Uppgraderingspaket ej tillgängligt."
 
-#: wp-admin/includes/class-wp-upgrader.php:369
-#: wp-admin/includes/class-wp-upgrader.php:597
-#: wp-admin/includes/class-wp-upgrader.php:754
+#: wp-admin/includes/class-wp-upgrader.php:371
+#: wp-admin/includes/class-wp-upgrader.php:600
+#: wp-admin/includes/class-wp-upgrader.php:758
 #, php-format
 msgid "Downloading update from <span class=\"code\">%s</span>&#8230;"
 msgstr "Laddar ner uppgradering från <span class=\"code\">%s</span>&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:370
-#: wp-admin/includes/class-wp-upgrader.php:598
-#: wp-admin/includes/class-wp-upgrader.php:755
+#: wp-admin/includes/class-wp-upgrader.php:372
+#: wp-admin/includes/class-wp-upgrader.php:601
+#: wp-admin/includes/class-wp-upgrader.php:759
 msgid "Unpacking the update&#8230;"
 msgstr "Packar upp uppgraderingen&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:371
+#: wp-admin/includes/class-wp-upgrader.php:373
 msgid "Deactivating the plugin&#8230;"
 msgstr "Inaktiverar tillägget&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:372
+#: wp-admin/includes/class-wp-upgrader.php:374
 msgid "Removing the old version of the plugin&#8230;"
 msgstr "Tar bort den gamla versionen av tillägget&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:373
+#: wp-admin/includes/class-wp-upgrader.php:375
 msgid "Could not remove the old plugin."
 msgstr "Kunde inte ta bort det gamla tillägget."
 
-#: wp-admin/includes/class-wp-upgrader.php:374
+#: wp-admin/includes/class-wp-upgrader.php:376
 msgid "Plugin upgrade failed."
 msgstr "Uppgradering av tillägget misslyckades."
 
-#: wp-admin/includes/class-wp-upgrader.php:375
+#: wp-admin/includes/class-wp-upgrader.php:377
 msgid "Plugin upgraded successfully."
 msgstr "Tillägget har uppgraderats."
 
-#: wp-admin/includes/class-wp-upgrader.php:379
-#: wp-admin/includes/class-wp-upgrader.php:606
+#: wp-admin/includes/class-wp-upgrader.php:381
+#: wp-admin/includes/class-wp-upgrader.php:609
 msgid "Install package not available."
 msgstr "Uppgraderingspaket ej tillgängligt."
 
-#: wp-admin/includes/class-wp-upgrader.php:380
-#: wp-admin/includes/class-wp-upgrader.php:607
+#: wp-admin/includes/class-wp-upgrader.php:382
+#: wp-admin/includes/class-wp-upgrader.php:610
 #, php-format
 msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
 msgstr "Laddar ner installationspaketet från <span class=\"code\">%s</span>&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:381
-#: wp-admin/includes/class-wp-upgrader.php:608
+#: wp-admin/includes/class-wp-upgrader.php:383
+#: wp-admin/includes/class-wp-upgrader.php:611
 msgid "Unpacking the package&#8230;"
 msgstr "Packar upp paketet&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:382
+#: wp-admin/includes/class-wp-upgrader.php:384
 msgid "Installing the plugin&#8230;"
 msgstr "Installerar tillägget&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:383
+#: wp-admin/includes/class-wp-upgrader.php:385
 msgid "Plugin install failed."
 msgstr "Installationen av tillägget misslyckades."
 
-#: wp-admin/includes/class-wp-upgrader.php:384
+#: wp-admin/includes/class-wp-upgrader.php:386
 msgid "Plugin installed successfully."
 msgstr "Tillägget har installerats."
 
-#: wp-admin/includes/class-wp-upgrader.php:473
-#, php-format
-msgid "Updating plugin %1$d of %2$d&#8230;"
-msgstr "Uppgraderar tillägg %1$d av %2$d&#8230;"
-
-#: wp-admin/includes/class-wp-upgrader.php:595
+#: wp-admin/includes/class-wp-upgrader.php:598
 msgid "The theme is at the latest version."
 msgstr "Temat är av den senaste versionen."
 
-#: wp-admin/includes/class-wp-upgrader.php:599
+#: wp-admin/includes/class-wp-upgrader.php:602
 msgid "Removing the old version of the theme&#8230;"
 msgstr "Tar bort den gamla versionen av temat&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:600
+#: wp-admin/includes/class-wp-upgrader.php:603
 msgid "Could not remove the old theme."
 msgstr "Kunde inte ta bort det gamla temat."
 
-#: wp-admin/includes/class-wp-upgrader.php:601
+#: wp-admin/includes/class-wp-upgrader.php:604
 msgid "Theme upgrade failed."
 msgstr "Uppgradering av temat misslyckades."
 
-#: wp-admin/includes/class-wp-upgrader.php:602
+#: wp-admin/includes/class-wp-upgrader.php:605
 msgid "Theme upgraded successfully."
 msgstr "Temat har uppgraderats."
 
-#: wp-admin/includes/class-wp-upgrader.php:609
+#: wp-admin/includes/class-wp-upgrader.php:612
 msgid "Installing the theme&#8230;"
 msgstr "Installerar temat&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:610
+#: wp-admin/includes/class-wp-upgrader.php:613
 msgid "Theme install failed."
 msgstr "Installationen av temat misslyckades."
 
-#: wp-admin/includes/class-wp-upgrader.php:611
+#: wp-admin/includes/class-wp-upgrader.php:614
 msgid "Theme installed successfully."
 msgstr "Temat har installerats."
 
-#: wp-admin/includes/class-wp-upgrader.php:752
+#: wp-admin/includes/class-wp-upgrader.php:756
 msgid "WordPress is at the latest version."
 msgstr "WordPress är av den senaste versionen."
 
-#: wp-admin/includes/class-wp-upgrader.php:756
+#: wp-admin/includes/class-wp-upgrader.php:760
 msgid "Could not copy files."
 msgstr "Kunde inte kopiera filer."
 
-#: wp-admin/includes/class-wp-upgrader.php:902
-#: wp-admin/update.php:25
+#: wp-admin/includes/class-wp-upgrader.php:906
+#: wp-admin/update.php:53
 msgid "Upgrade Plugin"
 msgstr "Uppgradera tillägg"
 
-#: wp-admin/includes/class-wp-upgrader.php:918
+#: wp-admin/includes/class-wp-upgrader.php:919
 msgid "Reactivating the plugin&#8230;"
 msgstr "Återaktiverar tillägget&#8230;"
 
-#: wp-admin/includes/class-wp-upgrader.php:923
-#: wp-admin/includes/class-wp-upgrader.php:981
-#: wp-admin/plugins.php:575
+#: wp-admin/includes/class-wp-upgrader.php:924
+#: wp-admin/includes/class-wp-upgrader.php:1079
+#: wp-admin/plugins.php:562
 msgid "Activate this plugin"
 msgstr "Aktivera det här tillägget"
 
-#: wp-admin/includes/class-wp-upgrader.php:923
-#: wp-admin/includes/class-wp-upgrader.php:981
+#: wp-admin/includes/class-wp-upgrader.php:924
+#: wp-admin/includes/class-wp-upgrader.php:1079
 msgid "Activate Plugin"
 msgstr "Aktivera tillägget"
 
-#: wp-admin/includes/class-wp-upgrader.php:924
+#: wp-admin/includes/class-wp-upgrader.php:925
 msgid "Goto plugins page"
 msgstr "Gå till sidan för tillägg"
 
-#: wp-admin/includes/class-wp-upgrader.php:924
-#: wp-admin/includes/class-wp-upgrader.php:987
+#: wp-admin/includes/class-wp-upgrader.php:925
+#: wp-admin/includes/class-wp-upgrader.php:1085
 msgid "Return to Plugins page"
 msgstr "Återgå till sidan för tillägg"
 
-#: wp-admin/includes/class-wp-upgrader.php:933
-#: wp-admin/includes/class-wp-upgrader.php:995
-#: wp-admin/includes/class-wp-upgrader.php:1062
-#: wp-admin/includes/class-wp-upgrader.php:1116
-#: wp-admin/update-core.php:325
+#: wp-admin/includes/class-wp-upgrader.php:934
+#: wp-admin/includes/class-wp-upgrader.php:1093
+#: wp-admin/includes/class-wp-upgrader.php:1160
+#: wp-admin/includes/class-wp-upgrader.php:1214
+#: wp-admin/update-core.php:337
 msgid "Actions:"
 msgstr "Åtgärder:"
 
-#: wp-admin/includes/class-wp-upgrader.php:973
+#: wp-admin/includes/class-wp-upgrader.php:1009
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Uppgraderar tillägg %1$s (%2$d/%3$d)"
+
+#: wp-admin/includes/class-wp-upgrader.php:1018
+#, php-format
+msgid "An error occured while updating %1$s: <strong>%2$s</strong>."
+msgstr "En fel uppstod vid uppgradering av %1$s: <strong>%2$s</strong>."
+
+#: wp-admin/includes/class-wp-upgrader.php:1020
+#, php-format
+msgid "The update of %1$s failed."
+msgstr "Uppgradering av %1$s misslyckades."
+
+#: wp-admin/includes/class-wp-upgrader.php:1024
+#, php-format
+msgid "%1$s updated successfully. <a onclick=\"%2$s\" href=\"#\">See Details</a>."
+msgstr "%1$s uppgraderades. <a onclick=\"%2$s\" href=\"#\">See Details</a>."
+
+#: wp-admin/includes/class-wp-upgrader.php:1071
 #, php-format
 msgid "Successfully installed the plugin <strong>%s %s</strong>."
 msgstr "Installerade framgångsrikt tillägget <strong>%s %s</strong>."
 
-#: wp-admin/includes/class-wp-upgrader.php:985
+#: wp-admin/includes/class-wp-upgrader.php:1083
 msgid "Return to Plugin Installer"
 msgstr "Återgå till tilläggsinstalleraren"
 
 #. translators: 1: theme name, 2: version
-#: wp-admin/includes/class-wp-upgrader.php:1029
+#: wp-admin/includes/class-wp-upgrader.php:1127
 #, php-format
 msgid "Successfully installed the theme <strong>%1$s %2$s</strong>."
 msgstr "Installerade framgångsrikt temat <strong>%1$s %2$s</strong>."
 
-#: wp-admin/includes/class-wp-upgrader.php:1048
-#: wp-admin/includes/class-wp-upgrader.php:1105
+#: wp-admin/includes/class-wp-upgrader.php:1146
+#: wp-admin/includes/class-wp-upgrader.php:1203
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1626
 #: wp-admin/includes/theme-install.php:305
@@ -3975,8 +4003,8 @@ msgstr "Installerade framgångsrikt temat <strong>%1$s %2$s</strong>."
 msgid "Preview &#8220;%s&#8221;"
 msgstr "Förhandsgranska &#8221;%s&#8221;"
 
-#: wp-admin/includes/class-wp-upgrader.php:1048
-#: wp-admin/includes/class-wp-upgrader.php:1105
+#: wp-admin/includes/class-wp-upgrader.php:1146
+#: wp-admin/includes/class-wp-upgrader.php:1203
 #: wp-admin/includes/meta-boxes.php:45
 #: wp-admin/includes/template.php:1404
 #: wp-admin/includes/template.php:1626
@@ -3987,36 +4015,36 @@ msgstr "Förhandsgranska &#8221;%s&#8221;"
 msgid "Preview"
 msgstr "Förhandsgranska"
 
-#: wp-admin/includes/class-wp-upgrader.php:1049
-#: wp-admin/includes/class-wp-upgrader.php:1106
+#: wp-admin/includes/class-wp-upgrader.php:1147
+#: wp-admin/includes/class-wp-upgrader.php:1204
 #: wp-admin/themes.php:223
 #, php-format
 msgid "Activate &#8220;%s&#8221;"
 msgstr "Aktivera &#8221;%s&#8221;"
 
-#: wp-admin/includes/class-wp-upgrader.php:1053
+#: wp-admin/includes/class-wp-upgrader.php:1151
 msgid "Return to Theme Installer"
 msgstr "Återgå till temainstalleraren"
 
-#: wp-admin/includes/class-wp-upgrader.php:1055
+#: wp-admin/includes/class-wp-upgrader.php:1153
 msgid "Themes page"
 msgstr "Temasida"
 
-#: wp-admin/includes/class-wp-upgrader.php:1055
-#: wp-admin/includes/class-wp-upgrader.php:1112
+#: wp-admin/includes/class-wp-upgrader.php:1153
+#: wp-admin/includes/class-wp-upgrader.php:1210
 msgid "Return to Themes page"
 msgstr "Återgå till sidan för teman"
 
-#: wp-admin/includes/class-wp-upgrader.php:1083
-#: wp-admin/update.php:126
+#: wp-admin/includes/class-wp-upgrader.php:1181
+#: wp-admin/update.php:154
 msgid "Upgrade Theme"
 msgstr "Uppgradera Tema"
 
-#: wp-admin/includes/class-wp-upgrader.php:1141
+#: wp-admin/includes/class-wp-upgrader.php:1239
 msgid "Please select a file"
 msgstr "Vänligen välj en fil"
 
-#: wp-admin/includes/class-wp-upgrader.php:1155
+#: wp-admin/includes/class-wp-upgrader.php:1253
 #: wp-admin/includes/file.php:323
 #: wp-admin/includes/file.php:435
 #, php-format
@@ -4169,8 +4197,8 @@ msgstr[1] "Väntande"
 
 #: wp-admin/includes/dashboard.php:323
 #: wp-admin/ms-sites.php:142
-#: wp-admin/ms-sites.php:463
-#: wp-admin/ms-sites.php:524
+#: wp-admin/ms-sites.php:404
+#: wp-admin/ms-sites.php:618
 #: wp-content/plugins/akismet/akismet.php:909
 msgid "Spam"
 msgid_plural "Spam"
@@ -4420,7 +4448,7 @@ msgstr "Nyligen uppdaterade"
 #: wp-admin/includes/dashboard.php:891
 #: wp-admin/includes/plugin-install.php:358
 #: wp-admin/includes/theme-install.php:304
-#: wp-admin/network.php:158
+#: wp-admin/network.php:157
 msgid "Install"
 msgstr "Installera"
 
@@ -4668,7 +4696,7 @@ msgstr "Servernamn"
 
 #: wp-admin/includes/file.php:921
 #: wp-admin/includes/template.php:804
-#: wp-admin/install.php:202
+#: wp-admin/install.php:210
 #: wp-admin/ms-users.php:143
 #: wp-admin/ms-users.php:298
 #: wp-admin/user-edit.php:213
@@ -4681,8 +4709,8 @@ msgstr "Användarnamn"
 
 #: wp-admin/includes/file.php:926
 #: wp-admin/includes/template.php:999
-#: wp-admin/install.php:103
-#: wp-admin/install.php:206
+#: wp-admin/install.php:104
+#: wp-admin/install.php:214
 #: wp-admin/ms-sites.php:242
 #: wp-admin/options-writing.php:101
 #: wp-admin/user-new.php:208
@@ -4996,7 +5024,7 @@ msgid "Saved."
 msgstr "Sparat."
 
 #: wp-admin/includes/media.php:837
-#: wp-admin/install.php:233
+#: wp-admin/install.php:241
 #: wp-includes/js/tinymce/langs/wp-langs.php:427
 msgid "Medium"
 msgstr "Medium"
@@ -5185,14 +5213,14 @@ msgid "Clear"
 msgstr "Rensa"
 
 #: wp-admin/includes/media.php:1721
-#: wp-admin/menu.php:72
-#: wp-admin/menu.php:168
+#: wp-admin/menu.php:96
+#: wp-admin/menu.php:192
 #: wp-includes/post.php:44
 msgid "Media"
 msgstr "Media"
 
 #: wp-admin/includes/media.php:1723
-#: wp-admin/ms-sites.php:432
+#: wp-admin/ms-sites.php:504
 #: wp-includes/post-template.php:1211
 msgid "Actions"
 msgstr "Åtgärder"
@@ -5779,7 +5807,7 @@ msgstr "Omdöme"
 msgid "(Leave at 0 for no rating.)"
 msgstr "(lämna som 0 om du inte vill ange omdöme)"
 
-#: wp-admin/includes/misc.php:672
+#: wp-admin/includes/misc.php:676
 #: wp-admin/user-edit.php:189
 msgid "Admin Color Scheme"
 msgstr "Färgschema för adminpanel"
@@ -5954,7 +5982,7 @@ msgid "You don&#8217;t have permission to view this site. Please contact the sys
 msgstr "Du saknar behörighet för att visa den här webbplatsen. Var vänlig kontakta systemadministratören."
 
 #: wp-admin/includes/ms.php:571
-#: wp-admin/menu.php:391
+#: wp-admin/menu.php:415
 msgid "You do not have sufficient permissions to access this page."
 msgstr "Du har inte tillräckliga behörighet för att få tillgång till denna sida."
 
@@ -5998,12 +6026,12 @@ msgstr "Tack för att du uppgraderar! Var vänlig gå till sidan <a href=\"ms-up
 msgid "Primary Site"
 msgstr "Primär webbplats"
 
-#: wp-admin/includes/ms.php:776
+#: wp-admin/includes/ms.php:742
 #, php-format
 msgid "Warning! The current theme supports post thumbnails. You must enable image uploads on <a href='%s'>the options page</a> for it to work."
 msgstr "Varning! Nuvarande tema har stöd för inläggsminiatyrer. Du måste aktivera bilduppladdningar via <a href='%s'>inställningssidan</a> för att det ska fungera."
 
-#: wp-admin/includes/ms.php:786
+#: wp-admin/includes/ms.php:752
 #, php-format
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "Filen <code>%1$s</code> är utfasad. Var vänlig ta bort den och uppdatera din servers rewrite rules för att använda <code>%2$s</code> istället."
@@ -6133,8 +6161,8 @@ msgstr "Etikett"
 
 #: wp-admin/includes/plugin-install.php:171
 #: wp-admin/includes/plugin-install.php:172
-#: wp-admin/plugins.php:677
-#: wp-admin/plugins.php:679
+#: wp-admin/plugins.php:664
+#: wp-admin/plugins.php:666
 msgid "Search Plugins"
 msgstr "Sök efter tillägg"
 
@@ -6171,7 +6199,7 @@ msgstr "Inga tillägg matchade din efterfrågan."
 
 #: wp-admin/includes/plugin-install.php:351
 #: wp-admin/includes/plugin.php:132
-#: wp-admin/plugins.php:619
+#: wp-admin/plugins.php:606
 #, php-format
 msgid "By %s"
 msgstr "Av %s"
@@ -6222,7 +6250,7 @@ msgid "1 star"
 msgstr "1 stjärna"
 
 #: wp-admin/includes/plugin-install.php:425
-#: wp-admin/update.php:78
+#: wp-admin/update.php:106
 msgid "Plugin Install"
 msgstr "Tilläggsinstallation"
 
@@ -6320,7 +6348,7 @@ msgid "Visit plugin homepage"
 msgstr "Besök tilläggets webbplats"
 
 #: wp-admin/includes/plugin.php:128
-#: wp-admin/plugins.php:618
+#: wp-admin/plugins.php:605
 #: wp-includes/theme.php:230
 msgid "Visit author homepage"
 msgstr "Besök författarens webbplats"
@@ -6536,13 +6564,13 @@ msgstr "En WordPresswebbplats till"
 
 #. translators: default date format, see http://php.net/date
 #: wp-admin/includes/schema.php:223
-#: wp-admin/options-general.php:233
+#: wp-admin/options-general.php:236
 msgid "F j, Y"
 msgstr "j F, Y"
 
 #. translators: default time format, see http://php.net/date
 #: wp-admin/includes/schema.php:225
-#: wp-admin/options-general.php:266
+#: wp-admin/options-general.php:269
 msgid "g:i a"
 msgstr "h:i"
 
@@ -6621,27 +6649,27 @@ msgstr ""
 "--Teamet @ SITE_NAME"
 
 #: wp-admin/includes/schema.php:701
-#: wp-admin/includes/upgrade.php:196
+#: wp-admin/includes/upgrade.php:199
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
 msgstr "Välkommen till <a href=\"SITE_URL\">SITE_NAME</a>. Det här är ditt första inlägg. Redigera eller radera det. Sen är det bara att börja blogga!"
 
-#: wp-admin/includes/schema.php:750
+#: wp-admin/includes/schema.php:755
 msgid "Warning! Wildcard DNS may not be configured correctly!"
 msgstr "Varning! Joker-dns-posten är kanske inte korrekt konfigurerad!"
 
-#: wp-admin/includes/schema.php:751
+#: wp-admin/includes/schema.php:756
 msgid "To use the subdomain feature of WordPress MU you must have a wildcard entry in your dns. The installer attempted to contact a random hostname ($hostname) on your domain but failed. It returned this error message:"
 msgstr "För att använda suddomänsfunktionen i WordPress så måste du ha en joker-post angiven i din dns. Installeraren försökte slumpvis ansluta till hostnamn ($hostname) på din domän men misslyckades. Felmeddelande:"
 
-#: wp-admin/includes/schema.php:753
+#: wp-admin/includes/schema.php:758
 msgid "From the README.txt:"
 msgstr "Ur filen README.txt:"
 
-#: wp-admin/includes/schema.php:754
+#: wp-admin/includes/schema.php:759
 msgid "If you want to host blogs of the form http://blog.domain.tld/ where domain.tld is the domain name of your machine then you must add a wildcard record to your DNS records. This usually means adding a '*' hostname record pointing at your webserver in your DNS configuration tool.  Matt has a more detailed <a href='http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/'>explanation</a> on his blog. If you still have problems, these <a href='http://mu.wordpress.org/forums/tags/wildcard'>forum messages</a> may help."
 msgstr "Om du vill driva bloggar i formen http://blog.domän.tld/ där domän.tld är domänet för din maskin så måste du ange en joker-post i dina DNSer. Detta betyder oftast att man lägger till en '*' -post som pekar mot sin webbserver i DNS-konfigurationen. Matt har en mer detaljerad <a href='http://ma.tt/2003/10/10/wildcard-dns-and-sub-domains/'>förklaring</a> i sin blogg. Om du fortfarande har problem så kanske följande <a href='http://mu.wordpress.org/forums/tags/wildcard'>forumtrådar</a> kan hjälpa dig."
 
-#: wp-admin/includes/schema.php:755
+#: wp-admin/includes/schema.php:760
 msgid "You can still use your site but any subdomain you create may not be accessible. This check is not foolproof so ignore if you know your dns is correct."
 msgstr "Du kan fortfarande använda din webbplats men alla underdomän du skapar kanske inte är tillgänglig. Denna kontroll är inte idiotsäkert, ignorera om du vet att din dns är korrekt"
 
@@ -6706,7 +6734,7 @@ msgid "Visible"
 msgstr "Synlig"
 
 #: wp-admin/includes/template.php:787
-#: wp-admin/menu.php:77
+#: wp-admin/menu.php:101
 #: wp-includes/default-widgets.php:95
 msgid "Links"
 msgstr "Länkar"
@@ -6807,7 +6835,7 @@ msgid "Delete this post permanently"
 msgstr "Radera det här inlägget permanent"
 
 #: wp-admin/includes/template.php:1435
-#: wp-admin/includes/upgrade.php:106
+#: wp-admin/includes/upgrade.php:109
 #: wp-includes/category-template.php:179
 msgid "Uncategorized"
 msgstr "Okategoriserade"
@@ -7017,13 +7045,13 @@ msgid "Install Plugins"
 msgstr "Installera tillägg"
 
 #: wp-admin/includes/template.php:3398
-#: wp-admin/plugins.php:333
+#: wp-admin/plugins.php:320
 msgid "Manage Plugins"
 msgstr "Redigera tillägg"
 
 #: wp-admin/includes/template.php:3401
 #: wp-admin/theme-install.php:17
-#: wp-admin/update.php:154
+#: wp-admin/update.php:182
 msgid "Install Themes"
 msgstr "Installera teman"
 
@@ -7147,28 +7175,36 @@ msgid "Pages per page:"
 msgstr "Sidor per sida:"
 
 #: wp-admin/includes/template.php:3771
+msgid "Sites per page:"
+msgstr "Webbplatser per sida:"
+
+#: wp-admin/includes/template.php:3774
+msgid "Users per page:"
+msgstr "Användare per sida:"
+
+#: wp-admin/includes/template.php:3777
 msgid "Comments per page:"
 msgstr "Kommentarer per sida:"
 
-#: wp-admin/includes/template.php:3774
+#: wp-admin/includes/template.php:3780
 msgid "Media items per page:"
 msgstr "Mediaposter per sida:"
 
-#: wp-admin/includes/template.php:3779
+#: wp-admin/includes/template.php:3785
 msgid "Tags per page:"
 msgstr "Etiketter per sida:"
 
-#: wp-admin/includes/template.php:3781
+#: wp-admin/includes/template.php:3787
 msgid "Categories per page:"
 msgstr "Kategorier per sida:"
 
-#: wp-admin/includes/template.php:3783
+#: wp-admin/includes/template.php:3789
 #, php-format
 msgctxt "%s: plural taxonomy name"
 msgid "%s per page:"
 msgstr "%s per sida:"
 
-#: wp-admin/includes/template.php:3786
+#: wp-admin/includes/template.php:3792
 msgid "Plugins per page:"
 msgstr "Tillägg per sida:"
 
@@ -7444,7 +7480,7 @@ msgstr "Uppgraderar databasen&#8230;"
 
 #: wp-admin/includes/update.php:89
 #: wp-admin/includes/update.php:112
-#: wp-admin/plugins.php:614
+#: wp-admin/plugins.php:601
 #, php-format
 msgid "Version %s"
 msgstr "Version %s"
@@ -7507,69 +7543,73 @@ msgstr "En automatisk WordPress-uppgradering misslyckades! - <a href=\"%s\">var 
 msgid "An automated WordPress update has failed to complete! Please notify the site administrator."
 msgstr "En automatisk WordPress-uppdatering misslyckades! Vänligen meddela webbplatsens administratör."
 
-#: wp-admin/includes/upgrade.php:67
+#: wp-admin/includes/upgrade.php:68
 msgid "<strong><em>Note that password</em></strong> carefully! It is a <em>random</em> password that was generated just for you."
 msgstr "<strong><em>Var noga med att komma ihåg lösenordet!</em></strong> Det är ett <em>datorgenererat</em> lösenord som skapades just för dig."
 
-#: wp-admin/includes/upgrade.php:71
-msgid "<strong><em>Note that password</em></strong> carefully!"
-msgstr "<strong><em>Notera lösenordet</em></strong> varsamt!"
-
 #: wp-admin/includes/upgrade.php:74
-msgid "User already exists.  Password inherited."
-msgstr "Användaren finns redan. Lösenordet ärvt."
+msgid "<em>Your chosen password.</em>"
+msgstr "<em>Ditt valda lösenord.</em>"
+
+#: wp-admin/includes/upgrade.php:77
+msgid "User already exists. Password inherited."
+msgstr "Användaren finns redan. Lösenordet ärvdes."
+
+#: wp-admin/includes/upgrade.php:87
+msgid "The password you chose during the install."
+msgstr "Lösenordet du valde under installationen."
 
 #. translators: Default category slug
-#: wp-admin/includes/upgrade.php:108
+#: wp-admin/includes/upgrade.php:111
 msgctxt "Default category slug"
 msgid "Uncategorized"
 msgstr "Okategoriserade"
 
 #. translators: Default link category slug
-#: wp-admin/includes/upgrade.php:128
+#: wp-admin/includes/upgrade.php:131
 msgctxt "Default link category slug"
 msgid "Blogroll"
 msgstr "Länklista"
 
-#: wp-admin/includes/upgrade.php:201
+#: wp-admin/includes/upgrade.php:204
 msgid "Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!"
 msgstr "Välkommen till WordPress. Det här är ditt första inlägg. Redigera det eller radera det. Sedan kan du börja blogga!"
 
-#: wp-admin/includes/upgrade.php:210
+#: wp-admin/includes/upgrade.php:213
 msgid "Hello world!"
 msgstr "Hej världen!"
 
 #. translators: Default post slug
-#: wp-admin/includes/upgrade.php:212
+#: wp-admin/includes/upgrade.php:215
 msgctxt "Default post slug"
 msgid "hello-world"
 msgstr "hej-varlden"
 
-#: wp-admin/includes/upgrade.php:224
+#: wp-admin/includes/upgrade.php:227
 msgid "Mr WordPress"
 msgstr "Herr WordPress"
 
-#: wp-admin/includes/upgrade.php:226
+#: wp-admin/includes/upgrade.php:229
 msgid "Hi, this is a comment.<br />To delete a comment, just log in and view the post&#039;s comments. There you will have the option to edit or delete them."
 msgstr "Hej! Det här är en kommentar.<br />Gör så här om du vill radera en kommentar: logga in och visa kommentarerna till inlägget. Där kan du välja om du vill redigera eller radera dem."
 
-#: wp-admin/includes/upgrade.php:243
+#: wp-admin/includes/upgrade.php:246
 msgid "This is an example of a WordPress page, you could edit this to put information about yourself or your site so readers know where you are coming from. You can create as many pages like this one or sub-pages as you like and manage all of your content inside of WordPress."
 msgstr "Det här är ett exempel på en WordPress-sida. Du kan redigera den och lägga in information om dig själv eller din webbplats så att dina läsare vet mer om din bakgrund. Du kan skapa hur många liknande sidor eller undersidor som helst och hantera allt innehåll inom WordPress."
 
-#: wp-admin/includes/upgrade.php:253
+#: wp-admin/includes/upgrade.php:256
 #: wp-includes/js/tinymce/langs/wp-langs.php:251
 #: wp-includes/js/tinymce/wp-mce-help.php:177
 msgid "About"
 msgstr "Om"
 
 #. translators: Default page slug
-#: wp-admin/includes/upgrade.php:255
+#: wp-admin/includes/upgrade.php:258
 msgctxt "Default page slug"
 msgid "about"
 msgstr "om"
 
-#: wp-admin/includes/upgrade.php:310
+#: wp-admin/includes/upgrade.php:313
 #, php-format
 msgid ""
 "Your new WordPress blog has been successfully set up at:\n"
@@ -7600,7 +7640,7 @@ msgstr ""
 "--WordPress utvecklarteam\n"
 "http://wordpress.org/\n"
 
-#: wp-admin/includes/upgrade.php:325
+#: wp-admin/includes/upgrade.php:328
 msgid "New WordPress Blog"
 msgstr "Ny WordPressblogg"
 
@@ -7711,123 +7751,131 @@ msgstr "Användarnamn"
 msgid "User(s) already exists."
 msgstr "Användare(n) existerar redan."
 
-#: wp-admin/install.php:106
+#: wp-admin/install.php:105
+msgid "Re-enter Password"
+msgstr "Upprepa lösenord"
+
+#: wp-admin/install.php:109
 msgid "A password will be automatically generated for you if you leave this field blank."
 msgstr "Ett lösenord kommer att genereras automatiskt om du lämnar fältet tomt."
 
-#: wp-admin/install.php:107
-#: wp-admin/install.php:230
+#: wp-admin/install.php:110
+#: wp-admin/install.php:238
 #: wp-admin/user-edit.php:326
 #: wp-admin/user-new.php:213
 #: wp-includes/script-loader.php:257
 msgid "Strength indicator"
 msgstr "Indikator för styrka"
 
-#: wp-admin/install.php:108
+#: wp-admin/install.php:111
 #: wp-admin/user-edit.php:327
 #: wp-admin/user-new.php:214
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Tips: Ditt lösenord bör innehålla minst sju tecken. För att göra det säkrare använd stora som små bokstäver, siffror och symboler så som ! \" ? $ % ^ &amp; )."
 
-#: wp-admin/install.php:113
+#: wp-admin/install.php:116
 msgid "Your E-mail"
 msgstr "Din e-post"
 
-#: wp-admin/install.php:115
+#: wp-admin/install.php:118
 msgid "Double-check your email address before continuing."
 msgstr "Dubbelkolla e-postadressen innan du fortsätter."
 
-#: wp-admin/install.php:118
+#: wp-admin/install.php:121
 msgid "Allow my blog to appear in search engines like Google and Technorati."
 msgstr "Jag vill att min blogg syns i sökmotorer som Google och Technorati."
 
-#: wp-admin/install.php:121
+#: wp-admin/install.php:124
 msgid "Install WordPress"
 msgstr "Installera WordPress"
 
-#: wp-admin/install.php:129
+#: wp-admin/install.php:132
 msgid "Already Installed"
 msgstr "Redan installerat"
 
-#: wp-admin/install.php:129
+#: wp-admin/install.php:132
 msgid "You appear to have already installed WordPress. To reinstall please clear your old database tables first."
 msgstr "Du verkar redan ha installerat WordPress. Var god och töm dina gamla databastabeller före du ominstallerar."
 
-#: wp-admin/install.php:129
-#: wp-admin/install.php:215
+#: wp-admin/install.php:132
+#: wp-admin/install.php:223
 #: wp-includes/general-template.php:251
 #: wp-login.php:577
 #: wp-login.php:595
 msgid "Log In"
 msgstr "Logga in"
 
-#: wp-admin/install.php:138
+#: wp-admin/install.php:141
 #, php-format
 msgid "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Du kan inte installera <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> eftersom det kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
 
-#: wp-admin/install.php:140
+#: wp-admin/install.php:143
 #, php-format
 msgid "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Du kan inte installera <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> eftersom det kräver minst PHP %2$s eller senare. Du kör PHP %3$s."
 
-#: wp-admin/install.php:142
+#: wp-admin/install.php:145
 #, php-format
 msgid "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Du kan inte installera <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> eftersom det kräver minst MySQL %2$s eller senare. Du kör MySQL %3$s."
 
-#: wp-admin/install.php:146
+#: wp-admin/install.php:149
 msgid "Insufficient Requirements"
 msgstr "Minimumkraven uppfylls inte"
 
-#: wp-admin/install.php:154
+#: wp-admin/install.php:157
 msgid "Welcome"
 msgstr "Välkommen"
 
-#: wp-admin/install.php:155
+#: wp-admin/install.php:158
 #, php-format
 msgid "Welcome to the famous five minute WordPress installation process! You may want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure. Otherwise, just fill in the information below and you&#8217;ll be on your way to using the most extendable and powerful personal publishing platform in the world."
 msgstr "Välkommen till den berömda femminuters-installationen av WordPress! Du kanske vill ta en titt på <a href=\"%s\">Läs mig-dokumentationen</a>. Om inte, fyll i fälten nedan och du är på god väg att kunna börja använda världens mest flexibla och kraftfulla personliga publiceringsplattform."
 
-#: wp-admin/install.php:157
+#: wp-admin/install.php:160
 msgid "Information needed"
 msgstr "Information som behövs"
 
-#: wp-admin/install.php:158
+#: wp-admin/install.php:161
 msgid "Please provide the following information. Don&#8217;t worry, you can always change these settings later."
 msgstr "Var vänlig ange följande information. Bara lugn, du kan ändra dessa inställningar senare."
 
-#: wp-admin/install.php:178
+#: wp-admin/install.php:182
 msgid "you must provide a valid user name."
 msgstr "du måste ange ett riktigt användarnamn."
 
-#: wp-admin/install.php:182
+#: wp-admin/install.php:186
+msgid "your passwords do not match. Please try again"
+msgstr "dina lösenord matchar inte. Var vänlig försök igen."
+
+#: wp-admin/install.php:190
 msgid "you must provide an e-mail address."
 msgstr "du måste ange en e-postadress."
 
-#: wp-admin/install.php:186
+#: wp-admin/install.php:194
 msgid "that isn&#8217;t a valid e-mail address.  E-mail addresses look like: <code>username@example.com</code>"
 msgstr "det där är inte en giltig e-postadress. E-postadresser ser ut såhär: <code>namn@exempel.com</code>"
 
-#: wp-admin/install.php:196
+#: wp-admin/install.php:204
 msgid "Success!"
 msgstr "Klart!"
 
-#: wp-admin/install.php:198
+#: wp-admin/install.php:206
 msgid "WordPress has been installed. Were you expecting more steps? Sorry to disappoint."
 msgstr "WordPress har blivit installerat. Förväntade du dig fler steg? Tyvärr måste vi göra dig besviken."
 
-#: wp-admin/install.php:231
+#: wp-admin/install.php:239
 #: wp-includes/script-loader.php:258
 msgid "Very weak"
 msgstr "Väldigt svagt"
 
-#: wp-admin/install.php:232
+#: wp-admin/install.php:240
 #: wp-includes/script-loader.php:259
 msgid "Weak"
 msgstr "Svagt"
 
-#: wp-admin/install.php:234
+#: wp-admin/install.php:242
 #: wp-includes/script-loader.php:262
 msgid "Strong"
 msgstr "Starkt"
@@ -7852,7 +7900,7 @@ msgstr "Du saknar behörighet för att redigera länkarna på denna blog."
 
 #. translators: add new links
 #: wp-admin/link-manager.php:75
-#: wp-admin/menu.php:80
+#: wp-admin/menu.php:104
 msgctxt "link"
 msgid "Add New"
 msgstr "Lägg till ny"
@@ -8006,14 +8054,14 @@ msgstr "Admin"
 #. translators: Sites menu item
 #: wp-admin/menu.php:33
 #: wp-admin/ms-sites.php:7
-#: wp-admin/ms-sites.php:390
+#: wp-admin/ms-sites.php:409
 #: wp-admin/ms-users.php:156
 msgid "Sites"
 msgstr "Webbplatser"
 
 #: wp-admin/menu.php:35
-#: wp-admin/menu.php:113
-#: wp-admin/update-core.php:243
+#: wp-admin/menu.php:137
+#: wp-admin/update-core.php:246
 msgid "Themes"
 msgstr "Teman"
 
@@ -8022,129 +8070,149 @@ msgstr "Teman"
 msgid "My Sites"
 msgstr "Mina webbplatser"
 
-#: wp-admin/menu.php:53
-msgid "Updates"
-msgstr "Uppgraderingar"
+#: wp-admin/menu.php:67
+#, php-format
+msgid "%d WordPress Update"
+msgstr "%d Uppgradering WordPress"
 
-#: wp-admin/menu.php:73
+#: wp-admin/menu.php:69
+#, php-format
+msgid "%d Plugin Update"
+msgid_plural "%d Plugin Updates"
+msgstr[0] "%d uppgradering för tillägg"
+msgstr[1] "%d uppgraderingar för tillägg"
+
+#: wp-admin/menu.php:71
+#, php-format
+msgid "%d Theme Update"
+msgid_plural "%d Themes Updates"
+msgstr[0] "%d uppgraderingar för teman"
+msgstr[1] "%d uppgradering för tema"
+
+#: wp-admin/menu.php:75
+#, php-format
+msgid "Updates %s"
+msgstr "Uppgraderingar %s"
+
+#: wp-admin/menu.php:97
 msgid "Library"
 msgstr "Bibliotek"
 
 #. translators: add new file
-#: wp-admin/menu.php:75
+#: wp-admin/menu.php:99
 #: wp-admin/upload.php:171
 msgctxt "file"
 msgid "Add New"
 msgstr "Lägg till"
 
 #. translators: add new page
-#: wp-admin/menu.php:86
+#: wp-admin/menu.php:110
 msgctxt "page"
 msgid "Add New"
 msgstr "Lägg till ny"
 
-#: wp-admin/menu.php:88
+#: wp-admin/menu.php:112
 #, php-format
 msgid "Comments %s"
 msgstr "Kommentarer %s"
 
-#: wp-admin/menu.php:112
+#: wp-admin/menu.php:136
 msgid "Appearance"
 msgstr "Utseende"
 
-#: wp-admin/menu.php:114
+#: wp-admin/menu.php:138
 #: wp-admin/nav-menus.php:179
 msgid "Menus"
 msgstr "Menyer"
 
-#: wp-admin/menu.php:120
+#: wp-admin/menu.php:144
 msgctxt "theme editor"
 msgid "Editor"
 msgstr "Redigerare"
 
-#: wp-admin/menu.php:130
+#: wp-admin/menu.php:154
 #, php-format
 msgid "Plugins %s"
 msgstr "Tillägg %s"
 
-#: wp-admin/menu.php:131
+#: wp-admin/menu.php:155
 msgid "Installed"
 msgstr "Installerade"
 
 #. translators: add new plugin
-#: wp-admin/menu.php:133
-#: wp-admin/plugins.php:381
+#: wp-admin/menu.php:157
+#: wp-admin/plugins.php:368
 msgctxt "plugin"
 msgid "Add New"
 msgstr "Lägg till nytt"
 
-#: wp-admin/menu.php:134
+#: wp-admin/menu.php:158
 msgctxt "plugin editor"
 msgid "Editor"
 msgstr "Redigerare"
 
-#: wp-admin/menu.php:141
+#: wp-admin/menu.php:165
 #: wp-admin/user-edit.php:18
 msgid "Profile"
 msgstr "Profil"
 
-#: wp-admin/menu.php:145
+#: wp-admin/menu.php:169
 msgid "Authors &amp; Users"
 msgstr "Författare &amp; användare"
 
-#: wp-admin/menu.php:146
+#: wp-admin/menu.php:170
 #: wp-admin/users.php:263
 msgctxt "user"
 msgid "Add New"
 msgstr "Lägg till ny"
 
-#: wp-admin/menu.php:148
-#: wp-admin/menu.php:151
+#: wp-admin/menu.php:172
+#: wp-admin/menu.php:175
 msgid "Your Profile"
 msgstr "Din profil"
 
-#: wp-admin/menu.php:154
-#: wp-admin/menu.php:155
+#: wp-admin/menu.php:178
+#: wp-admin/menu.php:179
 #: wp-admin/tools.php:12
 msgid "Tools"
 msgstr "Verktyg"
 
-#: wp-admin/menu.php:159
+#: wp-admin/menu.php:183
 #: wp-admin/ms-delete-site.php:13
 msgid "Delete Blog"
 msgstr "Radera blogg"
 
-#: wp-admin/menu.php:161
+#: wp-admin/menu.php:185
 msgid "Network"
 msgstr "Nätverk"
 
-#: wp-admin/menu.php:163
+#: wp-admin/menu.php:187
 #: wp-admin/options.php:21
 msgid "Settings"
 msgstr "Inställningar"
 
-#: wp-admin/menu.php:164
+#: wp-admin/menu.php:188
 msgctxt "settings screen"
 msgid "General"
 msgstr "Allmänt"
 
-#: wp-admin/menu.php:165
+#: wp-admin/menu.php:189
 msgid "Writing"
 msgstr "Skriva"
 
-#: wp-admin/menu.php:166
+#: wp-admin/menu.php:190
 msgid "Reading"
 msgstr "Läsa"
 
-#: wp-admin/menu.php:169
+#: wp-admin/menu.php:193
 msgid "Privacy"
 msgstr "Skydd"
 
-#: wp-admin/menu.php:170
+#: wp-admin/menu.php:194
 msgid "Permalinks"
 msgstr "Permalänkar"
 
-#: wp-admin/menu.php:172
+#: wp-admin/menu.php:196
 msgid "Miscellaneous"
 msgstr "Övrigt"
 
@@ -8167,17 +8235,17 @@ msgstr "Nätverksadmin"
 #: wp-admin/ms-edit.php:21
 #: wp-admin/ms-edit.php:133
 #: wp-admin/ms-edit.php:186
-#: wp-admin/ms-edit.php:291
-#: wp-admin/ms-edit.php:303
-#: wp-admin/ms-edit.php:329
-#: wp-admin/ms-edit.php:340
-#: wp-admin/ms-edit.php:351
-#: wp-admin/ms-edit.php:362
-#: wp-admin/ms-edit.php:373
-#: wp-admin/ms-edit.php:383
-#: wp-admin/ms-edit.php:408
-#: wp-admin/ms-edit.php:468
-#: wp-admin/ms-edit.php:556
+#: wp-admin/ms-edit.php:294
+#: wp-admin/ms-edit.php:308
+#: wp-admin/ms-edit.php:349
+#: wp-admin/ms-edit.php:360
+#: wp-admin/ms-edit.php:371
+#: wp-admin/ms-edit.php:382
+#: wp-admin/ms-edit.php:393
+#: wp-admin/ms-edit.php:403
+#: wp-admin/ms-edit.php:427
+#: wp-admin/ms-edit.php:487
+#: wp-admin/ms-edit.php:575
 #: wp-admin/ms-options.php:13
 #: wp-admin/ms-sites.php:15
 #: wp-admin/ms-themes.php:9
@@ -8345,36 +8413,40 @@ msgstr "[%s] Ny webbplats skapad"
 msgid "You probably need to go back to the <a href=\"ms-sites.php\">sites page</a>"
 msgstr "Du behöver troligen gå tillbaka till sidan för <a href=\"ms-sites.php\">webbplatser</a>"
 
-#: wp-admin/ms-edit.php:435
+#: wp-admin/ms-edit.php:333
+msgid "You are not allowed to change one of this sites."
+msgstr "Du saknar behörighet för att ändra en av dessa webbplatser."
+
+#: wp-admin/ms-edit.php:454
 msgid "WordPress &rsaquo; Confirm your action"
 msgstr "WordPress &rsaquo; Bekräfta åtgärd"
 
-#: wp-admin/ms-edit.php:448
+#: wp-admin/ms-edit.php:467
 msgid "Confirm"
 msgstr "Bekräfta"
 
-#: wp-admin/ms-edit.php:530
+#: wp-admin/ms-edit.php:549
 #, php-format
 msgid "Warning! User cannot be modified. The user %s is a network admnistrator."
 msgstr "Varning! Användaren kan inte modifieras. Användaren %s är nätverksadministratör."
 
-#: wp-admin/ms-edit.php:559
+#: wp-admin/ms-edit.php:578
 msgid "Cannot create an empty user."
 msgstr "Kan inte skapa en tom användare."
 
-#: wp-admin/ms-edit.php:562
+#: wp-admin/ms-edit.php:581
 msgid "Missing username and email."
 msgstr "Användarnamn och e-post saknas."
 
-#: wp-admin/ms-edit.php:564
+#: wp-admin/ms-edit.php:583
 msgid "Missing username."
 msgstr "Användarnamn saknas."
 
-#: wp-admin/ms-edit.php:566
+#: wp-admin/ms-edit.php:585
 msgid "Missing email."
 msgstr "E-postadress saknas."
 
-#: wp-admin/ms-edit.php:572
+#: wp-admin/ms-edit.php:591
 msgid "Duplicated username or email address."
 msgstr "Dubbelt användarnamn eller e-postadress."
 
@@ -8697,14 +8769,14 @@ msgid "Site info (wp_blogs)"
 msgstr "Webbplatsinfo (wp_blogs)"
 
 #: wp-admin/ms-sites.php:96
-#: wp-admin/ms-sites.php:422
-#: wp-admin/ms-sites.php:617
-#: wp-admin/ms-sites.php:619
+#: wp-admin/ms-sites.php:494
+#: wp-admin/ms-sites.php:737
+#: wp-admin/ms-sites.php:739
 msgid "Domain"
 msgstr "Domän"
 
 #: wp-admin/ms-sites.php:104
-#: wp-admin/ms-sites.php:422
+#: wp-admin/ms-sites.php:494
 #: wp-content/themes/twentyten/functions.php:26
 #: wp-includes/js/tinymce/langs/wp-langs.php:241
 msgid "Path"
@@ -8715,18 +8787,18 @@ msgid "Update 'siteurl' and 'home' as well."
 msgstr "Uppdatera även 'siteurl' och 'home'."
 
 #: wp-admin/ms-sites.php:113
-#: wp-admin/ms-sites.php:427
+#: wp-admin/ms-sites.php:499
 #: wp-admin/ms-users.php:146
 msgid "Registered"
 msgstr "Registrerad"
 
 #: wp-admin/ms-sites.php:117
-#: wp-admin/ms-sites.php:426
+#: wp-admin/ms-sites.php:498
 msgid "Last Updated"
 msgstr "Senast uppdaterad"
 
 #: wp-admin/ms-sites.php:128
-#: wp-admin/ms-sites.php:463
+#: wp-admin/ms-sites.php:404
 msgid "Archived"
 msgstr "Arkiverat"
 
@@ -8735,7 +8807,7 @@ msgid "Mature"
 msgstr "Vuxenmaterial"
 
 #: wp-admin/ms-sites.php:149
-#: wp-admin/ms-sites.php:463
+#: wp-admin/ms-sites.php:404
 msgid "Deleted"
 msgstr "Raderade"
 
@@ -8756,6 +8828,8 @@ msgstr "Webbplatsteman"
 
 #: wp-admin/ms-sites.php:229
 #: wp-admin/ms-themes.php:29
+#: wp-admin/update-core.php:256
+#: wp-admin/update-core.php:263
 msgid "Theme"
 msgstr "Tema"
 
@@ -8800,138 +8874,136 @@ msgstr "Roll:"
 msgid "Misc Site Actions"
 msgstr "Övriga webbplatsval"
 
-#: wp-admin/ms-sites.php:395
-msgid "Search blogs by name"
-msgstr "Sök bloggar efter namn"
+#: wp-admin/ms-sites.php:410
+msgctxt "sites"
+msgid "Add New"
+msgstr "Lägg till ny"
 
-#: wp-admin/ms-sites.php:396
-msgid "by blog ID"
-msgstr "efter blogg-ID"
+#: wp-admin/ms-sites.php:426
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "Alla <span class=\"count\">(%s)</span>"
 
-#: wp-admin/ms-sites.php:397
-msgid "by IP address"
-msgstr "efter IP-adress"
+#: wp-admin/ms-sites.php:449
+msgid "Search Site by"
+msgstr "Sök webbplats efter"
 
-#: wp-admin/ms-sites.php:417
-msgid "Search Users:"
-msgstr "Sök användare:"
-
-#: wp-admin/ms-sites.php:424
+#: wp-admin/ms-sites.php:452
+#: wp-admin/ms-sites.php:496
 msgid "ID"
 msgstr "ID"
 
-#: wp-admin/ms-sites.php:509
+#: wp-admin/ms-sites.php:453
+msgid "IP address"
+msgstr "IP-adress"
+
+#: wp-admin/ms-sites.php:603
 msgid "Backend"
 msgstr "Adminpanel"
 
-#: wp-admin/ms-sites.php:512
+#: wp-admin/ms-sites.php:606
 #, php-format
 msgid "You are about to activate the site %s"
 msgstr "Du håller på att aktivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:514
+#: wp-admin/ms-sites.php:608
 #, php-format
 msgid "You are about to deactivate the site %s"
 msgstr "Du håller på att inaktivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:514
-#: wp-admin/plugins.php:569
-#: wp-admin/plugins.php:657
+#: wp-admin/ms-sites.php:608
+#: wp-admin/plugins.php:556
+#: wp-admin/plugins.php:644
 #: wp-admin/widgets.php:353
 msgid "Deactivate"
 msgstr "Inaktivera"
 
-#: wp-admin/ms-sites.php:517
+#: wp-admin/ms-sites.php:611
 #, php-format
 msgid "You are about to unarchive the site %s"
 msgstr "Du håller på att avarkivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:517
+#: wp-admin/ms-sites.php:611
 msgid "Unarchive"
 msgstr "Avarkivera"
 
-#: wp-admin/ms-sites.php:519
+#: wp-admin/ms-sites.php:613
 #, php-format
 msgid "You are about to archive the site %s"
 msgstr "Du är på väg att arkivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:519
+#: wp-admin/ms-sites.php:613
 msgid "Archive"
 msgstr "Arkiv"
 
-#: wp-admin/ms-sites.php:522
+#: wp-admin/ms-sites.php:616
 #, php-format
 msgid "You are about to unspam the site %s"
 msgstr "Du är på väg att avmarkera webbplatsen %s som skräppostare"
 
-#: wp-admin/ms-sites.php:524
+#: wp-admin/ms-sites.php:618
 #, php-format
 msgid "You are about to mark the site %s as spam"
 msgstr "Du är på väg att markera webbplatsen %s som skräppostare"
 
-#: wp-admin/ms-sites.php:526
+#: wp-admin/ms-sites.php:620
 #, php-format
 msgid "You are about to delete the site %s"
 msgstr "Du håller på att radera följande webbplats %s"
 
-#: wp-admin/ms-sites.php:528
+#: wp-admin/ms-sites.php:622
 #: wp-admin/my-sites.php:71
 msgid "Visit"
 msgstr "Besök"
 
-#: wp-admin/ms-sites.php:542
+#: wp-admin/ms-sites.php:641
 msgid "Never"
 msgstr "Aldrig"
 
-#: wp-admin/ms-sites.php:542
-#: wp-admin/ms-sites.php:548
-msgid "Y-m-d \\<\\b\\r \\/\\> g:i:s a"
-msgstr "d.m Y \\<\\b\\r \\/\\> G:i:s"
-
-#: wp-admin/ms-sites.php:561
+#: wp-admin/ms-sites.php:659
 msgid "Only showing first 5 users."
 msgstr "Visar endast de första 5 användarna."
 
-#: wp-admin/ms-sites.php:561
+#: wp-admin/ms-sites.php:659
 msgid "More"
 msgstr "Mer"
 
-#: wp-admin/ms-sites.php:596
+#: wp-admin/ms-sites.php:698
 msgid "No blogs found."
 msgstr "Inga bloggar hittade."
 
-#: wp-admin/ms-sites.php:609
-#: wp-admin/ms-sites.php:638
+#: wp-admin/ms-sites.php:729
+#: wp-admin/ms-sites.php:758
 msgid "Add Site"
 msgstr "Lägg till webbplats"
 
-#: wp-admin/ms-sites.php:614
+#: wp-admin/ms-sites.php:734
 msgid "Site Address"
 msgstr "Webbplatsadress"
 
-#: wp-admin/ms-sites.php:621
+#: wp-admin/ms-sites.php:741
 msgid "Only the characters a-z and 0-9 recommended."
 msgstr "Endast tecken a-z och 0-9 rekommenderat."
 
-#: wp-admin/ms-sites.php:626
+#: wp-admin/ms-sites.php:746
 msgid "Site Title"
 msgstr "Titel för webbplats"
 
-#: wp-admin/ms-sites.php:630
+#: wp-admin/ms-sites.php:750
 msgid "Admin Email"
 msgstr "E-postadress admin"
 
-#: wp-admin/ms-sites.php:631
+#: wp-admin/ms-sites.php:751
 #: wp-admin/ms-users.php:302
 #: wp-includes/comment-template.php:1477
 msgid "Email"
 msgstr "E-post"
 
-#: wp-admin/ms-sites.php:634
+#: wp-admin/ms-sites.php:754
 msgid "A new user will be created if the above email address is not in the database."
 msgstr "En nya användare kommer att skapas om ovan angiven e-postadress inte redan finns i databasen."
 
-#: wp-admin/ms-sites.php:634
+#: wp-admin/ms-sites.php:754
 msgid "The username and password will be mailed to this email address."
 msgstr "Användarnamn och lösenord kommer att mailas till den här e-postadressen."
 
@@ -8948,6 +9020,10 @@ msgid "Disable themes site-wide. You can enable themes on a site by site basis."
 msgstr "Inaktivera teman för hela nätverket. Du kan aktivera teman per webbplatsbasis."
 
 #: wp-admin/ms-themes.php:67
+#: wp-admin/update-core.php:251
+#: wp-admin/update-core.php:280
+#: wp-admin/update-core.php:438
+#: wp-admin/update-core.php:443
 msgid "Update Themes"
 msgstr "Uppdatera inställningar"
 
@@ -9218,120 +9294,119 @@ msgid "If <code>mod_rewrite</code> is disabled ask your administrator to enable 
 msgstr "Om <code>mod_rewrite</code> modulen är inaktiverad, be din serveradministratör att aktivera den. Alternativt läs <a href=\"http://httpd.apache.org/docs/mod/mod_rewrite.html\">Apache-dokumentationen</a> eller <a href=\"http://www.google.com/search?q=apache+mod_rewrite\">annan dokumentation</a> för hjälp med att aktivera den."
 
 #: wp-admin/network.php:87
-msgid "Existing Sites"
-msgstr "Existerande webbplatser"
+msgid "Existing Network"
+msgstr "Existerande nätverk"
 
 #: wp-admin/network.php:88
-msgid "An existing WordPress Network was detected."
-msgstr "Ett existerande WordPress-nätverk har hittats."
+msgid "An existing network was detected."
+msgstr "Ett existerande nätverk har upptäckts."
 
 #: wp-admin/network.php:90
 msgid "Yes, keep the existing network of sites."
 msgstr "Ja, behåll existerande nätverk av webbplatser."
 
-#: wp-admin/network.php:97
+#: wp-admin/network.php:96
 msgid "Addresses of Sites in your Network"
 msgstr "Adresser för webbplatser i ditt nätverk"
 
-#: wp-admin/network.php:99
+#: wp-admin/network.php:98
 msgid "Please choose whether you would like sites in your WordPress network to use sub-domains or sub-directories. <strong>You cannot change this later.</strong>"
 msgstr "Välj om du vill att webbplatserna i din installation av WordPress ska använda subdomäner eller undermappar. <strong>Du kan inte ändra det här sen.</strong>"
 
-#: wp-admin/network.php:100
+#: wp-admin/network.php:99
 msgid "You will need a wildcard DNS record if you're going to use the virtual host (sub-domain) functionality."
 msgstr "Du kommer att behöva en joker-dns-post om du vill använda funktionaliteten för virtuella värdnamn (subdomän)."
 
-#: wp-admin/network.php:103
+#: wp-admin/network.php:102
 msgid "<strong>Note</strong> It looks like <code>mod_rewrite</code> is not installed."
 msgstr "<strong>Notera</strong> det ser inte ut som om <code>mod_rewrite</code> är installerat."
 
-#: wp-admin/network.php:108
-msgid "like <code>blog1.example.com</code> and <code>blog2.example.com</code>"
-msgstr "så som <code>blogg1.exempel.se</code> och <code>blogg2.exempel.se</code>"
+#: wp-admin/network.php:107
+msgid "like <code>site1.example.com</code> and <code>site2.example.com</code>"
+msgstr "så som <code>webbplats1.exempel.se</code> och <code>webbplats2.exempel.se</code>"
 
-#: wp-admin/network.php:112
-msgid "like <code>example.com/blog1</code> and <code>example.com/blog2</code>"
-msgstr "så som <code>exempel.se/blogg1</code> och <code>exempel.se/blogg2</code>"
+#: wp-admin/network.php:111
+msgid "like <code>example.com/site1</code> and <code>example.com/site2</code>"
+msgstr "så som <code>exempel.se/webbplats1</code> och <code>exempel.se/webbplats2</code>"
 
-#: wp-admin/network.php:120
-#: wp-admin/network.php:124
-#: wp-admin/network.php:137
+#: wp-admin/network.php:119
+#: wp-admin/network.php:123
+#: wp-admin/network.php:136
 msgid "Server Address"
 msgstr "Serveradress"
 
-#: wp-admin/network.php:121
+#: wp-admin/network.php:120
 #, php-format
 msgid "We recommend you change your siteurl to <code>%1$s</code> before enabling the network feature. It will still be possible to visit your site using the \"www\" prefix with an address like <code>%2$s</code> but any links will not have the \"www\" prefix."
 msgstr "Vi rekommenderar dig att ändra din webbplatsurl till <code>%1$s</code> innan du aktiverar nätverksfunktionerna. Det kommer fortfarande gå att besöka din webbplats med prefixet \"www\" med en adress som <code>%2$s</code>, men länkar kommer inte att ha prefixet \"www\"."
 
-#: wp-admin/network.php:126
-#: wp-admin/network.php:139
+#: wp-admin/network.php:125
+#: wp-admin/network.php:138
 #, php-format
 msgid "The Internet address of your network will be <code>%s</code>."
 msgstr "Internet adressen för ditt nätverk kommer att vara <code>%s</code>."
 
-#: wp-admin/network.php:133
+#: wp-admin/network.php:132
 msgid "Network Details"
 msgstr "Detaljer för nätverk"
 
-#: wp-admin/network.php:144
+#: wp-admin/network.php:143
 msgid "Network Title"
 msgstr "Titel för nätverk"
 
-#: wp-admin/network.php:146
+#: wp-admin/network.php:145
 #, php-format
 msgid "%s Sites"
 msgstr "%s Webbplatser"
 
-#: wp-admin/network.php:147
+#: wp-admin/network.php:146
 msgid "What would you like to call your network?"
 msgstr "Vad vill du kalla ditt nätverk?"
 
-#: wp-admin/network.php:151
+#: wp-admin/network.php:150
 msgid "Admin E-mail Address"
 msgstr "E-postadress för admin"
 
-#: wp-admin/network.php:154
+#: wp-admin/network.php:153
 msgid "Your email address."
 msgstr "Din e-postadress."
 
-#: wp-admin/network.php:170
+#: wp-admin/network.php:169
 msgid "Enabling the Network"
 msgstr "Aktiverar nätverket"
 
+#: wp-admin/network.php:170
+msgid "Complete the following steps to enable the features for creating a network of sites."
+msgstr "Genomför följande steg för att aktivera funktionerna för att skapa ett nätverk av webbplatser."
+
 #: wp-admin/network.php:171
-msgid "Complete the following steps to enable the features for creating a network of sites. <strong>Note:</strong> We recommend you make a backup copy of your existing <code>wp-config.php</code> and <code>.htaccess</code> files."
-msgstr "Fullfölj dessa steg för att aktivera funktionerna som behövs för att skapa ett nätverk av webbplatser. <strong>Notera:</strong> Vi rekommenderar att du tar en backup av dina filer <code>wp-config.php</code> och <code>.htaccess</code>."
+msgid "<strong>Caution:</strong> We recommend you backup your existing <code>wp-config.php</code> and <code>.htaccess</code> files."
+msgstr "<strong>OBS:</strong> Vi rekommenderar att du tar en backup av dina <code>wp-config.php</code> och <code>.htaccess</code>-filer."
 
 #: wp-admin/network.php:173
 #, php-format
-msgid "Create a <code>%s/blogs.dir</code> directory. This directory is used to stored uploaded media for your additional sites and must be writeable by the web server."
-msgstr "Skapa en <code>%s/blogs.dir</code>-mapp. Denna mapp kommer att användas för att lagra uppladdade filer för webbplatser i nätverket och måste vara skrivbar."
+msgid "Create a <code>blogs.dir</code> directory in <code>%s</code>. This directory is used to stored uploaded media for your additional sites and must be writeable by the web server."
+msgstr "Skapa en <code>blogs.dir</code>-mapp i <code>%s</code>. Denna mapp kommer att användas för att lagra uppladdade filer för webbplatser i nätverket och måste vara skrivbar."
 
-#: wp-admin/network.php:180
+#: wp-admin/network.php:174
 #, php-format
-msgid "Sorry, I need a <code>%s</code> to work from. Please re-upload this file to your WordPress installation."
-msgstr "Vi behöver en <code>%s</code> att jobba utifrån. Var vänlig ladda upp den här filen till din installation av WordPress på nytt."
+msgid "Add the following to your <code>wp-config.php</code> file in <code>%s</code>:"
+msgstr "Lägg till följande i din <code>wp-config.php</code>, <code>%s</code>:"
 
-#: wp-admin/network.php:184
-#, php-format
-msgid "Replace the contents of <code>%swp-config.php</code> with the following:"
-msgstr "Byt ut innehållet i din <code>%swp-config.php</code> med följande:"
+#: wp-admin/network.php:204
+msgid "This unique authentication key is also missing from your <code>wp-config.php</code> file."
+msgid_plural "These unique authentication keys are also missing from your <code>wp-config.php</code> file."
+msgstr[0] "Denna unika autentiseringsnyckel saknas också i din <code>wp-config.php</code> file."
+msgstr[1] "Dessa unika autentiseringsnycklar saknas också i din <code>wp-config.php</code> file."
 
-#: wp-admin/network.php:247
-#, php-format
-msgid "Sorry, I need a %s to work from. Please re-upload this file to your WordPress installation."
-msgstr "Ledsen, det behövs en %s att arbeta utifrån. Var vänlig ladda upp denna fil på nytt till din installation av WordPress."
+#: wp-admin/network.php:204
+msgid "To make your installation more secure, you should also add:"
+msgstr "För att göra din installation mer säker så bör du också lägga till:"
 
-#: wp-admin/network.php:258
+#: wp-admin/network.php:239
 #, php-format
-msgid "Sorry, I need to be able to read %s. Please check the permissions on this file."
-msgstr "Vi behöver kunna läsa %s. Var vänlig kontrollera rättigheterna för den här filen."
-
-#: wp-admin/network.php:261
-#, php-format
-msgid "Replace the contents of your <code>%s.htaccess</code> with the following:"
-msgstr "Byt ut innehållet i din <code>%s.htaccess</code> mot följande:"
+msgid "Add the following to your <code>.htaccess</code> file in <code>%s</code>, replacing other WordPress rules:"
+msgstr "Lägg till följande i din <code>.htaccess</code>, <code>%s</code>, och skriv över eventuellt existerande WordPressregler:"
 
 #: wp-admin/options-discussion.php:13
 #: wp-admin/options-general.php:13
@@ -9653,54 +9728,54 @@ msgstr "Lokal tid är <code>%1$s</code>"
 msgid "Choose a city in the same timezone as you."
 msgstr "Välj en stad som är i samma tidzon som dig."
 
-#: wp-admin/options-general.php:195
+#: wp-admin/options-general.php:196
 msgid "This timezone is currently in daylight saving time."
 msgstr "Denna tidszon har för närvarande sommartid."
 
-#: wp-admin/options-general.php:196
+#: wp-admin/options-general.php:198
 msgid "This timezone is currently in standard time."
 msgstr "Denna tidszon har för närvarande vintertid."
 
-#: wp-admin/options-general.php:212
+#: wp-admin/options-general.php:215
 #, php-format
 msgid "Daylight saving time begins on: <code>%s</code>."
 msgstr "Sommartiden startar: <code>%s</code>."
 
-#: wp-admin/options-general.php:213
+#: wp-admin/options-general.php:216
 #, php-format
 msgid "Standard time begins  on: <code>%s</code>."
 msgstr "Vintertiden startar: <code>%s</code>."
 
-#: wp-admin/options-general.php:216
+#: wp-admin/options-general.php:219
 msgid "This timezone does not observe daylight saving time."
 msgstr "Denna tidszon använder inte sommartid."
 
-#: wp-admin/options-general.php:227
-#: wp-admin/options-general.php:229
+#: wp-admin/options-general.php:230
+#: wp-admin/options-general.php:232
 #: xmlrpc.php:416
 msgid "Date Format"
 msgstr "Datumformat"
 
-#: wp-admin/options-general.php:252
-#: wp-admin/options-general.php:284
+#: wp-admin/options-general.php:255
+#: wp-admin/options-general.php:287
 msgid "Custom:"
 msgstr "Egen:"
 
-#: wp-admin/options-general.php:254
+#: wp-admin/options-general.php:257
 msgid "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Documentation on date formatting</a>. Click &#8220;Save Changes&#8221; to update sample output."
 msgstr "<a href=\"http://codex.wordpress.org/Formatting_Date_and_Time\">Dokumentation om datumformat</a>. Spara inställningarna för att uppdatera exempeldatumet."
 
-#: wp-admin/options-general.php:260
-#: wp-admin/options-general.php:262
+#: wp-admin/options-general.php:263
+#: wp-admin/options-general.php:265
 #: xmlrpc.php:421
 msgid "Time Format"
 msgstr "Tidsformat"
 
-#: wp-admin/options-general.php:290
+#: wp-admin/options-general.php:293
 msgid "Week Starts On"
 msgstr "Veckan startar med"
 
-#: wp-admin/options-general.php:314
+#: wp-admin/options-general.php:317
 msgid "Blog language:"
 msgstr "webbplatsspråk:"
 
@@ -10213,202 +10288,194 @@ msgstr "Du saknar behörighet för att hantera tillägg i den här bloggen."
 
 #: wp-admin/plugins.php:48
 #: wp-admin/plugins.php:75
-#: wp-admin/plugins.php:142
+#: wp-admin/plugins.php:129
 msgid "You do not have sufficient permissions to activate plugins for this blog."
 msgstr "Du saknar behörighet för att aktivera tillägg i den här bloggen."
 
-#: wp-admin/plugins.php:100
-#: wp-admin/update-core.php:13
-#: wp-admin/update.php:21
-#: wp-admin/update.php:40
-msgid "You do not have sufficient permissions to update plugins for this blog."
-msgstr "Du saknar behörighet att redigera den här bloggens tillägg."
-
-#: wp-admin/plugins.php:130
-#: wp-admin/update-core.php:366
+#: wp-admin/plugins.php:109
 msgid "Upgrade Plugins"
 msgstr "Uppgradera tillägg"
 
+#: wp-admin/plugins.php:155
 #: wp-admin/plugins.php:168
-#: wp-admin/plugins.php:181
 msgid "You do not have sufficient permissions to deactivate plugins for this blog."
 msgstr "Du saknar behörighet för att inaktivera tillägg i den här bloggen."
 
-#: wp-admin/plugins.php:204
+#: wp-admin/plugins.php:191
 msgid "You do not have sufficient permissions to delete plugins for this blog."
 msgstr "Du saknar behörighet för att redigera den här bloggens tillägg."
 
-#: wp-admin/plugins.php:251
+#: wp-admin/plugins.php:238
 msgid "Delete Plugin"
 msgid_plural "Delete Plugins"
 msgstr[0] "Radera tillägg"
 msgstr[1] "Radera tillägg"
 
-#: wp-admin/plugins.php:253
+#: wp-admin/plugins.php:240
 msgid "You are about to remove the following plugin:"
 msgid_plural "You are about to remove the following plugins:"
 msgstr[0] "Du är på väg att ta bort följande tillägg:"
 msgstr[1] "Du är på väg att ta bort följande tillägg:"
 
 #. translators: 1: plugin name, 2: plugin author
-#: wp-admin/plugins.php:260
+#: wp-admin/plugins.php:247
 #, php-format
 msgid "<strong>%1$s</strong> by <em>%2$s</em> (will also <strong>delete its data</strong>)"
 msgstr "<strong>%1$s</strong> av <em>%2$s</em> (kommer även att <strong>raderas dess data</strong>)"
 
 #. translators: 1: plugin name, 2: plugin author
-#: wp-admin/plugins.php:264
+#: wp-admin/plugins.php:251
 #, php-format
 msgid "<strong>%1$s</strong> by <em>%2$s</em>"
 msgstr "<strong>%1$s</strong> av <em>%2$s</em>"
 
-#: wp-admin/plugins.php:271
+#: wp-admin/plugins.php:258
 msgid "Are you sure you wish to delete these files and data?"
 msgstr "Är du säker på att du vill radera dessa filer och data?"
 
-#: wp-admin/plugins.php:273
+#: wp-admin/plugins.php:260
 msgid "Are you sure you wish to delete these files?"
 msgstr "Är du säker på att du vill radera dessa filer?"
 
-#: wp-admin/plugins.php:283
+#: wp-admin/plugins.php:270
 msgid "Yes, Delete these files and data"
 msgstr "Ja, radera dessa filer och data"
 
-#: wp-admin/plugins.php:283
+#: wp-admin/plugins.php:270
 msgid "Yes, Delete these files"
 msgstr "Ja, radera dessa filer"
 
-#: wp-admin/plugins.php:286
+#: wp-admin/plugins.php:273
 msgid "No, Return me to the plugin list"
 msgstr "Nej, skicka mig tillbaka till lista med tillägg"
 
-#: wp-admin/plugins.php:289
+#: wp-admin/plugins.php:276
 msgid "Click to view entire list of files which will be deleted"
 msgstr "Klicka för att visa hela listan med filer som kommer att raderas"
 
-#: wp-admin/plugins.php:318
+#: wp-admin/plugins.php:305
 msgid "Plugins extend and expand the functionality of WordPress. Once a plugin is installed, you may activate it or deactivate it here."
 msgstr "Tillägg utvidgar och utvecklar WordPress funktioner. När ett tillägg är installerat kan du aktivera eller inaktivera det här."
 
-#: wp-admin/plugins.php:320
+#: wp-admin/plugins.php:307
 #, php-format
 msgid "If something goes wrong with a plugin and you can&#8217;t use WordPress, delete or rename that file in the <code>%s</code> directory and it will be automatically deactivated."
 msgstr "Om det uppstår ett fel i ett tillägg och du inte kan använda WordPress så kan du inaktivera det genom att radera eller byta namn på tilläggsfilen i katalogen <code>%s</code>."
 
-#: wp-admin/plugins.php:321
+#: wp-admin/plugins.php:308
 #, php-format
 msgid "You can find additional plugins for your site by using the new <a href=\"%1$s\">Plugin Browser/Installer</a> functionality or by browsing the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> directly and installing manually.  To <em>manually</em> install a plugin you generally just need to upload the plugin file into your <code>%2$s</code> directory.  Once a plugin has been installed, you may activate it here."
 msgstr "Du kan hitta ytterligare tillägg för din webbplats genom att använda den nya <a href=\"%1$s\">tilläggs-katalogen/installeraren</a>, eller genom att besöka <a href=\"http://wordpress.org/extend/plugins/\">WordPress katalog över tillägg</a> direkt och installera manuellt. För att <em>manuellt</em> installera ett tillägg så behöver du generellt bara ladda upp tilläggsfilerna till din <code>%2$s</code>-mapp. När ett tillägg är installerat så kan du aktivera det här."
 
-#: wp-admin/plugins.php:339
+#: wp-admin/plugins.php:326
 #, php-format
 msgid "The plugin <code>%s</code> has been <strong>deactivated</strong> due to an error: %s"
 msgstr "Tillägget <code>%s</code> har <strong>inaktiverats</strong> pga fel: %s"
 
-#: wp-admin/plugins.php:345
+#: wp-admin/plugins.php:332
 #, php-format
 msgid "Plugin could not be activated because it generated %d characters of <strong>unexpected output</strong>."
 msgstr "Tillägget kunde inte aktiveras eftersom det genererade %d tecken av <strong>oväntad output</strong>."
 
-#: wp-admin/plugins.php:347
+#: wp-admin/plugins.php:334
 msgid "Plugin could not be activated because it triggered a <strong>fatal error</strong>."
 msgstr "Tillägget kunde inte aktiveras eftersom det orsakade ett <strong>allvarligt fel</strong>."
 
-#: wp-admin/plugins.php:363
+#: wp-admin/plugins.php:350
 #, php-format
 msgid "Plugin could not be deleted due to an error: %s"
 msgstr "Tillägget kunde inte raderas pga av ett fel: %s"
 
-#: wp-admin/plugins.php:365
+#: wp-admin/plugins.php:352
 msgid "The selected plugins have been <strong>deleted</strong>."
 msgstr "Alla markerade tillägg har <strong>raderats</strong>."
 
-#: wp-admin/plugins.php:368
+#: wp-admin/plugins.php:355
 msgid "Plugin <strong>activated</strong>."
 msgstr "Tillägget <strong>aktiverat</strong>."
 
-#: wp-admin/plugins.php:370
+#: wp-admin/plugins.php:357
 msgid "Selected plugins <strong>activated</strong>."
 msgstr "Valda tillägg <strong>inaktiverade</strong>."
 
-#: wp-admin/plugins.php:372
+#: wp-admin/plugins.php:359
 msgid "Plugin <strong>deactivated</strong>."
 msgstr "Tillägg <strong>inaktiverat</strong>."
 
-#: wp-admin/plugins.php:374
+#: wp-admin/plugins.php:361
 msgid "Selected plugins <strong>deactivated</strong>."
 msgstr "Valda tillägg <strong>inaktiverade</strong>."
 
-#: wp-admin/plugins.php:376
+#: wp-admin/plugins.php:363
 msgid "No out of date plugins were selected."
 msgstr "Inga föråldrade tillägg har markerats."
 
-#: wp-admin/plugins.php:517
-#: wp-admin/plugins.php:525
+#: wp-admin/plugins.php:504
+#: wp-admin/plugins.php:512
 #: wp-includes/js/tinymce/langs/wp-langs.php:255
 msgid "Plugin"
 msgstr "Tillägg"
 
-#: wp-admin/plugins.php:535
+#: wp-admin/plugins.php:522
 msgid "No plugins to show"
 msgstr "Inga tillägg att visa"
 
-#: wp-admin/plugins.php:555
+#: wp-admin/plugins.php:542
 msgid "Inactive:"
 msgstr "Inaktivt:"
 
-#: wp-admin/plugins.php:555
+#: wp-admin/plugins.php:542
 #, php-format
 msgid "Requires <code>%s</code> in <code>wp-config.php</code>."
 msgstr "Kräver <code>%s</code> i <code>wp-config.php</code>."
 
-#: wp-admin/plugins.php:567
-#: wp-admin/plugins.php:569
+#: wp-admin/plugins.php:554
+#: wp-admin/plugins.php:556
 msgid "Deactivate this plugin"
 msgstr "Inaktivera det här tillägget"
 
-#: wp-admin/plugins.php:567
+#: wp-admin/plugins.php:554
 msgid "Network Deactivate"
 msgstr "Inaktivera för nätverk"
 
-#: wp-admin/plugins.php:573
+#: wp-admin/plugins.php:560
 msgid "This plugin can only be activated for all sites in a network"
 msgstr "Det här tillägget kan endast aktiveras för all webbplatser i ett nätverk"
 
-#: wp-admin/plugins.php:573
+#: wp-admin/plugins.php:560
 msgid "Network Only"
 msgstr "Endast nätverk"
 
-#: wp-admin/plugins.php:577
+#: wp-admin/plugins.php:564
 msgid "Activate this plugin for all sites in this network"
 msgstr "Aktivera det här tillägget för alla webbplatser i nätverket"
 
-#: wp-admin/plugins.php:577
-#: wp-admin/plugins.php:654
+#: wp-admin/plugins.php:564
+#: wp-admin/plugins.php:641
 msgid "Network Activate"
 msgstr "Aktivera för nätverk"
 
-#: wp-admin/plugins.php:580
+#: wp-admin/plugins.php:567
 msgid "Open this file in the Plugin Editor"
 msgstr "Redigera den här tilläggsfilen"
 
-#: wp-admin/plugins.php:583
+#: wp-admin/plugins.php:570
 msgid "Delete this plugin"
 msgstr "Radera det här tillägget"
 
-#: wp-admin/plugins.php:622
+#: wp-admin/plugins.php:609
 msgid "Visit plugin site"
 msgstr "Besök tilläggets webbplats"
 
-#: wp-admin/plugins.php:660
+#: wp-admin/plugins.php:647
 msgid "Upgrade"
 msgstr "Uppgradera"
 
-#: wp-admin/plugins.php:668
+#: wp-admin/plugins.php:655
 msgid "Clear List"
 msgstr "Rensa lista"
 
-#: wp-admin/plugins.php:694
+#: wp-admin/plugins.php:681
 #, php-format
 msgctxt "plugins"
 msgid "All <span class=\"count\">(%s)</span>"
@@ -10416,75 +10483,75 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] "Alla <span class=\"count\">(%s)</span>"
 msgstr[1] "Alla <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:697
+#: wp-admin/plugins.php:684
 #, php-format
 msgid "Active <span class=\"count\">(%s)</span>"
 msgid_plural "Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Aktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Aktiva <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:701
+#: wp-admin/plugins.php:688
 #, php-format
 msgid "Recently Active <span class=\"count\">(%s)</span>"
 msgid_plural "Recently Active <span class=\"count\">(%s)</span>"
 msgstr[0] "Nyligen aktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Nyligen aktiva <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:705
+#: wp-admin/plugins.php:692
 #, php-format
 msgid "Inactive <span class=\"count\">(%s)</span>"
 msgid_plural "Inactive <span class=\"count\">(%s)</span>"
 msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Inaktiva <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:709
+#: wp-admin/plugins.php:696
 #, php-format
 msgid "Network <span class=\"count\">(%s)</span>"
 msgid_plural "Network <span class=\"count\">(%s)</span>"
 msgstr[0] "Nätverk <span class=\"count\">(%s)</span>"
 msgstr[1] "Nätverk <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:713
+#: wp-admin/plugins.php:700
 #, php-format
 msgid "Must-Use <span class=\"count\">(%s)</span>"
 msgid_plural "Must-Use <span class=\"count\">(%s)</span>"
 msgstr[0] "Obligatoriskt <span class=\"count\">(%s)</span>"
 msgstr[1] "Obligatoriska <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:717
+#: wp-admin/plugins.php:704
 #, php-format
 msgid "Drop-ins <span class=\"count\">(%s)</span>"
 msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
 msgstr[0] "Insticksprogram <span class=\"count\">(%s)</span>"
 msgstr[1] "Insticksprogram <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:721
+#: wp-admin/plugins.php:708
 #, php-format
 msgid "Upgrade Available <span class=\"count\">(%s)</span>"
 msgid_plural "Upgrade Available <span class=\"count\">(%s)</span>"
 msgstr[0] "Uppgradering tillgänglig <span class=\"count\">(%s)</span>"
 msgstr[1] "Uppgraderingar tillgängliga <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:726
+#: wp-admin/plugins.php:713
 #, php-format
 msgid "Search Results <span class=\"count\">(%s)</span>"
 msgid_plural "Search Results <span class=\"count\">(%s)</span>"
 msgstr[0] "Sökresultat <span class=\"count\">(%s)</span>"
 msgstr[1] "Sökresultat <span class=\"count\">(%s)</span>"
 
-#: wp-admin/plugins.php:735
+#: wp-admin/plugins.php:722
 msgid "Files in the <code>wp-content/mu-plugins</code> directory are executed automatically."
 msgstr "Filer i mappen <code>wp-content/mu-plugins</code> körs automatiskt."
 
-#: wp-admin/plugins.php:737
+#: wp-admin/plugins.php:724
 msgid "Drop-ins are advanced plugins in the <code>wp-content</code> directory that replace WordPress functionality when present."
 msgstr "Insticksprogram är avancerade tillägg i mappen <code>wp-content</code> som om tillgängliga ersätter WordPress funktionalitet."
 
-#: wp-admin/plugins.php:769
+#: wp-admin/plugins.php:756
 msgid "No plugins found."
 msgstr "Inga tillägg funna."
 
-#: wp-admin/plugins.php:775
+#: wp-admin/plugins.php:762
 msgid "You do not appear to have any plugins available at this time."
 msgstr "Du verkar inte ha några tillägg tillgängliga just nu."
 
@@ -10961,6 +11028,13 @@ msgstr "Kategori&#47;etikett-konvertering"
 msgid "Use this to convert <a href=\"%s\">categories to tags</a>, or <a href=\"%s\">tags to categories</a>."
 msgstr "Använd för att konvertera <a href=\"%s\">kategorier till etiketter</a> eller <a href=\"%s\">etiketter till kategorier</a>."
 
+#: wp-admin/update-core.php:13
+#: wp-admin/update.php:21
+#: wp-admin/update.php:49
+#: wp-admin/update.php:68
+msgid "You do not have sufficient permissions to update plugins for this blog."
+msgstr "Du saknar behörighet att redigera den här bloggens tillägg."
+
 #: wp-admin/update-core.php:22
 msgid "Update Automatically"
 msgstr "Uppgradera automatiskt"
@@ -11059,6 +11133,8 @@ msgstr "Följande tillägg har tillgängliga uppgraderingar. Markera dem du vill
 
 #: wp-admin/update-core.php:181
 #: wp-admin/update-core.php:233
+#: wp-admin/update-core.php:415
+#: wp-admin/update-core.php:420
 msgid "Update Plugins"
 msgstr "Uppgradera tillägg"
 
@@ -11086,27 +11162,37 @@ msgid "Compatibility with WordPress %1$s: Unknown"
 msgstr "Kompatibilitet med WordPress %1$s: Okänt"
 
 #: wp-admin/update-core.php:227
+#: wp-admin/update-core.php:274
 #, php-format
 msgid "You are running version %1$s. Update to %2$s."
 msgstr "Du använder version %1$s. Uppgradera till %2$s."
 
-#: wp-admin/update-core.php:305
+#: wp-admin/update-core.php:247
+msgid "The following themes have new versions available. Check the ones you want to update and then click \"Update Themes\"."
+msgstr "Följande teman har tillgängliga uppgraderingar. Markera dem du vill uppgradera och klicka sedan på \"Uppgradera teman\"."
+
+#: wp-admin/update-core.php:248
+#, php-format
+msgid "<strong>Please Note:</strong> Any customizations you have made to the Themes files will be lost. Please consider using <a href=\"%s\">Child Themes</a> for modifications."
+msgstr "<strong>Notera:</strong> Eventuella ändringar du har genomfört av temafilerna kommer att gå förlorade. Var vänlig överväg att använda så kallade  <a href=\"%s\">Child Themes</a> för modifikationer."
+
+#: wp-admin/update-core.php:317
 msgid "Update WordPress"
 msgstr "Uppgradera WordPress"
 
-#: wp-admin/update-core.php:322
+#: wp-admin/update-core.php:334
 msgid "Installation Failed"
 msgstr "Installationen misslyckades"
 
-#: wp-admin/update-core.php:324
+#: wp-admin/update-core.php:336
 msgid "WordPress updated successfully"
 msgstr "Uppgradering av WordPress lyckades"
 
-#: wp-admin/update-core.php:325
+#: wp-admin/update-core.php:337
 msgid "Go to Dashboard"
 msgstr "Gå till panelen"
 
-#: wp-admin/update-core.php:380
+#: wp-admin/update-core.php:374
 msgid "Upgrade WordPress"
 msgstr "Uppgradera WordPress"
 
@@ -11123,56 +11209,56 @@ msgstr "Inga länkar"
 msgid "Request Failed."
 msgstr "Förfrågan misslyckades."
 
-#: wp-admin/update.php:49
+#: wp-admin/update.php:77
 msgid "Plugin Reactivation"
 msgstr "Återaktivering av tillägget"
 
-#: wp-admin/update.php:51
+#: wp-admin/update.php:79
 msgid "Plugin reactivated successfully."
 msgstr "Återaktiveringen av tillägget lyckades"
 
-#: wp-admin/update.php:54
+#: wp-admin/update.php:82
 msgid "Plugin failed to reactivate due to a fatal error."
 msgstr "Tillägget kunde inte aktiveras eftersom det orsakade ett allvarligt fel."
 
-#: wp-admin/update.php:68
 #: wp-admin/update.php:96
+#: wp-admin/update.php:124
 msgid "You do not have sufficient permissions to install plugins for this blog."
 msgstr "Du saknar rättigheter för att installera tillägg i denna blogg."
 
-#: wp-admin/update.php:83
+#: wp-admin/update.php:111
 #, php-format
 msgid "Installing Plugin: %s"
 msgstr "Installerar tillägg: %s"
 
-#: wp-admin/update.php:102
+#: wp-admin/update.php:130
 msgid "Upload Plugin"
 msgstr "Ladda upp tillägg"
 
-#: wp-admin/update.php:107
+#: wp-admin/update.php:135
 #, php-format
 msgid "Installing Plugin from uploaded file: %s"
 msgstr "Installerar tillägg från uppladdad fil: %s"
 
-#: wp-admin/update.php:120
+#: wp-admin/update.php:148
 msgid "You do not have sufficient permissions to update themes for this blog."
 msgstr "Du saknar rättigheter för att kunna uppdatera teman i den här bloggen."
 
-#: wp-admin/update.php:142
-#: wp-admin/update.php:172
+#: wp-admin/update.php:170
+#: wp-admin/update.php:200
 msgid "You do not have sufficient permissions to install themes for this blog."
 msgstr "Du saknar rättigheter för att installera teman i den här bloggen."
 
-#: wp-admin/update.php:159
+#: wp-admin/update.php:187
 #, php-format
 msgid "Installing Theme: %s"
 msgstr "Installerar tema: %s"
 
-#: wp-admin/update.php:178
+#: wp-admin/update.php:206
 msgid "Upload Theme"
 msgstr "Ladda upp tema"
 
-#: wp-admin/update.php:185
+#: wp-admin/update.php:213
 #, php-format
 msgid "Installing Theme from uploaded file: %s"
 msgstr "Installerar tema från uppladdad fil: %s"
@@ -13677,16 +13763,16 @@ msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan v
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3848
+#: wp-includes/functions.php:3849
 msgid "Select a city"
 msgstr "Välj en stad"
 
-#: wp-includes/functions.php:3893
-#: wp-includes/functions.php:3897
+#: wp-includes/functions.php:3894
+#: wp-includes/functions.php:3898
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:3901
+#: wp-includes/functions.php:3902
 msgid "Manual Offsets"
 msgstr "Manuella kompensationer"
 
@@ -15451,7 +15537,7 @@ msgstr "Nyare kommentarer &raquo;"
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Äldre kommentarer"
 
-#: wp-includes/load.php:383
+#: wp-includes/load.php:381
 msgid "The blog you have requested is not installed properly. Please contact the system administrator."
 msgstr "Bloggen du har efterfrågat är inte installerad korrekt. Var vänlig kontakta systemadministratören."
 
@@ -15820,7 +15906,7 @@ msgstr "Den här webbplatsen har inte blivit aktiverad än. Om du har problem me
 msgid "This blog has been archived or suspended."
 msgstr "Den bloggen har blivit arkiverad eller avstängd."
 
-#: wp-includes/ms-settings.php:112
+#: wp-includes/ms-settings.php:116
 msgid "Database tables are missing."
 msgstr "Databastabeller saknas."
 
@@ -16514,46 +16600,46 @@ msgstr "Sparar utkast&#8230;"
 msgid "Post Tag"
 msgstr "Inläggsetikett"
 
-#: wp-includes/taxonomy.php:342
-#: wp-includes/taxonomy.php:414
-#: wp-includes/taxonomy.php:538
-#: wp-includes/taxonomy.php:723
-#: wp-includes/taxonomy.php:1338
-#: wp-includes/taxonomy.php:1605
+#: wp-includes/taxonomy.php:368
+#: wp-includes/taxonomy.php:440
+#: wp-includes/taxonomy.php:564
+#: wp-includes/taxonomy.php:749
+#: wp-includes/taxonomy.php:1364
+#: wp-includes/taxonomy.php:1631
 msgid "Invalid Taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:409
-#: wp-includes/taxonomy.php:2359
+#: wp-includes/taxonomy.php:435
+#: wp-includes/taxonomy.php:2385
 msgid "Empty Term"
 msgstr "Tom term"
 
-#: wp-includes/taxonomy.php:1483
+#: wp-includes/taxonomy.php:1509
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
 
-#: wp-includes/taxonomy.php:1486
-#: wp-includes/taxonomy.php:1792
+#: wp-includes/taxonomy.php:1512
+#: wp-includes/taxonomy.php:1818
 msgid "A name is required for this term"
 msgstr "Ett namn krävs för denna term"
 
-#: wp-includes/taxonomy.php:1502
+#: wp-includes/taxonomy.php:1528
 msgid "A Term with the slug provided already exists."
 msgstr "En term med permalänken som angavs existerar redan."
 
-#: wp-includes/taxonomy.php:1524
-#: wp-includes/taxonomy.php:1530
-#: wp-includes/taxonomy.php:1538
-#: wp-includes/taxonomy.php:1544
+#: wp-includes/taxonomy.php:1550
+#: wp-includes/taxonomy.php:1556
+#: wp-includes/taxonomy.php:1564
+#: wp-includes/taxonomy.php:1570
 msgid "Could not insert term into the database"
 msgstr "Kunde inte infoga term i databasen"
 
-#: wp-includes/taxonomy.php:1822
+#: wp-includes/taxonomy.php:1848
 #, php-format
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "Permalänken &#8221;%s&#8221; används redan"
 
-#: wp-includes/taxonomy.php:2501
+#: wp-includes/taxonomy.php:2527
 msgid "Invalid object ID"
 msgstr "Ogiltigt objekt ID."
 
@@ -17310,18 +17396,18 @@ msgid "GLOBALS overwrite attempt detected"
 msgstr "Försök till att skriva över GLOBALS har upptäckts"
 
 #. Not gettexted string WP_I18N_OLD_PHP
-#: wp-includes/load.php:101
+#: wp-includes/load.php:99
 msgid "Your server is running PHP version %1$s but WordPress %2%s requires at least %2%s."
 msgstr "Din server kör PHP version %$1s men WordPress %2%s kräver minst version %2%s."
 
 #. Not gettexted string WP_I18N_OLD_MYSQL
-#: wp-includes/load.php:104
+#: wp-includes/load.php:102
 #: wp-admin/setup-config.php:65
 msgid "Your PHP installation appears to be missing the MySQL extension which is required by WordPress."
 msgstr "Din PHP installation verkar sakna MySQL tillägget som WordPress kräver."
 
 #. Not gettexted string WP_I18N_BAD_PREFIX
-#: wp-includes/load.php:332
+#: wp-includes/load.php:330
 msgid "<strong>ERROR</strong>: <code>$table_prefix</code> in <code>wp-config.php</code> can only contain numbers, letters, and underscores."
 msgstr "<strong>FEL</strong>: <code>$table_prefix</code> i <code>wp-config.php</code> kan endast innehålla siffror, bokstäver och understreck."
 
@@ -17406,6 +17492,53 @@ msgstr "ltr"
 #: wp-load.php:50
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta fungerar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
+
+#~ msgid "<strong><em>Note that password</em></strong> carefully!"
+#~ msgstr "<strong><em>Notera lösenordet</em></strong> varsamt!"
+
+#~ msgid "Updates"
+#~ msgstr "Uppgraderingar"
+
+#~ msgid "Search blogs by name"
+#~ msgstr "Sök bloggar efter namn"
+
+#~ msgid "by blog ID"
+#~ msgstr "efter blogg-ID"
+
+#~ msgid "Search Users:"
+#~ msgstr "Sök användare:"
+
+#~ msgid "Y-m-d \\<\\b\\r \\/\\> g:i:s a"
+#~ msgstr "d.m Y \\<\\b\\r \\/\\> G:i:s"
+
+#~ msgid ""
+#~ "Sorry, I need a <code>%s</code> to work from. Please re-upload this file "
+#~ "to your WordPress installation."
+#~ msgstr ""
+#~ "Vi behöver en <code>%s</code> att jobba utifrån. Var vänlig ladda upp den "
+#~ "här filen till din installation av WordPress på nytt."
+
+#~ msgid ""
+#~ "Replace the contents of <code>%swp-config.php</code> with the following:"
+#~ msgstr "Byt ut innehållet i din <code>%swp-config.php</code> med följande:"
+
+#~ msgid ""
+#~ "Sorry, I need a %s to work from. Please re-upload this file to your "
+#~ "WordPress installation."
+#~ msgstr ""
+#~ "Ledsen, det behövs en %s att arbeta utifrån. Var vänlig ladda upp denna "
+#~ "fil på nytt till din installation av WordPress."
+
+#~ msgid ""
+#~ "Sorry, I need to be able to read %s. Please check the permissions on this "
+#~ "file."
+#~ msgstr ""
+#~ "Vi behöver kunna läsa %s. Var vänlig kontrollera rättigheterna för den "
+#~ "här filen."
+
+#~ msgid ""
+#~ "Replace the contents of your <code>%s.htaccess</code> with the following:"
+#~ msgstr "Byt ut innehållet i din <code>%s.htaccess</code> mot följande:"
 
 #~ msgid "Hi %s! You're logged in as a network administrator."
 #~ msgstr "Hej %s! Du är inloggad som nätverksadministratör."
@@ -17677,9 +17810,6 @@ msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs 
 
 #~ msgid "The menu has been reset."
 #~ msgstr "Menyn har återställts."
-
-#~ msgid "The menu could not be reset. Please try again."
-#~ msgstr "Menyn kunde inte återställas. Var vänlig försök igen."
 
 #~ msgid "Custom Navigation"
 #~ msgstr "Anpassad navigering"
