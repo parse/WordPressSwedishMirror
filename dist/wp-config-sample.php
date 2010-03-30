@@ -16,13 +16,13 @@
 
 // ** MySQL-inställningar - MySQL-uppgifter får du från ditt webbhotell ** //
 /** Namnet på databasen du vill använda för WordPress */
-define('DB_NAME', 'ange-databasnamn');
+define('DB_NAME', 'ange_databasnamn');
 
 /** MySQL-databasens användarnamn */
-define('DB_USER', 'ange-databasanvandare');
+define('DB_USER', 'ange_databasanvandare');
 
 /** MySQL-databasens lösenord */
-define('DB_PASSWORD', 'ange-databaslosenord');
+define('DB_PASSWORD', 'ange_databaslosenord');
 
 /** MySQL-server */
 define('DB_HOST', 'localhost');
