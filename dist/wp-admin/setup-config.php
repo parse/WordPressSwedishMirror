@@ -157,7 +157,12 @@ switch($step) {
 	$passwrd = trim($_POST['pwd']);
 	$dbhost  = trim($_POST['dbhost']);
 	$prefix  = trim($_POST['prefix']);
-	if (empty($prefix)) $prefix = 'wp_';
+    if ( empty($prefix) ) 
+        $prefix = 'wp_'; 
+ 
+    // Validate $prefix: it can only contain letters, numbers and underscores  
+    if ( preg_match( '|[^a-z0-9_]|i', $prefix ) )  
+        wp_die( /*WP_I18N_BAD_PREFIX*/'<strong>ERROR</strong>: "Table Prefix" can only contain numbers, letters, and underscores.'/*/WP_I18N_BAD_PREFIX*/ );
 
 	// Test the db connection.
 	/**#@+
@@ -209,13 +214,13 @@ switch($step) {
 	foreach ($configFile as $line_num => $line) {
 		switch (substr($line,0,16)) {
 			case "define('DB_NAME'":
-				$configFile[$line_num] = str_replace("ange-databasnamn", $dbname, $line);
+				$configFile[$line_num] = str_replace("ange_databasnamn", $dbname, $line);
 				break;
 			case "define('DB_USER'":
-				$configFile[$line_num] = str_replace("'ange-databasanvandare'", "'$uname'", $line);
+				$configFile[$line_num] = str_replace("'ange_databasanvandare'", "'$uname'", $line);
 				break;
 			case "define('DB_PASSW":
-				$configFile[$line_num] = str_replace("'ange-databaslosenord'", "'$passwrd'", $line);
+				$configFile[$line_num] = str_replace("'ange_databaslosenord'", "'$passwrd'", $line);
 				break;
 			case "define('DB_HOST'":
 				$configFile[$line_num] = str_replace("localhost", $dbhost, $line);
@@ -240,7 +245,7 @@ switch($step) {
 ?>
 <p>Beklagar, filen <code>wp-config.php</code> kan inte skapas.</p>
 <p>Du kan skapa filen <code>wp-config.php</code> manuellt och kopiera in följande kod.</p>
-<textarea cols="90" rows="15"><?php
+<textarea cols="98" rows="15" class="code"><?php
 		foreach( $configFile as $line ) {
 			echo htmlentities($line, ENT_COMPAT, 'UTF-8');
 		}
