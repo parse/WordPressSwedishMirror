@@ -251,8 +251,8 @@ switch($step) {
 			echo htmlentities($line, ENT_COMPAT, 'UTF-8');
 		}
 ?></textarea>
-<p>När du är klar med det, klicka på "Kör installation".</p>
-<p class="step"><a href="install.php" class="button">Kör installation</a></p>
+<p>När du är klar med det, klicka på "Starta installation".</p>
+<p class="step"><a href="install.php" class="button">Starta installation</a></p>
 <?php
 	else :
 		$handle = fopen(ABSPATH . 'wp-config.php', 'w');
@@ -265,7 +265,7 @@ switch($step) {
 ?>
 <p>OK! Du har klarat av installationen så här långt. WordPress kan nu kommunicera med din databas. Om du är redo så är det dags att&hellip;</p>
 
-<p class="step"><a href="install.php" class="button">Köra installationen</a></p>
+<p class="step"><a href="install.php" class="button">Starta installationen</a></p>
 <?php
 	endif;
 	break;
