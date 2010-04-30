@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.0 sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-04-30 04:03+0000\n"
-"PO-Revision-Date: 2010-04-30 11:03+0100\n"
+"POT-Creation-Date: 2010-04-30 16:04+0000\n"
+"PO-Revision-Date: 2010-04-30 21:31+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige / Mattias Tenblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Aktiveringsnyckel:"
 #: wp-activate.php:52
 #: wp-admin/includes/class-wp-upgrader.php:1282
 #: wp-admin/includes/class-wp-upgrader.php:1339
-#: wp-admin/includes/ms.php:808
+#: wp-admin/includes/ms.php:809
 #: wp-admin/ms-sites.php:553
 #: wp-admin/plugins.php:572
 #: wp-admin/plugins.php:649
@@ -6040,45 +6040,48 @@ msgid "English"
 msgstr "Engelska"
 
 #: wp-admin/includes/ms.php:670
-#, php-format
-msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>%swp-config.php</strong> for it to be more secure.<br />Please add the code before the line, <code>/* That's all, stop editing! Happy blogging. */</code>"
-msgstr "Varning! WordPress krypterar användar-cookies, men du måste lägga till följande rader i <strong>%swp-config.php</strong> för att det ska fungera korrekt.<br />Ange koden innan raden, <code>/* Det var allt, sluta redigera här! Blogga på. */</code>"
+msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>wp-config.php</strong> for it to be more secure."
+msgstr "Varning! WordPress krypterar användarcookies, men du måste ange följande rader i <strong>wp-config.php</strong> för att det ska bli mer säkert."
 
-#: wp-admin/includes/ms.php:701
+#: wp-admin/includes/ms.php:671
+msgid "Before the line <code>/* That's all, stop editing! Happy blogging. */</code> please add this code:"
+msgstr "Innan raden <code>/* That's all, stop editing! Happy blogging. */</code> (i det svenska paketet <code>/* Det var allt, sluta redigera här! Blogga på. */</code>) lägg till följande kod:"
+
+#: wp-admin/includes/ms.php:702
 msgid "Read More"
 msgstr "Läs mer"
 
-#: wp-admin/includes/ms.php:701
+#: wp-admin/includes/ms.php:702
 #: wp-includes/script-loader.php:218
 msgid "Dismiss"
 msgstr "Avfärda"
 
-#: wp-admin/includes/ms.php:704
+#: wp-admin/includes/ms.php:705
 #, php-format
 msgid "Your feed at %s is empty."
 msgstr "Ditt flöde på %s är tomt."
 
-#: wp-admin/includes/ms.php:714
+#: wp-admin/includes/ms.php:715
 #, php-format
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Update Network</a> page to update all your sites."
 msgstr "Tack för att du uppgraderar! Var vänlig gå till <a href=\"%s\">Uppgradera nätverk</a> för att uppgradera alla dina webbplatser."
 
 #. translators: My sites label
-#: wp-admin/includes/ms.php:747
+#: wp-admin/includes/ms.php:748
 msgid "Primary Site"
 msgstr "Primär webbplats"
 
-#: wp-admin/includes/ms.php:787
+#: wp-admin/includes/ms.php:788
 #, php-format
 msgid "Warning! The current theme supports Featured Images. You must enable image uploads on <a href='%s'>the options page</a> for it to work."
 msgstr "Varning! Nuvarande tema har stöd för inläggsminiatyrer. Du måste aktivera bilduppladdningar via <a href='%s'>inställningssidan</a> för att det ska fungera."
 
-#: wp-admin/includes/ms.php:797
+#: wp-admin/includes/ms.php:798
 #, php-format
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "Filen <code>%1$s</code> är utfasad. Var vänlig ta bort den och uppdatera din servers rewrite rules för att använda <code>%2$s</code> istället."
 
-#: wp-admin/includes/ms.php:808
+#: wp-admin/includes/ms.php:809
 #, php-format
 msgid "The plugins page is not visible to normal users. It must be activated first. %s"
 msgstr "Tilläggssidan är inte synlig för vanliga användare. Den måste aktiveras först. %s"
@@ -17120,43 +17123,38 @@ msgstr "Inge webbplats definierad för denna host. Om du äger den här webbplat
 
 #. Not gettexted string WP_I18N_FATAL_ERROR
 #: wp-includes/ms-load.php:202
-msgid "Fatal Error"
-msgstr "Allvarligt fel"
+msgid "Error establishing database connection"
+msgstr "Problem med att skapa en databasanslutning"
 
 #. Not gettexted string WP_I18N_CONTACT_OWNER
-#: wp-includes/ms-load.php:203
+#: wp-includes/ms-load.php:205
 msgid "If your site does not display, please contact the owner of this network."
 msgstr "Om din webbplats inte visas, var vänlig kontakta ansvariga för det här nätverket."
 
 #. Not gettexted string WP_I18N_CHECK_MYSQL
-#: wp-includes/ms-load.php:204
+#: wp-includes/ms-load.php:206
 msgid "If you are the owner of this network please check that MySQL is running properly and all tables are error free."
 msgstr "Om du är ägaren av det här nätverket var vänlig kontrollera så att MySQL körs korrekt och att inga tabeller innehåller fel."
 
 #. Not gettexted string WP_I18N_TABLES_MISSING_LONG
-#: wp-includes/ms-load.php:206
-msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really <em>should</em> look at your database now."
-msgstr "<strong>Databastabeller saknas.</strong> Det betyder att MySQL inte körs, WordPress har inte installerats korrekt eller så har någon raderat <code>%s</code>. Du bör <em>verkligen</em> kontrollera din databas nu."
+#: wp-includes/ms-load.php:208
+msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really should look at your database now."
+msgstr "<strong>Databastabeller saknas.</strong> Det betyder att MySQL inte körs, WordPress har inte installerats korrekt eller så har någon raderat <code>%s</code>. Du bör verkligen kontrollera din databas nu."
 
 #. Not gettexted string WP_I18N_NO_SITE_FOUND
-#: wp-includes/ms-load.php:208
-msgid "<strong>Could Not Find Site!</strong> Searched for table <em>%1$s</em> in <code>%2$s</code>. Is that right?"
-msgstr "<strong>Kunde inte hitta webbplats!</strong> Sökte efter tabell <em>%1$s</em> i <code>%2$s</code>. Är det korrekt?"
+#: wp-includes/ms-load.php:210
+msgid "<strong>Could not find site <code>%1$s</code>.</strong> Searched for table <code>%2$s</code> in <code>%3$s</code>. Is that right?"
+msgstr "<strong>Kunde inte hitta webbplatsen <code>%1$s</code>.</strong> Sökte efter tabell <code>%2$s</code> i <code>%3$s</code>. Är det korrekt?"
 
 #. Not gettexted string WP_I18N_RTFM
-#: wp-includes/ms-load.php:211
+#: wp-includes/ms-load.php:212
 msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
 msgstr "Läs dokumentationen för <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">buggrapportering</a>. Några av riktlinjerna där kanske kan hjälpa dig att se vad som kan ha gått galet."
 
 #. Not gettexted string WP_I18N_STUCK
-#: wp-includes/ms-load.php:212
+#: wp-includes/ms-load.php:213
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
-
-#. Not gettexted string WP_I18N_MS_FORUMS
-#: wp-includes/ms-load.php:218
-msgid "If you suspect a problem please report it to the support forums but you must include the information asked for in the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug reporting guidelines</a>!"
-msgstr "Om du misstänker problem var vänlig rapportera dessa i supportforumet, du måste inkludera informationen enligt beskrivningen i dokumentet <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug reporting guidelines</a>! "
 
 #. Not gettexted string WP_I18N_OLD_PHP
 #: wp-admin/setup-config.php:62
@@ -17177,6 +17175,20 @@ msgstr "ltr"
 #: wp-load.php:50
 msgid "There doesn't seem to be a <code>wp-config.php</code> file. I need this before we can get started. Need more help? <a href='http://codex.wordpress.org/Editing_wp-config.php'>We got it</a>. You can create a <code>wp-config.php</code> file through a web interface, but this doesn't work for all server setups. The safest way is to manually create the file.</p><p><a href='%ssetup-config.php' class='button'>Create a Configuration File</a>"
 msgstr "Det verkar inte finnas en <code>wp-config.php</code> fil. Denna behövs innan vi kan starta. Behöver du mer hjälp? <a href='http://codex.wordpress.org/Editing_wp-config.php'>Den finns här</a>. Du kan skapa en <code>wp-config.php</code> fil via webbläsaren, men detta fungerar inte på alla servrar. Det säkraste sättet är att skapade den manuellt. </p><p><a href='%ssetup-config.php' class='button'>Skapa en konfigurationsfil</a> "
+
+#~ msgid "Fatal Error"
+#~ msgstr "Allvarligt fel"
+
+#~ msgid ""
+#~ "If you suspect a problem please report it to the support forums but you "
+#~ "must include the information asked for in the <a target=\"_blank\" href="
+#~ "\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug reporting "
+#~ "guidelines</a>!"
+#~ msgstr ""
+#~ "Om du misstänker problem var vänlig rapportera dessa i supportforumet, du "
+#~ "måste inkludera informationen enligt beskrivningen i dokumentet <a target="
+#~ "\"_blank\" href=\"http://codex.wordpress.org/Debugging_WPMU\">WPMU bug "
+#~ "reporting guidelines</a>! "
 
 #~ msgid "You are not allowed to create pages on this blog."
 #~ msgstr "Du saknar behörighet för att skapa sidor i den här bloggen."
