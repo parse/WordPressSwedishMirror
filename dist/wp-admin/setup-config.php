@@ -160,8 +160,8 @@ switch($step) {
     if ( empty($prefix) ) 
         $prefix = 'wp_'; 
  
-    // Validate $prefix: it can only contain letters, numbers and underscores  
-    if ( preg_match( '|[^a-z0-9_]|i', $prefix ) )  
+    // Validate $prefix: it can only contain letters, numbers and underscores
+    if ( preg_match( '|[^a-z0-9_]|i', $prefix ) )
         wp_die( /*WP_I18N_BAD_PREFIX*/'<strong>ERROR</strong>: "Table Prefix" can only contain numbers, letters, and underscores.'/*/WP_I18N_BAD_PREFIX*/ );
 
 	// Test the db connection.
