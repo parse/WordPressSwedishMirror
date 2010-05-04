@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Twenty Ten 0.7\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/twentyten\n"
-"POT-Creation-Date: 2010-05-03 20:21+0000\n"
-"PO-Revision-Date: 2010-05-04 01:19+0100\n"
+"POT-Creation-Date: 2010-05-04 08:21+0000\n"
+"PO-Revision-Date: 2010-05-05 00:18+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -90,8 +90,11 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: attachment.php:67
+#: functions.php:230
 #: loop.php:90
+#: loop.php:94
 #: loop.php:135
+#: loop.php:139
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
 
@@ -173,18 +176,14 @@ msgstr "Nyare kommentarer &rarr;"
 msgid "Comments are closed."
 msgstr "Kommentarer inaktiverade."
 
-#: footer.php:26
-#, php-format
-msgid "Proudly powered by <span id=\"generator-link\">%s</span>."
-msgstr "Drivs med <span id=\"generator-link\">%s</span>."
-
-#: footer.php:26
+#: footer.php:27
 msgid "Semantic Personal Publishing Platform"
 msgstr "Semantisk personlig publiceringsplattform"
 
-#: footer.php:26
-msgid "WordPress"
-msgstr "WordPress"
+#: footer.php:27
+#, php-format
+msgid "Proudly powered by %s."
+msgstr "Drivs stolt med %s."
 
 #: functions.php:128
 msgid "Berries"
@@ -223,12 +222,6 @@ msgstr "Solnedgång"
 msgid "Page %s"
 msgstr "Sida %s"
 
-#: functions.php:230
-#: loop.php:94
-#: loop.php:139
-msgid "Continue&nbsp;reading&nbsp;<span class=\"meta-nav\">&rarr;</span>"
-msgstr "Läs&nbsp;mer&nbsp;<span class=\"meta-nav\">&rarr;</span>"
-
 #: functions.php:264
 #, php-format
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
@@ -244,16 +237,13 @@ msgid "%1$s at %2$s"
 msgstr "%1$s kl %2$s"
 
 #: functions.php:271
+#: functions.php:282
 msgid "(Edit)"
 msgstr "(Redigera)"
 
 #: functions.php:282
-msgid "Pingback: "
+msgid "Pingback:"
 msgstr "Pingback: "
-
-#: functions.php:282
-msgid "edit"
-msgstr "redigera"
 
 #: functions.php:297
 msgid "Primary Widget Area"
@@ -462,6 +452,18 @@ msgstr "WordPressteamet"
 #. Tags of the plugin/theme
 msgid "black, blue, white, two-columns, fixed-width, custom-header, theme-options, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style"
 msgstr "black, blue, white, two-columns, fixed-width, custom-header, theme-options, threaded-comments, sticky-post, translation-ready, microformats, rtl-language-support, editor-style"
+
+#~ msgid "Proudly powered by <span id=\"generator-link\">%s</span>."
+#~ msgstr "Drivs med <span id=\"generator-link\">%s</span>."
+
+#~ msgid "WordPress"
+#~ msgstr "WordPress"
+
+#~ msgid "Continue&nbsp;reading&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+#~ msgstr "Läs&nbsp;mer&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+
+#~ msgid "edit"
+#~ msgstr "redigera"
 
 #~ msgid "Also posted in %s"
 #~ msgstr "Även postat i %s"
