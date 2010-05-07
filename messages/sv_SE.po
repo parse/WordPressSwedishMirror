@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress 3.0 sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-05-06 22:04+0000\n"
-"PO-Revision-Date: 2010-05-07 01:04+0100\n"
+"POT-Creation-Date: 2010-05-07 05:04+0000\n"
+"PO-Revision-Date: 2010-05-07 09:40+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige / Mattias Tenblad <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -287,7 +287,7 @@ msgstr "Hittade inga inlägg."
 #: wp-admin/includes/template.php:909
 #: wp-admin/ms-sites.php:698
 #: wp-includes/js/tinymce/langs/wp-langs.php:295
-#: wp-includes/post.php:4271
+#: wp-includes/post.php:4276
 msgid "Title"
 msgstr "Titel"
 
@@ -549,8 +549,8 @@ msgid "Comment"
 msgstr "Kommentar"
 
 #: wp-admin/comment.php:167
-#: wp-includes/functions.php:2542
-#: wp-includes/functions.php:2544
+#: wp-includes/functions.php:2533
+#: wp-includes/functions.php:2535
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
 
@@ -717,7 +717,7 @@ msgstr "Fixerad"
 #: wp-admin/custom-header.php:411
 #: wp-admin/custom-header.php:442
 #: wp-admin/import/blogger.php:667
-#: wp-admin/ms-options.php:298
+#: wp-admin/ms-options.php:301
 #: wp-admin/my-sites.php:97
 #: wp-admin/options-discussion.php:242
 #: wp-admin/options-general.php:332
@@ -1299,7 +1299,7 @@ msgstr "Töm papperskorgen"
 msgid "No comments awaiting moderation&hellip; yet."
 msgstr "Inga kommentarer väntar på granskning&hellip; än."
 
-#: wp-admin/edit-comments.php:462
+#: wp-admin/edit-comments.php:463
 msgid "No comments found."
 msgstr "Inga kommentarer hittade."
 
@@ -1426,7 +1426,7 @@ msgstr "Utvald bild"
 
 #: wp-admin/edit-form-advanced.php:130
 #: wp-admin/includes/meta-boxes.php:347
-#: wp-includes/post.php:4273
+#: wp-includes/post.php:4278
 msgid "Excerpt"
 msgstr "Utdrag"
 
@@ -3440,6 +3440,21 @@ msgstr "Ogiltig fil"
 msgid "Please upload a valid WXR (WordPress eXtended RSS) export file."
 msgstr "Var vänlig ladda upp en riktig WXR (WordPress eXtended RSS) exportfil."
 
+#: wp-admin/import/wordpress.php:322
+#, php-format
+msgid "Importing category <em>%s</em>&#8230;"
+msgstr "Importerar kategori <em>%s</em>&#8230;"
+
+#: wp-admin/import/wordpress.php:344
+#, php-format
+msgid "Importing tag <em>%s</em>&#8230;"
+msgstr "Importerar etikett <em>%s</em>&#8230;"
+
+#: wp-admin/import/wordpress.php:382
+#, php-format
+msgid "Importing <em>%s</em>&#8230;"
+msgstr "Importerar <em>%s</em>&#8230;"
+
 #: wp-admin/import/wordpress.php:403
 msgid "All done."
 msgstr "Allt klart."
@@ -3463,7 +3478,7 @@ msgid "Zero length file, deleting"
 msgstr "Innehållslös fil, raderar"
 
 #: wp-admin/import/wordpress.php:652
-#: wp-includes/functions.php:2279
+#: wp-includes/functions.php:2270
 msgid "Invalid file type"
 msgstr "Ogiltig filtyp"
 
@@ -3490,11 +3505,11 @@ msgstr "Fjärrfilen har felaktig storlek"
 msgid "Remote file is too large, limit is %s"
 msgstr "Fjärrfilen är för stor, gränsen är %s"
 
-#: wp-admin/import/wordpress.php:842
+#: wp-admin/import/wordpress.php:846
 msgid "Sorry, there has been an error."
 msgstr "Beklagar, ett fel har uppstått"
 
-#: wp-admin/import/wordpress.php:892
+#: wp-admin/import/wordpress.php:896
 msgid "Import <strong>posts, pages, comments, custom fields, categories, and tags</strong> from a WordPress export file."
 msgstr "Importera <strong>inlägg, kommentarer, anpassade fält, sidor, kategorier och etiketter</strong> från en WordPress-exportfil"
 
@@ -4082,7 +4097,7 @@ msgstr "Inkommande länkar"
 
 #: wp-admin/includes/dashboard.php:56
 #: wp-admin/includes/template.php:3768
-#: wp-admin/ms-options.php:287
+#: wp-admin/ms-options.php:290
 #: wp-admin/update-core.php:177
 #: wp-includes/js/tinymce/langs/wp-langs.php:254
 msgid "Plugins"
@@ -4155,7 +4170,7 @@ msgstr "Konfigurera"
 
 #: wp-admin/includes/dashboard.php:219
 #: wp-admin/includes/dashboard.php:425
-#: wp-includes/post.php:4272
+#: wp-includes/post.php:4277
 msgid "Content"
 msgstr "Innehåll"
 
@@ -6588,7 +6603,7 @@ msgid "You are not allowed to create posts or drafts on this site."
 msgstr "Du har inte tillräcklig behörighet för att skapa inlägg eller utkast på den här webbplatsen."
 
 #: wp-admin/includes/post.php:920
-#: wp-admin/ms-options.php:234
+#: wp-admin/ms-options.php:237
 msgid "Images"
 msgstr "Bilder"
 
@@ -7838,7 +7853,7 @@ msgid "No matching users were found!"
 msgstr "Hittade inga lämpliga användare!"
 
 #: wp-admin/includes/user.php:856
-#: wp-admin/ms-options.php:263
+#: wp-admin/ms-options.php:266
 msgid "Notice:"
 msgstr "Notera:"
 
@@ -8637,238 +8652,247 @@ msgid "Global Terms"
 msgstr "Globala termer"
 
 #: wp-admin/ms-options.php:58
-msgid "Maintain a global list of terms from all sites across the network."
-msgstr "Upprätthåll en global lista av termer från alla webbplatser i nätverket."
-
-#: wp-admin/ms-options.php:59
 msgid "Disabled"
 msgstr "Inaktiverat"
 
-#: wp-admin/ms-options.php:62
+#: wp-admin/ms-options.php:59
+msgid "Maintain a global list of terms from all sites across the network."
+msgstr "Upprätthåll en global lista av termer från alla webbplatser i nätverket."
+
+#: wp-admin/ms-options.php:61
+#: wp-admin/network.php:148
+msgid "Warning!"
+msgstr "Varning!"
+
+#: wp-admin/ms-options.php:61
+msgid "Enabling global terms will create a new table and synchronize terms across the network."
+msgstr "Aktivering av globala termer kommer att skapa en ny tabell och synkronisera dem i nätverket."
+
+#: wp-admin/ms-options.php:65
 msgid "Dashboard Settings"
 msgstr "Panelinställningar"
 
-#: wp-admin/ms-options.php:65
+#: wp-admin/ms-options.php:68
 msgid "Dashboard Site"
 msgstr "Panelwebbplats"
 
-#: wp-admin/ms-options.php:77
+#: wp-admin/ms-options.php:80
 msgid "Site path (&#8220;dashboard&#8221;, &#8220;control&#8221;, &#8220;manager&#8221;, etc.) or blog ID.<br />New users are added to this site as the user role defined below if they don&#8217;t have a site. Leave blank for the main site. Users with the subscriber role on old site will be moved to the new site if changed. The new site will be created if it does not exist."
 msgstr "Webbplatssökväg (&#8221;panel&#8221;, &#8221;kontroll&#8221;, &#8221;hanterare&#8221;, osv) eller bloggens ID.<br /> Nya användare läggs till som användarrollen angiven nedan om de inte har en webbplats registrerad. Lämna tomt för den primära webbplatsen. Prenumeranter kommer att flyttas till den nya webbplatsen om angivet. Den nya webbplatsen kommer att skapas om den inte redan finns."
 
-#: wp-admin/ms-options.php:81
+#: wp-admin/ms-options.php:84
 msgid "Dashboard User Default Role"
 msgstr "Förvald användarroll för huvudwebbplatsen"
 
-#: wp-admin/ms-options.php:88
+#: wp-admin/ms-options.php:91
 msgid "The default role for new users on the Dashboard site. &#8220;Subscriber&#8221; or &#8220;Contributor&#8221; roles are recommended."
 msgstr "Den förvalda rollen för nya användare på den primära webbplatsen. &#8221;Prenumerant&#8221; eller &#8221;Medarbetare&#8221; rekommenderas."
 
-#: wp-admin/ms-options.php:92
+#: wp-admin/ms-options.php:95
 msgid "Admin Notice Feed"
 msgstr "Flöde för administratörsnotifikationer"
 
-#: wp-admin/ms-options.php:94
+#: wp-admin/ms-options.php:97
 msgid "Display the latest post from this RSS or Atom feed on all site dashboards. Leave blank to disable."
 msgstr "Visa senaste inläggen från detta RSS eller Atom-flöde i alla webbplatspaneler. Lämna tomt för att inaktivera."
 
-#: wp-admin/ms-options.php:97
+#: wp-admin/ms-options.php:100
 msgid "A good one to use would be the feed from your main site: "
 msgstr "Ett bra flöde att ange är kanske flödet för den primära webbplatsen: "
 
-#: wp-admin/ms-options.php:100
+#: wp-admin/ms-options.php:103
 msgid "Registration Settings"
 msgstr "Registreringsinställningar"
 
-#: wp-admin/ms-options.php:103
+#: wp-admin/ms-options.php:106
 msgid "Allow new registrations"
 msgstr "Tillåta nya registreringar"
 
-#: wp-admin/ms-options.php:110
+#: wp-admin/ms-options.php:113
 msgid "Registration is disabled."
 msgstr "Registreringar har inaktiverats."
 
-#: wp-admin/ms-options.php:111
+#: wp-admin/ms-options.php:114
 msgid "User accounts may be registered."
 msgstr "Användarkonton kan skapas."
 
-#: wp-admin/ms-options.php:112
+#: wp-admin/ms-options.php:115
 msgid "Logged in users may register new sites."
 msgstr "Inloggade användare kan skapa nya webbplatser."
 
-#: wp-admin/ms-options.php:113
+#: wp-admin/ms-options.php:116
 msgid "Both sites and user accounts can be registered."
 msgstr "Både webbplatser och användarkonton kan skapas."
 
-#: wp-admin/ms-options.php:114
+#: wp-admin/ms-options.php:117
 msgid "Disable or enable registration and who or what can be registered. (Default is disabled.)"
 msgstr "Aktivera eller inaktivera registrering och vem eller vad som kan registreras. (Förinställt som inaktiverat.)"
 
-#: wp-admin/ms-options.php:116
+#: wp-admin/ms-options.php:119
 msgid "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in <code>wp-config.php</code> to a URL you will redirect visitors to if they visit a non-existent site."
 msgstr "Om registreringar är inaktiverade, ange en url för <code>NOBLOGREDIRECT</code> i <code>wp-config.php</code> som användare ska skickas till om de besöker en ej existerande webbplats."
 
-#: wp-admin/ms-options.php:122
+#: wp-admin/ms-options.php:125
 msgid "Registration notification"
 msgstr "Registreringsnotifikation"
 
-#: wp-admin/ms-options.php:128
+#: wp-admin/ms-options.php:131
 msgid "Send the network admin an email notification every time someone registers a site or user account."
 msgstr "Skicka nätverksadministratören ett meddelande varje gång någon registrerar en webbplats eller ett användarkonto."
 
-#: wp-admin/ms-options.php:133
+#: wp-admin/ms-options.php:136
 msgid "Add New Users"
 msgstr "Lägga till nya användare"
 
-#: wp-admin/ms-options.php:135
+#: wp-admin/ms-options.php:138
 msgid "Allow site administrators to add new users to their site via the \"Users->Add New\" page."
 msgstr "Tillåt webbplatsadministrarörer att lägga till användere för deras webbplats via \"Användare->Lägg till ny\"."
 
-#: wp-admin/ms-options.php:140
+#: wp-admin/ms-options.php:143
 msgid "Banned Names"
 msgstr "Förbjudna namn"
 
-#: wp-admin/ms-options.php:144
+#: wp-admin/ms-options.php:147
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "Användare kan ej registrera dessa webbplatser. Separera namn med mellanslag."
 
-#: wp-admin/ms-options.php:149
+#: wp-admin/ms-options.php:152
 msgid "Limited Email Registrations"
 msgstr "Begränsad e-postregistrering"
 
-#: wp-admin/ms-options.php:155
+#: wp-admin/ms-options.php:158
 msgid "If you want to limit site registrations to certain domains. One domain per line."
 msgstr "Om du vill begränsa webbplatsregistreringar till vissa domäner. Ange ett domän per rad."
 
-#: wp-admin/ms-options.php:160
+#: wp-admin/ms-options.php:163
 msgid "Banned Email Domains"
 msgstr "Förbjudna e-postdomäner"
 
-#: wp-admin/ms-options.php:164
+#: wp-admin/ms-options.php:167
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Om du vill bannlysa vissa e-postdomän från registrering. Ange ett domän per rad."
 
-#: wp-admin/ms-options.php:169
+#: wp-admin/ms-options.php:172
 msgid "New Site Settings"
 msgstr "Inställningar nya webbplatser"
 
-#: wp-admin/ms-options.php:173
+#: wp-admin/ms-options.php:176
 msgid "Welcome Email"
 msgstr "Välkomstmeddelande"
 
-#: wp-admin/ms-options.php:177
+#: wp-admin/ms-options.php:180
 msgid "The welcome email sent to new site owners."
 msgstr "Välkomstmeddelande som skickas via e-post till nya webbplatsägare."
 
-#: wp-admin/ms-options.php:181
+#: wp-admin/ms-options.php:184
 msgid "Welcome User Email"
 msgstr "Välkomstmeddelande användare"
 
-#: wp-admin/ms-options.php:185
+#: wp-admin/ms-options.php:188
 msgid "The welcome email sent to new users."
 msgstr "Välkomstmeddelande som skickas via e-post till nya användare."
 
-#: wp-admin/ms-options.php:189
+#: wp-admin/ms-options.php:192
 #: wp-includes/link-template.php:1207
 msgid "First Post"
 msgstr "Första inlägget"
 
-#: wp-admin/ms-options.php:193
+#: wp-admin/ms-options.php:196
 msgid "The first post on a new site."
 msgstr "Första inlägget för en ny webbplats."
 
-#: wp-admin/ms-options.php:197
+#: wp-admin/ms-options.php:200
 msgid "First Page"
 msgstr "Första sidan"
 
-#: wp-admin/ms-options.php:201
+#: wp-admin/ms-options.php:204
 msgid "The first page on a new site."
 msgstr "Första sidan för en ny webbplats."
 
-#: wp-admin/ms-options.php:205
+#: wp-admin/ms-options.php:208
 msgid "First Comment"
 msgstr "Första kommentaren"
 
-#: wp-admin/ms-options.php:209
+#: wp-admin/ms-options.php:212
 msgid "The first comment on a new site."
 msgstr "Första kommentaren för en ny webbplats."
 
-#: wp-admin/ms-options.php:213
+#: wp-admin/ms-options.php:216
 msgid "First Comment Author"
 msgstr "Första kommentarsförfattare"
 
-#: wp-admin/ms-options.php:217
+#: wp-admin/ms-options.php:220
 msgid "The author of the first comment on a new site."
 msgstr "Första kommentarsförfattaren för en ny webbplats."
 
-#: wp-admin/ms-options.php:221
+#: wp-admin/ms-options.php:224
 msgid "First Comment URL"
 msgstr "Första kommentars-url"
 
-#: wp-admin/ms-options.php:225
+#: wp-admin/ms-options.php:228
 msgid "The URL for the first comment on a new site."
 msgstr "URL för den första kommentaren för en ny webbplats."
 
-#: wp-admin/ms-options.php:229
+#: wp-admin/ms-options.php:232
 msgid "Upload Settings"
 msgstr "Uppladdningsinställningar"
 
-#: wp-admin/ms-options.php:232
+#: wp-admin/ms-options.php:235
 msgid "Media upload buttons"
 msgstr "Knappar för mediauppladdning"
 
-#: wp-admin/ms-options.php:235
+#: wp-admin/ms-options.php:238
 msgid "Videos"
 msgstr "Videos"
 
-#: wp-admin/ms-options.php:236
+#: wp-admin/ms-options.php:239
 msgid "Music"
 msgstr "Musik"
 
-#: wp-admin/ms-options.php:237
+#: wp-admin/ms-options.php:240
 msgid "The media upload buttons to display on the &#8220;Write Post&#8221; page. Make sure you update the allowed upload file types below as well."
 msgstr "Knappar för mediauppladdning att visa under &#8221;Nytt inlägg&#8221;. Försäkra dig om att uppdatera tillåtna filtyper för uppladdning nedan."
 
-#: wp-admin/ms-options.php:241
+#: wp-admin/ms-options.php:244
 msgid "Site upload space"
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
-#: wp-admin/ms-options.php:243
+#: wp-admin/ms-options.php:246
 #, php-format
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Begränsa total storlek för uppladdade filer till %s MB"
 
-#: wp-admin/ms-options.php:247
+#: wp-admin/ms-options.php:250
 msgid "Upload file types"
 msgstr "Filtyper för uppladdning"
 
-#: wp-admin/ms-options.php:252
+#: wp-admin/ms-options.php:255
 msgid "Max upload file size"
 msgstr "Maximal storlek för filuppladdning"
 
-#: wp-admin/ms-options.php:253
+#: wp-admin/ms-options.php:256
 #, php-format
 msgctxt "File size in kilobytes"
 msgid "%s KB"
 msgstr "%s KB"
 
-#: wp-admin/ms-options.php:262
+#: wp-admin/ms-options.php:265
 msgid "Network Wide Settings"
 msgstr "Inställningar för nätverket"
 
-#: wp-admin/ms-options.php:263
+#: wp-admin/ms-options.php:266
 msgid "These settings may be overridden by site owners."
 msgstr "Dessa inställningar kan ändras av webbplatsägare."
 
-#: wp-admin/ms-options.php:268
+#: wp-admin/ms-options.php:271
 msgid "Default Language"
 msgstr "Standardspråk"
 
-#: wp-admin/ms-options.php:280
+#: wp-admin/ms-options.php:283
 msgid "Menu Settings"
 msgstr "Menyinställningar"
 
-#: wp-admin/ms-options.php:283
+#: wp-admin/ms-options.php:286
 msgid "Enable administration menus"
 msgstr "Aktivera administrationsmenyer"
 
@@ -9506,10 +9530,6 @@ msgstr "Notera:"
 #: wp-admin/network.php:146
 msgid "Please make sure the Apache <code>mod_rewrite</code> module is installed as it will be used at the end of this installation."
 msgstr "Försäkra dig om att Apache-modulen<code>mod_rewrite</code> är installerat då det kommer att användas i slutet av den här installationen."
-
-#: wp-admin/network.php:148
-msgid "Warning!"
-msgstr "Varning!"
 
 #: wp-admin/network.php:148
 msgid "It looks like the Apache <code>mod_rewrite</code> module is not installed."
@@ -11280,8 +11300,8 @@ msgstr "Kompatibilitet med WordPress %1$s: Okänt"
 #: wp-admin/update-core.php:227
 #: wp-admin/update-core.php:274
 #, php-format
-msgid "You are running version %1$s. Update to %2$s."
-msgstr "Du använder version %1$s. Uppgradera till %2$s."
+msgid "You have version %1$s installed. Update to %2$s."
+msgstr "Du har version %1$s installerad. Uppgradera till %2$s."
 
 #: wp-admin/update-core.php:247
 msgid "The following themes have new versions available. Check the ones you want to update and then click &#8220;Update Themes&#8221;."
@@ -11961,7 +11981,7 @@ msgid "&larr; Back to All Users"
 msgstr "&larr; Tillbaka till alla användare"
 
 #: wp-admin/widgets.php:33
-#: wp-includes/functions.php:2981
+#: wp-includes/functions.php:2976
 msgid "Widgets"
 msgstr "Widgets"
 
@@ -13109,251 +13129,251 @@ msgstr " och "
 msgid " and "
 msgstr " och "
 
-#: wp-includes/functions.php:384
+#: wp-includes/functions.php:375
 #, php-format
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s är en skyddad WP-inställning och kan inte ändras"
 
-#: wp-includes/functions.php:1718
+#: wp-includes/functions.php:1709
 #, php-format
 msgid "ERROR: %s is not a valid feed template."
 msgstr "FEL: %s är inte en giltig flödesmall."
 
-#: wp-includes/functions.php:2178
-#: wp-includes/functions.php:2296
+#: wp-includes/functions.php:2169
+#: wp-includes/functions.php:2287
 #, php-format
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Kan inte skapa katalogen %s. Har servern skrivrättigheter till moderkatalogen?"
 
-#: wp-includes/functions.php:2275
+#: wp-includes/functions.php:2266
 msgid "Empty filename"
 msgstr "Tomt filnamn"
 
-#: wp-includes/functions.php:2302
+#: wp-includes/functions.php:2293
 #, php-format
 msgid "Could not write file %s"
 msgstr "Kunde inte skriva till filen %s"
 
-#: wp-includes/functions.php:2479
+#: wp-includes/functions.php:2470
 #, php-format
 msgid "Your attempt to edit this attachment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här bilagan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2481
+#: wp-includes/functions.php:2472
 msgid "Your attempt to add this category has failed."
 msgstr "Ditt försök att lägga till den här kategorin misslyckades."
 
-#: wp-includes/functions.php:2482
+#: wp-includes/functions.php:2473
 #, php-format
 msgid "Your attempt to delete this category: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här kategorin: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2483
+#: wp-includes/functions.php:2474
 #, php-format
 msgid "Your attempt to edit this category: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här kategorin: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2485
+#: wp-includes/functions.php:2476
 #, php-format
 msgid "Your attempt to delete this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2486
+#: wp-includes/functions.php:2477
 #, php-format
 msgid "Your attempt to unapprove this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att förkasta den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2487
+#: wp-includes/functions.php:2478
 #, php-format
 msgid "Your attempt to approve this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att godkänna den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2488
+#: wp-includes/functions.php:2479
 #, php-format
 msgid "Your attempt to edit this comment: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här kommentaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2489
+#: wp-includes/functions.php:2480
 msgid "Your attempt to bulk modify comments has failed."
 msgstr "Ditt försök att massredigera kommentarerna misslyckades."
 
-#: wp-includes/functions.php:2490
+#: wp-includes/functions.php:2481
 msgid "Your attempt to moderate comments has failed."
 msgstr "Ditt försök att moderera kommentarerna misslyckades."
 
-#: wp-includes/functions.php:2492
+#: wp-includes/functions.php:2483
 msgid "Your attempt to add this link has failed."
 msgstr "Ditt försök att lägga till denna länk misslyckades."
 
-#: wp-includes/functions.php:2493
+#: wp-includes/functions.php:2484
 #, php-format
 msgid "Your attempt to delete this link: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här länken: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2494
+#: wp-includes/functions.php:2485
 #, php-format
 msgid "Your attempt to edit this link: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här länken: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2495
+#: wp-includes/functions.php:2486
 msgid "Your attempt to bulk modify links has failed."
 msgstr "Ditt försök att massredigera länkarna misslyckades."
 
-#: wp-includes/functions.php:2497
+#: wp-includes/functions.php:2488
 msgid "Your attempt to add this page has failed."
 msgstr "Ditt försök att lägga till denna sida misslyckades."
 
-#: wp-includes/functions.php:2498
+#: wp-includes/functions.php:2489
 #, php-format
 msgid "Your attempt to delete this page: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera den här sidan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2499
+#: wp-includes/functions.php:2490
 #, php-format
 msgid "Your attempt to edit this page: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här sidan: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2501
+#: wp-includes/functions.php:2492
 #, php-format
 msgid "Your attempt to edit this plugin file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här tilläggsfilen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2502
+#: wp-includes/functions.php:2493
 #, php-format
 msgid "Your attempt to activate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att aktivera det här tillägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2503
+#: wp-includes/functions.php:2494
 #, php-format
 msgid "Your attempt to deactivate this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att inaktivera det här tillägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2504
+#: wp-includes/functions.php:2495
 #, php-format
 msgid "Your attempt to upgrade this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att uppgradera det här tillägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2506
+#: wp-includes/functions.php:2497
 msgid "Your attempt to add this post has failed."
 msgstr "Ditt försök att skriva inlägg misslyckades."
 
-#: wp-includes/functions.php:2507
+#: wp-includes/functions.php:2498
 #, php-format
 msgid "Your attempt to delete this post: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att radera det här inlägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2508
+#: wp-includes/functions.php:2499
 #, php-format
 msgid "Your attempt to edit this post: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera det här inlägget: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2510
+#: wp-includes/functions.php:2501
 msgid "Your attempt to add this user has failed."
 msgstr "Ditt försök att lägga till denna användare misslyckades."
 
-#: wp-includes/functions.php:2511
+#: wp-includes/functions.php:2502
 msgid "Your attempt to delete users has failed."
 msgstr "Ditt försök att radera de här användarna misslyckades."
 
-#: wp-includes/functions.php:2512
+#: wp-includes/functions.php:2503
 msgid "Your attempt to bulk modify users has failed."
 msgstr "Ditt försök att massredigera användarna misslyckades."
 
-#: wp-includes/functions.php:2513
+#: wp-includes/functions.php:2504
 #, php-format
 msgid "Your attempt to edit this user: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här användaren: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2514
+#: wp-includes/functions.php:2505
 #, php-format
 msgid "Your attempt to modify the profile for: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att modifiera profilen för: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2516
+#: wp-includes/functions.php:2507
 msgid "Your attempt to edit your settings has failed."
 msgstr "Ditt försök att redigera inställningarna misslyckades."
 
-#: wp-includes/functions.php:2517
+#: wp-includes/functions.php:2508
 #, php-format
 msgid "Your attempt to change your permalink structure to: %s has failed."
 msgstr "Ditt försök att ändra din permalänkstruktur till: %s misslyckades."
 
-#: wp-includes/functions.php:2518
+#: wp-includes/functions.php:2509
 #, php-format
 msgid "Your attempt to edit this file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här filen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2519
+#: wp-includes/functions.php:2510
 #, php-format
 msgid "Your attempt to edit this theme file: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att redigera den här temafilen: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2520
+#: wp-includes/functions.php:2511
 #, php-format
 msgid "Your attempt to switch to this theme: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att byta till temat: &#8221;%s&#8221; misslyckades."
 
-#: wp-includes/functions.php:2522
+#: wp-includes/functions.php:2513
 #, php-format
 msgid "You are attempting to log out of %s"
 msgstr "Du försöker att logga ut ifrån %s"
 
-#: wp-includes/functions.php:2561
+#: wp-includes/functions.php:2552
 msgid "WordPress Failure Notice"
 msgstr "WordPress felmeddelande"
 
-#: wp-includes/functions.php:2564
+#: wp-includes/functions.php:2555
 #, php-format
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Vill du verkligen <a href='%s'>logga ut</a>?"
 
-#: wp-includes/functions.php:2566
+#: wp-includes/functions.php:2557
 msgid "Please try again."
 msgstr "Var vänlig försök igen."
 
-#: wp-includes/functions.php:2639
+#: wp-includes/functions.php:2630
 msgid "&laquo; Back"
 msgstr "&laquo; Tillbaka"
 
 #. #-#-#-#-#  wordpress.pot (WordPress 3.0-beta2-14489)  #-#-#-#-#
 #. Not gettexted string WP_I18N_ERROR_TITLE
-#: wp-includes/functions.php:2660
+#: wp-includes/functions.php:2651
 #: wp-load.php:50
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fel"
 
-#: wp-includes/functions.php:3161
-#: wp-includes/functions.php:3201
+#: wp-includes/functions.php:3156
+#: wp-includes/functions.php:3196
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s! Använd %3$s istället."
 
-#: wp-includes/functions.php:3163
-#: wp-includes/functions.php:3203
+#: wp-includes/functions.php:3158
+#: wp-includes/functions.php:3198
 #, php-format
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3245
+#: wp-includes/functions.php:3240
 #, php-format
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan version %2$s! %3$s"
 
-#: wp-includes/functions.php:3247
+#: wp-includes/functions.php:3242
 #, php-format
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s kallades med ett argument som har <strong>upphört</strong> sedan version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3922
+#: wp-includes/functions.php:3917
 msgid "Select a city"
 msgstr "Välj en stad"
 
-#: wp-includes/functions.php:3967
-#: wp-includes/functions.php:3971
+#: wp-includes/functions.php:3962
+#: wp-includes/functions.php:3966
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:3975
+#: wp-includes/functions.php:3970
 msgid "Manual Offsets"
 msgstr "Manuella kompensationer"
 
@@ -15917,27 +15937,27 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Papperskorg <span class=\"count\">(%s)</span>"
 msgstr[1] "Papperskorg <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:2081
+#: wp-includes/post.php:2086
 msgid "Content, title, and excerpt are empty."
 msgstr "Innehåll, titel och utdrag är tomma."
 
-#: wp-includes/post.php:2217
+#: wp-includes/post.php:2222
 msgid "Could not update post in the database"
 msgstr "Kunde inte uppdatera inlägget i databasen"
 
-#: wp-includes/post.php:2233
+#: wp-includes/post.php:2238
 msgid "Could not insert post into the database"
 msgstr "Kunde inte infoga inlägget i databasen"
 
-#: wp-includes/post.php:2282
+#: wp-includes/post.php:2287
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:4463
+#: wp-includes/post.php:4468
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:4639
+#: wp-includes/post.php:4644
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
@@ -17066,7 +17086,7 @@ msgid "The specified target URL does not exist."
 msgstr "Den önskade mål-URL:n finns inte."
 
 #. Not gettexted string WP_I18N_NO_TABLES
-#: wp-includes/functions.php:1857
+#: wp-includes/functions.php:1848
 msgid "One or more database tables are unavailable.  The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "En eller flera databastabeller är otillgängliga. Databasen kan behöva <a href=\"%s\">repareras</a>."
 
