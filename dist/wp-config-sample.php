@@ -1,11 +1,11 @@
 <?php
 /**
  * Baskonfiguration för WordPress.
- *
- * Denna fil innehåller följande konfigurationer: Inställningar för MySQL , Tabellprefix,
- * Säkerhetsnycklar, WordPress-språk, och ABSPATH. Du kan hitta mer information genom
- * att besöka {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php}. Dina MySQL-uppgifter får du från ditt webbhotell.
+ * 
+ * Denna fil innehåller följande konfigurationer: Inställningar för MySQL,
+ * Tabellprefix, Säkerhetsnycklar, WordPress-språk, och ABSPATH.
+ * Mer information på {@link http://codex.wordpress.org/Editing_wp-config.php 
+ * Editing wp-config.php}. MySQL-uppgifter får du från ditt webbhotell.
  *
  * Denna fil används av wp-config.php-genereringsskript under installationen.
  * Du behöver inte använda webbplatsen, du kan kopiera denna fil direkt till
