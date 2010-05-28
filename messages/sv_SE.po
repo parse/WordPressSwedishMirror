@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress sv_SE\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2010-05-28 01:42+0100\n"
+"PO-Revision-Date: 2010-05-28 02:01+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,22 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/includes/nav-menu.php:1023
+msgid "Click Save Menu to make pending menu items public."
+msgstr "Klicka på Spara meny för att göra väntande ändringar publika."
+
+#: wp-admin/includes/nav-menu.php:73
+msgid "%s (Pending)"
+msgstr "%s (väntande)"
+
+#: wp-admin/nav-menus.php:540
+msgid "Automatically add new top-level pages"
+msgstr "Lägg automatiskt till sidor i toppnivå"
+
+#: wp-admin/nav-menus.php:526
+msgid "Enter menu name here"
+msgstr "Ange namn för menyn här"
 
 #: wp-admin/ms-admin.php:22
 msgid "Until WordPress 3.0, running multiple sites required using WordPress MU instead of regular WordPress. In version 3.0, these applications have merged. If you are a former MU user, you should be aware of the following changes:"
@@ -425,7 +441,7 @@ msgstr "Du har den senaste versionen av alla teman."
 msgid "An updated version of WordPress is available."
 msgstr "En uppdaterad version av WordPress finns tillgänglig"
 
-#: wp-admin/includes/nav-menu.php:155
+#: wp-admin/includes/nav-menu.php:170
 msgid "Original: %s"
 msgstr "Original: %s"
 
@@ -624,7 +640,7 @@ msgstr ""
 msgid "Tags can be selectively converted to categories using the <a href=\"%s\">tag to category converter</a>"
 msgstr ""
 
-#: wp-admin/includes/nav-menu.php:639
+#: wp-admin/includes/nav-menu.php:648
 msgctxt "nav menu front page title"
 msgid "Home: %s"
 msgstr "Hem: %s"
@@ -643,7 +659,7 @@ msgstr "Sidattribut"
 
 #: wp-admin/includes/meta-boxes.php:558
 msgid "Need help? Use the Help tab in the upper right of your screen."
-msgstr ""
+msgstr "Behöver du hjälp? Använd fliken Hjälp uppe till höger."
 
 #: wp-admin/edit-form-advanced.php:184
 msgid "Creating a Page is very similar to creating a Post, and the screens can be customized in the same way using drag and drop, the Screen Options tab, and expanding/collapsing boxes as you choose. The Page editor mostly works the same Post editor, but there are some Page-specific features in the Page Attributes box:"
@@ -819,13 +835,13 @@ msgstr ""
 
 #: wp-admin/ms-upgrade-network.php:60
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
-msgstr ""
+msgstr "Varning! Det uppstod ett problem vid uppgradering av %1$s. Din server kanske inte kan ansluta till webbplatserna. Felmeddelande: <em>%2$s</em>"
 
 #: wp-admin/includes/class-wp-upgrader.php:1076
 msgid "All updates have been completed."
 msgstr "Alla uppgraderingar har genomförts."
 
-#: wp-admin/includes/nav-menu.php:994
+#: wp-admin/includes/nav-menu.php:1003
 msgid "Select menu items (pages, categories, links) from the boxes at left to begin building your custom menu."
 msgstr "Välj menyposter (sidor, kategorier, länkar) från panelerna till vänster för att börja skapa din anpassade meny."
 
@@ -1121,10 +1137,6 @@ msgstr "Nuvarande tema har inte stöd den inbyggda menyhanteringen, men du kan a
 msgid "Because your install is not new, the sites in your WordPress network must use sub-domains."
 msgstr "Eftersom din installation inte är ny så måste webbplatser i ditt WordPress-nätverk använda subdomäner."
 
-#: wp-admin/nav-menus.php:540
-msgid "Automatically add new top-level pages to this menu"
-msgstr "Lägg automatiskt till sidor i toppnivå i denna meny"
-
 #: wp-admin/includes/class-wp-upgrader.php:1218
 msgid "Goto themes page"
 msgstr "Gå till temasidan"
@@ -1219,7 +1231,7 @@ msgstr "Använd denna widget för att lägga till en av dina anpassade menyer i 
 msgid "Search Installed Plugins"
 msgstr "Sök bland installerade tillägg"
 
-#: wp-admin/includes/nav-menu.php:397
+#: wp-admin/includes/nav-menu.php:412
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Ditt tema har stöd för %s meny. Välj vilken meny du vill använda."
@@ -1344,7 +1356,7 @@ msgstr "En ny kommentar till ditt inlägg \"%s\""
 msgid "There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
 msgstr "En ändring av din e-postadress till <code>%1$s</code> står som väntande. <a href=\"%2$s\">Avbryt</a>"
 
-#: wp-admin/includes/nav-menu.php:570
+#: wp-admin/includes/nav-menu.php:579
 msgid "Most Recent"
 msgstr "Senaste"
 
@@ -1704,10 +1716,6 @@ msgstr "Bakgrundsbild"
 msgid "Remove Background Image"
 msgstr "Ta bort bakgrundsbild"
 
-#: wp-admin/nav-menus.php:526
-msgid "Enter menu name here."
-msgstr "Ange namn för menyn här."
-
 #: wp-includes/script-loader.php:200
 msgid "This file exceeds the maximum upload size for this site."
 msgstr "Filen överskrider den maximala storleken för filuppladdningar på denna webbplats."
@@ -1721,11 +1729,11 @@ msgstr "Maximal storlek för filuppladdning: %d%s"
 msgid "Comments on &#8220;%s&#8221;"
 msgstr "Kommentarer till &#8221;%s&#8221;"
 
-#: wp-admin/includes/nav-menu.php:1005
+#: wp-admin/includes/nav-menu.php:1014
 msgid "The Walker class named <strong>%s</strong> does not exist."
 msgstr "Hierarki-classen med namn <strong>%s</strong> existerar inte."
 
-#: wp-admin/includes/nav-menu.php:1026
+#: wp-admin/includes/nav-menu.php:1044
 msgid "Show advanced menu properties"
 msgstr "Visa avancerade menyalternativ"
 
@@ -1734,7 +1742,7 @@ msgctxt "Columns"
 msgid "Show on screen"
 msgstr "Visa på skärmen"
 
-#: wp-admin/includes/nav-menu.php:299
+#: wp-admin/includes/nav-menu.php:314
 msgid "Theme Locations"
 msgstr "Temaposition"
 
@@ -1934,7 +1942,7 @@ msgstr "<strong>En konflikt mellan värdena för konstanterna VHOST och SUBDOMAI
 msgid "All Terms"
 msgstr "Alla termer"
 
-#: wp-admin/includes/nav-menu.php:649
+#: wp-admin/includes/nav-menu.php:658
 msgctxt "nav menu home label"
 msgid "Home"
 msgstr "Hem"
@@ -2054,7 +2062,7 @@ msgstr "Funktionen <code>%1$s</code> har upphört i förmån till funktionsfamil
 msgid "Use the <code>%s</code> option instead."
 msgstr "Använd istället <code>%s</code>."
 
-#: wp-admin/includes/nav-menu.php:468
+#: wp-admin/includes/nav-menu.php:477
 msgid "Label"
 msgstr "Etikett"
 
@@ -2564,17 +2572,8 @@ msgstr "Det finns inga tillägg installerade på denna webbplats."
 msgid "You do not have sufficient permissions to edit plugins for this site."
 msgstr "Du har inte tillräcklig behörighet för att redigera tillägg på den här webbplatsen."
 
-#: wp-admin/nav-menus.php:580
-msgid "For more information on this feature, see the <a href=\"%s\">Custom Menus</a> article in the Codex."
-msgstr "För mer infomration om den här funktionen se artikeln <a href=\"%s\">Custom Menus</a> i dokumentationen för WordPress."
-
-#: wp-admin/nav-menus.php:580
-msgctxt "Custom Menus codex page"
-msgid "http://codex.wordpress.org/Custom_Menus"
-msgstr "http://codex.wordpress.org/Custom_Menus"
-
-#: wp-admin/includes/nav-menu.php:520
-#: wp-admin/includes/nav-menu.php:731
+#: wp-admin/includes/nav-menu.php:529
+#: wp-admin/includes/nav-menu.php:740
 msgid "No items."
 msgstr "Inga poster"
 
@@ -2582,11 +2581,11 @@ msgstr "Inga poster"
 msgid "Menu Name"
 msgstr "Namn för meny"
 
-#: wp-admin/includes/nav-menu.php:1029
+#: wp-admin/includes/nav-menu.php:1047
 msgid "CSS Classes"
 msgstr "CSS klasser"
 
-#: wp-admin/includes/nav-menu.php:113
+#: wp-admin/includes/nav-menu.php:128
 msgid "Navigation Label"
 msgstr "Navigeringsetikett"
 
@@ -2608,7 +2607,7 @@ msgstr "Om du vill använda en subdomänkonfiguration så måste du skapa en jok
 msgid "The installer attempted to contact a random hostname (<code>%1$s</code>) on your domain."
 msgstr "Installeraren försökte slumpvis ansluta till hostnamn (<code>%1$s</code>) för din domän."
 
-#: wp-admin/includes/nav-menu.php:300
+#: wp-admin/includes/nav-menu.php:315
 msgid "Custom Links"
 msgstr "Anpassade länkar"
 
@@ -2624,11 +2623,7 @@ msgstr "Användarnamn kan bara bestå av alfanumeriska tecken, mellanslag, under
 msgid "the username you provided has invalid characters."
 msgstr "angivet användarnamn innehåller ogiltiga tecken."
 
-#: wp-admin/nav-menus.php:579
-msgid "You can create multiple menus. You can also display custom menus using the new \"Custom Menu\" widget."
-msgstr "Du kan skapa flera anpassade menyer. Du kan även visa anpassade menyer genom att använda widgeten \"Anpassad meny\"."
-
-#: wp-admin/includes/nav-menu.php:93
+#: wp-admin/includes/nav-menu.php:108
 msgid "Move down"
 msgstr "Flytta ner"
 
@@ -2636,7 +2631,7 @@ msgstr "Flytta ner"
 msgid "The menu item has been successfully deleted."
 msgstr "Menyvalet har raderats."
 
-#: wp-admin/includes/nav-menu.php:80
+#: wp-admin/includes/nav-menu.php:95
 msgid "Move up"
 msgstr "Flytta upp"
 
@@ -2692,7 +2687,7 @@ msgstr "Klart!"
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 
-#: wp-admin/admin-ajax.php:901
+#: wp-admin/admin-ajax.php:896
 msgid "Please provide a custom field name."
 msgstr "Var vänlig ange ett namn för det egna fältet."
 
@@ -3609,7 +3604,7 @@ msgstr "Gruppen för övriga inställningar har tagits bort. Använd en annan gr
 msgid "Links for %s"
 msgstr "Länkar för %s"
 
-#: wp-includes/nav-menu.php:572
+#: wp-includes/nav-menu.php:577
 msgid "Custom"
 msgstr "Anpassad"
 
@@ -3635,15 +3630,15 @@ msgstr ""
 "</ul>\n"
 "<p>Om du inte vet hur du skapar en databas så bör du <strong>kontakta ditt webbhotell</strong>. Om allt annat misslyckas så kan du hitta hjälp på <a href=\"http://wp-support.se/forum/\">WP-Support Sveriges forum</a> eller <a href=\"http://wordpress.org/support/\">WordPress Support Forums</a> (engelska).</p>"
 
-#: wp-admin/includes/nav-menu.php:128
+#: wp-admin/includes/nav-menu.php:143
 msgid "New window or tab"
 msgstr "Ny flik eller nytt fönster"
 
-#: wp-admin/includes/nav-menu.php:148
+#: wp-admin/includes/nav-menu.php:163
 msgid "The description will be displayed in the menu if the current theme supports it."
 msgstr "Beskrivningen kommer att visas i menyn om använt tema har stöd för det."
 
-#: wp-admin/includes/nav-menu.php:127
+#: wp-admin/includes/nav-menu.php:142
 msgid "Same window or tab"
 msgstr "Samma flik eller fönster"
 
@@ -3667,7 +3662,7 @@ msgstr ""
 "Vill du radera den här menyn permanent? \n"
 " 'Avbryt' för att avbryta, 'OK' för att radera."
 
-#: wp-admin/includes/nav-menu.php:119
+#: wp-admin/includes/nav-menu.php:134
 msgid "Title Attribute"
 msgstr "Titelattribut"
 
@@ -3675,12 +3670,12 @@ msgstr "Titelattribut"
 msgid "The <strong>%s</strong> menu has been successfully created."
 msgstr "Menyn <strong>%s</strong> har skapats."
 
-#: wp-admin/includes/nav-menu.php:125
-#: wp-admin/includes/nav-menu.php:1028
+#: wp-admin/includes/nav-menu.php:140
+#: wp-admin/includes/nav-menu.php:1046
 msgid "Link Target"
 msgstr "Länkmål"
 
-#: wp-admin/includes/nav-menu.php:134
+#: wp-admin/includes/nav-menu.php:149
 msgid "CSS Classes (optional)"
 msgstr "CSS-klasser (valfritt)"
 
@@ -4114,8 +4109,8 @@ msgstr "Anpassad"
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
 msgstr "Den här webbplatsen har inte blivit aktiverad än. Om du har problem med aktiveringen av din webbplats, var vänlig kontakta <a href=\"mailto:%1$s\">%1$s</a>."
 
-#: wp-admin/includes/nav-menu.php:95
-#: wp-admin/includes/nav-menu.php:97
+#: wp-admin/includes/nav-menu.php:110
+#: wp-admin/includes/nav-menu.php:112
 msgid "Edit Menu Item"
 msgstr "Redigera menyobjekt"
 
@@ -4270,18 +4265,18 @@ msgstr "Var vänlig ange ett giltigt menynamn."
 msgid "Delete Menu"
 msgstr "Radera meny"
 
-#: wp-admin/includes/nav-menu.php:469
+#: wp-admin/includes/nav-menu.php:478
 msgid "Menu Item"
 msgstr "Menypost"
 
-#: wp-admin/includes/nav-menu.php:571
-#: wp-admin/includes/nav-menu.php:778
+#: wp-admin/includes/nav-menu.php:580
+#: wp-admin/includes/nav-menu.php:787
 msgid "View All"
 msgstr "Visa alla"
 
-#: wp-admin/includes/nav-menu.php:476
-#: wp-admin/includes/nav-menu.php:690
-#: wp-admin/includes/nav-menu.php:861
+#: wp-admin/includes/nav-menu.php:485
+#: wp-admin/includes/nav-menu.php:699
+#: wp-admin/includes/nav-menu.php:870
 msgid "Add to Menu"
 msgstr "Lägg till i meny"
 
@@ -9257,7 +9252,7 @@ msgstr "Tema"
 msgid "User"
 msgstr "Användare"
 
-#: wp-admin/includes/nav-menu.php:168
+#: wp-admin/includes/nav-menu.php:183
 #: wp-admin/includes/template.php:1836
 #: wp-admin/ms-sites.php:264
 #: wp-admin/users.php:417
@@ -10670,8 +10665,8 @@ msgstr "Göm gömda uppgraderingar"
 msgid "Please select one or more plugins to upgrade."
 msgstr "Var vänlig välj ett eller flera tillägg att uppgradera."
 
-#: wp-admin/includes/nav-menu.php:685
-#: wp-admin/includes/nav-menu.php:856
+#: wp-admin/includes/nav-menu.php:694
+#: wp-admin/includes/nav-menu.php:865
 #: wp-admin/update-core.php:190
 #: wp-admin/update-core.php:197
 #: wp-includes/js/tinymce/langs/wp-langs.php:116
@@ -11537,8 +11532,8 @@ msgstr "Ta bort skräppostmarkering för valda kommentarer &raquo;"
 msgid "Comments you de-spam will be submitted to Akismet as mistakes so it can learn and get better."
 msgstr "De kommentarer du markerar som att inte vara skräp skickas till Akismet så att systemet kan lära sig och bli bättre."
 
-#: wp-admin/includes/nav-menu.php:615
-#: wp-admin/includes/nav-menu.php:820
+#: wp-admin/includes/nav-menu.php:624
+#: wp-admin/includes/nav-menu.php:829
 #: wp-content/plugins/akismet/akismet.php:933
 msgid "No results found."
 msgstr "Hittade inga resultat."
@@ -11893,8 +11888,8 @@ msgstr "E-post"
 
 #: wp-admin/comment.php:157
 #: wp-admin/includes/media.php:2156
-#: wp-admin/includes/nav-menu.php:106
-#: wp-admin/includes/nav-menu.php:461
+#: wp-admin/includes/nav-menu.php:121
+#: wp-admin/includes/nav-menu.php:470
 #: wp-admin/includes/template.php:706
 #: wp-admin/includes/template.php:2263
 #: wp-admin/includes/template.php:2626
@@ -12744,7 +12739,7 @@ msgstr "Lägg till länk"
 #: wp-admin/includes/image-edit.php:75
 #: wp-admin/includes/meta-boxes.php:25
 #: wp-admin/includes/meta-boxes.php:580
-#: wp-admin/includes/nav-menu.php:421
+#: wp-admin/includes/nav-menu.php:436
 #: wp-admin/includes/widgets.php:206
 #: wp-includes/js/tinymce/langs/wp-langs.php:76
 msgid "Save"
@@ -12770,8 +12765,8 @@ msgid "Target"
 msgstr "Mål"
 
 #: wp-admin/edit-link-form.php:30
-#: wp-admin/includes/nav-menu.php:140
-#: wp-admin/includes/nav-menu.php:1030
+#: wp-admin/includes/nav-menu.php:155
+#: wp-admin/includes/nav-menu.php:1048
 msgid "Link Relationship (XFN)"
 msgstr "Relationslänk (XFN)"
 
@@ -12823,8 +12818,8 @@ msgstr "Exampel: <code>http://wordpress.org/</code> &#8212; glöm inte <code>htt
 
 #: wp-admin/edit-link-form.php:100
 #: wp-admin/includes/media.php:1057
-#: wp-admin/includes/nav-menu.php:146
-#: wp-admin/includes/nav-menu.php:1031
+#: wp-admin/includes/nav-menu.php:161
+#: wp-admin/includes/nav-menu.php:1049
 #: wp-admin/includes/plugin-install.php:315
 #: wp-admin/includes/plugin-install.php:324
 #: wp-admin/includes/template.php:721
@@ -13551,7 +13546,7 @@ msgstr "Visa alla"
 #: wp-admin/includes/media.php:1510
 #: wp-admin/includes/meta-boxes.php:103
 #: wp-admin/includes/meta-boxes.php:149
-#: wp-admin/includes/nav-menu.php:169
+#: wp-admin/includes/nav-menu.php:184
 #: wp-admin/includes/template.php:65
 #: wp-admin/includes/template.php:1151
 #: wp-admin/includes/template.php:2272
@@ -14883,7 +14878,7 @@ msgstr "Alla kategorier"
 
 #: wp-admin/includes/meta-boxes.php:300
 #: wp-admin/includes/meta-boxes.php:635
-#: wp-admin/includes/nav-menu.php:776
+#: wp-admin/includes/nav-menu.php:785
 #: wp-admin/press-this.php:492
 msgid "Most Used"
 msgstr "Mest använda"
@@ -15248,12 +15243,12 @@ msgstr "Primär webbplats"
 msgid "Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href=\"http://wordpress.org/extend/plugins/\">WordPress Plugin Directory</a> or upload a plugin in .zip format via this page."
 msgstr "Tillägg utvidgar och utvecklar WordPress funktioner. Du kan automatiskt installera tillägg från <a href=\"http://wordpress.org/extend/plugins/\">WordPress katalog över tillägg</a> eller ladda upp en tilläggsfil i ZIP-format via denna sida."
 
-#: wp-admin/includes/nav-menu.php:572
-#: wp-admin/includes/nav-menu.php:601
-#: wp-admin/includes/nav-menu.php:603
-#: wp-admin/includes/nav-menu.php:777
-#: wp-admin/includes/nav-menu.php:806
-#: wp-admin/includes/nav-menu.php:808
+#: wp-admin/includes/nav-menu.php:581
+#: wp-admin/includes/nav-menu.php:610
+#: wp-admin/includes/nav-menu.php:612
+#: wp-admin/includes/nav-menu.php:786
+#: wp-admin/includes/nav-menu.php:815
+#: wp-admin/includes/nav-menu.php:817
 #: wp-admin/includes/plugin-install.php:132
 #: wp-admin/includes/template.php:3274
 #: wp-admin/includes/template.php:3276
@@ -16099,8 +16094,8 @@ msgstr "<strong>NOTERA: Du är utloggad!</strong> Kunde inte spara utkast. <a hr
 #: wp-admin/edit-tags.php:276
 #: wp-admin/edit.php:313
 #: wp-admin/includes/media.php:1924
-#: wp-admin/includes/nav-menu.php:538
-#: wp-admin/includes/nav-menu.php:747
+#: wp-admin/includes/nav-menu.php:547
+#: wp-admin/includes/nav-menu.php:756
 #: wp-admin/includes/plugin-install.php:298
 #: wp-admin/includes/theme-install.php:384
 #: wp-admin/ms-sites.php:404
@@ -16117,8 +16112,8 @@ msgstr "&laquo;"
 #: wp-admin/edit-tags.php:277
 #: wp-admin/edit.php:314
 #: wp-admin/includes/media.php:1925
-#: wp-admin/includes/nav-menu.php:539
-#: wp-admin/includes/nav-menu.php:748
+#: wp-admin/includes/nav-menu.php:548
+#: wp-admin/includes/nav-menu.php:757
 #: wp-admin/includes/plugin-install.php:299
 #: wp-admin/includes/theme-install.php:385
 #: wp-admin/ms-sites.php:405
@@ -16145,7 +16140,7 @@ msgid "You did not enter a category name."
 msgstr "Du angav inget kategorinamn."
 
 #: wp-admin/admin-ajax.php:567
-#: wp-admin/admin-ajax.php:1430
+#: wp-admin/admin-ajax.php:1425
 msgid "An error has occured. Please reload the page and try again."
 msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
@@ -16167,62 +16162,62 @@ msgstr "Beklagar, du måste vara inloggad för att kunna svara på en kommentar.
 msgid "Error: please type a comment."
 msgstr "Fel: Var vänlig skriv en kommentar."
 
+#: wp-admin/admin-ajax.php:873
 #: wp-admin/admin-ajax.php:878
-#: wp-admin/admin-ajax.php:883
-#: wp-admin/admin-ajax.php:903
+#: wp-admin/admin-ajax.php:898
 msgid "Please provide a custom field value."
 msgstr "Var vänlig ange ett värde för det egna fältet."
 
-#: wp-admin/admin-ajax.php:950
+#: wp-admin/admin-ajax.php:945
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Användaren <a href=\"#%s\">%s</a> skapad"
 
-#: wp-admin/admin-ajax.php:971
+#: wp-admin/admin-ajax.php:966
 msgid "g:i:s a"
 msgstr "h:i"
 
-#: wp-admin/admin-ajax.php:973
+#: wp-admin/admin-ajax.php:968
 msgid "Draft saved at %s."
 msgstr "Utkast sparat kl %s."
 
-#: wp-admin/admin-ajax.php:991
-#: wp-admin/admin-ajax.php:1203
+#: wp-admin/admin-ajax.php:986
+#: wp-admin/admin-ajax.php:1198
 msgid "Someone"
 msgstr "Någon"
 
-#: wp-admin/admin-ajax.php:993
+#: wp-admin/admin-ajax.php:988
 msgid "Autosave disabled: %s is currently editing this page."
 msgstr "Autospara inaktiverat: %s redigerar just nu denna sida."
 
-#: wp-admin/admin-ajax.php:993
+#: wp-admin/admin-ajax.php:988
 msgid "Autosave disabled: %s is currently editing this post."
 msgstr "Autospar inaktiverat: %s redigerar just nu detta inlägg."
 
-#: wp-admin/admin-ajax.php:1002
-#: wp-admin/admin-ajax.php:1192
+#: wp-admin/admin-ajax.php:997
+#: wp-admin/admin-ajax.php:1187
 #: wp-admin/includes/post.php:143
 #: wp-admin/includes/post.php:1301
 msgid "You are not allowed to edit this page."
 msgstr "Du har inte tillräcklig behörighet för att redigera den här sidan."
 
-#: wp-admin/admin-ajax.php:1005
-#: wp-admin/admin-ajax.php:1195
+#: wp-admin/admin-ajax.php:1000
+#: wp-admin/admin-ajax.php:1190
 #: wp-admin/includes/post.php:145
 #: wp-admin/includes/post.php:1304
 #: wp-admin/upload.php:35
 msgid "You are not allowed to edit this post."
 msgstr "Du har inte tillräcklig behörighet för att redigera det här inlägget."
 
-#: wp-admin/admin-ajax.php:1204
+#: wp-admin/admin-ajax.php:1199
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Sparande inaktiverat: %s redigerar just nu denna sida."
 
-#: wp-admin/admin-ajax.php:1204
+#: wp-admin/admin-ajax.php:1199
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Sparande inaktiverat: %s redigerar just nu detta inlägg."
 
-#: wp-admin/admin-ajax.php:1253
-#: wp-admin/admin-ajax.php:1257
+#: wp-admin/admin-ajax.php:1248
+#: wp-admin/admin-ajax.php:1252
 #: wp-admin/edit-comments.php:13
 #: wp-admin/edit-link-categories.php:18
 #: wp-admin/edit-tags.php:45
@@ -16248,18 +16243,18 @@ msgstr "Sparande inaktiverat: %s redigerar just nu detta inlägg."
 msgid "Cheatin&#8217; uh?"
 msgstr "Fuskar du?"
 
-#: wp-admin/admin-ajax.php:1269
+#: wp-admin/admin-ajax.php:1264
 #: wp-admin/edit-link-categories.php:67
 msgid "Category not updated."
 msgstr "Kategorin uppdaterades inte."
 
-#: wp-admin/admin-ajax.php:1284
-#: wp-admin/admin-ajax.php:1291
+#: wp-admin/admin-ajax.php:1279
+#: wp-admin/admin-ajax.php:1286
 #: wp-admin/edit-tags.php:210
 msgid "Item not updated."
 msgstr "Posten uppdaterades inte."
 
-#: wp-admin/admin-ajax.php:1331
+#: wp-admin/admin-ajax.php:1326
 #: wp-admin/includes/dashboard.php:435
 #: wp-admin/includes/media.php:1048
 #: wp-admin/includes/media.php:1788
@@ -16273,19 +16268,19 @@ msgstr "Posten uppdaterades inte."
 msgid "Title"
 msgstr "Titel"
 
-#: wp-admin/admin-ajax.php:1331
+#: wp-admin/admin-ajax.php:1326
 #: wp-admin/includes/template.php:617
 #: wp-admin/includes/template.php:922
 msgid "Date"
 msgstr "Datum"
 
-#: wp-admin/admin-ajax.php:1331
+#: wp-admin/admin-ajax.php:1326
 #: wp-admin/edit-form-comment.php:35
 #: wp-admin/includes/template.php:1098
 msgid "Status"
 msgstr "Status"
 
-#: wp-admin/admin-ajax.php:1337
+#: wp-admin/admin-ajax.php:1332
 #: wp-admin/includes/meta-boxes.php:64
 #: wp-admin/includes/meta-boxes.php:89
 #: wp-admin/includes/template.php:1104
@@ -16297,7 +16292,7 @@ msgstr "Status"
 msgid "Published"
 msgstr "Publicerat"
 
-#: wp-admin/admin-ajax.php:1340
+#: wp-admin/admin-ajax.php:1335
 #: wp-admin/includes/meta-boxes.php:67
 #: wp-admin/includes/meta-boxes.php:93
 #: wp-admin/includes/template.php:1105
@@ -16306,7 +16301,7 @@ msgstr "Publicerat"
 msgid "Scheduled"
 msgstr "Tidsinställt"
 
-#: wp-admin/admin-ajax.php:1343
+#: wp-admin/admin-ajax.php:1338
 #: wp-admin/includes/meta-boxes.php:70
 #: wp-admin/includes/meta-boxes.php:95
 #: wp-admin/includes/template.php:1110
@@ -16314,7 +16309,7 @@ msgstr "Tidsinställt"
 msgid "Pending Review"
 msgstr "Väntar på granskning"
 
-#: wp-admin/admin-ajax.php:1346
+#: wp-admin/admin-ajax.php:1341
 #: wp-admin/includes/meta-boxes.php:74
 #: wp-admin/includes/meta-boxes.php:97
 #: wp-admin/includes/meta-boxes.php:99
@@ -16325,7 +16320,7 @@ msgstr "Väntar på granskning"
 msgid "Draft"
 msgstr "Utkast"
 
-#: wp-admin/admin-ajax.php:1354
+#: wp-admin/admin-ajax.php:1349
 #: wp-admin/edit-attachment-rows.php:169
 #: wp-admin/edit-attachment-rows.php:183
 #: wp-admin/includes/template.php:1320
@@ -16431,6 +16426,24 @@ msgstr "Flytta till papperskorg"
 #: wp-admin/comment.php:116
 msgid "You are about to delete the following comment:"
 msgstr "Du håller på att radera följande kommentar:"
+
+#~ msgid ""
+#~ "For more information on this feature, see the <a href=\"%s\">Custom "
+#~ "Menus</a> article in the Codex."
+#~ msgstr ""
+#~ "För mer infomration om den här funktionen se artikeln <a href=\"%s"
+#~ "\">Custom Menus</a> i dokumentationen för WordPress."
+#~ msgctxt "Custom Menus codex page"
+
+#~ msgid "http://codex.wordpress.org/Custom_Menus"
+#~ msgstr "http://codex.wordpress.org/Custom_Menus"
+
+#~ msgid ""
+#~ "You can create multiple menus. You can also display custom menus using "
+#~ "the new \"Custom Menu\" widget."
+#~ msgstr ""
+#~ "Du kan skapa flera anpassade menyer. Du kan även visa anpassade menyer "
+#~ "genom att använda widgeten \"Anpassad meny\"."
 
 #~ msgid "<a href=\"%1$s\">Link Management Documentation</a>"
 #~ msgstr "<a href=\"%s\">Dokumentation för länkhantering</a>"
