@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Multisite sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-06-02 06:34+0000\n"
-"PO-Revision-Date: 2010-06-02 13:23+0100\n"
+"POT-Creation-Date: 2010-06-03 14:34+0000\n"
+"PO-Revision-Date: 2010-06-03 18:35+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -338,8 +338,8 @@ msgid "This screen sets and changes options for the network as a whole. The firs
 msgstr "Den här sidan används för att konfigurera och ändra inställningar för nätverket som helhet. Den första webbplatsen är den primära webbplatsen i nätverket och nätverksinställningarna hämtas från den ursprungliga webbplatsens inställningar."
 
 #: wp-admin/ms-options.php:23
-msgid "Operational settings has fields for the network&#8217;s name, admin email, and whether global terms will be disabled (the default) or maintained across all sites on the network."
-msgstr "Driftsinställningar har fält för nätverkets namn, e-post för nätverksadmin och om globala termer ska vara inaktiverade (standard) eller införas för alla webbplatserplatser i nätverket."
+msgid "Operational settings has fields for the network&#8217;s name and admin email."
+msgstr "Driftsinställningarna har fält för nätverkets namn och administrativ e-postadress."
 
 #: wp-admin/ms-options.php:24
 msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is subscribed but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
@@ -1201,8 +1201,8 @@ msgid "Create a Network of WordPress Sites"
 msgstr "Skapa ett nätverk av WordPress-webbplatser"
 
 #: wp-admin/network.php:93
-msgid "This screen allows you to configure a network as having subdomains (site1.example.com) or subdirectories (example.com/site1). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
-msgstr "Den här sidan tillåter dig att konfigurera ett nätverk att använda subdomäner (sida1.exempel.se) eller undermappar (exempel.se/sida1). Subdomäner kräver att jokerteckenposter konfigureras som subdomäner i Apache- och DNS-poster, om ditt webbhotell tillåter det."
+msgid "This screen allows you to configure a network as having subdomains (<code>site1.example.com</code>) or subdirectories (<code>example.com/site1</code>). Subdomains require wildcard subdomains to be enabled in Apache and DNS records, if your host allows it."
+msgstr "Den här sidan tillåter dig att konfigurera ett nätverk att använda subdomäner (<code>sida1.exempel.se</code>) eller undermappar (<code>exempel.se/sida1</code>). Subdomäner kräver att jokerteckenposter konfigureras som subdomäner i Apache- och DNS-poster, om ditt webbhotell tillåter det."
 
 #: wp-admin/network.php:94
 msgid "Choose subdomains or subdirectories; this can only be switched afterwards by reconfiguring your install. Fill out the network details, and click install. If this does not work, you may have to add a wildcard DNS record (for subdomains) or change to another setting in Permalinks (for subdirectories)."
@@ -1213,8 +1213,8 @@ msgid "The next screen for Network will give you individually-generated lines of
 msgstr "Nästa sida för nätverk kommer att ge dig individuellt genererade rader kod att lägga till i dina filer wp-config.php och .htaccess. Kontrollera inställningarna i din FTP-klient för att göra filer som börjar med en punkt synliga så att du kan hitta .htaccess. Du kan behöva skapa denna fil om det inte redan finns en. Gör säkerhetskopior av dessa två filer."
 
 #: wp-admin/network.php:96
-msgid "Add a blogs.dir directory under /wp-content/ and add the designated lines of code to wp-config.php (just before /*...stop editing...*/) and .htaccess (replacing the existing WordPress rules)."
-msgstr "Lägg till en blogs.dir -mapp under /wp-content/ och lägga till utsedda rader kod i wp-config.php (precis innan /* ...sluta redigera här... */) och .htaccess (som ersätter de nuvarande reglerna för WordPress)."
+msgid "Add a <code>blogs.dir</code> directory under <code>/wp-content</code> and add the designated lines of code to wp-config.php (just before <code>/*...stop editing...*/</code>) and <code>.htaccess</code> (replacing the existing WordPress rules)."
+msgstr "Lägg till en <code>blogs.dir</code>-mapp under <code>/wp-content</code> och lägga till utsedda rader kod i wp-config.php (precis innan <code>/* ...sluta redigera här... */</code>) och <code>.htaccess</code> (som ersätter de nuvarande reglerna för WordPress)."
 
 #: wp-admin/network.php:97
 msgid "Refreshing your browser will take you to a screen with an archive of those added lines of code. A set of six links under Super Admin will appear at the top of the main left navigation menu. The multisite network is now enabled."
@@ -2076,3 +2076,11 @@ msgstr "Läs sidan <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugg
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
 
+#~ msgid ""
+#~ "Operational settings has fields for the network&#8217;s name, admin "
+#~ "email, and whether global terms will be disabled (the default) or "
+#~ "maintained across all sites on the network."
+#~ msgstr ""
+#~ "Driftsinställningar har fält för nätverkets namn, e-post för "
+#~ "nätverksadmin och om globala termer ska vara inaktiverade (standard) "
+#~ "eller införas för alla webbplatserplatser i nätverket."
