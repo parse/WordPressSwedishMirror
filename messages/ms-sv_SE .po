@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Multisite sv_SE\n"
 "Report-Msgid-Bugs-To: wp-polyglots@lists.automattic.com\n"
-"POT-Creation-Date: 2010-06-03 14:34+0000\n"
-"PO-Revision-Date: 2010-06-03 18:35+0100\n"
+"POT-Creation-Date: 2010-06-04 07:34+0000\n"
+"PO-Revision-Date: 2010-06-04 13:55+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -120,8 +120,8 @@ msgid "This screen provides the network administrator with links to the screens 
 msgstr "Denna sida tillhandahåller länkar för nätverksadministratören att skapa nya webbplatser eller användare. Dessa adminpaneler finns även att tillgå via menyn Superadmin till vänster. Man kan även söka efter webbplatser eller användare på denna sida."
 
 #: wp-admin/ms-admin.php:27
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Super_Admin_Menu\">Network Admin Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Super_Admin_Menu\">Dokumentation för nätverksadministration</a>"
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Super_Admin_Menu\" target=\"_blank\">Documentation on Super Admin Menu</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Super_Admin_Menu\" target=\"_blank\">Dokumentation för nätverksadministration</a>"
 
 #: wp-admin/ms-admin.php:36
 #, php-format
@@ -342,7 +342,7 @@ msgid "Operational settings has fields for the network&#8217;s name and admin em
 msgstr "Driftsinställningarna har fält för nätverkets namn och administrativ e-postadress."
 
 #: wp-admin/ms-options.php:24
-msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is subscribed but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
+msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is Subscriber, but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
 msgstr "Panelwebbplats är ett alternativ för att tilldela en medlemswebbplats för användare som inte har en egen sida i nätverket. Deras standardroll är prenumerant, standardrollen kan ändras. Flöde för administratörsnotifikationer kan skicka notifikationer till användarnas adminpaneler om det senaste inlägget via RSS eller Atom. Alternativt inaktivera det genom att lämna fältet tomt."
 
 #: wp-admin/ms-options.php:25
@@ -366,12 +366,12 @@ msgid "Menu setting enables/disables the plugin menus from appearing for non sup
 msgstr "Menyinställning aktiverar/inaktiverar tilläggsmenyerna att visas för icke superadministratörer, så att endast superadministratörer, inte webbplatsadministratörer, har tillgång till att aktivera tillägg."
 
 #: wp-admin/ms-options.php:30
-msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Super Admin > Users and click on Username or the Edit hover link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
+msgid "Super admins can no longer be added on the Options screen. You must now go to the list of existing users on Super Admin > Users and click on Username or the Edit action link below that name. This goes to an Edit User page where you can check a box to grant super admin privileges."
 msgstr "Superadministratörer kan inte längre läggas till på inställningssidan. Du måste nu gå till listan över befintliga användare under Superadmin> Användare och klicka på användarnamn eller länken redigera i kolumnraden för användaren. Detta skickar dig till en sida för användarredigering där du kan markera en ruta om att bevilja behörighet som superadministratör."
 
 #: wp-admin/ms-options.php:32
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Options_SubPanel\">Network Options Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Options_SubPanel\">Dokumentation för nätverksinställningar</a>"
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Options_SubPanel\" target=\"_blank\">Network Options Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Options_SubPanel\" target=\"_blank\">Dokumentation för nätverksinställningar</a>"
 
 #: wp-admin/ms-options.php:50
 msgid "Operational Settings"
@@ -403,7 +403,7 @@ msgid "Dashboard Site"
 msgstr "Panelwebbplats"
 
 #: wp-admin/ms-options.php:85
-msgid "Site path (&#8220;dashboard&#8221;, &#8220;control&#8221;, &#8220;manager&#8221;, etc.) or blog ID.<br />New users are added to this site as the user role defined below if they don&#8217;t have a site. Leave blank for the main site. Users with the subscriber role on old site will be moved to the new site if changed. The new site will be created if it does not exist."
+msgid "Site path (&#8220;dashboard&#8221;, &#8220;control&#8221;, &#8220;manager&#8221;, etc.) or blog ID.<br />New users are added to this site as the user role defined below if they don&#8217;t have a site. Leave blank for the main site. Users with the Subscriber role on the old site will be moved to the new site if changed. The new site will be created if it does not exist."
 msgstr "Webbplatssökväg (&#8221;panel&#8221;, &#8221;kontroll&#8221;, &#8221;hanterare&#8221;, osv) eller bloggens ID.<br /> Nya användare läggs till som användarrollen angiven nedan om de inte har en webbplats registrerad. Lämna tomt för den primära webbplatsen. Prenumeranter kommer att flyttas till den nya webbplatsen om angivet. Den nya webbplatsen kommer att skapas om den inte redan finns."
 
 #: wp-admin/ms-options.php:89
@@ -618,356 +618,352 @@ msgid "Enable administration menus"
 msgstr "Aktivera administrationsmenyer"
 
 #: wp-admin/ms-sites.php:23
-msgid "The network admin arrives at this screen to make choices for a given site by clicking on the Edit link on the Sites screen available to them in the Super Admin navigation menu."
-msgstr "Nätverksadmin kommer till denna sida för att göra val för en viss webbplats genom att klicka på länken redigera på sidan som listar webbplatser i Superadmin i navigeringsmenyn."
-
-#: wp-admin/ms-sites.php:24
-msgid "This extensive list of options has five modules: Site Info, Site Options, allowing Site Themes for this given site, changing the Site User(s) roles and passwords for that site, Adding a new user, and Miscellaneous Site Actions (upload size limits)."
+msgid "This extensive list of options has five modules: Site Info, Site Options, allowing Site Themes for this given site, changing user roles and passwords for that site, adding a new user, and Miscellaneous Site Actions (upload size limits)."
 msgstr "Denna omfattande lista med alternativ har fem moduler: webbplatsinformation, webbplatsinställningar, teman för webbplatsen, webbplatsens användarroller och lösenord, lägga till ny användare och diverse webbplatsåtgärder (storleksbegränsningar för uppladdning)."
 
-#: wp-admin/ms-sites.php:25
+#: wp-admin/ms-sites.php:24
 msgid "Note that some fields in Site Options are grayed out and say Serialized Data. These are stored values in the database which you cannot change from here."
 msgstr "Observera att vissa fält under webbplatsinställningar är nedtonade och lyder \"Serialized Data\". Dessa är lagrade värden i databasen som du inte kan ändra härifrån."
 
-#: wp-admin/ms-sites.php:27
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_Edit_Site\">Site Editing Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_Edit_Site\">Dokumentation för webbplatsredigering</a>"
+#: wp-admin/ms-sites.php:26
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_Edit_Site\" target=\"_blank\">Documentation on Editing Sites</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_Edit_Site\" target=\"_blank\">Dokumentation för webbplatsredigering</a>"
 
-#: wp-admin/ms-sites.php:32
+#: wp-admin/ms-sites.php:31
 msgid "Add New takes you farther down on this same page. You can search for a site by Name, ID number, or IP address. Screen Options allows you to choose how many sites to display on one page."
 msgstr "Lägg till ny tar dig längre ned på samma sida. Du kan söka efter en webbplats baserat på namn, ID-nummer eller IP-adress. Under fliken Panelinställningar kan du välja hur många webbplatser som ska visas per sida."
 
-#: wp-admin/ms-sites.php:33
+#: wp-admin/ms-sites.php:32
 msgid "This is the main table of all sites on this network. Switch between list and excerpt views by using the icons above the right side of the table."
 msgstr "Detta är huvudtabellen för alla webbplatser i det här nätverket. Växla mellan lista och utdrag genom att klicka på ikonerna ovanför tabellen till höger."
 
-#: wp-admin/ms-sites.php:34
-msgid "Hovering over each site reveals seven options (only three for the primary or originating site for the network):"
-msgstr "Att föra muspekaren över raden för en plats visar sju alternativ (endast tre för primära eller ursprungliga webbplatsen för ett nätverket):"
+#: wp-admin/ms-sites.php:33
+msgid "Hovering over each site reveals seven options (three for the primary site):"
+msgstr "Att föra muspekaren över raden för en plats visar sju alternativ (tre för den primära webbplatsen):"
 
-#: wp-admin/ms-sites.php:35
+#: wp-admin/ms-sites.php:34
 msgid "an Edit link to a separate Edit Site screen."
 msgstr "en redigeringslänk till en separat sida för webbplatsredigering."
 
-#: wp-admin/ms-sites.php:36
+#: wp-admin/ms-sites.php:35
 msgid "Backend means the Dashboard for that site."
 msgstr "Adminpanel betyder administrationen för den webbplatsen."
 
-#: wp-admin/ms-sites.php:37
-msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later by hover links attached to those sites in this table."
-msgstr "Avaktivera, Arkivera, och Skräppost som leder till bekräftelsesidor. Dessa åtgärder kan återställas senare genom att för muspekaren över länkarna knutna till dessa områden i denna tabell."
+#: wp-admin/ms-sites.php:36
+msgid "Deactivate, Archive, and Spam which lead to confirmation screens. These actions can be reversed later."
+msgstr "Avaktivera, Arkivera, och Skräppost som leder till bekräftelsesidor. Dessa åtgärder kan återställas."
 
-#: wp-admin/ms-sites.php:38
+#: wp-admin/ms-sites.php:37
 msgid "Delete which is a permanent action after the confirmations screen."
 msgstr "Radera som är en permanent handling efter bekräftelsen."
 
-#: wp-admin/ms-sites.php:39
+#: wp-admin/ms-sites.php:38
 msgid "Visit to go to the frontend site live."
 msgstr "Besök för att se framsidan av webbplatsen live."
 
-#: wp-admin/ms-sites.php:40
-msgid "The site ID is used internally, and not shown on the front end of the site or to users/viewers."
+#: wp-admin/ms-sites.php:39
+msgid "The site ID is used internally, and is not shown on the front end of the site or to users/viewers."
 msgstr "Webbplatsen ID används internt, och visas inte på framsidan av webbplatsen eller för användare/besökare."
 
-#: wp-admin/ms-sites.php:41
+#: wp-admin/ms-sites.php:40
 msgid "Clicking on bold settings can re-sort this table. The upper right icons switch between list and excerpt views."
 msgstr "Att klicka på alternativ i fetstil på nytt kan sorterar om denna tabell. Ikonerna i det övre högra hörnet växlar mellan list- och utdragsvy."
 
+#: wp-admin/ms-sites.php:41
+msgid "Clicking on Add Site, after filling out the address, title, and admin's email address, adds the site instantly to the network and this table. You may want to then click on the action link to edit options for that site."
+msgstr "Att klicka på Lägg till webbplats efter att fyllt i webbadress, titel och e-postadress lägger till en ny webbplats direkt i nätverket och i denna tabell. Du kanske vill klicka på länken redigera som visas om du för muspekaren över raden för webbplatsen för att sedan kunna ändra alternativ för den webbplatsen."
+
 #: wp-admin/ms-sites.php:42
-msgid "Clicking on Add Site after filling out the address, title, and email adds that new site instantly to the network and this table. You may want to then click on the hover link to edit options for that site."
-msgstr "Att klicka på Lägg till webbplats efter att fyllt i webbadress, titel och e-postadress lägger till en ny webbplats direkt i nätverket och i denna tabell. Du kanske vill klicka på länk redigera som visas om du för muspekaren över raden för webbplatsen för att sedan kunna ändra alternativ för den webbplatsen."
+msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
+msgstr "Om administratörens e-postadress för den nya webbplatsen inte finns i databasen så kommer även en ny användare att skapas."
 
-#: wp-admin/ms-sites.php:43
-msgid "Make sure you do not add slashes or dots when you fill in the new site name. If the admin email for the new site does not exist in the database, a new user will also be created."
-msgstr "Försäkra dig om att du inte lägger till några snedstreck eller prickar när du anger namnet för den nya webbplatsen. Om administratörens e-postadress för den nya webbplatsen inte finns i databasen så kommer en ny användare också att skapas."
+#: wp-admin/ms-sites.php:44
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_SubPanel\" target=\"_blank\">Documentation on Sites</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_SubPanel\" target=\"_blank\">Dokumentation för webbplatser i nätverket</a>"
 
-#: wp-admin/ms-sites.php:45
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_SubPanel\">Sites Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Sites_SubPanel\">Dokumentation för webbplatser i nätverket</a>"
-
-#: wp-admin/ms-sites.php:62
+#: wp-admin/ms-sites.php:61
 msgid "Sites removed from spam."
 msgstr "Webbplats avmarkerad för skräppostning."
 
-#: wp-admin/ms-sites.php:65
+#: wp-admin/ms-sites.php:64
 msgid "Sites marked as spam."
 msgstr "Webbplatser markerade som skräppostare."
 
-#: wp-admin/ms-sites.php:68
+#: wp-admin/ms-sites.php:67
 msgid "Sites deleted."
 msgstr "Webbplatser raderade."
 
-#: wp-admin/ms-sites.php:71
+#: wp-admin/ms-sites.php:70
 msgid "Site deleted."
 msgstr "Webbplats raderad."
 
-#: wp-admin/ms-sites.php:74
+#: wp-admin/ms-sites.php:73
 msgid "Site added."
 msgstr "Webbplatsen har lagts till."
 
-#: wp-admin/ms-sites.php:77
+#: wp-admin/ms-sites.php:76
 msgid "Site archived."
 msgstr "Webbplats arkiverad."
 
-#: wp-admin/ms-sites.php:80
+#: wp-admin/ms-sites.php:79
 msgid "Site unarchived."
 msgstr "Webbplats avarkiverad."
 
-#: wp-admin/ms-sites.php:83
+#: wp-admin/ms-sites.php:82
 msgid "Site activated."
 msgstr "Webbplatsen aktiverad."
 
-#: wp-admin/ms-sites.php:86
+#: wp-admin/ms-sites.php:85
 msgid "Site deactivated."
 msgstr "Webbplatsen inaktiverad."
 
-#: wp-admin/ms-sites.php:89
+#: wp-admin/ms-sites.php:88
 msgid "Site removed from spam."
 msgstr "Webbplats avmarkerad för skräppostning."
 
-#: wp-admin/ms-sites.php:92
+#: wp-admin/ms-sites.php:91
 msgid "Site marked as spam."
 msgstr "Webbplats markerad för skräppostning."
 
-#: wp-admin/ms-sites.php:116
+#: wp-admin/ms-sites.php:115
 msgid "Edit Site"
 msgstr "Redigera webbplats"
 
-#: wp-admin/ms-sites.php:122
+#: wp-admin/ms-sites.php:121
 msgid "Site info (wp_blogs)"
 msgstr "Webbplatsinfo (wp_blogs)"
 
-#: wp-admin/ms-sites.php:126
-#: wp-admin/ms-sites.php:475
-#: wp-admin/ms-sites.php:717
-#: wp-admin/ms-sites.php:719
+#: wp-admin/ms-sites.php:125
+#: wp-admin/ms-sites.php:474
+#: wp-admin/ms-sites.php:716
+#: wp-admin/ms-sites.php:718
 msgid "Domain"
 msgstr "Domän"
 
-#: wp-admin/ms-sites.php:141
+#: wp-admin/ms-sites.php:140
 msgid "Update <code>siteurl</code> and <code>home</code> as well."
 msgstr "Uppdatera även <code>siteurl</code> och <code>home</code>."
 
-#: wp-admin/ms-sites.php:145
-#: wp-admin/ms-sites.php:480
+#: wp-admin/ms-sites.php:144
+#: wp-admin/ms-sites.php:479
 msgctxt "site"
 msgid "Registered"
 msgstr "Registrerad"
 
-#: wp-admin/ms-sites.php:149
-#: wp-admin/ms-sites.php:479
+#: wp-admin/ms-sites.php:148
+#: wp-admin/ms-sites.php:478
 msgid "Last Updated"
 msgstr "Senast uppdaterad"
 
-#: wp-admin/ms-sites.php:155
-#: wp-admin/ms-sites.php:521
+#: wp-admin/ms-sites.php:154
+#: wp-admin/ms-sites.php:520
 msgid "Archived"
 msgstr "Arkiverat"
 
-#: wp-admin/ms-sites.php:156
-#: wp-admin/ms-sites.php:521
-#: wp-admin/ms-sites.php:594
+#: wp-admin/ms-sites.php:155
+#: wp-admin/ms-sites.php:520
+#: wp-admin/ms-sites.php:593
 msgctxt "site"
 msgid "Spam"
 msgstr "Skräppost"
 
-#: wp-admin/ms-sites.php:157
-#: wp-admin/ms-sites.php:521
+#: wp-admin/ms-sites.php:156
+#: wp-admin/ms-sites.php:520
 msgid "Deleted"
 msgstr "Raderade"
 
-#: wp-admin/ms-sites.php:159
-#: wp-admin/ms-sites.php:521
+#: wp-admin/ms-sites.php:158
+#: wp-admin/ms-sites.php:520
 msgid "Mature"
 msgstr "Vuxenmaterial"
 
-#: wp-admin/ms-sites.php:173
-#: wp-admin/ms-sites.php:219
-#: wp-admin/ms-sites.php:255
-#: wp-admin/ms-sites.php:297
-#: wp-admin/ms-sites.php:327
-#: wp-admin/ms-sites.php:337
+#: wp-admin/ms-sites.php:172
+#: wp-admin/ms-sites.php:218
+#: wp-admin/ms-sites.php:254
+#: wp-admin/ms-sites.php:296
+#: wp-admin/ms-sites.php:326
+#: wp-admin/ms-sites.php:336
 msgid "Update Options"
 msgstr "Uppdatera inställningar"
 
-#: wp-admin/ms-sites.php:178
+#: wp-admin/ms-sites.php:177
 #, php-format
 msgid "Site options (%soptions)"
 msgstr "Webbplatsinställningar (%sinställningar)"
 
-#: wp-admin/ms-sites.php:241
+#: wp-admin/ms-sites.php:240
 msgid "Active"
 msgstr "Aktivt"
 
-#: wp-admin/ms-sites.php:249
+#: wp-admin/ms-sites.php:248
 msgid "Site Themes"
 msgstr "Webbplatsteman"
 
-#: wp-admin/ms-sites.php:251
+#: wp-admin/ms-sites.php:250
 msgid "Activate the themename of an existing theme and hit \"Update Options\" to allow the theme for this site."
 msgstr "Aktivera temanamnet för ett existerande tema och klicka på \"Uppdatera inställningar\" för att tillåta använding av temat på den här webbplatsen."
 
-#: wp-admin/ms-sites.php:262
+#: wp-admin/ms-sites.php:261
 msgid "Site Users"
 msgstr "Webbplatsanvändare"
 
-#: wp-admin/ms-sites.php:264
+#: wp-admin/ms-sites.php:263
 msgid "User"
 msgstr "Användare"
 
-#: wp-admin/ms-sites.php:290
+#: wp-admin/ms-sites.php:289
 msgid "Click to remove user"
 msgstr "Klicka för att ta bort användare"
 
-#: wp-admin/ms-sites.php:292
+#: wp-admin/ms-sites.php:291
 msgid "N/A"
 msgstr "Ej tillgängligt"
 
-#: wp-admin/ms-sites.php:303
+#: wp-admin/ms-sites.php:302
 msgid "Add a new user"
 msgstr "Lägg till ny användare"
 
-#: wp-admin/ms-sites.php:305
+#: wp-admin/ms-sites.php:304
 msgid "Enter the username of an existing user and hit &#8220;Update Options&#8221; to add the user."
 msgstr "Ange användarnamnet på en existerande användare och klicka på &#8221;Uppdatera inställningar&#8221; för att lägga användaren."
 
-#: wp-admin/ms-sites.php:308
+#: wp-admin/ms-sites.php:307
 msgid "User&nbsp;Login:"
 msgstr "Användarinloggning:"
 
-#: wp-admin/ms-sites.php:332
+#: wp-admin/ms-sites.php:331
 msgid "Misc Site Actions"
 msgstr "Övriga webbplatsval"
 
-#: wp-admin/ms-sites.php:419
+#: wp-admin/ms-sites.php:418
 msgctxt "sites"
 msgid "Add New"
 msgstr "Lägg till ny"
 
-#: wp-admin/ms-sites.php:430
+#: wp-admin/ms-sites.php:429
 msgid "Search Site by"
 msgstr "Sök webbplats efter"
 
-#: wp-admin/ms-sites.php:433
-#: wp-admin/ms-sites.php:477
+#: wp-admin/ms-sites.php:432
+#: wp-admin/ms-sites.php:476
 #: wp-admin/ms-users.php:175
 msgid "ID"
 msgstr "ID"
 
-#: wp-admin/ms-sites.php:434
+#: wp-admin/ms-sites.php:433
 msgid "IP address"
 msgstr "IP-adress"
 
-#: wp-admin/ms-sites.php:446
-#: wp-admin/ms-sites.php:697
+#: wp-admin/ms-sites.php:445
+#: wp-admin/ms-sites.php:696
 msgctxt "site"
 msgid "Mark as Spam"
 msgstr "Markera som skräp"
 
-#: wp-admin/ms-sites.php:447
-#: wp-admin/ms-sites.php:592
-#: wp-admin/ms-sites.php:698
+#: wp-admin/ms-sites.php:446
+#: wp-admin/ms-sites.php:591
+#: wp-admin/ms-sites.php:697
 msgctxt "site"
 msgid "Not Spam"
 msgstr "Inte skräp"
 
-#: wp-admin/ms-sites.php:566
+#: wp-admin/ms-sites.php:565
 #, php-format
 msgctxt "%1$s: site name. %2$s: site tagline."
 msgid "%1$s &#8211; <em>%2$s</em>"
 msgstr "%1$s &#8211; <em>%2$s</em>"
 
-#: wp-admin/ms-sites.php:579
+#: wp-admin/ms-sites.php:578
 msgid "Backend"
 msgstr "Adminpanel"
 
-#: wp-admin/ms-sites.php:582
+#: wp-admin/ms-sites.php:581
 #, php-format
 msgid "You are about to activate the site %s"
 msgstr "Du håller på att aktivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:584
+#: wp-admin/ms-sites.php:583
 #, php-format
 msgid "You are about to deactivate the site %s"
 msgstr "Du håller på att inaktivera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:587
+#: wp-admin/ms-sites.php:586
 #, php-format
 msgid "You are about to unarchive the site %s."
 msgstr "Du håller på att avarkivera webbplatsen %s."
 
-#: wp-admin/ms-sites.php:587
+#: wp-admin/ms-sites.php:586
 msgid "Unarchive"
 msgstr "Avarkivera"
 
-#: wp-admin/ms-sites.php:589
+#: wp-admin/ms-sites.php:588
 #, php-format
 msgid "You are about to archive the site %s."
 msgstr "Du är på väg att arkivera webbplatsen %s."
 
-#: wp-admin/ms-sites.php:589
+#: wp-admin/ms-sites.php:588
 msgctxt "verb; site"
 msgid "Archive"
 msgstr "Arkiv"
 
-#: wp-admin/ms-sites.php:592
+#: wp-admin/ms-sites.php:591
 #, php-format
 msgid "You are about to unspam the site %s."
 msgstr "Du är på väg att avmarkera webbplatsen %s som skräppostare."
 
-#: wp-admin/ms-sites.php:594
+#: wp-admin/ms-sites.php:593
 #, php-format
 msgid "You are about to mark the site %s as spam."
 msgstr "Du är på väg att markera webbplatsen %s för skräppostning."
 
-#: wp-admin/ms-sites.php:596
+#: wp-admin/ms-sites.php:595
 #, php-format
 msgid "You are about to delete the site %s."
 msgstr "Du håller på att radera webbplatsen %s"
 
-#: wp-admin/ms-sites.php:599
+#: wp-admin/ms-sites.php:598
 #: wp-admin/my-sites.php:95
 msgid "Visit"
 msgstr "Besök"
 
-#: wp-admin/ms-sites.php:617
+#: wp-admin/ms-sites.php:616
 msgid "Never"
 msgstr "Aldrig"
 
-#: wp-admin/ms-sites.php:640
+#: wp-admin/ms-sites.php:639
 msgid "Only showing first 5 users."
 msgstr "Visar endast de första 5 användarna."
 
-#: wp-admin/ms-sites.php:640
+#: wp-admin/ms-sites.php:639
 msgid "More"
 msgstr "Mer"
 
-#: wp-admin/ms-sites.php:679
+#: wp-admin/ms-sites.php:678
 msgid "No sites found."
 msgstr "Inga webbplatser funna."
 
-#: wp-admin/ms-sites.php:709
-#: wp-admin/ms-sites.php:738
+#: wp-admin/ms-sites.php:708
+#: wp-admin/ms-sites.php:737
 msgid "Add Site"
 msgstr "Lägg till webbplats"
 
-#: wp-admin/ms-sites.php:714
+#: wp-admin/ms-sites.php:713
 msgid "Site Address"
 msgstr "Webbplatsadress"
 
-#: wp-admin/ms-sites.php:721
+#: wp-admin/ms-sites.php:720
 msgid "Only the characters a-z and 0-9 recommended."
 msgstr "Endast tecken a-z och 0-9 rekommenderat."
 
-#: wp-admin/ms-sites.php:730
+#: wp-admin/ms-sites.php:729
 msgid "Admin Email"
 msgstr "E-postadress admin"
 
-#: wp-admin/ms-sites.php:734
+#: wp-admin/ms-sites.php:733
 msgid "A new user will be created if the above email address is not in the database."
 msgstr "En nya användare kommer att skapas om ovan angiven e-postadress inte redan finns i databasen."
 
-#: wp-admin/ms-sites.php:734
+#: wp-admin/ms-sites.php:733
 msgid "The username and password will be mailed to this email address."
 msgstr "Användarnamn och lösenord kommer att mailas till den här e-postadressen."
 
@@ -985,12 +981,12 @@ msgid "If the network admin disables a theme that is in use, it can still remain
 msgstr "Om nätverksadministratören inaktiverar ett tema som används så kan det fortfarande användas på webbplatsen. Om ett annat tema väljs så kommer det inaktiverade tema inte att visas i webbplatsens adminpanel under Utseende > Teman."
 
 #: wp-admin/ms-themes.php:21
-msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen you go to via the Edit hover link on the Sites screen."
+msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen you go to via the Edit action link on the Sites screen."
 msgstr "Teman kan aktiveras per webbplatsbasis av nätverksadmin under redigering av webbplatser. Denna sida kommer du till om du för muspekaren över en webbplats i listan under Superadmin > Webbplatser och klickar på länken redigera."
 
 #: wp-admin/ms-themes.php:23
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Themes_SubPanel\">Network Themes Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Themes_SubPanel\">Dokumentation för nätverksteman</a>"
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Themes_SubPanel\" target=\"_blank\">Documentation on Network Themes</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Themes_SubPanel\" target=\"_blank\">Dokumentation för nätverksteman</a>"
 
 #: wp-admin/ms-themes.php:31
 msgid "Site themes saved."
@@ -1046,8 +1042,8 @@ msgid "If this process fails for any reason, users logging in to their sites wil
 msgstr "Om detta misslyckas av någon anledning så kommer användare som loggar in på sina webbplatser att påtvinga samma uppgradering."
 
 #: wp-admin/ms-upgrade-network.php:25
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\">Update Network Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\">Dokumentation för nätverksuppgradering</a>"
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\" target=\"_blank\">Update Network Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\" target=\"_blank\">Dokumentation för nätverksuppgradering</a>"
 
 #: wp-admin/ms-upgrade-network.php:51
 msgid "All done!"
@@ -1103,8 +1099,8 @@ msgid "You can make an existing user an additional super admin by going to the E
 msgstr "Du kan göra en existerande användare till en extra superadmin genom att gå till sidan för att redigera användare och bocka för rutan som tilldelar denna behörighet."
 
 #: wp-admin/ms-users.php:31
-msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Users_SubPanel\">Network Users Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Users_SubPanel\">Dokumentation för nätverksanvändare</a>"
+msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Users_SubPanel\" target=\"_blank\">Network Users Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Users_SubPanel\" target=\"_blank\">Dokumentation för nätverksanvändare</a>"
 
 #: wp-admin/ms-users.php:45
 msgid "User deleted."
@@ -1181,8 +1177,8 @@ msgid "Up until WordPress version 3.0, what is now called a Multi-site Network h
 msgstr "Fram till WordPress version 3.0 så behövdes vad som nu kallas ett nätverk av webbplatser (Multi-site Network) installeras separat som WordPress MU (multi user)."
 
 #: wp-admin/my-sites.php:45
-msgid "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_SubPanel\">My Sites Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_SubPanel\">Dokumentation för Mina webbplatser</a>"
+msgid "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_SubPanel\" target=\"_blank\">My Sites Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_SubPanel\" target=\"_blank\">Dokumentation för Mina webbplatser</a>"
 
 #: wp-admin/my-sites.php:68
 msgid "Global Settings"
@@ -1225,12 +1221,12 @@ msgid "The choice of subdirectory sites is disabled if this setup is more than a
 msgstr "Valet som underkatalogsinstallation kan inte användas om denna installation är mer än en månad gammal på grund av permalänksproblem med &#8221;/blog/&#8221; från den primära webbplatsen. Denna bugg kommer att åtgärdas för framtida versioner."
 
 #: wp-admin/network.php:100
-msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\">General Network Creation Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\">Allmän dokumentation för skapande av nätverk</a>"
+msgid "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">General Network Creation Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Create_A_Network\" target=\"_blank\">Allmän dokumentation för skapande av nätverk</a>"
 
 #: wp-admin/network.php:101
-msgid "<a href=\"http://codex.wordpress.org/Tools_Network_SubPanel\">Tools > Network Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_SubPanel\">Dokumentation för Verktyg > Nätverk</a>"
+msgid "<a href=\"http://codex.wordpress.org/Tools_Network_SubPanel\" target=\"_blank\">Tools > Network Documentation</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_SubPanel\" target=\"_blank\">Dokumentation för Verktyg > Nätverk</a>"
 
 #: wp-admin/network.php:124
 #: wp-admin/network.php:141
@@ -2075,6 +2071,15 @@ msgstr "Läs sidan <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugg
 #: wp-includes/ms-load.php:217
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
+
+#~ msgid ""
+#~ "The network admin arrives at this screen to make choices for a given site "
+#~ "by clicking on the Edit link on the Sites screen available to them in the "
+#~ "Super Admin navigation menu."
+#~ msgstr ""
+#~ "Nätverksadmin kommer till denna sida för att göra val för en viss "
+#~ "webbplats genom att klicka på länken redigera på sidan som listar "
+#~ "webbplatser i Superadmin i navigeringsmenyn."
 
 #~ msgid ""
 #~ "Operational settings has fields for the network&#8217;s name, admin "
