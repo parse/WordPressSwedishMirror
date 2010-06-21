@@ -59,10 +59,10 @@ if (file_exists(ABSPATH . '../wp-config.php') && ! file_exists(ABSPATH . '../wp-
 	wp_die("<p>Filen 'wp-config.php' finns redan en nivå ovanför din WordPress installation.  Om du behöver återställa något värde i filen, var vänlig readera den först. Du kan försöka att <a href='install.php'>installera nu</a>.</p>");
 
 if ( version_compare( $required_php_version, phpversion(), '>' ) )
-	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'Your server is running PHP version %1$s but WordPress requires at least %2$s.'/*/WP_I18N_OLD_PHP*/, phpversion(), $required_php_version ) );
+	wp_die( sprintf( /*WP_I18N_OLD_PHP*/'Din server kör PHP version %1$s men WordPress kräver minst version %2$s.'/*/WP_I18N_OLD_PHP*/, phpversion(), $required_php_version ) );
 
 if ( !extension_loaded('mysql') && !file_exists(ABSPATH . 'wp-content/db.php') )
-	wp_die( /*WP_I18N_OLD_MYSQL*/'Your PHP installation appears to be missing the MySQL extension which is required by WordPress.'/*/WP_I18N_OLD_MYSQL*/ );
+	wp_die( /*WP_I18N_OLD_MYSQL*/'Din PHP installation verkar sakna MySQL tillägget som WordPress kräver.'/*/WP_I18N_OLD_MYSQL*/ );
 
 if (isset($_GET['step']))
 	$step = $_GET['step'];
