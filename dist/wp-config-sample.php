@@ -69,7 +69,7 @@ $table_prefix  = 'wp_';
  * sv_SE.mo i wp-content/languages och ange WPLANG till 'sv_SE' för att få sidan
  * på svenska.
  */
-define ('WPLANG', 'sv_SE');
+define('WPLANG', 'sv_SE');
 
 /** 
  * För utvecklare: WordPress felsökningsläge. 
