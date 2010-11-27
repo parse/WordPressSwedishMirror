@@ -162,7 +162,7 @@ switch($step) {
 
 	// Validate $prefix: it can only contain letters, numbers and underscores
 	if ( preg_match( '|[^a-z0-9_]|i', $prefix ) )
-		wp_die( /*WP_I18N_BAD_PREFIX*/'<strong>ERROR</strong>: "Table Prefix" can only contain numbers, letters, and underscores.'/*/WP_I18N_BAD_PREFIX*/ );
+		wp_die( /*WP_I18N_BAD_PREFIX*/'<strong>FEL</strong>: "Tabellprefix" kan endast innehålla siffror, bokstäver och understreck.'/*/WP_I18N_BAD_PREFIX*/ );
 
 	// Test the db connection.
 	/**#@+
@@ -237,7 +237,7 @@ switch($step) {
 			case "define('SECURE_A":
 			case "define('LOGGED_I":
 			case "define('NONCE_SA":
-				$configFile[$line_num] = str_replace('put your unique phrase here', $secret_keys[$key++], $line );
+				$configFile[$line_num] = str_replace('ange en unik fras', $secret_keys[$key++], $line );
 				break;
 		}
 	}
