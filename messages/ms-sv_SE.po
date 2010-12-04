@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2010-11-25 18:01+0100\n"
+"PO-Revision-Date: 2010-12-04 06:02+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,116 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:235
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:278
+msgid "Network Enable"
+msgstr "Aktivera för nätverk"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:237
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:280
+msgid "Network Disable"
+msgstr "Inaktivera för nätverk"
+
+#: wp-admin/network/upgrade.php:22
+msgid "Only use this screen once you have updated to a new version of WordPress through Dashboard > Updates. Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Använd endast den här sidan när du har uppdaterat till en ny version av WordPress via Panel > Uppdateringar. Om du klickar på knappen Uppdatera nätverk så söker WordPress igenom varje webbplats i nätverket, fem i taget och ser till att eventuella uppdateringar av databasen tillämpas."
+
+#: wp-signup.php:87
+msgid "Your address will be %s."
+msgstr "Din adress kommer att bli %s."
+
+#: wp-signup.php:86
+msgid "domain"
+msgstr "domän"
+
+#: wp-admin/network/settings.php:105
+msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
+msgstr "Tillåt administratörer att lägga till nya användare till deras webbplats via \"Användare &rarr; Lägg till ny\"."
+
+#: wp-admin/network/menu.php:18
+#: wp-admin/network/sites.php:96
+msgctxt "site"
+msgid "Add New"
+msgstr "Skapa ny"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:199
+msgctxt "themes"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alla <span class=\"count\">(%s)</span>"
+msgstr[1] "Alla <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:202
+msgid "Enabled <span class=\"count\">(%s)</span>"
+msgid_plural "Enabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Aktiverat <span class=\"count\">(%s)</span>"
+msgstr[1] "Aktiverade <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:97
+msgid "Super Admin <span class=\"count\">(%s)</span>"
+msgid_plural "Super Admins <span class=\"count\">(%s)</span>"
+msgstr[0] "Superadmin <span class=\"count\">(%s)</span>"
+msgstr[1] "Superadmins <span class=\"count\">(%s)</span>"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:237
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:280
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+msgid "Visit Theme Site"
+msgstr "Besök temats webbplats"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:50
+msgid "You do not have sufficient permissions to manage themes for this site."
+msgstr "Du har inte tillräcklig behörighet för att hantera teman för denna webbplats."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:52
+msgid "You do not have sufficient permissions to manage network themes."
+msgstr "Du har inte tillräcklig behörighet för att hantera nätverksteman."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:168
+msgid "No themes found."
+msgstr "Inga teman hittades."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:170
+msgid "You do not appear to have any themes available at this time."
+msgstr "Du verkar inte ha några teman tillgängliga just nu."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:283
+msgid "Open this theme in the Theme Editor"
+msgstr "Öppna detta tema i temaredigeraren"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:280
+msgid "Disable this theme"
+msgstr "Inaktivera detta tema"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:278
+msgid "Enable this theme"
+msgstr "Aktivera detta tema"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:330
+msgid "Visit theme homepage"
+msgstr "Besök temats webbplats"
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:205
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
+msgstr[1] "Inaktiva <span class=\"count\">(%s)</span>"
+
+#: wp-admin/network/site-themes.php:126
+msgid "No theme selected."
+msgstr "Inget tema valt."
+
+#: wp-admin/network/site-themes.php:123
+msgid "Theme disabled."
+msgstr "Tema inaktiverat."
+
+#: wp-admin/network/site-themes.php:120
+msgid "Theme enabled."
+msgstr "Tema aktiverat."
 
 #: wp-admin/network/site-users.php:192
 msgid "Enter the username and email."
@@ -65,7 +175,7 @@ msgstr "Varning! Användaren %s kan inte raderas."
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
-#: wp-admin/network/site-themes.php:112
+#: wp-admin/network/site-themes.php:131
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Teman aktiverade för nätverket visas inte på sidan."
 
@@ -73,13 +183,13 @@ msgstr "Teman aktiverade för nätverket visas inte på sidan."
 msgid "You do not have sufficient permissions to add users to this network."
 msgstr "Du har inte tillräcklig behörighet för att lägga till användare i detta nätverk."
 
-#: wp-admin/network/site-themes.php:88
+#: wp-admin/network/site-themes.php:95
 #: wp-admin/network/themes.php:67
 msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "Teman"
 
-#: wp-admin/network/site-themes.php:118
+#: wp-admin/network/site-themes.php:137
 #: wp-admin/network/themes.php:93
 msgid "Search Installed Themes"
 msgstr "Sök installerade teman"
@@ -138,14 +248,14 @@ msgstr "Adminpanel leder till adminpanelen för den webbplatsen."
 msgid "Delete which is a permanent action after the confirmation screens."
 msgstr "Radera som är en permanent åtgärd efter bekräftelse."
 
-#: wp-admin/network/site-info.php:83
-#: wp-admin/network/site-options.php:71
-#: wp-admin/network/site-themes.php:104
+#: wp-admin/network/site-info.php:82
+#: wp-admin/network/site-options.php:72
+#: wp-admin/network/site-themes.php:108
 #: wp-admin/network/site-users.php:156
 msgid "Info"
 msgstr "Info"
 
-#: wp-admin/network/site-info.php:67
+#: wp-admin/network/site-info.php:66
 msgid "Site info updated."
 msgstr "Webbplatsinformation uppdaterad."
 
@@ -156,20 +266,20 @@ msgstr "Webbplatsinformation uppdaterad."
 msgid "Invalid site ID."
 msgstr "Ogiltig webbplats-ID."
 
-#: wp-admin/network/site-options.php:55
+#: wp-admin/network/site-options.php:56
 msgid "Site options updated."
 msgstr "Webbplatsinställningar uppdaterade."
 
-#: wp-admin/network/site-info.php:70
-#: wp-admin/network/site-options.php:58
-#: wp-admin/network/site-themes.php:90
+#: wp-admin/network/site-info.php:69
+#: wp-admin/network/site-options.php:59
+#: wp-admin/network/site-themes.php:97
 #: wp-admin/network/site-users.php:145
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
 
-#: wp-admin/network/site-info.php:83
-#: wp-admin/network/site-options.php:71
-#: wp-admin/network/site-themes.php:104
+#: wp-admin/network/site-info.php:82
+#: wp-admin/network/site-options.php:72
+#: wp-admin/network/site-themes.php:108
 #: wp-admin/network/site-users.php:156
 msgid "Options"
 msgstr "Inställningar"
@@ -256,7 +366,7 @@ msgstr "Tillbaka"
 msgid "You have used your space quota. Please delete files before uploading."
 msgstr "Du har använt allt tilldelat utrymme. Var vänlig radera några filer för att kunna ladda upp nya."
 
-#: wp-admin/network/edit.php:399
+#: wp-admin/network/edit.php:400
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr "Varning! Användaren kan inte modifieras. Användaren %s är en nätverksadministratör."
 
@@ -365,35 +475,35 @@ msgstr "MB"
 msgid "Used: %1s%% of %2s"
 msgstr "Använt: %1s%% av %2s"
 
-#: wp-admin/includes/ms.php:538
+#: wp-admin/includes/ms.php:540
 msgid "British English"
 msgstr "Engelska (Brittisk)"
 
-#: wp-admin/includes/ms.php:548
+#: wp-admin/includes/ms.php:550
 msgid "English"
 msgstr "Engelska"
 
-#: wp-admin/includes/ms.php:568
+#: wp-admin/includes/ms.php:570
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>wp-config.php</strong> for it to be more secure."
 msgstr "Varning! WordPress krypterar användarcookies, men du måste ange följande rader i din <strong>wp-config.php</strong> för att det ska vara säkert."
 
-#: wp-admin/includes/ms.php:569
+#: wp-admin/includes/ms.php:571
 msgid "Before the line <code>/* That's all, stop editing! Happy blogging. */</code> please add this code:"
 msgstr "Innan raden <code>/* Det var allt, sluta redigera här! Blogga på. */</code> (<code>/* That's all, stop editing! Happy blogging. */</code>) ange denna kod:"
 
-#: wp-admin/includes/ms.php:582
+#: wp-admin/includes/ms.php:584
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Update Network</a> page to update all your sites."
-msgstr "Tack för att du uppgraderar! Var vänlig besök sidan <a href=\"%s\">Uppgradera nätverk</a> för att uppgradera alla dina webbplatser."
+msgstr "Tack för att du uppdaterar! Var vänlig besök sidan <a href=\"%s\">Uppdatera nätverk</a> för att uppdatera alla dina webbplatser."
 
-#: wp-admin/includes/ms.php:614
+#: wp-admin/includes/ms.php:616
 msgid "Primary Site"
 msgstr "Primär webbplats"
 
-#: wp-admin/includes/ms.php:534
+#: wp-admin/includes/ms.php:536
 msgid "American English"
 msgstr "Engelska (Amerikansk)"
 
-#: wp-admin/includes/ms.php:500
+#: wp-admin/includes/ms.php:502
 msgid "You don&#8217;t have permission to view this site. Please contact the system administrator."
 msgstr "Du har inte behörighet att visa denna webbplats. Vänligen kontakta systemadministratören."
 
@@ -405,7 +515,7 @@ msgstr "MB (Lämna tomt för nätverksstandard)"
 msgid "Site Upload Space Quota "
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
-#: wp-admin/includes/ms.php:661
+#: wp-admin/includes/ms.php:663
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "<code>%1$s</code> filen är föråldrad. Ta bort den och uppdatera din servers omskrivningsregler att använda <code>%2$s</code> i stället."
 
@@ -443,7 +553,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_SubPanel\" targe
 
 #: wp-admin/network/upgrade.php:26
 msgid "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\" target=\"_blank\">Update Network Documentation</a>"
-msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\" target=\"_blank\">Dokumentation för nätverksuppgradering</a>"
+msgstr "<a href=\"http://codex.wordpress.org/Super_Admin_Update_SubPanel\" target=\"_blank\">Dokumentation för nätverksuppdatering</a>"
 
 #: wp-admin/network/settings.php:25
 msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is Subscriber, but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
@@ -501,6 +611,10 @@ msgstr "Inställningar för uppladdningar styr storleken på uppladdade filer oc
 msgid "Up until WordPress version 3.0, what is now called a Multi-site Network had to be installed separately as WordPress MU (multi-user)."
 msgstr "Fram till WordPress version 3.0 så behövdes vad som nu kallas ett nätverk av webbplatser (Multi-site Network) installeras separat som WordPress MU (multi user)."
 
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:178
+msgid "Theme"
+msgstr "Tema"
+
 #: wp-admin/network/index.php:28
 msgid "Blogs are now called Sites; Site is now called Network."
 msgstr "Bloggar kallas nu webbplatser; Webbplats kallas nätverk."
@@ -516,6 +630,16 @@ msgstr "Om du är ägaren av det här nätverket, vänligen kontrollera att MySQ
 #: wp-includes/ms-load.php:234
 msgid "If your site does not display, please contact the owner of this network."
 msgstr "Om din webbplats inte visas, var vänlig kontakta ägaren av det här nätverket."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:76
+msgctxt "user"
+msgid "Not Spam"
+msgstr "Ta bort markering som skräppostare"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:75
+msgctxt "user"
+msgid "Mark as Spam"
+msgstr "Markera som skräppostare"
 
 #: wp-admin/network.php:153
 msgid "Once the network is created, you may reactivate your plugins."
@@ -552,10 +676,6 @@ msgstr "Denna sida tillhandahåller länkar för nätverksadministratören att s
 #: wp-admin/network/themes.php:70
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
 msgstr "Den här sidan ger dig möjligheten att aktivera eller inaktivera teman som ska vara tillgängliga under Utseende för alla webbplatser. Detta aktiverar eller inaktiverar inte vilket tema som en webbplats använder för närvarande."
-
-#: wp-admin/network/upgrade.php:22
-msgid "Only use this screen once you have updated to a new version of WordPress through Dashboard > Updates. Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database upgrades are applied."
-msgstr "Använda endast denna sida efter att du har uppgraderat till en ny version av WordPress via Panel > Uppgraderingar. Att klicka på knappen Uppgradera nätverk kommer att gå igenom varje webbplats, fem i taget för att försäkra sig att databasuppgraderingen genomförts."
 
 #: wp-admin/my-sites.php:42
 msgid "This screen shows an individual user all of their sites in this network, and also allows that user to set a primary site. He or she can use the links under each site to visit either the frontend or the dashboard for that site."
@@ -603,11 +723,11 @@ msgstr "För muspekaren över användare i listan så att länkarna för rediger
 
 #: wp-admin/network/upgrade.php:24
 msgid "If this process fails for any reason, users logging in to their sites will force the same update."
-msgstr "Om detta misslyckas av någon anledning så kommer användare som loggar in på sina webbplatser att påtvinga samma uppgradering."
+msgstr "Om detta misslyckas av någon anledning så kommer användare som loggar in på sina webbplatser att påtvinga samma uppdatering."
 
 #: wp-admin/network/upgrade.php:23
 msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
-msgstr "Om ingen uppgradering av WordPress skett så kommer inte denna knapp att påverka någonting."
+msgstr "Om ingen uppdatering av WordPress skett så kommer inte denna knapp att påverka någonting."
 
 #: wp-admin/network/users.php:26
 msgid "This table shows all users across the network and the sites to which they are assigned."
@@ -639,24 +759,24 @@ msgstr "Följande termer är reserverade för användning av funktioner i WordPr
 
 #: wp-admin/network/upgrade.php:61
 msgid "Warning! Problem updating %1$s. Your server may not be able to connect to sites running on it. Error message: <em>%2$s</em>"
-msgstr "Varning! Det uppstod ett problem vid uppgradering av %1$s. Din server kanske inte kan ansluta till webbplatserna. Felmeddelande: <em>%2$s</em>"
+msgstr "Varning! Det uppstod ett problem vid uppdateringen av %1$s. Din server kanske inte kan ansluta till webbplatserna. Felmeddelande: <em>%2$s</em>"
 
-#: wp-signup.php:392
+#: wp-signup.php:391
 msgctxt "Multisite active signup type"
 msgid "user"
 msgstr "användare"
 
-#: wp-signup.php:391
+#: wp-signup.php:390
 msgctxt "Multisite active signup type"
 msgid "blog"
 msgstr "blogg"
 
-#: wp-signup.php:390
+#: wp-signup.php:389
 msgctxt "Multisite active signup type"
 msgid "none"
 msgstr "inga"
 
-#: wp-signup.php:389
+#: wp-signup.php:388
 msgctxt "Multisite active signup type"
 msgid "all"
 msgstr "alla"
@@ -688,35 +808,40 @@ msgstr "Subdomäner"
 msgid "Sub-directories"
 msgstr "Undermappar"
 
-#: wp-signup.php:436
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:122
+msgctxt "site"
+msgid "Mark as Spam"
+msgstr "Markera som skräp"
+
+#: wp-signup.php:435
 msgid "Sorry, new registrations are not allowed at this time."
 msgstr "Beklagar, nya registreringar tillåts inte just nu."
 
-#: wp-signup.php:366
+#: wp-signup.php:365
 msgid "Check your inbox at <strong>%s</strong> and click the link given."
 msgstr "Kolla din inkorg för <strong>%s</strong> och klicka på länken given."
 
-#: wp-signup.php:372
+#: wp-signup.php:371
 msgid "Wait a little longer. Sometimes delivery of email can be delayed by processes outside of our control."
 msgstr "Vänta en liten stund till. Ibland fördröjs mail av orsaker utanför vår kontroll."
 
-#: wp-signup.php:373
+#: wp-signup.php:372
 msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
 msgstr "Kolla ditt skräppostfilter/skräppostmapp i ditt e-postprogram. Ibland hamnar mail där av misstag."
 
-#: wp-signup.php:395
+#: wp-signup.php:394
 msgid "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; registrations. To change or disable registration go to your <a href=\"%s\">Options page</a>."
 msgstr "Välkommen Webbplatsadministratör! Du tillåter just nu &#8221;%s&#8221; registreringar. För att ändra eller inaktivera registreringsmöjligheter, gå till  <a href=\"%s\">sidan för inställningar</a>."
 
-#: wp-signup.php:374
+#: wp-signup.php:373
 msgid "Have you entered your email correctly?  You have entered %s, if it&#8217;s incorrect, you will not receive your email."
 msgstr "Har du angett din e-postadress korrekt? Du har angett %s, om du angett en felaktig e-postadress så kommer du inte att få något mail."
 
-#: wp-signup.php:103
+#: wp-signup.php:102
 msgid "Allow my site to appear in search engines like Google, Technorati, and in public listings around this network."
 msgstr "Tillåt min webbplats att syns i sökmotorer som Google, Technorati och i olika listor för det här nätverket."
 
-#: wp-signup.php:142
+#: wp-signup.php:141
 msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
 msgstr "Vi skickar ditt registreringsmail till denna adress. (Kontrollera att rätt e-postadressen är angiven innan du fortsätter.)"
 
@@ -739,6 +864,45 @@ msgstr "Den konstanten <code>VHOST</code> <strong>har fasats ut</strong>. Använ
 #: wp-includes/ms-default-constants.php:115
 msgid "<strong>Conflicting values for the constants VHOST and SUBDOMAIN_INSTALL.</strong> The value of SUBDOMAIN_INSTALL will be assumed to be your subdomain configuration setting."
 msgstr "<strong>En konflikt mellan värdena för konstanterna VHOST och SUBDOMAIN_INSTALL har påträffats.</strong> Värdet för SUBDOMAIN_INSTALL kommer att antas vara din konfigurationsinställning för subdomän."
+
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:235
+#: wp-admin/includes/class-wp-ms-themes-list-table.php:278
+msgid "Enable"
+msgstr "Aktivera"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:227
+msgctxt "%1$s: site name. %2$s: site tagline."
+msgid "%1$s &#8211; <em>%2$s</em>"
+msgstr "%1$s &#8211; <em>%2$s</em>"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:143
+#: wp-admin/network/site-info.php:119
+msgctxt "site"
+msgid "Registered"
+msgstr "Registrerad"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:123
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:253
+msgctxt "site"
+msgid "Not Spam"
+msgstr "Inte skräp"
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:117
+msgctxt "user"
+msgid "Registered"
+msgstr "Registrerad"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:250
+msgctxt "verb; site"
+msgid "Archive"
+msgstr "Arkiv"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:168
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:255
+#: wp-admin/network/site-info.php:130
+msgctxt "site"
+msgid "Spam"
+msgstr "Skräppost"
 
 #: wp-includes/ms-load.php:239
 msgid "<strong>Could not find site <code>%1$s</code>.</strong> Searched for table <code>%2$s</code> in database <code>%3$s</code>. Is that right?"
@@ -852,11 +1016,15 @@ msgstr "Fel: det uppstod problem med att skapa din post"
 msgid "Error: Site URL already taken."
 msgstr "Fel: Webbplatsurlen är redan upptagen."
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:115
+msgid "No sites found."
+msgstr "Inga webbplatser funna."
+
 #: wp-includes/ms-load.php:103
 msgid "This site has been archived or suspended."
 msgstr "Den webbplatsen har blivit arkiverad eller avstängd."
 
-#: wp-includes/ms-settings.php:122
+#: wp-includes/ms-settings.php:124
 msgid "No site by that name on this system."
 msgstr "Ingen webbplats med det namnet finns i det här systemet."
 
@@ -884,23 +1052,23 @@ msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;.  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
 msgstr "Din webbplats på <a href=\"%1$s\">%2$s</a> är nu aktiv. Du kan nu logga in på din webbplats med användarnamnet &#8221;%3$s&#8221;.  Lösenord och inloggningsinstruktioner har skickats till e-postadressen %4$s. Om du inte får något mail, försäkra dig om att det inte fastnat i ditt skräppostfiler. Om du efter en timme inte mottagit något mail så kan du försöka med att <a href=\"%5$s\">återställa ditt lösenord</a>."
 
-#: wp-signup.php:88
+#: wp-signup.php:87
 msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
 msgstr "Måste bestå av minst 4 tecken, endast bokstäver och siffror. Detta kan inte ändras, så välj varsamt!"
 
-#: wp-signup.php:408
+#: wp-signup.php:407
 msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
 msgstr "Du måste först <a href=\"%s\">logga in</a>, sen kan du skapa en ny webbplats."
 
-#: wp-signup.php:438
+#: wp-signup.php:437
 msgid "You are logged in already. No need to register again!"
 msgstr "Du är redan inloggad. Du behöver inte registrera dig igen!"
 
-#: wp-signup.php:174
+#: wp-signup.php:173
 msgid "Welcome back, %s. By filling out the form below, you can <strong>add another site to your account</strong>. There is no limit to the number of sites you can have, so create to your heart&#8217;s content, but write responsibly!"
 msgstr "Välkommen tillbaka, %s. Genom att fylla i formuläret nedan så kan du <strong>skapa flera webbplatser för ditt konto</strong>. Det finns ingen gräns för hur många webbplatser du kan skapa. Publicera material ansvarsfullt."
 
-#: wp-signup.php:444
+#: wp-signup.php:443
 msgid "<p><em>The site you were looking for, <strong>%s</strong> does not exist, but you can create it now!</em></p>"
 msgstr "<p><em>Webbplatsen du letar efter, <strong>%s</strong> finns inte, men du kan skapa den nu!</em></p>"
 
@@ -908,11 +1076,11 @@ msgstr "<p><em>Webbplatsen du letar efter, <strong>%s</strong> finns inte, men d
 msgid "Sorry, usernames may not contain the character &#8220;_&#8221;!"
 msgstr "Användarnamn kan inte innehålla tecknet &#8221;_&#8221;!"
 
-#: wp-signup.php:446
+#: wp-signup.php:445
 msgid "<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</em></p>"
 msgstr "<p><em>Webbplatsen du letar efter, <strong>%s</strong> finns inte.</em></p>"
 
-#: wp-signup.php:370
+#: wp-signup.php:369
 msgid "If you haven&#8217;t received your email yet, there are a number of things you can do:"
 msgstr "Om du inte fått ditt mail än så finns det ett par saker du kan göra:"
 
@@ -924,7 +1092,7 @@ msgstr "Fel i konfigurationen, <code>wp-config.php</code>.  <code>$base</code> �
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
 
-#: wp-signup.php:226
+#: wp-signup.php:225
 msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site.  <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
 msgstr "<a href=\"http://%1$s\">http://%2$s</a> är din nya webbplats.  <a href=\"%3$s\">Logga in</a> som &#8221;%4$s&#8221; med ditt nuvarande lösenord."
 
@@ -1021,13 +1189,25 @@ msgstr "Webbplats raderad."
 msgid "Site added."
 msgstr "Webbplatsen har lagts till."
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:250
+msgid "You are about to archive the site %s."
+msgstr "Du är på väg att arkivera webbplatsen %s."
+
 #: wp-admin/network/users.php:50
 msgid "Users marked as spam."
 msgstr "Användare markerade för skräppostning."
 
-#: wp-admin/network/site-info.php:116
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:253
+msgid "You are about to unspam the site %s."
+msgstr "Du är på väg att avmarkera webbplatsen %s som skräppostare."
+
+#: wp-admin/network/site-info.php:115
 msgid "Update <code>siteurl</code> and <code>home</code> as well."
 msgstr "Uppdatera även <code>siteurl</code> och <code>home</code>."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:255
+msgid "You are about to mark the site %s as spam."
+msgstr "Du är på väg att markera webbplatsen %s för skräppostning."
 
 #: wp-admin/network/sites.php:70
 msgid "Site deactivated."
@@ -1041,14 +1221,17 @@ msgstr "Webbplatsen aktiverad."
 msgid "Site unarchived."
 msgstr "Webbplats avarkiverad."
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:258
+msgid "You are about to delete the site %s."
+msgstr "Du håller på att radera webbplatsen %s"
+
 #: wp-admin/network/users.php:56
 msgid "Users deleted."
 msgstr "Användare raderade."
 
-#: wp-admin/network/users.php:71
-msgctxt "users"
-msgid "Add New"
-msgstr "Lägg till ny"
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:248
+msgid "You are about to unarchive the site %s."
+msgstr "Du håller på att avarkivera webbplatsen %s."
 
 #: wp-admin/network/users.php:47
 msgid "User deleted."
@@ -1197,10 +1380,6 @@ msgstr "Det ser inte ut som om Apache-modulen <code>mod_rewrite</code> är insta
 msgid "The author of the first comment on a new site."
 msgstr "Första kommentarsförfattaren för en ny webbplats."
 
-#: wp-admin/network/settings.php:105
-msgid "Allow site administrators to add new users to their site via the \"Users->Add New\" page."
-msgstr "Tillåt webbplatsadministrarörer att lägga till användere för deras webbplats via \"Användare->Lägg till ny\"."
-
 #: wp-admin/network/settings.php:168
 msgid "The first post on a new site."
 msgstr "Första inlägget för en ny webbplats."
@@ -1339,21 +1518,16 @@ msgstr "Lägg till följande i din <code>.htaccess</code>, <code>%s</code>, och 
 msgid "Complete the following steps to enable the features for creating a network of sites."
 msgstr "Genomför följande steg för att aktivera funktionerna för att skapa ett nätverk av webbplatser."
 
-#: wp-admin/network/sites.php:96
-msgctxt "sites"
-msgid "Add New"
-msgstr "Lägg till ny"
-
 #: wp-admin/network/menu.php:65
 #: wp-admin/network/upgrade.php:18
 #: wp-admin/network/upgrade.php:37
 #: wp-admin/network/upgrade.php:79
 msgid "Update Network"
-msgstr "Uppgradera nätverk"
+msgstr "Uppdatera nätverk"
 
 #: wp-admin/network/upgrade.php:78
 msgid "You can update all the sites on your network through this page. It works by calling the update script of each site automatically. Hit the link below to update."
-msgstr "Du kan uppgradera alla bloggar i nätverket på den här sidan. Detta utförs genom att starta uppgraderingsskriptet i vardera blogg automatiskt. Klicka på länken nedan för att uppgradera."
+msgstr "Du kan uppdatera alla bloggar i nätverket på den här sidan. Detta utförs genom att starta uppdateringsskriptet i vardera blogg automatiskt. Klicka på länken nedan för att uppdatera."
 
 #: wp-admin/network.php:102
 msgid "Create a Network of WordPress Sites"
@@ -1395,19 +1569,19 @@ msgstr "E-postadress för admin"
 msgid "Enabling the Network"
 msgstr "Aktiverar nätverket"
 
-#: wp-signup.php:224
+#: wp-signup.php:223
 msgid "The site %s is yours."
 msgstr "Webbplatsen %s är din."
 
-#: wp-signup.php:194
+#: wp-signup.php:193
 msgid "Create Site"
 msgstr "Skapa webbplats"
 
-#: wp-signup.php:189
+#: wp-signup.php:188
 msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
 msgstr "Om du inte ska använda den här webbplatsdomänen, låt någon annan få möjligheten att använda den."
 
-#: wp-signup.php:180
+#: wp-signup.php:179
 msgid "Sites you are already a member of:"
 msgstr "Webbplatser som du redan är medlem på:"
 
@@ -1415,7 +1589,7 @@ msgstr "Webbplatser som du redan är medlem på:"
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
 msgstr "Den här webbplatsen har inte blivit aktiverad än. Om du har problem med aktiveringen av din webbplats, var vänlig kontakta <a href=\"mailto:%1$s\">%1$s</a>."
 
-#: wp-signup.php:93
+#: wp-signup.php:92
 msgid "Site Title:"
 msgstr "Titel för webbplats:"
 
@@ -1427,31 +1601,31 @@ msgstr "Webbplatsdomän:"
 msgid "Site Name:"
 msgstr "Webbplatsnamn:"
 
-#: wp-signup.php:85
+#: wp-signup.php:84
 msgid "sitename"
 msgstr "webbplatsnamn"
 
-#: wp-signup.php:168
+#: wp-signup.php:167
 msgid "Get <em>another</em> %s site in seconds"
 msgstr "Skapa <em>en till</em> %s webbplats på bara några sekunder"
 
-#: wp-signup.php:363
+#: wp-signup.php:362
 msgid "Congratulations! Your new site, %s, is almost ready."
 msgstr "Grattis! Din nya webbplats, %s, är nästan redo att använda."
 
-#: wp-signup.php:422
+#: wp-signup.php:421
 msgid "Site registration has been disabled."
 msgstr "Registrering av nya webbplatser ha inaktiverats."
 
-#: wp-signup.php:266
+#: wp-signup.php:265
 msgid "Gimme a site!"
 msgstr "Ge mig en webbplats!"
 
-#: wp-signup.php:365
+#: wp-signup.php:364
 msgid "But, before you can start using your site, <strong>you must activate it</strong>."
 msgstr "Men, innan du kan börja använda din webbplats så <strong>måste du aktivera den</strong>."
 
-#: wp-signup.php:367
+#: wp-signup.php:366
 msgid "If you do not activate your site within two days, you will have to sign up again."
 msgstr "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera dig igen."
 
@@ -1496,6 +1670,10 @@ msgstr "Välkomstmeddelande som skickas via e-post till nya webbplatsägare."
 msgid "Site upload space"
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:243
+msgid "You are about to activate the site %s"
+msgstr "Du håller på att aktivera webbplatsen %s"
+
 #: wp-admin/network/settings.php:98
 msgid "Send the network admin an email notification every time someone registers a site or user account."
 msgstr "Skicka nätverksadministratören ett meddelande varje gång någon registrerar en webbplats eller ett användarkonto."
@@ -1503,6 +1681,10 @@ msgstr "Skicka nätverksadministratören ett meddelande varje gång någon regis
 #: wp-admin/network/settings.php:114
 msgid "Users are not allowed to register these sites. Separate names by spaces."
 msgstr "Användare kan ej registrera dessa webbplatser. Separera namn med mellanslag."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:245
+msgid "You are about to deactivate the site %s"
+msgstr "Du håller på att inaktivera webbplatsen %s"
 
 #: wp-admin/network/upgrade.php:66
 msgid "Next Sites"
@@ -1661,7 +1843,7 @@ msgstr ""
 msgid "This user has elected to delete their account and the content is no longer available."
 msgstr "Användaren har valt att avsluta sitt konto därav finns inget innehåll kvar."
 
-#: wp-includes/ms-settings.php:121
+#: wp-includes/ms-settings.php:123
 msgid "Database tables are missing."
 msgstr "Databastabeller saknas."
 
@@ -1671,73 +1853,124 @@ msgstr "Databastabeller saknas."
 msgid "Error:"
 msgstr "Fel:"
 
-#: wp-signup.php:83
-msgid "Your address will be "
-msgstr "Din adress kommer att bli "
-
-#: wp-signup.php:87
-msgid "domain."
-msgstr "domän."
-
-#: wp-signup.php:102
+#: wp-signup.php:101
 msgid "Privacy:"
 msgstr "Integritet:"
 
-#: wp-signup.php:135
+#: wp-signup.php:134
 msgid "(Must be at least 4 characters, letters and numbers only.)"
 msgstr "(Måste bestå av minst 4 tecken, endast bokstäver och siffror.)"
 
-#: wp-signup.php:138
+#: wp-signup.php:137
 msgid "Email&nbsp;Address:"
 msgstr "E-postadress:"
 
-#: wp-signup.php:171
+#: wp-signup.php:170
 msgid "There was a problem, please correct the form below and try again."
 msgstr "Ett fel har uppstått. Var vänlig kontrollera formuläret nedan och försök igen."
 
-#: wp-signup.php:253
+#: wp-signup.php:252
 msgid "Get your own %s account in seconds"
 msgstr "Skapa ett eget %s konto på bara några sekunder"
 
-#: wp-signup.php:269
+#: wp-signup.php:268
 msgid "Just a username, please."
 msgstr "Bara ett användarnamn, tack."
 
-#: wp-signup.php:273
+#: wp-signup.php:272
 msgid "Next"
 msgstr "Nästa"
 
-#: wp-signup.php:300
+#: wp-signup.php:299
 msgid "%s is your new username"
 msgstr "%s är ditt nya användarnamn"
 
-#: wp-signup.php:301
+#: wp-signup.php:300
 msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
 msgstr "Men, innan du kan börja använda ditt nya användarnamn så <strong>måste du aktivera det</strong>."
 
-#: wp-signup.php:302
+#: wp-signup.php:301
 msgid "Check your inbox at <strong>%1$s</strong> and click the link given."
 msgstr "Kolla din inkorg för <strong>%1$s</strong> och klicka på länken given."
 
-#: wp-signup.php:303
+#: wp-signup.php:302
 msgid "If you do not activate your username within two days, you will have to sign up again."
 msgstr "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera dig igen."
 
-#: wp-signup.php:329
+#: wp-signup.php:328
 msgid "Signup"
 msgstr "Registrera dig"
 
-#: wp-signup.php:368
+#: wp-signup.php:367
 msgid "Still waiting for your email?"
 msgstr "Väntar du fortfarande på ditt mail?"
 
-#: wp-signup.php:401
+#: wp-signup.php:400
 msgid "Registration has been disabled."
 msgstr "Nya registreringar har inaktiverats."
 
-#: wp-signup.php:416
+#: wp-signup.php:415
 msgid "User registration has been disabled."
 msgstr "Registrering av nya användare ha inaktiverats."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:13
+#: wp-admin/ms-delete-site.php:13
+#: wp-admin/my-sites.php:13
+#: wp-admin/network/admin.php:16
+#: wp-admin/network/edit.php:14
+#: wp-admin/network/index.php:17
+#: wp-admin/network/plugin-editor.php:14
+#: wp-admin/network/plugin-install.php:17
+#: wp-admin/network/plugins.php:14
+#: wp-admin/network/profile.php:14
+#: wp-admin/network/settings.php:14
+#: wp-admin/network/setup.php:14
+#: wp-admin/network/site-info.php:14
+#: wp-admin/network/site-new.php:14
+#: wp-admin/network/site-options.php:14
+#: wp-admin/network/site-themes.php:14
+#: wp-admin/network/site-users.php:14
+#: wp-admin/network/sites.php:14
+#: wp-admin/network/theme-editor.php:14
+#: wp-admin/network/theme-install.php:17
+#: wp-admin/network/themes.php:14
+#: wp-admin/network/update-core.php:14
+#: wp-admin/network/update.php:14
+#: wp-admin/network/upgrade.php:14
+#: wp-admin/network/user-edit.php:14
+#: wp-admin/network/user-new.php:14
+#: wp-admin/network/users.php:14
+msgid "Multisite support is not enabled."
+msgstr "Stöd för multiwebbplatser är inte aktiverat."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:19
+#: wp-admin/includes/class-wp-ms-users-list-table.php:16
+#: wp-admin/network/edit.php:100
+#: wp-admin/network/edit.php:173
+#: wp-admin/network/edit.php:190
+#: wp-admin/network/edit.php:233
+#: wp-admin/network/edit.php:243
+#: wp-admin/network/edit.php:253
+#: wp-admin/network/edit.php:264
+#: wp-admin/network/edit.php:275
+#: wp-admin/network/edit.php:285
+#: wp-admin/network/edit.php:295
+#: wp-admin/network/edit.php:305
+#: wp-admin/network/edit.php:352
+#: wp-admin/network/edit.php:373
+#: wp-admin/network/edit.php:386
+#: wp-admin/network/edit.php:433
+#: wp-admin/network/index.php:20
+#: wp-admin/network/settings.php:17
+#: wp-admin/network/site-info.php:26
+#: wp-admin/network/site-new.php:23
+#: wp-admin/network/site-options.php:26
+#: wp-admin/network/site-themes.php:35
+#: wp-admin/network/site-users.php:32
+#: wp-admin/network/upgrade.php:33
+#: wp-admin/network/user-new.php:22
+msgid "You do not have permission to access this page."
+msgstr "Du har inte behörighet nog för att få tillgång till den här sidan."
 
 #: wp-admin/ms-delete-site.php:24
 msgid "I'm sorry, the link you clicked is stale. Please select another option."
@@ -1840,6 +2073,54 @@ msgstr "Maximal storlek för filuppladdning"
 msgid "Default Language"
 msgstr "Standardspråk"
 
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:138
+#: wp-admin/network/site-info.php:100
+#: wp-admin/network/site-new.php:112
+#: wp-admin/network/site-new.php:114
+msgid "Domain"
+msgstr "Domän"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:142
+#: wp-admin/network/site-info.php:123
+msgid "Last Updated"
+msgstr "Senast uppdaterad"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:167
+#: wp-admin/network/site-info.php:129
+msgid "Archived"
+msgstr "Arkiverat"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:170
+#: wp-admin/network/site-info.php:133
+msgid "Mature"
+msgstr "Vuxenmaterial"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:169
+#: wp-admin/network/site-info.php:131
+msgid "Deleted"
+msgstr "Raderade"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:248
+msgid "Unarchive"
+msgstr "Avarkivera"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:261
+#: wp-admin/my-sites.php:95
+msgid "Visit"
+msgstr "Besök"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:276
+msgid "Never"
+msgstr "Aldrig"
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:297
+msgid "Only showing first 5 users."
+msgstr "Visar endast de första 5 användarna."
+
+#: wp-admin/includes/class-wp-ms-sites-list-table.php:297
+msgid "More"
+msgstr "Mer"
+
 #: wp-admin/network/site-new.php:132
 msgid "Add Site"
 msgstr "Lägg till webbplats"
@@ -1863,6 +2144,10 @@ msgstr "En nya användare kommer att skapas om ovan angiven e-postadress inte re
 #: wp-admin/network/site-new.php:129
 msgid "The username and password will be mailed to this email address."
 msgstr "Användarnamn och lösenord kommer att mailas till den här e-postadressen."
+
+#: wp-admin/includes/class-wp-ms-users-list-table.php:82
+msgid "No users found."
+msgstr "Inga användare funna."
 
 #: wp-admin/network/site-users.php:274
 #: wp-admin/network/user-new.php:76
@@ -1913,7 +2198,7 @@ msgid "An error occurred during the activation"
 msgstr "Ett fel uppstod vid aktiveringen"
 
 #: wp-activate.php:83
-#: wp-signup.php:130
+#: wp-signup.php:129
 msgid "Username:"
 msgstr "Användarnamn:"
 
