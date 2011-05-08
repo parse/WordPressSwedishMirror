@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-04-28 23:44+0100\n"
+"PO-Revision-Date: 2011-05-08 22:11+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,27 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: wp-admin/includes/ms.php:508
+#: wp-admin/includes/ms.php:510
+msgid "You attempted to access the \"%1$s\" dashboard, but you do not currently have privileges on this site. If you believe you should be able to access the \"%1$s\" dashboard, please contact your network administrator."
+msgstr "Du försökte få tillgång till adminpanelen för \"%1$s\", men du har för närvarande inte behörighet på denna webbplats. Om du anser att du bör kunna få tillgång till adminpanelen på \"%1$s\", kontakta din nätverksadministratör."
+
+#: wp-admin/includes/ms.php:522
+msgid "Visit Dashboard"
+msgstr "Besök adminpanel"
+
+#: wp-admin/includes/ms.php:513
+msgid "Your Sites"
+msgstr "Dina webbplatser"
+
+#: wp-admin/includes/ms.php:522
+msgid "View Site"
+msgstr "Visa webbplats"
+
+#: wp-admin/includes/ms.php:511
+msgid "If you reached this screen by accident and meant to visit one your own sites, here are some shortcuts to help you find your way."
+msgstr "Om du nått denna sida av misstag och menade att besöka en av dina egna webbplatser så har du här några genvägar för att hjälpa dig att hitta vägen."
+
 #: wp-admin/my-sites.php:45
 msgid "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_Screen\" target=\"_blank\">Documentation on My Sites</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_Screen\" target=\"_blank\">Dokumentation för Mina webbplatser</a>"
@@ -24,7 +45,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Dashboard_My_Sites_Screen\" target=
 msgid "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Documentation on the Network Screen</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Tools_Network_Screen\" target=\"_blank\">Dokumentation för Nätverkspanelen</a>"
 
-#: wp-admin/network/themes.php:216
+#: wp-admin/network/themes.php:220
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
@@ -59,7 +80,7 @@ msgstr[1] "Du är på väg att ta bort följande teman:"
 msgid "No, Return me to the theme list"
 msgstr "Nej, gå tillbaka till listan av teman"
 
-#: wp-admin/network/themes.php:220
+#: wp-admin/network/themes.php:224
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr "Du kan inte radera ett tema när det är aktivt på den primära webbplatsen."
 
@@ -227,7 +248,6 @@ msgstr "domän"
 msgid "Allow site administrators to add new users to their site via the \"Users &rarr; Add New\" page."
 msgstr "Tillåt administratörer att lägga till nya användare till deras webbplats via \"Användare &rarr; Lägg till ny\"."
 
-#: wp-admin/network/sites.php:105
 #: wp-admin/network/menu.php:18
 msgctxt "site"
 msgid "Add New"
@@ -299,19 +319,19 @@ msgid_plural "Disabled <span class=\"count\">(%s)</span>"
 msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Inaktiva <span class=\"count\">(%s)</span>"
 
-#: wp-admin/network/themes.php:218
+#: wp-admin/network/themes.php:222
 #: wp-admin/network/site-themes.php:158
 msgid "No theme selected."
 msgstr "Inget tema valt."
 
-#: wp-admin/network/themes.php:213
+#: wp-admin/network/themes.php:217
 #: wp-admin/network/site-themes.php:156
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "Tema inaktiverat."
 msgstr[1] "%s teman inaktiverade."
 
-#: wp-admin/network/themes.php:210
+#: wp-admin/network/themes.php:214
 #: wp-admin/network/site-themes.php:153
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
@@ -377,7 +397,7 @@ msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "Teman"
 
-#: wp-admin/network/themes.php:226
+#: wp-admin/network/themes.php:230
 #: wp-admin/network/site-themes.php:164
 msgid "Search Installed Themes"
 msgstr "Sök installerade teman"
@@ -434,7 +454,6 @@ msgstr "Webbplatsinställningar uppdaterade."
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
 
-#: wp-admin/network/themes.php:202
 #: wp-admin/network/menu.php:30
 msgctxt "theme"
 msgid "Add New"
@@ -621,37 +640,33 @@ msgstr "MB"
 msgid "Used: %1s%% of %2s"
 msgstr "Använt: %1s%% av %2s"
 
-#: wp-admin/includes/ms.php:541
+#: wp-admin/includes/ms.php:553
 msgid "British English"
 msgstr "Engelska (Brittisk)"
 
-#: wp-admin/includes/ms.php:551
+#: wp-admin/includes/ms.php:563
 msgid "English"
 msgstr "Engelska"
 
-#: wp-admin/includes/ms.php:571
+#: wp-admin/includes/ms.php:583
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>wp-config.php</strong> for it to be more secure."
 msgstr "Varning! WordPress krypterar användarcookies, men du måste ange följande rader i din <strong>wp-config.php</strong> för att det ska vara säkert."
 
-#: wp-admin/includes/ms.php:572
+#: wp-admin/includes/ms.php:584
 msgid "Before the line <code>/* That's all, stop editing! Happy blogging. */</code> please add this code:"
 msgstr "Innan raden <code>/* Det var allt, sluta redigera här! Blogga på. */</code> (<code>/* That's all, stop editing! Happy blogging. */</code>) ange denna kod:"
 
-#: wp-admin/includes/ms.php:585
+#: wp-admin/includes/ms.php:597
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Update Network</a> page to update all your sites."
 msgstr "Tack för att du uppdaterar! Var vänlig besök sidan <a href=\"%s\">Uppdatera nätverk</a> för att uppdatera alla dina webbplatser."
 
-#: wp-admin/includes/ms.php:618
+#: wp-admin/includes/ms.php:630
 msgid "Primary Site"
 msgstr "Primär webbplats"
 
-#: wp-admin/includes/ms.php:537
+#: wp-admin/includes/ms.php:549
 msgid "American English"
 msgstr "Engelska (Amerikansk)"
-
-#: wp-admin/includes/ms.php:505
-msgid "You don&#8217;t have permission to view this site. Please contact the system administrator."
-msgstr "Du har inte behörighet att visa denna webbplats. Vänligen kontakta systemadministratören."
 
 #: wp-admin/includes/ms.php:432
 msgid "MB (Leave blank for network default)"
@@ -661,7 +676,7 @@ msgstr "MB (Lämna tomt för nätverksstandard)"
 msgid "Site Upload Space Quota "
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
-#: wp-admin/includes/ms.php:665
+#: wp-admin/includes/ms.php:677
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "<code>%1$s</code> filen är föråldrad. Ta bort den och uppdatera din servers omskrivningsregler att använda <code>%2$s</code> i stället."
 
