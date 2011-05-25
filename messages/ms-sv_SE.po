@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-05-16 17:32+0100\n"
+"PO-Revision-Date: 2011-05-25 03:25+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
@@ -15,6 +15,22 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/network/menu.php:77
+msgid "Available Updates"
+msgstr "Tillgängliga uppdateringar"
+
+#: wp-admin/network/menu.php:17
+msgid "All Sites"
+msgstr "Alla webbplatser"
+
+#: wp-admin/network/menu.php:33
+msgid "Installed Themes"
+msgstr "Installerade teman"
+
+#: wp-admin/network/menu.php:52
+msgid "Network Settings"
+msgstr "Nätverksinställningar"
 
 #: wp-activate.php:92
 msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
@@ -28,7 +44,7 @@ msgstr "Superadministratörer kan inte längre läggas till på inställningssid
 msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Howdy (Username) dropdown in the upper right of the administration area."
 msgstr "När du lagt till denna kod och uppdaterat sidan så bör multisite vara aktiverat. Den här sidan kommer alltid att finnas som ett arkiv över den kod som lagts till. Du kan växla mellan Nätverksadmin och Webbplatsadmin genom att klicka på rullgardinsmenyn, Hej (Användarnamn) i det övre högra hörnet av administrationen."
 
-#: wp-includes/ms-functions.php:1308
+#: wp-includes/ms-functions.php:1307
 msgid ""
 "Dear User,\n"
 "\n"
@@ -64,24 +80,24 @@ msgstr ""
 msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
 msgstr "Ditt konto är nu aktiverat. <a href=\"%1$s\">Visa din webbplats</a> eller <a href=\"%2$s\">logga in</a>"
 
-#: wp-admin/includes/ms.php:508
-#: wp-admin/includes/ms.php:510
+#: wp-admin/includes/ms.php:511
+#: wp-admin/includes/ms.php:513
 msgid "You attempted to access the \"%1$s\" dashboard, but you do not currently have privileges on this site. If you believe you should be able to access the \"%1$s\" dashboard, please contact your network administrator."
 msgstr "Du försökte få tillgång till adminpanelen för \"%1$s\", men du har för närvarande inte behörighet på denna webbplats. Om du anser att du bör kunna få tillgång till adminpanelen på \"%1$s\", kontakta din nätverksadministratör."
 
-#: wp-admin/includes/ms.php:522
+#: wp-admin/includes/ms.php:525
 msgid "Visit Dashboard"
 msgstr "Besök adminpanel"
 
-#: wp-admin/includes/ms.php:513
+#: wp-admin/includes/ms.php:516
 msgid "Your Sites"
 msgstr "Dina webbplatser"
 
-#: wp-admin/includes/ms.php:522
+#: wp-admin/includes/ms.php:525
 msgid "View Site"
 msgstr "Visa webbplats"
 
-#: wp-admin/includes/ms.php:511
+#: wp-admin/includes/ms.php:514
 msgid "If you reached this screen by accident and meant to visit one your own sites, here are some shortcuts to help you find your way."
 msgstr "Om du nått denna sida av misstag och menade att besöka en av dina egna webbplatser så har du här några genvägar för att hjälpa dig att hitta vägen."
 
@@ -171,7 +187,6 @@ msgid "<strong>Themes</strong> - This area shows themes that are not already ena
 msgstr "<strong>Teman</strong> - Den här sektionen visar teman som inte redan är aktiverade i nätverket. Att aktivera ett tema i denna meny gör det tillgängligt för denna webbplats. Det aktiverar inte temat, men visar det som tillgängligt i webbplatsens utseendemeny. För att aktivera ett tema för hela nätverket, se sidan för <a href=\"%s\">Nätverksteman</a>"
 
 #: wp-admin/network/menu.php:74
-#: wp-admin/network/menu.php:77
 msgid "Updates"
 msgstr "Uppdateringar"
 
@@ -250,7 +265,7 @@ msgstr "Menyn är för att redigera information som är specifik för enskilda w
 msgid "<strong>Settings</strong> - This page shows a list of all settings associated with this site. Some are created by WordPress and others are created by plugins you activate. Note that some fields are grayed out and say Serialized Data. You cannot modify these values due to the way the setting is stored in the database."
 msgstr "<strong>Inställningar</strong> - Den här sektionen visar en lista över alla inställningar i associerade med denna webbplats. Vissa är skapade av WordPress och andra är skapade av tillägg du aktiverat. Observera att vissa fält är gråmarkerade och innehåller texten Serialized Data. Du kan inte ändra värden i dessa fält på grund av hur inställningen lagras i databasen."
 
-#: wp-includes/ms-functions.php:931
+#: wp-includes/ms-functions.php:930
 msgid "The user is already active."
 msgstr "Användaren är redan aktiv."
 
@@ -408,11 +423,6 @@ msgstr "Välj en användare att ta bort."
 msgid "User is already a member of this site."
 msgstr "Användaren är redan medlem av denna webbplats."
 
-#: wp-admin/network.php:99
-#: wp-admin/network/menu.php:53
-msgid "Network Setup"
-msgstr "Nätverksinställningar"
-
 #: wp-admin/network/site-users.php:193
 msgid "Enter the username of an existing user."
 msgstr "Ange användarnamnet för en befintlig användare."
@@ -549,7 +559,7 @@ msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging
 msgstr "Läs dokumentationen <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">bug report</a>. Några av dessa riktlinjer kanske kan hjälpa dig att lista ut vad som gick fel."
 
 #: wp-includes/ms-functions.php:839
-#: wp-includes/ms-functions.php:891
+#: wp-includes/ms-functions.php:890
 msgid "[%1$s] Activate %2$s"
 msgstr "[%1$s] Aktivera %2$s"
 
@@ -690,31 +700,31 @@ msgstr "MB"
 msgid "Used: %1s%% of %2s"
 msgstr "Använt: %1s%% av %2s"
 
-#: wp-admin/includes/ms.php:553
+#: wp-admin/includes/ms.php:556
 msgid "British English"
 msgstr "Engelska (Brittisk)"
 
-#: wp-admin/includes/ms.php:563
+#: wp-admin/includes/ms.php:566
 msgid "English"
 msgstr "Engelska"
 
-#: wp-admin/includes/ms.php:583
+#: wp-admin/includes/ms.php:586
 msgid "Warning! WordPress encrypts user cookies, but you must add the following lines to <strong>wp-config.php</strong> for it to be more secure."
 msgstr "Varning! WordPress krypterar användarcookies, men du måste ange följande rader i din <strong>wp-config.php</strong> för att det ska vara säkert."
 
-#: wp-admin/includes/ms.php:584
+#: wp-admin/includes/ms.php:587
 msgid "Before the line <code>/* That's all, stop editing! Happy blogging. */</code> please add this code:"
 msgstr "Innan raden <code>/* Det var allt, sluta redigera här! Blogga på. */</code> (<code>/* That's all, stop editing! Happy blogging. */</code>) ange denna kod:"
 
-#: wp-admin/includes/ms.php:597
+#: wp-admin/includes/ms.php:600
 msgid "Thank you for Updating! Please visit the <a href=\"%s\">Update Network</a> page to update all your sites."
 msgstr "Tack för att du uppdaterar! Var vänlig besök sidan <a href=\"%s\">Uppdatera nätverk</a> för att uppdatera alla dina webbplatser."
 
-#: wp-admin/includes/ms.php:630
+#: wp-admin/includes/ms.php:633
 msgid "Primary Site"
 msgstr "Primär webbplats"
 
-#: wp-admin/includes/ms.php:549
+#: wp-admin/includes/ms.php:552
 msgid "American English"
 msgstr "Engelska (Amerikansk)"
 
@@ -726,7 +736,7 @@ msgstr "MB (Lämna tomt för nätverksstandard)"
 msgid "Site Upload Space Quota "
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
-#: wp-admin/includes/ms.php:677
+#: wp-admin/includes/ms.php:680
 msgid "The <code>%1$s</code> file is deprecated. Please remove it and update your server rewrite rules to use <code>%2$s</code> instead."
 msgstr "<code>%1$s</code> filen är föråldrad. Ta bort den och uppdatera din servers omskrivningsregler att använda <code>%2$s</code> i stället."
 
@@ -1063,7 +1073,7 @@ msgstr "Problem med att skapa en databasanslutning"
 msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really should look at your database now."
 msgstr "<strong>Databastabeller saknas.</strong> Det betyder att MySQL inte körs, WordPress har inte installerats korrekt eller så har någon raderat <code>%s</code>. Du bör verkligen kontrollera din databas nu."
 
-#: wp-includes/ms-functions.php:1117
+#: wp-includes/ms-functions.php:1116
 msgid ""
 "New Site: %1s\n"
 "URL: %2s\n"
@@ -1103,7 +1113,7 @@ msgstr ""
 "\n"
 "%s"
 
-#: wp-includes/ms-functions.php:1124
+#: wp-includes/ms-functions.php:1123
 msgid "New Site Registration: %s"
 msgstr "Ny webbplatsregistrering: %s"
 
@@ -1115,15 +1125,15 @@ msgstr "Användarnamn kan inte innehålla tecknet &#8221;_&#8221;!"
 msgid "Please enter a site name"
 msgstr "Var vänlig ange ett webbplatsnamn"
 
-#: wp-includes/ms-functions.php:1345
+#: wp-includes/ms-functions.php:1344
 msgid "New %1$s Site: %2$s"
 msgstr "Ny %1$s webbplats: %2$s"
 
-#: wp-includes/ms-functions.php:1058
+#: wp-includes/ms-functions.php:1057
 msgid "Site already exists."
 msgstr "Webbplatsen finns redan."
 
-#: wp-includes/ms-functions.php:933
+#: wp-includes/ms-functions.php:932
 msgid "The site is already active."
 msgstr "Webbplatsen är redan aktiverad."
 
@@ -1131,7 +1141,7 @@ msgstr "Webbplatsen är redan aktiverad."
 msgid "Site name must be at least 4 characters"
 msgstr "webbplatsnamn måste bestå av minst 4 tecken"
 
-#: wp-includes/ms-functions.php:1064
+#: wp-includes/ms-functions.php:1063
 msgid "Could not create site."
 msgstr "Kunde inte skapa webbplats."
 
@@ -1179,19 +1189,19 @@ msgstr "Ingen webbplats med det namnet finns i det här systemet."
 msgid "That site does not exist. Please try <a href=\"%s\">%s</a>."
 msgstr "Den webbplatsen finns inte. Var vänlig försök med <a href=\"%s\">%s</a>."
 
-#: wp-includes/ms-functions.php:1831
+#: wp-includes/ms-functions.php:1830
 msgid "You have been added to this site. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">login</a> using your username and password."
 msgstr "Du har lagts till på denna webbplats. Var vänlig besök <a href=\"%s\">startsidan</a> eller <a href=\"%s\">logga in</a> med ditt användarnamn och lösenord."
 
-#: wp-includes/ms-functions.php:1829
+#: wp-includes/ms-functions.php:1828
 msgid "An error occurred adding you to this site. Back to the <a href=\"%s\">homepage</a>."
 msgstr "Ett fel uppstod när du skulle läggas till på denna webbplats. Tillbaka till <a href=\"%s\">startsidan</a>."
 
-#: wp-includes/ms-functions.php:1831
+#: wp-includes/ms-functions.php:1830
 msgid "Success"
 msgstr "Klart!"
 
-#: wp-includes/ms-functions.php:1753
+#: wp-includes/ms-functions.php:1752
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 
@@ -1392,7 +1402,7 @@ msgstr "Webbplats arkiverad."
 msgid "You do not have sufficient permissions to delete this site."
 msgstr "Du har inte tillräcklig behörighet för att redera den här webbplatsen."
 
-#: wp-admin/ms-delete-site.php:42
+#: wp-admin/ms-delete-site.php:44
 msgid ""
 "Dear User,\n"
 "You recently clicked the 'Delete Site' link on your site and filled in a\n"
@@ -1424,11 +1434,11 @@ msgstr ""
 "Webmaster\n"
 "###SITE_NAME###"
 
-#: wp-admin/ms-delete-site.php:72
+#: wp-admin/ms-delete-site.php:75
 msgid "I'm sure I want to permanently disable my site, and I am aware I can never get it back or use %s again."
 msgstr "Jag är säker på att jag permanent vill inaktivera min webbplats, jag vet att den inte kan återställas och jag kan inte använda %s igen."
 
-#: wp-admin/ms-delete-site.php:73
+#: wp-admin/ms-delete-site.php:76
 msgid "Delete My Site Permanently"
 msgstr "Radera min webbplats permanent"
 
@@ -1449,19 +1459,19 @@ msgstr "Ett fel har uppstått, användaren kunde inte skapas."
 msgid "You are not allowed to change the current site."
 msgstr "Du har inte tillräcklig behörighet för att ändra den här webbplatsen."
 
-#: wp-admin/ms-delete-site.php:68
+#: wp-admin/ms-delete-site.php:70
 msgid "Remember, once deleted your site cannot be restored."
 msgstr "Kom ihåg, en raderad webbplats kan inte återställas."
 
-#: wp-admin/ms-delete-site.php:67
+#: wp-admin/ms-delete-site.php:69
 msgid "If you do not want to use your %s site any more, you can delete it using the form below. When you click <strong>Delete My Site Permanently</strong> you will be sent an email with a link in it. Click on this link to delete your site."
 msgstr "Om du inte vill använda din %s webbplats längre så kan du radera den genom att använda formuläret nedan. När du klickar på <strong>Radera min webbplats permanent</strong> så kommer du att få ett mail med en länk i. Klicka på denna länk för att ta bort din webbplats."
 
-#: wp-admin/ms-delete-site.php:63
+#: wp-admin/ms-delete-site.php:65
 msgid "Thank you. Please check your email for a link to confirm your action. Your site will not be deleted until this link is clicked. "
 msgstr "Tack. Var vänlig kontrollera din mail för en bekräftelselänk. Din webbplats kommer inte att tas bort fören länken har besökts."
 
-#: wp-admin/ms-delete-site.php:60
+#: wp-admin/ms-delete-site.php:62
 msgid "Delete My Site"
 msgstr "Radera min webbplats"
 
@@ -1909,19 +1919,19 @@ msgstr ""
 "Efter aktiveringen så kommer du att få *ytterligare ett mail* med dina inloggningsuppgifter.\n"
 "\n"
 
-#: wp-includes/ms-functions.php:927
+#: wp-includes/ms-functions.php:926
 msgid "Invalid activation key."
 msgstr "Ogiltig aktiveringsnyckel."
 
-#: wp-includes/ms-functions.php:949
+#: wp-includes/ms-functions.php:948
 msgid "Could not create user"
 msgstr "Kunde inte skapa användare"
 
-#: wp-includes/ms-functions.php:957
+#: wp-includes/ms-functions.php:956
 msgid "That username is already activated."
 msgstr "Det användarnamnet är redan aktiverat."
 
-#: wp-includes/ms-functions.php:1151
+#: wp-includes/ms-functions.php:1150
 msgid ""
 "New User: %1s\n"
 "Remote IP: %2s\n"
@@ -1933,27 +1943,27 @@ msgstr ""
 "\n"
 "Inaktivera dessa notifikationer: %3s"
 
-#: wp-includes/ms-functions.php:1157
+#: wp-includes/ms-functions.php:1156
 msgid "New User Registration: %s"
 msgstr "Ny användarregistrering: %s"
 
-#: wp-includes/ms-functions.php:1230
+#: wp-includes/ms-functions.php:1229
 msgid "<h1>Already Installed</h1><p>You appear to have already installed WordPress. To reinstall please clear your old database tables first.</p>"
 msgstr "<h1>Redan installerat</h1><p>Du verkar redan ha installerat WordPress. Var vänlig töm dina gamla databastabeller innan du ominstallerar.</p>"
 
-#: wp-includes/ms-functions.php:1393
+#: wp-includes/ms-functions.php:1392
 msgid "New %1$s User: %2$s"
 msgstr "Ny %1$s användare: %2$s"
 
-#: wp-includes/ms-functions.php:1574
+#: wp-includes/ms-functions.php:1573
 msgid "Sorry, you have used your space allocation. Please delete some files to upload more files."
 msgstr "Beklagar, du har använt allt utrymme tilldelat. Var vänlig radera några filer för att kunna ladda upp nya."
 
-#: wp-includes/ms-functions.php:1784
+#: wp-includes/ms-functions.php:1783
 msgid "Please try again!"
 msgstr "Var vänlig försök igen!"
 
-#: wp-includes/ms-functions.php:1991
+#: wp-includes/ms-functions.php:1990
 msgid ""
 "Dear User,\n"
 "\n"
