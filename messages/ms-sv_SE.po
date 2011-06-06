@@ -2,19 +2,30 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WordPress Multisite sv_SE\n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-06-02 05:56+0100\n"
-"Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
-"Language-Team: WordPress Sverige <info@wp-support.se>\n"
+"PO-Revision-Date: 2011-06-06 19:10+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: WordPress Multisite sv_SE\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
+"Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/network/user-new.php:46
+msgid "Cannot add user."
+msgstr "Kan inte lägga till användare."
+
+#: wp-admin/network/site-users.php:161
+#: wp-admin/network/site-settings.php:72
+#: wp-admin/network/site-info.php:82
+#: wp-admin/network/site-themes.php:128
+msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
+msgstr "Redigera webbplats: <a href=\"%1$s\">%2$s</a>"
 
 #: wp-admin/network/sites.php:37
 msgid "Clicking on bold headings can re-sort this table."
@@ -281,15 +292,15 @@ msgstr "<strong>Inställningar</strong> - Den här sektionen visar en lista öve
 msgid "The user is already active."
 msgstr "Användaren är redan aktiv."
 
-#: wp-admin/network/site-users.php:239
+#: wp-admin/network/site-users.php:242
 msgid "You may add from existing network users, or set up a new user to add to this site."
 msgstr "Du kan lägga till befintliga nätverksanvändare, eller skapa en ny användare för att lägga till på denna webbplats."
 
-#: wp-admin/network/site-users.php:237
+#: wp-admin/network/site-users.php:240
 msgid "Add User to This Site"
 msgstr "Lägg till användare på webbplats"
 
-#: wp-admin/network/site-users.php:241
+#: wp-admin/network/site-users.php:244
 msgid "You may add from existing network users to this site."
 msgstr "Du kan lägga till befintliga nätverksanvändare på denna webbplats."
 
@@ -393,45 +404,45 @@ msgstr[0] "Inaktivt <span class=\"count\">(%s)</span>"
 msgstr[1] "Inaktiva <span class=\"count\">(%s)</span>"
 
 #: wp-admin/network/themes.php:212
-#: wp-admin/network/site-themes.php:158
+#: wp-admin/network/site-themes.php:161
 msgid "No theme selected."
 msgstr "Inget tema valt."
 
 #: wp-admin/network/themes.php:207
-#: wp-admin/network/site-themes.php:156
+#: wp-admin/network/site-themes.php:159
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "Tema inaktiverat."
 msgstr[1] "%s teman inaktiverade."
 
 #: wp-admin/network/themes.php:204
-#: wp-admin/network/site-themes.php:153
+#: wp-admin/network/site-themes.php:156
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "Tema aktiverat."
 msgstr[1] "%s teman aktiverade"
 
-#: wp-admin/network/site-users.php:211
+#: wp-admin/network/site-users.php:214
 msgid "Enter the username and email."
 msgstr "Ange användarnamn och e-post."
 
-#: wp-admin/network/site-users.php:208
+#: wp-admin/network/site-users.php:211
 msgid "User created."
 msgstr "Användare skapad."
 
-#: wp-admin/network/site-users.php:199
+#: wp-admin/network/site-users.php:202
 msgid "Select a user to change role."
 msgstr "Välj en användare att ändra roll för."
 
-#: wp-admin/network/site-users.php:205
+#: wp-admin/network/site-users.php:208
 msgid "Select a user to remove."
 msgstr "Välj en användare att ta bort."
 
-#: wp-admin/network/site-users.php:190
+#: wp-admin/network/site-users.php:193
 msgid "User is already a member of this site."
 msgstr "Användaren är redan medlem av denna webbplats."
 
-#: wp-admin/network/site-users.php:193
+#: wp-admin/network/site-users.php:196
 msgid "Enter the username of an existing user."
 msgstr "Ange användarnamnet för en befintlig användare."
 
@@ -451,7 +462,7 @@ msgstr "Varning! Användaren %s kan inte raderas."
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
-#: wp-admin/network/site-themes.php:161
+#: wp-admin/network/site-themes.php:164
 msgid "Network enabled themes are not shown on this screen."
 msgstr "Teman aktiverade för nätverket visas inte på sidan."
 
@@ -469,8 +480,8 @@ msgstr "Teman"
 msgid "The constant DO_NOT_UPGRADE_GLOBAL_TABLES cannot be defined when creating a network."
 msgstr "DO_NOT_UPGRADE_GLOBAL_TABLES kan inte definieras när du skapar ett nätverk."
 
-#: wp-admin/network/user-new.php:89
-#: wp-admin/network/site-users.php:267
+#: wp-admin/network/user-new.php:98
+#: wp-admin/network/site-users.php:270
 msgid "Add User"
 msgstr "Lägg till användare"
 
@@ -482,10 +493,10 @@ msgstr "Adminpanel leder till adminpanelen för den webbplatsen."
 msgid "Delete which is a permanent action after the confirmation screens."
 msgstr "Radera som är en permanent åtgärd efter bekräftelse."
 
-#: wp-admin/network/site-users.php:172
-#: wp-admin/network/site-settings.php:85
-#: wp-admin/network/site-info.php:95
-#: wp-admin/network/site-themes.php:139
+#: wp-admin/network/site-users.php:175
+#: wp-admin/network/site-settings.php:88
+#: wp-admin/network/site-info.php:98
+#: wp-admin/network/site-themes.php:142
 msgid "Info"
 msgstr "Info"
 
@@ -510,10 +521,10 @@ msgstr "Du har inte rättigheter att redigera den här webbplatsen."
 msgid "Site options updated."
 msgstr "Webbplatsinställningar uppdaterade."
 
-#: wp-admin/network/site-users.php:160
-#: wp-admin/network/site-settings.php:71
-#: wp-admin/network/site-info.php:81
-#: wp-admin/network/site-themes.php:127
+#: wp-admin/network/site-users.php:162
+#: wp-admin/network/site-settings.php:73
+#: wp-admin/network/site-info.php:83
+#: wp-admin/network/site-themes.php:129
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
 
@@ -1033,7 +1044,7 @@ msgid "%1$s &#8211; <em>%2$s</em>"
 msgstr "%1$s &#8211; <em>%2$s</em>"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:148
-#: wp-admin/network/site-info.php:135
+#: wp-admin/network/site-info.php:138
 msgctxt "site"
 msgid "Registered"
 msgstr "Registrerad"
@@ -1056,7 +1067,7 @@ msgstr "Arkiv"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:173
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:260
-#: wp-admin/network/site-info.php:146
+#: wp-admin/network/site-info.php:149
 msgctxt "site"
 msgid "Spam"
 msgstr "Skräppost"
@@ -1358,7 +1369,7 @@ msgstr "Användare markerade för skräppostning."
 msgid "You are about to unspam the site %s."
 msgstr "Du är på väg att avmarkera webbplatsen %s som skräppostare."
 
-#: wp-admin/network/site-info.php:131
+#: wp-admin/network/site-info.php:134
 msgid "Update <code>siteurl</code> and <code>home</code> as well."
 msgstr "Uppdatera även <code>siteurl</code> och <code>home</code>."
 
@@ -2135,20 +2146,7 @@ msgstr "Bekräfta"
 msgid "Cannot create an empty user."
 msgstr "Kan inte skapa en tom användare."
 
-#: wp-admin/network/user-new.php:37
-msgid "Missing username and email."
-msgstr "Användarnamn och e-post saknas."
-
-#: wp-admin/network/user-new.php:39
-msgid "Missing username."
-msgstr "Användarnamn saknas."
-
-#: wp-admin/network/user-new.php:41
-msgid "Missing email."
-msgstr "E-postadress saknas."
-
-#: wp-admin/network/user-new.php:47
-#: wp-admin/network/site-users.php:214
+#: wp-admin/network/site-users.php:217
 msgid "Duplicated username or email address."
 msgstr "Dubbelt användarnamn eller e-postadress."
 
@@ -2227,27 +2225,27 @@ msgstr "Standardspråk"
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:143
 #: wp-admin/network/site-new.php:120
 #: wp-admin/network/site-new.php:122
-#: wp-admin/network/site-info.php:116
+#: wp-admin/network/site-info.php:119
 msgid "Domain"
 msgstr "Domän"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:147
-#: wp-admin/network/site-info.php:139
+#: wp-admin/network/site-info.php:142
 msgid "Last Updated"
 msgstr "Senast uppdaterad"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:172
-#: wp-admin/network/site-info.php:145
+#: wp-admin/network/site-info.php:148
 msgid "Archived"
 msgstr "Arkiverat"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:175
-#: wp-admin/network/site-info.php:149
+#: wp-admin/network/site-info.php:152
 msgid "Mature"
 msgstr "Vuxenmaterial"
 
 #: wp-admin/includes/class-wp-ms-sites-list-table.php:174
-#: wp-admin/network/site-info.php:147
+#: wp-admin/network/site-info.php:150
 msgid "Deleted"
 msgstr "Inaktiverad"
 
@@ -2300,8 +2298,8 @@ msgstr "Användarnamn och lösenord kommer att mailas till den här e-postadress
 msgid "No users found."
 msgstr "Inga användare funna."
 
-#: wp-admin/network/user-new.php:85
-#: wp-admin/network/site-users.php:299
+#: wp-admin/network/user-new.php:94
+#: wp-admin/network/site-users.php:302
 msgid "Username and password will be mailed to the above email address."
 msgstr "Användarnamn och lösenord kommer att skickas till ovan angiven adress."
 
@@ -2353,9 +2351,3 @@ msgstr "Ett fel uppstod vid aktiveringen"
 msgid "Username:"
 msgstr "Användarnamn:"
 
-#~ msgid ""
-#~ "Clicking on bold settings can re-sort this table. The upper right icons "
-#~ "switch between list and excerpt views."
-#~ msgstr ""
-#~ "Att klicka på alternativ i fetstil på nytt kan sorterar om denna tabell. "
-#~ "Ikonerna i det övre högra hörnet växlar mellan list- och utdragsvy."
