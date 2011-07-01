@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Twenty Eleven package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-06-29 23:12+0100\n"
+"PO-Revision-Date: 2011-07-01 07:12+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,10 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: content-single.php:39
+msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Detta inlägg postades av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänken</a>."
 
 #: functions.php:544
 msgid "Reply <span>&darr;</span>"
@@ -153,7 +157,7 @@ msgstr "<strong>Standardlayout</strong>: Du kan välja om du vill att din webbpl
 #: content-image.php:47
 #: content-image.php:56
 #: content-single.php:30
-#: content-single.php:39
+#: content-single.php:33
 #: content-gallery.php:62
 #: content-gallery.php:72
 #: content-featured.php:29
@@ -318,7 +322,7 @@ msgstr "Kärra"
 msgid "1 <span class=\"reply\">comment &rarr;</span>"
 msgstr "1 <span class=\"reply\">kommentar &rarr;</span>"
 
-#: content-single.php:55
+#: content-single.php:60
 #: author.php:49
 msgid "About %s"
 msgstr "Om %s"
@@ -536,23 +540,25 @@ msgstr "<b>1</b> Kommentar"
 #: content-quote.php:72
 #: content.php:80
 #: content-image.php:68
-#: content-single.php:47
+#: content-single.php:52
 #: content-intro.php:19
 #: content-gallery.php:90
 #: content-aside.php:44
 #: image.php:40
+#: functions.php:503
+#: functions.php:531
 #: content-status.php:45
-#: content-page.php:19
+#: content-page.php:21
 #: content-link.php:44
 #: content-featured.php:45
 msgid "Edit"
 msgstr "Redigera"
 
-#: content-single.php:34
+#: content-single.php:37
 msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Det här inlägget postades i  %1$s av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänken</a>."
 
-#: content-single.php:32
+#: content-single.php:35
 msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
 msgstr "Det här inlägget postades i %1$s och märktes %2$s av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänken</a>."
 
@@ -596,20 +602,12 @@ msgid "Page %s"
 msgstr "Sida %s"
 
 #: functions.php:503
-msgid "(Edit)"
-msgstr "(Redigera)"
-
-#: functions.php:503
 msgid "Pingback:"
 msgstr "Pingback: "
 
 #: functions.php:535
 msgid "Your comment is awaiting moderation."
 msgstr "Din kommentar inväntar granskning."
-
-#: functions.php:531
-msgid "[Edit]"
-msgstr "[Redigera]"
 
 #: functions.php:434
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
@@ -658,7 +656,7 @@ msgstr "Primär sidopanel"
 msgid "Primary Menu"
 msgstr "Primär meny"
 
-#: content-single.php:59
+#: content-single.php:64
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Visa alla inlägg av %s <span class=\"meta-nav\">&rarr;</span>"
 
