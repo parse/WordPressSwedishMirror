@@ -5,8 +5,6 @@
  * The permissions for the base directory must allow for writing files in order
  * for the wp-config.php to be created using this page.
  *
- * @internal This file must be parsable by PHP4.
- *
  * @package WordPress
  * @subpackage Administration
  */
@@ -78,7 +76,7 @@ else
 function display_header() {
 	header( 'Content-Type: text/html; charset=utf-8' );
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -139,7 +137,7 @@ switch($step) {
 		</tr>
 		<tr>
 			<th scope="row"><label for="prefix">Tabellprefix</label></th>
-			<td><input name="prefix" id="prefix" type="text" id="prefix" value="wp_" size="25" /></td>
+			<td><input name="prefix" id="prefix" type="text" value="wp_" size="25" /></td>
 			<td>Om du vill köra flera installationer av WordPress i samma databas, ändra detta.</td>
 		</tr>
 	</table>
