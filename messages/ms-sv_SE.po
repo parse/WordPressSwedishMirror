@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-10-04 02:12+0100\n"
+"PO-Revision-Date: 2011-10-06 08:15+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,9 +24,16 @@ msgstr "<strong>FEL</strong>: Webbplats-URL redan tagen."
 msgid "<strong>ERROR</strong>: problem creating site entry."
 msgstr "<strong>FEL</strong>: Problem med att skapa webbplatspost."
 
+#: wp-admin/includes/class-wp-ms-users-list-table.php:119
+#: wp-admin/network/sites.php:22
+#: wp-admin/network/sites.php:290
+#: wp-admin/network/menu.php:16
+msgid "Sites"
+msgstr "Webbplatser"
+
 #: wp-admin/network/site-new.php:95
 msgid "Site added. <a href=\"%1$s\">Visit Dashboard</a> or <a href=\"%2$s\">Edit Site</a>"
-msgstr "Webbplatsen har lagts till. <a href=\"%1$s\">Besök panel</a> eller <a href=\"%2$s\">Redigera webbplats</a>"
+msgstr "Webbplatsen har lagts till. <a href=\"%1$s\">Besök adminpanel</a> eller <a href=\"%2$s\">Redigera webbplats</a>"
 
 #: wp-includes/ms-functions.php:1765
 msgid "You have been added to this site. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">log in</a> using your username and password."
@@ -39,36 +46,6 @@ msgstr "Panelen Just nu tillhandahåller nätverksadministratören länkar till 
 #: wp-admin/includes/ms.php:514
 msgid "If you reached this screen by accident and meant to visit one of your own sites, here are some shortcuts to help you find your way."
 msgstr "Om du nått denna sida av misstag och menade att besöka en av dina egna sajter så följer här några genvägar för att hjälpa dig att hitta vägen."
-
-#: wp-includes/ms-functions.php:1246
-msgid ""
-"Dear User,\n"
-"\n"
-"Your new SITE_NAME site has been successfully set up at:\n"
-"BLOG_URL\n"
-"\n"
-"You can log in to the administrator account with the following information:\n"
-"Username: USERNAME\n"
-"Password: PASSWORD\n"
-"Log in here: BLOG_URLwp-login.php\n"
-"\n"
-"We hope you enjoy your new site. Thanks!\n"
-"\n"
-"--The Team @ SITE_NAME"
-msgstr ""
-"Kära användare,\n"
-"\n"
-"Din nya SITE_NAME-webbplats har skapats på följande adress:\n"
-"BLOG_URL\n"
-"\n"
-"Du kan logga in som administratör med följande uppgifter:\n"
-"Användarnamn: USERNAME\n"
-"Lösenord: PASSWORD\n"
-"Logga in här: BLOG_URLwp-login.php\n"
-"\n"
-"Vi hoppas att du skall gilla din nya webbplats. Tack!\n"
-"\n"
-"--Teamet @ SITE_NAME"
 
 #: wp-admin/network/user-new.php:46
 msgid "Cannot add user."
@@ -468,7 +445,7 @@ msgstr "Du kan inte radera webbplatsen."
 msgid "Warning! User %s cannot be deleted."
 msgstr "Varning! Användaren %s kan inte raderas."
 
-#: wp-admin/network/settings.php:304
+#: wp-admin/network/settings.php:295
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
@@ -771,7 +748,7 @@ msgstr "<code>%1$s</code> filen är föråldrad. Ta bort den och uppdatera din s
 
 #: wp-admin/network/settings.php:25
 msgid "Dashboard Site is an option to give a site to users who do not have a site on the system. Their default role is Subscriber, but that default can be changed. The Admin Notice Feed can provide a notice on all dashboards of the latest post via RSS or Atom, or provide no such notice if left blank."
-msgstr "Panelwebbplats är ett alternativ för att tilldela en medlemswebbplats för användare som inte har en egen sida i nätverket. Deras standardroll är prenumerant, standardrollen kan ändras. Flöde för administratörsnotifikationer kan skicka notifikationer till användarnas adminpaneler om det senaste inlägget via RSS eller Atom. Alternativt inaktivera det genom att lämna fältet tomt."
+msgstr "Adminwebbplats är ett alternativ för att tilldela en medlemswebbplats för användare som inte har en egen sida i nätverket. Deras standardroll är prenumerant, standardrollen kan ändras. Flöde för administratörsnotifikationer kan skicka notifikationer till användarnas adminpaneler om det senaste inlägget via RSS eller Atom. Alternativt inaktivera det genom att lämna fältet tomt."
 
 #: wp-admin/network/site-new.php:21
 msgid "If the admin email for the new site does not exist in the database, a new user will also be created."
@@ -1274,10 +1251,6 @@ msgstr "Om du vill begränsa webbplatsregistreringar till vissa domäner. Ange e
 msgid "If you want to ban domains from site registrations. One domain per line."
 msgstr "Om du vill bannlysa vissa e-postdomän från registrering. Ange ett domän per rad."
 
-#: wp-admin/network/settings.php:278
-msgid "The media upload buttons to display on the &#8220;Write Post&#8221; page. Make sure you update the allowed upload file types below as well."
-msgstr "Knappar för mediauppladdning att visa under &#8221;Nytt inlägg&#8221;. Försäkra dig om att uppdatera tillåtna filtyper för uppladdning nedan."
-
 #: wp-admin/network.php:237
 #: wp-admin/network.php:277
 msgid "The internet address of your network will be <code>%s</code>."
@@ -1494,7 +1467,7 @@ msgstr "t.ex <code>%1$s/webbplats1</code> och <code>%1$s/webbplats2</code>"
 msgid "Multisite only works without the port number in the URL."
 msgstr "Multiwebbplatser fungerar endast utan portnummer i URLen."
 
-#: wp-admin/network/settings.php:295
+#: wp-admin/network/settings.php:286
 msgctxt "File size in kilobytes"
 msgid "%s KB"
 msgstr "%s KB"
@@ -1503,15 +1476,11 @@ msgstr "%s KB"
 msgid "Registration and support emails will come from this address. An address such as <code>support@%s</code> is recommended."
 msgstr "Registrerings- och supportmail kommer att skickas från följande adress. En adress som t.ex <code>support@%s</code> rekommenderas."
 
-#: wp-admin/network/settings.php:273
-msgid "Media upload buttons"
-msgstr "Knappar för mediauppladdning"
-
-#: wp-admin/network/settings.php:289
+#: wp-admin/network/settings.php:280
 msgid "Upload file types"
 msgstr "Filtyper för uppladdning"
 
-#: wp-admin/network/settings.php:284
+#: wp-admin/network/settings.php:275
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Begränsa total storlek för uppladdade filer till %s MB"
 
@@ -1587,7 +1556,7 @@ msgstr "Användarkonton kan skapas."
 msgid "Registration is disabled."
 msgstr "Registreringar har inaktiverats."
 
-#: wp-admin/network/settings.php:322
+#: wp-admin/network/settings.php:313
 msgid "Enable administration menus"
 msgstr "Aktivera administrationsmenyer"
 
@@ -1595,7 +1564,7 @@ msgstr "Aktivera administrationsmenyer"
 msgid "Operational Settings"
 msgstr "Driftsinställningar"
 
-#: wp-admin/network/settings.php:319
+#: wp-admin/network/settings.php:310
 msgid "Menu Settings"
 msgstr "Menyinställningar"
 
@@ -1617,7 +1586,7 @@ msgstr "Standardstegen för en konfiguration visas här som referens."
 
 #: wp-admin/network.php:164
 msgid "Return to Dashboard"
-msgstr "Gå till panelen"
+msgstr "Gå till adminpanelen"
 
 #: wp-admin/network.php:163
 msgid "You cannot use port numbers such as <code>%s</code>."
@@ -1819,7 +1788,7 @@ msgstr "WordPress &rsaquo; Bekräfta åtgärd"
 msgid "The welcome email sent to new site owners."
 msgstr "Välkomstmeddelande som skickas via e-post till nya webbplatsägare."
 
-#: wp-admin/network/settings.php:282
+#: wp-admin/network/settings.php:273
 msgid "Site upload space"
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
@@ -2189,19 +2158,11 @@ msgstr "Första kommentarsförfattare"
 msgid "First Comment URL"
 msgstr "Första kommentars-url"
 
-#: wp-admin/network/settings.php:276
-msgid "Videos"
-msgstr "Videos"
-
-#: wp-admin/network/settings.php:277
-msgid "Music"
-msgstr "Musik"
-
-#: wp-admin/network/settings.php:294
+#: wp-admin/network/settings.php:285
 msgid "Max upload file size"
 msgstr "Maximal storlek för filuppladdning"
 
-#: wp-admin/network/settings.php:307
+#: wp-admin/network/settings.php:298
 msgid "Default Language"
 msgstr "Standardspråk"
 
