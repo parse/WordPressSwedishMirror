@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.3) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-11-09 11:10+0100\n"
+"PO-Revision-Date: 2011-11-11 16:39+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,9 +16,41 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: wp-includes/admin-bar.php:132
+#: wp-includes/admin-bar.php:126
 msgid "Feedback"
 msgstr "Feedback"
+
+#: wp-admin/credits.php:163
+msgid "Core Developer"
+msgstr "Kärnutvecklare"
+
+#: wp-admin/includes/class-wp-upgrader.php:55
+msgid "The package could not be installed."
+msgstr "Paketet kunde inte installeras."
+
+#: wp-admin/includes/class-wp-upgrader.php:196
+msgid "The plugin contains no files."
+msgstr "Tillägget innehåller inga filer."
+
+#: wp-admin/includes/class-wp-upgrader.php:565
+msgid "No valid plugins were found."
+msgstr "Inget giltigt tillägg hittades."
+
+#: wp-admin/includes/class-wp-upgrader.php:839
+msgid "The theme is missing the <code>style.css</code> stylesheet."
+msgstr "Temat saknar  formatmallen <code>style.css</code>."
+
+#: wp-admin/includes/class-wp-upgrader.php:846
+msgid "The theme is missing the <code>index.php</code> file."
+msgstr "Temat saknar filen <code>index.php</code>."
+
+#: wp-admin/includes/class-wp-upgrader.php:843
+msgid "The <code>style.css</code> stylesheet doesn't contain a valid theme header."
+msgstr "Formatmallen <code>style.css</code> saknar ett giltigt temahuvud."
+
+#: wp-admin/includes/media.php:773
+msgid "Attachment Post URL"
+msgstr "Bilagans inläggsadress"
 
 #: wp-admin/menu.php:62
 msgctxt "admin menu"
@@ -74,7 +106,7 @@ msgstr "<a href=\"%s\">Ange din tidszon och webbplatsslogan</a>."
 msgid "Welcome to your new site! Here are some things most people do when they set up a new WordPress site. To get started, use the links below and we&#8217;ll give you some extra help with these tasks:"
 msgstr "Välkommen till din nya webbplats! Här är några saker de flesta människor gör när de inrättar en ny WordPress webbplats. För att komma igång, använd länkarna nedan så ger vi dig lite extra hjälp med dessa uppgifter:"
 
-#: wp-includes/class-wp-admin-bar.php:78
+#: wp-includes/class-wp-admin-bar.php:84
 msgid "The menu ID should not be empty."
 msgstr "Meny-ID bör inte vara tomt."
 
@@ -112,23 +144,23 @@ msgstr "%s tillägg"
 msgid "%s plugin"
 msgstr "%s tillägg"
 
-#: wp-includes/admin-bar.php:320
+#: wp-includes/admin-bar.php:312
 msgid "Visit Network"
 msgstr "Besök nätverk"
 
-#: wp-includes/admin-bar.php:109
+#: wp-includes/admin-bar.php:100
 msgid "http://wordpress.org"
 msgstr "http://wordpress.org"
 
-#: wp-includes/admin-bar.php:117
+#: wp-includes/admin-bar.php:109
 msgid "http://codex.wordpress.org"
 msgstr "http://codex.wordpress.org"
 
-#: wp-includes/admin-bar.php:125
+#: wp-includes/admin-bar.php:118
 msgid "http://wordpress.org/support/"
 msgstr "http://wordpress.org/support/"
 
-#: wp-includes/admin-bar.php:133
+#: wp-includes/admin-bar.php:127
 msgid "http://wordpress.org/support/forum/requests-and-feedback"
 msgstr "http://wordpress.org/support/forum/requests-and-feedback"
 
@@ -212,7 +244,7 @@ msgstr "Ljud, video eller annan fil"
 msgid "Insert media from another website"
 msgstr "Infoga media från en annan webbplats"
 
-#: wp-admin/includes/schema.php:847
+#: wp-admin/includes/schema.php:856
 msgid ""
 "Dear User,\n"
 "\n"
@@ -339,11 +371,11 @@ msgstr "Anpassa denna vy"
 msgid "Title and Post Editor"
 msgstr "Rubrik- och inläggsredigerare"
 
-#: wp-includes/admin-bar.php:116
+#: wp-includes/admin-bar.php:108
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: wp-includes/admin-bar.php:124
+#: wp-includes/admin-bar.php:117
 msgid "Support Forums"
 msgstr "Supportforum"
 
@@ -383,15 +415,15 @@ msgstr "Maximal filstorlek för uppladdning: %d%s."
 msgid "Show Admin Bar when viewing site"
 msgstr "Visa adminmenyn när du är på webbplatsen"
 
-#: wp-includes/admin-bar.php:108
+#: wp-includes/admin-bar.php:99
 msgid "WordPress.org"
 msgstr "WordPress.org"
 
-#: wp-includes/admin-bar.php:230
+#: wp-includes/admin-bar.php:222
 msgid "Global Dashboard: %s"
 msgstr "Global adminpanel: %s"
 
-#: wp-includes/admin-bar.php:228
+#: wp-includes/admin-bar.php:220
 msgid "Network Admin: %s"
 msgstr "Nätverksadmin: %s"
 
@@ -420,10 +452,6 @@ msgstr "Inaktiv sidopanel (från föregående tema)"
 #: wp-admin/widgets.php:71
 msgid "This is a left over sidebar from an old theme and does not show anywhere on your site"
 msgstr "Detta är en sidopanel som blivit över från ett tidigare aktivt tema. Det visas inte någonstans på din webbplats."
-
-#: wp-admin/includes/class-wp-upgrader.php:55
-msgid "The package is corrupt or not in the correct format."
-msgstr "Paketet är korrupt eller i felaktigt format."
 
 #: wp-includes/functions.wp-styles.php:28
 #: wp-includes/functions.wp-styles.php:55
@@ -567,12 +595,12 @@ msgstr "Tillägg utvidgar och utökar funktionaliteten i WordPress. Du kan autom
 msgid "Use commas instead of %s to separate excluded categories."
 msgstr "Använd kommatecken istället för %s för att separera undantagna kategorier."
 
-#: wp-includes/general-template.php:1982
+#: wp-includes/general-template.php:1992
 msgctxt "admin color scheme"
 msgid "Gray"
 msgstr "Grått"
 
-#: wp-includes/general-template.php:1980
+#: wp-includes/general-template.php:1990
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blått"
@@ -667,10 +695,6 @@ msgid "Name:"
 msgstr "Namn:"
 
 #: wp-admin/credits.php:171
-msgid "Blue Color Scheme"
-msgstr "Blått färgschema"
-
-#: wp-admin/credits.php:170
 msgid "Icon Design"
 msgstr "Ikon-design"
 
@@ -686,17 +710,17 @@ msgstr "Om du vill se fler teman att välja mellan, klicka på fliken &#8220;Ins
 msgid "Plugins hook into WordPress to extend its functionality with custom features. Plugins are developed independently from WordPress core by thousands of developers all over the world. All plugins in the official <a href=\"%s\" target=\"_blank\">WordPress.org Plugin Directory</a> are compatible with the license WordPress uses. You can find new plugins to install by searching or browsing the Directory right here in your own Plugins section."
 msgstr "Tillägg utvidgar och utvecklar WordPress funktionalitet med anpassade funktioner. Tillägg utvecklas oberoende av WordPress kärna av tusentals utvecklare över hela världen. Alla tillägg i den officiella <a href=\"%s\" target=\"_blank\">Tilläggskatalogen på WordPress.org</a> är förenliga med licensen som WordPress använder (GPL). Du kan hitta nya tillägg att installera genom att söka eller bläddra i katalogen här i din egen tilläggssektion."
 
-#: wp-includes/admin-bar.php:486
+#: wp-includes/admin-bar.php:468
 msgctxt "add new from admin bar"
 msgid "Media"
 msgstr "Media"
 
-#: wp-includes/admin-bar.php:489
+#: wp-includes/admin-bar.php:471
 msgctxt "add new from admin bar"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/admin-bar.php:506
+#: wp-includes/admin-bar.php:488
 msgctxt "add new from admin bar"
 msgid "User"
 msgstr "Användare"
@@ -730,19 +754,19 @@ msgstr "Visa kategori"
 msgid "If your bookmarks toolbar is hidden: copy the code below, open your Bookmarks manager, create new bookmark, type Press This into the name field and paste the code into the URL field."
 msgstr "Om ditt bokmärkesfält är gömt: kopiera koden nedan, öppna bokmärkeshanteraren, skapa nytt bokmärke, skriv Blogga det här i namnfältet och klistra in koden i fältet URL."
 
-#: wp-admin/credits.php:163
+#: wp-admin/credits.php:164
 msgid "Core Committer"
 msgstr "&#8217;Core Committer&#8217;"
 
-#: wp-admin/credits.php:164
+#: wp-admin/credits.php:165
 msgid "Guest Committer"
 msgstr "Gäst &#8217;committer&#8217;"
 
-#: wp-admin/credits.php:169
+#: wp-admin/credits.php:170
 msgid "External Libraries"
 msgstr "Externa bibliotek"
 
-#: wp-admin/press-this.php:591
+#: wp-admin/press-this.php:593
 msgid "Add:"
 msgstr "Lägg till:"
 
@@ -750,19 +774,19 @@ msgstr "Lägg till:"
 msgid "Add Photos"
 msgstr "Lägg till bilder"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:259
+#: wp-includes/js/tinymce/wp-mce-help.php:263
 msgid "Editor width in Distraction-free writing mode:"
 msgstr "Bredd för redigeraren i fullskärmsläge:"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:260
+#: wp-includes/js/tinymce/wp-mce-help.php:264
 msgid "Wider"
 msgstr "Bredare"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:261
+#: wp-includes/js/tinymce/wp-mce-help.php:265
 msgid "Narrower"
 msgstr "Smalare"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:262
+#: wp-includes/js/tinymce/wp-mce-help.php:266
 msgid "Default width"
 msgstr "Standardbredd"
 
@@ -868,7 +892,7 @@ msgstr "Citat (Alt+Shift+Q)"
 msgid "Lead Developer"
 msgstr "Utvecklingsledare"
 
-#: wp-admin/credits.php:165
+#: wp-admin/credits.php:166
 msgid "Developer"
 msgstr "Utvecklare"
 
@@ -901,11 +925,11 @@ msgstr "Inaktivera"
 msgid "Cofounder, Project Lead"
 msgstr "Grundare, projektledare"
 
-#: wp-admin/credits.php:168
+#: wp-admin/credits.php:169
 msgid "Internationalization"
 msgstr "Internationalisering"
 
-#: wp-includes/admin-bar.php:152
+#: wp-includes/admin-bar.php:146
 msgid "Howdy, %1$s"
 msgstr "Hej, %1$s"
 
@@ -945,7 +969,7 @@ msgstr "WordPress är skapat av ett <a href=\"%1$s\">globalt team</a> av passion
 msgid "Project Leaders"
 msgstr "Projektledare"
 
-#: wp-admin/credits.php:166
+#: wp-admin/credits.php:167
 msgid "Designer"
 msgstr "Designer"
 
@@ -1243,7 +1267,7 @@ msgstr "Autosparfunktionen inaktiverad."
 msgid "%s is currently editing this article. If you update it, you will overwrite the changes."
 msgstr "%s redigerar för närvarande den här artikeln. Om du uppdaterar den så kommer du att skriva över ändringarna."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:270
+#: wp-includes/js/tinymce/wp-mce-help.php:274
 msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
 msgstr ""
 "TinyMCE är en plattformsoberoende webbaserad Javascript HTML WYSIWYG editor som släppas som öppen källkod under %sLGPL </a>\n"
@@ -1438,7 +1462,7 @@ msgstr "Cirkel"
 msgid "Peach"
 msgstr "Persikorosa"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:271
+#: wp-includes/js/tinymce/wp-mce-help.php:275
 msgid "Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
 msgstr "Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, Alla rättigheter reserverade."
 
@@ -1973,7 +1997,7 @@ msgstr "Det finns en ny version av %1$s tillgänglig. <a href=\"%2$s\" class=\"t
 msgid "Update package not available."
 msgstr "Uppdateringspaketet ej tillgängligt."
 
-#: wp-includes/post.php:5119
+#: wp-includes/post.php:5122
 #: wp-admin/includes/class-wp-posts-list-table.php:1013
 #: wp-admin/press-this.php:456
 msgctxt "Post format"
@@ -2015,7 +2039,7 @@ msgstr "Författare:"
 msgid "All content"
 msgstr "Allt innehåll"
 
-#: wp-includes/admin-bar.php:513
+#: wp-includes/admin-bar.php:495
 msgctxt "admin bar menu group label"
 msgid "Add New"
 msgstr "Skapa/lägg till"
@@ -2030,7 +2054,7 @@ msgstr "Tyvärr, denna filtyp inte tillåtet av säkerhetsskäl."
 msgid "When possible, embed the media content from a URL directly onto the page. For example: links to Flickr and YouTube."
 msgstr "Om möjligt, bädda in medieinnehåll från en webbadress direkt på sidan. Till exempel: länkar till Flickr och YouTube."
 
-#: wp-includes/post.php:5128
+#: wp-includes/post.php:5131
 msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
@@ -2139,42 +2163,42 @@ msgstr "Att passerar antalet poster är föråldrat. Passera en array av argumen
 msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
 msgstr "%1$s &lsaquo; %2$s &#8212; WordPress"
 
-#: wp-includes/post.php:5120
+#: wp-includes/post.php:5123
 msgctxt "Post format"
 msgid "Aside"
 msgstr "Notering"
 
-#: wp-includes/post.php:5121
+#: wp-includes/post.php:5124
 msgctxt "Post format"
 msgid "Chat"
 msgstr "Chat"
 
-#: wp-includes/post.php:5122
+#: wp-includes/post.php:5125
 msgctxt "Post format"
 msgid "Gallery"
 msgstr "Galleri "
 
-#: wp-includes/post.php:5123
+#: wp-includes/post.php:5126
 msgctxt "Post format"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/post.php:5124
+#: wp-includes/post.php:5127
 msgctxt "Post format"
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/post.php:5125
+#: wp-includes/post.php:5128
 msgctxt "Post format"
 msgid "Quote"
 msgstr "Citat"
 
-#: wp-includes/post.php:5126
+#: wp-includes/post.php:5129
 msgctxt "Post format"
 msgid "Status"
 msgstr "Status"
 
-#: wp-includes/post.php:5127
+#: wp-includes/post.php:5130
 msgctxt "Post format"
 msgid "Video"
 msgstr "Video"
@@ -2204,7 +2228,7 @@ msgstr "Aktivera för nätverk"
 msgid "Enable this theme for all sites in this network"
 msgstr "Aktivera detta tema för alla webbplatser i detta nätverk"
 
-#: wp-includes/admin-bar.php:401
+#: wp-includes/admin-bar.php:383
 msgid "Shortlink"
 msgstr "Kortlänk"
 
@@ -2346,11 +2370,11 @@ msgstr "Ogiltigt inlägg"
 msgid "Global Dashboard"
 msgstr "Global adminpanel"
 
-#: wp-includes/admin-bar.php:188
+#: wp-includes/admin-bar.php:180
 msgid "Edit My Profile"
 msgstr "Ändra min profil"
 
-#: wp-includes/admin-bar.php:371
+#: wp-includes/admin-bar.php:353
 msgid "Manage Comments"
 msgstr "Hantera kommentarer"
 
@@ -2378,7 +2402,7 @@ msgstr "Rensa filter"
 msgid "RTL Language Support"
 msgstr "RTL Språkstöd"
 
-#: wp-includes/admin-bar.php:342
+#: wp-includes/admin-bar.php:323
 #: wp-admin/includes/theme.php:304
 msgid "Blavatar"
 msgstr "Blavatar"
@@ -2541,7 +2565,7 @@ msgid_plural "%s users"
 msgstr[0] "%s användare"
 msgstr[1] "%s användare"
 
-#: wp-includes/admin-bar.php:295
+#: wp-includes/admin-bar.php:287
 #: wp-admin/admin-header.php:21
 msgid "Network Admin"
 msgstr "Nätverksadmin"
@@ -4315,7 +4339,7 @@ msgstr "Trackbacks är ett sätt att notifiera andra bloggsystem att du har län
 msgid "You are not allowed to create pages on this site."
 msgstr "Du har inte tillräcklig behörighet för att skapa sidor på den här webbplatsen."
 
-#: wp-admin/includes/schema.php:348
+#: wp-admin/includes/schema.php:357
 msgid "My Site"
 msgstr "Min webbplats"
 
@@ -4436,11 +4460,11 @@ msgstr "Inga resultat funna."
 msgid "The menu name <strong>%s</strong> conflicts with another menu name. Please try another."
 msgstr "Menynamnet <strong>%s</strong> kolliderar med ett redan befintligt namn, var vänlig försök med ett annat namn."
 
-#: wp-admin/includes/schema.php:936
+#: wp-admin/includes/schema.php:945
 msgid "To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your web server in your DNS configuration tool."
 msgstr "Om du vill använda en subdomänkonfiguration så måste du skapa en jokerpost i din DNS. Detta innebär ofast att man anger en <code>*</code> som en 'hostname'-post pekad mot servern i DNS-konfigurationen."
 
-#: wp-admin/includes/schema.php:932
+#: wp-admin/includes/schema.php:941
 msgid "The installer attempted to contact a random hostname (<code>%1$s</code>) on your domain."
 msgstr "Installeraren försökte slumpvis ansluta till hostnamn (<code>%1$s</code>) för din domän."
 
@@ -4983,27 +5007,27 @@ msgstr "Uppdaterar temat %1$s (%2$d/%3$d)"
 msgid "This is the short link."
 msgstr "Detta är den korta länken."
 
-#: wp-admin/includes/schema.php:803
+#: wp-admin/includes/schema.php:812
 msgid "You must provide a domain name."
 msgstr "Du måste ange ett domännamn."
 
-#: wp-admin/includes/schema.php:805
+#: wp-admin/includes/schema.php:814
 msgid "You must provide a name for your network of sites."
 msgstr "Du måste ange ett namn för ditt nätverk av webbplatser."
 
-#: wp-admin/includes/schema.php:809
+#: wp-admin/includes/schema.php:818
 msgid "The network already exists."
 msgstr "Nätverket finns redan."
 
-#: wp-admin/includes/schema.php:813
+#: wp-admin/includes/schema.php:822
 msgid "You must provide a valid e-mail address."
 msgstr "Du måste ange en giltig e-postadress."
 
-#: wp-admin/includes/schema.php:934
+#: wp-admin/includes/schema.php:943
 msgid "This resulted in an error message: %s"
 msgstr "Detta resulterade i ett felmeddelande: %s"
 
-#: wp-admin/includes/schema.php:937
+#: wp-admin/includes/schema.php:946
 msgid "You can still use your site but any subdomain you create may not be accessible. If you know your DNS is correct, ignore this message."
 msgstr "Du kan fortfarande använda din webbplats men alla underdomän du skapar kanske inte är tillgänglig. Om du vet att dina DNS-inställningar är korrekta så kan du ignorera det här meddelandet."
 
@@ -5055,7 +5079,7 @@ msgstr "Användaren finns redan. Lösenordet ärvdes."
 msgid "your passwords do not match. Please try again"
 msgstr "dina lösenord matchar inte. Var vänlig försök igen."
 
-#: wp-includes/admin-bar.php:610
+#: wp-includes/admin-bar.php:577
 #: wp-admin/menu.php:37
 msgid "Updates %s"
 msgstr "Uppdateringar %s"
@@ -5309,7 +5333,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> f
 msgid "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Du kan inte installera <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> eftersom det kräver minst PHP %2$s och MySQL %3$s eller senare. Du kör PHP %4$s och MySQL %5$s."
 
-#: wp-includes/admin-bar.php:588
+#: wp-includes/admin-bar.php:555
 #: wp-admin/menu.php:129
 #: wp-admin/menu.php:134
 #: wp-admin/nav-menus.php:465
@@ -6240,11 +6264,11 @@ msgstr "%1$s %2$s Inlägg av %3$s -flöde"
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Sökresultat för &#8221;%3$s&#8221; -flöde"
 
-#: wp-includes/general-template.php:1872
+#: wp-includes/general-template.php:1882
 msgid "&laquo; Previous"
 msgstr "&laquo; Föregående"
 
-#: wp-includes/general-template.php:1873
+#: wp-includes/general-template.php:1883
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
@@ -6850,7 +6874,7 @@ msgid "Div"
 msgstr "Div"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:242
-#: wp-includes/js/tinymce/wp-mce-help.php:241
+#: wp-includes/js/tinymce/wp-mce-help.php:245
 msgid "Address"
 msgstr "Adress"
 
@@ -6859,32 +6883,32 @@ msgid "Preformatted"
 msgstr "Förformaterad"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:244
-#: wp-includes/js/tinymce/wp-mce-help.php:238
+#: wp-includes/js/tinymce/wp-mce-help.php:242
 msgid "Heading 1"
 msgstr "Rubrik 1"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:245
-#: wp-includes/js/tinymce/wp-mce-help.php:239
+#: wp-includes/js/tinymce/wp-mce-help.php:243
 msgid "Heading 2"
 msgstr "Rubrik 2"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:246
-#: wp-includes/js/tinymce/wp-mce-help.php:239
+#: wp-includes/js/tinymce/wp-mce-help.php:243
 msgid "Heading 3"
 msgstr "Rubrik 3"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:247
-#: wp-includes/js/tinymce/wp-mce-help.php:240
+#: wp-includes/js/tinymce/wp-mce-help.php:244
 msgid "Heading 4"
 msgstr "Rubrik 4"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:248
-#: wp-includes/js/tinymce/wp-mce-help.php:240
+#: wp-includes/js/tinymce/wp-mce-help.php:244
 msgid "Heading 5"
 msgstr "Rubrik 5"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:249
-#: wp-includes/js/tinymce/wp-mce-help.php:241
+#: wp-includes/js/tinymce/wp-mce-help.php:245
 msgid "Heading 6"
 msgstr "Rubrik 6"
 
@@ -6910,39 +6934,39 @@ msgid "Definition description"
 msgstr "Definitionsbeskrivning"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:255
-#: wp-includes/js/tinymce/wp-mce-help.php:237
-#: wp-includes/js/tinymce/wp-mce-help.php:247
+#: wp-includes/js/tinymce/wp-mce-help.php:241
+#: wp-includes/js/tinymce/wp-mce-help.php:251
 msgid "Bold"
 msgstr "Fet"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:256
-#: wp-includes/js/tinymce/wp-mce-help.php:237
-#: wp-includes/js/tinymce/wp-mce-help.php:247
+#: wp-includes/js/tinymce/wp-mce-help.php:241
+#: wp-includes/js/tinymce/wp-mce-help.php:251
 msgid "Italic"
 msgstr "Kursiv"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:257
-#: wp-includes/js/tinymce/wp-mce-help.php:238
+#: wp-includes/js/tinymce/wp-mce-help.php:242
 msgid "Underline"
 msgstr "Understreck"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:258
-#: wp-includes/js/tinymce/wp-mce-help.php:251
+#: wp-includes/js/tinymce/wp-mce-help.php:255
 msgid "Strikethrough"
 msgstr "Genomstruken"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:259
-#: wp-includes/js/tinymce/wp-mce-help.php:249
+#: wp-includes/js/tinymce/wp-mce-help.php:253
 msgid "Align Left"
 msgstr "Vänsterjustera"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:260
-#: wp-includes/js/tinymce/wp-mce-help.php:250
+#: wp-includes/js/tinymce/wp-mce-help.php:254
 msgid "Align Center"
 msgstr "Centrerat"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:261
-#: wp-includes/js/tinymce/wp-mce-help.php:251
+#: wp-includes/js/tinymce/wp-mce-help.php:255
 msgid "Align Right"
 msgstr "Högerjustera"
 
@@ -7016,17 +7040,17 @@ msgid "Insert/edit anchor"
 msgstr "Infoga/redigera ankare"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:283
-#: wp-includes/js/tinymce/wp-mce-help.php:234
+#: wp-includes/js/tinymce/wp-mce-help.php:238
 msgid "Cut"
 msgstr "Klipp ut"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:284
-#: wp-includes/js/tinymce/wp-mce-help.php:233
+#: wp-includes/js/tinymce/wp-mce-help.php:237
 msgid "Copy"
 msgstr "Kopiera"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:285
-#: wp-includes/js/tinymce/wp-mce-help.php:233
+#: wp-includes/js/tinymce/wp-mce-help.php:237
 msgid "Paste"
 msgstr "Klistra in"
 
@@ -7047,7 +7071,7 @@ msgid "Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element pat
 msgstr "Hoppa till verktygsknappar - Alt+Q, Hoppa till redigerare - Alt+Z, Hoppa till elementsökväg - Alt+X"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:302
-#: wp-includes/js/tinymce/wp-mce-help.php:267
+#: wp-includes/js/tinymce/wp-mce-help.php:271
 msgid "About TinyMCE"
 msgstr "Om TinyMCE"
 
@@ -7187,8 +7211,8 @@ msgid "File/URL"
 msgstr "Fil/URL"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:360
-#: wp-includes/js/tinymce/wp-mce-help.php:252
-#: wp-includes/js/tinymce/wp-mce-help.php:253
+#: wp-includes/js/tinymce/wp-mce-help.php:256
+#: wp-includes/js/tinymce/wp-mce-help.php:257
 msgid "List"
 msgstr "Lista"
 
@@ -7241,7 +7265,7 @@ msgstr "Sjustera"
 msgid "WMode"
 msgstr "WMode"
 
-#: wp-includes/admin-bar.php:591
+#: wp-includes/admin-bar.php:558
 #: wp-includes/js/tinymce/langs/wp-langs.php:378
 #: wp-admin/custom-background.php:67
 msgid "Background"
@@ -7522,7 +7546,7 @@ msgid "Show/Hide Kitchen Sink"
 msgstr "Visa/göm fler verktyg"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:467
-#: wp-includes/js/tinymce/wp-mce-help.php:255
+#: wp-includes/js/tinymce/wp-mce-help.php:259
 msgid "Insert More Tag"
 msgstr "Infoga Mer-tagg"
 
@@ -7625,149 +7649,149 @@ msgstr "130%"
 msgid "Rich Editor Help"
 msgstr "Hjälp med WYSIWYG-editorn"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:199
+#: wp-includes/js/tinymce/wp-mce-help.php:203
 msgid "Basics of Rich Editing"
 msgstr "Grunderna i WYSIWYG-redigering"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:199
+#: wp-includes/js/tinymce/wp-mce-help.php:203
 msgid "Basics"
 msgstr "Grundläggande"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:200
+#: wp-includes/js/tinymce/wp-mce-help.php:204
 msgid "Advanced use of the Rich Editor"
 msgstr "Avancerad WYSIWYG-redigering"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:201
+#: wp-includes/js/tinymce/wp-mce-help.php:205
 msgid "Hotkeys"
 msgstr "Snabbtangenter"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:202
+#: wp-includes/js/tinymce/wp-mce-help.php:206
 msgid "About the software"
 msgstr "Om programvaran"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:208
+#: wp-includes/js/tinymce/wp-mce-help.php:212
 msgid "Rich Editing Basics"
 msgstr "Enkel WYSIWYG-redigering"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:209
+#: wp-includes/js/tinymce/wp-mce-help.php:213
 msgid "<em>Rich editing</em>, also called WYSIWYG for What You See Is What You Get, means your text is formatted as you type. The rich editor creates HTML code behind the scenes while you concentrate on writing. Font styles, links and images all appear approximately as they will on the internet."
 msgstr "<em>WYSIWYG-redigering</em> (från engelskans \"What You See Is What You Get\", på svenska \"vad du ser är vad du får\") innebär att textens formateras medan du skriver. WYSIWYG-editorn skapar HTML-koden i bakgrunden medan du koncentrerar dig på att skriva. Man ser typsnitt, länkar och bilder precis som de kommer att se ut på internet."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:210
+#: wp-includes/js/tinymce/wp-mce-help.php:214
 msgid "WordPress includes a rich HTML editor that works well in all major web browsers used today. However editing HTML is not the same as typing text. Each web page has two major components: the structure, which is the actual HTML code and is produced by the editor as you type, and the display, that is applied to it by the currently selected WordPress theme and is defined in style.css. WordPress is producing valid XHTML 1.0 which means that inserting multiple line breaks (BR tags) after a paragraph would not produce white space on the web page. The BR tags will be removed as invalid by the internal HTML correcting functions."
 msgstr "WordPress inkluderar en visuell redigerare som funkar bra i dom flesta moderna webbläsare som används idag. Men att redigera HTML är inte samma sak som att skriva enkel text. Varje webbsida har två huvudsakliga komponenter: strukturen, som egentligen är HTML kod som genereras av redigerar när du skriver, sen är det utseende som appliceras med valda WordPresstema och som är definierat i style.css. WordPress producerar validerande XHTML 1.0 vilket betyder att utseendet kan inte ändras med strukturella element. Med andra ord om du skulle infoga flera radbrytningar (BR-taggar) i rad efter ett stycke så skulle inte dessa skapa tomma rader på din sida. BR-taggarna kommer att rensas bort eftersom de ses som felaktigt formaterad HTML."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:211
+#: wp-includes/js/tinymce/wp-mce-help.php:215
 msgid "While using the editor, most basic keyboard shortcuts work like in any other text editor. For example: Shift+Enter inserts line break, Ctrl+C = copy, Ctrl+X = cut, Ctrl+Z = undo, Ctrl+Y = redo, Ctrl+A = select all, etc. (on Mac use the Command key instead of Ctrl). See the Hotkeys tab for all available keyboard shortcuts."
 msgstr "När man använder redigeraren så funkar kortkommandon precis som i vilken annan textredigerare som helst. Som exempel Shift+Enter infogar en ny rad, Ctrl+C = Kopiera, Ctrl+X = klipp ut, Ctrl+Z = återställ, Ctrl+Y = gör om, Ctrl+A = markera allt osv. (på MAC använd Command tangenten istället för Ctrl). Se kortkommandotab för alla tillgängliga kortkommandon."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:212
+#: wp-includes/js/tinymce/wp-mce-help.php:216
 msgid "If you do not like the way the rich editor works, you may turn it off from Your Profile submenu, under Users in the admin menu."
 msgstr "Om du inte gillar hur den visuella redigeraren funkar så kan du stänga av den i din profils undermeny."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:216
+#: wp-includes/js/tinymce/wp-mce-help.php:220
 msgid "Advanced Rich Editing"
 msgstr "Avancerad WYSIWYG-redigering"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:217
+#: wp-includes/js/tinymce/wp-mce-help.php:221
 msgid "Images and Attachments"
 msgstr "Bilder och bilagor"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:218
+#: wp-includes/js/tinymce/wp-mce-help.php:222
 msgid "There is a button in the editor toolbar for inserting images that are already hosted somewhere on the internet. If you have a URL for an image, click this button and enter the URL in the box which appears."
 msgstr "Det finns en knapp i redigerarens verktygsfält för att infoga bilder som redan finns på någon server på internet. Klicka på den här knappen och skriv in URLen i lådan om du har en URL till en sådan bild."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:219
+#: wp-includes/js/tinymce/wp-mce-help.php:223
 msgid "If you need to upload an image or another media file from your computer, you can use the Media Library buttons above the editor. The media library will attempt to create a thumbnail-sized copy from each uploaded image. To insert your image into the post, first click on the thumbnail to reveal a menu of options. When you have selected the options you like, click \"Send to Editor\" and your image or file will appear in the post you are editing. If you are inserting a movie, there are additional options in the \"Media\" dialog that can be opened from the second toolbar row."
 msgstr "Om du behöver ladda upp en bild eller en ljudfil från din dator kan du använda uppladdningsverktyget nedanför redigeraren. Verktyget försöker skapa en miniatyr när du laddar upp en bild. När du vill infoga en uppladdad bild i inlägget trycker du först på tumnageln för att öppna en meny med alternativ. Genom att klicka på \"Använd...\" eller \"Länkad...\" kan du ändra inställningen. Till exempel kan du önska visa tumnageln i inlägget och länka den till en sida med originalet och en bildtext. När du har valt de inställningar du önskar klickar du på \"Sicka till redigeraren\" och din bild eller fil kommer att infogas i inlägget som du redigerar."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:220
+#: wp-includes/js/tinymce/wp-mce-help.php:224
 msgid "HTML in the Rich Editor"
 msgstr "HTML i WYSIWYG-editorn"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:221
+#: wp-includes/js/tinymce/wp-mce-help.php:225
 msgid "Any HTML entered directly into the rich editor will show up as text when the post is viewed. What you see is what you get. When you want to include HTML elements that cannot be generated with the toolbar buttons, you must enter it by hand in the HTML editor. Examples are tables and &lt;code&gt;. To do this, click the HTML tab and edit the code, then switch back to Visual mode. If the code is valid and understood by the editor, you should see it rendered immediately."
 msgstr "All HTML du skriver in direkt i WYSIWYG-redigeraren kommer att synas som text när man läser inlägget. Vad du ser är vad du får. Om du vill inkludera HTML-element som inte kan läggas till med verktygsfältets knappar måste du skriva in dem för hand i HTML-redigeraren. Exempel på sådana är tabeller och &lt;code&gt;. Tryck på HTML-knappen och redigera koden för att göra detta och tryck sedan på Uppdatera. Om koden är giltig och redigeraren förstår den kommer du genast att se den på skärmen."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:222
+#: wp-includes/js/tinymce/wp-mce-help.php:226
 msgid "Pasting in the Rich Editor"
 msgstr "Klistra in i den visuella redigeraren"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:223
+#: wp-includes/js/tinymce/wp-mce-help.php:227
 msgid "When pasting content from another web page the results can be inconsistent and depend on your browser and on the web page you are pasting from. The editor tries to correct any invalid HTML code that was pasted, but for best results try using the HTML tab or one of the paste buttons that are on the second row. Alternatively try pasting paragraph by paragraph. In most browsers to select one paragraph at a time, triple-click on it."
 msgstr "När man klistrar in innehåll från en annan webbplats så kan resultatet bli knasigt beroende på vilken webbläsare du använder och från vilken sida du kopierar. Redigeraren försöker alltid att rätt till felaktig HTML som postas, för bästa resultat så bör du använda HTML-läget eller en av klistra in knapparna. Alternativt så kan du försöka att kopiera stycke för stycke. I dom flesta webbläsarna, för att markera en stycke, trippel-klicka på densamma."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:224
+#: wp-includes/js/tinymce/wp-mce-help.php:228
 msgid "Pasting content from another application, like Word or Excel, is best done with the Paste from Word button on the second row, or in HTML mode."
 msgstr "Att klistra in innehåll från en annan ordbehandlare så som Word eller Excel gör du bäst genom att använda knappen \"Klistra in från Word\" eller i HTML-läget."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:228
+#: wp-includes/js/tinymce/wp-mce-help.php:232
 msgid "Writing at Full Speed"
 msgstr "Skriver med full hastighet"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:229
+#: wp-includes/js/tinymce/wp-mce-help.php:233
 msgid "Rather than reaching for your mouse to click on the toolbar, use these access keys. Windows and Linux use Ctrl + letter. Macintosh uses Command + letter."
 msgstr "Istället för att använda musen för att klicka på verktygsraden kan du använda kortkommandon. Windows och Linux använder Ctrl + bokstav. Macintosh använder Command + bokstav."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:232
-#: wp-includes/js/tinymce/wp-mce-help.php:246
+#: wp-includes/js/tinymce/wp-mce-help.php:236
+#: wp-includes/js/tinymce/wp-mce-help.php:250
 msgid "Letter"
 msgstr "Tangent"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:232
-#: wp-includes/js/tinymce/wp-mce-help.php:246
+#: wp-includes/js/tinymce/wp-mce-help.php:236
+#: wp-includes/js/tinymce/wp-mce-help.php:250
 msgid "Action"
 msgstr "Åtgärd"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:234
+#: wp-includes/js/tinymce/wp-mce-help.php:238
 msgid "Select all"
 msgstr "Välj alla"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:244
+#: wp-includes/js/tinymce/wp-mce-help.php:248
 msgid "The following shortcuts use different access keys: Alt + Shift + letter."
 msgstr "Följande kortkommandon använder olika tangenter: Alt + Shift + bokstav."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:249
+#: wp-includes/js/tinymce/wp-mce-help.php:253
 msgid "Check Spelling"
 msgstr "Stavningskontroll"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:250
+#: wp-includes/js/tinymce/wp-mce-help.php:254
 msgid "Justify Text"
 msgstr "Justera texten"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:252
+#: wp-includes/js/tinymce/wp-mce-help.php:256
 msgid "Insert link"
 msgstr "Infoga länk"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:253
+#: wp-includes/js/tinymce/wp-mce-help.php:257
 msgid "Remove link"
 msgstr "Ta bort länk"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:254
+#: wp-includes/js/tinymce/wp-mce-help.php:258
 msgid "Quote"
 msgstr "Citat"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:255
+#: wp-includes/js/tinymce/wp-mce-help.php:259
 msgid "Full Screen"
 msgstr "Fullskärm"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:256
+#: wp-includes/js/tinymce/wp-mce-help.php:260
 msgid "Insert Page Break tag"
 msgstr "Infoga sidindelnings-taggen"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:257
+#: wp-includes/js/tinymce/wp-mce-help.php:261
 msgid "Switch to HTML mode"
 msgstr "Byt till HTML visning"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:270
+#: wp-includes/js/tinymce/wp-mce-help.php:274
 msgid "GNU Library General Public Licence"
 msgstr "GNU Library General Public Licence"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:272
+#: wp-includes/js/tinymce/wp-mce-help.php:276
 msgid "For more information about this software visit the <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE website</a>."
 msgstr "Besök <a href=\"http://tinymce.moxiecode.com\" target=\"_blank\">TinyMCE:s webbplats</a>för mer information om den här programvaran."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:275
+#: wp-includes/js/tinymce/wp-mce-help.php:279
 msgid "Got Moxie?"
 msgstr "Har du Moxie?"
 
@@ -8122,11 +8146,11 @@ msgstr "Kunde inte infoga inlägget i databasen"
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:4870
+#: wp-includes/post.php:4873
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:5045
+#: wp-includes/post.php:5048
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
@@ -8594,7 +8618,7 @@ msgstr "Klart. Meddelande <strong>%s</strong> raderat."
 #: wp-includes/js/tinymce/langs/wp-langs.php:288
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
-#: wp-includes/js/tinymce/wp-mce-help.php:256
+#: wp-includes/js/tinymce/wp-mce-help.php:260
 #: wp-admin/includes/screen.php:758
 msgid "Help"
 msgstr "Hjälp"
@@ -8975,7 +8999,7 @@ msgid "Hi, this is a comment.<br />To delete a comment, just log in and view the
 msgstr "Hej! Det här är en kommentar.<br />Gör så här om du vill radera en kommentar: logga in och visa kommentarerna till inlägget. Där kan du välja om du vill redigera eller radera dem."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:303
-#: wp-includes/js/tinymce/wp-mce-help.php:202
+#: wp-includes/js/tinymce/wp-mce-help.php:206
 #: wp-admin/about.php:12
 msgid "About"
 msgstr "Om"
@@ -9041,9 +9065,9 @@ msgstr "Det finns inga inställningar för denna widget."
 
 #: wp-includes/deprecated.php:2868
 #: wp-includes/deprecated.php:2870
-#: wp-includes/admin-bar.php:260
-#: wp-includes/admin-bar.php:302
-#: wp-includes/admin-bar.php:357
+#: wp-includes/admin-bar.php:252
+#: wp-includes/admin-bar.php:294
+#: wp-includes/admin-bar.php:339
 #: wp-admin/index.php:22
 #: wp-admin/user/menu.php:10
 #: wp-admin/menu.php:25
@@ -9265,11 +9289,11 @@ msgstr "Mediabilaga uppdaterad."
 msgid "Update Media"
 msgstr "Uppdatera media"
 
-#: wp-includes/admin-bar.php:308
+#: wp-includes/admin-bar.php:300
 msgid "Sites"
 msgstr "Webbplatser"
 
-#: wp-includes/admin-bar.php:579
+#: wp-includes/admin-bar.php:546
 #: wp-admin/update-core.php:279
 #: wp-admin/update-core.php:287
 #: wp-admin/menu.php:127
@@ -9277,7 +9301,7 @@ msgstr "Webbplatser"
 msgid "Themes"
 msgstr "Teman"
 
-#: wp-includes/admin-bar.php:287
+#: wp-includes/admin-bar.php:279
 #: wp-admin/menu.php:30
 msgid "My Sites"
 msgstr "Mina webbplatser"
@@ -9993,7 +10017,7 @@ msgstr "Aktivera Atom publiceringsprotokoll."
 
 #: wp-admin/options-writing.php:147
 #: wp-admin/options-writing.php:148
-#: wp-admin/credits.php:167
+#: wp-admin/credits.php:168
 msgid "XML-RPC"
 msgstr "XML-RPC"
 
@@ -10311,9 +10335,9 @@ msgstr "Infoga video"
 msgid "Click to insert."
 msgstr "Klicka för att infoga."
 
-#: wp-includes/js/tinymce/wp-mce-help.php:254
+#: wp-includes/js/tinymce/wp-mce-help.php:258
 #: wp-admin/press-this.php:154
-#: wp-admin/press-this.php:619
+#: wp-admin/press-this.php:621
 msgid "Insert Image"
 msgstr "Infoga bild"
 
@@ -10333,7 +10357,7 @@ msgstr "Lägg till från URL"
 msgid "Refresh"
 msgstr "Uppdatera"
 
-#: wp-admin/press-this.php:373
+#: wp-admin/press-this.php:565
 msgid "Loading..."
 msgstr "Laddar..."
 
@@ -10349,12 +10373,12 @@ msgstr "Visa inlägg"
 msgid "Close Window"
 msgstr "Stäng fönstret"
 
-#: wp-admin/press-this.php:595
-#: wp-admin/press-this.php:596
+#: wp-admin/press-this.php:597
+#: wp-admin/press-this.php:598
 msgid "Insert an Image"
 msgstr "Infoga en bild"
 
-#: wp-admin/press-this.php:600
+#: wp-admin/press-this.php:602
 msgid "Embed a Video"
 msgstr "Infoga en video"
 
@@ -10368,7 +10392,7 @@ msgstr "HTML"
 msgid "Visual"
 msgstr "Visuell"
 
-#: wp-admin/press-this.php:583
+#: wp-admin/press-this.php:585
 msgid "via "
 msgstr "via"
 
@@ -10954,7 +10978,7 @@ msgid "Change"
 msgstr "Ändra"
 
 #: wp-includes/functions.php:3271
-#: wp-includes/admin-bar.php:585
+#: wp-includes/admin-bar.php:552
 #: wp-admin/widgets.php:35
 msgid "Widgets"
 msgstr "Widgets"
@@ -11605,7 +11629,7 @@ msgstr "E-post"
 #: wp-admin/includes/nav-menu.php:129
 #: wp-admin/includes/nav-menu.php:550
 #: wp-admin/includes/class-wp-links-list-table.php:81
-#: wp-admin/press-this.php:613
+#: wp-admin/press-this.php:615
 msgid "URL"
 msgstr "URL"
 
@@ -11828,7 +11852,7 @@ msgstr[0] "%s kommentar markerad som skräp."
 msgstr[1] "%s kommentarer markerade som skräp."
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:267
-#: wp-includes/js/tinymce/wp-mce-help.php:235
+#: wp-includes/js/tinymce/wp-mce-help.php:239
 #: wp-admin/edit-comments.php:181
 #: wp-admin/edit-comments.php:189
 #: wp-admin/edit.php:229
@@ -12070,7 +12094,7 @@ msgstr "Publicera"
 msgid "Attributes"
 msgstr "Attribut"
 
-#: wp-includes/post.php:4680
+#: wp-includes/post.php:4683
 #: wp-admin/edit-form-advanced.php:128
 #: wp-admin/includes/meta-boxes.php:382
 msgid "Excerpt"
@@ -12271,7 +12295,7 @@ msgid "Link Relationship (XFN)"
 msgstr "Relationslänk (XFN)"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:358
-#: wp-includes/js/tinymce/wp-mce-help.php:200
+#: wp-includes/js/tinymce/wp-mce-help.php:204
 #: wp-admin/edit-link-form.php:31
 msgid "Advanced"
 msgstr "Avancerat"
@@ -12310,7 +12334,7 @@ msgstr "Exampel: <code>http://wordpress.org/</code> &#8212; glöm inte <code>htt
 #: wp-admin/includes/class-wp-terms-list-table.php:101
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:144
 #: wp-admin/press-this.php:140
-#: wp-admin/press-this.php:616
+#: wp-admin/press-this.php:618
 msgid "Description"
 msgstr "Beskrivning"
 
@@ -12509,7 +12533,7 @@ msgstr "Inlägg"
 msgid "Blogger"
 msgstr "Blogger"
 
-#: wp-includes/admin-bar.php:314
+#: wp-includes/admin-bar.php:306
 #: wp-admin/users.php:17
 #: wp-admin/menu.php:167
 msgid "Users"
@@ -13032,7 +13056,7 @@ msgstr "Du kan även testa %s, enkel bloggning var som helst på webben."
 msgid "Press This"
 msgstr "Blogga det här"
 
-#: wp-includes/post.php:4679
+#: wp-includes/post.php:4682
 #: wp-admin/index.php:69
 #: wp-admin/includes/dashboard.php:261
 #: wp-admin/includes/dashboard.php:539
@@ -13236,7 +13260,7 @@ msgstr "Popup-kommentarer"
 msgid "Footer"
 msgstr "Sidfot"
 
-#: wp-includes/admin-bar.php:594
+#: wp-includes/admin-bar.php:561
 #: wp-admin/custom-header.php:86
 #: wp-admin/includes/file.php:19
 msgid "Header"
@@ -13515,7 +13539,7 @@ msgid "Flip horizontally"
 msgstr "Vänd horizontalt"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:268
-#: wp-includes/js/tinymce/wp-mce-help.php:235
+#: wp-includes/js/tinymce/wp-mce-help.php:239
 #: wp-admin/includes/image-edit.php:57
 msgid "Redo"
 msgstr "Gör om"
@@ -13806,10 +13830,6 @@ msgstr "Storlek"
 #: wp-admin/includes/media.php:940
 msgid "File URL"
 msgstr "Filadress"
-
-#: wp-admin/includes/media.php:773
-msgid "Post URL"
-msgstr "Inläggsadress"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:513
 #: wp-admin/includes/media.php:796
@@ -14428,8 +14448,8 @@ msgstr "Avfärda"
 #: wp-includes/default-widgets.php:175
 #: wp-includes/general-template.php:145
 #: wp-includes/class-wp-editor.php:781
-#: wp-includes/admin-bar.php:625
-#: wp-includes/admin-bar.php:626
+#: wp-includes/admin-bar.php:592
+#: wp-includes/admin-bar.php:593
 #: wp-admin/includes/plugin-install.php:86
 #: wp-admin/includes/class-wp-theme-install-list-table.php:29
 #: wp-admin/includes/template.php:1293
@@ -14564,7 +14584,7 @@ msgstr "Senaste versionen installerad"
 msgid "FYI"
 msgstr "För information"
 
-#: wp-includes/js/tinymce/wp-mce-help.php:269
+#: wp-includes/js/tinymce/wp-mce-help.php:273
 #: wp-admin/includes/plugin-install.php:310
 #: wp-admin/includes/theme-install.php:162
 msgid "Version:"
@@ -14772,59 +14792,59 @@ msgstr "Varning: %s redigerar just nu det här."
 msgid "Preview not available. Please save as a draft first."
 msgstr "Förhandsgranskning ej tillgänglig. Var vänlig spara som utkast först."
 
-#: wp-admin/includes/schema.php:350
+#: wp-admin/includes/schema.php:359
 msgid "Just another WordPress site"
 msgstr "En till WordPress-webbplats"
 
 #: wp-admin/options-general.php:228
-#: wp-admin/includes/schema.php:371
+#: wp-admin/includes/schema.php:380
 msgid "F j, Y"
 msgstr "j F, Y"
 
 #: wp-admin/options-general.php:261
-#: wp-admin/includes/schema.php:373
+#: wp-admin/includes/schema.php:382
 msgid "g:i a"
 msgstr "h:i"
 
-#: wp-admin/includes/schema.php:375
+#: wp-admin/includes/schema.php:384
 msgid "F j, Y g:i a"
 msgstr "j F, Y h:i"
 
-#: wp-admin/includes/schema.php:477
+#: wp-admin/includes/schema.php:486
 msgid "Just another %s site"
 msgstr "En till %s webbplats"
 
-#: wp-admin/includes/schema.php:545
+#: wp-admin/includes/schema.php:554
 msgctxt "User role"
 msgid "Administrator"
 msgstr "Administratör"
 
-#: wp-admin/includes/schema.php:547
+#: wp-admin/includes/schema.php:556
 msgctxt "User role"
 msgid "Editor"
 msgstr "Redaktör"
 
-#: wp-admin/includes/schema.php:549
+#: wp-admin/includes/schema.php:558
 msgctxt "User role"
 msgid "Author"
 msgstr "Författare"
 
-#: wp-admin/includes/schema.php:551
+#: wp-admin/includes/schema.php:560
 msgctxt "User role"
 msgid "Contributor"
 msgstr "Medarbetare"
 
-#: wp-admin/includes/schema.php:553
+#: wp-admin/includes/schema.php:562
 msgctxt "User role"
 msgid "Subscriber"
 msgstr "Prenumerant"
 
 #: wp-admin/includes/upgrade.php:199
-#: wp-admin/includes/schema.php:874
+#: wp-admin/includes/schema.php:883
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
 msgstr "Välkommen till <a href=\"SITE_URL\">SITE_NAME</a>. Det här är ditt första inlägg. Redigera eller radera det. Sen är det bara att börja blogga!"
 
-#: wp-admin/includes/schema.php:931
+#: wp-admin/includes/schema.php:940
 msgid "Warning! Wildcard DNS may not be configured correctly!"
 msgstr "Varning! Joker-dns-posten är kanske inte korrekt konfigurerad!"
 
@@ -15087,7 +15107,7 @@ msgstr "Sidor"
 #: wp-includes/script-loader.php:101
 #: wp-includes/script-loader.php:174
 #: wp-includes/js/tinymce/langs/wp-langs.php:20
-#: wp-includes/js/tinymce/wp-mce-help.php:283
+#: wp-includes/js/tinymce/wp-mce-help.php:287
 #: wp-login.php:577
 #: wp-admin/includes/dashboard.php:1284
 #: wp-admin/includes/template.php:1311
@@ -15126,7 +15146,7 @@ msgid "Manage Themes"
 msgstr "Hantera teman"
 
 #: wp-includes/post.php:1189
-#: wp-includes/admin-bar.php:365
+#: wp-includes/admin-bar.php:347
 msgid "New Post"
 msgstr "Nytt inlägg"
 
@@ -15279,7 +15299,7 @@ msgstr "Posten uppdaterades inte."
 msgid "No posts found."
 msgstr "Hittade inga inlägg."
 
-#: wp-includes/post.php:4678
+#: wp-includes/post.php:4681
 #: wp-includes/class-wp-editor.php:770
 #: wp-includes/js/tinymce/langs/wp-langs.php:347
 #: wp-includes/js/tinymce/langs/wp-langs.php:511
@@ -15356,12 +15376,12 @@ msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</
 msgstr "Tack för att du använder <a href=\"http://wordpress.org/\">WordPress</a> | Svensk support <a href=\"http://wp-support.se/\">WP-Support Sverige</a>"
 
 #: wp-includes/deprecated.php:2866
-#: wp-includes/admin-bar.php:250
-#: wp-includes/admin-bar.php:379
+#: wp-includes/admin-bar.php:242
+#: wp-includes/admin-bar.php:361
 msgid "Visit Site"
 msgstr "Besök sida"
 
-#: wp-includes/admin-bar.php:197
+#: wp-includes/admin-bar.php:189
 msgid "Log Out"
 msgstr "Logga ut"
 
