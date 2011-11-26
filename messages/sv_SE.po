@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.3) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-11-24 07:59+0100\n"
+"PO-Revision-Date: 2011-11-26 17:45+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,14 @@ msgstr ""
 #: wp-includes/admin-bar.php:119
 msgid "Feedback"
 msgstr "Feedback"
+
+#: wp-admin/widgets.php:98
+msgid "Inactive Sidebar (not used)"
+msgstr "Inaktivt sidofält (används inte)"
+
+#: wp-admin/widgets.php:101
+msgid "This sidebar is no longer available and does not show anywhere on your site. Remove each of the widgets below to fully remove this inactive sidebar."
+msgstr "Detta sidofält är inte längre tillgängligt och visas inte någonstans på din webbplats. Ta bort varje widget nedan för att helt ta bort detta inaktiva sidofält."
 
 #: wp-admin/media-upload.php:75
 msgid "<strong>Drag and drop</strong> your files into the area below. Multiple files are allowed."
@@ -1035,14 +1043,6 @@ msgstr "Etiketter"
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr "Etikett"
-
-#: wp-admin/widgets.php:79
-msgid "Inactive Sidebar (from previous theme)"
-msgstr "Inaktiv sidopanel (från föregående tema)"
-
-#: wp-admin/widgets.php:82
-msgid "This is a left over sidebar from an old theme and does not show anywhere on your site"
-msgstr "Detta är en sidopanel som blivit över från ett tidigare aktivt tema. Det visas inte någonstans på din webbplats."
 
 #: wp-includes/functions.wp-styles.php:28
 #: wp-includes/functions.wp-styles.php:55
@@ -11412,15 +11412,15 @@ msgstr "Ändra"
 msgid "Widgets"
 msgstr "Widgets"
 
-#: wp-admin/widgets.php:96
+#: wp-admin/widgets.php:115
 msgid "Inactive Widgets"
 msgstr "Inaktiva widgets"
 
-#: wp-admin/widgets.php:117
+#: wp-admin/widgets.php:75
 msgid "No Sidebars Defined"
 msgstr "Inga sidopaneler definierade"
 
-#: wp-admin/widgets.php:119
+#: wp-admin/widgets.php:77
 msgid "The theme you are currently using isn&#8217;t widget-aware, meaning that it has no sidebars that you are able to change. For information on making your theme widget-aware, please <a href=\"http://codex.wordpress.org/Widgetizing_Themes\">follow these instructions</a>."
 msgstr "Temat du använder stöder inte widgets. Det innebär att det inte finns några sidopaneler som du kan ändra på. <a href=\"http://wp-support.se/dokumentation/Modifiering:Aktivera_widgets_för_tema\">Följ de här instruktionerna</a> för att lägga till stöd för widgets i ditt tema."
 
@@ -11460,6 +11460,10 @@ msgstr "Tillgängliga widgets"
 #: wp-admin/widgets.php:336
 msgid "Drag widgets from here to a sidebar on the right to activate them. Drag widgets back here to deactivate them and delete their settings."
 msgstr "Dra widgets nedan till en panel till höger för att aktivera dem. Dra dem tillbaka hit för att inaktivera dem och radera dess inställningar."
+
+#: wp-admin/widgets.php:118
+msgid "Drag widgets here to remove them from the sidebar but keep their settings."
+msgstr "Dra widgets hit för att inaktivera dem på sidan men behålla dess inställningar."
 
 #: wp-app.php:421
 msgid "Sorry, you do not have the right to edit/publish new posts."
