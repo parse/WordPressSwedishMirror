@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.3) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-11-26 17:45+0100\n"
+"PO-Revision-Date: 2011-11-29 14:30+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,6 +19,22 @@ msgstr ""
 #: wp-includes/admin-bar.php:119
 msgid "Feedback"
 msgstr "Feedback"
+
+#: wp-admin/user-edit.php:41
+msgid "You can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things. You can hide the Toolbar (formerly called the Admin Bar) from the front end of your site, however it cannot be disabled on the admin screens."
+msgstr "Du kan ändra ditt lösenord, aktivera kortkommandon, ändra färgschemat för dina administrationssidor av WordPress och stäng av WYSIWYG (visuell) redigeraren osv. Du kan dölja verktygsfältet (tidigare kallat adminmeny) från främre delen av din webbplats, men det kan inte inaktiveras på adminsidor."
+
+#: wp-admin/tools.php:22
+msgid "The &#8220;Use This&#8221; link for the Categories and Tags Converter will take you to the Import page, where that Converter is one of the plugins you can download. Once that plugin is installed, the link on this page takes you to a screen where you can choose to convert tags into categories or vice versa."
+msgstr "\"Använd den här\"-länken för kategorier och etikett-konverteraren kommer att ta dig till importeringssidan, där konverteraren är ett av de tillägg du kan ladda ner. När valt tillägg är installerat, tar länken på denna sida dig till en sida där du kan välja att konvertera etiketter till kategorier eller vice versa."
+
+#: wp-admin/tools.php:21
+msgid "Categories Tags Converter"
+msgstr "Kategori-, etikett-konverterare"
+
+#: wp-admin/import.php:23
+msgid "In previous versions of WordPress, all importers were built-in.  They have been turned into plugins since most people only use them once or infrequently."
+msgstr "I tidigare versioner av WordPress var alla importörer inbyggda. De har nu mer gjorts om till tillägg eftersom de flesta människor bara använder dem en någon gång."
 
 #: wp-admin/widgets.php:98
 msgid "Inactive Sidebar (not used)"
@@ -576,7 +592,7 @@ msgstr "Denna kommentar har markerats som skräppost. Vänligen avmarkera det so
 msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
 msgstr "Din webbläsare har vissa begränsningar vid uppladdning av stora filer med multifilsuppladdaren. Använd den webbläsarbaserade uppladdaren för filer över 100MB."
 
-#: wp-admin/user-edit.php:162
+#: wp-admin/user-edit.php:166
 msgid "Profile updated."
 msgstr "Profil uppdaterad."
 
@@ -821,11 +837,11 @@ msgstr "Tabellen %1$s är inte okej. Följande fel rapporteras: %2$s. WordPress 
 msgid "View version %1$s details"
 msgstr "Visa detaljer för version %1$s"
 
-#: wp-admin/import.php:39
+#: wp-admin/import.php:42
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: wp-admin/import.php:39
+#: wp-admin/import.php:42
 msgid "Install the Tumblr importer to import posts &amp; media from Tumblr using their API."
 msgstr "Installera Tumblr importören för att importera inlägg &amp; media från Tumblr via deras API."
 
@@ -891,7 +907,7 @@ msgstr "<strong>FEL</strong>: Ange en giltig e-postadress."
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>FEL</strong>: Fyll i de obligatoriska fälten (namn, e-post)."
 
-#: wp-admin/includes/screen.php:685
+#: wp-admin/includes/screen.php:688
 msgid "Screen Info"
 msgstr "Panelinformation"
 
@@ -1014,7 +1030,7 @@ msgstr "Inläggsformat"
 msgid "Maximum upload file size: %d%s."
 msgstr "Maximal filstorlek för uppladdning: %d%s."
 
-#: wp-admin/user-edit.php:226
+#: wp-admin/user-edit.php:230
 msgid "Show Admin Bar when viewing site"
 msgstr "Visa adminmenyn när du är på webbplatsen"
 
@@ -1091,7 +1107,7 @@ msgctxt "sample permalink base"
 msgid "archives"
 msgstr "arkiv"
 
-#: wp-admin/import.php:108
+#: wp-admin/import.php:111
 msgid "This importer is not installed. Please install importers from <a href=\"%s\">the main site</a>."
 msgstr "Denna importör har inte installerats. Installera importörer från <a href=\"%s\">huvudsidan</a>."
 
@@ -1324,7 +1340,7 @@ msgstr "Visa Tag"
 msgid "View Category"
 msgstr "Visa kategori"
 
-#: wp-admin/tools.php:42
+#: wp-admin/tools.php:47
 #: wp-admin/options-writing.php:97
 msgid "If your bookmarks toolbar is hidden: copy the code below, open your Bookmarks manager, create new bookmark, type Press This into the name field and paste the code into the URL field."
 msgstr "Om ditt bokmärkesfält är gömt: kopiera koden nedan, öppna bokmärkeshanteraren, skapa nytt bokmärke, skriv Blogga det här i namnfältet och klistra in koden i fältet URL."
@@ -1380,10 +1396,6 @@ msgstr "När den här inställningen är aktiv så kommer en text som lyder &#82
 #: wp-admin/edit-form-advanced.php:173
 msgid "<strong>Post editor</strong> - Enter the text for your post. There are two modes of editing: Visual and HTML. Choose the mode by clicking on the appropriate tab. Visual mode gives you a WYSIWYG editor. Click the last icon in the row to get a second row of controls. The HTML mode allows you to enter raw HTML along with your post text. You can insert media files by clicking the icons above the post editor and following the directions. You can go the distraction-free writing screen, new in 3.2, via the Fullscreen icon in Visual mode (second to last in the top row) or the Fullscreen button in HTML mode (last in the row). Once there, you can make buttons visible by hovering over the top area. Exit Fullscreen back to the regular post editor."
 msgstr "<strong>Inläggsredigerare</strong> - Ange texten för ditt inlägg. Det finns två vyer för redigering: Visuell och HTML. Välj vy genom att klicka på önskad flik. Den visuella vyn ger dig en WYSIWYG-redigerare. Klicka på den sista ikonen i verktygsraden för att visa/gömma ytterligare verktyg. HTML-vyn tillåter dig att infoga HTML-kod tillsammans med din text. Du kan infoga mediefiler genom att klicka på ikonerna ovanför inläggsredigeraren och följer instruktionerna. Du kan använda fullskärmsläget, nytt i 3.2, genom att klicka på ikonen för fullskärmsläget i den visuella redigeraren (näst sist ikonen i den övere raden) eller fullskärm-knappen i HTML-läget (sista ikonen på raden). Väl där kan du göra knappar synliga genom att hovra över den övre delen. Avsluta fullskärmsläget tar dig tillbaka till den vanliga vyn igen."
-
-#: wp-admin/tools.php:16
-msgid "The Use This link for the Categories and Tags Converter will take you to the Import page, where that Converter is one of the plugins you can download. Once that plugin is installed, the link on this page takes you to a screen where you can choose conversion either way."
-msgstr "Länken för att använda Kategori- och etikett-konvertering kommer att ta dig till sidan för importering där konverteraren är ett av de tillägg du kan ladda ner. Väl installerat så kommer länken att ta dig till sidan där du kan konvertera kategorier till etiketter eller vise versa."
 
 #: wp-admin/edit-form-advanced.php:164
 msgid "The title field and the big Post Editing Area are fixed in place, but you can reposition all the other boxes using drag and drop, and can minimize or expand them by clicking the title bar of each box. Use the Screen Options tab to unhide more boxes (Excerpt, Send Trackbacks, Custom Fields, Discussion, Slug, Author) or to choose a 1- or 2-column layout for this screen."
@@ -1619,7 +1631,7 @@ msgstr "Uppladdade bilder"
 msgid "<a href=\"http://codex.wordpress.org/Media_Add_New_Screen\" target=\"_blank\">Documentation on Uploading Media Files</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Media_Add_New_Screen\" target=\"_blank\">Dokumentation för hur man laddar upp mediafiler</a>"
 
-#: wp-admin/user-edit.php:50
+#: wp-admin/user-edit.php:54
 msgid "<a href=\"http://codex.wordpress.org/Users_Your_Profile_Screen\" target=\"_blank\">Documentation on User Profiles</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Users_Your_Profile_Screen\" target=\"_blank\">Dokumentation för användarprofiler</a>"
 
@@ -1655,7 +1667,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Pages_Screen#Editing_Individual_Pag
 msgid "<a href=\"http://codex.wordpress.org/Media_Library_Screen\" target=\"_blank\">Documentation on Media Library</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Media_Library_Screen\" target=\"_blank\">Dokumentation för mediabibliotek</a>"
 
-#: wp-admin/tools.php:22
+#: wp-admin/tools.php:27
 msgid "<a href=\"http://codex.wordpress.org/Tools_Screen\" target=\"_blank\">Documentation on Tools</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Tools_Screen\" target=\"_blank\">Dokumentation för verktyg</a>"
 
@@ -1663,7 +1675,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Tools_Screen\" target=\"_blank\">Do
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Documentation on Custom Header</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Appearance_Header_Screen\" target=\"_blank\">Dokumentation för anpassat sidhuvud</a>"
 
-#: wp-admin/export.php:48
+#: wp-admin/export.php:50
 msgid "<a href=\"http://codex.wordpress.org/Tools_Export_Screen\" target=\"_blank\">Documentation on Export</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Tools_Export_Screen\" target=\"_blank\">Dokumentation för exportering</a>"
 
@@ -1728,7 +1740,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Plugins_Editor_Screen\" target=\"_b
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Documentation on Custom Background</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Appearance_Background_Screen\" target=\"_blank\">Dokumentation för anpassad bakgrund</a>"
 
-#: wp-admin/import.php:26
+#: wp-admin/import.php:29
 msgid "<a href=\"http://codex.wordpress.org/Tools_Import_Screen\" target=\"_blank\">Documentation on Import</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Tools_Import_Screen\" target=\"_blank\">Dokumentation för importering</a>"
 
@@ -1802,7 +1814,7 @@ msgid_plural "You have specified these users for deletion:"
 msgstr[0] "Du har markerat denna användare för radering:"
 msgstr[1] "Du har markerat dessa användare för radering:"
 
-#: wp-admin/user-edit.php:167
+#: wp-admin/user-edit.php:171
 msgid "&larr; Back to Users"
 msgstr "&larr; Tillbaka till användare"
 
@@ -2131,8 +2143,8 @@ msgstr "Eller länka till befintligt innehåll"
 msgid "Post Format:"
 msgstr "Inläggsformat:"
 
-#: wp-admin/user-edit.php:222
-#: wp-admin/user-edit.php:223
+#: wp-admin/user-edit.php:226
+#: wp-admin/user-edit.php:227
 msgid "Admin Bar"
 msgstr "Adminmeny"
 
@@ -2157,7 +2169,7 @@ msgid "You do not have sufficient permissions to update this site."
 msgstr "Du har inte tillräcklig behörighet för att uppdatera denna webbplats."
 
 #: wp-admin/users.php:390
-#: wp-admin/user-edit.php:184
+#: wp-admin/user-edit.php:188
 msgctxt "user"
 msgid "Add Existing"
 msgstr "Lägg till befintlig"
@@ -2218,7 +2230,7 @@ msgstr "Villkorstyrda query-taggar fungerar inte innan en query körs. Innan det
 msgid "To create a new custom menu, click on the + tab, give the menu a name, and click Create Menu. Next, add menu items from the appropriate boxes. You&#8217;ll be able to edit the information for each menu item, and can drag and drop to put them in order. You can also drag a menu item a little to the right to make it a submenu, to create menus with hierarchy. Drop the item into its new nested placement when the dotted rectangle target shifts over, also a little to the right. Don&#8217;t forget to click Save when you&#8217;re finished."
 msgstr "För att skapa en ny anpassad meny, klicka på fliken +, ge menyn ett namn och klicka på Skapa meny. Lägg sedan till menyobjekt från panelerna. Du kan redigera informationen för varje menyobjekt, dra menyobjekten för att arrangera dem i den ordning som önskas. Du kan även dra ett menyobjekt lite till höger för att göra det till en undermeny och skapa menyer med hierarki. Du ser när målmarkeringen skiftar för att skapa ett nästlat objekt. Glöm inte att klicka på Spara när du är klar med din meny."
 
-#: wp-admin/tools.php:15
+#: wp-admin/tools.php:17
 msgid "Press This is a bookmarklet that makes it easy to blog about something you come across on the web. You can use it to just grab a link, or to post an excerpt. Press This will even allow you to choose from images included on the page and use them in your post. Just drag the Press This link on this screen to your bookmarks bar in your browser, and you&#8217;ll be on your way to easier content creation. Clicking on it while on another website opens a popup window with all these options."
 msgstr "Blogga det här är en snabbgenväg som gör det enkelt att blogga om något du stöter på på nätet. Du kan använda den för att bara hämta en länk eller posta ett utdrag. Blogga det här kommer även att tillåta dig att välja bland bilder som finns på sidan och använda dem i ditt inlägg. Dra bara Blogga det här länken på denna skärm till bokmärkesfältet i din webbläsare, och du kan lättare skapa innehåll. Att klicka på denna genväg när du befinner dig på en webbplats kommer att öppna en popup där du kan göra dina val."
 
@@ -2246,7 +2258,7 @@ msgstr "Om du vill genomföra ändringar men inte vill att de ska skrivas över 
 msgid "<a href=\"http://codex.wordpress.org/Roles_and_Capabilities\" target=\"_blank\">Descriptions of Roles and Capabilities</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Roles_and_Capabilities\" target=\"_blank\">Dokumentation för roller och rättigheter</a>"
 
-#: wp-admin/export.php:42
+#: wp-admin/export.php:44
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to  limit the export by category, author, date range by month, or publishing status."
 msgstr "Du kan exportera din webbplats innehåll till en fil för att sedan kunna importera det till en annan installation eller plattform. Exportfilen kommer att vara ett XML-filformat som kallas WXR. Inlägg, sidor, kommentarer, egna fält, kategorier och etiketter kan inkluderas. Du kan filtrera vilket innehålls och vilka publiceringsstatusar som ska tas med i WXR-filen."
 
@@ -2393,7 +2405,7 @@ msgstr "Tillgänglig"
 msgid "Akismet was unable to check this comment (response: %s), will automatically retry again later."
 msgstr "Akismet kunde inte kontrollera den här kommentaren (svar: %s), Akismet kommer automatiskt att försöka igen senare."
 
-#: wp-admin/user-edit.php:272
+#: wp-admin/user-edit.php:276
 msgid "Super admin privileges cannot be removed because this user has the network admin email."
 msgstr "Superadmin privilegier kan inte tas bort eftersom den här användaren har e-postadressen för nätverketsadmin."
 
@@ -2556,29 +2568,29 @@ msgstr "Standard"
 msgid "Post types cannot exceed 20 characters in length"
 msgstr "Inläggstyper kan inte överstiga 20 tecken"
 
-#: wp-admin/export.php:148
-#: wp-admin/export.php:180
+#: wp-admin/export.php:150
+#: wp-admin/export.php:182
 msgid "Date range:"
 msgstr "Datumintervall:"
 
-#: wp-admin/export.php:132
+#: wp-admin/export.php:134
 msgid "This will contain all of your posts, pages, comments, custom fields, terms, navigation menus and custom posts."
 msgstr "Denna kommer att innehålla alla dina inlägg, sidor, kommentarer, anpassade fält, termer, menyer och anpassade poster."
 
-#: wp-admin/export.php:128
+#: wp-admin/export.php:130
 msgid "Choose what to export"
 msgstr "Välj vad du vill exportera"
 
-#: wp-admin/export.php:126
+#: wp-admin/export.php:128
 msgid "Once you&#8217;ve saved the download file, you can use the Import function in another WordPress installation to import this site."
 msgstr "När du har sparat den nedladdade filen kan du använda importfunktionen i en annan WordPress installation för att importera denna webbplats."
 
-#: wp-admin/export.php:141
-#: wp-admin/export.php:173
+#: wp-admin/export.php:143
+#: wp-admin/export.php:175
 msgid "Authors:"
 msgstr "Författare:"
 
-#: wp-admin/export.php:131
+#: wp-admin/export.php:133
 msgid "All content"
 msgstr "Allt innehåll"
 
@@ -2611,7 +2623,7 @@ msgstr "Ogiltigt inläggsformat"
 msgid "%1$s &#8212; WordPress"
 msgstr "%1$s &#8212; WordPress"
 
-#: wp-admin/user-edit.php:218
+#: wp-admin/user-edit.php:222
 msgid "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">More information</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Keyboard_Shortcuts\" target=\"_blank\">Mer information</a>"
 
@@ -3186,7 +3198,7 @@ msgstr "Gå till sidan för tillägg"
 msgid "Go to WordPress Updates page"
 msgstr "Gå till sidan, uppdateringar för WordPress"
 
-#: wp-admin/import.php:130
+#: wp-admin/import.php:133
 msgid "If the importer you need is not listed, <a href=\"%s\">search the plugins directory</a> to see if an importer is available."
 msgstr "Om impotören du behöver inte är listad, <a href=\"%s\">sök i tilläggskatalogen</a> för att se om en importör finns tillgänglig."
 
@@ -3391,7 +3403,7 @@ msgstr "Om du inte minns dina uppgifter, kontakta ditt webbhotell."
 msgid "You can Upload a theme manually if you have already downloaded its ZIP archive onto your computer (make sure it is from a trusted and original source). You can also do it the old-fashioned way and copy a downloaded theme&#8217;s folder via FTP into your <code>/wp-content/themes</code> directory."
 msgstr "Du kan ladda upp ett tema manuellt om du redan har laddat ner dess ZIP-arkiv på din dator (se till att det kommer från en betrodd och ursprunglig källa). Du kan också göra det på det gamla vanliga sättet och ladda upp den uppackade temamappen via FTP till din <code>/wp-content/themes</code>-mapp."
 
-#: wp-admin/user-edit.php:41
+#: wp-admin/user-edit.php:40
 msgid "Your profile contains information about you (your &#8220;account&#8221;) as well as some personal options related to using WordPress."
 msgstr "Din profil innehåller information om dig (ditt &#8221;konto&#8221;) och ett antal personliga inställningar för användning av WordPress."
 
@@ -3476,18 +3488,14 @@ msgid "Remember to click the Add User button at the bottom of this screen when y
 msgstr "Glöm inte att klicka på knappen Lägg till användare längst ner på sidan när du är klar."
 
 #: wp-admin/user-edit.php:42
-msgid "You can change your password, turn on keyboard shortcuts, change the color scheme of your WordPress administration screens, and turn off the WYSIWYG (Visual) editor, among other things."
-msgstr "Du kan ändra ditt lösenord, aktivera tangentbordsgenvägar, ändra färgschema för din adminpanel och stänga av den visuella redigeraren (WYSIWYG), bland annat."
-
-#: wp-admin/user-edit.php:43
 msgid "Your username cannot be changed, but you can use other fields to enter your real name or a nickname, and change which name to display on your posts."
 msgstr "Ditt användarnamn kan inte ändras, men du kan använda något av övriga fält för att ange ett riktigt namn eller smeknamn och för att ändra vilket visningsnamn som ska visas i dina inlägg."
 
-#: wp-admin/user-edit.php:44
+#: wp-admin/user-edit.php:43
 msgid "Required fields are indicated; the rest are optional. Profile information will only be displayed if your theme is set up to do so."
 msgstr "Obligatoriska fält är markerade, resterande fält är valfria. Profilinformation visas endast om temat är konfigurerat för det."
 
-#: wp-admin/user-edit.php:45
+#: wp-admin/user-edit.php:44
 msgid "Remember to click the Update Profile button when you are finished."
 msgstr "Glöm inte att klicka på knappen Uppdatera profil när du är klar."
 
@@ -3620,7 +3628,7 @@ msgstr "Original: %s"
 msgid "Function Name&hellip;"
 msgstr "Funktionsnamn&hellip;"
 
-#: wp-admin/import.php:98
+#: wp-admin/import.php:101
 msgid "Activate importer"
 msgstr "Aktivera importör"
 
@@ -3642,7 +3650,7 @@ msgid_plural "%1$s Responses to %2$s"
 msgstr[0] "En kommentar till %2$s"
 msgstr[1] "%1$s kommentarer till %2$s"
 
-#: wp-admin/tools.php:55
+#: wp-admin/tools.php:60
 msgid "<a href=\"%s\">Use this</a> to convert categories to tags or tags to categories."
 msgstr "<a href=\"%s\">Använd denna</a> för att konvertera existerande kategorier till etiketter eller vise versa."
 
@@ -3659,11 +3667,11 @@ msgctxt "nav menu front page title"
 msgid "Home: %s"
 msgstr "Hem: %s"
 
-#: wp-admin/import.php:59
+#: wp-admin/import.php:62
 msgid "ERROR:"
 msgstr "FEL:"
 
-#: wp-admin/import.php:59
+#: wp-admin/import.php:62
 msgid "The <strong>%s</strong> importer is invalid or is not installed."
 msgstr "<strong>%s</strong> importeraren är ogiltig eller inte installerad."
 
@@ -3676,21 +3684,13 @@ msgstr "Sidattribut"
 msgid "Need help? Use the Help tab in the upper right of your screen."
 msgstr "Behöver du hjälp? Använd fliken Hjälp uppe till höger."
 
-#: wp-admin/tools.php:17
-msgid "Note: Turbo/Gears is no longer promoted on this screen as it was in previous versions due to the fact that Google has discontinued support for it."
-msgstr "Notera: Turbo/Gears främjas inte längre på denna sida som i tidigare versioner eftersom Google har valt att lägga ner utvecklingen av det."
-
-#: wp-admin/import.php:20
+#: wp-admin/import.php:22
 msgid "This screen lists links to plugins to import data from blogging/content management platforms. Choose the platform you want to import from, and click Install Now when you are prompted in the popup window. If your platform is not listed, click the link to search the plugin directory for other importer plugins to see if there is one for your platform."
 msgstr "Den här sidan länkar till tillägg för att importera innehåll från andra system. Välj den plattform du vill importera från och klicka på Installera nu när du ombedes i popup-fönstret. Om din plattform inte är med i listan, klicka på länken för att söka i tilläggsförrådet efter andra importeringstillägg för se om det finns något för din plattform."
 
-#: wp-admin/export.php:43
+#: wp-admin/export.php:45
 msgid "Once generated, your WXR file can be imported by another WordPress site or by another blogging platform able to access this format."
 msgstr "När genererad så kan din WXR-fil importeras i en annan installation av WordPress eller på andra bloggplattformer som har stöd för formatet."
-
-#: wp-admin/import.php:21
-msgid "In previous versions of WordPress, all the importers were built-in, but they have been turned into plugins as of version 3.0 since most people only use them once or infrequently."
-msgstr "I tidigare versioner av WordPress så var alla importörer inbyggda, men de har nu gjorts om till tillägg från och med version 3.0 eftersom de används väldigt sällan i en installation."
 
 #: wp-admin/link-manager.php:49
 msgid "You can customize the display of this screen using the Screen Options tab and/or the dropdown filters above the links table."
@@ -3845,25 +3845,25 @@ msgstr "Beskär bild för sidhuvud"
 #: wp-admin/plugin-install.php:54
 #: wp-admin/options-privacy.php:25
 #: wp-admin/theme-editor.php:37
-#: wp-admin/tools.php:21
+#: wp-admin/tools.php:26
 #: wp-admin/edit-form-advanced.php:208
 #: wp-admin/edit-form-advanced.php:233
 #: wp-admin/comment.php:53
 #: wp-admin/edit-comments.php:134
-#: wp-admin/import.php:25
+#: wp-admin/import.php:28
 #: wp-admin/custom-background.php:91
 #: wp-admin/options-media.php:26
 #: wp-admin/edit.php:185
 #: wp-admin/edit.php:206
 #: wp-admin/upload.php:169
-#: wp-admin/export.php:47
+#: wp-admin/export.php:49
 #: wp-admin/theme-install.php:48
 #: wp-admin/users.php:52
 #: wp-admin/options-writing.php:24
 #: wp-admin/update-core.php:436
 #: wp-admin/options-reading.php:52
 #: wp-admin/options-permalink.php:27
-#: wp-admin/user-edit.php:49
+#: wp-admin/user-edit.php:53
 #: wp-admin/widgets.php:61
 #: wp-admin/plugins.php:337
 #: wp-admin/edit-tags.php:226
@@ -3956,7 +3956,7 @@ msgstr "Radera denna post permanent"
 msgid "Allow comments."
 msgstr "Tillåt kommentarer."
 
-#: wp-admin/import.php:35
+#: wp-admin/import.php:38
 msgid "Install the LiveJournal importer to import posts from LiveJournal using their API."
 msgstr "Installera importören för LiveJournal för att importera inlägg från LiveJournal genom att använda deras API."
 
@@ -4078,12 +4078,12 @@ msgstr "Inlägg publicerat. <a href=\"%s\">Visa inlägg</a> | <a href=\"%s\">Red
 msgid "Draft saved. <a href=\"%s\">Preview post</a> | <a href=\"%s\">Edit post</a>"
 msgstr "Utkast sparat. <a href=\"%s\">Förhandsgranska inlägg</a> | <a href=\"%s\">Redigera inlägg</a>"
 
-#: wp-admin/tools.php:54
-#: wp-admin/import.php:34
+#: wp-admin/tools.php:59
+#: wp-admin/import.php:37
 msgid "Categories and Tags Converter"
 msgstr "Kategori och etikett-konvertering"
 
-#: wp-admin/import.php:34
+#: wp-admin/import.php:37
 msgid "Install the category/tag converter to convert existing categories to tags or tags to categories, selectively."
 msgstr "Installera kategori/etikett-konverteraren för att konvertera existerande kategorier till etiketter eller vise versa selektivt."
 
@@ -4107,7 +4107,7 @@ msgstr "En ny trackback till ditt inlägg \\\"%s\\\""
 msgid "New comment on your post \"%s\""
 msgstr "En ny kommentar till ditt inlägg \"%s\""
 
-#: wp-admin/user-edit.php:339
+#: wp-admin/user-edit.php:343
 msgid "There is a pending change of your e-mail to <code>%1$s</code>. <a href=\"%2$s\">Cancel</a>"
 msgstr "En ändring av din e-postadress till <code>%1$s</code> står som väntande. <a href=\"%2$s\">Avbryt</a>"
 
@@ -4115,13 +4115,13 @@ msgstr "En ändring av din e-postadress till <code>%1$s</code> står som väntan
 msgid "Most Recent"
 msgstr "Senaste"
 
-#: wp-admin/export.php:154
-#: wp-admin/export.php:186
+#: wp-admin/export.php:156
+#: wp-admin/export.php:188
 msgid "End Date"
 msgstr "Slutdatum"
 
-#: wp-admin/export.php:150
-#: wp-admin/export.php:182
+#: wp-admin/export.php:152
+#: wp-admin/export.php:184
 msgid "Start Date"
 msgstr "Startdatum"
 
@@ -4289,32 +4289,32 @@ msgstr "av %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
 msgid "Leave a comment"
 msgstr "Lämna en kommentar"
 
-#: wp-admin/includes/screen.php:953
+#: wp-admin/includes/screen.php:956
 msgctxt "Screen Options"
 msgid "Show on screen"
 msgstr "Visa på skärmen"
 
-#: wp-admin/import.php:40
+#: wp-admin/import.php:43
 msgid "Install the WordPress importer to import posts, pages, comments, custom fields, categories, and tags from a WordPress export file."
 msgstr "Installera WordPress-importören för att importera inlägg, kommentarer, anpassade fält, sidor, kategorier och etiketter från en WordPress-exportfil."
 
-#: wp-admin/import.php:38
+#: wp-admin/import.php:41
 msgid "Install the RSS importer to import posts from an RSS feed."
 msgstr "Installera RSS-importören för att importera inlägg från ett RSS-flöde."
 
-#: wp-admin/import.php:37
+#: wp-admin/import.php:40
 msgid "Install the blogroll importer to import links in OPML format."
 msgstr "Installera länklisteimportören för att importera länkar i OPML-format."
 
-#: wp-admin/import.php:36
+#: wp-admin/import.php:39
 msgid "Install the Movable Type importer to import posts and comments from a Movable Type or TypePad blog."
 msgstr "Installera Movable Type-importören för att importera inlägg och kommentarer från en Movable Type- eller TypePad-blogg."
 
-#: wp-admin/import.php:33
+#: wp-admin/import.php:36
 msgid "Install the Blogger importer to import posts, comments, and users from a Blogger blog."
 msgstr "Installera Blogger-importören för att importera inlägg, kommentarer och användare från en Blogger-blogg."
 
-#: wp-admin/import.php:105
+#: wp-admin/import.php:108
 msgid "Install importer"
 msgstr "Installera importör"
 
@@ -4422,12 +4422,12 @@ msgstr "Hierarki-classen med namn <strong>%s</strong> existerar inte."
 msgid "Show advanced menu properties"
 msgstr "Visa avancerade menyalternativ"
 
-#: wp-admin/includes/screen.php:838
+#: wp-admin/includes/screen.php:841
 msgctxt "Columns"
 msgid "Show on screen"
 msgstr "Visa på skärmen"
 
-#: wp-admin/includes/screen.php:815
+#: wp-admin/includes/screen.php:818
 msgctxt "Metaboxes"
 msgid "Show on screen"
 msgstr "Visa på skärmen"
@@ -4697,8 +4697,8 @@ msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att k
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Du har inte tillräcklig behörighet för att publicera sidor på den här webbplatsen."
 
-#: wp-admin/user-edit.php:259
-#: wp-admin/user-edit.php:261
+#: wp-admin/user-edit.php:263
+#: wp-admin/user-edit.php:265
 msgid "&mdash; No role for this site &mdash;"
 msgstr "&mdash; Ingen roll för den här webbplatsen &mdash;"
 
@@ -4721,7 +4721,7 @@ msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att k
 msgid "You are not allowed access to details about this site."
 msgstr "Du har inte tillräcklig behörighet för att visa detaljer om den här webbplatsen."
 
-#: wp-admin/tools.php:38
+#: wp-admin/tools.php:43
 #: wp-admin/options-writing.php:93
 msgid "Use Press This to clip text, images and videos from any web page. Then edit and add more straight from Press This before you save or publish it in a post on your site."
 msgstr "Använd Blogga det här för att klippa in text, bilder och videoklipp från vilken webbplats som helst. Redigera sedan och lägg till mer innehåll direkt från Blogga det här innan du sparar eller publicerar inlägget på din webbplats."
@@ -4894,7 +4894,7 @@ msgstr "Du har inte tillräcklig behörighet för att exportera innehåll från 
 msgid "You do not have sufficient permissions to import content in this site."
 msgstr "Du har inte tillräcklig behörighet för att importera innehåll till den här webbplatsen."
 
-#: wp-admin/import.php:61
+#: wp-admin/import.php:64
 msgid "If you have posts or comments in another system, WordPress can import those into this site. To get started, choose a system to import from below:"
 msgstr "Om du har inlägg eller kommentarer i ett annat system kan WordPress importera dem till den här webbplatsen. Välj ett system att importera från för att sätta igång:"
 
@@ -4933,11 +4933,11 @@ msgstr "Inga resultat funna."
 msgid "The menu name <strong>%s</strong> conflicts with another menu name. Please try another."
 msgstr "Menynamnet <strong>%s</strong> kolliderar med ett redan befintligt namn, var vänlig försök med ett annat namn."
 
-#: wp-admin/includes/schema.php:952
+#: wp-admin/includes/schema.php:953
 msgid "To use a subdomain configuration, you must have a wildcard entry in your DNS. This usually means adding a <code>*</code> hostname record pointing at your web server in your DNS configuration tool."
 msgstr "Om du vill använda en subdomänkonfiguration så måste du skapa en jokerpost i din DNS. Detta innebär ofast att man anger en <code>*</code> som en 'hostname'-post pekad mot servern i DNS-konfigurationen."
 
-#: wp-admin/includes/schema.php:948
+#: wp-admin/includes/schema.php:949
 msgid "The installer attempted to contact a random hostname (<code>%1$s</code>) on your domain."
 msgstr "Installeraren försökte slumpvis ansluta till hostnamn (<code>%1$s</code>) för din domän."
 
@@ -5269,15 +5269,15 @@ msgstr "Mer information om %s"
 msgid "Update Now"
 msgstr "Uppdatera nu"
 
-#: wp-admin/user-edit.php:270
+#: wp-admin/user-edit.php:274
 msgid "Grant this user super admin privileges for the Network."
 msgstr "Ge den här användaren superadminbehörigheter för nätverket."
 
-#: wp-admin/user-edit.php:157
+#: wp-admin/user-edit.php:161
 msgid "Important:"
 msgstr "Viktigt:"
 
-#: wp-admin/user-edit.php:157
+#: wp-admin/user-edit.php:161
 msgid "This user has super admin privileges."
 msgstr "Den här användaren har superadminbehörigheter."
 
@@ -5339,7 +5339,7 @@ msgstr "Otillgänglig temporärt pga planerat underhållsarbete. Titta tillbaka 
 msgid "items"
 msgstr "poster"
 
-#: wp-admin/user-edit.php:242
+#: wp-admin/user-edit.php:246
 msgid "Usernames cannot be changed."
 msgstr "Användarnamn kan inte ändras."
 
@@ -5496,11 +5496,11 @@ msgstr "Nätverket finns redan."
 msgid "You must provide a valid e-mail address."
 msgstr "Du måste ange en giltig e-postadress."
 
-#: wp-admin/includes/schema.php:950
+#: wp-admin/includes/schema.php:951
 msgid "This resulted in an error message: %s"
 msgstr "Detta resulterade i ett felmeddelande: %s"
 
-#: wp-admin/includes/schema.php:953
+#: wp-admin/includes/schema.php:954
 msgid "You can still use your site but any subdomain you create may not be accessible. If you know your DNS is correct, ignore this message."
 msgstr "Du kan fortfarande använda din webbplats men alla underdomän du skapar kanske inte är tillgänglig. Om du vet att dina DNS-inställningar är korrekta så kan du ignorera det här meddelandet."
 
@@ -5601,7 +5601,7 @@ msgstr "Du kör den senaste versionen av WordPress. Du behöver inte uppdatera. 
 msgid "WordPress Updates"
 msgstr "Uppdateringar för WordPress"
 
-#: wp-admin/user-edit.php:267
+#: wp-admin/user-edit.php:271
 msgid "Super Admin"
 msgstr "Superadmin"
 
@@ -9048,7 +9048,7 @@ msgstr "Klart. Meddelande <strong>%s</strong> raderat."
 #: wp-includes/js/tinymce/langs/wp-langs.php:285
 #: wp-includes/js/tinymce/langs/wp-langs.php:301
 #: wp-includes/js/tinymce/wp-mce-help.php:260
-#: wp-admin/includes/screen.php:760
+#: wp-admin/includes/screen.php:763
 msgid "Help"
 msgstr "Hjälp"
 
@@ -9065,25 +9065,25 @@ msgstr "Hjälp"
 #: wp-admin/plugin-install.php:56
 #: wp-admin/options-privacy.php:27
 #: wp-admin/theme-editor.php:42
-#: wp-admin/tools.php:23
+#: wp-admin/tools.php:28
 #: wp-admin/edit-form-advanced.php:210
 #: wp-admin/edit-form-advanced.php:236
 #: wp-admin/comment.php:55
 #: wp-admin/edit-comments.php:138
-#: wp-admin/import.php:27
+#: wp-admin/import.php:30
 #: wp-admin/custom-background.php:93
 #: wp-admin/options-media.php:28
 #: wp-admin/edit.php:187
 #: wp-admin/edit.php:208
 #: wp-admin/upload.php:171
-#: wp-admin/export.php:49
+#: wp-admin/export.php:51
 #: wp-admin/theme-install.php:50
 #: wp-admin/users.php:55
 #: wp-admin/options-writing.php:26
 #: wp-admin/update-core.php:438
 #: wp-admin/options-reading.php:54
 #: wp-admin/options-permalink.php:30
-#: wp-admin/user-edit.php:51
+#: wp-admin/user-edit.php:55
 #: wp-admin/widgets.php:63
 #: wp-admin/plugins.php:339
 #: wp-admin/edit-tags.php:235
@@ -9092,15 +9092,15 @@ msgstr "Hjälp"
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Supportforum</a><br /><a href=\"http://wp-support.se/\" target=\"_blank\">WP-Support Sverige</a>"
 
-#: wp-admin/includes/screen.php:765
+#: wp-admin/includes/screen.php:768
 msgid "Screen Options"
 msgstr "Panelinställningar"
 
-#: wp-admin/includes/screen.php:901
+#: wp-admin/includes/screen.php:904
 msgid "Screen Layout"
 msgstr "Panellayout"
 
-#: wp-admin/includes/screen.php:903
+#: wp-admin/includes/screen.php:906
 msgid "Number of Columns:"
 msgstr "Antal kolumner:"
 
@@ -9518,14 +9518,14 @@ msgstr "Användare(n) existerar redan."
 #: wp-login.php:463
 #: wp-admin/user-new.php:325
 #: wp-admin/install.php:122
-#: wp-admin/user-edit.php:379
+#: wp-admin/user-edit.php:383
 msgid "Strength indicator"
 msgstr "Indikator för styrka"
 
 #: wp-login.php:464
 #: wp-admin/user-new.php:326
 #: wp-admin/install.php:123
-#: wp-admin/user-edit.php:380
+#: wp-admin/user-edit.php:384
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Tips: Ditt lösenord bör innehålla minst sju tecken. För att göra det säkrare använd stora som små bokstäver, siffror och symboler så som ! \" ? $ % ^ &amp; )."
 
@@ -9554,7 +9554,7 @@ msgid "Insufficient Requirements"
 msgstr "Minimumkraven uppfylls inte"
 
 #: wp-admin/install.php:170
-#: wp-admin/includes/screen.php:831
+#: wp-admin/includes/screen.php:834
 msgid "Welcome"
 msgstr "Välkommen"
 
@@ -9791,13 +9791,14 @@ msgid "Profile"
 msgstr "Profil"
 
 #: wp-admin/users.php:388
-#: wp-admin/user-edit.php:182
+#: wp-admin/user-edit.php:186
 #: wp-admin/menu.php:176
 #: wp-admin/menu.php:178
 msgctxt "user"
 msgid "Add New"
 msgstr "Lägg till ny"
 
+#: wp-admin/user-edit.php:48
 #: wp-admin/menu.php:180
 #: wp-admin/menu.php:183
 msgid "Your Profile"
@@ -9863,7 +9864,7 @@ msgstr "Sökväg"
 msgid "Remove"
 msgstr "Ta bort"
 
-#: wp-admin/user-edit.php:246
+#: wp-admin/user-edit.php:250
 msgid "Role:"
 msgstr "Roll:"
 
@@ -10953,12 +10954,12 @@ msgstr ""
 msgid "Broken Themes"
 msgstr "Trasiga teman"
 
-#: wp-admin/tools.php:36
+#: wp-admin/tools.php:41
 #: wp-admin/options-writing.php:92
 msgid "Press This is a bookmarklet: a little app that runs in your browser and lets you grab bits of the web."
 msgstr "Blogga det här är en genväg: ett litet skript som körs i din webbläsare och låter dig klippa in bitar från webben."
 
-#: wp-admin/tools.php:39
+#: wp-admin/tools.php:44
 #: wp-admin/options-writing.php:94
 msgid "Drag-and-drop the following link to your bookmarks bar or right click it and add it to your favorites for a posting shortcut."
 msgstr "Dra-och-släpp följande länk till ditt bokmärkesfält eller högerklicka och lägg till den i dina favoriter för att skapa en genväg till inläggspostning."
@@ -11162,56 +11163,56 @@ msgstr "Redigera användare"
 msgid "Invalid user ID."
 msgstr "Ogiltigt användar-ID."
 
-#: wp-admin/user-edit.php:68
+#: wp-admin/user-edit.php:72
 msgid "Use https"
 msgstr "Använd https"
 
-#: wp-admin/user-edit.php:69
+#: wp-admin/user-edit.php:73
 msgid "Always use https when visiting the admin"
 msgstr "Använd alltid https vid besök till adminpanelen"
 
-#: wp-admin/user-edit.php:77
-#: wp-admin/user-edit.php:104
-#: wp-admin/user-edit.php:151
+#: wp-admin/user-edit.php:81
+#: wp-admin/user-edit.php:108
+#: wp-admin/user-edit.php:155
 msgid "You do not have permission to edit this user."
 msgstr "Du saknar rättigheter för att redigera den här användaren."
 
-#: wp-admin/user-edit.php:164
+#: wp-admin/user-edit.php:168
 msgid "User updated."
 msgstr "Användaren uppdaterad."
 
-#: wp-admin/user-edit.php:199
+#: wp-admin/user-edit.php:203
 msgid "Personal Options"
 msgstr "Personliga inställningar"
 
-#: wp-admin/user-edit.php:204
+#: wp-admin/user-edit.php:208
 msgid "Visual Editor"
 msgstr "Visuell redigerare"
 
-#: wp-admin/user-edit.php:205
+#: wp-admin/user-edit.php:209
 msgid "Disable the visual editor when writing"
 msgstr "Stäng av den visuella redigeraren när du skriver"
 
 #: wp-admin/includes/misc.php:566
-#: wp-admin/user-edit.php:210
+#: wp-admin/user-edit.php:214
 msgid "Admin Color Scheme"
 msgstr "Färgschema för adminpanel"
 
-#: wp-admin/user-edit.php:218
+#: wp-admin/user-edit.php:222
 msgid "Enable keyboard shortcuts for comment moderation."
 msgstr "Aktivera kortkommandon för kommentarsmoderering. "
 
 #: wp-admin/user-new.php:307
-#: wp-admin/user-edit.php:278
+#: wp-admin/user-edit.php:282
 msgid "First Name"
 msgstr "Förnamn"
 
 #: wp-admin/user-new.php:311
-#: wp-admin/user-edit.php:283
+#: wp-admin/user-edit.php:287
 msgid "Last Name"
 msgstr "Efternamn"
 
-#: wp-admin/user-edit.php:288
+#: wp-admin/user-edit.php:292
 msgid "Nickname"
 msgstr "Smeknamn"
 
@@ -11219,63 +11220,63 @@ msgstr "Smeknamn"
 #: wp-includes/theme-compat/comments.php:81
 #: wp-admin/user-new.php:298
 #: wp-admin/user-new.php:302
-#: wp-admin/user-edit.php:288
-#: wp-admin/user-edit.php:333
+#: wp-admin/user-edit.php:292
+#: wp-admin/user-edit.php:337
 msgid "(required)"
 msgstr "(måste anges)"
 
-#: wp-admin/user-edit.php:293
+#: wp-admin/user-edit.php:297
 msgid "Display name publicly as"
 msgstr "Visa namn offentligt som"
 
-#: wp-admin/user-edit.php:329
+#: wp-admin/user-edit.php:333
 msgid "Contact Info"
 msgstr "Kontaktinformation"
 
 #: wp-includes/theme-compat/comments.php:84
 #: wp-includes/comment-template.php:1529
 #: wp-admin/user-new.php:315
-#: wp-admin/user-edit.php:346
+#: wp-admin/user-edit.php:350
 msgid "Website"
 msgstr "Webbplats"
 
-#: wp-admin/user-edit.php:362
+#: wp-admin/user-edit.php:366
 msgid "About Yourself"
 msgstr "Om dig själv"
 
-#: wp-admin/user-edit.php:362
+#: wp-admin/user-edit.php:366
 msgid "About the user"
 msgstr "Om användaren"
 
-#: wp-admin/user-edit.php:366
+#: wp-admin/user-edit.php:370
 msgid "Biographical Info"
 msgstr "Biografi"
 
-#: wp-admin/user-edit.php:368
+#: wp-admin/user-edit.php:372
 msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
 msgstr "Skriv ner några rader om dig själv. Det här visas eventuellt offentligt om ditt tema har stöd för det."
 
-#: wp-admin/user-edit.php:376
+#: wp-admin/user-edit.php:380
 msgid "New Password"
 msgstr "Nytt lösenord"
 
-#: wp-admin/user-edit.php:377
+#: wp-admin/user-edit.php:381
 msgid "If you would like to change the password type a new one. Otherwise leave this blank."
 msgstr "Fyll i ett nytt lösenord här om du vill ändra lösenord. Lämna det tomt i annat fall."
 
-#: wp-admin/user-edit.php:378
+#: wp-admin/user-edit.php:382
 msgid "Type your new password again."
 msgstr "Skriv ditt nya lösenord igen."
 
-#: wp-admin/user-edit.php:397
+#: wp-admin/user-edit.php:401
 msgid "Additional Capabilities"
 msgstr "Ytterligare egenskaper"
 
-#: wp-admin/user-edit.php:416
+#: wp-admin/user-edit.php:420
 msgid "Update Profile"
 msgstr "Uppdatera profil"
 
-#: wp-admin/user-edit.php:416
+#: wp-admin/user-edit.php:420
 msgid "Update User"
 msgstr "Uppdatera användare"
 
@@ -11688,11 +11689,11 @@ msgstr "Radera alla"
 msgid "These are the latest comments identified as spam by Akismet. If you see any mistakes, simply mark the comment as \"not spam\" and Akismet will learn from the submission. If you wish to recover a comment from spam, simply select the comment, and click Not Spam. After 15 days we clean out the junk for you."
 msgstr "Det här är de senaste kommentarerna som Akismet har identifierat som skräp. Om du lägger märke till några misstag kan du enkelt markera kommentaren som \"inte skräp\". Akismet kommer att lära sig av sitt misstag. Om du vill återställa en kommentar från skräppostfiltret så kan du välja kommentaren och klicka på Inte skräppost. Efter 15 dagar rensar vi automatiskt bort skräppost."
 
-#: wp-admin/export.php:138
-#: wp-admin/export.php:144
-#: wp-admin/export.php:161
-#: wp-admin/export.php:176
-#: wp-admin/export.php:193
+#: wp-admin/export.php:140
+#: wp-admin/export.php:146
+#: wp-admin/export.php:163
+#: wp-admin/export.php:178
+#: wp-admin/export.php:195
 #: wp-content/plugins/akismet/legacy.php:209
 msgid "All"
 msgstr "Alla"
@@ -11799,7 +11800,7 @@ msgstr "(Läs mer...)"
 msgid "Pages:"
 msgstr "Sidor:"
 
-#: wp-admin/export.php:137
+#: wp-admin/export.php:139
 msgid "Categories:"
 msgstr "Kategorier:"
 
@@ -12050,7 +12051,7 @@ msgstr "Författare"
 #: wp-admin/comment.php:166
 #: wp-admin/includes/class-wp-users-list-table.php:165
 #: wp-admin/includes/template.php:323
-#: wp-admin/user-edit.php:333
+#: wp-admin/user-edit.php:337
 msgid "E-mail"
 msgstr "E-post"
 
@@ -12379,7 +12380,7 @@ msgid "Move to Trash"
 msgstr "Flytta till papperskorgen"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:13
-#: wp-admin/includes/screen.php:964
+#: wp-admin/includes/screen.php:967
 #: wp-admin/includes/class-wp-list-table.php:303
 msgid "Apply"
 msgstr "Utför"
@@ -12396,7 +12397,7 @@ msgstr "Visa alla kommentarstyper"
 #: wp-admin/includes/class-wp-posts-list-table.php:912
 #: wp-admin/includes/class-wp-comments-list-table.php:218
 #: wp-admin/includes/file.php:16
-#: wp-admin/includes/screen.php:851
+#: wp-admin/includes/screen.php:854
 #: wp-admin/includes/class-wp-media-list-table.php:139
 #: wp-content/plugins/akismet/legacy.php:214
 msgid "Comments"
@@ -12741,7 +12742,7 @@ msgstr "Länken sparad."
 #: wp-includes/comment-template.php:1525
 #: wp-admin/includes/class-wp-users-list-table.php:164
 #: wp-admin/includes/template.php:318
-#: wp-admin/user-edit.php:237
+#: wp-admin/user-edit.php:241
 msgid "Name"
 msgstr "Namn"
 
@@ -12922,23 +12923,24 @@ msgid "Excerpt View"
 msgstr "Lista med utdrag"
 
 #: wp-admin/export.php:17
+#: wp-admin/export.php:43
 #: wp-admin/menu.php:193
 msgid "Export"
 msgstr "Exportera"
 
-#: wp-admin/export.php:124
+#: wp-admin/export.php:126
 msgid "When you click the button below WordPress will create an XML file for you to save to your computer."
 msgstr "När du trycker på knappen nedan så kommer WordPress att skapa en XML-fil som du kan spara på din dator."
 
-#: wp-admin/export.php:125
+#: wp-admin/export.php:127
 msgid "This format, which we call WordPress eXtended RSS or WXR, will contain your posts, pages, comments, custom fields, categories, and tags."
 msgstr "Formatet, som vi kallar WordPress eXtended RSS eller WXR, innehåller dina inlägg, kommentarer, anpassade fält, kategorier och etiketter."
 
-#: wp-admin/export.php:205
+#: wp-admin/export.php:207
 msgid "Download Export File"
 msgstr "Ladda ner exportfil"
 
-#: wp-admin/import.php:78
+#: wp-admin/import.php:81
 msgid "No importers are available."
 msgstr "Inga tillgängliga importörer."
 
@@ -12948,14 +12950,14 @@ msgstr "Inga tillgängliga importörer."
 msgid "Continue"
 msgstr "Fortsätt"
 
-#: wp-admin/export.php:134
+#: wp-admin/export.php:136
 #: wp-admin/includes/class-wp-users-list-table.php:167
 #: wp-admin/includes/class-wp-terms-list-table.php:109
 #: wp-admin/menu.php:42
 msgid "Posts"
 msgstr "Inlägg"
 
-#: wp-admin/import.php:33
+#: wp-admin/import.php:36
 msgid "Blogger"
 msgstr "Blogger"
 
@@ -12974,7 +12976,7 @@ msgstr "Klart"
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: wp-admin/import.php:35
+#: wp-admin/import.php:38
 msgid "LiveJournal"
 msgstr "LiveJournal"
 
@@ -12990,17 +12992,17 @@ msgstr "&mdash; Välj &mdash;"
 msgid "Submit"
 msgstr "Skicka"
 
-#: wp-admin/import.php:36
+#: wp-admin/import.php:39
 msgid "Movable Type and TypePad"
 msgstr "Movable Type och TypePad"
 
-#: wp-admin/import.php:37
+#: wp-admin/import.php:40
 #: wp-admin/includes/upgrade.php:129
 msgid "Blogroll"
 msgstr "Länklista"
 
 #: wp-includes/default-widgets.php:704
-#: wp-admin/import.php:38
+#: wp-admin/import.php:41
 msgid "RSS"
 msgstr "RSS"
 
@@ -13472,8 +13474,9 @@ msgstr "Inlägg sparat. <a href=\"%s\">Förhandsgranska inlägg</a> | <a href=\"
 msgid "You can also try %s, easy blogging from anywhere on the Web."
 msgstr "Du kan även testa %s, enkel bloggning var som helst på webben."
 
-#: wp-admin/tools.php:35
+#: wp-admin/tools.php:16
 #: wp-admin/tools.php:40
+#: wp-admin/tools.php:45
 #: wp-admin/options-writing.php:91
 #: wp-admin/options-writing.php:95
 #: wp-admin/includes/dashboard.php:509
@@ -13896,7 +13899,7 @@ msgstr "Servernamn"
 #: wp-admin/install.php:226
 #: wp-admin/includes/file.php:1003
 #: wp-admin/includes/class-wp-users-list-table.php:163
-#: wp-admin/user-edit.php:241
+#: wp-admin/user-edit.php:245
 msgid "Username"
 msgstr "Användarnamn"
 
@@ -14018,7 +14021,7 @@ msgid "The image can be cropped by clicking on it and dragging to select the des
 msgstr "Bilden kan beskäras genom att klicka och dra en markering av den önskade delen. Under tiden du skapar en markering så visas dess dimensioner nedan."
 
 #: wp-admin/includes/image-edit.php:121
-#: wp-admin/user-edit.php:217
+#: wp-admin/user-edit.php:221
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
@@ -14489,8 +14492,8 @@ msgstr "Spara som väntande"
 msgid "Preview Changes"
 msgstr "Förhandsgranska ändringar"
 
-#: wp-admin/export.php:159
-#: wp-admin/export.php:191
+#: wp-admin/export.php:161
+#: wp-admin/export.php:193
 #: wp-admin/includes/meta-boxes.php:60
 msgid "Status:"
 msgstr "Status:"
@@ -15271,7 +15274,7 @@ msgstr "Prenumerant"
 msgid "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit or delete it, then start blogging!"
 msgstr "Välkommen till <a href=\"SITE_URL\">SITE_NAME</a>. Det här är ditt första inlägg. Redigera eller radera det. Sen är det bara att börja blogga!"
 
-#: wp-admin/includes/schema.php:947
+#: wp-admin/includes/schema.php:948
 msgid "Warning! Wildcard DNS may not be configured correctly!"
 msgstr "Varning! Joker-dns-posten är kanske inte korrekt konfigurerad!"
 
@@ -15526,7 +15529,7 @@ msgstr "Hitta inlägg eller sidor"
 #: wp-includes/post-template.php:816
 #: wp-includes/default-widgets.php:18
 #: wp-includes/default-widgets.php:24
-#: wp-admin/export.php:170
+#: wp-admin/export.php:172
 #: wp-admin/menu.php:68
 msgid "Pages"
 msgstr "Sidor"
@@ -15586,11 +15589,11 @@ msgctxt "post state"
 msgid "Pending"
 msgstr "Väntande"
 
-#: wp-admin/includes/screen.php:786
+#: wp-admin/includes/screen.php:789
 msgid "Enable accessibility mode"
 msgstr "Aktivera kompatibilitetsläge"
 
-#: wp-admin/includes/screen.php:786
+#: wp-admin/includes/screen.php:789
 msgid "Disable accessibility mode"
 msgstr "Inaktivera kompatibilitetsläge"
 
@@ -15824,6 +15827,7 @@ msgid "You are not allowed to import."
 msgstr "Du har inte tillräcklig behörighet för att kunna importera."
 
 #: wp-admin/import.php:17
+#: wp-admin/import.php:21
 #: wp-admin/menu.php:192
 #: wp-admin/admin.php:193
 msgid "Import"
