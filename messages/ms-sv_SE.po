@@ -2,19 +2,27 @@
 # This file is distributed under the same license as the Multisite package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-12-02 23:45+0100\n"
+"Project-Id-Version: WordPress Multisite sv_SE\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-12-09 08:01+0100\n"
+"Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
+"Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
-"Project-Id-Version: WordPress Multisite sv_SE\n"
-"POT-Creation-Date: \n"
-"Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
-"Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/network.php:110
+msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
+msgstr "När du lägger till denna kod och uppdatera webbläsaren, bör nätverket vara aktiverat. Denna sida som nu återfinns i nätverksadmins navigationsmeny kommer att agera som ett arkiv av den extra koden du behöver. Du kan växla mellan nätverksadmin och webbplatsadmin genom att klicka på Nätverksadmin eller ett enskilt webbplatsnamn i rullgardinsmenyn Mina webbplatser i verktygsfältet."
+
+#: wp-admin/network/upgrade.php:25
+msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
+msgstr "Använd endast den här sidan när du har uppdaterat till en ny version av WordPress via Uppdateringar/Tillgängliga uppdateringar (via Nätverksadministrationens meny eller verktygsmenyn). Om du klickar på knappen Uppdatera nätverk så söker WordPress igenom varje webbplats i nätverket, fem i taget och ser till att eventuella uppdateringar av databasen tillämpas."
 
 #: wp-admin/my-sites.php:43
 msgid "Up until WordPress version 3.0, what is now called a Multisite Network had to be installed separately as WordPress MU (multi-user)."
@@ -23,10 +31,6 @@ msgstr "Fram till WordPress version 3.0, var det som nu kallas för multisite el
 #: wp-admin/network.php:111
 msgid "The choice of subdirectory sites is disabled if this setup is more than a month old because of permalink problems with &#8220;/blog/&#8221; from the main site. This disabling will be addressed in a future version."
 msgstr "Valet av webbplatser som underkataloger inaktiveras om denna installation är mer än en månad gammal på grund av problem med permalänk &#8221;/blog/&#8221; från den huvudsakliga webbplatsen. Detta är något som kommer att åtgärdas i en framtida version."
-
-#: wp-admin/network.php:110
-msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Admin Bar."
-msgstr "När du lägger till denna kod och uppdatera webbläsaren, bör nätverket vara aktiverat. Denna sida som nu återfinns i nätverksadmins navigationsmeny, kommer att agera som ett arkiv av den extra koden du behöver. Du kan växla mellan nätverksadmin och webbplatsadmin genom att klicka på Nätverksadmin eller ett enskilt webbplatsnamn i rullgardinsmenyn Mina webbplatser i verktygsfältet."
 
 #: wp-admin/network.php:118
 msgid "Network"
@@ -94,10 +98,6 @@ msgstr "Lägg till användare kommer att skapa ett nytt användarkonto i nätver
 #: wp-admin/network/themes.php:212
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
 msgstr "Teman kan aktiveras per webbplatsbasis av nätverksadmin under redigering av webbplatser, som hittas genom att klicka på länken Redigera på sidan som listar webbplatser. Endast nätverksadministratörer kan installera eller redigera teman."
-
-#: wp-admin/network/upgrade.php:25
-msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Admin Bar). Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
-msgstr "Använd endast den här sidan när du har uppdaterat till en ny version av WordPress via Uppdateringar/Tillgängliga uppdateringar (via Nätverksadministrationens meny eller adminmeny (admin bar). Om du klickar på knappen Uppdatera nätverk så söker WordPress igenom varje webbplats i nätverket, fem i taget och ser till att eventuella uppdateringar av databasen tillämpas."
 
 #: wp-admin/network.php:108
 msgid "The next screen for Network Setup will give you individually-generated lines of code to add to your wp-config.php and .htaccess files. Make sure the settings of your FTP client make files starting with a dot visible, so that you can find .htaccess; you may have to create this file if it really is not there. Make backup copies of those two files."
