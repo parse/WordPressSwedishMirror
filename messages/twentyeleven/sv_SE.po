@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the Twenty Eleven package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2011-12-01 06:17+0100\n"
+"PO-Revision-Date: 2011-12-11 09:44+0100\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
@@ -16,7 +16,11 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: inc/theme-options.php:119
+#: image.php:30
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publicerad </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> i storleken <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Gå tillbaka till %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: inc/theme-options.php:133
 msgid "Overview"
 msgstr "Översikt"
 
@@ -103,19 +107,23 @@ msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"
 msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 msgstr "<span class=\"sep\">Postat </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> av </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
 
-#: inc/theme-options.php:134
+#: inc/theme-options.php:68
+msgid "Default Layout"
+msgstr "Standardlayout"
+
+#: inc/theme-options.php:125
 msgid "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Documentation on Theme Options</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Appearance_Theme_Options_Screen\" target=\"_blank\">Dokumentation för temainställningar</a>"
 
-#: inc/theme-options.php:135
+#: inc/theme-options.php:126
 msgid "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/\" target=\"_blank\">Supportforum</a>"
 
-#: inc/theme-options.php:133
+#: inc/theme-options.php:124
 msgid "For more information:"
 msgstr "För mer information:"
 
-#: inc/theme-options.php:128
+#: inc/theme-options.php:122
 msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
 msgstr "Kom ihåg att klicka på \"Spara ändringar\" för att spara eventuella ändringar du har gjort i inställningar för temat."
 
@@ -127,23 +135,23 @@ msgstr "Hoppa till huvudinnehåll"
 msgid "Skip to secondary content"
 msgstr "Hoppa till sekundärt innehåll"
 
-#: inc/theme-options.php:182
+#: inc/theme-options.php:189
 msgid "One-column, no sidebar"
 msgstr "En kolumn, inget sidofält"
 
-#: inc/theme-options.php:122
+#: inc/theme-options.php:116
 msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
 msgstr "Vissa teman ger anpassningsalternativ som är grupperade tillsammans på en inställningssida för temat. Om du byter tema kan dessa inställningar komma att ändras eller försvinna eftersom de är tema-specifika. Ditt aktuella tema, Twenty Eleven, har följande inställningsalternativ:"
 
-#: inc/theme-options.php:124
+#: inc/theme-options.php:118
 msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
 msgstr "<strong>Färgschema</strong>: Du kan välja en färgpalett av \"Ljus\" (ljus bakgrund med mörk text) eller \"Mörk\" (mörk bakgrund med ljus text) för din webbplats."
 
-#: inc/theme-options.php:125
+#: inc/theme-options.php:119
 msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
 msgstr "<strong>Länkfärg</strong>: Du kan välja den färg som används för textlänkar på din webbplats. Du kan ange HTML- eller hex-färgkod eller så kan du välja visuellt genom att klicka på \"Välj en färg\"-knappen för att välja från ett färghjul."
 
-#: inc/theme-options.php:126
+#: inc/theme-options.php:120
 msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
 msgstr "<strong>Standardlayout</strong>: Du kan välja om du vill att din webbplats standardlayout ska ha ett sidofält till vänster, höger eller inte alls."
 
@@ -230,19 +238,15 @@ msgstr "Länkfärg"
 msgid "Monthly Archives: %s"
 msgstr "månadsarkiv: %s"
 
-#: inc/theme-options.php:68
-msgid "Layout"
-msgstr "Layout"
-
 #: inc/widgets.php:19
 msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
 msgstr "Använd denna widget för att lista senaste inläggen från inläggsformaten noteringar, statusar, citat och länkar "
 
-#: inc/theme-options.php:272
+#: inc/theme-options.php:279
 msgid "Select a Color"
 msgstr "Välj en färg"
 
-#: inc/theme-options.php:275
+#: inc/theme-options.php:282
 msgid "Default color: %s"
 msgstr "Standardfärg: %s"
 
@@ -254,23 +258,23 @@ msgstr "Årsarkiv: %s"
 msgid "Hanoi Plant"
 msgstr "Hanoi-blom"
 
-#: inc/theme-options.php:177
+#: inc/theme-options.php:184
 msgid "Content on right"
 msgstr "Innehåll till höger"
 
-#: inc/theme-options.php:172
+#: inc/theme-options.php:179
 msgid "Content on left"
 msgstr "Innehåll till vänster"
 
-#: inc/theme-options.php:154
+#: inc/theme-options.php:161
 msgid "Dark"
 msgstr "Mörk"
 
-#: inc/theme-options.php:148
+#: inc/theme-options.php:155
 msgid "Light"
 msgstr "Ljus"
 
-#: inc/theme-options.php:310
+#: inc/theme-options.php:317
 msgid "%s Theme Options"
 msgstr "Temainställningar för %s"
 
@@ -502,7 +506,7 @@ msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
 #: content-intro.php:18
 #: content-gallery.php:54
 #: content-aside.php:34
-#: image.php:89
+#: image.php:90
 #: content-status.php:35
 #: content-page.php:18
 #: content-link.php:34
@@ -544,7 +548,7 @@ msgstr "<b>1</b> Kommentar"
 #: content-intro.php:19
 #: content-gallery.php:90
 #: content-aside.php:44
-#: image.php:40
+#: image.php:41
 #: functions.php:505
 #: functions.php:533
 #: content-status.php:45
@@ -582,10 +586,6 @@ msgid "This gallery contains <a %1$s>%2$s photo</a>."
 msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
 msgstr[0] "Detta galleri innehåller <a %1$s>%2$s bild</a>."
 msgstr[1] "Detta galleri innehåller <a %1$s>%2$s bilder</a>."
-
-#: image.php:30
-msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a>"
-msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publicerat </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> kl <a href=\"%3$s\" title=\"Länk till fullskalig bild\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Tillbaka till %7$s\" rel=\"gallery\">%7$s</a>"
 
 #: image.php:20
 msgid "Next &rarr;"
