@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Multisite sv_SE\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2011-12-09 08:01+0100\n"
+"PO-Revision-Date: 2011-12-14 23:34+0100\n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wp-support.se>\n"
 "MIME-Version: 1.0\n"
@@ -15,6 +15,18 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-activate.php:68
+msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;. Please check your email inbox at %4$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
+msgstr "Din webbplats på <a href=\"%1$s\">%2$s</a> är nu aktiv. Du kan nu logga in på din webbplats med användarnamnet &#8221;%3$s&#8221;.  Lösenord och inloggningsinstruktioner har skickats till e-postadressen %4$s. Om du inte får något mail, försäkra dig om att det inte fastnat i ditt skräppostfiler. Om du efter en timme inte mottagit något mail så kan du försöka med att <a href=\"%5$s\">återställa ditt lösenord</a>."
+
+#: wp-signup.php:221
+msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
+msgstr "<a href=\"http://%1$s\">http://%2$s</a> är din nya webbplats.  <a href=\"%3$s\">Logga in</a> som &#8221;%4$s&#8221; med ditt nuvarande lösenord."
+
+#: wp-activate.php:66
+msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Ditt konto har aktiverats. Du kan nu <a href=\"%1$s\">logga in</a> på webbplatsen med användarnamnet &#8221;%2$s&#8221;.  Lösenord och inloggningsinstruktioner har skickats till e-postadressen %3$s. Om du inte får något mail, försäkra dig om att det inte fastnat i ditt skräppostfiler. Om du efter en timme inte mottagit något mail så kan du försöka med att <a href=\"%4$s\">återställa ditt lösenord</a>."
 
 #: wp-admin/network.php:110
 msgid "Once you add this code and refresh your browser, multisite should be enabled. This screen, now in the Network Admin navigation menu, will keep an archive of the added code. You can toggle between Network Admin and Site Admin by clicking on the Network Admin or an individual site name under the My Sites dropdown in the Toolbar."
@@ -578,10 +590,6 @@ msgstr "Skapa en <code>blogs.dir</code>-katalog under <code>%s/blogs.dir</code>.
 #: wp-includes/ms-functions.php:443
 msgid "Only lowercase letters (a-z) and numbers are allowed."
 msgstr "Endast små bokstäver (a-z) och siffror är tillåtna."
-
-#: wp-activate.php:66
-msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;.  Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
-msgstr "Ditt konto har aktiverats. Du kan nu <a href=\"%1$s\">logga in</a> på webbplatsen med användarnamnet &#8221;%2$s&#8221;.  Lösenord och inloggningsinstruktioner har skickats till e-postadressen %3$s. Om du inte får något mail, försäkra dig om att det inte fastnat i ditt skräppostfiler. Om du efter en timme inte mottagit något mail så kan du försöka med att <a href=\"%4$s\">återställa ditt lösenord</a>."
 
 #: wp-includes/ms-load.php:242
 msgid "Read the <a target=\"_blank\" href=\"http://codex.wordpress.org/Debugging_a_WordPress_Network\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
@@ -1210,10 +1218,6 @@ msgstr "Klart!"
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 
-#: wp-activate.php:68
-msgid "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your site using your chosen username of &#8220;%3$s&#8221;.  Please check your email inbox at %4$s for your password and login instructions.  If you do not receive an email, please check your junk or spam folder.  If you still do not receive an email within an hour, you can <a href=\"%5$s\">reset your password</a>."
-msgstr "Din webbplats på <a href=\"%1$s\">%2$s</a> är nu aktiv. Du kan nu logga in på din webbplats med användarnamnet &#8221;%3$s&#8221;.  Lösenord och inloggningsinstruktioner har skickats till e-postadressen %4$s. Om du inte får något mail, försäkra dig om att det inte fastnat i ditt skräppostfiler. Om du efter en timme inte mottagit något mail så kan du försöka med att <a href=\"%5$s\">återställa ditt lösenord</a>."
-
 #: wp-signup.php:83
 msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
 msgstr "Måste bestå av minst 4 tecken, endast bokstäver och siffror. Detta kan inte ändras, så välj varsamt!"
@@ -1249,10 +1253,6 @@ msgstr "Om du inte fått ditt mail än så finns det ett par saker du kan göra:
 #: wp-includes/ms-load.php:243
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
-
-#: wp-signup.php:221
-msgid "<a href=\"http://%1$s\">http://%2$s</a> is your new site.  <a href=\"%3$s\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
-msgstr "<a href=\"http://%1$s\">http://%2$s</a> är din nya webbplats.  <a href=\"%3$s\">Logga in</a> som &#8221;%4$s&#8221; med ditt nuvarande lösenord."
 
 #: wp-admin/my-sites.php:31
 msgid "The primary site you chose does not exist."
