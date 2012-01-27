@@ -16,13 +16,13 @@
 
 // ** MySQL-inställningar - MySQL-uppgifter får du från ditt webbhotell ** //
 /** Namnet på databasen du vill använda för WordPress */
-define('DB_NAME', 'ange_databasnamn');
+define('DB_NAME', 'Ange databasnamn här');
 
 /** MySQL-databasens användarnamn */
-define('DB_USER', 'ange_databasanvandare');
+define('DB_USER', 'Ange databasanvändare här');
 
 /** MySQL-databasens lösenord */
-define('DB_PASSWORD', 'ange_databaslosenord');
+define('DB_PASSWORD', 'Ange databaslösenord här');
 
 /** MySQL-server */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'ange en unik fras');
-define('SECURE_AUTH_KEY',  'ange en unik fras');
-define('LOGGED_IN_KEY',    'ange en unik fras');
-define('NONCE_KEY',        'ange en unik fras');
-define('AUTH_SALT',        'ange en unik fras');
-define('SECURE_AUTH_SALT', 'ange en unik fras');
-define('LOGGED_IN_SALT',   'ange en unik fras');
-define('NONCE_SALT',       'ange en unik fras');
+define('AUTH_KEY',         'Ange en unik fras här');
+define('SECURE_AUTH_KEY',  'Ange en unik fras här');
+define('LOGGED_IN_KEY',    'Ange en unik fras här');
+define('NONCE_KEY',        'Ange en unik fras här');
+define('AUTH_SALT',        'Ange en unik fras här');
+define('SECURE_AUTH_SALT', 'Ange en unik fras här');
+define('LOGGED_IN_SALT',   'Ange en unik fras här');
+define('NONCE_SALT',       'Ange en unik fras här');
 
 /**#@-*/
 
