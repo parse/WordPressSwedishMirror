@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.4) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-02-05 05:47+0100\n"
+"PO-Revision-Date: 2012-02-07 16:19+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,9 +16,143 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: wp-includes/admin-bar.php:122
-msgid "Feedback"
-msgstr "Feedback"
+#: wp-includes/locale.php:184
+msgctxt "text direction"
+msgid "ltr"
+msgstr "ltr"
+
+#: wp-includes/class-wp-xmlrpc-server.php:1042
+msgid "Sorry, you are not allowed to edit posts in this post type"
+msgstr "Du saknar behörighet för att redigera inlägg för denna posttyp"
+
+#: wp-includes/class-wp-xmlrpc-server.php:657
+msgid "Invalid author ID."
+msgstr "Ogiltigt författar-ID."
+
+#: wp-includes/class-wp-xmlrpc-server.php:912
+msgid "Sorry, you are not allowed to delete this post."
+msgstr "Du saknar behörighet för att radera detta inlägg."
+
+#: wp-includes/class-wp-xmlrpc-server.php:767
+msgid "Ambiguous term name used in a hierarchical taxonomy. Please use term ID instead."
+msgstr "Mångtydigt termnamn används i en hierarkisk taxonomi. Använd term-ID istället."
+
+#: wp-includes/class-wp-xmlrpc-server.php:774
+msgid "Sorry, you are not allowed to add a term to one of the given taxonomies."
+msgstr "Du saknar behörighet för att lägga till en term i en av angivna taxonomier."
+
+#: wp-includes/class-wp-xmlrpc-server.php:917
+msgid "The post cannot be deleted."
+msgstr "Inlägget kan inte raderas."
+
+#: wp-includes/class-wp-xmlrpc-server.php:1039
+msgid "The post type specified is not valid"
+msgstr "Posttypen specificerad är ogiltig."
+
+#: wp-includes/class-wp-xmlrpc-server.php:622
+msgid "Invalid post type"
+msgstr "Ogiltig posttyp"
+
+#: wp-includes/class-wp-xmlrpc-server.php:646
+msgid "Sorry, you are not allowed to create password protected posts in this post type"
+msgstr "Du saknar behörighet för att skapa ett lösenordsskyddat inlägg för denna posttyp"
+
+#: wp-includes/class-wp-xmlrpc-server.php:652
+msgid "You are not allowed to create posts as this user."
+msgstr "Du saknar behörighet för att skapa inlägg som denna användare."
+
+#: wp-includes/class-wp-xmlrpc-server.php:633
+msgid "Sorry, you are not allowed to create private posts in this post type"
+msgstr "Du saknar behörighet för att skapa privata inlägg för denna posttyp"
+
+#: wp-includes/class-wp-xmlrpc-server.php:638
+msgid "Sorry, you are not allowed to publish posts in this post type"
+msgstr "Du saknar behörighet för att publicera inlägg för denna posttyp"
+
+#: wp-includes/class-wp-xmlrpc-server.php:748
+msgid "Sorry, you are not allowed to assign a term to one of the given taxonomies."
+msgstr "Du saknar behörighet för att lägga till termer till en av de angivna taxonomierna."
+
+#: wp-includes/class-wp-xmlrpc-server.php:722
+#: wp-includes/class-wp-xmlrpc-server.php:745
+msgid "Sorry, one of the given taxonomies is not supported by the post type."
+msgstr "En av angivna taxonomier har inte stöd i posttypen."
+
+#: wp-includes/class-wp-xmlrpc-server.php:725
+msgid "Sorry, you are not allowed to assign a term to one of the given taxonomies"
+msgstr "Du saknar behörighet för att lägga till termer för en av de angivna taxonomierna"
+
+#: wp-includes/class-wp-xmlrpc-server.php:697
+msgid "Sorry, you are not allowed to stick this post."
+msgstr "Du saknar behörighet för att klistra detta inlägg."
+
+#: wp-includes/class-wp-xmlrpc-server.php:700
+msgid "Only published posts can be made sticky."
+msgstr "Endast publicerade inlägg kan klistras."
+
+#: wp-content/themes/twentytwelve/footer.php:18
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: wp-content/themes/twentytwelve/image.php:24
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publicerat </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> kl. <a href=\"%3$s\" title=\"Länk till bild i fullstorlek\">%4$s &times; %5$s</a> i <a href=\"%6$s\" title=\"Tillbaka till %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: wp-content/themes/twentytwelve/archive.php:29
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: wp-content/themes/twentytwelve/index.php:41
+#: wp-content/themes/twentytwelve/author.php:54
+#: wp-content/themes/twentytwelve/archive.php:73
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Ledsen, inga resultat hittades i efterfrågat arkiv. Kanske kan en sökning hjälpa dig att hitta relaterade inlägg."
+
+#: wp-content/themes/twentytwelve/functions.php:194
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\">Postat </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\" pubdate>%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> av </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: wp-content/themes/twentytwelve/content-single.php:39
+msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Detta inlägg postades av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänken</a>."
+
+#: wp-content/themes/twentytwelve/functions.php:175
+msgid "Reply <span>&darr;</span>"
+msgstr "Svara <span>&darr;</span>"
+
+#: wp-content/themes/twentytwelve/header.php:45
+msgid "Skip to primary content"
+msgstr "Hoppa till primärt innehåll"
+
+#: wp-content/themes/twentytwelve/archive.php:27
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: wp-content/themes/twentytwelve/functions.php:152
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s den %2$s <span class=\"says\">säger:</span>"
+
+#: wp-content/themes/twentytwelve/content.php:61
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Märkt</span> %2$s"
+
+#: wp-content/themes/twentytwelve/content.php:49
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Postat i</span> %2$s"
+
+#: wp-content/themes/twentytwelve/content.php:16
+msgid "Featured"
+msgstr "Utvalt"
+
+#: wp-content/themes/twentytwelve/header.php:46
+msgid "Skip to secondary content"
+msgstr "Hoppa till sekundärt innehåll"
+
+#: wp-includes/class-wp-editor.php:269
+msgid "English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv"
+msgstr "Svenska=sv,Engelska=en,Danska=da,Holländska=nl,Finska=fi,Franska=fr,Tyska=de,Italienska=it,Polska=pl,Portugisiska=pt,Spanska=es"
 
 #: wp-includes/formatting.php:37
 msgctxt "opening curly double quote"
@@ -82,6 +216,7 @@ msgstr "<a href=\"http://akismet.com/get/?return=true\">Vad är detta?</a>"
 #: wp-includes/default-widgets.php:299
 #: wp-includes/admin-bar.php:99
 #: wp-login.php:85
+#: wp-content/themes/twentytwelve/footer.php:18
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
@@ -113,8 +248,8 @@ msgstr "En eller flera databastabeller är otillgängliga. Databasen kan behöva
 msgid "Mission complete. Message <strong>%s</strong> deleted."
 msgstr "Klart. Meddelande <strong>%s</strong> raderat."
 
-#: wp-includes/class-wp-xmlrpc-server.php:159
-#: wp-includes/class-wp-xmlrpc-server.php:181
+#: wp-includes/class-wp-xmlrpc-server.php:164
+#: wp-includes/class-wp-xmlrpc-server.php:186
 msgid "XML-RPC services are disabled on this site. An admin user can enable them at %s"
 msgstr "XML-RPC-tjänsterna är avstängda för den här webbplatsen. En administratör kan aktivera dessa på %s"
 
@@ -194,7 +329,7 @@ msgstr "Infoga Mer-tagg (Alt + Skift + T)"
 msgid "Show/Hide Kitchen Sink (Alt + Shift + Z)"
 msgstr "Visa/dölj utökad verktygsrad (Alt + Skift + Z)"
 
-#: wp-includes/class-wp-editor.php:624
+#: wp-includes/class-wp-editor.php:631
 #: wp-includes/js/tinymce/langs/wp-langs.php:286
 msgid "Blockquote (Alt + Shift + Q)"
 msgstr "Citat (Alt + Skift + Q)"
@@ -248,6 +383,10 @@ msgstr "%s överstiger den maximala filstorleken för uppladdning på den här w
 msgid "Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Debugging in WordPress</a> for more information."
 msgstr "Se <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Felsökning i WordPress</a> för mer information."
 
+#: wp-includes/admin-bar.php:122
+msgid "Feedback"
+msgstr "Feedback"
+
 #: wp-includes/ms-functions.php:1220
 msgid ""
 "Dear User,\n"
@@ -277,6 +416,10 @@ msgstr ""
 "Hoppas du ska trivas med din nya webbplats. Tack!\n"
 "\n"
 "--Teamet @ SITE_NAME"
+
+#: wp-comments-post.php:84
+msgid "<strong>ERROR</strong>: please type a comment."
+msgstr "<strong>FEL</strong>: Var vänlig skriv en kommentar."
 
 #: wp-comments-post.php:80
 msgid "<strong>ERROR</strong>: please enter a valid email address."
@@ -567,7 +710,7 @@ msgstr "Etikett"
 msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
 msgstr "Skript och stilmallar bör inte registreras eller laddade förrän hooksen %1$s, %2$s, eller %3$s."
 
-#: wp-includes/class-wp-xmlrpc-server.php:381
+#: wp-includes/class-wp-xmlrpc-server.php:386
 msgid "Allow link notifications from other blogs (pingbacks and trackbacks)"
 msgstr "Tillåt länknotifikationer från andra bloggar (pingbacks och trackbacks)"
 
@@ -674,7 +817,7 @@ msgstr "Smalare"
 msgid "Default width"
 msgstr "Standardbredd"
 
-#: wp-includes/class-wp-editor.php:672
+#: wp-includes/class-wp-editor.php:679
 msgid "Word count: %s"
 msgstr "Antal ord: %s"
 
@@ -686,7 +829,7 @@ msgstr "Ditt konto är nu aktiverat. <a href=\"%1$s\">Logga in</a> eller gå til
 msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
 msgstr "Ditt konto är nu aktiverat. <a href=\"%1$s\">Visa din webbplats</a> eller <a href=\"%2$s\">logga in</a>"
 
-#: wp-includes/class-wp-editor.php:630
+#: wp-includes/class-wp-editor.php:637
 #: wp-includes/js/tinymce/langs/wp-langs.php:466
 msgid "Help (Alt + Shift + H)"
 msgstr "Hjälp (Alt + Shift + H)"
@@ -695,11 +838,11 @@ msgstr "Hjälp (Alt + Shift + H)"
 msgid "Howdy, %1$s"
 msgstr "Hej, %1$s"
 
-#: wp-includes/class-wp-editor.php:605
+#: wp-includes/class-wp-editor.php:612
 msgid "Exit fullscreen"
 msgstr "Avsluta fullskärmsläge"
 
-#: wp-includes/class-wp-editor.php:673
+#: wp-includes/class-wp-editor.php:680
 msgid "Just write."
 msgstr "Bara skriv."
 
@@ -715,7 +858,7 @@ msgstr "Alla inlägg"
 msgid "All Pages"
 msgstr "Alla sidor"
 
-#: wp-includes/class-wp-editor.php:652
+#: wp-includes/class-wp-editor.php:659
 msgid "Updated."
 msgstr "Uppdaterat."
 
@@ -723,40 +866,127 @@ msgstr "Uppdaterat."
 msgid "fullscreen"
 msgstr "fullskärm"
 
-#: wp-includes/class-wp-editor.php:618
+#: wp-includes/class-wp-editor.php:625
 #: wp-includes/js/tinymce/langs/wp-langs.php:252
 msgid "Bold (Ctrl + B)"
 msgstr "Fet (Ctrl + B)"
 
-#: wp-includes/class-wp-editor.php:619
+#: wp-includes/class-wp-editor.php:626
 #: wp-includes/js/tinymce/langs/wp-langs.php:253
 msgid "Italic (Ctrl + I)"
 msgstr "Kursiv (Ctrl + I)"
 
-#: wp-includes/class-wp-editor.php:622
+#: wp-includes/class-wp-editor.php:629
 #: wp-includes/js/tinymce/langs/wp-langs.php:261
 msgid "Ordered list (Alt + Shift + O)"
 msgstr "Numrerad lista (Alt + Shift + O)"
 
-#: wp-includes/class-wp-editor.php:621
+#: wp-includes/class-wp-editor.php:628
 #: wp-includes/js/tinymce/langs/wp-langs.php:260
 msgid "Unordered list (Alt + Shift + U)"
 msgstr "Oordnad lista (Alt + Skift + U)"
 
-#: wp-includes/class-wp-editor.php:625
+#: wp-includes/class-wp-editor.php:632
 #: wp-includes/js/tinymce/langs/wp-langs.php:268
 msgid "Insert/edit image (Alt + Shift + M)"
 msgstr "Infoga/redigera bild (Alt + Skift + M)"
 
-#: wp-includes/class-wp-editor.php:627
+#: wp-includes/class-wp-editor.php:634
 #: wp-includes/js/tinymce/langs/wp-langs.php:266
 msgid "Insert/edit link (Alt + Shift + A)"
 msgstr "Infoga/redigera länk (Alt + Skift + A)"
 
-#: wp-includes/class-wp-editor.php:628
+#: wp-includes/class-wp-editor.php:635
 #: wp-includes/js/tinymce/langs/wp-langs.php:267
 msgid "Unlink (Alt + Shift + S)"
 msgstr "Ta bort länkning (Alt + Skift + S)"
+
+#: wp-content/themes/twentytwelve/content-single.php:37
+msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Detta inlägg postades i %1$s av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänk</a>."
+
+#: wp-content/themes/twentytwelve/comments.php:40
+#: wp-content/themes/twentytwelve/comments.php:52
+msgid "Comment navigation"
+msgstr "Kommentarsnavigering"
+
+#: wp-content/themes/twentytwelve/functions.php:88
+msgid "Main Sidebar"
+msgstr "Huvudsaklig sidopanel"
+
+#: wp-content/themes/twentytwelve/404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Det verkar som om vi inte hittar det du letar efter. Kanske en sökning eller någon av länkarna nedan kan vara till hjälp."
+
+#: wp-content/themes/twentytwelve/content.php:71
+msgid "Leave a reply"
+msgstr "Lämna ett svar"
+
+#: wp-content/themes/twentytwelve/author.php:18
+msgid "Author Archives: %s"
+msgstr "Författararkiv: %s"
+
+#: wp-content/themes/twentytwelve/functions.php:135
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: wp-content/themes/twentytwelve/header.php:44
+msgid "Main menu"
+msgstr "Huvudmeny"
+
+#: wp-content/themes/twentytwelve/archive.php:29
+msgid "Yearly Archives: %s"
+msgstr "Årsarkiv: %s"
+
+#: wp-content/themes/twentytwelve/archive.php:27
+msgid "Monthly Archives: %s"
+msgstr "Månadsarkiv: %s"
+
+#: wp-content/themes/twentytwelve/content-single.php:64
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Visa alla inlägg av %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: wp-content/themes/twentytwelve/image.php:40
+msgid "Next &rarr;"
+msgstr "Nästa &rarr;"
+
+#: wp-content/themes/twentytwelve/content.php:71
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> svar"
+
+#: wp-content/themes/twentytwelve/archive.php:25
+msgid "Daily Archives: %s"
+msgstr "Dagsarkiv: %s"
+
+#: wp-content/themes/twentytwelve/404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Det här är lite pinsamt, eller hur?"
+
+#: wp-content/themes/twentytwelve/functions.php:109
+msgid "Post navigation"
+msgstr "Inläggsnavigering"
+
+#: wp-content/themes/twentytwelve/image.php:39
+msgid "&larr; Previous"
+msgstr "&larr; Föregående"
+
+#: wp-content/themes/twentytwelve/content-single.php:35
+msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Detta inlägg postades i %1$s och märktes med %2$s av <a href=\"%6$s\">%5$s</a>. Bokmärk <a href=\"%3$s\" title=\"Permalänk till %4$s\" rel=\"bookmark\">permalänk</a>."
+
+#: wp-content/themes/twentytwelve/functions.php:63
+msgid "Primary Menu"
+msgstr "Primär meny"
+
+#: wp-content/themes/twentytwelve/content.php:71
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> svara"
+
+#: wp-content/themes/twentytwelve/comments.php:33
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "En reaktion på &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reaktion på &ldquo;%2$s&rdquo;"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:274
 msgid "TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor released as Open Source under %sLGPL</a>\tby Moxiecode Systems AB. It has the ability to convert HTML TEXTAREA fields or other HTML elements to editor instances."
@@ -1053,11 +1283,11 @@ msgstr "Det finns inga poster markerade som <a href='%1$s'>skräppost</a> för t
 msgid "Cleared by Akismet"
 msgstr "Godkänd av Akismet"
 
-#: wp-includes/class-wp-editor.php:751
+#: wp-includes/class-wp-editor.php:758
 msgid "Enter the destination URL"
 msgstr "Ange destinationsadress"
 
-#: wp-includes/class-wp-editor.php:763
+#: wp-includes/class-wp-editor.php:770
 msgid "Or link to existing content"
 msgstr "Eller länka till befintligt innehåll"
 
@@ -1106,7 +1336,7 @@ msgstr "(Detta meddelande lades till i version %s.)"
 msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your password</a>?"
 msgstr "<strong>FEL</strong>: Det lösenord du angav för användarnamn <strong>%1$s</strong> är felaktig. <a href=\"%2$s\" title=\"Återställning av lösenord\">Glömt ditt lösenord</a>?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3390
+#: wp-includes/class-wp-xmlrpc-server.php:4025
 msgid "Sorry, you cannot publish this post."
 msgstr "Du kan inte publicera det här inlägget."
 
@@ -1236,8 +1466,8 @@ msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2243
-#: wp-includes/class-wp-xmlrpc-server.php:2549
+#: wp-includes/class-wp-xmlrpc-server.php:2878
+#: wp-includes/class-wp-xmlrpc-server.php:3184
 msgid "Invalid post format"
 msgstr "Ogiltigt inläggsformat"
 
@@ -1246,11 +1476,11 @@ msgstr "Ogiltigt inläggsformat"
 msgid "Whois  : http://whois.arin.net/rest/ip/%s"
 msgstr "Whois  : http://whois.arin.net/rest/ip/%s"
 
-#: wp-includes/class-wp-editor.php:759
+#: wp-includes/class-wp-editor.php:766
 msgid "Open link in a new window/tab"
 msgstr "Öppna länken i ett nytt fönster/flik"
 
-#: wp-includes/class-wp-editor.php:779
+#: wp-includes/class-wp-editor.php:786
 msgid "No search term specified. Showing recent items."
 msgstr "Inga sökord angivna. Visar senaste objekten."
 
@@ -1318,11 +1548,11 @@ msgstr "Inga inlägg hittades i papperskorgen."
 msgid "Shortlink"
 msgstr "Kortlänk"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1590
+#: wp-includes/class-wp-xmlrpc-server.php:2225
 msgid "Invalid attachment ID."
 msgstr "Ogiltigt bilags-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1649
+#: wp-includes/class-wp-xmlrpc-server.php:2284
 msgid "Sorry, you cannot upload files."
 msgstr "Tyvärr kan du inte ladda upp filer."
 
@@ -1340,31 +1570,31 @@ msgstr "Ange ditt användarnamn eller e-postadress. Du kommer att få en länk f
 msgid "Display as dropdown"
 msgstr "Visa som dropdown"
 
-#: wp-includes/class-wp-xmlrpc-server.php:371
+#: wp-includes/class-wp-xmlrpc-server.php:376
 msgid "Large size image height"
 msgstr "Höjd för stora bilder"
 
-#: wp-includes/class-wp-xmlrpc-server.php:356
+#: wp-includes/class-wp-xmlrpc-server.php:361
 msgid "Medium size image width"
 msgstr "Bredd för medelstora bilder"
 
-#: wp-includes/class-wp-xmlrpc-server.php:361
+#: wp-includes/class-wp-xmlrpc-server.php:366
 msgid "Medium size image height"
 msgstr "Höjd för medelstora bilder"
 
-#: wp-includes/class-wp-xmlrpc-server.php:366
+#: wp-includes/class-wp-xmlrpc-server.php:371
 msgid "Large size image width"
 msgstr "Bredd för stora bilder"
 
-#: wp-includes/class-wp-xmlrpc-server.php:351
+#: wp-includes/class-wp-xmlrpc-server.php:356
 msgid "Crop thumbnail to exact dimensions"
 msgstr "Beskär miniatyrer till exakta dimensioner"
 
-#: wp-includes/class-wp-xmlrpc-server.php:346
+#: wp-includes/class-wp-xmlrpc-server.php:351
 msgid "Thumbnail Height"
 msgstr "Höjd för miniatyrer"
 
-#: wp-includes/class-wp-xmlrpc-server.php:341
+#: wp-includes/class-wp-xmlrpc-server.php:346
 msgid "Thumbnail Width"
 msgstr "Bredd för miniatyrer"
 
@@ -1654,6 +1884,7 @@ msgid "You are currently browsing the <a href=\"%1$s/\">%2$s</a> blog archives f
 msgstr "Du bläddrar just nu i arkivet på <a href=\"%1$s/\">%2$s</a> för %3$s."
 
 #: wp-includes/theme-compat/comments.php:49
+#: wp-content/themes/twentytwelve/comments.php:61
 msgid "Comments are closed."
 msgstr "Kommentarer inaktiverade."
 
@@ -1986,29 +2217,30 @@ msgstr "Problem med att skapa en databasanslutning"
 msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really should look at your database now."
 msgstr "<strong>Databastabeller saknas.</strong> Det betyder att MySQL inte körs, WordPress har inte installerats korrekt eller så har någon raderat <code>%s</code>. Du bör verkligen kontrollera din databas nu."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1805
+#: wp-includes/class-wp-xmlrpc-server.php:2440
 msgid "Sorry, you do not have access to user data on this site."
 msgstr "Du har inte tillräcklig behörighet för att visa användardata på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2027
+#: wp-includes/class-wp-xmlrpc-server.php:625
+#: wp-includes/class-wp-xmlrpc-server.php:2662
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "Du har inte tillräcklig behörighet för att skriva inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2219
-#: wp-includes/class-wp-xmlrpc-server.php:2232
-#: wp-includes/class-wp-xmlrpc-server.php:2509
-#: wp-includes/class-wp-xmlrpc-server.php:2527
-#: wp-includes/class-wp-xmlrpc-server.php:2538
+#: wp-includes/class-wp-xmlrpc-server.php:2854
+#: wp-includes/class-wp-xmlrpc-server.php:2867
+#: wp-includes/class-wp-xmlrpc-server.php:3144
+#: wp-includes/class-wp-xmlrpc-server.php:3162
+#: wp-includes/class-wp-xmlrpc-server.php:3173
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "Du har inte tillräcklig behörighet för att publicera inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3010
-#: wp-includes/class-wp-xmlrpc-server.php:3202
+#: wp-includes/class-wp-xmlrpc-server.php:3645
+#: wp-includes/class-wp-xmlrpc-server.php:3837
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2208
-#: wp-includes/class-wp-xmlrpc-server.php:2518
+#: wp-includes/class-wp-xmlrpc-server.php:2843
+#: wp-includes/class-wp-xmlrpc-server.php:3153
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Du har inte tillräcklig behörighet för att publicera sidor på den här webbplatsen."
 
@@ -2076,18 +2308,18 @@ msgstr "Webbplatsen finns redan."
 msgid "The site is already active."
 msgstr "Webbplatsen är redan aktiverad."
 
-#: wp-includes/class-wp-xmlrpc-server.php:802
+#: wp-includes/class-wp-xmlrpc-server.php:1437
 msgid "Sorry, you cannot edit posts on this site."
 msgstr "Du kan inte redigera inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:966
+#: wp-includes/class-wp-xmlrpc-server.php:1601
 msgid "Sorry, you must be able to edit posts to this site in order to view categories."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1347
-#: wp-includes/class-wp-xmlrpc-server.php:1406
-#: wp-includes/class-wp-xmlrpc-server.php:1432
-#: wp-includes/class-wp-xmlrpc-server.php:1458
+#: wp-includes/class-wp-xmlrpc-server.php:1982
+#: wp-includes/class-wp-xmlrpc-server.php:2041
+#: wp-includes/class-wp-xmlrpc-server.php:2067
+#: wp-includes/class-wp-xmlrpc-server.php:2093
 msgid "You are not allowed access to details about this site."
 msgstr "Du har inte tillräcklig behörighet för att visa detaljer om den här webbplatsen."
 
@@ -2148,23 +2380,23 @@ msgstr "En ny användare har registrerat sig på din webbplats %s:"
 msgid "Site Suspended."
 msgstr "Webbplats avstängd."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1002
-#: wp-includes/class-wp-xmlrpc-server.php:1144
-#: wp-includes/class-wp-xmlrpc-server.php:1150
-#: wp-includes/class-wp-xmlrpc-server.php:1194
-#: wp-includes/class-wp-xmlrpc-server.php:1200
+#: wp-includes/class-wp-xmlrpc-server.php:1637
+#: wp-includes/class-wp-xmlrpc-server.php:1779
+#: wp-includes/class-wp-xmlrpc-server.php:1785
+#: wp-includes/class-wp-xmlrpc-server.php:1829
+#: wp-includes/class-wp-xmlrpc-server.php:1835
 msgid "You are not allowed to moderate comments on this site."
 msgstr "Du har inte tillräcklig behörighet för att moderera kommentarer på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:837
+#: wp-includes/class-wp-xmlrpc-server.php:1472
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa etiketter."
 
-#: wp-includes/class-wp-xmlrpc-server.php:321
+#: wp-includes/class-wp-xmlrpc-server.php:326
 msgid "Site Tagline"
 msgstr "Webbplatsslogan"
 
-#: wp-includes/class-wp-xmlrpc-server.php:304
+#: wp-includes/class-wp-xmlrpc-server.php:309
 msgid "Site URL"
 msgstr "Webbplatsadress"
 
@@ -2227,7 +2459,7 @@ msgstr "Klart!"
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 
-#: wp-includes/locale.php:187
+#: wp-includes/locale.php:177
 msgid "number_format_decimal_point"
 msgstr ","
 
@@ -2295,7 +2527,7 @@ msgstr "Använd <code>get_the_author()</code> istället om du inte vill eka vär
 msgid "If you&#8217;re still stuck with this message, then check that your database contains the following tables:"
 msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att databasen innehåller följande tabeller:"
 
-#: wp-includes/class-wp-editor.php:663
+#: wp-includes/class-wp-editor.php:670
 msgid "Enter title here"
 msgstr "Ange rubrik här"
 
@@ -2439,6 +2671,18 @@ msgstr "Men, innan du kan börja använda din webbplats så <strong>måste du ak
 msgid "If you do not activate your site within two days, you will have to sign up again."
 msgstr "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera dig igen."
 
+#: wp-content/themes/twentytwelve/archive.php:37
+msgid "Category Archives: %s"
+msgstr "Kategoriarkiv: %s"
+
+#: wp-content/themes/twentytwelve/search.php:18
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: wp-content/themes/twentytwelve/archive.php:31
+msgid "Tag Archives: %s"
+msgstr "Etikettarkiv: %s"
+
 #: wp-includes/default-widgets.php:1110
 msgid "Select Menu:"
 msgstr "Välj meny:"
@@ -2455,230 +2699,234 @@ msgstr "Taxonomi:"
 msgid "Menus"
 msgstr "Menyer"
 
-#: wp-includes/class-wp-xmlrpc-server.php:164
-#: wp-includes/class-wp-xmlrpc-server.php:188
+#: wp-includes/class-wp-xmlrpc-server.php:169
+#: wp-includes/class-wp-xmlrpc-server.php:193
 msgid "Bad login/pass combination."
 msgstr "Felaktig kombination av användarnamn och lösenord."
 
-#: wp-includes/class-wp-xmlrpc-server.php:294
+#: wp-includes/class-wp-xmlrpc-server.php:299
 msgid "Software Name"
 msgstr "Mjukvarunamn"
 
-#: wp-includes/class-wp-xmlrpc-server.php:299
+#: wp-includes/class-wp-xmlrpc-server.php:304
 msgid "Software Version"
 msgstr "Mjukvaruversion"
 
-#: wp-includes/class-wp-xmlrpc-server.php:311
+#: wp-includes/class-wp-xmlrpc-server.php:316
 msgid "Time Zone"
 msgstr "Tidszon"
 
-#: wp-includes/class-wp-xmlrpc-server.php:336
+#: wp-includes/class-wp-xmlrpc-server.php:341
 msgid "Allow new users to sign up"
 msgstr "Tillåt nya användare att registrera sig"
 
-#: wp-includes/class-wp-xmlrpc-server.php:474
+#: wp-includes/class-wp-xmlrpc-server.php:1109
 msgid "Sorry, you cannot edit this page."
 msgstr "Tyvärr, du kan inte redigera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:550
-#: wp-includes/class-wp-xmlrpc-server.php:660
-#: wp-includes/class-wp-xmlrpc-server.php:699
+#: wp-includes/class-wp-xmlrpc-server.php:1185
+#: wp-includes/class-wp-xmlrpc-server.php:1295
+#: wp-includes/class-wp-xmlrpc-server.php:1334
 msgid "Sorry, no such page."
 msgstr "Tyvärr, ingen sådan sida."
 
-#: wp-includes/class-wp-xmlrpc-server.php:578
-#: wp-includes/class-wp-xmlrpc-server.php:742
+#: wp-includes/class-wp-xmlrpc-server.php:1213
+#: wp-includes/class-wp-xmlrpc-server.php:1377
 msgid "Sorry, you cannot edit pages."
 msgstr "Tyvärr, du kan inte redigera sidor."
 
-#: wp-includes/class-wp-xmlrpc-server.php:626
+#: wp-includes/class-wp-xmlrpc-server.php:1261
 msgid "Sorry, you cannot add new pages."
 msgstr "Tyvärr, du kan inte lägga till nya sidor."
 
-#: wp-includes/class-wp-xmlrpc-server.php:664
+#: wp-includes/class-wp-xmlrpc-server.php:1299
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Beklagar, men du saknar rättigheter för att radera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:669
+#: wp-includes/class-wp-xmlrpc-server.php:1304
 msgid "Failed to delete the page."
 msgstr "Kunde inte radera sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:703
+#: wp-includes/class-wp-xmlrpc-server.php:1338
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Beklagar, men du saknar rättigheter för att redigera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:882
+#: wp-includes/class-wp-xmlrpc-server.php:1517
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Tyvärr, du saknar rättigheter för att lägga till kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:910
-#: wp-includes/class-wp-xmlrpc-server.php:912
+#: wp-includes/class-wp-xmlrpc-server.php:1545
+#: wp-includes/class-wp-xmlrpc-server.php:1547
 msgid "Sorry, the new category failed."
 msgstr "Tyvärr, den nya kategorin misslyckades."
 
-#: wp-includes/class-wp-xmlrpc-server.php:940
+#: wp-includes/class-wp-xmlrpc-server.php:1575
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Tyvärr, du saknar rättigheter för att radera en kategori."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1007
-#: wp-includes/class-wp-xmlrpc-server.php:1147
-#: wp-includes/class-wp-xmlrpc-server.php:1197
+#: wp-includes/class-wp-xmlrpc-server.php:1642
+#: wp-includes/class-wp-xmlrpc-server.php:1782
+#: wp-includes/class-wp-xmlrpc-server.php:1832
 msgid "Invalid comment ID."
 msgstr "Ogiltigt kommentars-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1076
+#: wp-includes/class-wp-xmlrpc-server.php:1711
 msgid "Sorry, you cannot edit comments."
 msgstr "Tyvärr, du kan inte redigera kommentarer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1209
+#: wp-includes/class-wp-xmlrpc-server.php:1844
 msgid "Invalid comment status."
 msgstr "Ogiltig kommentarsstatus"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1240
+#: wp-includes/class-wp-xmlrpc-server.php:1875
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Tyvärr, kommentaren kunde inte redigeras. Något gick fel."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1271
+#: wp-includes/class-wp-xmlrpc-server.php:1906
 msgid "You must be registered to comment"
 msgstr "Du måste vara inloggad för att kommentera"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1284
-#: wp-includes/class-wp-xmlrpc-server.php:1287
-#: wp-includes/class-wp-xmlrpc-server.php:2559
+#: wp-includes/class-wp-xmlrpc-server.php:860
+#: wp-includes/class-wp-xmlrpc-server.php:908
+#: wp-includes/class-wp-xmlrpc-server.php:985
+#: wp-includes/class-wp-xmlrpc-server.php:1919
+#: wp-includes/class-wp-xmlrpc-server.php:1922
+#: wp-includes/class-wp-xmlrpc-server.php:3194
 msgid "Invalid post ID."
 msgstr "Ogiltigt inläggs ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1313
+#: wp-includes/class-wp-xmlrpc-server.php:1948
 msgid "Comment author name and email are required"
 msgstr "Kommentarförfattarens namn och e-postadress är obligatoriska"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1315
+#: wp-includes/class-wp-xmlrpc-server.php:1950
 msgid "A valid email address is required"
 msgstr "En riktig e-postadress krävs"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1374
+#: wp-includes/class-wp-xmlrpc-server.php:2009
 msgid "You are not allowed access to details about comments."
 msgstr "Du saknar rättigheter för att visa detaljer om kommentarer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1536
+#: wp-includes/class-wp-xmlrpc-server.php:2171
 msgid "You are not allowed to update options."
 msgstr "Du saknar rättigheter för att uppdatera inställningar."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1840
-#: wp-includes/class-wp-xmlrpc-server.php:2780
-#: wp-includes/class-wp-xmlrpc-server.php:3283
+#: wp-includes/class-wp-xmlrpc-server.php:989
+#: wp-includes/class-wp-xmlrpc-server.php:2475
+#: wp-includes/class-wp-xmlrpc-server.php:3415
+#: wp-includes/class-wp-xmlrpc-server.php:3918
 msgid "Sorry, you cannot edit this post."
 msgstr "Tyvärr, du kan inte redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1891
-#: wp-includes/class-wp-xmlrpc-server.php:3148
+#: wp-includes/class-wp-xmlrpc-server.php:2526
+#: wp-includes/class-wp-xmlrpc-server.php:3783
 msgid "Either there are no posts, or something went wrong."
 msgstr "Antingen finns det inga inlägg eller så gick något fel."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1946
+#: wp-includes/class-wp-xmlrpc-server.php:2581
 msgid "Sorry, this user can not edit the template."
 msgstr "Beklagar, den här användaren kan inte redigera mallen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1986
+#: wp-includes/class-wp-xmlrpc-server.php:2621
 msgid "Sorry, this user cannot edit the template."
 msgstr "Tyvärr, den här användaren kan inte redigera mallen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1996
+#: wp-includes/class-wp-xmlrpc-server.php:2631
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Antingen är filen skrivskyddad eller så gick något fel. Filen har inte uppdaterats."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2082
-#: wp-includes/class-wp-xmlrpc-server.php:2134
-#: wp-includes/class-wp-xmlrpc-server.php:2875
-#: wp-includes/class-wp-xmlrpc-server.php:3345
+#: wp-includes/class-wp-xmlrpc-server.php:2717
+#: wp-includes/class-wp-xmlrpc-server.php:2769
+#: wp-includes/class-wp-xmlrpc-server.php:3510
+#: wp-includes/class-wp-xmlrpc-server.php:3980
 msgid "Sorry, no such post."
 msgstr "Beklagar, hittar inget sådant inlägg."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2092
-#: wp-includes/class-wp-xmlrpc-server.php:2696
+#: wp-includes/class-wp-xmlrpc-server.php:2727
+#: wp-includes/class-wp-xmlrpc-server.php:3331
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Beklagar, men du saknar rättigheter för att publicera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2223
-#: wp-includes/class-wp-xmlrpc-server.php:2279
-#: wp-includes/class-wp-xmlrpc-server.php:2531
-#: wp-includes/class-wp-xmlrpc-server.php:2596
+#: wp-includes/class-wp-xmlrpc-server.php:2858
+#: wp-includes/class-wp-xmlrpc-server.php:2914
+#: wp-includes/class-wp-xmlrpc-server.php:3166
+#: wp-includes/class-wp-xmlrpc-server.php:3231
 msgid "Invalid post type."
 msgstr "Ogiltig inläggstyp."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2272
+#: wp-includes/class-wp-xmlrpc-server.php:2907
 msgid "You are not allowed to post as this user"
 msgstr "Du saknar rättigheter för att skriva inlägg som den här användaren"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2276
+#: wp-includes/class-wp-xmlrpc-server.php:2911
 msgid "You are not allowed to create pages as this user"
 msgstr "Du saknar rättigheter för att skapa sidor som den här användaren"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2589
+#: wp-includes/class-wp-xmlrpc-server.php:3224
 msgid "You are not allowed to change the post author as this user."
 msgstr "Du saknar rättigheter för att ändra inläggets författare som den här användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2593
+#: wp-includes/class-wp-xmlrpc-server.php:3228
 msgid "You are not allowed to change the page author as this user."
 msgstr "Du saknar rättigheter för att ändra sidans författare som den här användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2694
+#: wp-includes/class-wp-xmlrpc-server.php:3329
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Beklagar, men du saknar rättigheter för att publicera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2731
+#: wp-includes/class-wp-xmlrpc-server.php:3366
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Beklagar, ditt inslag kunde inte redigeras. Ett fel uppstod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1585
-#: wp-includes/class-wp-xmlrpc-server.php:3066
+#: wp-includes/class-wp-xmlrpc-server.php:2220
+#: wp-includes/class-wp-xmlrpc-server.php:3701
 msgid "You are not allowed to upload files to this site."
 msgstr "Du saknar rättigheter för att ladda upp filer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3093
+#: wp-includes/class-wp-xmlrpc-server.php:3728
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Kunde inte skriva till filen %1$s (%2$s)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3240
+#: wp-includes/class-wp-xmlrpc-server.php:3875
 msgid "Sorry, you can not edit this post."
 msgstr "Beklagar, men du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3437
+#: wp-includes/class-wp-xmlrpc-server.php:4072
 msgid "Is there no link to us?"
 msgstr "Finns det ingen länk till oss?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3477
-#: wp-includes/class-wp-xmlrpc-server.php:3486
-#: wp-includes/class-wp-xmlrpc-server.php:3493
-#: wp-includes/class-wp-xmlrpc-server.php:3600
+#: wp-includes/class-wp-xmlrpc-server.php:4112
+#: wp-includes/class-wp-xmlrpc-server.php:4121
+#: wp-includes/class-wp-xmlrpc-server.php:4128
+#: wp-includes/class-wp-xmlrpc-server.php:4235
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Mål-URLen du angav kan inte användas. Antingen finns det ingenting på den adressen eller så stöder resursen inte pingar."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3489
+#: wp-includes/class-wp-xmlrpc-server.php:4124
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Käll-URLen och mål-URLen kan inte peka på samma resurs."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3497
+#: wp-includes/class-wp-xmlrpc-server.php:4132
 msgid "The pingback has already been registered."
 msgstr "Pingbacken har redan registrerats."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3505
+#: wp-includes/class-wp-xmlrpc-server.php:4140
 msgid "The source URL does not exist."
 msgstr "Den önskade URL:n finns inte."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3517
+#: wp-includes/class-wp-xmlrpc-server.php:4152
 msgid "We cannot find a title on that page."
 msgstr "Vi hittar ingen titel på den sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3553
+#: wp-includes/class-wp-xmlrpc-server.php:4188
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Käll-URLen innehåller ingen länk till mål-URLen och kan därför inte användas som källa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3574
+#: wp-includes/class-wp-xmlrpc-server.php:4209
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback från %1$s till %2$s har registrerats. Låt webben tala! :-)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3607
+#: wp-includes/class-wp-xmlrpc-server.php:4242
 msgid "The specified target URL does not exist."
 msgstr "Den önskade mål-URL:n finns inte."
 
@@ -2992,6 +3240,10 @@ msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
 #: wp-includes/formatting.php:2807
+#: wp-content/themes/twentytwelve/content.php:45
+#: wp-content/themes/twentytwelve/content.php:55
+#: wp-content/themes/twentytwelve/content-single.php:30
+#: wp-content/themes/twentytwelve/content-single.php:33
 msgid ", "
 msgstr ", "
 
@@ -3394,218 +3646,218 @@ msgstr "Infoga datum"
 msgid "Insert time"
 msgstr "Infoga tid"
 
-#: wp-includes/locale.php:141
-#: wp-includes/locale.php:156
+#: wp-includes/locale.php:131
+#: wp-includes/locale.php:146
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "January"
 msgstr "januari"
 
-#: wp-includes/locale.php:142
-#: wp-includes/locale.php:157
+#: wp-includes/locale.php:132
+#: wp-includes/locale.php:147
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "February"
 msgstr "februari"
 
-#: wp-includes/locale.php:143
-#: wp-includes/locale.php:158
+#: wp-includes/locale.php:133
+#: wp-includes/locale.php:148
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "March"
 msgstr "mars"
 
-#: wp-includes/locale.php:144
-#: wp-includes/locale.php:159
+#: wp-includes/locale.php:134
+#: wp-includes/locale.php:149
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "April"
 msgstr "april"
 
-#: wp-includes/locale.php:145
-#: wp-includes/locale.php:160
+#: wp-includes/locale.php:135
+#: wp-includes/locale.php:150
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "May"
 msgstr "maj"
 
-#: wp-includes/locale.php:146
-#: wp-includes/locale.php:161
+#: wp-includes/locale.php:136
+#: wp-includes/locale.php:151
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "June"
 msgstr "juni"
 
-#: wp-includes/locale.php:147
-#: wp-includes/locale.php:162
+#: wp-includes/locale.php:137
+#: wp-includes/locale.php:152
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "July"
 msgstr "juli"
 
-#: wp-includes/locale.php:148
-#: wp-includes/locale.php:163
+#: wp-includes/locale.php:138
+#: wp-includes/locale.php:153
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "August"
 msgstr "augusti"
 
-#: wp-includes/locale.php:149
-#: wp-includes/locale.php:164
+#: wp-includes/locale.php:139
+#: wp-includes/locale.php:154
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "September"
 msgstr "september"
 
-#: wp-includes/locale.php:150
-#: wp-includes/locale.php:165
+#: wp-includes/locale.php:140
+#: wp-includes/locale.php:155
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "October"
 msgstr "oktober"
 
-#: wp-includes/locale.php:151
-#: wp-includes/locale.php:166
+#: wp-includes/locale.php:141
+#: wp-includes/locale.php:156
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "November"
 msgstr "november"
 
-#: wp-includes/locale.php:152
-#: wp-includes/locale.php:167
+#: wp-includes/locale.php:142
+#: wp-includes/locale.php:157
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 msgid "December"
 msgstr "december"
 
-#: wp-includes/locale.php:156
+#: wp-includes/locale.php:146
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Jan_January_abbreviation"
 msgstr "Jan"
 
-#: wp-includes/locale.php:157
+#: wp-includes/locale.php:147
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Feb_February_abbreviation"
 msgstr "Feb"
 
-#: wp-includes/locale.php:158
+#: wp-includes/locale.php:148
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Mar_March_abbreviation"
 msgstr "Mar"
 
-#: wp-includes/locale.php:159
+#: wp-includes/locale.php:149
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Apr_April_abbreviation"
 msgstr "Apr"
 
-#: wp-includes/locale.php:160
+#: wp-includes/locale.php:150
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "May_May_abbreviation"
 msgstr "Maj"
 
-#: wp-includes/locale.php:161
+#: wp-includes/locale.php:151
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Jun_June_abbreviation"
 msgstr "Jun"
 
-#: wp-includes/locale.php:162
+#: wp-includes/locale.php:152
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Jul_July_abbreviation"
 msgstr "Jul"
 
-#: wp-includes/locale.php:163
+#: wp-includes/locale.php:153
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Aug_August_abbreviation"
 msgstr "Aug"
 
-#: wp-includes/locale.php:164
+#: wp-includes/locale.php:154
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Sep_September_abbreviation"
 msgstr "Sep"
 
-#: wp-includes/locale.php:165
+#: wp-includes/locale.php:155
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Oct_October_abbreviation"
 msgstr "Okt"
 
-#: wp-includes/locale.php:166
+#: wp-includes/locale.php:156
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Nov_November_abbreviation"
 msgstr "Nov"
 
-#: wp-includes/locale.php:167
+#: wp-includes/locale.php:157
 #: wp-includes/js/tinymce/langs/wp-langs.php:85
 msgid "Dec_December_abbreviation"
 msgstr "Dec"
 
+#: wp-includes/locale.php:99
 #: wp-includes/locale.php:109
-#: wp-includes/locale.php:119
-#: wp-includes/locale.php:132
+#: wp-includes/locale.php:122
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Sunday"
 msgstr "söndag"
 
+#: wp-includes/locale.php:100
 #: wp-includes/locale.php:110
-#: wp-includes/locale.php:120
-#: wp-includes/locale.php:133
+#: wp-includes/locale.php:123
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Monday"
 msgstr "måndag"
 
+#: wp-includes/locale.php:101
 #: wp-includes/locale.php:111
-#: wp-includes/locale.php:121
-#: wp-includes/locale.php:134
+#: wp-includes/locale.php:124
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Tuesday"
 msgstr "tisdag"
 
+#: wp-includes/locale.php:102
 #: wp-includes/locale.php:112
-#: wp-includes/locale.php:122
-#: wp-includes/locale.php:135
+#: wp-includes/locale.php:125
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Wednesday"
 msgstr "onsdag"
 
+#: wp-includes/locale.php:103
 #: wp-includes/locale.php:113
-#: wp-includes/locale.php:123
-#: wp-includes/locale.php:136
+#: wp-includes/locale.php:126
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Thursday"
 msgstr "torsdag"
 
+#: wp-includes/locale.php:104
 #: wp-includes/locale.php:114
-#: wp-includes/locale.php:124
-#: wp-includes/locale.php:137
+#: wp-includes/locale.php:127
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Friday"
 msgstr "fredag"
 
+#: wp-includes/locale.php:105
 #: wp-includes/locale.php:115
-#: wp-includes/locale.php:125
-#: wp-includes/locale.php:138
+#: wp-includes/locale.php:128
 #: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "Saturday"
 msgstr "lördag"
 
-#: wp-includes/locale.php:132
+#: wp-includes/locale.php:122
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Sun"
 msgstr "sön"
 
-#: wp-includes/locale.php:133
+#: wp-includes/locale.php:123
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Mon"
 msgstr "mån"
 
-#: wp-includes/locale.php:134
+#: wp-includes/locale.php:124
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Tue"
 msgstr "tis"
 
-#: wp-includes/locale.php:135
+#: wp-includes/locale.php:125
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Wed"
 msgstr "ons"
 
-#: wp-includes/locale.php:136
+#: wp-includes/locale.php:126
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Thu"
 msgstr "tor"
 
-#: wp-includes/locale.php:137
+#: wp-includes/locale.php:127
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Fri"
 msgstr "fre"
 
-#: wp-includes/locale.php:138
+#: wp-includes/locale.php:128
 #: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "Sat"
 msgstr "lör"
@@ -4817,51 +5069,51 @@ msgstr "Nyare kommentarer &raquo;"
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Äldre kommentarer"
 
-#: wp-includes/locale.php:119
+#: wp-includes/locale.php:109
 msgid "S_Sunday_initial"
 msgstr "s"
 
-#: wp-includes/locale.php:120
+#: wp-includes/locale.php:110
 msgid "M_Monday_initial"
 msgstr "m"
 
-#: wp-includes/locale.php:121
+#: wp-includes/locale.php:111
 msgid "T_Tuesday_initial"
 msgstr "ti"
 
-#: wp-includes/locale.php:122
+#: wp-includes/locale.php:112
 msgid "W_Wednesday_initial"
 msgstr "o"
 
-#: wp-includes/locale.php:123
+#: wp-includes/locale.php:113
 msgid "T_Thursday_initial"
 msgstr "to"
 
-#: wp-includes/locale.php:124
+#: wp-includes/locale.php:114
 msgid "F_Friday_initial"
 msgstr "f"
 
-#: wp-includes/locale.php:125
+#: wp-includes/locale.php:115
 msgid "S_Saturday_initial"
 msgstr "l"
 
-#: wp-includes/locale.php:174
+#: wp-includes/locale.php:164
 msgid "am"
 msgstr "f m"
 
-#: wp-includes/locale.php:175
+#: wp-includes/locale.php:165
 msgid "pm"
 msgstr "e m"
 
-#: wp-includes/locale.php:176
+#: wp-includes/locale.php:166
 msgid "AM"
 msgstr "f m"
 
-#: wp-includes/locale.php:177
+#: wp-includes/locale.php:167
 msgid "PM"
 msgstr "e m"
 
-#: wp-includes/locale.php:183
+#: wp-includes/locale.php:173
 msgid "number_format_thousands_sep"
 msgstr " "
 
@@ -5537,6 +5789,7 @@ msgid "Empty Term"
 msgstr "Tom term"
 
 #: wp-includes/taxonomy.php:2022
+#: wp-includes/class-wp-xmlrpc-server.php:732
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
 
@@ -5931,15 +6184,15 @@ msgstr "Skapa ny"
 msgid "Enabled"
 msgstr "Aktivera"
 
-#: wp-includes/class-wp-xmlrpc-server.php:376
+#: wp-includes/class-wp-xmlrpc-server.php:381
 msgid "Allow people to post comments on new articles"
 msgstr "Tillåt kommentarer på nya inlägg"
 
-#: wp-includes/class-wp-xmlrpc-server.php:326
+#: wp-includes/class-wp-xmlrpc-server.php:331
 msgid "Date Format"
 msgstr "Datumformat"
 
-#: wp-includes/class-wp-xmlrpc-server.php:331
+#: wp-includes/class-wp-xmlrpc-server.php:336
 msgid "Time Format"
 msgstr "Tidsformat"
 
@@ -5961,12 +6214,12 @@ msgid "Insert Image"
 msgstr "Infoga bild"
 
 #: wp-includes/class-wp-editor.php:86
-#: wp-includes/class-wp-editor.php:610
+#: wp-includes/class-wp-editor.php:617
 msgid "HTML"
 msgstr "HTML"
 
 #: wp-includes/class-wp-editor.php:87
-#: wp-includes/class-wp-editor.php:609
+#: wp-includes/class-wp-editor.php:616
 msgid "Visual"
 msgstr "Visuell"
 
@@ -6012,8 +6265,9 @@ msgstr "Widgets"
 msgid "Sorry, you do not have the right to edit/publish new posts."
 msgstr "Tyvärr, du saknar rättigheter för att redigera eller publicera nya inlägg."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2047
-#: wp-includes/class-wp-xmlrpc-server.php:2437
+#: wp-includes/class-wp-xmlrpc-server.php:821
+#: wp-includes/class-wp-xmlrpc-server.php:2682
+#: wp-includes/class-wp-xmlrpc-server.php:3072
 #: wp-app.php:446
 #: wp-app.php:641
 #: wp-app.php:827
@@ -6024,7 +6278,7 @@ msgstr "Tyvärr, ditt inlägg kunde inte publiceras. Ett fel uppstod."
 msgid "Sorry, you do not have the right to access this post."
 msgstr "Tyvärr, du saknar rättigheter för att besöka det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2087
+#: wp-includes/class-wp-xmlrpc-server.php:2722
 #: wp-app.php:507
 #: wp-app.php:673
 #: wp-app.php:746
@@ -6032,19 +6286,19 @@ msgstr "Tyvärr, du saknar rättigheter för att besöka det här inlägget."
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Tyvärr, du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2103
+#: wp-includes/class-wp-xmlrpc-server.php:2738
 #: wp-app.php:530
 #: wp-app.php:689
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Av någon märklig men mycket irriterande orsak kan det här inlägget inte redigeras."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2137
+#: wp-includes/class-wp-xmlrpc-server.php:2772
 #: wp-app.php:552
 #: wp-app.php:710
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Tyvärr, du saknar rättigheter för att radera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2142
+#: wp-includes/class-wp-xmlrpc-server.php:2777
 #: wp-app.php:560
 #: wp-app.php:725
 msgid "For some strange yet very annoying reason, this post could not be deleted."
@@ -6334,6 +6588,10 @@ msgid "(more...)"
 msgstr "(Läs mer...)"
 
 #: wp-includes/post-template.php:636
+#: wp-content/themes/twentytwelve/content.php:36
+#: wp-content/themes/twentytwelve/content-single.php:24
+#: wp-content/themes/twentytwelve/image.php:88
+#: wp-content/themes/twentytwelve/content-page.php:18
 msgid "Pages:"
 msgstr "Sidor:"
 
@@ -6345,15 +6603,52 @@ msgstr "De senaste kommentarerna till alla inlägg via RSS"
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "Kommentarer via <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
+#: wp-content/themes/twentytwelve/archive.php:43
+msgid "Blog Archives"
+msgstr "Bloggarkiv"
+
+#: wp-content/themes/twentytwelve/functions.php:200
+msgid "View all posts by %s"
+msgstr "Se alla inlägg av %s"
+
+#: wp-content/themes/twentytwelve/content.php:35
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Läs mer <span class=\"meta-nav\">&rarr;</span>"
+
+#: wp-content/themes/twentytwelve/content-single.php:60
+#: wp-content/themes/twentytwelve/author.php:33
+msgid "About %s"
+msgstr "Om %s"
+
+#: wp-content/themes/twentytwelve/comments.php:17
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Det här inlägget är lösenordsskyddat. Ange lösenordet för att se eventuella kommentarer."
+
+#: wp-content/themes/twentytwelve/comments.php:41
+#: wp-content/themes/twentytwelve/comments.php:53
+msgid "&larr; Older Comments"
+msgstr "&larr; Äldre kommentarer"
+
+#: wp-content/themes/twentytwelve/comments.php:42
+#: wp-content/themes/twentytwelve/comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr "Nyare kommentarer &rarr;"
+
+#: wp-content/themes/twentytwelve/footer.php:18
+msgid "Semantic Personal Publishing Platform"
+msgstr "Semantisk Personlig Publiceringsplattform"
+
 #: wp-includes/comment-template.php:1355
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">skriver:</span>"
 
 #: wp-includes/comment-template.php:1358
+#: wp-content/themes/twentytwelve/functions.php:167
 msgid "Your comment is awaiting moderation."
 msgstr "Din kommentar inväntar granskning."
 
 #: wp-includes/comment-template.php:1365
+#: wp-content/themes/twentytwelve/functions.php:158
 msgid "%1$s at %2$s"
 msgstr "%1$s kl. %2$s"
 
@@ -6371,9 +6666,34 @@ msgstr "(Redigera)"
 msgid "View all posts in %s"
 msgstr "Se alla inlägg i %s"
 
+#: wp-content/themes/twentytwelve/functions.php:110
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Äldre inlägg"
+
+#: wp-content/themes/twentytwelve/functions.php:111
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Nyare inlägg <span class=\"meta-nav\">&rarr;</span>"
+
+#: wp-content/themes/twentytwelve/content.php:15
+#: wp-content/themes/twentytwelve/content.php:19
+msgid "Permalink to %s"
+msgstr "Permanent länk till %s"
+
+#: wp-content/themes/twentytwelve/index.php:37
+#: wp-content/themes/twentytwelve/author.php:50
+#: wp-content/themes/twentytwelve/search.php:34
+#: wp-content/themes/twentytwelve/archive.php:69
+msgid "Nothing Found"
+msgstr "Kunde inte hittas"
+
+#: wp-content/themes/twentytwelve/search.php:38
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Ledsen, inga sökresultat matchade dina kriterier. Var vänlig försök med andra nyckelord."
+
 #: wp-includes/theme-compat/sidebar.php:69
 #: wp-includes/default-widgets.php:283
 #: wp-includes/default-widgets.php:288
+#: wp-content/themes/twentytwelve/sidebar.php:21
 msgid "Meta"
 msgstr "Meta"
 
@@ -6548,7 +6868,7 @@ msgstr "Lämna ett svar till %s"
 msgid "Author"
 msgstr "Författare"
 
-#: wp-includes/class-wp-editor.php:753
+#: wp-includes/class-wp-editor.php:760
 msgid "URL"
 msgstr "URL"
 
@@ -6562,6 +6882,15 @@ msgstr "Kommentar"
 #: wp-includes/functions.php:2004
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
+
+#: wp-content/themes/twentytwelve/content.php:74
+#: wp-content/themes/twentytwelve/content-single.php:52
+#: wp-content/themes/twentytwelve/image.php:35
+#: wp-content/themes/twentytwelve/functions.php:135
+#: wp-content/themes/twentytwelve/functions.php:163
+#: wp-content/themes/twentytwelve/content-page.php:21
+msgid "Edit"
+msgstr "Redigera"
 
 #: wp-includes/post-template.php:1385
 msgid "Restore"
@@ -6628,11 +6957,11 @@ msgid "Update Category"
 msgstr "Uppdatera kategori"
 
 #: wp-includes/script-loader.php:269
-#: wp-includes/class-wp-editor.php:792
+#: wp-includes/class-wp-editor.php:799
 msgid "Add Link"
 msgstr "Lägg till länk"
 
-#: wp-includes/class-wp-editor.php:600
+#: wp-includes/class-wp-editor.php:607
 #: wp-includes/js/tinymce/langs/wp-langs.php:107
 msgid "Save"
 msgstr "Spara"
@@ -6714,7 +7043,7 @@ msgid "Recent Comments"
 msgstr "Senaste kommentarer"
 
 #: wp-includes/script-loader.php:317
-#: wp-includes/class-wp-editor.php:789
+#: wp-includes/class-wp-editor.php:796
 #: wp-includes/js/tinymce/langs/wp-langs.php:16
 msgid "Cancel"
 msgstr "Avbryt"
@@ -6775,6 +7104,7 @@ msgstr "Sidopanel"
 #: wp-includes/theme-compat/sidebar.php:57
 #: wp-includes/default-widgets.php:218
 #: wp-includes/default-widgets.php:225
+#: wp-content/themes/twentytwelve/sidebar.php:14
 msgid "Archives"
 msgstr "Arkiv"
 
@@ -6823,7 +7153,7 @@ msgstr "Lägg till en video"
 msgid "Add Audio"
 msgstr "Lägg till ljud"
 
-#: wp-includes/class-wp-editor.php:652
+#: wp-includes/class-wp-editor.php:659
 msgid "Saved."
 msgstr "Sparat."
 
@@ -6935,7 +7265,7 @@ msgstr "Avfärda"
 
 #: wp-includes/default-widgets.php:175
 #: wp-includes/general-template.php:163
-#: wp-includes/class-wp-editor.php:767
+#: wp-includes/class-wp-editor.php:774
 #: wp-includes/admin-bar.php:619
 #: wp-content/plugins/akismet/legacy.php:176
 msgid "Search"
@@ -7042,7 +7372,7 @@ msgstr "Väntar på granskning"
 msgid "Draft"
 msgstr "Utkast"
 
-#: wp-includes/class-wp-editor.php:724
+#: wp-includes/class-wp-editor.php:731
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
@@ -7060,8 +7390,4 @@ msgstr "Logga ut"
 #: wp-app.php:788
 msgid "You do not have permission to upload files."
 msgstr "Du har inte tillräcklig behörighet för att ladda upp filer."
-
-#: wp-comments-post.php:84
-msgid "<strong>ERROR</strong>: please type a comment."
-msgstr "<strong>FEL</strong>: Var vänlig skriv en kommentar."
 
