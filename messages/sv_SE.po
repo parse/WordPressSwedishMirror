@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.4) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-02-24 10:55+0100\n"
+"PO-Revision-Date: 2012-02-29 18:03+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,15 +21,110 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:278
+#: wp-includes/class-wp-theme.php:170
+msgid "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please check your installation."
+msgstr "FEL: Mappen för teman är antingen tom eller saknas. Kontrollera din installation."
+
+#: wp-includes/class-wp-theme.php:174
+msgid "Stylesheet is not readable."
+msgstr "Stilmallen är inte läsbar."
+
+#: wp-includes/class-wp-theme.php:218
+#: wp-includes/class-wp-theme.php:222
+msgid "The \"%s\" theme is not a valid parent theme."
+msgstr "Temat \"%s\" är inte ett giltigt grundtema."
+
+#: wp-includes/customize-controls.php:39
+msgid "%1$s &#8212; WordPress"
+msgstr "%1$s &#8212; WordPress"
+
+#: wp-includes/class-wp-customize.php:335
+msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
+msgstr "Inställningar sparade och tema aktiverat. <a href=\"%s\">Besök webbplats</a>."
+
+#: wp-includes/class-wp-customize.php:534
+msgid "Navigation"
+msgstr "Navigation"
+
+#: wp-includes/class-wp-customize.php:536
+msgid "Your theme supports %s menu. Select which menu you would like to use."
+msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
+msgstr[0] "Ditt tema har stöd för %s meny. Välj vilken meny du vill använda."
+msgstr[1] "Ditt tema har stöd för %s menyer. Välj vilken meny som ska visas på vilken plats."
+
+#: wp-includes/class-wp-customize.php:287
+msgid "&larr; Return to %s"
+msgstr "&larr; Tillbaka till %s"
+
+#: wp-includes/class-wp-customize.php:288
+msgid "Collapse Sidebar"
+msgstr "Minimera sidofält"
+
+#: wp-includes/class-wp-customize.php:561
+msgid "Static Front Page"
+msgstr "Statisk startsida"
+
+#: wp-includes/class-wp-customize.php:563
+msgid "Your theme supports a static front page."
+msgstr "Ditt tema har stöd för en statisk startsida."
+
+#: wp-includes/class-wp-customize.php:567
+msgid "Your latest posts"
+msgstr "Dina senaste inlägg"
+
+#: wp-includes/class-wp-customize.php:568
+msgid "A static page (select below)"
+msgstr "En statisk sida (välj nedan)"
+
+#: wp-includes/class-wp-customize.php:571
+msgid "Front page displays"
+msgstr "Startsidan visar"
+
+#: wp-includes/class-wp-customize.php:582
+msgid "Front page:"
+msgstr "Startsida:"
+
+#: wp-includes/class-wp-customize.php:591
+msgid "Posts page:"
+msgstr "Inläggssida:"
+
+#: wp-includes/class-wp-customize.php:602
+msgid "Site Title & Tagline"
+msgstr "Sidans titel & slogan"
+
+#: wp-includes/class-wp-customize.php:603
+msgid "Customize some strings."
+msgstr "Anpassa några strängar."
+
+#: wp-includes/class-wp-customize.php:615
+msgid "Tagline"
+msgstr "Slogan"
+
+#: wp-includes/class-wp-customize.php:637
+msgid "<label>%s %s</label>"
+msgstr "<label>%s %s</label>"
+
+#: wp-includes/class-wp-customize.php:643
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Välj &mdash;"
+
+#: wp-includes/customize-controls.php:39
+msgid "Customize %s"
+msgstr "Anpassa %s"
+
+#: wp-includes/js/tinymce/langs/wp-langs.php:267
+msgid "Styles"
+msgstr "Stilar"
+
+#: wp-includes/js/tinymce/langs/wp-langs.php:356
 msgid "Use left and right arrows to navigate."
 msgstr "Använd höger och vänster piltangenter för att navigera."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:512
+#: wp-includes/js/tinymce/langs/wp-langs.php:546
 msgid "Linked text"
 msgstr "Länkad text"
 
-#: wp-includes/script-loader.php:284
+#: wp-includes/script-loader.php:285
 msgctxt "word count: words or characters?"
 msgid "words"
 msgstr "ord"
@@ -54,9 +149,9 @@ msgstr "Standardjustering för bilder"
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Du saknar behörighet för att redigera detta inlägg."
 
-#: wp-includes/post.php:2904
-#: wp-includes/script-loader.php:341
-#: wp-includes/script-loader.php:365
+#: wp-includes/post.php:2903
+#: wp-includes/script-loader.php:347
+#: wp-includes/script-loader.php:371
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
@@ -253,68 +348,68 @@ msgstr[1] "%s kommentarer väntar på granskning"
 msgid "What do I do now?"
 msgstr "Vad gör jag nu?"
 
-#: wp-includes/script-loader.php:205
+#: wp-includes/script-loader.php:206
 msgid "%s exceeds the maximum upload size for the multi-file uploader when used in your browser."
 msgstr "%s överstiger den maximala storleken för uppladdningar när de används i din webbläsare."
 
-#: wp-includes/script-loader.php:204
+#: wp-includes/script-loader.php:205
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
 msgstr "Försök att ladda upp den här filen med den %1$swebbläsarbaserade uppladdaren%2$s."
 
-#: wp-includes/script-loader.php:213
+#: wp-includes/script-loader.php:214
 msgid "&#8220;%s&#8221; has failed to upload."
 msgstr "Uppladdningen av &#8220;%s&#8220; misslyckades."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:198
+#: wp-includes/js/tinymce/langs/wp-langs.php:228
 msgid "Toggle spellchecker (Alt + Shift + N)"
 msgstr "Stavningskontroll av/på (Alt + Skift + N)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:182
+#: wp-includes/js/tinymce/langs/wp-langs.php:207
 msgid "Toggle fullscreen mode (Alt + Shift + G)"
 msgstr "Fullskärmsläge av/på (Alt + Skift + G)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:257
+#: wp-includes/js/tinymce/langs/wp-langs.php:291
 msgid "Align Center (Alt + Shift + C)"
 msgstr "Centrera (Alt + Skift + C)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:256
+#: wp-includes/js/tinymce/langs/wp-langs.php:290
 msgid "Align Left (Alt + Shift + L)"
 msgstr "Vänsterjustera (Alt + Skift + L)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:255
+#: wp-includes/js/tinymce/langs/wp-langs.php:289
 msgid "Strikethrough (Alt + Shift + D)"
 msgstr "Genomstruken (Alt + Skift + D)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:259
+#: wp-includes/js/tinymce/langs/wp-langs.php:293
 msgid "Align Full (Alt + Shift + J)"
 msgstr "Fulljustera (Alt + Skift + J)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:265
+#: wp-includes/js/tinymce/langs/wp-langs.php:299
 msgid "Redo (Ctrl + Y)"
 msgstr "Gör om (Ctrl + Y)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:264
+#: wp-includes/js/tinymce/langs/wp-langs.php:298
 msgid "Undo (Ctrl + Z)"
 msgstr "Ångra (Ctrl + Z)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:466
+#: wp-includes/js/tinymce/langs/wp-langs.php:500
 msgid "Insert Page break (Alt + Shift + P)"
 msgstr "Infoga sidbrytning (Alt + Skift + P)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:465
+#: wp-includes/js/tinymce/langs/wp-langs.php:499
 msgid "Insert More Tag (Alt + Shift + T)"
 msgstr "Infoga Mer-tagg (Alt + Skift + T)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:464
+#: wp-includes/js/tinymce/langs/wp-langs.php:498
 msgid "Show/Hide Kitchen Sink (Alt + Shift + Z)"
 msgstr "Visa/dölj utökad verktygsrad (Alt + Skift + Z)"
 
 #: wp-includes/class-wp-editor.php:642
-#: wp-includes/js/tinymce/langs/wp-langs.php:287
+#: wp-includes/js/tinymce/langs/wp-langs.php:320
 msgid "Blockquote (Alt + Shift + Q)"
 msgstr "Citat (Alt + Skift + Q)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:258
+#: wp-includes/js/tinymce/langs/wp-langs.php:292
 msgid "Align Right (Alt + Shift + R)"
 msgstr "Högerjustera (Alt + Skift + R)"
 
@@ -355,7 +450,7 @@ msgstr "http://wordpress.org/support/"
 msgid "http://wordpress.org/support/forum/requests-and-feedback"
 msgstr "http://wordpress.org/support/forum/requests-and-feedback"
 
-#: wp-includes/script-loader.php:193
+#: wp-includes/script-loader.php:194
 msgid "%s exceeds the maximum upload size for this site."
 msgstr "%s överstiger den maximala filstorleken för uppladdning på den här webbplatsen."
 
@@ -409,11 +504,11 @@ msgstr "<strong>FEL</strong>: Ange en giltig e-postadress."
 msgid "<strong>ERROR</strong>: please fill the required fields (name, email)."
 msgstr "<strong>FEL</strong>: Fyll i de obligatoriska fälten (namn, e-post)."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:24
+#: wp-includes/js/tinymce/langs/wp-langs.php:27
 msgid "ERROR: Invalid values entered, these are marked in red."
 msgstr "FEL: Ogiltiga värden angivna, dessa är markerade med rött."
 
-#: wp-includes/script-loader.php:389
+#: wp-includes/script-loader.php:395
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "Kunde inte ladda förhandsgranskningsbilden. Ladda om sidan och försök igen."
 
@@ -663,12 +758,12 @@ msgstr "Global adminpanel: %s"
 msgid "Network Admin: %s"
 msgstr "Nätverksadmin: %s"
 
-#: wp-includes/taxonomy.php:414
+#: wp-includes/taxonomy.php:413
 msgctxt "taxonomy general name"
 msgid "Tags"
 msgstr "Etiketter"
 
-#: wp-includes/taxonomy.php:415
+#: wp-includes/taxonomy.php:414
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr "Etikett"
@@ -704,19 +799,19 @@ msgstr "Använd <code>WP_User->ID</code> istället."
 msgid "You have been added to this site. Please visit the <a href=\"%s\">homepage</a> or <a href=\"%s\">log in</a> using your username and password."
 msgstr "Du har lagts till på denna webbplats. Besök gärna <a href=\"%s\">startsidan</a> eller <a href=\"%s\">logga in</a> med ditt användarnamn och lösenord."
 
-#: wp-includes/script-loader.php:197
+#: wp-includes/script-loader.php:198
 msgid "Memory exceeded. Please try another smaller file."
 msgstr "Minnesgräns överskrids. Prova en annan mindre fil."
 
-#: wp-includes/script-loader.php:198
+#: wp-includes/script-loader.php:199
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Detta är större än den maximala storleken. Prova en annan."
 
-#: wp-includes/script-loader.php:196
+#: wp-includes/script-loader.php:197
 msgid "This file is not an image. Please try another."
 msgstr "Den här filen är inte en bild. Prova en annan."
 
-#: wp-includes/link-template.php:1122
+#: wp-includes/link-template.php:1120
 msgid "Use commas instead of %s to separate excluded categories."
 msgstr "Använd kommatecken istället för %s för att separera undantagna kategorier."
 
@@ -744,12 +839,12 @@ msgctxt "add new on admin bar"
 msgid "Page"
 msgstr "Sida"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:364
+#: wp-includes/js/tinymce/langs/wp-langs.php:398
 msgctxt "html attribute"
 msgid "Name"
 msgstr "Namn"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:321
+#: wp-includes/js/tinymce/langs/wp-langs.php:354
 msgctxt "html attribute"
 msgid "Name:"
 msgstr "Namn:"
@@ -773,11 +868,11 @@ msgstr "Användare"
 msgid "You should specify a nonce action to be verified by using the first parameter."
 msgstr "Du bör ange en &#8217;nonce&#8217; åtgärd som skall verifieras med hjälp av den första parametern."
 
-#: wp-includes/taxonomy.php:422
+#: wp-includes/taxonomy.php:421
 msgid "View Tag"
 msgstr "Visa Tag"
 
-#: wp-includes/taxonomy.php:422
+#: wp-includes/taxonomy.php:421
 msgid "View Category"
 msgstr "Visa kategori"
 
@@ -810,7 +905,7 @@ msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a 
 msgstr "Ditt konto är nu aktiverat. <a href=\"%1$s\">Visa din webbplats</a> eller <a href=\"%2$s\">logga in</a>"
 
 #: wp-includes/class-wp-editor.php:648
-#: wp-includes/js/tinymce/langs/wp-langs.php:467
+#: wp-includes/js/tinymce/langs/wp-langs.php:501
 msgid "Help (Alt + Shift + H)"
 msgstr "Hjälp (Alt + Shift + H)"
 
@@ -826,7 +921,7 @@ msgstr "Avsluta fullskärmsläge"
 msgid "Just write."
 msgstr "Bara skriv."
 
-#: wp-includes/script-loader.php:313
+#: wp-includes/script-loader.php:319
 msgid "Approve and Reply"
 msgstr "Godkänn och svara"
 
@@ -847,37 +942,37 @@ msgid "fullscreen"
 msgstr "fullskärm"
 
 #: wp-includes/class-wp-editor.php:636
-#: wp-includes/js/tinymce/langs/wp-langs.php:252
+#: wp-includes/js/tinymce/langs/wp-langs.php:286
 msgid "Bold (Ctrl + B)"
 msgstr "Fet (Ctrl + B)"
 
 #: wp-includes/class-wp-editor.php:637
-#: wp-includes/js/tinymce/langs/wp-langs.php:253
+#: wp-includes/js/tinymce/langs/wp-langs.php:287
 msgid "Italic (Ctrl + I)"
 msgstr "Kursiv (Ctrl + I)"
 
 #: wp-includes/class-wp-editor.php:640
-#: wp-includes/js/tinymce/langs/wp-langs.php:261
+#: wp-includes/js/tinymce/langs/wp-langs.php:295
 msgid "Ordered list (Alt + Shift + O)"
 msgstr "Numrerad lista (Alt + Shift + O)"
 
 #: wp-includes/class-wp-editor.php:639
-#: wp-includes/js/tinymce/langs/wp-langs.php:260
+#: wp-includes/js/tinymce/langs/wp-langs.php:294
 msgid "Unordered list (Alt + Shift + U)"
 msgstr "Oordnad lista (Alt + Skift + U)"
 
 #: wp-includes/class-wp-editor.php:643
-#: wp-includes/js/tinymce/langs/wp-langs.php:268
+#: wp-includes/js/tinymce/langs/wp-langs.php:302
 msgid "Insert/edit image (Alt + Shift + M)"
 msgstr "Infoga/redigera bild (Alt + Skift + M)"
 
 #: wp-includes/class-wp-editor.php:645
-#: wp-includes/js/tinymce/langs/wp-langs.php:266
+#: wp-includes/js/tinymce/langs/wp-langs.php:300
 msgid "Insert/edit link (Alt + Shift + A)"
 msgstr "Infoga/redigera länk (Alt + Skift + A)"
 
 #: wp-includes/class-wp-editor.php:646
-#: wp-includes/js/tinymce/langs/wp-langs.php:267
+#: wp-includes/js/tinymce/langs/wp-langs.php:301
 msgid "Unlink (Alt + Shift + S)"
 msgstr "Ta bort länkning (Alt + Skift + S)"
 
@@ -887,192 +982,192 @@ msgstr ""
 "TinyMCE är en plattformsoberoende webbaserad Javascript HTML WYSIWYG editor som släppas som öppen källkod under %sLGPL </a>\n"
 "av Moxiecode Systems AB. Den har förmågan att omvandla HTML-textfält eller andra HTML-element till redigeringsbara instanser."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:37
+#: wp-includes/js/tinymce/langs/wp-langs.php:41
 msgid "Indigo"
 msgstr "Indigoblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:36
+#: wp-includes/js/tinymce/langs/wp-langs.php:40
 msgid "Navy Blue"
 msgstr "Marinblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:34
+#: wp-includes/js/tinymce/langs/wp-langs.php:38
 msgid "Dark green"
 msgstr "Mörkgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:48
+#: wp-includes/js/tinymce/langs/wp-langs.php:52
 msgid "Amber"
 msgstr "Bärnstengul"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:41
+#: wp-includes/js/tinymce/langs/wp-langs.php:45
 msgid "Olive"
 msgstr "Olivgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:228
+#: wp-includes/js/tinymce/langs/wp-langs.php:262
 msgid "Words:"
 msgstr "Ord:"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:39
+#: wp-includes/js/tinymce/langs/wp-langs.php:43
 msgid "Maroon"
 msgstr "Kastanjebrun"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:459
+#: wp-includes/js/tinymce/langs/wp-langs.php:493
 msgid "Poster"
 msgstr "Avsändare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:458
+#: wp-includes/js/tinymce/langs/wp-langs.php:492
 msgid "Preload"
 msgstr "Förhandsladda"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:457
+#: wp-includes/js/tinymce/langs/wp-langs.php:491
 msgid "Alternative source 2"
 msgstr "Alternativ källa 2"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:456
+#: wp-includes/js/tinymce/langs/wp-langs.php:490
 msgid "Alternative source 1"
 msgstr "Alternativ källa 1"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:221
+#: wp-includes/js/tinymce/langs/wp-langs.php:253
 msgid "Disc"
 msgstr "Prick"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:219
+#: wp-includes/js/tinymce/langs/wp-langs.php:251
 msgid "Upper roman"
 msgstr "Övre romersk"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:59
+#: wp-includes/js/tinymce/langs/wp-langs.php:63
 msgid "Aqua"
 msgstr "Ljudblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:58
+#: wp-includes/js/tinymce/langs/wp-langs.php:62
 msgid "Lime"
 msgstr "Limegrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:55
+#: wp-includes/js/tinymce/langs/wp-langs.php:59
 msgid "Magenta"
 msgstr "Magenta"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:52
+#: wp-includes/js/tinymce/langs/wp-langs.php:56
 msgid "Royal blue"
 msgstr "Kungsblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:51
+#: wp-includes/js/tinymce/langs/wp-langs.php:55
 msgid "Turquoise"
 msgstr "Turkos"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:49
+#: wp-includes/js/tinymce/langs/wp-langs.php:53
 msgid "Yellow green"
 msgstr "Gulgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:218
+#: wp-includes/js/tinymce/langs/wp-langs.php:250
 msgid "Upper alpha"
 msgstr "Alfa versal"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:217
+#: wp-includes/js/tinymce/langs/wp-langs.php:249
 msgid "Lower roman"
 msgstr "Romersk gemen"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:32
+#: wp-includes/js/tinymce/langs/wp-langs.php:36
 msgid "Burnt orange"
 msgstr "Brunorange"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:149
+#: wp-includes/js/tinymce/langs/wp-langs.php:170
 msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode."
 msgstr "Klistra in är nu i läget oformaterad text. Klicka igen för att växla tillbaka till ordinarie klistra in läge."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:69
+#: wp-includes/js/tinymce/langs/wp-langs.php:73
 msgid "Plum"
 msgstr "Mörklila"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:25
+#: wp-includes/js/tinymce/langs/wp-langs.php:28
 msgid "{#field} must be a number"
 msgstr "{#field} måste vara ett nummer"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:54
+#: wp-includes/js/tinymce/langs/wp-langs.php:58
 msgid "Medium gray"
 msgstr "Mellangrå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:50
+#: wp-includes/js/tinymce/langs/wp-langs.php:54
 msgid "Sea green"
 msgstr "Ljusgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:148
+#: wp-includes/js/tinymce/langs/wp-langs.php:169
 msgid "Paste is now in plain text mode. Click again to toggle back to regular paste mode. After you paste something you will be returned to regular paste mode."
 msgstr "Klistra in är nu i läget oformaterad text. Klicka igen för att växla tillbaka till ordinarie klistra läge. När du har klistrat in något så kommer du tillbaka till vanlig klistra in läget."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:455
+#: wp-includes/js/tinymce/langs/wp-langs.php:489
 msgid "HTML5 Video Options"
 msgstr "Videoalternativ för HTML5"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:38
+#: wp-includes/js/tinymce/langs/wp-langs.php:42
 msgid "Very dark gray"
 msgstr "Mycket mörkgrå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:294
+#: wp-includes/js/tinymce/langs/wp-langs.php:327
 msgid "Press ALT F10 for toolbar. Press ALT 0 for help."
 msgstr "Tryck på ALT F10 för verktygsfältet. Tryck på ALT 0 för hjälp."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:293
-#: wp-includes/js/tinymce/langs/wp-langs.php:349
+#: wp-includes/js/tinymce/langs/wp-langs.php:326
+#: wp-includes/js/tinymce/langs/wp-langs.php:383
 msgid "Accessibility Help"
 msgstr "Hjälp för tillgänglighet"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:350
+#: wp-includes/js/tinymce/langs/wp-langs.php:384
 msgid "General Usage"
 msgstr "Allmän användning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:26
+#: wp-includes/js/tinymce/langs/wp-langs.php:29
 msgid "{#field} must be a number greater than {#min}"
 msgstr "{#field} måste vara ett tal större än {#min}"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:35
+#: wp-includes/js/tinymce/langs/wp-langs.php:39
 msgid "Dark azure"
 msgstr "Mörk himmelsblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:33
+#: wp-includes/js/tinymce/langs/wp-langs.php:37
 msgid "Dark olive"
 msgstr "Mörk olivgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:216
+#: wp-includes/js/tinymce/langs/wp-langs.php:248
 msgid "Lower greek"
 msgstr "Grekisk gemen"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:215
+#: wp-includes/js/tinymce/langs/wp-langs.php:247
 msgid "Lower alpha"
 msgstr "Alfa gemen"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:207
+#: wp-includes/js/tinymce/langs/wp-langs.php:237
 msgid "Learn word"
 msgstr "Lägg till ord"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:213
+#: wp-includes/js/tinymce/langs/wp-langs.php:245
 msgid "Types"
 msgstr "Typer"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:296
+#: wp-includes/js/tinymce/langs/wp-langs.php:329
 msgid "Toolbar"
 msgstr "Verktygsfält"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:27
+#: wp-includes/js/tinymce/langs/wp-langs.php:30
 msgid "{#field} must be a number or percentage"
 msgstr "{#field} måste vara ett nummer eller procentsats"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:222
+#: wp-includes/js/tinymce/langs/wp-langs.php:254
 msgid "Square"
 msgstr "Fyrkant"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:56
+#: wp-includes/js/tinymce/langs/wp-langs.php:60
 msgid "Gold"
 msgstr "Guld"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:68
+#: wp-includes/js/tinymce/langs/wp-langs.php:72
 msgid "Light sky blue"
 msgstr "Ljus himmelsblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:220
+#: wp-includes/js/tinymce/langs/wp-langs.php:252
 msgid "Circle"
 msgstr "Cirkel"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:64
+#: wp-includes/js/tinymce/langs/wp-langs.php:68
 msgid "Peach"
 msgstr "Persikorosa"
 
@@ -1080,32 +1175,32 @@ msgstr "Persikorosa"
 msgid "Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, All rights reserved."
 msgstr "Copyright &copy; 2003-2011, <a href=\"http://www.moxiecode.com\" target=\"_blank\">Moxiecode Systems AB</a>, Alla rättigheter reserverade."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:60
+#: wp-includes/js/tinymce/langs/wp-langs.php:64
 msgid "Sky blue"
 msgstr "Himmelsblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:225
-#: wp-includes/js/tinymce/langs/wp-langs.php:295
+#: wp-includes/js/tinymce/langs/wp-langs.php:258
+#: wp-includes/js/tinymce/langs/wp-langs.php:328
 msgid "Rich Text Area"
 msgstr "Visuell redigerare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:66
+#: wp-includes/js/tinymce/langs/wp-langs.php:70
 msgid "Pale green"
 msgstr "Ljusgrön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:65
+#: wp-includes/js/tinymce/langs/wp-langs.php:69
 msgid "Light yellow"
 msgstr "Ljusgul"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:43
+#: wp-includes/js/tinymce/langs/wp-langs.php:47
 msgid "Teal"
 msgstr "Grönblå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:67
+#: wp-includes/js/tinymce/langs/wp-langs.php:71
 msgid "Pale cyan"
 msgstr "Ljusturkos"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:45
+#: wp-includes/js/tinymce/langs/wp-langs.php:49
 msgid "Grayish blue"
 msgstr "Gråblå"
 
@@ -1332,7 +1427,7 @@ msgstr "Ett fel uppstod vid åtkomst till inläggets metadata för filens plats.
 msgid "Your attempt to update this plugin: &#8220;%s&#8221; has failed."
 msgstr "Ditt försök att uppdatera detta tillägg: &#8220;%s&#8220; misslyckades."
 
-#: wp-includes/post.php:5119
+#: wp-includes/post.php:5118
 msgctxt "Post format"
 msgid "Standard"
 msgstr "Standard"
@@ -1354,7 +1449,7 @@ msgctxt "admin bar menu group label"
 msgid "Add New"
 msgstr "Skapa/lägg till"
 
-#: wp-includes/post.php:5128
+#: wp-includes/post.php:5127
 msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
@@ -1385,42 +1480,42 @@ msgstr "Endast en statisk klassmetod eller funktion kan användas för avinstall
 msgid "Passing an integer number of posts is deprecated. Pass an array of arguments instead."
 msgstr "Att passerar antalet poster är föråldrat. Passera en array av argument istället."
 
-#: wp-includes/post.php:5120
+#: wp-includes/post.php:5119
 msgctxt "Post format"
 msgid "Aside"
 msgstr "Notering"
 
-#: wp-includes/post.php:5121
+#: wp-includes/post.php:5120
 msgctxt "Post format"
 msgid "Chat"
 msgstr "Chat"
 
-#: wp-includes/post.php:5122
+#: wp-includes/post.php:5121
 msgctxt "Post format"
 msgid "Gallery"
 msgstr "Galleri "
 
-#: wp-includes/post.php:5123
+#: wp-includes/post.php:5122
 msgctxt "Post format"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/post.php:5124
+#: wp-includes/post.php:5123
 msgctxt "Post format"
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/post.php:5125
+#: wp-includes/post.php:5124
 msgctxt "Post format"
 msgid "Quote"
 msgstr "Citat"
 
-#: wp-includes/post.php:5126
+#: wp-includes/post.php:5125
 msgctxt "Post format"
 msgid "Status"
 msgstr "Status"
 
-#: wp-includes/post.php:5127
+#: wp-includes/post.php:5126
 msgctxt "Post format"
 msgid "Video"
 msgstr "Video"
@@ -1491,7 +1586,7 @@ msgstr "Höjd för miniatyrer"
 msgid "Thumbnail Width"
 msgstr "Bredd för miniatyrer"
 
-#: wp-includes/script-loader.php:273
+#: wp-includes/script-loader.php:274
 msgid "No matches found."
 msgstr "Inga träffar."
 
@@ -1744,7 +1839,7 @@ msgstr "En ny trackback till ditt inlägg \\\"%s\\\""
 msgid "New comment on your post \"%s\""
 msgstr "En ny kommentar till ditt inlägg \"%s\""
 
-#: wp-includes/taxonomy.php:2081
+#: wp-includes/taxonomy.php:2080
 msgid "A term with the name provided already exists."
 msgstr "En term med angivet namn existerar redan."
 
@@ -1919,7 +2014,7 @@ msgctxt "revisions column name"
 msgid "Date Created"
 msgstr "Datum skapat"
 
-#: wp-includes/taxonomy.php:428
+#: wp-includes/taxonomy.php:427
 msgid "Choose from the most used tags"
 msgstr "Välj från de mest använda etiketterna"
 
@@ -1927,52 +2022,52 @@ msgstr "Välj från de mest använda etiketterna"
 msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
 msgstr "Följande <abbr title=\"HyperText Markup Language\">HTML</abbr>-taggar och attribut är tillåtna: %s"
 
-#: wp-includes/taxonomy.php:415
+#: wp-includes/taxonomy.php:414
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr "Kategori"
 
-#: wp-includes/taxonomy.php:416
+#: wp-includes/taxonomy.php:415
 msgid "Search Tags"
 msgstr "Sök etiketter"
 
-#: wp-includes/taxonomy.php:417
+#: wp-includes/taxonomy.php:416
 msgid "Popular Tags"
 msgstr "Populära etiketter"
 
-#: wp-includes/taxonomy.php:425
+#: wp-includes/taxonomy.php:424
 msgid "New Category Name"
 msgstr "Namn för ny kategori"
 
-#: wp-includes/taxonomy.php:425
+#: wp-includes/taxonomy.php:424
 msgid "New Tag Name"
 msgstr "Namn för ny etikett"
 
-#: wp-includes/taxonomy.php:424
+#: wp-includes/taxonomy.php:423
 msgid "Add New Category"
 msgstr "Lägg till ny kategori"
 
-#: wp-includes/taxonomy.php:424
+#: wp-includes/taxonomy.php:423
 msgid "Add New Tag"
 msgstr "Lägg till en ny etikett"
 
-#: wp-includes/taxonomy.php:423
+#: wp-includes/taxonomy.php:422
 msgid "Update Tag"
 msgstr "Uppdatera etikett"
 
-#: wp-includes/taxonomy.php:420
+#: wp-includes/taxonomy.php:419
 msgid "Parent Category:"
 msgstr "Moderkategori:"
 
-#: wp-includes/taxonomy.php:419
+#: wp-includes/taxonomy.php:418
 msgid "Parent Category"
 msgstr "Nuvarande kategori"
 
-#: wp-includes/taxonomy.php:418
+#: wp-includes/taxonomy.php:417
 msgid "All Tags"
 msgstr "Alla etiketter"
 
-#: wp-includes/taxonomy.php:414
+#: wp-includes/taxonomy.php:413
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr "Kategorier"
@@ -2304,7 +2399,7 @@ msgstr "Den webbplatsen finns inte. Var vänlig försök med <a href=\"%s\">%s</
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
 msgstr "webbplatsen du har efterfrågat är inte installerad korrekt. Var vänlig kontakta systemadministratören."
 
-#: wp-includes/script-loader.php:403
+#: wp-includes/script-loader.php:409
 msgctxt "search results"
 msgid "No results found."
 msgstr "Inga resultat funna."
@@ -2330,7 +2425,7 @@ msgstr "WordPressadressen angiven verkar inte vara en giltig URL. Var vänlig an
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Webbplatsadressen angiven verkar inte vara en giltig URL. Var vänlig ange en giltig URL."
 
-#: wp-includes/taxonomy.php:2066
+#: wp-includes/taxonomy.php:2065
 msgid "A term with the name provided already exists with this parent."
 msgstr "En term med namnet som angavs existerar redan med denna förälder."
 
@@ -2418,15 +2513,15 @@ msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att dat
 msgid "Enter title here"
 msgstr "Ange rubrik här"
 
-#: wp-includes/script-loader.php:376
+#: wp-includes/script-loader.php:382
 msgid "Are you sure you want to install this plugin?"
 msgstr "Är du säker på att du vill installera det här tillägget?"
 
-#: wp-includes/script-loader.php:394
+#: wp-includes/script-loader.php:400
 msgid "Use as featured image"
 msgstr "Använd som utvald bild"
 
-#: wp-includes/script-loader.php:258
+#: wp-includes/script-loader.php:259
 msgid "Mismatch"
 msgstr "Inte matchande"
 
@@ -2466,7 +2561,7 @@ msgstr "Anpassad"
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Inga menyer har skapats än.  <a href=\"%s\">Skapa ny</a>."
 
-#: wp-includes/script-loader.php:404
+#: wp-includes/script-loader.php:410
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -2474,21 +2569,21 @@ msgstr ""
 "Vill du radera den här menyn permanent? \n"
 " 'Avbryt' för att avbryta, 'OK' för att radera."
 
-#: wp-includes/link-template.php:2374
+#: wp-includes/link-template.php:2372
 msgid "This is the short link."
 msgstr "Detta är den korta länken."
 
-#: wp-includes/update.php:361
+#: wp-includes/update.php:358
 msgid "%d WordPress Update"
 msgstr "%d Uppdatering för WordPress"
 
-#: wp-includes/update.php:365
+#: wp-includes/update.php:362
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d uppdatering för tema"
 msgstr[1] "%d uppdateringar för teman"
 
-#: wp-includes/update.php:363
+#: wp-includes/update.php:360
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d uppdatering för tillägg"
@@ -2514,7 +2609,7 @@ msgstr "Webbplatser som du redan är medlem på:"
 msgid "This site has not been activated yet. If you are having problems activating your site, please contact <a href=\"mailto:%1$s\">%1$s</a>."
 msgstr "Den här webbplatsen har inte blivit aktiverad än. Om du har problem med aktiveringen av din webbplats, var vänlig kontakta <a href=\"mailto:%1$s\">%1$s</a>."
 
-#: wp-includes/script-loader.php:208
+#: wp-includes/script-loader.php:209
 msgid "File canceled."
 msgstr "Fil annullerad."
 
@@ -3110,6 +3205,7 @@ msgid_plural "%s days"
 msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
+#: wp-includes/class-wp-theme.php:577
 #: wp-includes/formatting.php:2891
 msgid ", "
 msgstr ", "
@@ -3394,7 +3490,7 @@ msgstr "&raquo;"
 
 #: wp-includes/general-template.php:1604
 msgid "%1$s %2$s Feed"
-msgstr "%1$s %2$s -flöde"
+msgstr "%1$s %2$s flöde"
 
 #: wp-includes/general-template.php:1606
 msgid "%1$s %2$s Comments Feed"
@@ -3428,7 +3524,7 @@ msgstr "&laquo; Föregående"
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:46
+#: wp-includes/js/tinymce/langs/wp-langs.php:50
 msgid "Gray"
 msgstr "Grå"
 
@@ -3454,484 +3550,484 @@ msgstr "Felformaterad URL: %s"
 msgid "Could not open handle for fopen() to %s"
 msgstr "Kunde inte öppna hantering för fopen() till %s"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:12
+#: wp-includes/js/tinymce/langs/wp-langs.php:15
 msgid "Do you want to use the WYSIWYG mode for this textarea?"
 msgstr "Vill du använda WYSIWYG-redigeraren för denna textruta?"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:14
+#: wp-includes/js/tinymce/langs/wp-langs.php:17
 msgid "Insert"
 msgstr "Lägg till"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:18
+#: wp-includes/js/tinymce/langs/wp-langs.php:21
 msgid "Browse"
 msgstr "Visa"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:19
-#: wp-includes/js/tinymce/langs/wp-langs.php:365
+#: wp-includes/js/tinymce/langs/wp-langs.php:22
+#: wp-includes/js/tinymce/langs/wp-langs.php:399
 msgid "Class"
 msgstr "Class"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:20
+#: wp-includes/js/tinymce/langs/wp-langs.php:23
 msgid "-- Not set --"
 msgstr "-- Ej satt --"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:21
-#: wp-includes/js/tinymce/langs/wp-langs.php:288
+#: wp-includes/js/tinymce/langs/wp-langs.php:24
+#: wp-includes/js/tinymce/langs/wp-langs.php:321
 msgid "Copy/Cut/Paste is not available in Mozilla and Firefox."
 msgstr "Kopiera/Klipp ut/Klistra in är inte tillgängligt i Mozilla och Firefox."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:22
+#: wp-includes/js/tinymce/langs/wp-langs.php:25
 msgid "Currently not supported by your browser, use keyboard shortcuts instead."
 msgstr "Din webbläsare har för närvarande inte stöd, använd kortkommandon istället."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:23
+#: wp-includes/js/tinymce/langs/wp-langs.php:26
 msgid "Sorry, but we have noticed that your popup-blocker has disabled a window that provides application functionality. You will need to disable popup blocking on this site in order to fully utilize this tool."
 msgstr "Vi har upptäckt att din popup-blockerare har stoppat ett fönster som behövs för funktionaliteten. Du måste inaktivera popup-blockeraren för denna sida för full funktionalitet."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:28
-#: wp-includes/js/tinymce/langs/wp-langs.php:292
+#: wp-includes/js/tinymce/langs/wp-langs.php:31
+#: wp-includes/js/tinymce/langs/wp-langs.php:325
 msgid "More colors"
 msgstr "Fler färger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:77
+#: wp-includes/js/tinymce/langs/wp-langs.php:82
 msgid "Full"
 msgstr "Hel"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:80
+#: wp-includes/js/tinymce/langs/wp-langs.php:86
 msgid "%Y-%m-%d"
 msgstr "%Y-%m-%d"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:81
+#: wp-includes/js/tinymce/langs/wp-langs.php:87
 msgid "%H:%M:%S"
 msgstr "%H:%M:%S"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:82
+#: wp-includes/js/tinymce/langs/wp-langs.php:88
 msgid "Insert date"
 msgstr "Infoga datum"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:83
+#: wp-includes/js/tinymce/langs/wp-langs.php:89
 msgid "Insert time"
 msgstr "Infoga tid"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:131
 #: wp-includes/locale.php:146
 msgid "January"
 msgstr "januari"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:132
 #: wp-includes/locale.php:147
 msgid "February"
 msgstr "februari"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:133
 #: wp-includes/locale.php:148
 msgid "March"
 msgstr "mars"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:134
 #: wp-includes/locale.php:149
 msgid "April"
 msgstr "april"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:135
 #: wp-includes/locale.php:150
 msgid "May"
 msgstr "maj"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:136
 #: wp-includes/locale.php:151
 msgid "June"
 msgstr "juni"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:137
 #: wp-includes/locale.php:152
 msgid "July"
 msgstr "juli"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:138
 #: wp-includes/locale.php:153
 msgid "August"
 msgstr "augusti"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:139
 #: wp-includes/locale.php:154
 msgid "September"
 msgstr "september"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:140
 #: wp-includes/locale.php:155
 msgid "October"
 msgstr "oktober"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:141
 #: wp-includes/locale.php:156
 msgid "November"
 msgstr "november"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:84
+#: wp-includes/js/tinymce/langs/wp-langs.php:90
 #: wp-includes/locale.php:142
 #: wp-includes/locale.php:157
 msgid "December"
 msgstr "december"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:146
 msgid "Jan_January_abbreviation"
 msgstr "Jan"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:147
 msgid "Feb_February_abbreviation"
 msgstr "Feb"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:148
 msgid "Mar_March_abbreviation"
 msgstr "Mar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:149
 msgid "Apr_April_abbreviation"
 msgstr "Apr"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:150
 msgid "May_May_abbreviation"
 msgstr "Maj"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:151
 msgid "Jun_June_abbreviation"
 msgstr "Jun"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:152
 msgid "Jul_July_abbreviation"
 msgstr "Jul"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:153
 msgid "Aug_August_abbreviation"
 msgstr "Aug"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:154
 msgid "Sep_September_abbreviation"
 msgstr "Sep"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:155
 msgid "Oct_October_abbreviation"
 msgstr "Okt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:156
 msgid "Nov_November_abbreviation"
 msgstr "Nov"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:85
+#: wp-includes/js/tinymce/langs/wp-langs.php:91
 #: wp-includes/locale.php:157
 msgid "Dec_December_abbreviation"
 msgstr "Dec"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:99
 #: wp-includes/locale.php:109
 #: wp-includes/locale.php:122
 msgid "Sunday"
 msgstr "söndag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:100
 #: wp-includes/locale.php:110
 #: wp-includes/locale.php:123
 msgid "Monday"
 msgstr "måndag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:101
 #: wp-includes/locale.php:111
 #: wp-includes/locale.php:124
 msgid "Tuesday"
 msgstr "tisdag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:102
 #: wp-includes/locale.php:112
 #: wp-includes/locale.php:125
 msgid "Wednesday"
 msgstr "onsdag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:103
 #: wp-includes/locale.php:113
 #: wp-includes/locale.php:126
 msgid "Thursday"
 msgstr "torsdag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:104
 #: wp-includes/locale.php:114
 #: wp-includes/locale.php:127
 msgid "Friday"
 msgstr "fredag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:86
+#: wp-includes/js/tinymce/langs/wp-langs.php:92
 #: wp-includes/locale.php:105
 #: wp-includes/locale.php:115
 #: wp-includes/locale.php:128
 msgid "Saturday"
 msgstr "lördag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:122
 msgid "Sun"
 msgstr "sön"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:123
 msgid "Mon"
 msgstr "mån"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:124
 msgid "Tue"
 msgstr "tis"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:125
 msgid "Wed"
 msgstr "ons"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:126
 msgid "Thu"
 msgstr "tor"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:127
 msgid "Fri"
 msgstr "fre"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:87
+#: wp-includes/js/tinymce/langs/wp-langs.php:93
 #: wp-includes/locale.php:128
 msgid "Sat"
 msgstr "lör"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:90
+#: wp-includes/js/tinymce/langs/wp-langs.php:97
 msgid "Print"
 msgstr "Skriv ut"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:96
+#: wp-includes/js/tinymce/langs/wp-langs.php:105
 msgid "Direction left to right"
 msgstr "Riktning vänster till höger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:97
+#: wp-includes/js/tinymce/langs/wp-langs.php:106
 msgid "Direction right to left"
 msgstr "Riktning höger till vänster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:100
+#: wp-includes/js/tinymce/langs/wp-langs.php:110
 msgid "Insert new layer"
 msgstr "Infoga nytt lager"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:101
+#: wp-includes/js/tinymce/langs/wp-langs.php:111
 msgid "Move forward"
 msgstr "Fortsätt framåt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:102
+#: wp-includes/js/tinymce/langs/wp-langs.php:112
 msgid "Move backward"
 msgstr "Gå bakåt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:103
+#: wp-includes/js/tinymce/langs/wp-langs.php:113
 msgid "Toggle absolute positioning"
 msgstr "Använd absolut positionering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:104
+#: wp-includes/js/tinymce/langs/wp-langs.php:114
 msgid "New layer..."
 msgstr "Nytt lager..."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:108
+#: wp-includes/js/tinymce/langs/wp-langs.php:119
 msgid "Cancel all changes"
 msgstr "Avbryt alla ändringar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:111
+#: wp-includes/js/tinymce/langs/wp-langs.php:123
 msgid "Insert non-breaking space character"
 msgstr "Infoga bindestreck"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:114
+#: wp-includes/js/tinymce/langs/wp-langs.php:127
 msgid "Run spell checking"
 msgstr "Kör stavningskontroll"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:115
+#: wp-includes/js/tinymce/langs/wp-langs.php:128
 msgid "ieSpell not detected. Do you want to install it now?"
 msgstr "ieSpell kunde inte hittas. Vill du installera det nu?"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:118
+#: wp-includes/js/tinymce/langs/wp-langs.php:132
 msgid "Horizontale rule"
 msgstr "Horizontal linje"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:121
+#: wp-includes/js/tinymce/langs/wp-langs.php:136
 msgid "Emotions"
 msgstr "Känslor"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:124
+#: wp-includes/js/tinymce/langs/wp-langs.php:140
 msgid "Find"
 msgstr "Hitta"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:125
+#: wp-includes/js/tinymce/langs/wp-langs.php:141
 msgid "Find/Replace"
 msgstr "Hitta/Ersätt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:128
-#: wp-includes/js/tinymce/langs/wp-langs.php:323
+#: wp-includes/js/tinymce/langs/wp-langs.php:145
+#: wp-includes/js/tinymce/langs/wp-langs.php:357
 msgid "Insert/edit image"
 msgstr "Infoga/redigera bild"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:131
-#: wp-includes/js/tinymce/langs/wp-langs.php:340
-#: wp-includes/script-loader.php:269
+#: wp-includes/js/tinymce/langs/wp-langs.php:149
+#: wp-includes/js/tinymce/langs/wp-langs.php:374
+#: wp-includes/script-loader.php:270
 msgid "Insert/edit link"
 msgstr "Infoga/redigera länk"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:134
+#: wp-includes/js/tinymce/langs/wp-langs.php:153
 msgid "Citation"
 msgstr "Refererande citat"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:135
+#: wp-includes/js/tinymce/langs/wp-langs.php:154
 msgid "Abbreviation"
 msgstr "Förkortning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:136
+#: wp-includes/js/tinymce/langs/wp-langs.php:155
 msgid "Acronym"
 msgstr "Akronym"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:137
+#: wp-includes/js/tinymce/langs/wp-langs.php:156
 msgid "Deletion"
 msgstr "Radering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:138
+#: wp-includes/js/tinymce/langs/wp-langs.php:157
 msgid "Insertion"
 msgstr "Infogning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:139
+#: wp-includes/js/tinymce/langs/wp-langs.php:158
 msgid "Insert/Edit Attributes"
 msgstr "Infoga/redigera Attribut"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:142
+#: wp-includes/js/tinymce/langs/wp-langs.php:162
 msgid "Edit CSS Style"
 msgstr "Ändra CSS-stilmall"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:145
+#: wp-includes/js/tinymce/langs/wp-langs.php:166
 msgid "Paste as Plain Text"
 msgstr "Klistra in som enkel text"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:146
+#: wp-includes/js/tinymce/langs/wp-langs.php:167
 msgid "Paste from Word"
 msgstr "Klistra in från Word"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:152
-#: wp-includes/js/tinymce/langs/wp-langs.php:154
+#: wp-includes/js/tinymce/langs/wp-langs.php:174
+#: wp-includes/js/tinymce/langs/wp-langs.php:176
 msgid "Use CTRL+V on your keyboard to paste the text into the window."
 msgstr "Använd CTRL+V på ditt tangentbord för att klistra in text i fönstret."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:153
+#: wp-includes/js/tinymce/langs/wp-langs.php:175
 msgid "Keep linebreaks"
 msgstr "Behåll radbrytningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:157
+#: wp-includes/js/tinymce/langs/wp-langs.php:180
 msgid "Inserts a new table"
 msgstr "Infoga en ny tabell"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:158
+#: wp-includes/js/tinymce/langs/wp-langs.php:181
 msgid "Insert row before"
 msgstr "Infoga en rad innan"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:159
+#: wp-includes/js/tinymce/langs/wp-langs.php:182
 msgid "Insert row after"
 msgstr "Infoga rad efter"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:160
+#: wp-includes/js/tinymce/langs/wp-langs.php:183
 msgid "Delete row"
 msgstr "Radera rad"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:161
+#: wp-includes/js/tinymce/langs/wp-langs.php:184
 msgid "Insert column before"
 msgstr "Infoga en kolumn innan"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:162
+#: wp-includes/js/tinymce/langs/wp-langs.php:185
 msgid "Insert column after"
 msgstr "Infoga kolumn efter"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:163
+#: wp-includes/js/tinymce/langs/wp-langs.php:186
 msgid "Remove column"
 msgstr "Ta bort kolumn"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:164
+#: wp-includes/js/tinymce/langs/wp-langs.php:187
 msgid "Split merged table cells"
 msgstr "Sära på sammansatta tabellceller"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:165
+#: wp-includes/js/tinymce/langs/wp-langs.php:188
 msgid "Merge table cells"
 msgstr "Sammanfoga tabellceller"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:166
+#: wp-includes/js/tinymce/langs/wp-langs.php:189
 msgid "Table row properties"
 msgstr "Tabellradsegenskaper"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:167
+#: wp-includes/js/tinymce/langs/wp-langs.php:190
 msgid "Table cell properties"
 msgstr "Tabellcellsegenskaper"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:168
+#: wp-includes/js/tinymce/langs/wp-langs.php:191
 msgid "Table properties"
 msgstr "Tabellegenskaper"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:169
+#: wp-includes/js/tinymce/langs/wp-langs.php:192
 msgid "Paste table row before"
 msgstr "Klistra in tabellrad innan"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:170
+#: wp-includes/js/tinymce/langs/wp-langs.php:193
 msgid "Paste table row after"
 msgstr "Klistra in tabellrad efter"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:171
+#: wp-includes/js/tinymce/langs/wp-langs.php:194
 msgid "Cut table row"
 msgstr "Klipp ut tabellrad"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:172
+#: wp-includes/js/tinymce/langs/wp-langs.php:195
 msgid "Copy table row"
 msgstr "Kopiera tabellrad"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:173
+#: wp-includes/js/tinymce/langs/wp-langs.php:196
 msgid "Delete table"
 msgstr "Radera tabell"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:174
+#: wp-includes/js/tinymce/langs/wp-langs.php:197
 msgid "Row"
 msgstr "Rad"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:175
+#: wp-includes/js/tinymce/langs/wp-langs.php:198
 msgid "Column"
 msgstr "Kolumn"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:176
+#: wp-includes/js/tinymce/langs/wp-langs.php:199
 msgid "Cell"
 msgstr "Cell"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:179
-#: wp-includes/script-loader.php:405
-#: wp-includes/script-loader.php:511
+#: wp-includes/js/tinymce/langs/wp-langs.php:203
+#: wp-includes/script-loader.php:411
+#: wp-includes/script-loader.php:519
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Ändringarna du gjort kommer att förloras om du går i från sidan utan att spara."
 
@@ -3939,144 +4035,139 @@ msgstr "Ändringarna du gjort kommer att förloras om du går i från sidan utan
 msgid "Toggle fullscreen mode"
 msgstr "Fullskärm av/på"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:185
-#: wp-includes/js/tinymce/langs/wp-langs.php:354
+#: wp-includes/js/tinymce/langs/wp-langs.php:211
+#: wp-includes/js/tinymce/langs/wp-langs.php:388
 msgid "Insert / edit embedded media"
 msgstr "Infoga / redigera inbäddad media"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:186
+#: wp-includes/js/tinymce/langs/wp-langs.php:212
 msgid "Edit embedded media"
 msgstr "Redigera inbäddad media"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:189
+#: wp-includes/js/tinymce/langs/wp-langs.php:216
 msgid "Document properties"
 msgstr "Dokumentegenskaper"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:192
+#: wp-includes/js/tinymce/langs/wp-langs.php:220
 msgid "Insert predefined template content"
 msgstr "Infoga förvalt mallinnehåll"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:195
+#: wp-includes/js/tinymce/langs/wp-langs.php:224
 msgid "Visual control characters on/off."
 msgstr "Visuella kontrolltecken på/av."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:199
+#: wp-includes/js/tinymce/langs/wp-langs.php:229
 msgid "Spellchecker settings"
 msgstr "Inställningar för rättstavning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:200
+#: wp-includes/js/tinymce/langs/wp-langs.php:230
 msgid "Ignore word"
 msgstr "Ignorera ord"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:201
+#: wp-includes/js/tinymce/langs/wp-langs.php:231
 msgid "Ignore all"
 msgstr "Ignorera alla"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:202
+#: wp-includes/js/tinymce/langs/wp-langs.php:232
 msgid "Languages"
 msgstr "Språk"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:203
+#: wp-includes/js/tinymce/langs/wp-langs.php:233
 msgid "Please wait..."
 msgstr "Vänta..."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:204
+#: wp-includes/js/tinymce/langs/wp-langs.php:234
 msgid "Suggestions"
 msgstr "Förslag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:205
+#: wp-includes/js/tinymce/langs/wp-langs.php:235
 msgid "No suggestions"
 msgstr "Inga förslag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:206
+#: wp-includes/js/tinymce/langs/wp-langs.php:236
 msgid "No misspellings found."
 msgstr "Inga stavfel hittade."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:210
+#: wp-includes/js/tinymce/langs/wp-langs.php:241
 msgid "Insert Page Break"
 msgstr "Infoga sidindelning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:233
-msgctxt "TinyMCE font styles"
-msgid "Styles"
-msgstr "Stilmallar"
-
-#: wp-includes/js/tinymce/langs/wp-langs.php:234
+#: wp-includes/js/tinymce/langs/wp-langs.php:268
 msgid "Font size"
 msgstr "Textstorlek"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:235
+#: wp-includes/js/tinymce/langs/wp-langs.php:269
 msgid "Font family"
 msgstr "Textfamilj"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:236
+#: wp-includes/js/tinymce/langs/wp-langs.php:270
 msgid "Format"
 msgstr "Format"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:237
+#: wp-includes/js/tinymce/langs/wp-langs.php:271
 msgid "Paragraph"
 msgstr "Stycke"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:238
+#: wp-includes/js/tinymce/langs/wp-langs.php:272
 msgid "Div"
 msgstr "Div"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:239
+#: wp-includes/js/tinymce/langs/wp-langs.php:273
 #: wp-includes/js/tinymce/wp-mce-help.php:245
 msgid "Address"
 msgstr "Adress"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:240
+#: wp-includes/js/tinymce/langs/wp-langs.php:274
 msgid "Preformatted"
 msgstr "Förformaterad"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:241
+#: wp-includes/js/tinymce/langs/wp-langs.php:275
 #: wp-includes/js/tinymce/wp-mce-help.php:242
 msgid "Heading 1"
 msgstr "Rubrik 1"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:242
+#: wp-includes/js/tinymce/langs/wp-langs.php:276
 #: wp-includes/js/tinymce/wp-mce-help.php:243
 msgid "Heading 2"
 msgstr "Rubrik 2"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:243
+#: wp-includes/js/tinymce/langs/wp-langs.php:277
 #: wp-includes/js/tinymce/wp-mce-help.php:243
 msgid "Heading 3"
 msgstr "Rubrik 3"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:244
+#: wp-includes/js/tinymce/langs/wp-langs.php:278
 #: wp-includes/js/tinymce/wp-mce-help.php:244
 msgid "Heading 4"
 msgstr "Rubrik 4"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:245
+#: wp-includes/js/tinymce/langs/wp-langs.php:279
 #: wp-includes/js/tinymce/wp-mce-help.php:244
 msgid "Heading 5"
 msgstr "Rubrik 5"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:246
+#: wp-includes/js/tinymce/langs/wp-langs.php:280
 #: wp-includes/js/tinymce/wp-mce-help.php:245
 msgid "Heading 6"
 msgstr "Rubrik 6"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:247
+#: wp-includes/js/tinymce/langs/wp-langs.php:281
 msgid "Blockquote"
 msgstr "Citering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:248
+#: wp-includes/js/tinymce/langs/wp-langs.php:282
 msgid "Code"
 msgstr "Kod"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:249
+#: wp-includes/js/tinymce/langs/wp-langs.php:283
 msgid "Code sample"
 msgstr "Kod exempel"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:250
+#: wp-includes/js/tinymce/langs/wp-langs.php:284
 msgid "Definition term "
 msgstr "Definitionsterm"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:251
+#: wp-includes/js/tinymce/langs/wp-langs.php:285
 msgid "Definition description"
 msgstr "Definitionsbeskrivning"
 
@@ -4090,7 +4181,7 @@ msgstr "Fet"
 msgid "Italic"
 msgstr "Kursiv"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:254
+#: wp-includes/js/tinymce/langs/wp-langs.php:288
 #: wp-includes/js/tinymce/wp-mce-help.php:242
 msgid "Underline"
 msgstr "Understreck"
@@ -4111,557 +4202,558 @@ msgstr "Centrerat"
 msgid "Align Right"
 msgstr "Högerjustera"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:262
+#: wp-includes/js/tinymce/langs/wp-langs.php:296
 msgid "Outdent"
 msgstr "Minska indrag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:263
+#: wp-includes/js/tinymce/langs/wp-langs.php:297
 msgid "Indent"
 msgstr "Indrag"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:269
+#: wp-includes/js/tinymce/langs/wp-langs.php:303
 msgid "Cleanup messy code"
 msgstr "Rensa upp i felaktig kod"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:270
+#: wp-includes/js/tinymce/langs/wp-langs.php:304
 msgid "Edit HTML Source"
 msgstr "Redigera HTML-källa"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:271
+#: wp-includes/js/tinymce/langs/wp-langs.php:305
 msgid "Subscript"
 msgstr "Abonnent"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:272
+#: wp-includes/js/tinymce/langs/wp-langs.php:306
 msgid "Superscript"
 msgstr "Superskript"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:273
+#: wp-includes/js/tinymce/langs/wp-langs.php:307
 msgid "Insert horizontal ruler"
 msgstr "Infoga horizontal linje"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:274
+#: wp-includes/js/tinymce/langs/wp-langs.php:308
 msgid "Remove formatting"
 msgstr "Ta bort formatering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:275
+#: wp-includes/js/tinymce/langs/wp-langs.php:309
 msgid "Select text color"
 msgstr "Välj textfärg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:276
+#: wp-includes/js/tinymce/langs/wp-langs.php:310
 msgid "Select background color"
 msgstr "Välj bakgrundsfärg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:277
+#: wp-includes/js/tinymce/langs/wp-langs.php:311
 msgid "Insert custom character"
 msgstr "Infoga specialtecken"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:279
+#: wp-includes/js/tinymce/langs/wp-langs.php:312
 msgid "Toggle guidelines/invisible elements"
 msgstr "Visa/göm guidelinjer/dolda element"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:280
-#: wp-includes/js/tinymce/langs/wp-langs.php:309
+#: wp-includes/js/tinymce/langs/wp-langs.php:313
+#: wp-includes/js/tinymce/langs/wp-langs.php:342
 msgid "Insert/edit anchor"
 msgstr "Infoga/redigera ankare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:281
+#: wp-includes/js/tinymce/langs/wp-langs.php:314
 #: wp-includes/js/tinymce/wp-mce-help.php:238
 msgid "Cut"
 msgstr "Klipp ut"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:282
+#: wp-includes/js/tinymce/langs/wp-langs.php:315
 #: wp-includes/js/tinymce/wp-mce-help.php:237
 msgid "Copy"
 msgstr "Kopiera"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:283
+#: wp-includes/js/tinymce/langs/wp-langs.php:316
 #: wp-includes/js/tinymce/wp-mce-help.php:237
 msgid "Paste"
 msgstr "Klistra in"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:284
+#: wp-includes/js/tinymce/langs/wp-langs.php:317
 msgid "Image properties"
 msgstr "Bildegenskaper"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:285
+#: wp-includes/js/tinymce/langs/wp-langs.php:318
 msgid "New document"
 msgstr "Nytt dokument"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:290
+#: wp-includes/js/tinymce/langs/wp-langs.php:323
 msgid "Are you sure you want to clear all contents?"
 msgstr "Är du säker på att du vill ta bort allt innehåll?"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:291
+#: wp-includes/js/tinymce/langs/wp-langs.php:324
 msgid "Jump to tool buttons - Alt+Q, Jump to editor - Alt-Z, Jump to element path - Alt-X"
 msgstr "Hoppa till verktygsknappar - Alt+Q, Hoppa till redigerare - Alt+Z, Hoppa till elementsökväg - Alt+X"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:300
+#: wp-includes/js/tinymce/langs/wp-langs.php:333
 #: wp-includes/js/tinymce/wp-mce-help.php:271
 msgid "About TinyMCE"
 msgstr "Om TinyMCE"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:303
+#: wp-includes/js/tinymce/langs/wp-langs.php:336
 msgid "License"
 msgstr "Licens"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:308
+#: wp-includes/js/tinymce/langs/wp-langs.php:341
 msgid "Loaded plugins"
 msgstr "Inladdade tillägg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:310
+#: wp-includes/js/tinymce/langs/wp-langs.php:343
 msgid "Anchor name"
 msgstr "Ankarnamn"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:311
+#: wp-includes/js/tinymce/langs/wp-langs.php:344
 msgid "HTML Source Editor"
 msgstr "HTML källkodsredigerare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:312
+#: wp-includes/js/tinymce/langs/wp-langs.php:345
 msgid "Word wrap"
 msgstr "Ordbrytning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:313
+#: wp-includes/js/tinymce/langs/wp-langs.php:346
 msgid "Select a color"
 msgstr "Välj en färg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:314
+#: wp-includes/js/tinymce/langs/wp-langs.php:347
 msgid "Picker"
 msgstr "Väljare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:315
+#: wp-includes/js/tinymce/langs/wp-langs.php:348
 msgid "Color picker"
 msgstr "Färgväljare"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:316
+#: wp-includes/js/tinymce/langs/wp-langs.php:349
 msgid "Palette"
 msgstr "Palette"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:317
+#: wp-includes/js/tinymce/langs/wp-langs.php:350
 msgid "Palette colors"
 msgstr "Palettefärger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:318
+#: wp-includes/js/tinymce/langs/wp-langs.php:351
 msgid "Named"
 msgstr "Namngivna"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:319
+#: wp-includes/js/tinymce/langs/wp-langs.php:352
 msgid "Named colors"
 msgstr "Namngivna färger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:320
+#: wp-includes/js/tinymce/langs/wp-langs.php:353
 msgid "Color:"
 msgstr "Färg:"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:322
+#: wp-includes/js/tinymce/langs/wp-langs.php:355
 msgid "Select custom character"
 msgstr "Välj specialtecken"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:325
+#: wp-includes/js/tinymce/langs/wp-langs.php:359
 msgid "Image description"
 msgstr "Bildbeskrivning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:326
+#: wp-includes/js/tinymce/langs/wp-langs.php:360
 msgid "Image list"
 msgstr "Bildlista"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:327
+#: wp-includes/js/tinymce/langs/wp-langs.php:361
 msgid "Border"
 msgstr "Ram"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:328
-#: wp-includes/js/tinymce/langs/wp-langs.php:359
+#: wp-includes/js/tinymce/langs/wp-langs.php:362
+#: wp-includes/js/tinymce/langs/wp-langs.php:393
 msgid "Dimensions"
 msgstr "Dimensioner"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:329
+#: wp-includes/js/tinymce/langs/wp-langs.php:363
 msgid "Vertical space"
 msgstr "Vertikalt mellanrum"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:330
+#: wp-includes/js/tinymce/langs/wp-langs.php:364
 msgid "Horizontal space"
 msgstr "Horizontalt mellanrum"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:332
+#: wp-includes/js/tinymce/langs/wp-langs.php:366
 msgid "Baseline"
 msgstr "Baslinje"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:333
-#: wp-includes/js/tinymce/langs/wp-langs.php:434
+#: wp-includes/js/tinymce/langs/wp-langs.php:367
+#: wp-includes/js/tinymce/langs/wp-langs.php:468
 msgid "Top"
 msgstr "Top"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:334
+#: wp-includes/js/tinymce/langs/wp-langs.php:368
 msgid "Middle"
 msgstr "Mitten"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:335
-#: wp-includes/js/tinymce/langs/wp-langs.php:436
+#: wp-includes/js/tinymce/langs/wp-langs.php:369
+#: wp-includes/js/tinymce/langs/wp-langs.php:470
 msgid "Bottom"
 msgstr "Botten"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:336
+#: wp-includes/js/tinymce/langs/wp-langs.php:370
 msgid "Text top"
 msgstr "Text top"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:337
+#: wp-includes/js/tinymce/langs/wp-langs.php:371
 msgid "Text bottom"
 msgstr "Text botten"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:343
+#: wp-includes/js/tinymce/langs/wp-langs.php:377
 msgid "Open link in the same window"
 msgstr "Öppna länk i samma fönster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:344
+#: wp-includes/js/tinymce/langs/wp-langs.php:378
 msgid "Open link in a new window"
 msgstr "Öppna länk i nytt fönster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:346
+#: wp-includes/js/tinymce/langs/wp-langs.php:380
 msgid "The URL you entered seems to be an email address, do you want to add the required mailto: prefix?"
 msgstr "URLen du angav verkar vara en e-postadress, vill du lägga till mailto: prefixet?"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:347
+#: wp-includes/js/tinymce/langs/wp-langs.php:381
 msgid "The URL you entered seems to external link, do you want to add the required http:// prefix?"
 msgstr "URLen du angav verkar vara en extern länk, vill du lägga till http:// prefixet?"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:348
+#: wp-includes/js/tinymce/langs/wp-langs.php:382
 msgid "Link list"
 msgstr "Länklista"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:355
+#: wp-includes/js/tinymce/langs/wp-langs.php:389
 msgid "General"
 msgstr "Allmänt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:357
+#: wp-includes/js/tinymce/langs/wp-langs.php:391
 msgid "File/URL"
 msgstr "Fil/URL"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:358
+#: wp-includes/js/tinymce/langs/wp-langs.php:392
 #: wp-includes/js/tinymce/wp-mce-help.php:256
 #: wp-includes/js/tinymce/wp-mce-help.php:257
 msgid "List"
 msgstr "Lista"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:361
+#: wp-includes/js/tinymce/langs/wp-langs.php:395
 msgid "Constrain proportions"
 msgstr "Behåll proportioner"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:362
+#: wp-includes/js/tinymce/langs/wp-langs.php:396
 msgid "Type"
 msgstr "Typ"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:363
+#: wp-includes/js/tinymce/langs/wp-langs.php:397
 msgid "Id"
 msgstr "Id"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:366
+#: wp-includes/js/tinymce/langs/wp-langs.php:400
 msgid "V-Space"
 msgstr "V-Space"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:367
+#: wp-includes/js/tinymce/langs/wp-langs.php:401
 msgid "H-Space"
 msgstr "H-Space"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:368
+#: wp-includes/js/tinymce/langs/wp-langs.php:402
 msgid "Auto play"
 msgstr "Starta automatiskt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:369
-#: wp-includes/js/tinymce/langs/wp-langs.php:451
+#: wp-includes/js/tinymce/langs/wp-langs.php:403
+#: wp-includes/js/tinymce/langs/wp-langs.php:485
 msgid "Loop"
 msgstr "Loop"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:370
+#: wp-includes/js/tinymce/langs/wp-langs.php:404
 msgid "Show menu"
 msgstr "Visa meny"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:371
+#: wp-includes/js/tinymce/langs/wp-langs.php:405
 msgid "Quality"
 msgstr "Kvalite"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:373
+#: wp-includes/js/tinymce/langs/wp-langs.php:407
 msgid "Align"
 msgstr "Justering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:374
+#: wp-includes/js/tinymce/langs/wp-langs.php:408
 msgid "SAlign"
 msgstr "Sjustera"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:375
+#: wp-includes/js/tinymce/langs/wp-langs.php:409
 msgid "WMode"
 msgstr "WMode"
 
 #: wp-includes/admin-bar.php:586
-#: wp-includes/js/tinymce/langs/wp-langs.php:376
+#: wp-includes/class-wp-customize.php:512
+#: wp-includes/js/tinymce/langs/wp-langs.php:410
 msgid "Background"
 msgstr "Bakgrund"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:377
+#: wp-includes/js/tinymce/langs/wp-langs.php:411
 msgid "Base"
 msgstr "Bas"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:378
+#: wp-includes/js/tinymce/langs/wp-langs.php:412
 msgid "Flashvars"
 msgstr "Flashvars"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:379
+#: wp-includes/js/tinymce/langs/wp-langs.php:413
 msgid "SWLiveConnect"
 msgstr "SWLiveConnect"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:380
+#: wp-includes/js/tinymce/langs/wp-langs.php:414
 msgid "AutoHREF"
 msgstr "AutoHREF"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:381
+#: wp-includes/js/tinymce/langs/wp-langs.php:415
 msgid "Cache"
 msgstr "Cache"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:382
+#: wp-includes/js/tinymce/langs/wp-langs.php:416
 msgid "Hidden"
 msgstr "Gömd"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:383
+#: wp-includes/js/tinymce/langs/wp-langs.php:417
 msgid "Controller"
 msgstr "Kontroller"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:384
+#: wp-includes/js/tinymce/langs/wp-langs.php:418
 msgid "Kiosk mode"
 msgstr "Kioskläge"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:385
+#: wp-includes/js/tinymce/langs/wp-langs.php:419
 msgid "Play every frame"
 msgstr "Spela varje ruta"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:386
+#: wp-includes/js/tinymce/langs/wp-langs.php:420
 msgid "Target cache"
 msgstr "Målcache"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:387
+#: wp-includes/js/tinymce/langs/wp-langs.php:421
 msgid "No correction"
 msgstr "Ingen rättning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:388
+#: wp-includes/js/tinymce/langs/wp-langs.php:422
 msgid "Enable JavaScript"
 msgstr "Tillåt JavaSkript"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:389
-#: wp-includes/js/tinymce/langs/wp-langs.php:447
+#: wp-includes/js/tinymce/langs/wp-langs.php:423
+#: wp-includes/js/tinymce/langs/wp-langs.php:481
 msgid "Start time"
 msgstr "Starttid"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:390
+#: wp-includes/js/tinymce/langs/wp-langs.php:424
 msgid "End time"
 msgstr "Sluttid"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:391
+#: wp-includes/js/tinymce/langs/wp-langs.php:425
 msgid "href"
 msgstr "href"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:392
+#: wp-includes/js/tinymce/langs/wp-langs.php:426
 msgid "Choke speed"
 msgstr "Choke speed"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:394
+#: wp-includes/js/tinymce/langs/wp-langs.php:428
 msgid "Volume"
 msgstr "Volym"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:395
-#: wp-includes/js/tinymce/langs/wp-langs.php:450
+#: wp-includes/js/tinymce/langs/wp-langs.php:429
+#: wp-includes/js/tinymce/langs/wp-langs.php:484
 msgid "Auto start"
 msgstr "Starta automatiskt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:397
+#: wp-includes/js/tinymce/langs/wp-langs.php:431
 msgid "Fullscreen"
 msgstr "Fullskärm"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:398
+#: wp-includes/js/tinymce/langs/wp-langs.php:432
 msgid "Invoke URLs"
 msgstr "Anropa URLer"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:399
+#: wp-includes/js/tinymce/langs/wp-langs.php:433
 msgid "Mute"
 msgstr "Dämpning"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:400
+#: wp-includes/js/tinymce/langs/wp-langs.php:434
 msgid "Stretch to fit"
 msgstr "Sträck för att passa"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:401
+#: wp-includes/js/tinymce/langs/wp-langs.php:435
 msgid "Windowless video"
 msgstr "Fönsterlös video"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:402
+#: wp-includes/js/tinymce/langs/wp-langs.php:436
 msgid "Balance"
 msgstr "Balans"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:403
+#: wp-includes/js/tinymce/langs/wp-langs.php:437
 msgid "Base URL"
 msgstr "Bas URL"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:404
+#: wp-includes/js/tinymce/langs/wp-langs.php:438
 msgid "Captioning id"
 msgstr "Rubricerings id"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:405
+#: wp-includes/js/tinymce/langs/wp-langs.php:439
 msgid "Current marker"
 msgstr "Nuvarande markering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:406
+#: wp-includes/js/tinymce/langs/wp-langs.php:440
 msgid "Current position"
 msgstr "Nuvarande position"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:407
+#: wp-includes/js/tinymce/langs/wp-langs.php:441
 msgid "Default frame"
 msgstr "Förvald ruta"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:408
+#: wp-includes/js/tinymce/langs/wp-langs.php:442
 msgid "Play count"
 msgstr "Antal spelningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:409
+#: wp-includes/js/tinymce/langs/wp-langs.php:443
 msgid "Rate"
 msgstr "Omdöme"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:410
+#: wp-includes/js/tinymce/langs/wp-langs.php:444
 msgid "UI Mode"
 msgstr "Visningsläge"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:411
+#: wp-includes/js/tinymce/langs/wp-langs.php:445
 msgid "Flash options"
 msgstr "Flash inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:412
+#: wp-includes/js/tinymce/langs/wp-langs.php:446
 msgid "Quicktime options"
 msgstr "Quicktime inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:413
+#: wp-includes/js/tinymce/langs/wp-langs.php:447
 msgid "Windows media player options"
 msgstr "Windows media player inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:414
+#: wp-includes/js/tinymce/langs/wp-langs.php:448
 msgid "Real media player options"
 msgstr "Real media player inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:415
+#: wp-includes/js/tinymce/langs/wp-langs.php:449
 msgid "Shockwave options"
 msgstr "Shockwave inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:416
+#: wp-includes/js/tinymce/langs/wp-langs.php:450
 msgid "Auto goto URL"
 msgstr "Gå automatiskt till URL"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:418
+#: wp-includes/js/tinymce/langs/wp-langs.php:452
 msgid "Image status"
 msgstr "Bildstatus"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:419
+#: wp-includes/js/tinymce/langs/wp-langs.php:453
 msgid "Maintain aspect"
 msgstr "Behåll aspekt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:420
+#: wp-includes/js/tinymce/langs/wp-langs.php:454
 msgid "No java"
 msgstr "Ingen java"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:421
+#: wp-includes/js/tinymce/langs/wp-langs.php:455
 msgid "Prefetch"
 msgstr "Förhandsladda"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:422
+#: wp-includes/js/tinymce/langs/wp-langs.php:456
 msgid "Shuffle"
 msgstr "Slumpvis"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:423
+#: wp-includes/js/tinymce/langs/wp-langs.php:457
 msgid "Console"
 msgstr "Konsoll"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:424
+#: wp-includes/js/tinymce/langs/wp-langs.php:458
 msgid "Num loops"
 msgstr "Antal loopar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:425
+#: wp-includes/js/tinymce/langs/wp-langs.php:459
 msgid "Controls"
 msgstr "Kontroller"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:426
+#: wp-includes/js/tinymce/langs/wp-langs.php:460
 msgid "Script callbacks"
 msgstr "Script callbacks"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:427
+#: wp-includes/js/tinymce/langs/wp-langs.php:461
 msgid "Stretch style"
 msgstr "Sträck ut stil"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:428
+#: wp-includes/js/tinymce/langs/wp-langs.php:462
 msgid "Stretch H-Align"
 msgstr "Sträck ut H-justering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:429
+#: wp-includes/js/tinymce/langs/wp-langs.php:463
 msgid "Stretch V-Align"
 msgstr "Sträck ut V-justering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:430
+#: wp-includes/js/tinymce/langs/wp-langs.php:464
 msgid "Sound"
 msgstr "Ljud"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:431
+#: wp-includes/js/tinymce/langs/wp-langs.php:465
 msgid "Progress"
 msgstr "Framsteg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:432
+#: wp-includes/js/tinymce/langs/wp-langs.php:466
 msgid "QT Src"
 msgstr "QT Src"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:433
+#: wp-includes/js/tinymce/langs/wp-langs.php:467
 msgid "Streamed rtsp resources should be added to the QT Src field under the advanced tab."
 msgstr "Streamade resurser bör läggas till i QT Src fältet under avancerade tabben."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:439
+#: wp-includes/js/tinymce/langs/wp-langs.php:473
 msgid "Top left"
 msgstr "Top vänster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:440
+#: wp-includes/js/tinymce/langs/wp-langs.php:474
 msgid "Top right"
 msgstr "Top höger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:441
+#: wp-includes/js/tinymce/langs/wp-langs.php:475
 msgid "Bottom left"
 msgstr "Botten vänster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:442
+#: wp-includes/js/tinymce/langs/wp-langs.php:476
 msgid "Bottom right"
 msgstr "Botten höger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:443
+#: wp-includes/js/tinymce/langs/wp-langs.php:477
 msgid "Flash video options"
 msgstr "Flash video inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:444
+#: wp-includes/js/tinymce/langs/wp-langs.php:478
 msgid "Scale mode"
 msgstr "Skalningstyp"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:445
+#: wp-includes/js/tinymce/langs/wp-langs.php:479
 msgid "Buffer"
 msgstr "Buffert"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:446
+#: wp-includes/js/tinymce/langs/wp-langs.php:480
 msgid "Start image"
 msgstr "Startbild"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:448
+#: wp-includes/js/tinymce/langs/wp-langs.php:482
 msgid "Default volume"
 msgstr "Förvald volym"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:449
+#: wp-includes/js/tinymce/langs/wp-langs.php:483
 msgid "Hidden GUI"
 msgstr "Gömd meny"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:452
+#: wp-includes/js/tinymce/langs/wp-langs.php:486
 msgid "Show scale modes"
 msgstr "Visa skalningsalternativ"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:453
+#: wp-includes/js/tinymce/langs/wp-langs.php:487
 msgid "Smooth video"
 msgstr "Mjuk video"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:454
+#: wp-includes/js/tinymce/langs/wp-langs.php:488
 msgid "JS Callback"
 msgstr "JS Callback"
 
@@ -4669,94 +4761,94 @@ msgstr "JS Callback"
 msgid "Insert More Tag"
 msgstr "Infoga Mer-tagg"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:468
+#: wp-includes/js/tinymce/langs/wp-langs.php:502
 msgid "More..."
 msgstr "(Läs mer...)"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:469
+#: wp-includes/js/tinymce/langs/wp-langs.php:503
 msgid "Next page..."
 msgstr "Nästa sida"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:474
+#: wp-includes/js/tinymce/langs/wp-langs.php:508
 msgid "Edit Gallery"
 msgstr "Redigera galleri"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:475
+#: wp-includes/js/tinymce/langs/wp-langs.php:509
 msgid "Delete Gallery"
 msgstr "Radera galleri"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:480
+#: wp-includes/js/tinymce/langs/wp-langs.php:514
 msgid "Delete Image"
 msgstr "Radera bild"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:481
+#: wp-includes/js/tinymce/langs/wp-langs.php:515
 msgid "Advanced Settings"
 msgstr "Avancerade inställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:487
+#: wp-includes/js/tinymce/langs/wp-langs.php:521
 msgid "Current Link"
 msgstr "Nuvarande länk"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:488
+#: wp-includes/js/tinymce/langs/wp-langs.php:522
 msgid "Link to Image"
 msgstr "Länkad till bild"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:490
+#: wp-includes/js/tinymce/langs/wp-langs.php:524
 msgid "Advanced Image Settings"
 msgstr "Avancerade bildinställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:460
-#: wp-includes/js/tinymce/langs/wp-langs.php:491
+#: wp-includes/js/tinymce/langs/wp-langs.php:494
+#: wp-includes/js/tinymce/langs/wp-langs.php:525
 msgid "Source"
 msgstr "Källa"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:494
-#: wp-includes/js/tinymce/langs/wp-langs.php:499
+#: wp-includes/js/tinymce/langs/wp-langs.php:528
+#: wp-includes/js/tinymce/langs/wp-langs.php:533
 msgid "Original Size"
 msgstr "Originalstorlek"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:495
-#: wp-includes/js/tinymce/langs/wp-langs.php:500
+#: wp-includes/js/tinymce/langs/wp-langs.php:529
+#: wp-includes/js/tinymce/langs/wp-langs.php:534
 msgid "CSS Class"
 msgstr "CSS Class"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:496
+#: wp-includes/js/tinymce/langs/wp-langs.php:530
 msgid "Advanced Link Settings"
 msgstr "Avancerade länkinställningar"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:497
+#: wp-includes/js/tinymce/langs/wp-langs.php:531
 msgid "Link Rel"
 msgstr "Länk-rel"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:501
+#: wp-includes/js/tinymce/langs/wp-langs.php:535
 msgid "60%"
 msgstr "60%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:502
+#: wp-includes/js/tinymce/langs/wp-langs.php:536
 msgid "70%"
 msgstr "70%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:503
+#: wp-includes/js/tinymce/langs/wp-langs.php:537
 msgid "80%"
 msgstr "80%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:504
+#: wp-includes/js/tinymce/langs/wp-langs.php:538
 msgid "90%"
 msgstr "90%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:505
+#: wp-includes/js/tinymce/langs/wp-langs.php:539
 msgid "100%"
 msgstr "100%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:506
+#: wp-includes/js/tinymce/langs/wp-langs.php:540
 msgid "110%"
 msgstr "110%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:507
+#: wp-includes/js/tinymce/langs/wp-langs.php:541
 msgid "120%"
 msgstr "120%"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:508
+#: wp-includes/js/tinymce/langs/wp-langs.php:542
 msgid "130%"
 msgstr "130%"
 
@@ -4874,7 +4966,7 @@ msgstr "Stavningskontroll"
 msgid "Justify Text"
 msgstr "Justera texten"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:511
+#: wp-includes/js/tinymce/langs/wp-langs.php:545
 #: wp-includes/js/tinymce/wp-mce-help.php:256
 msgid "Insert link"
 msgstr "Infoga länk"
@@ -4915,13 +5007,13 @@ msgstr "Har du Moxie?"
 msgid "Comments Feed"
 msgstr "Flöde för kommentarer"
 
-#: wp-includes/link-template.php:1187
-#: wp-includes/link-template.php:1354
+#: wp-includes/link-template.php:1185
+#: wp-includes/link-template.php:1352
 msgid "Previous Post"
 msgstr "Tidigare inlägg"
 
-#: wp-includes/link-template.php:1187
-#: wp-includes/link-template.php:1354
+#: wp-includes/link-template.php:1185
+#: wp-includes/link-template.php:1352
 msgid "Next Post"
 msgstr "Följande inlägg"
 
@@ -4929,11 +5021,11 @@ msgstr "Följande inlägg"
 msgid "Last Post"
 msgstr "Sista inlägget"
 
-#: wp-includes/link-template.php:1702
+#: wp-includes/link-template.php:1700
 msgid "Newer Comments &raquo;"
 msgstr "Nyare kommentarer &raquo;"
 
-#: wp-includes/link-template.php:1739
+#: wp-includes/link-template.php:1737
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Äldre kommentarer"
 
@@ -5402,27 +5494,27 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Papperskorg <span class=\"count\">(%s)</span>"
 msgstr[1] "Papperskorg <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:2445
+#: wp-includes/post.php:2444
 msgid "Content, title, and excerpt are empty."
 msgstr "Innehåll, titel och utdrag är tomma."
 
-#: wp-includes/post.php:2574
+#: wp-includes/post.php:2573
 msgid "Could not update post in the database"
 msgstr "Kunde inte uppdatera inlägget i databasen"
 
-#: wp-includes/post.php:2590
+#: wp-includes/post.php:2589
 msgid "Could not insert post into the database"
 msgstr "Kunde inte infoga inlägget i databasen"
 
-#: wp-includes/post.php:2640
+#: wp-includes/post.php:2639
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:4870
+#: wp-includes/post.php:4869
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:5045
+#: wp-includes/post.php:5044
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
@@ -5495,204 +5587,200 @@ msgid "Enter a description of the image"
 msgstr "Ange en beskrivning av bilden"
 
 #: wp-includes/script-loader.php:95
-#: wp-includes/script-loader.php:303
+#: wp-includes/script-loader.php:309
 msgid "You do not have permission to do that."
 msgstr "Du saknar rättigheter för att göra det."
 
 #: wp-includes/script-loader.php:96
-#: wp-includes/script-loader.php:304
+#: wp-includes/script-loader.php:310
 msgid "An unidentified error has occurred."
 msgstr "Ett oidentifierat fel har uppstått."
 
-#: wp-includes/script-loader.php:170
+#: wp-includes/script-loader.php:171
 msgid "Next &gt;"
 msgstr "Nästa &gt;"
 
-#: wp-includes/script-loader.php:171
+#: wp-includes/script-loader.php:172
 msgid "&lt; Prev"
 msgstr "&lt; Föreg."
 
-#: wp-includes/script-loader.php:172
+#: wp-includes/script-loader.php:173
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/script-loader.php:173
+#: wp-includes/script-loader.php:174
 msgid "of"
 msgstr "av"
 
-#: wp-includes/script-loader.php:175
+#: wp-includes/script-loader.php:176
 msgid "This feature requires inline frames. You have iframes disabled or your browser does not support them."
 msgstr "Den här funktionen kräver inbäddade ramar. Du har iframes inaktiverade eller så har inte din webbläsare stöd för dem."
 
-#: wp-includes/script-loader.php:188
+#: wp-includes/script-loader.php:189
 msgid "not configured"
 msgstr "ej konfigurerat"
 
-#: wp-includes/script-loader.php:192
+#: wp-includes/script-loader.php:193
 msgid "You have attempted to queue too many files."
 msgstr "Du har försökt att kösätta för många filer."
 
-#: wp-includes/script-loader.php:194
+#: wp-includes/script-loader.php:195
 msgid "This file is empty. Please try another."
 msgstr "Filen är tom. Försök med en annan."
 
-#: wp-includes/script-loader.php:195
+#: wp-includes/script-loader.php:196
 msgid "This file type is not allowed. Please try another."
 msgstr "Denna filtyp är inte tillåten. Försök med en annan."
 
-#: wp-includes/script-loader.php:199
+#: wp-includes/script-loader.php:200
 msgid "An error occurred in the upload. Please try again later."
 msgstr "Ett fel har uppstått vid uppladdningen. Var vänlig försök igen senare."
 
-#: wp-includes/script-loader.php:200
+#: wp-includes/script-loader.php:201
 msgid "There was a configuration error. Please contact the server administrator."
 msgstr "Det uppstod ett konfigurationsfel. Var vänlig kontakta serveradministratören."
 
-#: wp-includes/script-loader.php:201
+#: wp-includes/script-loader.php:202
 msgid "You may only upload 1 file."
 msgstr "Du kan bara ladda upp en fil i taget."
 
-#: wp-includes/script-loader.php:202
+#: wp-includes/script-loader.php:203
 msgid "HTTP error."
 msgstr "HTTP fel."
 
-#: wp-includes/script-loader.php:203
+#: wp-includes/script-loader.php:204
 msgid "Upload failed."
 msgstr "Uppladdning misslyckades."
 
-#: wp-includes/script-loader.php:206
+#: wp-includes/script-loader.php:207
 msgid "IO error."
 msgstr "IO fel."
 
-#: wp-includes/script-loader.php:207
+#: wp-includes/script-loader.php:208
 msgid "Security error."
 msgstr "Säkerhetsfel."
 
-#: wp-includes/script-loader.php:209
+#: wp-includes/script-loader.php:210
 msgid "Upload stopped."
 msgstr "Uppladdning stoppad."
 
-#: wp-includes/script-loader.php:211
+#: wp-includes/script-loader.php:212
 msgid "Crunching&hellip;"
 msgstr "Behandlar&hellip;"
 
-#: wp-includes/script-loader.php:212
+#: wp-includes/script-loader.php:213
 msgid "moved to the trash."
 msgstr "flyttad till papperskorgen."
 
-#: wp-includes/script-loader.php:296
+#: wp-includes/script-loader.php:302
 msgid "Separate multiple categories with commas."
 msgstr "Separera flera kategorier med kommatecken."
 
-#: wp-includes/script-loader.php:256
+#: wp-includes/script-loader.php:257
 msgctxt "password strength"
 msgid "Medium"
 msgstr "Medium"
 
-#: wp-includes/script-loader.php:325
+#: wp-includes/script-loader.php:331
 msgid "Publish on:"
 msgstr "Publicera den:"
 
-#: wp-includes/script-loader.php:326
+#: wp-includes/script-loader.php:332
 msgid "Schedule for:"
 msgstr "Tidsinställ för:"
 
-#: wp-includes/script-loader.php:327
+#: wp-includes/script-loader.php:333
 msgid "Published on:"
 msgstr "Publicerat den:"
 
-#: wp-includes/script-loader.php:328
+#: wp-includes/script-loader.php:334
 msgid "Show more comments"
 msgstr "Visa fler kommentarer"
 
-#: wp-includes/script-loader.php:329
+#: wp-includes/script-loader.php:335
 msgid "No more comments found."
 msgstr "Inga fler kommentarer hittade."
 
-#: wp-includes/script-loader.php:338
+#: wp-includes/script-loader.php:344
 msgid "Password Protected"
 msgstr "Lösenordsskyddat"
 
-#: wp-includes/script-loader.php:349
+#: wp-includes/script-loader.php:355
 msgid "Submitted on:"
 msgstr "Skickat den:"
 
-#: wp-includes/script-loader.php:362
-#: wp-includes/script-loader.php:370
+#: wp-includes/script-loader.php:368
+#: wp-includes/script-loader.php:376
 msgid "Error while saving the changes."
 msgstr "Fel vid sparande av ändringar."
 
-#: wp-includes/script-loader.php:363
+#: wp-includes/script-loader.php:369
 msgid "Remove From Bulk Edit"
 msgstr "Ta bort från massredigering"
 
-#: wp-includes/script-loader.php:375
+#: wp-includes/script-loader.php:381
 msgid "Plugin Information:"
 msgstr "Tilläggsinformation:"
 
-#: wp-includes/script-loader.php:395
+#: wp-includes/script-loader.php:401
 msgid "Saving..."
 msgstr "Sparar..."
 
-#: wp-includes/script-loader.php:396
+#: wp-includes/script-loader.php:402
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Kunde inte ange den som miniatyrbild. Försök med en annan bifogad fil."
 
-#: wp-includes/script-loader.php:510
+#: wp-includes/script-loader.php:518
 msgid "Saving Draft&#8230;"
 msgstr "Sparar utkast&#8230;"
 
-#: wp-includes/taxonomy.php:505
-#: wp-includes/taxonomy.php:858
-#: wp-includes/taxonomy.php:987
-#: wp-includes/taxonomy.php:1177
-#: wp-includes/taxonomy.php:1878
-#: wp-includes/taxonomy.php:2149
+#: wp-includes/taxonomy.php:504
+#: wp-includes/taxonomy.php:857
+#: wp-includes/taxonomy.php:986
+#: wp-includes/taxonomy.php:1176
+#: wp-includes/taxonomy.php:1877
+#: wp-includes/taxonomy.php:2148
 msgid "Invalid Taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:853
-#: wp-includes/taxonomy.php:2970
+#: wp-includes/taxonomy.php:852
+#: wp-includes/taxonomy.php:2969
 msgid "Empty Term"
 msgstr "Tom term"
 
 #: wp-includes/class-wp-xmlrpc-server.php:754
-#: wp-includes/taxonomy.php:2025
+#: wp-includes/taxonomy.php:2024
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
 
-#: wp-includes/taxonomy.php:2028
-#: wp-includes/taxonomy.php:2349
+#: wp-includes/taxonomy.php:2027
+#: wp-includes/taxonomy.php:2348
 msgid "A name is required for this term"
 msgstr "Ett namn krävs för denna term"
 
-#: wp-includes/taxonomy.php:2070
-#: wp-includes/taxonomy.php:2077
-#: wp-includes/taxonomy.php:2087
+#: wp-includes/taxonomy.php:2069
+#: wp-includes/taxonomy.php:2076
+#: wp-includes/taxonomy.php:2086
 msgid "Could not insert term into the database"
 msgstr "Kunde inte infoga term i databasen"
 
-#: wp-includes/taxonomy.php:2382
+#: wp-includes/taxonomy.php:2381
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "Permalänken &#8221;%s&#8221; används redan"
 
-#: wp-includes/taxonomy.php:3134
+#: wp-includes/taxonomy.php:3133
 msgid "Invalid object ID"
 msgstr "Ogiltigt objekt ID."
 
-#: wp-includes/theme.php:282
-msgid "File not readable."
-msgstr "Kan inte läsa filen."
-
-#: wp-includes/theme.php:334
+#: wp-includes/class-wp-theme.php:186
 msgid "Template is missing."
 msgstr "Mall saknas."
 
-#: wp-includes/theme.php:336
+#: wp-includes/class-wp-theme.php:205
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "Modertemat saknas. Var vänlig installera modertemat \"%s\"."
 
-#: wp-includes/theme.php:642
+#: wp-includes/class-wp-theme.php:167
 msgid "Stylesheet is missing."
 msgstr "Stilmall saknas."
 
@@ -5943,61 +6031,61 @@ msgstr "Nya registreringar har inaktiverats."
 msgid "User registration has been disabled."
 msgstr "Registrering av nya användare ha inaktiverats."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:286
-#: wp-includes/js/tinymce/langs/wp-langs.php:302
+#: wp-includes/js/tinymce/langs/wp-langs.php:319
+#: wp-includes/js/tinymce/langs/wp-langs.php:335
 #: wp-includes/js/tinymce/wp-mce-help.php:260
 msgid "Help"
 msgstr "Hjälp"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:31
+#: wp-includes/js/tinymce/langs/wp-langs.php:35
 msgid "Black"
 msgstr "Svart"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:44
+#: wp-includes/js/tinymce/langs/wp-langs.php:48
 msgid "Blue"
 msgstr "Blå"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:61
+#: wp-includes/js/tinymce/langs/wp-langs.php:65
 msgid "Brown"
 msgstr "Brunt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:42
+#: wp-includes/js/tinymce/langs/wp-langs.php:46
 msgid "Green"
 msgstr "Grönt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:40
+#: wp-includes/js/tinymce/langs/wp-langs.php:44
 msgid "Orange"
 msgstr "Orange"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:63
+#: wp-includes/js/tinymce/langs/wp-langs.php:67
 msgid "Pink"
 msgstr "Rosa"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:53
+#: wp-includes/js/tinymce/langs/wp-langs.php:57
 msgid "Purple"
 msgstr "Lila"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:47
+#: wp-includes/js/tinymce/langs/wp-langs.php:51
 msgid "Red"
 msgstr "Rött"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:62
+#: wp-includes/js/tinymce/langs/wp-langs.php:66
 msgid "Silver"
 msgstr "Silver"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:70
+#: wp-includes/js/tinymce/langs/wp-langs.php:74
 msgid "White"
 msgstr "Vitt"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:57
+#: wp-includes/js/tinymce/langs/wp-langs.php:61
 msgid "Yellow"
 msgstr "Gult"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:492
+#: wp-includes/js/tinymce/langs/wp-langs.php:526
 msgid "Width"
 msgstr "Bredd"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:301
+#: wp-includes/js/tinymce/langs/wp-langs.php:334
 #: wp-includes/js/tinymce/wp-mce-help.php:206
 msgid "About"
 msgstr "Om"
@@ -6014,7 +6102,7 @@ msgstr "<strong>FEL</strong>: Den här e-postadressen är redan registrerad, var
 msgid "There are no options for this widget."
 msgstr "Det finns inga inställningar för denna widget."
 
-#: wp-includes/script-loader.php:252
+#: wp-includes/script-loader.php:253
 #: wp-login.php:487
 msgid "Strength indicator"
 msgstr "Indikator för styrka"
@@ -6023,23 +6111,23 @@ msgstr "Indikator för styrka"
 msgid "Hint: The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
 msgstr "Tips: Ditt lösenord bör innehålla minst sju tecken. För att göra det säkrare använd stora som små bokstäver, siffror och symboler så som ! \" ? $ % ^ &amp; )."
 
-#: wp-includes/script-loader.php:253
+#: wp-includes/script-loader.php:254
 msgid "Very weak"
 msgstr "Väldigt svagt"
 
-#: wp-includes/script-loader.php:254
+#: wp-includes/script-loader.php:255
 msgid "Weak"
 msgstr "Svagt"
 
-#: wp-includes/script-loader.php:257
+#: wp-includes/script-loader.php:258
 msgid "Strong"
 msgstr "Starkt"
 
-#: wp-includes/taxonomy.php:421
+#: wp-includes/taxonomy.php:420
 msgid "Edit Category"
 msgstr "Redigera kategori"
 
-#: wp-includes/link-template.php:1055
+#: wp-includes/link-template.php:1053
 msgid "Edit Link"
 msgstr "Redigera länken"
 
@@ -6048,7 +6136,7 @@ msgctxt "page"
 msgid "Add New"
 msgstr "Skapa ny"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:396
+#: wp-includes/js/tinymce/langs/wp-langs.php:430
 msgid "Enabled"
 msgstr "Aktivera"
 
@@ -6064,16 +6152,16 @@ msgstr "Datumformat"
 msgid "Time Format"
 msgstr "Tidsformat"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:493
-#: wp-includes/js/tinymce/langs/wp-langs.php:498
+#: wp-includes/js/tinymce/langs/wp-langs.php:527
+#: wp-includes/js/tinymce/langs/wp-langs.php:532
 msgid "Height"
 msgstr "Höjd"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:214
+#: wp-includes/js/tinymce/langs/wp-langs.php:246
 msgid "Default"
 msgstr "Förvald"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:305
+#: wp-includes/js/tinymce/langs/wp-langs.php:338
 msgid "Plugin"
 msgstr "Tillägg"
 
@@ -6106,11 +6194,11 @@ msgstr "Visuell"
 msgid "Title:"
 msgstr "Titel:"
 
-#: wp-includes/taxonomy.php:426
+#: wp-includes/taxonomy.php:425
 msgid "Separate tags with commas"
 msgstr "Separera etiketter med kommatecken"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:147
+#: wp-includes/js/tinymce/langs/wp-langs.php:168
 msgid "Select All"
 msgstr "Välj alla"
 
@@ -6366,15 +6454,15 @@ msgstr "Sök skräppost"
 
 #: wp-content/plugins/akismet/legacy.php:239
 #: wp-content/plugins/akismet/legacy.php:306
-#: wp-includes/link-template.php:1564
-#: wp-includes/link-template.php:1600
+#: wp-includes/link-template.php:1562
+#: wp-includes/link-template.php:1598
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Föregående sida"
 
 #: wp-content/plugins/akismet/legacy.php:260
 #: wp-content/plugins/akismet/legacy.php:327
-#: wp-includes/link-template.php:1493
-#: wp-includes/link-template.php:1601
+#: wp-includes/link-template.php:1491
+#: wp-includes/link-template.php:1599
 msgid "Next Page &raquo;"
 msgstr "Nästa sida &raquo;"
 
@@ -6436,10 +6524,10 @@ msgstr "1 kommentar"
 msgid "% Comments"
 msgstr "% kommentarer"
 
-#: wp-includes/link-template.php:730
-#: wp-includes/link-template.php:937
-#: wp-includes/link-template.php:1012
-#: wp-includes/link-template.php:1053
+#: wp-includes/link-template.php:728
+#: wp-includes/link-template.php:935
+#: wp-includes/link-template.php:1010
+#: wp-includes/link-template.php:1051
 msgid "Edit This"
 msgstr "Redigera det här"
 
@@ -6448,7 +6536,7 @@ msgstr "Redigera det här"
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att skriva en kommentar."
 
-#: wp-includes/category-template.php:1017
+#: wp-includes/category-template.php:1016
 msgid "Tags: "
 msgstr "Etiketter:"
 
@@ -6621,11 +6709,11 @@ msgstr "Inget meddelandenummer angivet"
 msgid "Command failed "
 msgstr "Kommandot misslyckades "
 
-#: wp-includes/category-template.php:831
+#: wp-includes/category-template.php:830
 msgid "View all posts filed under %s"
 msgstr "Se alla inlägg sparade under %s"
 
-#: wp-includes/category-template.php:846
+#: wp-includes/category-template.php:845
 msgid "Feed for all posts filed under %s"
 msgstr "Flöde för alla inlägg i kategorin %s"
 
@@ -6665,7 +6753,7 @@ msgstr "Kommentera"
 msgid "Leave a Reply to %s"
 msgstr "Lämna ett svar till %s"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:306
+#: wp-includes/js/tinymce/langs/wp-langs.php:339
 #: wp-includes/post-template.php:1427
 #: wp-includes/theme-compat/sidebar.php:21
 msgid "Author"
@@ -6703,7 +6791,7 @@ msgstr "Ångra"
 msgid "Not Spam"
 msgstr "Inte skräp"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:13
+#: wp-includes/js/tinymce/langs/wp-langs.php:16
 msgid "Apply"
 msgstr "Utför"
 
@@ -6712,11 +6800,11 @@ msgstr "Utför"
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: wp-includes/script-loader.php:330
+#: wp-includes/script-loader.php:336
 msgid "Publish"
 msgstr "Publicera"
 
-#: wp-includes/post.php:4680
+#: wp-includes/post.php:4679
 msgid "Excerpt"
 msgstr "Utdrag"
 
@@ -6738,7 +6826,7 @@ msgstr "Skräp"
 msgid "Link Categories"
 msgstr "Länkkategorier"
 
-#: wp-includes/taxonomy.php:416
+#: wp-includes/taxonomy.php:415
 msgid "Search Categories"
 msgstr "Sök kategorier"
 
@@ -6746,17 +6834,18 @@ msgstr "Sök kategorier"
 msgid "Edit Link Category"
 msgstr "Redigera länkkategori"
 
-#: wp-includes/taxonomy.php:423
+#: wp-includes/taxonomy.php:422
 msgid "Update Category"
 msgstr "Uppdatera kategori"
 
 #: wp-includes/class-wp-editor.php:810
-#: wp-includes/script-loader.php:271
+#: wp-includes/script-loader.php:272
 msgid "Add Link"
 msgstr "Lägg till länk"
 
 #: wp-includes/class-wp-editor.php:618
-#: wp-includes/js/tinymce/langs/wp-langs.php:107
+#: wp-includes/customize-controls.php:72
+#: wp-includes/js/tinymce/langs/wp-langs.php:118
 msgid "Save"
 msgstr "Spara"
 
@@ -6767,27 +6856,27 @@ msgstr "Spara"
 msgid "Categories"
 msgstr "Kategorier"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:342
-#: wp-includes/js/tinymce/langs/wp-langs.php:393
+#: wp-includes/js/tinymce/langs/wp-langs.php:376
+#: wp-includes/js/tinymce/langs/wp-langs.php:427
 msgid "Target"
 msgstr "Mål"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:356
+#: wp-includes/js/tinymce/langs/wp-langs.php:390
 #: wp-includes/js/tinymce/wp-mce-help.php:204
 msgid "Advanced"
 msgstr "Avancerat"
 
 #: wp-includes/deprecated.php:707
-#: wp-includes/js/tinymce/langs/wp-langs.php:482
+#: wp-includes/js/tinymce/langs/wp-langs.php:516
 msgid "None"
 msgstr "Ingen"
 
-#: wp-includes/taxonomy.php:2018
-#: wp-includes/taxonomy.php:2323
+#: wp-includes/taxonomy.php:2017
+#: wp-includes/taxonomy.php:2322
 msgid "Invalid taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:421
+#: wp-includes/taxonomy.php:420
 msgid "Edit Tag"
 msgstr "Redigera etikett"
 
@@ -6805,12 +6894,13 @@ msgstr "Visa inlägg"
 msgid "Edit Post"
 msgstr "Redigera inlägg"
 
-#: wp-includes/script-loader.php:397
+#: wp-includes/script-loader.php:403
 msgid "Done"
 msgstr "Klart"
 
+#: wp-includes/class-wp-theme.php:570
 #: wp-includes/comment-template.php:30
-#: wp-includes/theme.php:236
+#: wp-includes/theme.php:325
 msgid "Anonymous"
 msgstr "Anonym"
 
@@ -6826,8 +6916,8 @@ msgstr "RSS"
 msgid "Invalid file type"
 msgstr "Ogiltig filtyp"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:93
-#: wp-includes/js/tinymce/langs/wp-langs.php:360
+#: wp-includes/js/tinymce/langs/wp-langs.php:101
+#: wp-includes/js/tinymce/langs/wp-langs.php:394
 msgid "Preview"
 msgstr "Förhandsgranska"
 
@@ -6837,12 +6927,12 @@ msgid "Recent Comments"
 msgstr "Senaste kommentarer"
 
 #: wp-includes/class-wp-editor.php:807
-#: wp-includes/js/tinymce/langs/wp-langs.php:16
-#: wp-includes/script-loader.php:324
+#: wp-includes/js/tinymce/langs/wp-langs.php:19
+#: wp-includes/script-loader.php:330
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: wp-includes/post.php:4679
+#: wp-includes/post.php:4678
 msgid "Content"
 msgstr "Innehåll"
 
@@ -6850,7 +6940,7 @@ msgstr "Innehåll"
 msgid "Tags"
 msgstr "Etiketter"
 
-#: wp-includes/script-loader.php:334
+#: wp-includes/script-loader.php:340
 msgid "Save Draft"
 msgstr "Spara utkast"
 
@@ -6858,12 +6948,12 @@ msgstr "Spara utkast"
 msgid "No comments yet."
 msgstr "Inga kommentarer ännu."
 
-#: wp-includes/link-template.php:1014
+#: wp-includes/link-template.php:1012
 msgid "Edit comment"
 msgstr "Redigera kommentar"
 
 #: wp-includes/comment-template.php:1039
-#: wp-includes/script-loader.php:314
+#: wp-includes/script-loader.php:320
 msgid "Reply"
 msgstr "Svara"
 
@@ -6888,6 +6978,7 @@ msgid "Unknown Feed"
 msgstr "Okänt flöde"
 
 #: wp-includes/admin-bar.php:589
+#: wp-includes/class-wp-customize.php:470
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -6910,11 +7001,11 @@ msgstr "Lösenord"
 msgid "Redo"
 msgstr "Gör om"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:372
+#: wp-includes/js/tinymce/langs/wp-langs.php:406
 msgid "Scale"
 msgstr "Skala"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:484
+#: wp-includes/js/tinymce/langs/wp-langs.php:518
 msgid "Thumbnail"
 msgstr "Miniatyr"
 
@@ -6930,19 +7021,19 @@ msgstr "GD-grafikbiblioteket är inte installerat."
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Filen &#8221;%s&#8221; är inte en bild."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:470
+#: wp-includes/js/tinymce/langs/wp-langs.php:504
 msgid "Add Media"
 msgstr "Lägg till media"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:471
+#: wp-includes/js/tinymce/langs/wp-langs.php:505
 msgid "Add an Image"
 msgstr "Lägg till en bild"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:472
+#: wp-includes/js/tinymce/langs/wp-langs.php:506
 msgid "Add Video"
 msgstr "Lägg till en video"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:473
+#: wp-includes/js/tinymce/langs/wp-langs.php:507
 msgid "Add Audio"
 msgstr "Lägg till ljud"
 
@@ -6950,58 +7041,58 @@ msgstr "Lägg till ljud"
 msgid "Saved."
 msgstr "Sparat."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:74
-#: wp-includes/js/tinymce/langs/wp-langs.php:338
-#: wp-includes/js/tinymce/langs/wp-langs.php:437
+#: wp-includes/js/tinymce/langs/wp-langs.php:79
+#: wp-includes/js/tinymce/langs/wp-langs.php:372
+#: wp-includes/js/tinymce/langs/wp-langs.php:471
 msgid "Left"
 msgstr "Vänster"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:75
-#: wp-includes/js/tinymce/langs/wp-langs.php:417
-#: wp-includes/js/tinymce/langs/wp-langs.php:438
+#: wp-includes/js/tinymce/langs/wp-langs.php:80
+#: wp-includes/js/tinymce/langs/wp-langs.php:451
+#: wp-includes/js/tinymce/langs/wp-langs.php:472
 msgid "Center"
 msgstr "Centrerat"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:76
-#: wp-includes/js/tinymce/langs/wp-langs.php:339
-#: wp-includes/js/tinymce/langs/wp-langs.php:435
+#: wp-includes/js/tinymce/langs/wp-langs.php:81
+#: wp-includes/js/tinymce/langs/wp-langs.php:373
+#: wp-includes/js/tinymce/langs/wp-langs.php:469
 msgid "Right"
 msgstr "Höger"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:485
+#: wp-includes/js/tinymce/langs/wp-langs.php:519
 msgid "Medium"
 msgstr "Medium"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:486
+#: wp-includes/js/tinymce/langs/wp-langs.php:520
 msgid "Full Size"
 msgstr "Full storlek"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:483
+#: wp-includes/js/tinymce/langs/wp-langs.php:517
 msgid "Size"
 msgstr "Storlek"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:513
+#: wp-includes/js/tinymce/langs/wp-langs.php:547
 msgid "Alternate Text"
 msgstr "Alternerande text"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:73
-#: wp-includes/js/tinymce/langs/wp-langs.php:331
+#: wp-includes/js/tinymce/langs/wp-langs.php:78
+#: wp-includes/js/tinymce/langs/wp-langs.php:365
 msgid "Alignment"
 msgstr "Justering"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:510
+#: wp-includes/js/tinymce/langs/wp-langs.php:544
 msgid "Caption"
 msgstr "Rubrik"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:341
+#: wp-includes/js/tinymce/langs/wp-langs.php:375
 msgid "Link URL"
 msgstr "Länkadress"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:489
+#: wp-includes/js/tinymce/langs/wp-langs.php:523
 msgid "Enter a link URL or click above for presets."
 msgstr "Ange en länk-URL eller klicka ovan för förinställda."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:479
+#: wp-includes/js/tinymce/langs/wp-langs.php:513
 msgid "Edit Image"
 msgstr "Redigera bild"
 
@@ -7009,50 +7100,50 @@ msgstr "Redigera bild"
 msgid "Media"
 msgstr "Media"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:324
+#: wp-includes/js/tinymce/langs/wp-langs.php:358
 msgid "Image URL"
 msgstr "Bildadress"
 
-#: wp-includes/script-loader.php:333
+#: wp-includes/script-loader.php:339
 msgid "Save as Pending"
 msgstr "Spara som väntande"
 
-#: wp-includes/script-loader.php:339
+#: wp-includes/script-loader.php:345
 msgid "Privately Published"
 msgstr "Publicerat privat"
 
-#: wp-includes/script-loader.php:323
+#: wp-includes/script-loader.php:329
 msgid "OK"
 msgstr "OK"
 
 #: wp-includes/post.php:601
 #: wp-includes/post.php:621
-#: wp-includes/script-loader.php:335
+#: wp-includes/script-loader.php:341
 msgid "Private"
 msgstr "Privat"
 
-#: wp-includes/script-loader.php:337
+#: wp-includes/script-loader.php:343
 msgid "Public, Sticky"
 msgstr "Publik, Klistrad"
 
-#: wp-includes/script-loader.php:331
+#: wp-includes/script-loader.php:337
 msgid "Schedule"
 msgstr "Tidsinställ"
 
-#: wp-includes/taxonomy.php:427
+#: wp-includes/taxonomy.php:426
 msgid "Add or remove tags"
 msgstr "Lägg till eller ta bort etiketter"
 
-#: wp-includes/script-loader.php:295
+#: wp-includes/script-loader.php:301
 msgid "Add"
 msgstr "Lägg till"
 
-#: wp-includes/taxonomy.php:418
+#: wp-includes/taxonomy.php:417
 msgid "All Categories"
 msgstr "Alla kategorier"
 
 #: wp-includes/script-loader.php:101
-#: wp-includes/script-loader.php:210
+#: wp-includes/script-loader.php:211
 msgid "Dismiss"
 msgstr "Avfärda"
 
@@ -7064,15 +7155,20 @@ msgstr "Avfärda"
 msgid "Search"
 msgstr "Sök"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:307
+#: wp-includes/js/tinymce/langs/wp-langs.php:340
 msgid "Version"
 msgstr "Version"
+
+#: wp-includes/customize-controls.php:56
+msgid "By %s"
+msgstr "Av %s"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:273
 msgid "Version:"
 msgstr "Version:"
 
-#: wp-includes/theme.php:242
+#: wp-includes/class-wp-theme.php:567
+#: wp-includes/theme.php:331
 msgid "Visit author homepage"
 msgstr "Besök författarens webbplats"
 
@@ -7099,9 +7195,9 @@ msgstr "E-post: %s"
 msgid "Pages"
 msgstr "Sidor"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:17
+#: wp-includes/js/tinymce/langs/wp-langs.php:20
 #: wp-includes/js/tinymce/wp-mce-help.php:287
-#: wp-includes/script-loader.php:174
+#: wp-includes/script-loader.php:175
 #: wp-login.php:602
 msgid "Close"
 msgstr "Stäng"
@@ -7119,8 +7215,8 @@ msgstr "Redigera media"
 msgid "New Post"
 msgstr "Nytt inlägg"
 
-#: wp-includes/script-loader.php:272
-#: wp-includes/script-loader.php:364
+#: wp-includes/script-loader.php:273
+#: wp-includes/script-loader.php:370
 msgid "(no title)"
 msgstr "(utan rubrik)"
 
@@ -7152,7 +7248,7 @@ msgstr "Hittade inga inlägg."
 
 #: wp-includes/post.php:602
 #: wp-includes/post.php:622
-#: wp-includes/script-loader.php:340
+#: wp-includes/script-loader.php:346
 msgid "Published"
 msgstr "Publicerat"
 
