@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-02-24 10:53+0100\n"
+"PO-Revision-Date: 2012-04-12 07:32+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,10 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/network/settings.php:128
+msgid "What you would like to call this network."
+msgstr "Vad vill du kalla detta nätverk."
 
 #: wp-admin/network/upgrade.php:25
 msgid "Only use this screen once you have updated to a new version of WordPress through Updates/Available Updates (via the Network Administration navigation menu or the Toolbar). Clicking the Update Network button will step through each site in the network, five at a time, and make sure any database updates are applied."
@@ -73,7 +77,7 @@ msgstr "Kan inte lägga till användare."
 msgid "Add User to This Site"
 msgstr "Lägg till användare på webbplats"
 
-#: wp-admin/network/sites.php:91
+#: wp-admin/network/sites.php:89
 msgid "You are not allowed to delete the site."
 msgstr "Du kan inte radera webbplatsen."
 
@@ -93,7 +97,7 @@ msgstr "Varning! Användaren %s kan inte raderas."
 msgid "Enter the username of an existing user."
 msgstr "Ange användarnamnet för en befintlig användare."
 
-#: wp-admin/network/themes.php:247
+#: wp-admin/network/themes.php:238
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr "Du kan inte radera ett tema när det är aktivt på den primära webbplatsen."
 
@@ -106,14 +110,14 @@ msgstr "Lägg till ny webbplats"
 msgid "Transfer or delete posts and links before deleting users."
 msgstr "Överför eller ta bort inlägg och länkar innan du raderar användare."
 
-#: wp-admin/network/themes.php:243
+#: wp-admin/network/themes.php:234
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
 msgstr[0] "Tema raderat."
 msgstr[1] "%s teman raderade."
 
-#: wp-admin/network/themes.php:216
+#: wp-admin/network/themes.php:207
 msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Documentation on Network Themes</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target=\"_blank\">Dokumentation för nätverksteman</a>"
 
@@ -124,29 +128,29 @@ msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" targe
 msgid "Info"
 msgstr "Info"
 
-#: wp-admin/network/themes.php:160
+#: wp-admin/network/themes.php:151
 msgid "Are you sure you wish to delete these themes?"
 msgstr "Är du säker på att du vill ta bort dessa teman?"
 
-#: wp-admin/network/themes.php:169
+#: wp-admin/network/themes.php:160
 msgid "Yes, Delete this theme"
 msgid_plural "Yes, Delete these themes"
 msgstr[0] "Ja, radera detta tema"
 msgstr[1] "Ja, radera dessa teman"
 
-#: wp-admin/network/themes.php:155
+#: wp-admin/network/themes.php:146
 msgid "You are about to remove the following theme:"
 msgid_plural "You are about to remove the following themes:"
 msgstr[0] "Du är på väg att ta bort följande tema:"
 msgstr[1] "Du är på väg att ta bort följande teman:"
 
-#: wp-admin/network/themes.php:154
+#: wp-admin/network/themes.php:145
 msgid "This theme may be active on other sites in the network."
 msgid_plural "These themes may be active on other sites in the network."
 msgstr[0] "Detta tema kan vara aktivt på andra webbplatser i nätverket."
 msgstr[1] "Dessa teman kan vara aktiva på andra webbplatser i nätverket."
 
-#: wp-admin/network/themes.php:152
+#: wp-admin/network/themes.php:143
 msgid "Delete Theme"
 msgid_plural "Delete Themes"
 msgstr[0] "Radera tema"
@@ -190,7 +194,7 @@ msgid "You do not have sufficient permissions to delete themes for this site."
 msgstr "Du har inte tillräcklig behörighet för att ta bort teman på denna webbplats."
 
 #: wp-admin/network/site-themes.php:165
-#: wp-admin/network/themes.php:240
+#: wp-admin/network/themes.php:231
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "Tema inaktiverat."
@@ -204,14 +208,14 @@ msgid "Invalid site ID."
 msgstr "Ogiltig webbplats-ID."
 
 #: wp-admin/network/site-themes.php:162
-#: wp-admin/network/themes.php:237
+#: wp-admin/network/themes.php:228
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "Tema aktiverat."
 msgstr[1] "%s teman aktiverade"
 
 #: wp-admin/network/site-themes.php:167
-#: wp-admin/network/themes.php:245
+#: wp-admin/network/themes.php:236
 msgid "No theme selected."
 msgstr "Inget tema valt."
 
@@ -229,7 +233,7 @@ msgstr "<strong>Teman</strong> - Den här sektionen visar teman som inte redan �
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
 
-#: wp-admin/network/themes.php:172
+#: wp-admin/network/themes.php:163
 msgid "No, Return me to the theme list"
 msgstr "Nej, gå tillbaka till listan av teman"
 
@@ -241,7 +245,7 @@ msgid "<strong>Settings</strong> - This page shows a list of all settings associ
 msgstr "<strong>Inställningar</strong> - Den här sektionen visar en lista över alla inställningar i associerade med denna webbplats. Vissa är skapade av WordPress och andra är skapade av tillägg du aktiverat. Observera att vissa fält är gråmarkerade och innehåller texten Serialized Data. Du kan inte ändra värden i dessa fält på grund av hur inställningen lagras i databasen."
 
 #: wp-admin/network/site-themes.php:131
-#: wp-admin/network/themes.php:203
+#: wp-admin/network/themes.php:194
 msgctxt "themes per page (screen options)"
 msgid "Themes"
 msgstr "Teman"
@@ -308,12 +312,12 @@ msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screens\" targe
 #: wp-admin/network/site-users.php:36
 #: wp-admin/network/sites.php:46
 #: wp-admin/network/user-new.php:30
-#: wp-admin/network/users.php:247
+#: wp-admin/network/users.php:245
 msgid "<a href=\"http://wordpress.org/support/forum/multisite/\" target=\"_blank\">Support Forums</a>"
 msgstr "<a href=\"http://wordpress.org/support/forum/multisite/\" target=\"_blank\">Supportforum</a>"
 
 #: wp-admin/network/menu.php:18
-#: wp-admin/network/sites.php:295
+#: wp-admin/network/sites.php:296
 msgctxt "site"
 msgid "Add New"
 msgstr "Skapa ny"
@@ -359,7 +363,7 @@ msgstr ""
 "Adress: %2s\n"
 "Namn: %3s"
 
-#: wp-admin/network/sites.php:257
+#: wp-admin/network/sites.php:255
 msgid "You do not have permission to delete that site."
 msgstr "Du har inte behörighet att radera den webbplatsen."
 
@@ -368,13 +372,13 @@ msgid "You do not have sufficient permissions to add sites to this network."
 msgstr "Du har inte tillräcklig behörighet för att lägga till webbplatser i detta nätverk."
 
 #: wp-admin/network/menu.php:32
-#: wp-admin/network/themes.php:229
+#: wp-admin/network/themes.php:220
 msgctxt "theme"
 msgid "Add New"
 msgstr "Lägg till nytt"
 
 #: wp-admin/network/user-new.php:29
-#: wp-admin/network/users.php:246
+#: wp-admin/network/users.php:244
 msgid "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Documentation on Network Users</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Network_Admin_Users_Screen\" target=\"_blank\">Dokumentation för hantering av nätverksanvändare</a>"
 
@@ -386,7 +390,7 @@ msgstr "Genom att klicka på rubrikerna i fetstil så kan denna tabell omsortera
 msgid "Delete which is a permanent action after the confirmation screens."
 msgstr "Radera som är en permanent åtgärd efter bekräftelse."
 
-#: wp-admin/network/themes.php:211
+#: wp-admin/network/themes.php:202
 msgid "Themes can be enabled on a site by site basis by the network admin on the Edit Site screen (which has a Themes tab); get there via the Edit action link on the All Sites screen. Only network admins are able to install or edit themes."
 msgstr "Teman kan aktiveras per webbplatsbasis av nätverksadmin under redigering av webbplatser, som hittas genom att klicka på länken Redigera på sidan som listar webbplatser. Endast nätverksadministratörer kan installera eller redigera teman."
 
@@ -700,7 +704,7 @@ msgstr "När du lägger till denna kod och uppdatera webbläsaren, bör nätverk
 msgid "You do not have sufficient permissions to edit this site."
 msgstr "Du har inte rättigheter att redigera den här webbplatsen."
 
-#: wp-admin/network/users.php:146
+#: wp-admin/network/users.php:144
 msgid "Warning! User cannot be modified. The user %s is a network administrator."
 msgstr "Varning! Användaren kan inte modifieras. Användaren %s är en nätverksadministratör."
 
@@ -728,11 +732,11 @@ msgstr "Att föra muspekaren över raden för en plats visar sju alternativ (tre
 msgid "Operational settings has fields for the network&#8217;s name and admin email."
 msgstr "Driftsinställningarna har fält för nätverkets namn och administrativ e-postadress."
 
-#: wp-admin/network/users.php:238
+#: wp-admin/network/users.php:236
 msgid "You can also go to the user&#8217;s profile page by clicking on the individual username."
 msgstr "Du kan också gå till användarens profilsida genom att klicka på det individuella användarnamnet."
 
-#: wp-admin/network/users.php:240
+#: wp-admin/network/users.php:238
 msgid "The bulk action will permanently delete selected users, or mark/unmark those selected as spam. Spam users will have posts removed and will be unable to sign up again with the same email addresses."
 msgstr "Massåtgärden kommer att permanent radera valda användare, eller markera/avmarkera de som valts som skräppostare. Skräpanvändare kommer att få sina inlägg borttagna och kommer inte att kunna registrera sig med samma e-postadress igen."
 
@@ -764,11 +768,11 @@ msgstr "Checkboxarna under knappar för mediauppladdning anger vilka knappar som
 msgid "New site settings are defaults applied when a new site is created in the network. These include welcome email for when a new site or user account is registered, and what&#8127;s put in the first post, page, comment, comment author, and comment URL."
 msgstr "Inställningar för nya webbplatser är standardinställningar som tillämpas när en ny webbplats skapas i nätverket. Dessa omfattar välkomstmeddelande för när en ny webbplats eller ett nytt användarkonto registreras, vad som ska anges som första inlägg, sida, kommentar, kommentarsförfattare och kommentars-URL."
 
-#: wp-admin/network/themes.php:209
+#: wp-admin/network/themes.php:200
 msgid "This screen enables and disables the inclusion of themes available to choose in the Appearance menu for each site. It does not activate or deactivate which theme a site is currently using."
 msgstr "Den här sidan ger dig möjligheten att aktivera eller inaktivera teman som ska vara tillgängliga under Utseende för alla webbplatser. Detta aktiverar eller inaktiverar inte vilket tema som en webbplats använder för närvarande."
 
-#: wp-admin/network/themes.php:210
+#: wp-admin/network/themes.php:201
 msgid "If the network admin disables a theme that is in use, it can still remain selected on that site. If another theme is chosen, the disabled theme will not appear in the site&#8217;s Appearance > Themes screen."
 msgstr "Om nätverksadministratören inaktiverar ett tema som används så kan det fortfarande användas på webbplatsen. Om ett annat tema väljs så kommer det inaktiverade tema inte att visas i webbplatsens adminpanel under Utseende > Teman."
 
@@ -792,11 +796,11 @@ msgstr "Detta är huvudtabellen för alla webbplatser i det här nätverket. Vä
 msgid "Users who are signed up to the network without a site are added as subscribers to the main or primary dashboard site, giving them profile pages to manage their accounts. These users will only see Dashboard and My Sites in the main navigation until a site is created for them."
 msgstr "Användare som har registrerat sig i nätverket utan en webbplats läggs till som prenumeranter på den ursprungliga eller primära adminsidan för att ge dem profilsidor att hantera sina konton via. Dessa användare kommer bara att se startsidan av adminpanelen och Mina webbplatser i huvudnavigeringen tills dess att de skapat en webbplats."
 
-#: wp-admin/network/users.php:239
+#: wp-admin/network/users.php:237
 msgid "You can sort the table by clicking on any of the bold headings and switch between list and excerpt views by using the icons in the upper right."
 msgstr "Du kan sortera tabellen genom att klicka på någon av de rubrikerna i fetstil och växla mellan list- och utdragsvy genom att använda ikonerna uppe till höger."
 
-#: wp-admin/network/users.php:237
+#: wp-admin/network/users.php:235
 msgid "Hover over any user on the list to make the edit links appear. The Edit link on the left will take you to his or her Edit User profile page; the Edit link on the right by any site name goes to an Edit Site screen for that site."
 msgstr "För muspekaren över användare i listan så att länkarna för redigering blir synliga. Redigeringslänken till vänster tar dig till hans eller hennes redigeringssida för användarprofilen, Redigeringslänken till höger går till sidan för att redigera dess webbplats."
 
@@ -808,11 +812,11 @@ msgstr "Om detta misslyckas av någon anledning så kommer användare som loggar
 msgid "If a version update to core has not happened, clicking this button won&#8217;t affect anything."
 msgstr "Om ingen uppdatering av WordPress skett så kommer inte denna knapp att påverka någonting."
 
-#: wp-admin/network/users.php:236
+#: wp-admin/network/users.php:234
 msgid "This table shows all users across the network and the sites to which they are assigned."
 msgstr "Denna tabell visar alla användare i nätverket och de webbplatser som de tillhör."
 
-#: wp-admin/network/users.php:241
+#: wp-admin/network/users.php:239
 msgid "You can make an existing user an additional super admin by going to the Edit User profile page and checking the box to grant that privilege."
 msgstr "Du kan göra en existerande användare till en extra superadmin genom att gå till sidan för att redigera användare och bocka för rutan som tilldelar denna behörighet."
 
@@ -844,35 +848,35 @@ msgstr "Kan inte skapa en tom webbplats."
 msgid "If your browser doesn&#8217;t start loading the next page automatically, click this link:"
 msgstr "Om du inte skickas vidare automatiskt, klicka på följande länk:"
 
-#: wp-admin/network/sites.php:275
+#: wp-admin/network/sites.php:273
 msgid "Site marked as spam."
 msgstr "Webbplats markerad för skräppostning."
 
-#: wp-admin/network/sites.php:248
+#: wp-admin/network/sites.php:246
 msgid "Sites marked as spam."
 msgstr "Webbplatser markerade som skräppostare."
 
-#: wp-admin/network/sites.php:245
+#: wp-admin/network/sites.php:243
 msgid "Sites removed from spam."
 msgstr "Webbplats avmarkerad för skräppostning."
 
-#: wp-admin/network/users.php:264
+#: wp-admin/network/users.php:265
 msgid "Users removed from spam."
 msgstr "Användare avmarkerade som skräppostare."
 
-#: wp-admin/network/sites.php:272
+#: wp-admin/network/sites.php:270
 msgid "Site removed from spam."
 msgstr "Webbplats avmarkerad för skräppostning."
 
-#: wp-admin/network/sites.php:251
+#: wp-admin/network/sites.php:249
 msgid "Sites deleted."
 msgstr "Webbplatser raderade."
 
-#: wp-admin/network/sites.php:254
+#: wp-admin/network/sites.php:252
 msgid "Site deleted."
 msgstr "Webbplats raderad."
 
-#: wp-admin/network/users.php:261
+#: wp-admin/network/users.php:262
 msgid "Users marked as spam."
 msgstr "Användare markerade för skräppostning."
 
@@ -880,27 +884,27 @@ msgstr "Användare markerade för skräppostning."
 msgid "Update <code>siteurl</code> and <code>home</code> as well."
 msgstr "Uppdatera även <code>siteurl</code> och <code>home</code>."
 
-#: wp-admin/network/sites.php:269
+#: wp-admin/network/sites.php:267
 msgid "Site deactivated."
 msgstr "Webbplatsen inaktiverad."
 
-#: wp-admin/network/sites.php:266
+#: wp-admin/network/sites.php:264
 msgid "Site activated."
 msgstr "Webbplatsen aktiverad."
 
-#: wp-admin/network/sites.php:263
+#: wp-admin/network/sites.php:261
 msgid "Site unarchived."
 msgstr "Webbplats avarkiverad."
 
-#: wp-admin/network/users.php:267
+#: wp-admin/network/users.php:268
 msgid "Users deleted."
 msgstr "Användare raderade."
 
-#: wp-admin/network/users.php:258
+#: wp-admin/network/users.php:259
 msgid "User deleted."
 msgstr "Användare raderad."
 
-#: wp-admin/network/sites.php:260
+#: wp-admin/network/sites.php:258
 msgid "Site archived."
 msgstr "Webbplats arkiverad."
 
@@ -912,8 +916,8 @@ msgstr "Ogiltig e-postadress."
 msgid "There was an error creating the user."
 msgstr "Ett fel har uppstått, användaren kunde inte skapas."
 
-#: wp-admin/network/sites.php:109
-#: wp-admin/network/sites.php:210
+#: wp-admin/network/sites.php:107
+#: wp-admin/network/sites.php:208
 msgid "You are not allowed to change the current site."
 msgstr "Du har inte tillräcklig behörighet för att ändra den här webbplatsen."
 
@@ -1029,7 +1033,7 @@ msgstr "Nätverksnamn"
 msgid "[%s] New Site Created"
 msgstr "[%s] Ny webbplats skapad"
 
-#: wp-admin/network/sites.php:215
+#: wp-admin/network/sites.php:213
 msgid "WordPress &rsaquo; Confirm your action"
 msgstr "WordPress &rsaquo; Bekräfta åtgärd"
 
@@ -1063,25 +1067,25 @@ msgstr "Nästkommande webbplatser"
 #: wp-admin/network/sites.php:17
 #: wp-admin/network/sites.php:62
 #: wp-admin/network/sites.php:79
-#: wp-admin/network/sites.php:123
-#: wp-admin/network/sites.php:133
-#: wp-admin/network/sites.php:143
-#: wp-admin/network/sites.php:154
-#: wp-admin/network/sites.php:165
-#: wp-admin/network/sites.php:175
-#: wp-admin/network/sites.php:185
-#: wp-admin/network/sites.php:195
+#: wp-admin/network/sites.php:121
+#: wp-admin/network/sites.php:131
+#: wp-admin/network/sites.php:141
+#: wp-admin/network/sites.php:152
+#: wp-admin/network/sites.php:163
+#: wp-admin/network/sites.php:173
+#: wp-admin/network/sites.php:183
+#: wp-admin/network/sites.php:193
 #: wp-admin/network/upgrade.php:39
 #: wp-admin/network/user-new.php:36
 #: wp-admin/network/users.php:17
 #: wp-admin/network/users.php:95
 #: wp-admin/network/users.php:117
-#: wp-admin/network/users.php:132
-#: wp-admin/network/users.php:183
+#: wp-admin/network/users.php:130
+#: wp-admin/network/users.php:181
 msgid "You do not have permission to access this page."
 msgstr "Du har inte behörighet nog för att få tillgång till den här sidan."
 
-#: wp-admin/network/sites.php:231
+#: wp-admin/network/sites.php:229
 msgid "Confirm"
 msgstr "Bekräfta"
 
@@ -1092,10 +1096,6 @@ msgstr "Kan inte skapa en tom användare."
 #: wp-admin/network/site-users.php:234
 msgid "Duplicated username or email address."
 msgstr "Dubbelt användarnamn eller e-postadress."
-
-#: wp-admin/network/settings.php:128
-msgid "What you would like to call this website."
-msgstr "Vad vill du kalla den här webbplatsen."
 
 #: wp-admin/network/settings.php:144
 msgid "Allow new registrations"
