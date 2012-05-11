@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-10 02:06+0100\n"
+"PO-Revision-Date: 2012-05-12 00:49+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,22 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/includes/template.php:1837
+msgid "New Feature: Customizer"
+msgstr "Ny funktioner: Anpassare"
+
+#: wp-admin/includes/template.php:1838
+msgid "Click Customize to change the header, background, title and menus of the current theme, all in one place."
+msgstr "Klicka Anpassa för att ändra sidhuvud, bakgrund, titel och menyer för det aktuella temat, allt på ett och samma ställe."
+
+#: wp-admin/includes/template.php:1839
+msgid "Click the Customize links in the Available Themes list below to customize, preview, and optionally activate the selected theme."
+msgstr "Klicka på länken Anpassa i listan över tillgängliga teman för att anpassa, förhandsgranska och aktivera valt tema."
+
+#: wp-admin/custom-header.php:122
+msgid "If you don&#8217;t want a header image to be displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
+msgstr "Om du inte vill ha någon bild alls i sidhuvudet av din webbplats, klicka på knappen &#8221;Ta bort bild i sidhuvud&#8221; under sektionen för sidhuvud på denna sida. Om du vill aktivera vid ett senare tillfälle så behöver du bara välja ett av de andra alternativen för sidhuvud och klicka på &#8221;Spara ändringar&#8221;."
 
 #: wp-admin/media.php:62
 msgid "You attempted to edit an item that isn&#8217;t an attachment. Please go back and try again."
@@ -115,10 +131,6 @@ msgstr "Vissa teman kommer med flera extra bilder för sidhuvudet inkluderade. O
 msgid "If your theme has more than one default header image, or you have uploaded more than one custom header image, you have the option of having WordPress display a randomly different image on each page of your site. Click the &#8220;Random&#8221; radio button next to the Uploaded Images or Default Images section to enable this feature."
 msgstr "Om ditt tema har mer än en standardbild för sidhuvudet eller om du laddat upp mer än en anpassad bild så kan du välja att WordPress visar dessa bilder slumpvalt på de olika sidorna. Markera alternativet &#8221;Sumpvalt&#8221; vid sidan om uppladdade bilder eller sektionen för standard bilder för att aktivera denna funktion."
 
-#: wp-admin/custom-header.php:122
-msgid "If you don&#8217;t want a header image to displayed on your site at all, click the &#8220;Remove Header Image&#8221; button at the bottom of the Header Image section of this page. If you want to re-enable the header image later, you just have to select one of the other image options and click &#8220;Save Changes&#8221;."
-msgstr "Om du inte vill ha någon bild alls i sidhuvudet för din webbplats, klicka på knappen &#8221;Ta bort bild för sidhuvud&#8221; under sektionen för bilder på denna sida. Om du vill aktivera en bild för sidhuvudet vid ett senare tillfälle så behöver du helt enkelt bara välja ett av de andra bildalternativen och klicka på &#8221;Spara ändringar&#8221;."
-
 #: wp-admin/custom-header.php:129
 msgid "For most themes, the header text is your Site Title and Tagline, as defined in the <a href=\"%1$s\">General Settings</a> section."
 msgstr "För de flesta teman så består texten i sidhuvudet av din sidas titel och slogan som det är angivet under <a href=\"%1$s\">Allmänna inställningar</a>."
@@ -204,7 +216,7 @@ msgctxt "Custom Header: Choose an image from your computer - or - Choose from im
 msgid "or"
 msgstr "eller"
 
-#: wp-admin/custom-header.php:958
+#: wp-admin/custom-header.php:959
 msgid "Set as header"
 msgstr "Ange som sidhuvud"
 
@@ -1476,7 +1488,7 @@ msgstr "Du kan visa alla inlägg som gjorts av en användare genom att klicka p�
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Eftersom detta är en Multisite-installation kan du lägga till konton som redan finns på nätverket genom att ange ett användarnamn eller e-post och definiera en roll. För fler alternativ, till exempel att ange ett lösenord, måste du vara en nätverksadministratör och använda hover-länken under en befintlig användares namn för att redigera användarprofil under Nätverksadmin > Alla användare."
 
-#: wp-admin/includes/template.php:1850
+#: wp-admin/includes/template.php:1870
 msgid "Likely direct inclusion of wp-admin/includes/template.php in order to use add_meta_box(). This is very wrong. Hook the add_meta_box() call into the add_meta_boxes action instead."
 msgstr "Troligen används direkt infogande av wp-admin/includes/template.php för att använda add_meta_box(). Detta är helt fel. Använd hooken för add_meta_box()-anropet i add_meta_boxes action istället."
 
@@ -1498,31 +1510,31 @@ msgstr "Återgå till Adminpanel &rarr; Uppdateringar"
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress är skapat av ett världsomspännande team av passionerade individer."
 
-#: wp-admin/includes/template.php:1804
+#: wp-admin/includes/template.php:1808
 msgid "The single media icon now launches the uploader for all file types, and the new drag and drop interface makes uploading a breeze."
 msgstr "Den enda media-ikonen öppnar nu uppladdaren för alla filtyper och det nya dra och släpp-gränssnittet gör det enkelt."
 
-#: wp-admin/includes/template.php:1786
+#: wp-admin/includes/template.php:1790
 msgid "We&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hover over the toolbar items to see what&#8217;s new."
 msgstr "Vi har kombinerat adminmenyn och det gamla adminsidhuvudet till ett gemensamt verktygsfält. Håll muspekaren över ett val i verktygsfältet för att se vad som är nytt."
 
-#: wp-admin/includes/template.php:1818
+#: wp-admin/includes/template.php:1822
 msgid "New Feature: Saving Widgets"
 msgstr "Ny funktion: Spara widgets"
 
-#: wp-admin/includes/template.php:1789
+#: wp-admin/includes/template.php:1793
 msgid "Network Admin is now located in the My Sites menu."
 msgstr "Nätverksdmin är nu placerad under menyvalet Mina webbplatser."
 
-#: wp-admin/includes/template.php:1803
+#: wp-admin/includes/template.php:1807
 msgid "Updated Media Uploader"
 msgstr "Uppdaterad uppladdare för media"
 
-#: wp-admin/includes/template.php:1819
+#: wp-admin/includes/template.php:1823
 msgid "If you change your mind and revert to your previous theme, we&#8217;ll put the widgets back the way you had them."
 msgstr "Om du ångrar dig och återgår till tidigare aktiverade teman så kommer WordPress att återställa widgets precis som du hade dom inställda."
 
-#: wp-admin/includes/template.php:1785
+#: wp-admin/includes/template.php:1789
 msgid "New Feature: Toolbar"
 msgstr "Ny funktion: Verktygsfält"
 
@@ -7069,7 +7081,7 @@ msgstr "Fel vid bearbetning av bild"
 msgid "Choose the part of the image you want to use as your header."
 msgstr "Välj den del av bilden som du vill använda som sidhuvud."
 
-#: wp-admin/custom-header.php:938
+#: wp-admin/custom-header.php:939
 msgid "You do not have permission to customize headers."
 msgstr "Du har inte tillräcklig behörighet för att modifiera sidhuvden."
 
@@ -8574,7 +8586,7 @@ msgid "Gallery"
 msgstr "Galleri"
 
 #: wp-admin/custom-background.php:395
-#: wp-admin/custom-header.php:967
+#: wp-admin/custom-header.php:968
 #: wp-admin/includes/media.php:21
 #: wp-admin/upload.php:139
 msgid "Media Library"
