@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.4) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-19 20:19+0100\n"
+"PO-Revision-Date: 2012-05-24 00:09+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,7 +33,7 @@ msgstr "Anpassa"
 msgid "Insufficient arguments passed to this XML-RPC method."
 msgstr "Otillräckligt med argument skickades för denna XML-RPC-metod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:985
+#: wp-includes/class-wp-xmlrpc-server.php:1027
 msgid "Sorry, you cannot stick a private post."
 msgstr "Du kan inte klistra ett privat inlägg."
 
@@ -76,7 +76,7 @@ msgstr "Slumpvald standardbild"
 msgid "Random Uploaded Image"
 msgstr "Slumpvald uppladdad bild"
 
-#: wp-includes/class-wp-customize.php:686
+#: wp-includes/class-wp-customize-manager.php:671
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "Du kan redigera din menys innehåll på sidan Menyer under Utseende."
 
@@ -87,14 +87,6 @@ msgstr "Dra och släpp en fil här eller <a href=\"#\" class=\"upload\">välj en
 #: wp-includes/class-wp-customize-control.php:406
 msgid "Header Image"
 msgstr "Bild för sidhuvud"
-
-#: wp-includes/customize-controls.php:79
-msgid "Save and Activate"
-msgstr "Spara och aktivera"
-
-#: wp-includes/customize-controls.php:48
-msgid "Manage Themes"
-msgstr "Hantera teman"
 
 #: wp-includes/class-wp-xmlrpc-server.php:348
 msgid "Post Thumbnail"
@@ -144,47 +136,39 @@ msgstr "Ange en giltig e-postadress."
 msgid "Username must be at least 4 characters."
 msgstr "Användarnamn måste bestå av minst 4 tecken."
 
-#: wp-includes/customize-controls.php:55
-msgid "You are previewing"
-msgstr "Du förhandsgranskar"
-
-#: wp-includes/class-wp-customize.php:737
+#: wp-includes/class-wp-customize-manager.php:722
 msgid "A static page"
 msgstr "En statisk sida"
-
-#: wp-includes/customize-controls.php:85
-msgid "Collapse"
-msgstr "Minimera"
 
 #: wp-includes/class-wp-theme.php:207
 msgid "The theme directory does not exist."
 msgstr "Temamappen existerar inte."
 
-#: wp-includes/class-wp-customize.php:575
+#: wp-includes/class-wp-customize-manager.php:560
 msgid "Display Header Text"
 msgstr "Visa text i sidhuvud"
 
-#: wp-includes/class-wp-customize.php:581
+#: wp-includes/class-wp-customize-manager.php:566
 msgid "Text Color"
 msgstr "Textfärg"
 
-#: wp-includes/class-wp-customize.php:612
+#: wp-includes/class-wp-customize-manager.php:597
 msgid "Background Color"
 msgstr "Färg för bakgrund"
 
-#: wp-includes/class-wp-customize.php:622
+#: wp-includes/class-wp-customize-manager.php:607
 msgid "Background Image"
 msgstr "Bild för bakgrund"
 
-#: wp-includes/class-wp-customize.php:633
+#: wp-includes/class-wp-customize-manager.php:618
 msgid "Background Repeat"
 msgstr "Repetition av bakgrund"
 
-#: wp-includes/class-wp-customize.php:650
+#: wp-includes/class-wp-customize-manager.php:635
 msgid "Background Position"
 msgstr "Position för bakgrund"
 
-#: wp-includes/class-wp-customize.php:666
+#: wp-includes/class-wp-customize-manager.php:651
 msgid "Background Attachment"
 msgstr "Bakgrundsbilaga"
 
@@ -200,39 +184,39 @@ msgstr "Ladda upp ny"
 msgid "Remove Image"
 msgstr "Ta bort bild"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3111
+#: wp-includes/class-wp-xmlrpc-server.php:3112
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Du saknar behörighet för att redigera denna inläggstyp."
 
-#: wp-includes/class-wp-customize.php:671
+#: wp-includes/class-wp-customize-manager.php:656
 msgid "Scroll"
 msgstr "Skrollande"
 
-#: wp-includes/class-wp-customize.php:670
+#: wp-includes/class-wp-customize-manager.php:655
 msgid "Fixed"
 msgstr "Fixerad"
 
-#: wp-includes/class-wp-customize.php:637
+#: wp-includes/class-wp-customize-manager.php:622
 msgid "No Repeat"
 msgstr "Inge repetering"
 
-#: wp-includes/class-wp-customize.php:638
+#: wp-includes/class-wp-customize-manager.php:623
 msgid "Tile"
 msgstr "Repetera"
 
-#: wp-includes/class-wp-customize.php:639
+#: wp-includes/class-wp-customize-manager.php:624
 msgid "Tile Horizontally"
 msgstr "Repetera horisontalt"
 
-#: wp-includes/class-wp-customize.php:640
+#: wp-includes/class-wp-customize-manager.php:625
 msgid "Tile Vertically"
 msgstr "Repetera vertikalt"
 
-#: wp-includes/class-wp-customize.php:748
+#: wp-includes/class-wp-customize-manager.php:733
 msgid "Front page"
 msgstr "Startsida"
 
-#: wp-includes/class-wp-customize.php:760
+#: wp-includes/class-wp-customize-manager.php:745
 msgid "Posts page"
 msgstr "Inläggssida"
 
@@ -248,66 +232,66 @@ msgstr "Ta bort"
 msgid "Allowed Files"
 msgstr "Tillåtna filer"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1448
-#: wp-includes/class-wp-xmlrpc-server.php:1546
+#: wp-includes/class-wp-xmlrpc-server.php:1490
+#: wp-includes/class-wp-xmlrpc-server.php:1588
 msgid "The term name cannot be empty."
 msgstr "Namn för term kan inte lämnas tomt."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1434
-#: wp-includes/class-wp-xmlrpc-server.php:1522
-#: wp-includes/class-wp-xmlrpc-server.php:1614
-#: wp-includes/class-wp-xmlrpc-server.php:1681
-#: wp-includes/class-wp-xmlrpc-server.php:1734
-#: wp-includes/class-wp-xmlrpc-server.php:1813
+#: wp-includes/class-wp-xmlrpc-server.php:1476
+#: wp-includes/class-wp-xmlrpc-server.php:1564
+#: wp-includes/class-wp-xmlrpc-server.php:1656
+#: wp-includes/class-wp-xmlrpc-server.php:1723
+#: wp-includes/class-wp-xmlrpc-server.php:1776
+#: wp-includes/class-wp-xmlrpc-server.php:1855
 msgid "Invalid taxonomy."
 msgstr "Ogiltig taxonomi."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1439
+#: wp-includes/class-wp-xmlrpc-server.php:1481
 msgid "You are not allowed to create terms in this taxonomy."
 msgstr "Du har inte behörighet att skapa termer i denna taxonomi."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1452
+#: wp-includes/class-wp-xmlrpc-server.php:1494
 msgid "This taxonomy is not hierarchical."
 msgstr "Denna taxonomi är inte hierarkisk."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1461
-#: wp-includes/class-wp-xmlrpc-server.php:1560
+#: wp-includes/class-wp-xmlrpc-server.php:1503
+#: wp-includes/class-wp-xmlrpc-server.php:1602
 msgid "Parent term does not exist."
 msgstr "Termförälder existerar inte."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1478
+#: wp-includes/class-wp-xmlrpc-server.php:1520
 msgid "Sorry, your term could not be created. Something wrong happened."
 msgstr "Din term kunde inte skapas. Ett fel uppstod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1527
+#: wp-includes/class-wp-xmlrpc-server.php:1569
 msgid "You are not allowed to edit terms in this taxonomy."
 msgstr "Du har inte behörighet att redigera termer i denna taxonomi."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1540
-#: wp-includes/class-wp-xmlrpc-server.php:1627
-#: wp-includes/class-wp-xmlrpc-server.php:1694
+#: wp-includes/class-wp-xmlrpc-server.php:1582
+#: wp-includes/class-wp-xmlrpc-server.php:1669
+#: wp-includes/class-wp-xmlrpc-server.php:1736
 msgid "Invalid term ID."
 msgstr "Ogiltigt term-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1551
+#: wp-includes/class-wp-xmlrpc-server.php:1593
 msgid "This taxonomy is not hierarchical so you can't set a parent."
 msgstr "Denna taxonomi är inte hierarkisk, du kan inte ange en förälder."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1577
+#: wp-includes/class-wp-xmlrpc-server.php:1619
 msgid "Sorry, editing the term failed."
 msgstr "Redigering av termen misslyckades."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1619
+#: wp-includes/class-wp-xmlrpc-server.php:1661
 msgid "You are not allowed to delete terms in this taxonomy."
 msgstr "Du har inte behörighet att radera termer i denna taxonomi."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1635
+#: wp-includes/class-wp-xmlrpc-server.php:1677
 msgid "Sorry, deleting the term failed."
 msgstr "Radering av termen misslyckades."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1686
-#: wp-includes/class-wp-xmlrpc-server.php:1739
-#: wp-includes/class-wp-xmlrpc-server.php:1818
+#: wp-includes/class-wp-xmlrpc-server.php:1728
+#: wp-includes/class-wp-xmlrpc-server.php:1781
+#: wp-includes/class-wp-xmlrpc-server.php:1860
 msgid "You are not allowed to assign terms in this taxonomy."
 msgstr "Du har inte behörighet att lägga till termer i denna taxonomi."
 
@@ -356,65 +340,52 @@ msgstr "Stilmallen är inte läsbar."
 msgid "The \"%s\" theme is not a valid parent theme."
 msgstr "Temat \"%s\" är inte ett giltigt grundtema."
 
-#: wp-includes/customize-controls.php:36
-msgid "%1$s &#8212; WordPress"
-msgstr "%1$s &#8212; WordPress"
-
-#: wp-includes/class-wp-customize.php:359
+#: wp-includes/class-wp-customize-manager.php:345
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
 msgstr "Inställningar sparade och tema aktiverat. <a href=\"%s\">Besök webbplats</a>."
 
-#: wp-includes/class-wp-customize.php:683
+#: wp-includes/class-wp-customize-manager.php:668
 msgid "Navigation"
 msgstr "Navigation"
 
-#: wp-includes/class-wp-customize.php:686
+#: wp-includes/class-wp-customize-manager.php:671
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Ditt tema har stöd för %s meny. Välj vilken meny du vill använda."
 msgstr[1] "Ditt tema har stöd för %s menyer. Välj vilken meny som ska visas på vilken plats."
 
-#: wp-includes/customize-controls.php:48
 #: wp-includes/theme.php:1595
 msgid "&larr; Return to %s"
 msgstr "&larr; Tillbaka till %s"
 
-#: wp-includes/customize-controls.php:84
-msgid "Collapse Sidebar"
-msgstr "Minimera sidofält"
-
-#: wp-includes/class-wp-customize.php:718
+#: wp-includes/class-wp-customize-manager.php:703
 msgid "Static Front Page"
 msgstr "Statisk startsida"
 
-#: wp-includes/class-wp-customize.php:721
+#: wp-includes/class-wp-customize-manager.php:706
 msgid "Your theme supports a static front page."
 msgstr "Ditt tema har stöd för en statisk startsida."
 
-#: wp-includes/class-wp-customize.php:736
+#: wp-includes/class-wp-customize-manager.php:721
 msgid "Your latest posts"
 msgstr "Dina senaste inlägg"
 
-#: wp-includes/class-wp-customize.php:732
+#: wp-includes/class-wp-customize-manager.php:717
 msgid "Front page displays"
 msgstr "Startsidan visar"
 
-#: wp-includes/class-wp-customize.php:768
+#: wp-includes/class-wp-customize-manager.php:753
 msgid "Site Title & Tagline"
 msgstr "Sidans titel & slogan"
 
-#: wp-includes/class-wp-customize.php:790
+#: wp-includes/class-wp-customize-manager.php:775
 msgid "Tagline"
 msgstr "Slogan"
 
 #: wp-includes/class-wp-customize-control.php:219
-#: wp-includes/class-wp-customize.php:690
+#: wp-includes/class-wp-customize-manager.php:675
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Välj &mdash;"
-
-#: wp-includes/customize-controls.php:36
-msgid "Customize %s"
-msgstr "Anpassa %s"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:267
 msgid "Styles"
@@ -424,13 +395,14 @@ msgstr "Stilar"
 msgid "Use left and right arrows to navigate."
 msgstr "Använd höger och vänster piltangenter för att navigera."
 
+#: wp-includes/formatting.php:2148
 #: wp-includes/script-loader.php:293
 msgctxt "word count: words or characters?"
 msgid "words"
 msgstr "ord"
 
-#: wp-includes/class-wp-xmlrpc-server.php:917
-#: wp-includes/class-wp-xmlrpc-server.php:3993
+#: wp-includes/class-wp-xmlrpc-server.php:959
+#: wp-includes/class-wp-xmlrpc-server.php:3994
 msgid "The post type may not be changed."
 msgstr "Inläggstypen kan inte ändras."
 
@@ -446,7 +418,7 @@ msgstr "Standardlänktyp för bilder"
 msgid "Image default align"
 msgstr "Standardjustering för bilder"
 
-#: wp-includes/class-wp-xmlrpc-server.php:915
+#: wp-includes/class-wp-xmlrpc-server.php:957
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Du saknar behörighet för att redigera detta inlägg."
 
@@ -461,66 +433,66 @@ msgstr ","
 msgid "Edit Site"
 msgstr "Redigera webbplats"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1357
+#: wp-includes/class-wp-xmlrpc-server.php:1399
 msgid "Sorry, you are not allowed to edit posts in this post type"
 msgstr "Du saknar behörighet för att redigera inlägg för denna posttyp"
 
-#: wp-includes/class-wp-xmlrpc-server.php:952
-#: wp-includes/class-wp-xmlrpc-server.php:3742
+#: wp-includes/class-wp-xmlrpc-server.php:994
+#: wp-includes/class-wp-xmlrpc-server.php:3743
 msgid "Invalid author ID."
 msgstr "Ogiltigt författar-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1217
+#: wp-includes/class-wp-xmlrpc-server.php:1259
 msgid "Sorry, you are not allowed to delete this post."
 msgstr "Du saknar behörighet för att radera detta inlägg."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1068
+#: wp-includes/class-wp-xmlrpc-server.php:1110
 msgid "Ambiguous term name used in a hierarchical taxonomy. Please use term ID instead."
 msgstr "Mångtydigt termnamn används i en hierarkisk taxonomi. Använd term-ID istället."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1075
+#: wp-includes/class-wp-xmlrpc-server.php:1117
 msgid "Sorry, you are not allowed to add a term to one of the given taxonomies."
 msgstr "Du saknar behörighet för att lägga till en term i en av angivna taxonomier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1222
+#: wp-includes/class-wp-xmlrpc-server.php:1264
 msgid "The post cannot be deleted."
 msgstr "Inlägget kan inte raderas."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1354
+#: wp-includes/class-wp-xmlrpc-server.php:1396
 msgid "The post type specified is not valid"
 msgstr "Posttypen specificerad är ogiltig."
 
-#: wp-includes/class-wp-xmlrpc-server.php:907
+#: wp-includes/class-wp-xmlrpc-server.php:949
 msgid "Invalid post type"
 msgstr "Ogiltig posttyp"
 
-#: wp-includes/class-wp-xmlrpc-server.php:942
+#: wp-includes/class-wp-xmlrpc-server.php:984
 msgid "Sorry, you are not allowed to create password protected posts in this post type"
 msgstr "Du saknar behörighet för att skapa ett lösenordsskyddat inlägg för denna posttyp"
 
-#: wp-includes/class-wp-xmlrpc-server.php:947
+#: wp-includes/class-wp-xmlrpc-server.php:989
 msgid "You are not allowed to create posts as this user."
 msgstr "Du saknar behörighet för att skapa inlägg som denna användare."
 
-#: wp-includes/class-wp-xmlrpc-server.php:929
+#: wp-includes/class-wp-xmlrpc-server.php:971
 msgid "Sorry, you are not allowed to create private posts in this post type"
 msgstr "Du saknar behörighet för att skapa privata inlägg för denna posttyp"
 
-#: wp-includes/class-wp-xmlrpc-server.php:934
+#: wp-includes/class-wp-xmlrpc-server.php:976
 msgid "Sorry, you are not allowed to publish posts in this post type"
 msgstr "Du saknar behörighet för att publicera inlägg för denna posttyp"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1026
-#: wp-includes/class-wp-xmlrpc-server.php:1049
+#: wp-includes/class-wp-xmlrpc-server.php:1068
+#: wp-includes/class-wp-xmlrpc-server.php:1091
 msgid "Sorry, you are not allowed to assign a term to one of the given taxonomies."
 msgstr "Du saknar behörighet för att lägga till termer till en av de angivna taxonomierna."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1023
-#: wp-includes/class-wp-xmlrpc-server.php:1046
+#: wp-includes/class-wp-xmlrpc-server.php:1065
+#: wp-includes/class-wp-xmlrpc-server.php:1088
 msgid "Sorry, one of the given taxonomies is not supported by the post type."
 msgstr "En av angivna taxonomier har inte stöd i posttypen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:990
+#: wp-includes/class-wp-xmlrpc-server.php:1032
 msgid "Sorry, you are not allowed to stick this post."
 msgstr "Du saknar behörighet för att klistra detta inlägg."
 
@@ -1029,7 +1001,7 @@ msgstr "Dokumentation"
 msgid "Support Forums"
 msgstr "Supportforum"
 
-#: wp-includes/formatting.php:2139
+#: wp-includes/formatting.php:2143
 #: wp-includes/general-template.php:1978
 msgid "&hellip;"
 msgstr "&hellip;"
@@ -1122,7 +1094,7 @@ msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blått"
 
-#: wp-includes/formatting.php:2826
+#: wp-includes/formatting.php:2840
 msgid "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Tidszonen du har angett är inte giltigt. Välj en giltig tidszon."
 
@@ -1609,7 +1581,7 @@ msgstr "(Detta meddelande lades till i version %s.)"
 msgid "<strong>ERROR</strong>: The password you entered for the username <strong>%1$s</strong> is incorrect. <a href=\"%2$s\" title=\"Password Lost and Found\">Lost your password</a>?"
 msgstr "<strong>FEL</strong>: Det lösenord du angav för användarnamn <strong>%1$s</strong> är felaktig. <a href=\"%2$s\" title=\"Återställning av lösenord\">Glömt ditt lösenord</a>?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4872
+#: wp-includes/class-wp-xmlrpc-server.php:4873
 msgid "Sorry, you cannot publish this post."
 msgstr "Du kan inte publicera det här inlägget."
 
@@ -1733,8 +1705,8 @@ msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3701
-#: wp-includes/class-wp-xmlrpc-server.php:3999
+#: wp-includes/class-wp-xmlrpc-server.php:3702
+#: wp-includes/class-wp-xmlrpc-server.php:4000
 msgid "Invalid post format"
 msgstr "Ogiltigt inläggsformat"
 
@@ -1815,14 +1787,14 @@ msgstr "Inga inlägg hittades i papperskorgen."
 msgid "Shortlink"
 msgstr "Kortlänk"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1003
-#: wp-includes/class-wp-xmlrpc-server.php:2957
-#: wp-includes/class-wp-xmlrpc-server.php:3884
-#: wp-includes/class-wp-xmlrpc-server.php:4201
+#: wp-includes/class-wp-xmlrpc-server.php:1045
+#: wp-includes/class-wp-xmlrpc-server.php:2958
+#: wp-includes/class-wp-xmlrpc-server.php:3885
+#: wp-includes/class-wp-xmlrpc-server.php:4202
 msgid "Invalid attachment ID."
 msgstr "Ogiltigt bilags-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2997
+#: wp-includes/class-wp-xmlrpc-server.php:2998
 msgid "Sorry, you cannot upload files."
 msgstr "Tyvärr kan du inte ladda upp filer."
 
@@ -2487,26 +2459,26 @@ msgstr "Problem med att skapa en databasanslutning"
 msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted <code>%s</code>. You really should look at your database now."
 msgstr "<strong>Databastabeller saknas.</strong> Det betyder att MySQL inte körs, WordPress har inte installerats korrekt eller så har någon raderat <code>%s</code>. Du bör verkligen kontrollera din databas nu."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3256
+#: wp-includes/class-wp-xmlrpc-server.php:3257
 msgid "Sorry, you do not have access to user data on this site."
 msgstr "Du har inte tillräcklig behörighet för att visa användardata på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:920
-#: wp-includes/class-wp-xmlrpc-server.php:3480
+#: wp-includes/class-wp-xmlrpc-server.php:962
+#: wp-includes/class-wp-xmlrpc-server.php:3481
 msgid "Sorry, you are not allowed to post on this site."
 msgstr "Du har inte tillräcklig behörighet för att skriva inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3677
-#: wp-includes/class-wp-xmlrpc-server.php:3690
+#: wp-includes/class-wp-xmlrpc-server.php:3678
+#: wp-includes/class-wp-xmlrpc-server.php:3691
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr "Du har inte tillräcklig behörighet för att publicera inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4480
-#: wp-includes/class-wp-xmlrpc-server.php:4674
+#: wp-includes/class-wp-xmlrpc-server.php:4481
+#: wp-includes/class-wp-xmlrpc-server.php:4675
 msgid "Sorry, you must be able to edit posts on this site in order to view categories."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3666
+#: wp-includes/class-wp-xmlrpc-server.php:3667
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr "Du har inte tillräcklig behörighet för att publicera sidor på den här webbplatsen."
 
@@ -2570,19 +2542,19 @@ msgstr "Webbplatsen finns redan."
 msgid "The site is already active."
 msgstr "Webbplatsen är redan aktiverad."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2150
+#: wp-includes/class-wp-xmlrpc-server.php:2192
 msgid "Sorry, you cannot edit posts on this site."
 msgstr "Du kan inte redigera inlägg på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2321
+#: wp-includes/class-wp-xmlrpc-server.php:2363
 msgid "Sorry, you must be able to edit posts to this site in order to view categories."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2714
-#: wp-includes/class-wp-xmlrpc-server.php:2773
-#: wp-includes/class-wp-xmlrpc-server.php:2799
-#: wp-includes/class-wp-xmlrpc-server.php:2825
-#: wp-includes/class-wp-xmlrpc-server.php:3038
+#: wp-includes/class-wp-xmlrpc-server.php:2715
+#: wp-includes/class-wp-xmlrpc-server.php:2774
+#: wp-includes/class-wp-xmlrpc-server.php:2800
+#: wp-includes/class-wp-xmlrpc-server.php:2826
+#: wp-includes/class-wp-xmlrpc-server.php:3039
 msgid "You are not allowed access to details about this site."
 msgstr "Du har inte tillräcklig behörighet för att visa detaljer om den här webbplatsen."
 
@@ -2635,15 +2607,15 @@ msgstr "En ny användare har registrerat sig på din webbplats %s:"
 msgid "Site Suspended."
 msgstr "Webbplats avstängd."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2357
-#: wp-includes/class-wp-xmlrpc-server.php:2499
-#: wp-includes/class-wp-xmlrpc-server.php:2505
-#: wp-includes/class-wp-xmlrpc-server.php:2554
-#: wp-includes/class-wp-xmlrpc-server.php:2560
+#: wp-includes/class-wp-xmlrpc-server.php:2399
+#: wp-includes/class-wp-xmlrpc-server.php:2500
+#: wp-includes/class-wp-xmlrpc-server.php:2506
+#: wp-includes/class-wp-xmlrpc-server.php:2555
+#: wp-includes/class-wp-xmlrpc-server.php:2561
 msgid "You are not allowed to moderate comments on this site."
 msgstr "Du har inte tillräcklig behörighet för att moderera kommentarer på den här webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2185
+#: wp-includes/class-wp-xmlrpc-server.php:2227
 msgid "Sorry, you must be able to edit posts on this site in order to view tags."
 msgstr "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa etiketter."
 
@@ -2685,15 +2657,15 @@ msgstr "Menynamnet <strong>%s</strong> kolliderar med ett redan befintligt namn,
 msgid "The given object ID is not that of a menu item."
 msgstr "Objekt ID angivet är inte det för ett menyobjekt."
 
-#: wp-includes/formatting.php:2717
+#: wp-includes/formatting.php:2731
 msgid "The email address entered did not appear to be a valid email address. Please enter a valid email address."
 msgstr "E-postadressen angiven verkar inte vara en giltig e-postadress. Var vänlig ange en giltig adress."
 
-#: wp-includes/formatting.php:2801
+#: wp-includes/formatting.php:2815
 msgid "The WordPress address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "WordPressadressen angiven verkar inte vara en giltig URL. Var vänlig ange en giltig URL."
 
-#: wp-includes/formatting.php:2811
+#: wp-includes/formatting.php:2825
 msgid "The Site address you entered did not appear to be a valid URL. Please enter a valid URL."
 msgstr "Webbplatsadressen angiven verkar inte vara en giltig URL. Var vänlig ange en giltig URL."
 
@@ -2962,214 +2934,214 @@ msgstr "Tidszon"
 msgid "Allow new users to sign up"
 msgstr "Tillåt nya användare att registrera sig"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1901
+#: wp-includes/class-wp-xmlrpc-server.php:1943
 msgid "Sorry, you cannot edit this page."
 msgstr "Tyvärr, du kan inte redigera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1911
-#: wp-includes/class-wp-xmlrpc-server.php:2015
-#: wp-includes/class-wp-xmlrpc-server.php:2056
+#: wp-includes/class-wp-xmlrpc-server.php:1953
+#: wp-includes/class-wp-xmlrpc-server.php:2057
+#: wp-includes/class-wp-xmlrpc-server.php:2098
 msgid "Sorry, no such page."
 msgstr "Tyvärr, ingen sådan sida."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1939
-#: wp-includes/class-wp-xmlrpc-server.php:2099
+#: wp-includes/class-wp-xmlrpc-server.php:1981
+#: wp-includes/class-wp-xmlrpc-server.php:2141
 msgid "Sorry, you cannot edit pages."
 msgstr "Tyvärr, du kan inte redigera sidor."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2019
+#: wp-includes/class-wp-xmlrpc-server.php:2061
 msgid "Sorry, you do not have the right to delete this page."
 msgstr "Beklagar, men du saknar rättigheter för att radera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2024
+#: wp-includes/class-wp-xmlrpc-server.php:2066
 msgid "Failed to delete the page."
 msgstr "Kunde inte radera sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2060
+#: wp-includes/class-wp-xmlrpc-server.php:2102
 msgid "Sorry, you do not have the right to edit this page."
 msgstr "Beklagar, men du saknar rättigheter för att redigera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2230
+#: wp-includes/class-wp-xmlrpc-server.php:2272
 msgid "Sorry, you do not have the right to add a category."
 msgstr "Tyvärr, du saknar rättigheter för att lägga till kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2258
-#: wp-includes/class-wp-xmlrpc-server.php:2260
+#: wp-includes/class-wp-xmlrpc-server.php:2300
+#: wp-includes/class-wp-xmlrpc-server.php:2302
 msgid "Sorry, the new category failed."
 msgstr "Tyvärr, den nya kategorin misslyckades."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2290
+#: wp-includes/class-wp-xmlrpc-server.php:2332
 msgid "Sorry, you do not have the right to delete a category."
 msgstr "Tyvärr, du saknar rättigheter för att radera en kategori."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2362
-#: wp-includes/class-wp-xmlrpc-server.php:2502
-#: wp-includes/class-wp-xmlrpc-server.php:2557
+#: wp-includes/class-wp-xmlrpc-server.php:2404
+#: wp-includes/class-wp-xmlrpc-server.php:2503
+#: wp-includes/class-wp-xmlrpc-server.php:2558
 msgid "Invalid comment ID."
 msgstr "Ogiltigt kommentars-ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2431
+#: wp-includes/class-wp-xmlrpc-server.php:2440
 msgid "Sorry, you cannot edit comments."
 msgstr "Tyvärr, du kan inte redigera kommentarer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2569
+#: wp-includes/class-wp-xmlrpc-server.php:2570
 msgid "Invalid comment status."
 msgstr "Ogiltig kommentarsstatus"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2601
+#: wp-includes/class-wp-xmlrpc-server.php:2602
 msgid "Sorry, the comment could not be edited. Something wrong happened."
 msgstr "Tyvärr, kommentaren kunde inte redigeras. Något gick fel."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2634
+#: wp-includes/class-wp-xmlrpc-server.php:2635
 msgid "You must be registered to comment"
 msgstr "Du måste vara inloggad för att kommentera"
 
-#: wp-includes/class-wp-xmlrpc-server.php:913
-#: wp-includes/class-wp-xmlrpc-server.php:1160
-#: wp-includes/class-wp-xmlrpc-server.php:1213
-#: wp-includes/class-wp-xmlrpc-server.php:1295
-#: wp-includes/class-wp-xmlrpc-server.php:1898
-#: wp-includes/class-wp-xmlrpc-server.php:2647
-#: wp-includes/class-wp-xmlrpc-server.php:2650
-#: wp-includes/class-wp-xmlrpc-server.php:3292
-#: wp-includes/class-wp-xmlrpc-server.php:3982
-#: wp-includes/class-wp-xmlrpc-server.php:4243
-#: wp-includes/class-wp-xmlrpc-server.php:4712
-#: wp-includes/class-wp-xmlrpc-server.php:4758
-#: wp-includes/class-wp-xmlrpc-server.php:4869
+#: wp-includes/class-wp-xmlrpc-server.php:955
+#: wp-includes/class-wp-xmlrpc-server.php:1202
+#: wp-includes/class-wp-xmlrpc-server.php:1255
+#: wp-includes/class-wp-xmlrpc-server.php:1337
+#: wp-includes/class-wp-xmlrpc-server.php:1940
+#: wp-includes/class-wp-xmlrpc-server.php:2648
+#: wp-includes/class-wp-xmlrpc-server.php:2651
+#: wp-includes/class-wp-xmlrpc-server.php:3293
+#: wp-includes/class-wp-xmlrpc-server.php:3983
+#: wp-includes/class-wp-xmlrpc-server.php:4244
+#: wp-includes/class-wp-xmlrpc-server.php:4713
+#: wp-includes/class-wp-xmlrpc-server.php:4759
+#: wp-includes/class-wp-xmlrpc-server.php:4870
 msgid "Invalid post ID."
 msgstr "Ogiltigt inläggs ID."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2676
+#: wp-includes/class-wp-xmlrpc-server.php:2677
 msgid "Comment author name and email are required"
 msgstr "Kommentarförfattarens namn och e-postadress är obligatoriska"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2678
+#: wp-includes/class-wp-xmlrpc-server.php:2679
 msgid "A valid email address is required"
 msgstr "En riktig e-postadress krävs"
 
-#: wp-includes/class-wp-xmlrpc-server.php:2741
+#: wp-includes/class-wp-xmlrpc-server.php:2742
 msgid "You are not allowed access to details about comments."
 msgstr "Du saknar rättigheter för att visa detaljer om kommentarer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2903
+#: wp-includes/class-wp-xmlrpc-server.php:2904
 msgid "You are not allowed to update options."
 msgstr "Du saknar rättigheter för att uppdatera inställningar."
 
-#: wp-includes/class-wp-xmlrpc-server.php:1299
-#: wp-includes/class-wp-xmlrpc-server.php:3295
-#: wp-includes/class-wp-xmlrpc-server.php:4246
-#: wp-includes/class-wp-xmlrpc-server.php:4761
+#: wp-includes/class-wp-xmlrpc-server.php:1341
+#: wp-includes/class-wp-xmlrpc-server.php:3296
+#: wp-includes/class-wp-xmlrpc-server.php:4247
+#: wp-includes/class-wp-xmlrpc-server.php:4762
 msgid "Sorry, you cannot edit this post."
 msgstr "Tyvärr, du kan inte redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3344
-#: wp-includes/class-wp-xmlrpc-server.php:4622
+#: wp-includes/class-wp-xmlrpc-server.php:3345
+#: wp-includes/class-wp-xmlrpc-server.php:4623
 msgid "Either there are no posts, or something went wrong."
 msgstr "Antingen finns det inga inlägg eller så gick något fel."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3399
-#: wp-includes/class-wp-xmlrpc-server.php:3439
+#: wp-includes/class-wp-xmlrpc-server.php:3400
+#: wp-includes/class-wp-xmlrpc-server.php:3440
 msgid "Sorry, this user cannot edit the template."
 msgstr "Tyvärr, den här användaren kan inte redigera mallen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3449
+#: wp-includes/class-wp-xmlrpc-server.php:3450
 msgid "Either the file is not writable, or something wrong happened. The file has not been updated."
 msgstr "Antingen är filen skrivskyddad eller så gick något fel. Filen har inte uppdaterats."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3535
-#: wp-includes/class-wp-xmlrpc-server.php:3589
-#: wp-includes/class-wp-xmlrpc-server.php:4342
-#: wp-includes/class-wp-xmlrpc-server.php:4823
+#: wp-includes/class-wp-xmlrpc-server.php:3536
+#: wp-includes/class-wp-xmlrpc-server.php:3590
+#: wp-includes/class-wp-xmlrpc-server.php:4343
+#: wp-includes/class-wp-xmlrpc-server.php:4824
 msgid "Sorry, no such post."
 msgstr "Beklagar, hittar inget sådant inlägg."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3545
-#: wp-includes/class-wp-xmlrpc-server.php:4146
+#: wp-includes/class-wp-xmlrpc-server.php:3546
+#: wp-includes/class-wp-xmlrpc-server.php:4147
 msgid "Sorry, you do not have the right to publish this post."
 msgstr "Beklagar, men du saknar rättigheter för att publicera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3106
-#: wp-includes/class-wp-xmlrpc-server.php:3681
-#: wp-includes/class-wp-xmlrpc-server.php:3737
-#: wp-includes/class-wp-xmlrpc-server.php:3989
-#: wp-includes/class-wp-xmlrpc-server.php:4041
+#: wp-includes/class-wp-xmlrpc-server.php:3107
+#: wp-includes/class-wp-xmlrpc-server.php:3682
+#: wp-includes/class-wp-xmlrpc-server.php:3738
+#: wp-includes/class-wp-xmlrpc-server.php:3990
+#: wp-includes/class-wp-xmlrpc-server.php:4042
 msgid "Invalid post type."
 msgstr "Ogiltig inläggstyp."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3730
+#: wp-includes/class-wp-xmlrpc-server.php:3731
 msgid "You are not allowed to post as this user"
 msgstr "Du saknar rättigheter för att skriva inlägg som den här användaren"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3734
+#: wp-includes/class-wp-xmlrpc-server.php:3735
 msgid "You are not allowed to create pages as this user"
 msgstr "Du saknar rättigheter för att skapa sidor som den här användaren"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4034
+#: wp-includes/class-wp-xmlrpc-server.php:4035
 msgid "You are not allowed to change the post author as this user."
 msgstr "Du saknar rättigheter för att ändra inläggets författare som den här användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4038
+#: wp-includes/class-wp-xmlrpc-server.php:4039
 msgid "You are not allowed to change the page author as this user."
 msgstr "Du saknar rättigheter för att ändra sidans författare som den här användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4144
+#: wp-includes/class-wp-xmlrpc-server.php:4145
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Beklagar, men du saknar rättigheter för att publicera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4182
+#: wp-includes/class-wp-xmlrpc-server.php:4183
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Beklagar, ditt inslag kunde inte redigeras. Ett fel uppstod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:2952
-#: wp-includes/class-wp-xmlrpc-server.php:4533
+#: wp-includes/class-wp-xmlrpc-server.php:2953
+#: wp-includes/class-wp-xmlrpc-server.php:4534
 msgid "You are not allowed to upload files to this site."
 msgstr "Du saknar rättigheter för att ladda upp filer."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4560
+#: wp-includes/class-wp-xmlrpc-server.php:4561
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Kunde inte skriva till filen %1$s (%2$s)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4715
+#: wp-includes/class-wp-xmlrpc-server.php:4716
 msgid "Sorry, you can not edit this post."
 msgstr "Beklagar, men du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4917
+#: wp-includes/class-wp-xmlrpc-server.php:4918
 msgid "Is there no link to us?"
 msgstr "Finns det ingen länk till oss?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4957
-#: wp-includes/class-wp-xmlrpc-server.php:4964
-#: wp-includes/class-wp-xmlrpc-server.php:4971
-#: wp-includes/class-wp-xmlrpc-server.php:5078
+#: wp-includes/class-wp-xmlrpc-server.php:4958
+#: wp-includes/class-wp-xmlrpc-server.php:4965
+#: wp-includes/class-wp-xmlrpc-server.php:4972
+#: wp-includes/class-wp-xmlrpc-server.php:5079
 msgid "The specified target URL cannot be used as a target. It either doesn&#8217;t exist, or it is not a pingback-enabled resource."
 msgstr "Mål-URLen du angav kan inte användas. Antingen finns det ingenting på den adressen eller så stöder resursen inte pingar."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4967
+#: wp-includes/class-wp-xmlrpc-server.php:4968
 msgid "The source URL and the target URL cannot both point to the same resource."
 msgstr "Käll-URLen och mål-URLen kan inte peka på samma resurs."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4975
+#: wp-includes/class-wp-xmlrpc-server.php:4976
 msgid "The pingback has already been registered."
 msgstr "Pingbacken har redan registrerats."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4983
+#: wp-includes/class-wp-xmlrpc-server.php:4984
 msgid "The source URL does not exist."
 msgstr "Den önskade URL:n finns inte."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4995
+#: wp-includes/class-wp-xmlrpc-server.php:4996
 msgid "We cannot find a title on that page."
 msgstr "Vi hittar ingen titel på den sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5031
+#: wp-includes/class-wp-xmlrpc-server.php:5032
 msgid "The source URL does not contain a link to the target URL, and so cannot be used as a source."
 msgstr "Käll-URLen innehåller ingen länk till mål-URLen och kan därför inte användas som källa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5052
+#: wp-includes/class-wp-xmlrpc-server.php:5053
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback från %1$s till %2$s har registrerats. Låt webben tala! :-)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5085
+#: wp-includes/class-wp-xmlrpc-server.php:5086
 msgid "The specified target URL does not exist."
 msgstr "Den önskade mål-URL:n finns inte."
 
@@ -3456,7 +3428,7 @@ msgstr "Kommentarer till %s enligt %s"
 msgid "Protected Comments: Please enter your password to view comments."
 msgstr "Lösenordsskyddade kommentarer: ange ditt lösenord för att visa kommentarerna."
 
-#: wp-includes/formatting.php:3195
+#: wp-includes/formatting.php:3209
 msgctxt "opening curly quote"
 msgid "&#8220;"
 msgstr "&#8221;"
@@ -3480,15 +3452,15 @@ msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
 #: wp-includes/class-wp-theme.php:661
-#: wp-includes/formatting.php:2979
+#: wp-includes/formatting.php:2993
 msgid ", "
 msgstr ", "
 
-#: wp-includes/formatting.php:2981
+#: wp-includes/formatting.php:2995
 msgid ", and "
 msgstr " och "
 
-#: wp-includes/formatting.php:2983
+#: wp-includes/formatting.php:2997
 msgid " and "
 msgstr " och "
 
@@ -4756,7 +4728,7 @@ msgid "WMode"
 msgstr "WMode"
 
 #: wp-includes/admin-bar.php:588
-#: wp-includes/class-wp-customize.php:597
+#: wp-includes/class-wp-customize-manager.php:582
 #: wp-includes/js/tinymce/langs/wp-langs.php:410
 msgid "Background"
 msgstr "Bakgrund"
@@ -5997,7 +5969,7 @@ msgstr "Ogiltig taxonomi"
 msgid "Empty Term"
 msgstr "Tom term"
 
-#: wp-includes/class-wp-xmlrpc-server.php:1033
+#: wp-includes/class-wp-xmlrpc-server.php:1075
 #: wp-includes/taxonomy.php:2025
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
@@ -6472,9 +6444,9 @@ msgstr "Tyvärr, du saknar rättigheter för att redigera eller publicera nya in
 #: wp-includes/class-wp-atom-server.php:376
 #: wp-includes/class-wp-atom-server.php:562
 #: wp-includes/class-wp-atom-server.php:743
-#: wp-includes/class-wp-xmlrpc-server.php:1119
-#: wp-includes/class-wp-xmlrpc-server.php:3500
-#: wp-includes/class-wp-xmlrpc-server.php:3905
+#: wp-includes/class-wp-xmlrpc-server.php:1161
+#: wp-includes/class-wp-xmlrpc-server.php:3501
+#: wp-includes/class-wp-xmlrpc-server.php:3906
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Tyvärr, ditt inlägg kunde inte publiceras. Ett fel uppstod."
 
@@ -6486,26 +6458,26 @@ msgstr "Tyvärr, du saknar rättigheter för att besöka det här inlägget."
 #: wp-includes/class-wp-atom-server.php:593
 #: wp-includes/class-wp-atom-server.php:663
 #: wp-includes/class-wp-atom-server.php:712
-#: wp-includes/class-wp-xmlrpc-server.php:3540
-#: wp-includes/class-wp-xmlrpc-server.php:3985
+#: wp-includes/class-wp-xmlrpc-server.php:3541
+#: wp-includes/class-wp-xmlrpc-server.php:3986
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Tyvärr, du saknar rättigheter för att redigera det här inlägget."
 
 #: wp-includes/class-wp-atom-server.php:456
 #: wp-includes/class-wp-atom-server.php:609
-#: wp-includes/class-wp-xmlrpc-server.php:3556
+#: wp-includes/class-wp-xmlrpc-server.php:3557
 msgid "For some strange yet very annoying reason, this post could not be edited."
 msgstr "Av någon märklig men mycket irriterande orsak kan det här inlägget inte redigeras."
 
 #: wp-includes/class-wp-atom-server.php:477
 #: wp-includes/class-wp-atom-server.php:628
-#: wp-includes/class-wp-xmlrpc-server.php:3592
+#: wp-includes/class-wp-xmlrpc-server.php:3593
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Tyvärr, du saknar rättigheter för att radera det här inlägget."
 
 #: wp-includes/class-wp-atom-server.php:485
 #: wp-includes/class-wp-atom-server.php:643
-#: wp-includes/class-wp-xmlrpc-server.php:3597
+#: wp-includes/class-wp-xmlrpc-server.php:3598
 msgid "For some strange yet very annoying reason, this post could not be deleted."
 msgstr "Av någon märklig men mycket irriterande orsak kan det här inlägget inte raderas."
 
@@ -7088,7 +7060,6 @@ msgid "Add Link"
 msgstr "Lägg till länk"
 
 #: wp-includes/class-wp-editor.php:619
-#: wp-includes/customize-controls.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:118
 #: wp-includes/script-loader.php:305
 msgid "Save"
@@ -7222,7 +7193,7 @@ msgid "Unknown Feed"
 msgstr "Okänt flöde"
 
 #: wp-includes/admin-bar.php:591
-#: wp-includes/class-wp-customize.php:561
+#: wp-includes/class-wp-customize-manager.php:547
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -7285,21 +7256,21 @@ msgstr "Lägg till ljud"
 msgid "Saved."
 msgstr "Sparat."
 
-#: wp-includes/class-wp-customize.php:654
+#: wp-includes/class-wp-customize-manager.php:639
 #: wp-includes/js/tinymce/langs/wp-langs.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:372
 #: wp-includes/js/tinymce/langs/wp-langs.php:471
 msgid "Left"
 msgstr "Vänster"
 
-#: wp-includes/class-wp-customize.php:655
+#: wp-includes/class-wp-customize-manager.php:640
 #: wp-includes/js/tinymce/langs/wp-langs.php:80
 #: wp-includes/js/tinymce/langs/wp-langs.php:451
 #: wp-includes/js/tinymce/langs/wp-langs.php:472
 msgid "Center"
 msgstr "Centrerat"
 
-#: wp-includes/class-wp-customize.php:656
+#: wp-includes/class-wp-customize-manager.php:641
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
 #: wp-includes/js/tinymce/langs/wp-langs.php:373
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
