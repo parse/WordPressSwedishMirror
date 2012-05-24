@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-24 00:09+0100\n"
+"PO-Revision-Date: 2012-05-25 00:12+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,6 +16,33 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: wp-admin/custom-background.php:251
+#: wp-admin/custom-header.php:557
+msgid "Select Image"
+msgstr "Välj bild"
+
+#: wp-admin/custom-background.php:266
+#: wp-admin/custom-header.php:591
+msgid "Or choose an image from your media library:"
+msgstr "Eller välj en bild från ditt mediabibliotek:"
+
+#: wp-admin/custom-background.php:267
+#: wp-admin/custom-header.php:592
+msgid "Choose Image"
+msgstr "Välj bild"
+
+#: wp-admin/about.php:93
+msgid "Faster Translations"
+msgstr "Snabbare översättningar"
+
+#: wp-admin/about.php:94
+msgid "The number of strings loaded on the front end was greatly reduced, resulting in faster front page load times for localized installations."
+msgstr "Antalet strängar som laddas för webbplatsens framsida har reducerats markant, vilket resulterar i snabbare laddtider för webbplatser som använder översättningar."
+
+#: wp-admin/customize.php:54
+msgid "Save &amp; Activate"
+msgstr "Spara &amp; aktivera"
+
 #: wp-admin/about.php:42
 msgid "Gone are the days of rushing to update your header, background, and the like as soon as you activate a new theme. You can now customize these options <strong>before</strong> activating a new theme. Note: this feature is available for installed themes only."
 msgstr "Nu behöver du inte längre stressa för att snabbt uppdatera dit sidhuvud, bakgrund och andra liknande saker så fort du ska byta till ett nytt tema. Du kan nu istället anpassa dessa inställningar <strong>innan</strong> du aktiverar det nya temat. Notera: denna funktion fungerar endast för teman som redan installerats."
@@ -24,11 +51,7 @@ msgstr "Nu behöver du inte längre stressa för att snabbt uppdatera dit sidhuv
 msgid "WP_Theme, wp_get_themes(), wp_get_theme(). Faster, uses less memory, makes use of persistent caching."
 msgstr "WP_Theme, wp_get_themes(), wp_get_theme(). Snabbare, använder mindre minne, använder beständig cachning."
 
-#: wp-admin/about.php:94
-msgid "The number of strings loaded on the front end was greatly reduced, resulting in faster front page load times for I18N users."
-msgstr "Antalet strängar som laddas för framsidan har reducerats markant, vilket resulterar i mycket snabbare laddtiden för användare som använder I18N (översättningar)."
-
-#: wp-admin/includes/template.php:1842
+#: wp-admin/includes/template.php:1850
 msgid "Click the Live Preview links in the Available Themes list below to customize and preview another theme before activating it."
 msgstr "Klicka på länken för förhandsgranskning live i lista över tillgängliga teman nedan för att anpassa och förhandsgranska ett annat tema innan du aktiverar det."
 
@@ -36,15 +59,11 @@ msgstr "Klicka på länken för förhandsgranskning live i lista över tillgäng
 msgid "Customize %s"
 msgstr "Anpassa %s"
 
-#: wp-admin/customize.php:61
+#: wp-admin/customize.php:66
 msgid "You are previewing"
 msgstr "Du förhandsgranskar"
 
-#: wp-admin/customize.php:85
-msgid "Save and Activate"
-msgstr "Spara och aktivera"
-
-#: wp-admin/customize.php:91
+#: wp-admin/customize.php:90
 #: wp-admin/includes/class-wp-theme-install-list-table.php:256
 msgid "Collapse"
 msgstr "Minimera"
@@ -101,23 +120,23 @@ msgstr "HTML-stöd"
 msgid "Basic HTML support has been added to the caption field in the image uploader. This allows you to add links &mdash; great for photo credits or licensing details &mdash; and basic formatting such as bold and italicized text."
 msgstr "Enklare stöd för HTML har lagts till för fältet bildrubrik i bilduppladdaren. Detta låter dig lägga till länkar &mdash; passande om man vill lägga till erkännande eller licensdetaljer &mdash; och enklare formatering så som fetstil och kursivt."
 
-#: wp-admin/includes/template.php:1856
+#: wp-admin/includes/template.php:1864
 msgid "New Feature: Choose Image from Library"
 msgstr "Ny funktion: Välj bild från bibliotek"
 
-#: wp-admin/includes/template.php:1857
+#: wp-admin/includes/template.php:1865
 msgid "Want to use an image you uploaded earlier? Select it from your media library instead of uploading it again."
 msgstr "Vill du använda en bild du tidigare laddat upp? Välj den från ditt mediabibliotek istället för att ladda upp den igen."
 
-#: wp-admin/custom-header.php:794
+#: wp-admin/custom-header.php:797
 msgid "Skip Cropping, Use Image as Is"
 msgstr "Beskär inte, använd bild som den är"
 
-#: wp-admin/includes/template.php:1840
+#: wp-admin/includes/template.php:1848
 msgid "New Feature: Customizer"
 msgstr "Ny funktioner: Anpassare"
 
-#: wp-admin/includes/template.php:1841
+#: wp-admin/includes/template.php:1849
 msgid "Click Customize to change the header, background, title and menus of the current theme, all in one place."
 msgstr "Klicka Anpassa för att ändra sidhuvud, bakgrund, titel och menyer för det aktuella temat, allt på ett och samma ställe."
 
@@ -224,10 +243,6 @@ msgstr "Inläggsförfrågningar (query) optimerad för att undvika tabellskannin
 msgid "Custom header and background API relocated into the theme support API."
 msgstr "Anpassade sidhuvuden och API för bakgrunder har om flyttats till API för temasupport."
 
-#: wp-admin/about.php:93
-msgid "Faster I18N"
-msgstr "Snabbare I18N"
-
 #: wp-admin/about.php:98
 msgid "More methods, more convenience!"
 msgstr "Fler metoder, mer bekvämlighet!"
@@ -322,26 +337,11 @@ msgstr "Webbläsaren i din enhet kan inte användas för att ladda upp filer. Du
 msgid "Version: "
 msgstr "Version: "
 
-#: wp-admin/custom-background.php:263
-msgctxt "Custom Background: Choose an image from your computer - or - Choose from image library"
-msgid "or"
-msgstr "eller"
-
-#: wp-admin/custom-background.php:263
-#: wp-admin/custom-header.php:591
-msgid "Choose from image library"
-msgstr "Välj från mediabibloteket"
-
-#: wp-admin/custom-background.php:386
+#: wp-admin/custom-background.php:392
 msgid "Set as background"
 msgstr "Ange som bakgrund"
 
-#: wp-admin/custom-header.php:591
-msgctxt "Custom Header: Choose an image from your computer - or - Choose from image library"
-msgid "or"
-msgstr "eller"
-
-#: wp-admin/custom-header.php:968
+#: wp-admin/custom-header.php:971
 msgid "Set as header"
 msgstr "Ange som sidhuvud"
 
@@ -349,7 +349,11 @@ msgstr "Ange som sidhuvud"
 msgid "Customize &#8220;%s&#8221;"
 msgstr "Anpassa &#8221;%s&#8221;"
 
-#: wp-admin/customize.php:90
+#: wp-admin/includes/class-wp-theme-install-list-table.php:254
+msgid "&larr; Return to %s"
+msgstr "&larr; Gå tillbaka till %s"
+
+#: wp-admin/customize.php:89
 #: wp-admin/includes/class-wp-theme-install-list-table.php:255
 msgid "Collapse Sidebar"
 msgstr "Minimera sidopanel"
@@ -380,12 +384,12 @@ msgid "<strong>The parent theme could not be found.</strong> You will need to in
 msgstr "<strong>Modertemat kunde inte hittas.</strong> Du behöver installera modertemat, <strong>%s</strong>, innan du kan använda detta barntema."
 
 #: wp-admin/custom-header.php:127
-#: wp-admin/custom-header.php:651
-#: wp-admin/custom-header.php:656
+#: wp-admin/custom-header.php:654
+#: wp-admin/custom-header.php:659
 msgid "Header Text"
 msgstr "Text i sidhuvud"
 
-#: wp-admin/custom-header.php:659
+#: wp-admin/custom-header.php:662
 msgid "Show header text with your image."
 msgstr "Visa text i sidhuvudet tillsammans med din bild."
 
@@ -1111,8 +1115,8 @@ msgstr "I tidigare versioner av WordPress var alla importörer inbyggda. De har 
 msgid "The active theme is broken. Reverting to the default theme."
 msgstr "Det valda temat är trasigt. Återgår till ett standardtema."
 
-#: wp-admin/custom-header.php:756
-#: wp-admin/custom-header.php:882
+#: wp-admin/custom-header.php:759
+#: wp-admin/custom-header.php:885
 msgid "Image could not be processed. Please go back and try again."
 msgstr "Bilden kunde inte bearbetas. Var vänlig gå tillbaka och försök igen."
 
@@ -1614,7 +1618,7 @@ msgstr "Du kan visa alla inlägg som gjorts av en användare genom att klicka p�
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Eftersom detta är en Multisite-installation kan du lägga till konton som redan finns på nätverket genom att ange ett användarnamn eller e-post och definiera en roll. För fler alternativ, till exempel att ange ett lösenord, måste du vara en nätverksadministratör och använda hover-länken under en befintlig användares namn för att redigera användarprofil under Nätverksadmin > Alla användare."
 
-#: wp-admin/includes/template.php:1888
+#: wp-admin/includes/template.php:1896
 msgid "Likely direct inclusion of wp-admin/includes/template.php in order to use add_meta_box(). This is very wrong. Hook the add_meta_box() call into the add_meta_boxes action instead."
 msgstr "Troligen används direkt infogande av wp-admin/includes/template.php för att använda add_meta_box(). Detta är helt fel. Använd hooken för add_meta_box()-anropet i add_meta_boxes action istället."
 
@@ -1640,31 +1644,31 @@ msgstr "WordPress är skapat av ett världsomspännande team av passionerade ind
 msgid "WP_Screen API"
 msgstr "WP_Screen API"
 
-#: wp-admin/includes/template.php:1811
+#: wp-admin/includes/template.php:1819
 msgid "The single media icon now launches the uploader for all file types, and the new drag and drop interface makes uploading a breeze."
 msgstr "Den enda media-ikonen öppnar nu uppladdaren för alla filtyper och det nya dra och släpp-gränssnittet gör det enkelt."
 
-#: wp-admin/includes/template.php:1793
+#: wp-admin/includes/template.php:1801
 msgid "We&#8217;ve combined the admin bar and the old Dashboard header into one persistent toolbar. Hover over the toolbar items to see what&#8217;s new."
 msgstr "Vi har kombinerat adminmenyn och det gamla adminsidhuvudet till ett gemensamt verktygsfält. Håll muspekaren över ett val i verktygsfältet för att se vad som är nytt."
 
-#: wp-admin/includes/template.php:1825
+#: wp-admin/includes/template.php:1833
 msgid "New Feature: Saving Widgets"
 msgstr "Ny funktion: Spara widgets"
 
-#: wp-admin/includes/template.php:1796
+#: wp-admin/includes/template.php:1804
 msgid "Network Admin is now located in the My Sites menu."
 msgstr "Nätverksdmin är nu placerad under menyvalet Mina webbplatser."
 
-#: wp-admin/includes/template.php:1810
+#: wp-admin/includes/template.php:1818
 msgid "Updated Media Uploader"
 msgstr "Uppdaterad uppladdare för media"
 
-#: wp-admin/includes/template.php:1826
+#: wp-admin/includes/template.php:1834
 msgid "If you change your mind and revert to your previous theme, we&#8217;ll put the widgets back the way you had them."
 msgstr "Om du ångrar dig och återgår till tidigare aktiverade teman så kommer WordPress att återställa widgets precis som du hade dom inställda."
 
-#: wp-admin/includes/template.php:1792
+#: wp-admin/includes/template.php:1800
 msgid "New Feature: Toolbar"
 msgstr "Ny funktion: Verktygsfält"
 
@@ -1896,12 +1900,12 @@ msgstr "<strong>FEL</strong>: Inställningssidan kunde inte hittas."
 msgid "<strong>ERROR:</strong> There was an error connecting to the server, Please verify the settings are correct."
 msgstr "<strong>FEL</strong>: Det uppstod ett fel vid anslutning till servern. Kontrollera att inställningarna är korrekta."
 
-#: wp-admin/includes/ajax-actions.php:742
+#: wp-admin/includes/ajax-actions.php:756
 msgid "ERROR: you are replying to a comment on a draft post."
 msgstr "FEL: du svarar på en kommentar i ett utkast."
 
-#: wp-admin/includes/ajax-actions.php:762
-#: wp-admin/includes/ajax-actions.php:826
+#: wp-admin/includes/ajax-actions.php:776
+#: wp-admin/includes/ajax-actions.php:840
 msgid "ERROR: please type a comment."
 msgstr "FEL: Skriv en kommentar."
 
@@ -2682,7 +2686,7 @@ msgstr "Din webbläsare är föråldrad!"
 msgid "Don&#8217;t you wish all software came with these freedoms? So do we! For more information, check out the <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
 msgstr "Önskar du inte alla program kom med dessa friheter? Det gör vi! För mer information, se <a href=\"http://www.fsf.org/\">Free Software Foundation</a>."
 
-#: wp-admin/includes/ajax-actions.php:1062
+#: wp-admin/includes/ajax-actions.php:1078
 msgid "Your login has expired. Please open a new browser window and <a href=\"%s\" target=\"_blank\">log in again</a>. "
 msgstr "Din inloggningssession har gått ut. Öppna ett nytt webbläsarfönster och <a href=\"%s\" target=\"_blank\">logga in igen</a>."
 
@@ -2693,19 +2697,19 @@ msgstr "Din inloggningssession har gått ut. Öppna ett nytt webbläsarfönster 
 msgid "Freedoms"
 msgstr "Friheterna"
 
-#: wp-admin/custom-background.php:321
+#: wp-admin/custom-background.php:327
 msgid "Clear"
 msgstr "Rensa"
 
-#: wp-admin/custom-header.php:619
+#: wp-admin/custom-header.php:622
 msgid "You can use one of these cool headers or show a random one on each page."
 msgstr "Du kan använda en av dessa sidhuvuden eller visa en slumpvis för varje sida."
 
-#: wp-admin/custom-header.php:617
+#: wp-admin/custom-header.php:620
 msgid "If you don&lsquo;t want to upload your own image, you can use one of these cool headers, or show a random one."
 msgstr "Om du inte känner för att ladda upp en egen bild så kan du använda någon av dessa coola sidhuvuden eller slumpa ett."
 
-#: wp-admin/custom-header.php:605
+#: wp-admin/custom-header.php:608
 msgid "You can choose one of your previously uploaded headers, or show a random one."
 msgstr "Du kan använda en av dina tidigare uppladdade sidhuvuden eller visa ett slumpvis."
 
@@ -2725,7 +2729,7 @@ msgstr "Filer i katalogen <code>%s</code> körs automatiskt."
 msgid "<strong>Random:</strong> Show a different image on each page."
 msgstr "<strong>Slumpvis:</strong> Visa olika bilder slumpvis på varje sida."
 
-#: wp-admin/custom-header.php:603
+#: wp-admin/custom-header.php:606
 msgid "Uploaded Images"
 msgstr "Uppladdade bilder"
 
@@ -2870,7 +2874,7 @@ msgstr "<a href=\"http://codex.wordpress.org/Users_Add_New_Screen\" target=\"_bl
 msgid "Layout"
 msgstr "Layout"
 
-#: wp-admin/includes/ajax-actions.php:1717
+#: wp-admin/includes/ajax-actions.php:1733
 msgid "Save failed"
 msgstr "Sparande misslyckades"
 
@@ -2884,11 +2888,11 @@ msgstr[1] "Du har markerat dessa användare för radering:"
 msgid "&larr; Back to Users"
 msgstr "&larr; Tillbaka till användare"
 
-#: wp-admin/includes/ajax-actions.php:1077
+#: wp-admin/includes/ajax-actions.php:1093
 msgid "Autosave disabled."
 msgstr "Autosparfunktionen inaktiverad."
 
-#: wp-admin/includes/ajax-actions.php:1080
+#: wp-admin/includes/ajax-actions.php:1096
 msgid "%s is currently editing this article. If you update it, you will overwrite the changes."
 msgstr "%s redigerar för närvarande den här artikeln. Om du uppdaterar den så kommer du att skriva över ändringarna."
 
@@ -3063,8 +3067,8 @@ msgstr "Aktivera för nätverk"
 msgid "An error occurred while updating %1$s: <strong>%2$s</strong>."
 msgstr "Ett fel inträffade vid uppdateringen av %1$s: <strong>%2$s</strong>."
 
-#: wp-admin/includes/ajax-actions.php:616
-#: wp-admin/includes/ajax-actions.php:1545
+#: wp-admin/includes/ajax-actions.php:626
+#: wp-admin/includes/ajax-actions.php:1561
 msgid "An error has occurred. Please reload the page and try again."
 msgstr "Ett fel har uppstått. Ladda om sidan och försök igen."
 
@@ -3535,7 +3539,7 @@ msgstr "Bilder med en exakt storlek av <strong>%1$d &times; %2$d pixlar</strong>
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Dokumentation för att lägga till nya teman</a>"
 
-#: wp-admin/custom-header.php:792
+#: wp-admin/custom-header.php:795
 msgid "Crop and Publish"
 msgstr "Beskär och publicera"
 
@@ -3981,15 +3985,15 @@ msgstr "När du lägger till en ny kategori på den här sidan så fyller du i f
 msgid "You can narrow the list by file type/status using the text link filters at the top of the screen. You also can refine the list by date using the dropdown menu above the media table."
 msgstr "Du kan filtrera listan baserat på filtyp/status genom att använda filtreringslänkarna överst på sidan. Du kan också filtrera listan efter datum genom att använda rullgardinsmenyn ovanför tabellen."
 
-#: wp-admin/custom-header.php:614
+#: wp-admin/custom-header.php:617
 msgid "Default Images"
 msgstr "Standardbilder"
 
-#: wp-admin/custom-header.php:770
+#: wp-admin/custom-header.php:773
 msgid "Crop Header Image"
 msgstr "Beskär bild för sidhuvud"
 
-#: wp-admin/custom-header.php:631
+#: wp-admin/custom-header.php:634
 msgid "This will remove the header image. You will not be able to restore any customizations."
 msgstr "Detta kommer att ta bort bilden för sidhuvudet. Du kommer inte kunna återställa ändringar."
 
@@ -3997,39 +4001,39 @@ msgstr "Detta kommer att ta bort bilden för sidhuvudet. Du kommer inte kunna å
 msgid "You can upload a custom header image to be shown at the top of your site instead of the default one. On the next screen you will be able to crop the image."
 msgstr "Du kan ladda upp en egen bild för sidhuvudet som visas överst på din sida istället för standardbilden. På nästa sida kommer du ha möjligheten att beskära bilden."
 
-#: wp-admin/custom-header.php:632
+#: wp-admin/custom-header.php:635
 msgid "Remove Header Image"
 msgstr "Ta bort bild för sidhuvud"
 
-#: wp-admin/custom-header.php:639
+#: wp-admin/custom-header.php:642
 msgid "Reset Image"
 msgstr "Återställ bild"
 
-#: wp-admin/custom-header.php:641
+#: wp-admin/custom-header.php:644
 msgid "This will restore the original header image. You will not be able to restore any customizations."
 msgstr "Detta kommer att återställa originalbilden för sidhuvudet. Du kommer inte kunna återställa några ändringar."
 
-#: wp-admin/custom-header.php:642
+#: wp-admin/custom-header.php:645
 msgid "Restore Original Header Image"
 msgstr "Återställ originalbild för sidhuvud"
 
-#: wp-admin/custom-header.php:681
+#: wp-admin/custom-header.php:684
 msgid "Reset Text Color"
 msgstr "Återställ textfärg"
 
-#: wp-admin/custom-header.php:683
+#: wp-admin/custom-header.php:686
 msgid "This will restore the original header text. You will not be able to restore any customizations."
 msgstr "Detta kommer att återställa originaltexten för sidhuvudet. Du kommer inte kunna återställa eventuella ändringar."
 
-#: wp-admin/custom-header.php:684
+#: wp-admin/custom-header.php:687
 msgid "Restore Original Header Text"
 msgstr "Återställ originaltext för sidhuvud"
 
-#: wp-admin/custom-header.php:808
+#: wp-admin/custom-header.php:811
 msgid "Image Upload Error"
 msgstr "Fel vid uppladdning av bild"
 
-#: wp-admin/custom-header.php:774
+#: wp-admin/custom-header.php:777
 msgid "You need Javascript to choose a part of the image."
 msgstr "Javascript behöver vara aktiverat för att kunna beskära bilden."
 
@@ -4616,18 +4620,13 @@ msgstr "Lägg till meny"
 msgid "Try again"
 msgstr "Försök igen"
 
-#: wp-admin/includes/ajax-actions.php:980
+#: wp-admin/includes/ajax-actions.php:994
 msgid "Please provide a custom field name."
 msgstr "Var vänlig ange ett namn för det egna fältet."
 
-#: wp-admin/custom-background.php:269
+#: wp-admin/custom-background.php:275
 msgid "Display Options"
 msgstr "Visningsalternativ"
-
-#: wp-admin/custom-background.php:251
-#: wp-admin/custom-header.php:557
-msgid "Upload Image"
-msgstr "Ladda upp en bild"
 
 #: wp-admin/users.php:299
 msgid "You have specified these users for removal:"
@@ -5059,8 +5058,8 @@ msgstr "Du kör den senaste versionen av WordPress. Du behöver inte uppdatera. 
 msgid "WordPress Updates"
 msgstr "Uppdateringar för WordPress"
 
-#: wp-admin/custom-background.php:321
-#: wp-admin/custom-header.php:673
+#: wp-admin/custom-background.php:327
+#: wp-admin/custom-header.php:676
 msgid "Select a Color"
 msgstr "Välj en färg"
 
@@ -5252,11 +5251,11 @@ msgstr "Denna kommentar är redan godkänd."
 msgid "This comment is currently in the Trash."
 msgstr "Denna kommentar ligger för närvarande i papperskorgen."
 
-#: wp-admin/custom-background.php:293
+#: wp-admin/custom-background.php:299
 msgid "Repeat"
 msgstr "Upprepa"
 
-#: wp-admin/custom-background.php:303
+#: wp-admin/custom-background.php:309
 msgid "Attachment"
 msgstr "Beteende"
 
@@ -7136,7 +7135,7 @@ msgstr "Widget %s"
 msgid "Select both the sidebar for this widget and the position of the widget in that sidebar."
 msgstr "Välj både panel och position i den panelen för denna widget."
 
-#: wp-admin/custom-background.php:275
+#: wp-admin/custom-background.php:281
 #: wp-admin/widgets.php:257
 msgid "Position"
 msgstr "Position"
@@ -7198,7 +7197,7 @@ msgstr "Egen bakgrund"
 msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "Bakgrund uppdaterad. <a href=\"%s\">Visa din webbplats</a> för att se hur det blev."
 
-#: wp-admin/custom-background.php:253
+#: wp-admin/custom-background.php:254
 #: wp-admin/custom-header.php:579
 msgid "Choose an image from your computer:"
 msgstr "Välj en bild på din dator:"
@@ -7217,16 +7216,16 @@ msgstr "Anpassa sidhuvudet"
 msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "Sidhuvud uppdaterat. <a href=\"%s\">Visa din webbplats</a> för att se hur det blev."
 
-#: wp-admin/custom-header.php:756
-#: wp-admin/custom-header.php:882
+#: wp-admin/custom-header.php:759
+#: wp-admin/custom-header.php:885
 msgid "Image Processing Error"
 msgstr "Fel vid bearbetning av bild"
 
-#: wp-admin/custom-header.php:773
+#: wp-admin/custom-header.php:776
 msgid "Choose the part of the image you want to use as your header."
 msgstr "Välj den del av bilden som du vill använda som sidhuvud."
 
-#: wp-admin/custom-header.php:948
+#: wp-admin/custom-header.php:951
 msgid "You do not have permission to customize headers."
 msgstr "Du har inte tillräcklig behörighet för att modifiera sidhuvden."
 
@@ -7523,12 +7522,12 @@ msgid "Slug"
 msgstr "Permalänk"
 
 #: wp-admin/edit-form-advanced.php:326
-#: wp-admin/includes/ajax-actions.php:1735
+#: wp-admin/includes/ajax-actions.php:1751
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Senast ändrat av %1$s den %2$s kl. %3$s"
 
 #: wp-admin/edit-form-advanced.php:328
-#: wp-admin/includes/ajax-actions.php:1737
+#: wp-admin/includes/ajax-actions.php:1753
 msgid "Last edited on %1$s at %2$s"
 msgstr "Senast ändrat den %1$s kl. %2$s"
 
@@ -8722,8 +8721,8 @@ msgstr "Från adressen"
 msgid "Gallery"
 msgstr "Galleri"
 
-#: wp-admin/custom-background.php:395
-#: wp-admin/custom-header.php:977
+#: wp-admin/custom-background.php:401
+#: wp-admin/custom-header.php:980
 #: wp-admin/includes/media.php:21
 #: wp-admin/upload.php:139
 msgid "Media Library"
@@ -8746,7 +8745,7 @@ msgstr "WordPress"
 msgid "Upload/Insert %s"
 msgstr "Ladda upp/Infoga %s"
 
-#: wp-admin/custom-background.php:403
+#: wp-admin/custom-background.php:409
 #: wp-admin/includes/media.php:715
 msgid "Large"
 msgstr "Stor"
@@ -9745,7 +9744,6 @@ msgstr "Installera tillägg"
 msgid "Install Themes"
 msgstr "Installera teman"
 
-#: wp-admin/customize.php:54
 #: wp-admin/themes.php:35
 msgid "Manage Themes"
 msgstr "Hantera teman"
@@ -9779,7 +9777,7 @@ msgstr "&laquo;"
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-admin/includes/ajax-actions.php:541
+#: wp-admin/includes/ajax-actions.php:549
 msgid "Comment %d does not exist"
 msgstr "Kommentar %d existerar inte."
 
@@ -9787,46 +9785,46 @@ msgstr "Kommentar %d existerar inte."
 msgid "You did not enter a category name."
 msgstr "Du angav inget kategorinamn."
 
-#: wp-admin/includes/ajax-actions.php:670
+#: wp-admin/includes/ajax-actions.php:680
 msgid "No tags found!"
 msgstr "Inga etiketter funna!"
 
-#: wp-admin/includes/ajax-actions.php:758
+#: wp-admin/includes/ajax-actions.php:772
 msgid "Sorry, you must be logged in to reply to a comment."
 msgstr "Beklagar, du måste vara inloggad för att kunna svara på en kommentar."
 
-#: wp-admin/includes/ajax-actions.php:957
-#: wp-admin/includes/ajax-actions.php:962
-#: wp-admin/includes/ajax-actions.php:982
+#: wp-admin/includes/ajax-actions.php:971
+#: wp-admin/includes/ajax-actions.php:976
+#: wp-admin/includes/ajax-actions.php:996
 msgid "Please provide a custom field value."
 msgstr "Var vänlig ange ett värde för det egna fältet."
 
-#: wp-admin/includes/ajax-actions.php:1033
+#: wp-admin/includes/ajax-actions.php:1049
 msgid "User <a href=\"#%s\">%s</a> added"
 msgstr "Användaren <a href=\"#%s\">%s</a> skapad"
 
-#: wp-admin/includes/ajax-actions.php:1056
+#: wp-admin/includes/ajax-actions.php:1072
 msgid "g:i:s a"
 msgstr "h:i"
 
-#: wp-admin/includes/ajax-actions.php:1058
+#: wp-admin/includes/ajax-actions.php:1074
 msgid "Draft saved at %s."
 msgstr "Utkast sparat kl. %s."
 
-#: wp-admin/includes/ajax-actions.php:1076
-#: wp-admin/includes/ajax-actions.php:1338
+#: wp-admin/includes/ajax-actions.php:1092
+#: wp-admin/includes/ajax-actions.php:1354
 msgid "Someone"
 msgstr "Någon"
 
-#: wp-admin/includes/ajax-actions.php:1085
-#: wp-admin/includes/ajax-actions.php:1328
+#: wp-admin/includes/ajax-actions.php:1101
+#: wp-admin/includes/ajax-actions.php:1344
 #: wp-admin/includes/post.php:156
 #: wp-admin/includes/post.php:1317
 msgid "You are not allowed to edit this page."
 msgstr "Du har inte tillräcklig behörighet för att redigera den här sidan."
 
-#: wp-admin/includes/ajax-actions.php:1088
-#: wp-admin/includes/ajax-actions.php:1331
+#: wp-admin/includes/ajax-actions.php:1104
+#: wp-admin/includes/ajax-actions.php:1347
 #: wp-admin/includes/post.php:158
 #: wp-admin/includes/post.php:1320
 #: wp-admin/press-this.php:35
@@ -9834,33 +9832,33 @@ msgstr "Du har inte tillräcklig behörighet för att redigera den här sidan."
 msgid "You are not allowed to edit this post."
 msgstr "Du har inte tillräcklig behörighet för att redigera det här inlägget."
 
-#: wp-admin/includes/ajax-actions.php:1339
+#: wp-admin/includes/ajax-actions.php:1355
 msgid "Saving is disabled: %s is currently editing this page."
 msgstr "Sparande inaktiverat: %s redigerar just nu denna sida."
 
-#: wp-admin/includes/ajax-actions.php:1339
+#: wp-admin/includes/ajax-actions.php:1355
 msgid "Saving is disabled: %s is currently editing this post."
 msgstr "Sparande inaktiverat: %s redigerar just nu detta inlägg."
 
 #: wp-admin/edit-tags.php:259
-#: wp-admin/includes/ajax-actions.php:1408
-#: wp-admin/includes/ajax-actions.php:1415
+#: wp-admin/includes/ajax-actions.php:1424
+#: wp-admin/includes/ajax-actions.php:1431
 msgid "Item not updated."
 msgstr "Posten uppdaterades inte."
 
-#: wp-admin/includes/ajax-actions.php:1455
+#: wp-admin/includes/ajax-actions.php:1471
 #: wp-admin/includes/class-wp-posts-list-table.php:282
 #: wp-admin/includes/class-wp-posts-list-table.php:754
 msgid "Date"
 msgstr "Datum"
 
 #: wp-admin/edit-form-comment.php:74
-#: wp-admin/includes/ajax-actions.php:1455
+#: wp-admin/includes/ajax-actions.php:1471
 #: wp-admin/includes/class-wp-posts-list-table.php:954
 msgid "Status"
 msgstr "Status"
 
-#: wp-admin/includes/ajax-actions.php:1464
+#: wp-admin/includes/ajax-actions.php:1480
 #: wp-admin/includes/class-wp-posts-list-table.php:593
 #: wp-admin/includes/class-wp-posts-list-table.php:961
 #: wp-admin/includes/meta-boxes.php:71

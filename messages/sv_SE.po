@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.4) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-24 00:09+0100\n"
+"PO-Revision-Date: 2012-05-25 00:12+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,6 +20,10 @@ msgstr ""
 msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
+
+#: wp-includes/script-loader.php:305
+msgid "Save &amp; Publish"
+msgstr "Spara &amp; publicera"
 
 #: wp-includes/class-wp-customize-control.php:392
 msgid "Select File"
@@ -76,7 +80,7 @@ msgstr "Slumpvald standardbild"
 msgid "Random Uploaded Image"
 msgstr "Slumpvald uppladdad bild"
 
-#: wp-includes/class-wp-customize-manager.php:671
+#: wp-includes/class-wp-customize-manager.php:730
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "Du kan redigera din menys innehåll på sidan Menyer under Utseende."
 
@@ -136,7 +140,7 @@ msgstr "Ange en giltig e-postadress."
 msgid "Username must be at least 4 characters."
 msgstr "Användarnamn måste bestå av minst 4 tecken."
 
-#: wp-includes/class-wp-customize-manager.php:722
+#: wp-includes/class-wp-customize-manager.php:781
 msgid "A static page"
 msgstr "En statisk sida"
 
@@ -144,31 +148,31 @@ msgstr "En statisk sida"
 msgid "The theme directory does not exist."
 msgstr "Temamappen existerar inte."
 
-#: wp-includes/class-wp-customize-manager.php:560
+#: wp-includes/class-wp-customize-manager.php:619
 msgid "Display Header Text"
 msgstr "Visa text i sidhuvud"
 
-#: wp-includes/class-wp-customize-manager.php:566
+#: wp-includes/class-wp-customize-manager.php:625
 msgid "Text Color"
 msgstr "Textfärg"
 
-#: wp-includes/class-wp-customize-manager.php:597
+#: wp-includes/class-wp-customize-manager.php:656
 msgid "Background Color"
 msgstr "Färg för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:607
+#: wp-includes/class-wp-customize-manager.php:666
 msgid "Background Image"
 msgstr "Bild för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:618
+#: wp-includes/class-wp-customize-manager.php:677
 msgid "Background Repeat"
 msgstr "Repetition av bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:635
+#: wp-includes/class-wp-customize-manager.php:694
 msgid "Background Position"
 msgstr "Position för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:651
+#: wp-includes/class-wp-customize-manager.php:710
 msgid "Background Attachment"
 msgstr "Bakgrundsbilaga"
 
@@ -188,35 +192,35 @@ msgstr "Ta bort bild"
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Du saknar behörighet för att redigera denna inläggstyp."
 
-#: wp-includes/class-wp-customize-manager.php:656
+#: wp-includes/class-wp-customize-manager.php:715
 msgid "Scroll"
 msgstr "Skrollande"
 
-#: wp-includes/class-wp-customize-manager.php:655
+#: wp-includes/class-wp-customize-manager.php:714
 msgid "Fixed"
 msgstr "Fixerad"
 
-#: wp-includes/class-wp-customize-manager.php:622
+#: wp-includes/class-wp-customize-manager.php:681
 msgid "No Repeat"
 msgstr "Inge repetering"
 
-#: wp-includes/class-wp-customize-manager.php:623
+#: wp-includes/class-wp-customize-manager.php:682
 msgid "Tile"
 msgstr "Repetera"
 
-#: wp-includes/class-wp-customize-manager.php:624
+#: wp-includes/class-wp-customize-manager.php:683
 msgid "Tile Horizontally"
 msgstr "Repetera horisontalt"
 
-#: wp-includes/class-wp-customize-manager.php:625
+#: wp-includes/class-wp-customize-manager.php:684
 msgid "Tile Vertically"
 msgstr "Repetera vertikalt"
 
-#: wp-includes/class-wp-customize-manager.php:733
+#: wp-includes/class-wp-customize-manager.php:792
 msgid "Front page"
 msgstr "Startsida"
 
-#: wp-includes/class-wp-customize-manager.php:745
+#: wp-includes/class-wp-customize-manager.php:804
 msgid "Posts page"
 msgstr "Inläggssida"
 
@@ -340,50 +344,46 @@ msgstr "Stilmallen är inte läsbar."
 msgid "The \"%s\" theme is not a valid parent theme."
 msgstr "Temat \"%s\" är inte ett giltigt grundtema."
 
-#: wp-includes/class-wp-customize-manager.php:345
+#: wp-includes/class-wp-customize-manager.php:404
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
 msgstr "Inställningar sparade och tema aktiverat. <a href=\"%s\">Besök webbplats</a>."
 
-#: wp-includes/class-wp-customize-manager.php:668
+#: wp-includes/class-wp-customize-manager.php:727
 msgid "Navigation"
 msgstr "Navigation"
 
-#: wp-includes/class-wp-customize-manager.php:671
+#: wp-includes/class-wp-customize-manager.php:730
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Ditt tema har stöd för %s meny. Välj vilken meny du vill använda."
 msgstr[1] "Ditt tema har stöd för %s menyer. Välj vilken meny som ska visas på vilken plats."
 
-#: wp-includes/theme.php:1595
-msgid "&larr; Return to %s"
-msgstr "&larr; Tillbaka till %s"
-
-#: wp-includes/class-wp-customize-manager.php:703
+#: wp-includes/class-wp-customize-manager.php:762
 msgid "Static Front Page"
 msgstr "Statisk startsida"
 
-#: wp-includes/class-wp-customize-manager.php:706
+#: wp-includes/class-wp-customize-manager.php:765
 msgid "Your theme supports a static front page."
 msgstr "Ditt tema har stöd för en statisk startsida."
 
-#: wp-includes/class-wp-customize-manager.php:721
+#: wp-includes/class-wp-customize-manager.php:780
 msgid "Your latest posts"
 msgstr "Dina senaste inlägg"
 
-#: wp-includes/class-wp-customize-manager.php:717
+#: wp-includes/class-wp-customize-manager.php:776
 msgid "Front page displays"
 msgstr "Startsidan visar"
 
-#: wp-includes/class-wp-customize-manager.php:753
+#: wp-includes/class-wp-customize-manager.php:812
 msgid "Site Title & Tagline"
 msgstr "Sidans titel & slogan"
 
-#: wp-includes/class-wp-customize-manager.php:775
+#: wp-includes/class-wp-customize-manager.php:834
 msgid "Tagline"
 msgstr "Slogan"
 
 #: wp-includes/class-wp-customize-control.php:219
-#: wp-includes/class-wp-customize-manager.php:675
+#: wp-includes/class-wp-customize-manager.php:734
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Välj &mdash;"
 
@@ -4728,7 +4728,7 @@ msgid "WMode"
 msgstr "WMode"
 
 #: wp-includes/admin-bar.php:588
-#: wp-includes/class-wp-customize-manager.php:582
+#: wp-includes/class-wp-customize-manager.php:641
 #: wp-includes/js/tinymce/langs/wp-langs.php:410
 msgid "Background"
 msgstr "Bakgrund"
@@ -7061,7 +7061,6 @@ msgstr "Lägg till länk"
 
 #: wp-includes/class-wp-editor.php:619
 #: wp-includes/js/tinymce/langs/wp-langs.php:118
-#: wp-includes/script-loader.php:305
 msgid "Save"
 msgstr "Spara"
 
@@ -7193,7 +7192,7 @@ msgid "Unknown Feed"
 msgstr "Okänt flöde"
 
 #: wp-includes/admin-bar.php:591
-#: wp-includes/class-wp-customize-manager.php:547
+#: wp-includes/class-wp-customize-manager.php:606
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -7256,21 +7255,21 @@ msgstr "Lägg till ljud"
 msgid "Saved."
 msgstr "Sparat."
 
-#: wp-includes/class-wp-customize-manager.php:639
+#: wp-includes/class-wp-customize-manager.php:698
 #: wp-includes/js/tinymce/langs/wp-langs.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:372
 #: wp-includes/js/tinymce/langs/wp-langs.php:471
 msgid "Left"
 msgstr "Vänster"
 
-#: wp-includes/class-wp-customize-manager.php:640
+#: wp-includes/class-wp-customize-manager.php:699
 #: wp-includes/js/tinymce/langs/wp-langs.php:80
 #: wp-includes/js/tinymce/langs/wp-langs.php:451
 #: wp-includes/js/tinymce/langs/wp-langs.php:472
 msgid "Center"
 msgstr "Centrerat"
 
-#: wp-includes/class-wp-customize-manager.php:641
+#: wp-includes/class-wp-customize-manager.php:700
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
 #: wp-includes/js/tinymce/langs/wp-langs.php:373
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
