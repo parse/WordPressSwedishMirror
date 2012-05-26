@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development (future 3.4) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-25 00:12+0100\n"
+"PO-Revision-Date: 2012-05-26 07:18+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,7 +21,23 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
+#: wp-includes/class-wp-customize-manager.php:653
+msgid "Colors"
+msgstr "Färger"
+
 #: wp-includes/script-loader.php:305
+msgid "Save &amp; Activate"
+msgstr "Spara &amp; aktivera"
+
+#: wp-includes/script-loader.php:307
+msgid "Saved"
+msgstr "Sparat"
+
+#: wp-login.php:638
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to experience the awesomeness."
+msgstr "<strong>WordPress har uppdaterats!</strong> Logga in igen för att ta del av allt grymt som erbjuds."
+
+#: wp-includes/script-loader.php:306
 msgid "Save &amp; Publish"
 msgstr "Spara &amp; publicera"
 
@@ -29,7 +45,7 @@ msgstr "Spara &amp; publicera"
 msgid "Select File"
 msgstr "Välj fil"
 
-#: wp-includes/admin-bar.php:579
+#: wp-includes/admin-bar.php:582
 msgid "Customize"
 msgstr "Anpassa"
 
@@ -68,19 +84,19 @@ msgstr[0] "<strong class=\"count\">%1$s skräppost</strong> blockerad av <strong
 msgstr[1] "<strong class=\"count\">%1$s skräpposter</strong> blockerade av <strong>Akismet</strong>"
 
 #: wp-includes/class-wp-customize-control.php:318
-#: wp-includes/class-wp-customize-control.php:413
+#: wp-includes/class-wp-customize-control.php:459
 msgid "No Image"
 msgstr "Ingen bild"
 
-#: wp-includes/class-wp-customize-control.php:414
+#: wp-includes/class-wp-customize-control.php:460
 msgid "Random Default Image"
 msgstr "Slumpvald standardbild"
 
-#: wp-includes/class-wp-customize-control.php:415
+#: wp-includes/class-wp-customize-control.php:461
 msgid "Random Uploaded Image"
 msgstr "Slumpvald uppladdad bild"
 
-#: wp-includes/class-wp-customize-manager.php:730
+#: wp-includes/class-wp-customize-manager.php:788
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "Du kan redigera din menys innehåll på sidan Menyer under Utseende."
 
@@ -88,7 +104,8 @@ msgstr "Du kan redigera din menys innehåll på sidan Menyer under Utseende."
 msgid "Drop a file here or <a href=\"#\" class=\"upload\">select a file</a>."
 msgstr "Dra och släpp en fil här eller <a href=\"#\" class=\"upload\">välj en fil</a>."
 
-#: wp-includes/class-wp-customize-control.php:406
+#: wp-includes/class-wp-customize-control.php:452
+#: wp-includes/class-wp-customize-manager.php:694
 msgid "Header Image"
 msgstr "Bild för sidhuvud"
 
@@ -140,7 +157,7 @@ msgstr "Ange en giltig e-postadress."
 msgid "Username must be at least 4 characters."
 msgstr "Användarnamn måste bestå av minst 4 tecken."
 
-#: wp-includes/class-wp-customize-manager.php:781
+#: wp-includes/class-wp-customize-manager.php:839
 msgid "A static page"
 msgstr "En statisk sida"
 
@@ -148,31 +165,32 @@ msgstr "En statisk sida"
 msgid "The theme directory does not exist."
 msgstr "Temamappen existerar inte."
 
-#: wp-includes/class-wp-customize-manager.php:619
+#: wp-includes/class-wp-customize-manager.php:667
 msgid "Display Header Text"
 msgstr "Visa text i sidhuvud"
 
-#: wp-includes/class-wp-customize-manager.php:625
+#: wp-includes/class-wp-customize-manager.php:673
 msgid "Text Color"
 msgstr "Textfärg"
 
-#: wp-includes/class-wp-customize-manager.php:656
+#: wp-includes/class-wp-customize-manager.php:686
 msgid "Background Color"
 msgstr "Färg för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:666
+#: wp-includes/class-wp-customize-control.php:416
+#: wp-includes/class-wp-customize-manager.php:709
 msgid "Background Image"
 msgstr "Bild för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:677
+#: wp-includes/class-wp-customize-manager.php:727
 msgid "Background Repeat"
 msgstr "Repetition av bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:694
+#: wp-includes/class-wp-customize-manager.php:744
 msgid "Background Position"
 msgstr "Position för bakgrund"
 
-#: wp-includes/class-wp-customize-manager.php:710
+#: wp-includes/class-wp-customize-manager.php:760
 msgid "Background Attachment"
 msgstr "Bakgrundsbilaga"
 
@@ -192,35 +210,35 @@ msgstr "Ta bort bild"
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Du saknar behörighet för att redigera denna inläggstyp."
 
-#: wp-includes/class-wp-customize-manager.php:715
+#: wp-includes/class-wp-customize-manager.php:765
 msgid "Scroll"
 msgstr "Skrollande"
 
-#: wp-includes/class-wp-customize-manager.php:714
+#: wp-includes/class-wp-customize-manager.php:764
 msgid "Fixed"
 msgstr "Fixerad"
 
-#: wp-includes/class-wp-customize-manager.php:681
+#: wp-includes/class-wp-customize-manager.php:731
 msgid "No Repeat"
 msgstr "Inge repetering"
 
-#: wp-includes/class-wp-customize-manager.php:682
+#: wp-includes/class-wp-customize-manager.php:732
 msgid "Tile"
 msgstr "Repetera"
 
-#: wp-includes/class-wp-customize-manager.php:683
+#: wp-includes/class-wp-customize-manager.php:733
 msgid "Tile Horizontally"
 msgstr "Repetera horisontalt"
 
-#: wp-includes/class-wp-customize-manager.php:684
+#: wp-includes/class-wp-customize-manager.php:734
 msgid "Tile Vertically"
 msgstr "Repetera vertikalt"
 
-#: wp-includes/class-wp-customize-manager.php:792
+#: wp-includes/class-wp-customize-manager.php:850
 msgid "Front page"
 msgstr "Startsida"
 
-#: wp-includes/class-wp-customize-manager.php:804
+#: wp-includes/class-wp-customize-manager.php:862
 msgid "Posts page"
 msgstr "Inläggssida"
 
@@ -344,46 +362,46 @@ msgstr "Stilmallen är inte läsbar."
 msgid "The \"%s\" theme is not a valid parent theme."
 msgstr "Temat \"%s\" är inte ett giltigt grundtema."
 
-#: wp-includes/class-wp-customize-manager.php:404
+#: wp-includes/class-wp-customize-manager.php:422
 msgid "Settings saved and theme activated. <a href=\"%s\">Visit site</a>."
 msgstr "Inställningar sparade och tema aktiverat. <a href=\"%s\">Besök webbplats</a>."
 
-#: wp-includes/class-wp-customize-manager.php:727
+#: wp-includes/class-wp-customize-manager.php:785
 msgid "Navigation"
 msgstr "Navigation"
 
-#: wp-includes/class-wp-customize-manager.php:730
+#: wp-includes/class-wp-customize-manager.php:788
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Ditt tema har stöd för %s meny. Välj vilken meny du vill använda."
 msgstr[1] "Ditt tema har stöd för %s menyer. Välj vilken meny som ska visas på vilken plats."
 
-#: wp-includes/class-wp-customize-manager.php:762
+#: wp-includes/class-wp-customize-manager.php:820
 msgid "Static Front Page"
 msgstr "Statisk startsida"
 
-#: wp-includes/class-wp-customize-manager.php:765
+#: wp-includes/class-wp-customize-manager.php:823
 msgid "Your theme supports a static front page."
 msgstr "Ditt tema har stöd för en statisk startsida."
 
-#: wp-includes/class-wp-customize-manager.php:780
+#: wp-includes/class-wp-customize-manager.php:838
 msgid "Your latest posts"
 msgstr "Dina senaste inlägg"
 
-#: wp-includes/class-wp-customize-manager.php:776
+#: wp-includes/class-wp-customize-manager.php:834
 msgid "Front page displays"
 msgstr "Startsidan visar"
 
-#: wp-includes/class-wp-customize-manager.php:812
+#: wp-includes/class-wp-customize-manager.php:624
 msgid "Site Title & Tagline"
 msgstr "Sidans titel & slogan"
 
-#: wp-includes/class-wp-customize-manager.php:834
+#: wp-includes/class-wp-customize-manager.php:646
 msgid "Tagline"
 msgstr "Slogan"
 
 #: wp-includes/class-wp-customize-control.php:219
-#: wp-includes/class-wp-customize-manager.php:734
+#: wp-includes/class-wp-customize-manager.php:792
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Välj &mdash;"
 
@@ -423,8 +441,8 @@ msgid "Sorry, you are not allowed to edit this post."
 msgstr "Du saknar behörighet för att redigera detta inlägg."
 
 #: wp-includes/post.php:2947
-#: wp-includes/script-loader.php:358
-#: wp-includes/script-loader.php:383
+#: wp-includes/script-loader.php:362
+#: wp-includes/script-loader.php:387
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
@@ -777,7 +795,7 @@ msgstr "<strong>FEL</strong>: Fyll i de obligatoriska fälten (namn, e-post)."
 msgid "ERROR: Invalid values entered, these are marked in red."
 msgstr "FEL: Ogiltiga värden angivna, dessa är markerade med rött."
 
-#: wp-includes/script-loader.php:407
+#: wp-includes/script-loader.php:411
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr "Kunde inte ladda förhandsgranskningsbilden. Ladda om sidan och försök igen."
 
@@ -1190,7 +1208,7 @@ msgstr "Avsluta fullskärmsläge"
 msgid "Just write."
 msgstr "Bara skriv."
 
-#: wp-includes/script-loader.php:330
+#: wp-includes/script-loader.php:334
 msgid "Approve and Reply"
 msgstr "Godkänn och svara"
 
@@ -2643,7 +2661,7 @@ msgstr "Den webbplatsen finns inte. Var vänlig försök med <a href=\"%s\">%s</
 msgid "The site you have requested is not installed properly. Please contact the system administrator."
 msgstr "webbplatsen du har efterfrågat är inte installerad korrekt. Var vänlig kontakta systemadministratören."
 
-#: wp-includes/script-loader.php:421
+#: wp-includes/script-loader.php:425
 msgctxt "search results"
 msgid "No results found."
 msgstr "Inga resultat funna."
@@ -2757,11 +2775,11 @@ msgstr "Om du fortfarande får upp det här meddelandet, kontrollera så att dat
 msgid "Enter title here"
 msgstr "Ange rubrik här"
 
-#: wp-includes/script-loader.php:394
+#: wp-includes/script-loader.php:398
 msgid "Are you sure you want to install this plugin?"
 msgstr "Är du säker på att du vill installera det här tillägget?"
 
-#: wp-includes/script-loader.php:412
+#: wp-includes/script-loader.php:416
 msgid "Use as featured image"
 msgstr "Använd som utvald bild"
 
@@ -2805,7 +2823,7 @@ msgstr "Anpassad"
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Inga menyer har skapats än.  <a href=\"%s\">Skapa ny</a>."
 
-#: wp-includes/script-loader.php:422
+#: wp-includes/script-loader.php:426
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -2909,7 +2927,7 @@ msgstr "Navigeringsmeny"
 msgid "Taxonomy:"
 msgstr "Taxonomi:"
 
-#: wp-includes/admin-bar.php:585
+#: wp-includes/admin-bar.php:594
 msgid "Menus"
 msgstr "Menyer"
 
@@ -3690,7 +3708,7 @@ msgid "Log out"
 msgstr "Logga ut"
 
 #: wp-includes/general-template.php:260
-#: wp-login.php:659
+#: wp-login.php:661
 msgid "Remember Me"
 msgstr "Kom ihåg mig"
 
@@ -3698,7 +3716,7 @@ msgstr "Kom ihåg mig"
 #: wp-login.php:436
 #: wp-login.php:492
 #: wp-login.php:542
-#: wp-login.php:675
+#: wp-login.php:677
 msgid "Register"
 msgstr "Registrera"
 
@@ -4272,8 +4290,8 @@ msgid "Cell"
 msgstr "Cell"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:203
-#: wp-includes/script-loader.php:423
-#: wp-includes/script-loader.php:531
+#: wp-includes/script-loader.php:427
+#: wp-includes/script-loader.php:535
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Ändringarna du gjort kommer att förloras om du går i från sidan utan att spara."
 
@@ -4727,8 +4745,7 @@ msgstr "Sjustera"
 msgid "WMode"
 msgstr "WMode"
 
-#: wp-includes/admin-bar.php:588
-#: wp-includes/class-wp-customize-manager.php:641
+#: wp-includes/admin-bar.php:597
 #: wp-includes/js/tinymce/langs/wp-langs.php:410
 msgid "Background"
 msgstr "Bakgrund"
@@ -5808,12 +5825,12 @@ msgid "Enter a description of the image"
 msgstr "Ange en beskrivning av bilden"
 
 #: wp-includes/script-loader.php:97
-#: wp-includes/script-loader.php:320
+#: wp-includes/script-loader.php:324
 msgid "You do not have permission to do that."
 msgstr "Du saknar rättigheter för att göra det."
 
 #: wp-includes/script-loader.php:98
-#: wp-includes/script-loader.php:321
+#: wp-includes/script-loader.php:325
 msgid "An unidentified error has occurred."
 msgstr "Ett oidentifierat fel har uppstått."
 
@@ -5893,7 +5910,7 @@ msgstr "Behandlar&hellip;"
 msgid "moved to the trash."
 msgstr "flyttad till papperskorgen."
 
-#: wp-includes/script-loader.php:313
+#: wp-includes/script-loader.php:317
 msgid "Separate multiple categories with commas."
 msgstr "Separera flera kategorier med kommatecken."
 
@@ -5902,56 +5919,56 @@ msgctxt "password strength"
 msgid "Medium"
 msgstr "Medium"
 
-#: wp-includes/script-loader.php:342
+#: wp-includes/script-loader.php:346
 msgid "Publish on:"
 msgstr "Publicera den:"
 
-#: wp-includes/script-loader.php:343
+#: wp-includes/script-loader.php:347
 msgid "Schedule for:"
 msgstr "Tidsinställ för:"
 
-#: wp-includes/script-loader.php:344
+#: wp-includes/script-loader.php:348
 msgid "Published on:"
 msgstr "Publicerat den:"
 
-#: wp-includes/script-loader.php:345
+#: wp-includes/script-loader.php:349
 msgid "Show more comments"
 msgstr "Visa fler kommentarer"
 
-#: wp-includes/script-loader.php:346
+#: wp-includes/script-loader.php:350
 msgid "No more comments found."
 msgstr "Inga fler kommentarer hittade."
 
-#: wp-includes/script-loader.php:355
+#: wp-includes/script-loader.php:359
 msgid "Password Protected"
 msgstr "Lösenordsskyddat"
 
-#: wp-includes/script-loader.php:366
+#: wp-includes/script-loader.php:370
 msgid "Submitted on:"
 msgstr "Skickat den:"
 
-#: wp-includes/script-loader.php:380
-#: wp-includes/script-loader.php:388
+#: wp-includes/script-loader.php:384
+#: wp-includes/script-loader.php:392
 msgid "Error while saving the changes."
 msgstr "Fel vid sparande av ändringar."
 
-#: wp-includes/script-loader.php:381
+#: wp-includes/script-loader.php:385
 msgid "Remove From Bulk Edit"
 msgstr "Ta bort från massredigering"
 
-#: wp-includes/script-loader.php:393
+#: wp-includes/script-loader.php:397
 msgid "Plugin Information:"
 msgstr "Tilläggsinformation:"
 
-#: wp-includes/script-loader.php:413
+#: wp-includes/script-loader.php:417
 msgid "Saving..."
 msgstr "Sparar..."
 
-#: wp-includes/script-loader.php:414
+#: wp-includes/script-loader.php:418
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Kunde inte ange den som miniatyrbild. Försök med en annan bifogad fil."
 
-#: wp-includes/script-loader.php:530
+#: wp-includes/script-loader.php:534
 msgid "Saving Draft&#8230;"
 msgstr "Sparar utkast&#8230;"
 
@@ -6125,14 +6142,14 @@ msgid "A password will be e-mailed to you."
 msgstr "Ett lösenord kommer att skickas till dig per e-post."
 
 #: wp-login.php:547
-#: wp-login.php:676
 #: wp-login.php:678
+#: wp-login.php:680
 msgid "Password Lost and Found"
 msgstr "Ändra lösenord"
 
 #: wp-login.php:547
-#: wp-login.php:676
 #: wp-login.php:678
+#: wp-login.php:680
 msgid "Lost your password?"
 msgstr "Glömt lösenordet?"
 
@@ -6375,8 +6392,9 @@ msgid "Height"
 msgstr "Höjd"
 
 #: wp-includes/class-wp-customize-control.php:243
-#: wp-includes/class-wp-customize-control.php:412
-#: wp-includes/class-wp-customize-control.php:419
+#: wp-includes/class-wp-customize-control.php:423
+#: wp-includes/class-wp-customize-control.php:458
+#: wp-includes/class-wp-customize-control.php:465
 #: wp-includes/js/tinymce/langs/wp-langs.php:246
 msgid "Default"
 msgstr "Förvald"
@@ -6432,7 +6450,7 @@ msgstr "(måste anges)"
 msgid "Website"
 msgstr "Webbplats"
 
-#: wp-includes/admin-bar.php:582
+#: wp-includes/admin-bar.php:591
 #: wp-includes/functions.php:2557
 msgid "Widgets"
 msgstr "Widgets"
@@ -7016,7 +7034,7 @@ msgstr "Utför"
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: wp-includes/script-loader.php:347
+#: wp-includes/script-loader.php:351
 msgid "Publish"
 msgstr "Publicera"
 
@@ -7109,7 +7127,7 @@ msgstr "Visa inlägg"
 msgid "Edit Post"
 msgstr "Redigera inlägg"
 
-#: wp-includes/script-loader.php:415
+#: wp-includes/script-loader.php:419
 msgid "Done"
 msgstr "Klart"
 
@@ -7142,7 +7160,8 @@ msgstr "Senaste kommentarer"
 
 #: wp-includes/class-wp-editor.php:808
 #: wp-includes/js/tinymce/langs/wp-langs.php:19
-#: wp-includes/script-loader.php:341
+#: wp-includes/script-loader.php:308
+#: wp-includes/script-loader.php:345
 msgid "Cancel"
 msgstr "Avbryt"
 
@@ -7154,7 +7173,7 @@ msgstr "Innehåll"
 msgid "Tags"
 msgstr "Etiketter"
 
-#: wp-includes/script-loader.php:351
+#: wp-includes/script-loader.php:355
 msgid "Save Draft"
 msgstr "Spara utkast"
 
@@ -7167,7 +7186,7 @@ msgid "Edit comment"
 msgstr "Redigera kommentar"
 
 #: wp-includes/comment-template.php:1039
-#: wp-includes/script-loader.php:331
+#: wp-includes/script-loader.php:335
 msgid "Reply"
 msgstr "Svara"
 
@@ -7191,8 +7210,7 @@ msgstr "<strong>RSS Fel</strong>: %s"
 msgid "Unknown Feed"
 msgstr "Okänt flöde"
 
-#: wp-includes/admin-bar.php:591
-#: wp-includes/class-wp-customize-manager.php:606
+#: wp-includes/admin-bar.php:600
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -7207,7 +7225,7 @@ msgid "Archives"
 msgstr "Arkiv"
 
 #: wp-includes/general-template.php:259
-#: wp-login.php:655
+#: wp-login.php:657
 msgid "Password"
 msgstr "Lösenord"
 
@@ -7255,21 +7273,21 @@ msgstr "Lägg till ljud"
 msgid "Saved."
 msgstr "Sparat."
 
-#: wp-includes/class-wp-customize-manager.php:698
+#: wp-includes/class-wp-customize-manager.php:748
 #: wp-includes/js/tinymce/langs/wp-langs.php:79
 #: wp-includes/js/tinymce/langs/wp-langs.php:372
 #: wp-includes/js/tinymce/langs/wp-langs.php:471
 msgid "Left"
 msgstr "Vänster"
 
-#: wp-includes/class-wp-customize-manager.php:699
+#: wp-includes/class-wp-customize-manager.php:749
 #: wp-includes/js/tinymce/langs/wp-langs.php:80
 #: wp-includes/js/tinymce/langs/wp-langs.php:451
 #: wp-includes/js/tinymce/langs/wp-langs.php:472
 msgid "Center"
 msgstr "Centrerat"
 
-#: wp-includes/class-wp-customize-manager.php:700
+#: wp-includes/class-wp-customize-manager.php:750
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
 #: wp-includes/js/tinymce/langs/wp-langs.php:373
 #: wp-includes/js/tinymce/langs/wp-langs.php:469
@@ -7321,29 +7339,29 @@ msgstr "Media"
 msgid "Image URL"
 msgstr "Bildadress"
 
-#: wp-includes/script-loader.php:350
+#: wp-includes/script-loader.php:354
 msgid "Save as Pending"
 msgstr "Spara som väntande"
 
-#: wp-includes/script-loader.php:356
+#: wp-includes/script-loader.php:360
 msgid "Privately Published"
 msgstr "Publicerat privat"
 
-#: wp-includes/script-loader.php:340
+#: wp-includes/script-loader.php:344
 msgid "OK"
 msgstr "OK"
 
 #: wp-includes/post.php:613
 #: wp-includes/post.php:633
-#: wp-includes/script-loader.php:352
+#: wp-includes/script-loader.php:356
 msgid "Private"
 msgstr "Privat"
 
-#: wp-includes/script-loader.php:354
+#: wp-includes/script-loader.php:358
 msgid "Public, Sticky"
 msgstr "Publik, Klistrad"
 
-#: wp-includes/script-loader.php:348
+#: wp-includes/script-loader.php:352
 msgid "Schedule"
 msgstr "Tidsinställ"
 
@@ -7351,7 +7369,7 @@ msgstr "Tidsinställ"
 msgid "Add or remove tags"
 msgstr "Lägg till eller ta bort etiketter"
 
-#: wp-includes/script-loader.php:312
+#: wp-includes/script-loader.php:316
 msgid "Add"
 msgstr "Lägg till"
 
@@ -7365,7 +7383,7 @@ msgid "Dismiss"
 msgstr "Avfärda"
 
 #: wp-content/plugins/akismet/legacy.php:176
-#: wp-includes/admin-bar.php:629
+#: wp-includes/admin-bar.php:638
 #: wp-includes/class-wp-editor.php:786
 #: wp-includes/default-widgets.php:194
 #: wp-includes/general-template.php:163
@@ -7410,6 +7428,7 @@ msgstr "Sidor"
 #: wp-includes/js/tinymce/langs/wp-langs.php:20
 #: wp-includes/js/tinymce/wp-mce-help.php:287
 #: wp-includes/script-loader.php:178
+#: wp-includes/script-loader.php:309
 #: wp-login.php:597
 msgid "Close"
 msgstr "Stäng"
@@ -7428,7 +7447,7 @@ msgid "New Post"
 msgstr "Nytt inlägg"
 
 #: wp-includes/script-loader.php:281
-#: wp-includes/script-loader.php:382
+#: wp-includes/script-loader.php:386
 msgid "(no title)"
 msgstr "(utan rubrik)"
 
@@ -7460,7 +7479,7 @@ msgstr "Hittade inga inlägg."
 
 #: wp-includes/post.php:614
 #: wp-includes/post.php:634
-#: wp-includes/script-loader.php:357
+#: wp-includes/script-loader.php:361
 msgid "Published"
 msgstr "Publicerat"
 
