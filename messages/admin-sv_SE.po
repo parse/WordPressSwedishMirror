@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-26 07:19+0100\n"
+"PO-Revision-Date: 2012-05-28 07:57+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,22 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/about.php:83
+msgid "Faster WP_Query"
+msgstr "Snabbare WP_Query"
+
+#: wp-admin/about.php:87
+msgid "Also, better support for East Asian languages, right-to-left languages, theme translations, and more."
+msgstr "Även bättre support för östasiatiska språk, språk som visas från höger till vänster, översättningar för teman, m.m."
+
+#: wp-admin/about.php:98
+msgid "A new <a href=\"%s\">WordPress API</a> that supports custom content types and taxonomies, as well as dozens of other bug fixes and improvements."
+msgstr "En ny <a href=\"%s\">API för WordPress</a> som har stöd för anpassade innehållstyper och taxonomier, plus ett dussintal andra åtgärdade buggar och förbättringar."
+
+#: wp-admin/about.php:98
+msgid "http://codex.wordpress.org/XML-RPC_WordPress_API"
+msgstr "http://codex.wordpress.org/XML-RPC_WordPress_API"
 
 #: wp-admin/custom-background.php:251
 #: wp-admin/custom-header.php:557
@@ -31,11 +47,11 @@ msgstr "Eller välj en bild från ditt mediabibliotek:"
 msgid "Choose Image"
 msgstr "Välj bild"
 
-#: wp-admin/about.php:93
+#: wp-admin/about.php:86
 msgid "Faster Translations"
 msgstr "Snabbare översättningar"
 
-#: wp-admin/about.php:94
+#: wp-admin/about.php:87
 msgid "The number of strings loaded on the front end was greatly reduced, resulting in faster front page load times for localized installations."
 msgstr "Antalet strängar som laddas för webbplatsens framsida har reducerats markant, vilket resulterar i snabbare laddtider för webbplatser som använder översättningar."
 
@@ -43,7 +59,7 @@ msgstr "Antalet strängar som laddas för webbplatsens framsida har reducerats m
 msgid "Gone are the days of rushing to update your header, background, and the like as soon as you activate a new theme. You can now customize these options <strong>before</strong> activating a new theme. Note: this feature is available for installed themes only."
 msgstr "Nu behöver du inte längre stressa för att snabbt uppdatera dit sidhuvud, bakgrund och andra liknande saker så fort du ska byta till ett nytt tema. Du kan nu istället anpassa dessa inställningar <strong>innan</strong> du aktiverar det nya temat. Notera: denna funktion fungerar endast för teman som redan installerats."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:91
 msgid "WP_Theme, wp_get_themes(), wp_get_theme(). Faster, uses less memory, makes use of persistent caching."
 msgstr "WP_Theme, wp_get_themes(), wp_get_theme(). Snabbare, använder mindre minne, använder beständig cachning."
 
@@ -55,16 +71,16 @@ msgstr "Klicka på länken för förhandsgranskning live i lista över tillgäng
 msgid "Customize %s"
 msgstr "Anpassa %s"
 
-#: wp-admin/customize.php:66
+#: wp-admin/customize.php:71
 msgid "You are previewing"
 msgstr "Du förhandsgranskar"
 
-#: wp-admin/customize.php:90
+#: wp-admin/customize.php:97
 #: wp-admin/includes/class-wp-theme-install-list-table.php:256
 msgid "Collapse"
 msgstr "Minimera"
 
-#: wp-admin/about.php:90
+#: wp-admin/about.php:93
 msgid "Custom Header and Background API"
 msgstr "Anpassade sidhuvuden och API för bakgrunder"
 
@@ -223,25 +239,21 @@ msgstr "Länken Kategori och etikett-konvertering på denna sida tar dig till si
 msgid "Live Preview"
 msgstr "Förhandsgranskning live"
 
-#: wp-admin/about.php:83
+#: wp-admin/about.php:97
+msgid "XML-RPC API"
+msgstr "API för XML-RPC "
+
+#: wp-admin/about.php:90
 msgid "Themes API"
 msgstr "API för teman"
 
-#: wp-admin/about.php:86
-msgid "Faster Main Query"
-msgstr "Snabbare huvudsakliga förfrågningar (main query)"
-
-#: wp-admin/about.php:87
+#: wp-admin/about.php:84
 msgid "Post query optimized to avoid table scans."
 msgstr "Inläggsförfrågningar (query) optimerad för att undvika tabellskanningar."
 
-#: wp-admin/about.php:91
+#: wp-admin/about.php:94
 msgid "Custom header and background API relocated into the theme support API."
 msgstr "Anpassade sidhuvuden och API för bakgrunder har om flyttats till API för temasupport."
-
-#: wp-admin/about.php:98
-msgid "More methods, more convenience!"
-msgstr "Fler metoder, mer bekvämlighet!"
 
 #: wp-admin/about.php:101
 msgid "jQuery, jQuery UI, TinyMCE, Plupload, PHPMailer, SimplePie, and other libraries were updated. jQuery UI Touch Punch was introduced."
@@ -349,7 +361,7 @@ msgstr "Anpassa &#8221;%s&#8221;"
 msgid "&larr; Return to %s"
 msgstr "&larr; Gå tillbaka till %s"
 
-#: wp-admin/customize.php:89
+#: wp-admin/customize.php:96
 #: wp-admin/includes/class-wp-theme-install-list-table.php:255
 msgid "Collapse Sidebar"
 msgstr "Minimera sidopanel"
@@ -1635,10 +1647,6 @@ msgstr "Återgå till Adminpanel &rarr; Uppdateringar"
 #: wp-admin/credits.php:82
 msgid "WordPress is created by a worldwide team of passionate individuals."
 msgstr "WordPress är skapat av ett världsomspännande team av passionerade individer."
-
-#: wp-admin/about.php:97
-msgid "WP_Screen API"
-msgstr "WP_Screen API"
 
 #: wp-admin/includes/template.php:1819
 msgid "The single media icon now launches the uploader for all file types, and the new drag and drop interface makes uploading a breeze."
@@ -4012,6 +4020,10 @@ msgstr "Detta kommer att återställa originalbilden för sidhuvudet. Du kommer 
 #: wp-admin/custom-header.php:645
 msgid "Restore Original Header Image"
 msgstr "Återställ originalbild för sidhuvud"
+
+#: wp-admin/custom-header.php:668
+msgid "Text Color"
+msgstr "Textfärg"
 
 #: wp-admin/custom-header.php:684
 msgid "Reset Text Color"
