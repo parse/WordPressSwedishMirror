@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-28 11:41+0100\n"
+"PO-Revision-Date: 2012-05-30 21:22+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -15,6 +15,14 @@ msgstr ""
 "X-Poedit-Language: Swedish\n"
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+
+#: wp-admin/customize.php:73
+msgid "You are previewing %s"
+msgstr "Du förhandsgranskar %s"
+
+#: wp-admin/themes.php:67
+msgid "In the left-hand pane of the Theme Customizer you can edit the theme settings. The settings will differ, depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the \"Save &amp; Activate\" button at the top of the left-hand pane."
+msgstr "I panelen till vänster vid anpassning av teman kan du genomföra ändringar för temat. Dessa inställningar kommer att se olika ut beroende på vilka funktioner temat som förhandsgranskas har. För att godkänna de nya inställningarna och aktivera temat i ett steg, klicka på knappen \"Spara &amp; aktivera\" uppe till vänster."
 
 #: wp-admin/about.php:83
 msgid "Faster WP_Query"
@@ -71,11 +79,7 @@ msgstr "Klicka på länken för förhandsgranskning live i lista över tillgäng
 msgid "Customize %s"
 msgstr "Anpassa %s"
 
-#: wp-admin/customize.php:71
-msgid "You are previewing"
-msgstr "Du förhandsgranskar"
-
-#: wp-admin/customize.php:97
+#: wp-admin/customize.php:99
 #: wp-admin/includes/class-wp-theme-install-list-table.php:256
 msgid "Collapse"
 msgstr "Minimera"
@@ -207,10 +211,6 @@ msgstr "Klicka på länken \"Anpassa\" under ett tema för att förhandsgranska 
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates."
 msgstr "Temat som förhandsgranskas är fullt interaktivt &mdash; navigera dig runt bland olika sidor för att se hur temat hanterar inlägg, arkiv och andra sidmallar."
 
-#: wp-admin/themes.php:67
-msgid "In the left-hand pane of the Theme Customizer you can edit the theme settings. The settings will differ, depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the \"Save and Activate\" button at the bottom of the left-hand sidebar."
-msgstr "I den vänstra panelen i Tema-anpassaren så kan du redigera temats inställningar. Vilka inställningar som kommer att kunna ändras beror på vilka funktioner temat har stöd för. För att godkänna de nya inställningarna och aktivera temat i ett enkelt steg, klicka på knappen \"Spara och aktivera\" nere till vänster."
-
 #: wp-admin/themes.php:68
 msgid "When previewing on smaller monitors, you can use the \"Collapse\" icon at the bottom of the left-hand pane. This will hide the pane, giving you more room to preview your site in the new theme. To bring the pane back, click on the Collapse icon again."
 msgstr "När man förhandsgranskar på mindre skärmar så kan man använda ikonen \"Minimera\" nederst i den vänstra panelen. Detta kommer att gömma panelen och ge dig mer rum att förhandsgranska din webbplats med det nya temat. För att visa panelen igen, klicka helt enkelt på ikonen igen."
@@ -236,6 +236,8 @@ msgid "The Categories and Tags Converter link on this screen will take you to th
 msgstr "Länken Kategori och etikett-konvertering på denna sida tar dig till sidan för importer där detta är en av tilläggen du kan installera. När tillägget är installerat så tar länken Aktivera tillägg &amp; kör import dig till sidan där du kan välja att konvertera etiketter till kategorier eller vise versa."
 
 #: wp-admin/includes/class-wp-themes-list-table.php:140
+#: wp-admin/includes/class-wp-upgrader.php:1520
+#: wp-admin/includes/class-wp-upgrader.php:1583
 msgid "Live Preview"
 msgstr "Förhandsgranskning live"
 
@@ -361,7 +363,7 @@ msgstr "Anpassa &#8221;%s&#8221;"
 msgid "&larr; Return to %s"
 msgstr "&larr; Gå tillbaka till %s"
 
-#: wp-admin/customize.php:96
+#: wp-admin/customize.php:98
 #: wp-admin/includes/class-wp-theme-install-list-table.php:255
 msgid "Collapse Sidebar"
 msgstr "Minimera sidopanel"
@@ -1009,7 +1011,7 @@ msgstr "Kanon! Du har klarat dig igenom denna del av installationen. WordPress k
 msgid "To allow use of this page to automatically repair database problems, please add the following line to your <code>wp-config.php</code> file. Once this line is added to your config, reload this page."
 msgstr "För att tillåta denna sida att automatiskt reparera databasproblem, lägg till följande rad i din <code>wp-config.php</code>. När du lagt till denna rad i din konfigurationsfil, ladda om denna sida."
 
-#: wp-admin/maint/repair.php:93
+#: wp-admin/maint/repair.php:91
 msgid "http://wordpress.org/support/forum/how-to-and-troubleshooting"
 msgstr "http://wordpress.org/support/forum/how-to-and-troubleshooting"
 
@@ -1079,7 +1081,7 @@ msgstr "Tilläggets hemsida  &#187;"
 msgid "You can export a file of your site&#8217;s content in order to import it into another installation or platform. The export file will be an XML file format called WXR. Posts, pages, comments, custom fields, categories, and tags can be included. You can choose for the WXR file to include only certain posts or pages by setting the dropdown filters to limit the export by category, author, date range by month, or publishing status."
 msgstr "Du kan exportera din webbplats innehåll till en fil för att sedan kunna importera det till en annan installation eller plattform. Exportfilen kommer att vara ett XML-filformat som kallas WXR. Inlägg, sidor, kommentarer, egna fält, kategorier och etiketter kan inkluderas. Du kan filtrera vilket innehålls och vilka publiceringsstatusar som ska tas med i WXR-filen."
 
-#: wp-admin/maint/repair.php:63
+#: wp-admin/maint/repair.php:61
 msgid "Failed to repair the %1$s table. Error: %2$s"
 msgstr "Det gick inte att reparera tabellen %1$s. Fel: %2$s"
 
@@ -1128,7 +1130,7 @@ msgstr "Det valda temat är trasigt. Återgår till ett standardtema."
 msgid "Image could not be processed. Please go back and try again."
 msgstr "Bilden kunde inte bearbetas. Var vänlig gå tillbaka och försök igen."
 
-#: wp-admin/maint/repair.php:53
+#: wp-admin/maint/repair.php:51
 msgid "The %1$s table is not okay. It is reporting the following error: %2$s. WordPress will attempt to repair this table&hellip;"
 msgstr "Tabellen %1$s är inte okej. Följande fel rapporteras: %2$s. WordPress kommer att försöka reparera denna tabell&hellip;"
 
@@ -1140,15 +1142,15 @@ msgstr "Det finns en autosparad version av det här inlägget som är nyare än 
 msgid "that isn&#8217;t a valid e-mail address. E-mail addresses look like: <code>username@example.com</code>"
 msgstr "det är inte en giltig e-postadress. E-postadresser ser ut såhär: <code>namn@exempel.com</code>"
 
-#: wp-admin/maint/repair.php:99
+#: wp-admin/maint/repair.php:97
 msgid "Repairs complete. Please remove the following line from wp-config.php to prevent this page from being used by unauthorized users."
 msgstr "Reparationen är klar. Var vänlig ta bort följande rad i din wp-config.php så att ingen obehörig använder den här sidan."
 
-#: wp-admin/maint/repair.php:105
+#: wp-admin/maint/repair.php:103
 msgid "WordPress can automatically look for some common database problems and repair them. Repairing can take a while, so please be patient."
 msgstr "WordPress kan automatiskt söka efter vissa vanliga problem med databaser och reparera dem. Reparationen kan ta ett tag, ha tålamod."
 
-#: wp-admin/maint/repair.php:108
+#: wp-admin/maint/repair.php:106
 msgid "WordPress can also attempt to optimize the database. This improves performance in some situations. Repairing and optimizing the database can take a long time and the database will be locked while optimizing."
 msgstr "WordPress kan även försöka att optimera databasen.  Detta kan i vissa fall förbättra prestandan.  Reparation och optimering av databasen kan ta en lång stund och databasen kommer att vara låst under tiden som databasen optimeras."
 
@@ -1848,23 +1850,23 @@ msgstr "%s tillägg"
 msgid "%s plugin"
 msgstr "%s tillägg"
 
-#: wp-admin/maint/repair.php:82
+#: wp-admin/maint/repair.php:80
 msgid "Successfully optimized the %s table."
 msgstr "Tabellen %s har optimerats."
 
-#: wp-admin/maint/repair.php:85
+#: wp-admin/maint/repair.php:83
 msgid "Failed to optimize the %1$s table. Error: %2$s"
 msgstr "Det gick inte att optimera tabellen %1$s. Fel: %2$s"
 
-#: wp-admin/maint/repair.php:60
+#: wp-admin/maint/repair.php:58
 msgid "Successfully repaired the %s table."
 msgstr "Tabellen %s har reparerats."
 
-#: wp-admin/maint/repair.php:75
+#: wp-admin/maint/repair.php:73
 msgid "The %s table is already optimized."
 msgstr "Tabellen %s är redan optimerad."
 
-#: wp-admin/maint/repair.php:50
+#: wp-admin/maint/repair.php:48
 msgid "The %s table is okay."
 msgstr "Tabellen %s är okej."
 
@@ -3045,7 +3047,7 @@ msgstr "Superadmin privilegier kan inte tas bort eftersom den här användaren h
 msgid "You only have one theme installed right now. Live a little! You can choose from over 1,000 free themes in the WordPress.org Theme Directory at any time: just click on the <a href=\"%s\">Install Themes</a> tab above."
 msgstr "Du har bara ett tema installerat just nu. Leva lite! Du kan välja mellan över 1000 gratis teman i temakatalogen på WordPress.org när som helst: klicka bara på <a href=\"%s\">installera teman</a> ovan."
 
-#: wp-admin/maint/repair.php:103
+#: wp-admin/maint/repair.php:101
 msgid "One or more database tables are unavailable. To allow WordPress to attempt to repair these tables, press the &#8220;Repair Database&#8221; button. Repairing can take a while, so please be patient."
 msgstr "En eller flera databastabeller är inte tillgängliga. För att möjliggöra för WordPress att försöka reparera dessa tabeller, tryck på knappen \"Reparera databas\". Reparationen kan ta ett tag, ha tålamod."
 
@@ -5642,15 +5644,15 @@ msgstr "Hittade inte länken."
 msgid "WordPress &rsaquo; Database Repair"
 msgstr "WordPress &rsaquo; Databasreparation"
 
-#: wp-admin/maint/repair.php:93
+#: wp-admin/maint/repair.php:91
 msgid "Some database problems could not be repaired. Please copy-and-paste the following list of errors to the <a href=\"%s\">WordPress support forums</a> to get additional assistance."
 msgstr "Vissa databasproblem kunde inte repareras. Var vänlig klipp-och-klistra in följande rader av felmeddelanden i <a href=\"%s\">WordPress supportforum</a> för att få assistans."
 
-#: wp-admin/maint/repair.php:107
+#: wp-admin/maint/repair.php:105
 msgid "Repair Database"
 msgstr "Reparera databas"
 
-#: wp-admin/maint/repair.php:109
+#: wp-admin/maint/repair.php:107
 msgid "Repair and Optimize Database"
 msgstr "Reparera och optimera databas"
 
