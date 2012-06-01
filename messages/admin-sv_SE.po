@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-05-30 21:22+0100\n"
+"PO-Revision-Date: 2012-06-01 19:52+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,13 +16,33 @@ msgstr ""
 "X-Poedit-Country: SWEDEN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
+#: wp-admin/includes/class-wp-theme-install-list-table.php:256
+msgid "&larr; Close"
+msgstr "&larr; Stäng"
+
+#: wp-admin/theme-install.php:52
+msgid "To install the theme so you can preview it with your site&#8217;s content and customize its theme options, click the \"Install\" button at the top of the left-hand pane. The theme files will be downloaded to your website automatically. When this is complete, the theme is now available for activation, which you can do by clicking the \"Activate\" link, or by navigating to your Installed Themes page and clicking the \"Live Preview\" link under any installed theme&#8217;s thumbnail image."
+msgstr "För att installera temat så att du kan förhandsgranska din webbplats innehåll och anpassa temainställningar, klicka på knappen \"Installera\" uppe till vänster. Filerna för temat kommer att laddas ner till din webbplats automatiskt. När detta är klart så kan temat aktiveras, vilket du gör genom att klicka på länken \"Aktivera\" eller genom att navigera dig fram till sidan med installerade teman och klicka på länken \"Förhandsgranska live\" under temats miniatyrbild."
+
+#: wp-admin/themes.php:41
+msgid "You can see your active theme at the top of the screen. Below are the other themes you have installed that are not currently in use. You can see what your site would look like with one of these themes by clicking the Live Preview link (see \"Previewing and Customizing\" help tab). To change themes, click the Activate link."
+msgstr "Du kan se ditt aktiva tema högst upp på sidan. Under detta visas andra teman du installerat men som inte används för närvarande. Du kan se hur dina webbplats skulle se ut med ett av dessa teman genom att klicka på länken Förhandsgranska live (se hjälpfliken \"Förhandsgranskning och anpassning\"). För att byta tema, klicka på länken Aktivera."
+
+#: wp-admin/themes.php:65
+msgid "Click on the \"Live Preview\" link under any theme to preview that theme and change theme options in a separate, full-screen view. Any installed theme can be previewed and customized in this way."
+msgstr "Klicka på länken \"Förhandsgranska live\" under temapresentationen för att förhandsgranska temat och för att göra inställningar i fullskärmsläge. Alla installerade teman kan förhandsgranskas och anpassas på detta sätt."
+
+#: wp-admin/themes.php:67
+msgid "In the left-hand pane you can edit the theme settings. The settings will differ, depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the \"Save &amp; Activate\" button at the top of the left-hand pane."
+msgstr "I panelen till vänster kan du redigera temats inställningar. Vilka inställningar som är tillgängliga beror på vilka funktioner temat som förhandsgranskas har stöd för. För att godkänna de nya inställningarna och aktivera temat i ett enkelt steg, klicka på knappen \"Spara &amp; aktivera\" uppe till vänster."
+
+#: wp-admin/about.php:84
+msgid "Post queries have been optimized to improve performance, especially for sites with large databases."
+msgstr "Databasförfrågningar för poster har optimerats för att förbättra prestandan, speciellt för webbplatser med stora databaser."
+
 #: wp-admin/customize.php:73
 msgid "You are previewing %s"
 msgstr "Du förhandsgranskar %s"
-
-#: wp-admin/themes.php:67
-msgid "In the left-hand pane of the Theme Customizer you can edit the theme settings. The settings will differ, depending on what theme features the theme being previewed supports. To accept the new settings and activate the theme all in one step, click the \"Save &amp; Activate\" button at the top of the left-hand pane."
-msgstr "I panelen till vänster vid anpassning av teman kan du genomföra ändringar för temat. Dessa inställningar kommer att se olika ut beroende på vilka funktioner temat som förhandsgranskas har. För att godkänna de nya inställningarna och aktivera temat i ett steg, klicka på knappen \"Spara &amp; aktivera\" uppe till vänster."
 
 #: wp-admin/about.php:83
 msgid "Faster WP_Query"
@@ -40,17 +60,17 @@ msgstr "En ny <a href=\"%s\">API för WordPress</a> som har stöd för anpassade
 msgid "http://codex.wordpress.org/XML-RPC_WordPress_API"
 msgstr "http://codex.wordpress.org/XML-RPC_WordPress_API"
 
-#: wp-admin/custom-background.php:251
+#: wp-admin/custom-background.php:252
 #: wp-admin/custom-header.php:557
 msgid "Select Image"
 msgstr "Välj bild"
 
-#: wp-admin/custom-background.php:266
+#: wp-admin/custom-background.php:267
 #: wp-admin/custom-header.php:591
 msgid "Or choose an image from your media library:"
 msgstr "Eller välj en bild från ditt mediabibliotek:"
 
-#: wp-admin/custom-background.php:267
+#: wp-admin/custom-background.php:268
 #: wp-admin/custom-header.php:592
 msgid "Choose Image"
 msgstr "Välj bild"
@@ -80,7 +100,7 @@ msgid "Customize %s"
 msgstr "Anpassa %s"
 
 #: wp-admin/customize.php:99
-#: wp-admin/includes/class-wp-theme-install-list-table.php:256
+#: wp-admin/includes/class-wp-theme-install-list-table.php:263
 msgid "Collapse"
 msgstr "Minimera"
 
@@ -144,7 +164,7 @@ msgstr "Ny funktion: Välj bild från bibliotek"
 msgid "Want to use an image you uploaded earlier? Select it from your media library instead of uploading it again."
 msgstr "Vill du använda en bild du tidigare laddat upp? Välj den från ditt mediabibliotek istället för att ladda upp den igen."
 
-#: wp-admin/custom-header.php:797
+#: wp-admin/custom-header.php:798
 msgid "Skip Cropping, Use Image as Is"
 msgstr "Beskär inte, använd bild som den är"
 
@@ -177,12 +197,12 @@ msgid "Installed"
 msgstr "Installerat"
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:219
-#: wp-admin/includes/class-wp-theme-install-list-table.php:330
+#: wp-admin/includes/class-wp-theme-install-list-table.php:332
 msgid "This theme is already installed and is up to date"
 msgstr "Detta tema är redan installerat och är den senaste versionen."
 
 #: wp-admin/includes/class-wp-theme-install-list-table.php:219
-#: wp-admin/includes/class-wp-theme-install-list-table.php:330
+#: wp-admin/includes/class-wp-theme-install-list-table.php:332
 msgctxt "theme"
 msgid "Installed"
 msgstr "Installerat"
@@ -191,21 +211,9 @@ msgstr "Installerat"
 msgid "Once you have generated a list of themes, you can preview and install any of them. Click on the thumbnail of the theme you&#8217;re interested in previewing. It will open up in a full-screen Preview page to give you a better idea of how that theme will look."
 msgstr "När du genererat en lista av teman så kan du förhandsgranska och installera något av dessa. Klicka på miniatyren för temat du är intresserad av att förhandsgranska det. Detta kommer att öppna en sida i fullstorlek för att ge dig en bättre idé om hur temat kommer att se ut."
 
-#: wp-admin/theme-install.php:52
-msgid "To install the theme so you can preview it with your site&#8217;s content and customize its theme options, click the \"Install\" button at the top of the left-hand pane. The theme files will be downloaded to your website automatically. When this is complete, the theme is now available for activation, which you can do by clicking the \"Activate\" link, or by navigating to your Installed Themes page and clicking the \"Customize\" link under any installed theme&#8217;s thumbnail image."
-msgstr "För att installera temat så att du kan förhandsgranska det med ditt innehåll och för att anpassa dess inställningar, klicka på knappen \"Installera\" i panelen uppe till vänster. Temafilerna kommer automatiskt att laddas ner till din installation. När detta är klart så kan temat aktiveras, vilket du kan göra genom att klicka på länken \"Aktivera\" eller genom att navigera dig till sidan med installerade teman och klicka på länken \"Anpassa\" under det installerade temats miniatyr."
-
 #: wp-admin/theme-install.php:56
 msgid "Previewing and Installing"
 msgstr "Förhandsgranskar och installerar"
-
-#: wp-admin/themes.php:41
-msgid "You can see your active theme at the top of the screen. Below are the other themes you have installed that are not currently in use. You can see what your site would look like with one of these themes by clicking the Customize link (see \"Previewing and Customizing\", below). To change themes, click the Activate link."
-msgstr "Du kan se ditt aktiverade tema överst på sidan. Under detta visas andra installerade teman som för närvarande inte används. Du kan se hur dessa teman skulle se ut på din webbplats genom att klicka på anpassningslänken (se \"Förhandsgranskning och anpassning\" nedan). För att byta till ett tema, klicka på aktiveringslänken."
-
-#: wp-admin/themes.php:65
-msgid "Click on the \"Customize\" link under any theme to preview that theme and change theme options in a separate, full-screen view. Any installed theme can be previewed and customized in this way."
-msgstr "Klicka på länken \"Anpassa\" under ett tema för att förhandsgranska och ändra dess inställningar i ett separat, fullskärmsläget. Alla installerade teman kan förhandsgranskas och anpassas på detta sätt."
 
 #: wp-admin/themes.php:66
 msgid "The theme being previewed is fully interactive &mdash; navigate to different pages to see how the theme handles posts, archives, and other page templates."
@@ -237,7 +245,7 @@ msgstr "Länken Kategori och etikett-konvertering på denna sida tar dig till si
 
 #: wp-admin/includes/class-wp-themes-list-table.php:140
 #: wp-admin/includes/class-wp-upgrader.php:1520
-#: wp-admin/includes/class-wp-upgrader.php:1583
+#: wp-admin/includes/class-wp-upgrader.php:1586
 msgid "Live Preview"
 msgstr "Förhandsgranskning live"
 
@@ -248,10 +256,6 @@ msgstr "API för XML-RPC"
 #: wp-admin/about.php:90
 msgid "Themes API"
 msgstr "API för teman"
-
-#: wp-admin/about.php:84
-msgid "Post query optimized to avoid table scans."
-msgstr "Inläggsförfrågningar (query) optimerade för att undvika tabellskanningar."
 
 #: wp-admin/about.php:94
 msgid "Custom header and background API relocated into the theme support API."
@@ -347,24 +351,21 @@ msgstr "Webbläsaren i din enhet kan inte användas för att ladda upp filer. Du
 msgid "Version: "
 msgstr "Version: "
 
-#: wp-admin/custom-background.php:393
+#: wp-admin/custom-background.php:394
 msgid "Set as background"
 msgstr "Ange som bakgrund"
 
-#: wp-admin/custom-header.php:971
+#: wp-admin/custom-header.php:972
 msgid "Set as header"
 msgstr "Ange som sidhuvud"
 
+#: wp-admin/includes/class-wp-upgrader.php:1583
 #: wp-admin/themes.php:118
 msgid "Customize &#8220;%s&#8221;"
 msgstr "Anpassa &#8221;%s&#8221;"
 
-#: wp-admin/includes/class-wp-theme-install-list-table.php:254
-msgid "&larr; Return to %s"
-msgstr "&larr; Gå tillbaka till %s"
-
 #: wp-admin/customize.php:98
-#: wp-admin/includes/class-wp-theme-install-list-table.php:255
+#: wp-admin/includes/class-wp-theme-install-list-table.php:262
 msgid "Collapse Sidebar"
 msgstr "Minimera sidopanel"
 
@@ -394,12 +395,12 @@ msgid "<strong>The parent theme could not be found.</strong> You will need to in
 msgstr "<strong>Modertemat kunde inte hittas.</strong> Du behöver installera modertemat, <strong>%s</strong>, innan du kan använda detta barntema."
 
 #: wp-admin/custom-header.php:127
-#: wp-admin/custom-header.php:654
-#: wp-admin/custom-header.php:659
+#: wp-admin/custom-header.php:655
+#: wp-admin/custom-header.php:660
 msgid "Header Text"
 msgstr "Text i sidhuvud"
 
-#: wp-admin/custom-header.php:662
+#: wp-admin/custom-header.php:663
 msgid "Show header text with your image."
 msgstr "Visa text i sidhuvudet tillsammans med din bild."
 
@@ -1125,8 +1126,8 @@ msgstr "I tidigare versioner av WordPress var alla importörer inbyggda. De har 
 msgid "The active theme is broken. Reverting to the default theme."
 msgstr "Det valda temat är trasigt. Återgår till ett standardtema."
 
-#: wp-admin/custom-header.php:759
-#: wp-admin/custom-header.php:885
+#: wp-admin/custom-header.php:760
+#: wp-admin/custom-header.php:886
 msgid "Image could not be processed. Please go back and try again."
 msgstr "Bilden kunde inte bearbetas. Var vänlig gå tillbaka och försök igen."
 
@@ -2119,7 +2120,7 @@ msgstr "Version %s"
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:183
 #: wp-admin/includes/class-wp-plugins-list-table.php:421
 #: wp-admin/includes/class-wp-theme-install-list-table.php:233
-#: wp-admin/includes/class-wp-theme-install-list-table.php:334
+#: wp-admin/includes/class-wp-theme-install-list-table.php:336
 #: wp-admin/includes/class-wp-themes-list-table.php:164
 #: wp-admin/themes.php:136
 msgid "By %s"
@@ -2331,7 +2332,7 @@ msgstr "Alla användare"
 msgid "Attributes"
 msgstr "Attribut"
 
-#: wp-admin/includes/class-wp-theme-install-list-table.php:323
+#: wp-admin/includes/class-wp-theme-install-list-table.php:325
 #: wp-admin/includes/dashboard.php:983
 msgid "Install"
 msgstr "Installera"
@@ -2703,7 +2704,7 @@ msgstr "Din inloggningssession har gått ut. Öppna ett nytt webbläsarfönster 
 msgid "Freedoms"
 msgstr "Friheterna"
 
-#: wp-admin/custom-background.php:327
+#: wp-admin/custom-background.php:328
 msgid "Clear"
 msgstr "Rensa"
 
@@ -3545,7 +3546,7 @@ msgstr "Bilder med en exakt storlek av <strong>%1$d &times; %2$d pixlar</strong>
 msgid "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Documentation on Adding New Themes</a>"
 msgstr "<a href=\"http://codex.wordpress.org/Using_Themes#Adding_New_Themes\" target=\"_blank\">Dokumentation för att lägga till nya teman</a>"
 
-#: wp-admin/custom-header.php:795
+#: wp-admin/custom-header.php:796
 msgid "Crop and Publish"
 msgstr "Beskär och publicera"
 
@@ -3995,7 +3996,7 @@ msgstr "Du kan filtrera listan baserat på filtyp/status genom att använda filt
 msgid "Default Images"
 msgstr "Standardbilder"
 
-#: wp-admin/custom-header.php:773
+#: wp-admin/custom-header.php:774
 msgid "Crop Header Image"
 msgstr "Beskär bild för sidhuvud"
 
@@ -4011,39 +4012,39 @@ msgstr "Du kan ladda upp en egen bild för sidhuvudet som visas överst på din 
 msgid "Remove Header Image"
 msgstr "Ta bort bild för sidhuvud"
 
-#: wp-admin/custom-header.php:642
+#: wp-admin/custom-header.php:643
 msgid "Reset Image"
 msgstr "Återställ bild"
 
-#: wp-admin/custom-header.php:644
+#: wp-admin/custom-header.php:645
 msgid "This will restore the original header image. You will not be able to restore any customizations."
 msgstr "Detta kommer att återställa originalbilden för sidhuvudet. Du kommer inte kunna återställa några ändringar."
 
-#: wp-admin/custom-header.php:645
+#: wp-admin/custom-header.php:646
 msgid "Restore Original Header Image"
 msgstr "Återställ originalbild för sidhuvud"
 
-#: wp-admin/custom-header.php:668
+#: wp-admin/custom-header.php:669
 msgid "Text Color"
 msgstr "Textfärg"
 
-#: wp-admin/custom-header.php:684
+#: wp-admin/custom-header.php:685
 msgid "Reset Text Color"
 msgstr "Återställ textfärg"
 
-#: wp-admin/custom-header.php:686
+#: wp-admin/custom-header.php:687
 msgid "This will restore the original header text. You will not be able to restore any customizations."
 msgstr "Detta kommer att återställa originaltexten för sidhuvudet. Du kommer inte kunna återställa eventuella ändringar."
 
-#: wp-admin/custom-header.php:687
+#: wp-admin/custom-header.php:688
 msgid "Restore Original Header Text"
 msgstr "Återställ originaltext för sidhuvud"
 
-#: wp-admin/custom-header.php:811
+#: wp-admin/custom-header.php:812
 msgid "Image Upload Error"
 msgstr "Fel vid uppladdning av bild"
 
-#: wp-admin/custom-header.php:777
+#: wp-admin/custom-header.php:778
 msgid "You need Javascript to choose a part of the image."
 msgstr "Javascript behöver vara aktiverat för att kunna beskära bilden."
 
@@ -4380,7 +4381,7 @@ msgctxt "comment"
 msgid "Not Spam"
 msgstr "Inte skräp"
 
-#: wp-admin/custom-background.php:244
+#: wp-admin/custom-background.php:245
 msgid "This will restore the original background image. You will not be able to restore any customizations."
 msgstr "Det här återställer den ursprunliga bakgrundsbilden. Du kommer inte kunna återställa några tidigare gjorda förändringar."
 
@@ -4634,7 +4635,7 @@ msgstr "Försök igen"
 msgid "Please provide a custom field name."
 msgstr "Var vänlig ange ett namn för det egna fältet."
 
-#: wp-admin/custom-background.php:275
+#: wp-admin/custom-background.php:276
 msgid "Display Options"
 msgstr "Visningsalternativ"
 
@@ -4846,7 +4847,7 @@ msgstr "Utvald bild"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:202
 #: wp-admin/includes/class-wp-theme-install-list-table.php:215
-#: wp-admin/includes/class-wp-theme-install-list-table.php:326
+#: wp-admin/includes/class-wp-theme-install-list-table.php:328
 msgid "Update to version %s"
 msgstr "Uppdatera till %s"
 
@@ -5068,8 +5069,8 @@ msgstr "Du kör den senaste versionen av WordPress. Du behöver inte uppdatera. 
 msgid "WordPress Updates"
 msgstr "Uppdateringar för WordPress"
 
-#: wp-admin/custom-background.php:327
-#: wp-admin/custom-header.php:676
+#: wp-admin/custom-background.php:328
+#: wp-admin/custom-header.php:677
 msgid "Select a Color"
 msgstr "Välj en färg"
 
@@ -5261,11 +5262,11 @@ msgstr "Denna kommentar är redan godkänd."
 msgid "This comment is currently in the Trash."
 msgstr "Denna kommentar ligger för närvarande i papperskorgen."
 
-#: wp-admin/custom-background.php:299
+#: wp-admin/custom-background.php:300
 msgid "Repeat"
 msgstr "Upprepa"
 
-#: wp-admin/custom-background.php:309
+#: wp-admin/custom-background.php:310
 msgid "Attachment"
 msgstr "Beteende"
 
@@ -7140,7 +7141,7 @@ msgstr "Widget %s"
 msgid "Select both the sidebar for this widget and the position of the widget in that sidebar."
 msgstr "Välj både panel och position i den panelen för denna widget."
 
-#: wp-admin/custom-background.php:281
+#: wp-admin/custom-background.php:282
 #: wp-admin/widgets.php:257
 msgid "Position"
 msgstr "Position"
@@ -7202,7 +7203,7 @@ msgstr "Egen bakgrund"
 msgid "Background updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "Bakgrund uppdaterad. <a href=\"%s\">Visa din webbplats</a> för att se hur det blev."
 
-#: wp-admin/custom-background.php:254
+#: wp-admin/custom-background.php:255
 #: wp-admin/custom-header.php:579
 msgid "Choose an image from your computer:"
 msgstr "Välj en bild på din dator:"
@@ -7221,16 +7222,16 @@ msgstr "Anpassa sidhuvudet"
 msgid "Header updated. <a href=\"%s\">Visit your site</a> to see how it looks."
 msgstr "Sidhuvud uppdaterat. <a href=\"%s\">Visa din webbplats</a> för att se hur det blev."
 
-#: wp-admin/custom-header.php:759
-#: wp-admin/custom-header.php:885
+#: wp-admin/custom-header.php:760
+#: wp-admin/custom-header.php:886
 msgid "Image Processing Error"
 msgstr "Fel vid bearbetning av bild"
 
-#: wp-admin/custom-header.php:776
+#: wp-admin/custom-header.php:777
 msgid "Choose the part of the image you want to use as your header."
 msgstr "Välj den del av bilden som du vill använda som sidhuvud."
 
-#: wp-admin/custom-header.php:951
+#: wp-admin/custom-header.php:952
 msgid "You do not have permission to customize headers."
 msgstr "Du har inte tillräcklig behörighet för att modifiera sidhuvden."
 
@@ -8054,13 +8055,15 @@ msgstr "Temat <strong>%1$s %2$s</strong> har installerats."
 #: wp-admin/includes/class-wp-theme-install-list-table.php:189
 #: wp-admin/includes/class-wp-themes-list-table.php:138
 #: wp-admin/includes/class-wp-upgrader.php:1519
-#: wp-admin/includes/class-wp-upgrader.php:1582
+#: wp-admin/includes/class-wp-upgrader.php:1520
+#: wp-admin/includes/class-wp-upgrader.php:1585
+#: wp-admin/includes/class-wp-upgrader.php:1586
 msgid "Preview &#8220;%s&#8221;"
 msgstr "Förhandsgranska &#8221;%s&#8221;"
 
 #: wp-admin/includes/class-wp-themes-list-table.php:136
 #: wp-admin/includes/class-wp-upgrader.php:1521
-#: wp-admin/includes/class-wp-upgrader.php:1584
+#: wp-admin/includes/class-wp-upgrader.php:1587
 msgid "Activate &#8220;%s&#8221;"
 msgstr "Aktivera &#8221;%s&#8221;"
 
@@ -8074,12 +8077,12 @@ msgstr "Temasida"
 
 #: wp-admin/includes/class-wp-upgrader.php:1392
 #: wp-admin/includes/class-wp-upgrader.php:1529
-#: wp-admin/includes/class-wp-upgrader.php:1590
+#: wp-admin/includes/class-wp-upgrader.php:1594
 msgid "Return to Themes page"
 msgstr "Återgå till sidan för teman"
 
-#: wp-admin/includes/class-wp-upgrader.php:1615
-#: wp-admin/includes/class-wp-upgrader.php:1649
+#: wp-admin/includes/class-wp-upgrader.php:1619
+#: wp-admin/includes/class-wp-upgrader.php:1653
 msgid "Please select a file"
 msgstr "Vänligen välj en fil"
 
@@ -8574,8 +8577,8 @@ msgstr "Du kan skala originalbilden proportionellt. För bästa resultat så bö
 msgid "Original dimensions %s"
 msgstr "Ursprungsdimensioner %s"
 
-#: wp-admin/custom-background.php:239
-#: wp-admin/custom-background.php:243
+#: wp-admin/custom-background.php:240
+#: wp-admin/custom-background.php:244
 #: wp-admin/includes/image-edit.php:97
 msgid "Restore Original Image"
 msgstr "Återställ ursprunglig bild"
@@ -8726,8 +8729,8 @@ msgstr "Från adressen"
 msgid "Gallery"
 msgstr "Galleri"
 
-#: wp-admin/custom-background.php:402
-#: wp-admin/custom-header.php:980
+#: wp-admin/custom-background.php:403
+#: wp-admin/custom-header.php:981
 #: wp-admin/includes/media.php:21
 #: wp-admin/upload.php:139
 msgid "Media Library"
@@ -8750,7 +8753,7 @@ msgstr "WordPress"
 msgid "Upload/Insert %s"
 msgstr "Ladda upp/Infoga %s"
 
-#: wp-admin/custom-background.php:410
+#: wp-admin/custom-background.php:411
 #: wp-admin/includes/media.php:715
 msgid "Large"
 msgstr "Stor"
@@ -9255,7 +9258,7 @@ msgid "No plugins match your request."
 msgstr "Inga tillägg matchade din efterfrågan."
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:219
-#: wp-admin/includes/class-wp-theme-install-list-table.php:304
+#: wp-admin/includes/class-wp-theme-install-list-table.php:306
 #: wp-admin/includes/plugin-install.php:344
 #: wp-admin/includes/plugin-install.php:347
 msgid "(based on %s rating)"
