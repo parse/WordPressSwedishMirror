@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-10-25 19:52+0100\n"
+"PO-Revision-Date: 2012-10-31 23:06+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Language-Team: WordPress Sverige <info@wpsv.se>\n"
 "Language: Svenska\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: wp-admin/includes/meta-boxes.php:1021
+msgid "Update Featured Image"
+msgstr "Uppdatera utvald bild"
 
 #: wp-admin/edit-comments.php:127
 msgid ""
@@ -229,11 +233,11 @@ msgstr "Redigera din meny"
 msgid "Uploaded on: <b>%1$s</b>"
 msgstr "Uppladdad den: <b>%1$s</b>"
 
-#: wp-admin/includes/meta-boxes.php:1020 wp-admin/includes/meta-boxes.php:1086
+#: wp-admin/includes/meta-boxes.php:1020 wp-admin/includes/meta-boxes.php:1100
 msgid "Choose a Featured Image"
 msgstr "Välj utvald bild"
 
-#: wp-admin/includes/meta-boxes.php:1087
+#: wp-admin/includes/meta-boxes.php:1101
 msgid "Remove Featured Image"
 msgstr "Ta bort utvald bild"
 
@@ -342,7 +346,7 @@ msgstr ""
 "upp .zip-filen och när den laddats klart så kan du aktivera det nya "
 "tillägget."
 
-#: wp-admin/setup-config.php:119
+#: wp-admin/setup-config.php:120
 msgid ""
 "If for any reason this automatic file creation doesn&#8217;t work, don&#8217;"
 "t worry. All this does is fill in the database information to a "
@@ -356,7 +360,7 @@ msgstr ""
 "sample.php</code> i en textredigerare, fylla i dina uppgifter och spara den "
 "som <code>wp-config.php</code>."
 
-#: wp-admin/setup-config.php:130
+#: wp-admin/setup-config.php:131
 msgid ""
 "Below you should enter your database connection details. If you&#8217;re not "
 "sure about these, contact your host."
@@ -364,15 +368,15 @@ msgstr ""
 "Nedan anger du dina uppgifter för databasanslutningen. Om du är osäker på "
 "dessa uppgifter, kontakta ditt webbhotell/administratör."
 
-#: wp-admin/setup-config.php:259
+#: wp-admin/setup-config.php:260
 msgid "Sorry, but I can&#8217;t write the <code>wp-config.php</code> file."
 msgstr "Det går tyvärr inte att skriva till filen <code>wp-config.php</code>."
 
-#: wp-admin/setup-config.php:266
+#: wp-admin/setup-config.php:267
 msgid "After you&#8217;ve done that, click &#8220;Run the install.&#8221;"
 msgstr "Efter att du gjort det, klicka på &#8221;Kör installationen.&#8221;"
 
-#: wp-admin/setup-config.php:285
+#: wp-admin/setup-config.php:286
 msgid ""
 "All right sparky! You&#8217;ve made it through this part of the "
 "installation. WordPress can now communicate with your database. If you are "
@@ -1195,11 +1199,11 @@ msgstr ""
 msgid "Don&#8217;t forget to Save Changes when you&#8217;re done!"
 msgstr "Glöm inte att Spara ändringarna när du är klar!"
 
-#: wp-admin/install.php:167
+#: wp-admin/install.php:169
 msgid "Configuration Error"
 msgstr "Konfigurationsfel"
 
-#: wp-admin/install.php:167
+#: wp-admin/install.php:169
 msgid ""
 "Your <code>wp-config.php</code> file has an empty database table prefix, "
 "which is not supported."
@@ -1237,7 +1241,7 @@ msgstr "Sök teman baserat på nyckelord."
 msgid "Find a theme based on specific features."
 msgstr "Hitta ett tema baserat på specifika funktioner."
 
-#: wp-admin/setup-config.php:120
+#: wp-admin/setup-config.php:121
 msgid ""
 "In all likelihood, these items were supplied to you by your Web Host. If you "
 "do not have this information, then you will need to contact them before you "
@@ -1474,7 +1478,7 @@ msgstr "Föreslagen höjd, <strong>%1$d pixlar</strong>."
 msgid "Images should be at least <strong>%1$d pixels</strong> tall."
 msgstr "Bilder bör vara minst <strong>%1$d pixlar</strong> höga."
 
-#: wp-admin/install.php:175
+#: wp-admin/install.php:177
 msgctxt "Howdy"
 msgid "Welcome"
 msgstr "Välkommen"
@@ -1922,7 +1926,7 @@ msgstr ""
 msgid "WordPress &rsaquo; Setup Configuration File"
 msgstr "WordPress &rsaquo; Skapa konfigurationsfil"
 
-#: wp-admin/setup-config.php:111
+#: wp-admin/setup-config.php:112
 msgid ""
 "Welcome to WordPress. Before getting started, we need some information on "
 "the database. You will need to know the following items before proceeding."
@@ -1930,63 +1934,63 @@ msgstr ""
 "Välkommen till WordPress. Innan vi sätter igång så behöver vi information "
 "för databasen. Du behöver ha följande uppgifter innan du fortsätter."
 
-#: wp-admin/setup-config.php:113
+#: wp-admin/setup-config.php:114
 msgid "Database name"
 msgstr "Databasnamn"
 
-#: wp-admin/setup-config.php:114
+#: wp-admin/setup-config.php:115
 msgid "Database username"
 msgstr "Användarnamn för databas"
 
-#: wp-admin/setup-config.php:115
+#: wp-admin/setup-config.php:116
 msgid "Database password"
 msgstr "Lösenord för databas"
 
-#: wp-admin/setup-config.php:116
+#: wp-admin/setup-config.php:117
 msgid "Database host"
 msgstr "Värd för databas"
 
-#: wp-admin/setup-config.php:117
+#: wp-admin/setup-config.php:118
 msgid ""
 "Table prefix (if you want to run more than one WordPress in a single "
 "database)"
 msgstr "Tabellprefix (om du vill köra mer än en installation i samma databas)"
 
-#: wp-admin/setup-config.php:122
+#: wp-admin/setup-config.php:123
 msgid "Let&#8217;s go!"
 msgstr "Då kör vi!"
 
-#: wp-admin/setup-config.php:133
+#: wp-admin/setup-config.php:134
 msgid "Database Name"
 msgstr "Databasnamn"
 
-#: wp-admin/setup-config.php:135
+#: wp-admin/setup-config.php:136
 msgid "The name of the database you want to run WP in."
 msgstr "Namnet på databasen du vill köra WP under."
 
-#: wp-admin/setup-config.php:139
+#: wp-admin/setup-config.php:140
 msgctxt "example username"
 msgid "username"
 msgstr "användarnamn"
 
-#: wp-admin/setup-config.php:140
+#: wp-admin/setup-config.php:141
 msgid "Your MySQL username"
 msgstr "Ditt användarnamn för MySQL"
 
-#: wp-admin/setup-config.php:144
+#: wp-admin/setup-config.php:145
 msgctxt "example password"
 msgid "password"
 msgstr "lösenord"
 
-#: wp-admin/setup-config.php:145
+#: wp-admin/setup-config.php:146
 msgid "&hellip;and your MySQL password."
 msgstr "&hellip;och ditt lösenord för MySQL."
 
-#: wp-admin/setup-config.php:148
+#: wp-admin/setup-config.php:149
 msgid "Database Host"
 msgstr "Databasvärd"
 
-#: wp-admin/setup-config.php:150
+#: wp-admin/setup-config.php:151
 msgid ""
 "You should be able to get this info from your web host, if <code>localhost</"
 "code> does not work."
@@ -1994,11 +1998,11 @@ msgstr ""
 "Du får denna information från ditt webbhotell om <code>localhost</code> inte "
 "fungerar."
 
-#: wp-admin/setup-config.php:153
+#: wp-admin/setup-config.php:154
 msgid "Table Prefix"
 msgstr "Tabellprefix"
 
-#: wp-admin/setup-config.php:155
+#: wp-admin/setup-config.php:156
 msgid ""
 "If you want to run multiple WordPress installations in a single database, "
 "change this."
@@ -2006,7 +2010,7 @@ msgstr ""
 "Om du vill köra flera installationer av WordPress i en och samma databas, "
 "ändra det här."
 
-#: wp-admin/setup-config.php:260
+#: wp-admin/setup-config.php:261
 msgid ""
 "You can create the <code>wp-config.php</code> manually and paste the "
 "following text into it."
@@ -2014,11 +2018,11 @@ msgstr ""
 "Du kan skapa filen <code>wp-config.php</code> manuellt och klistra in "
 "följande text i den."
 
-#: wp-admin/setup-config.php:267 wp-admin/setup-config.php:287
+#: wp-admin/setup-config.php:268 wp-admin/setup-config.php:288
 msgid "Run the install"
 msgstr "Kör installationen"
 
-#: wp-admin/maint/repair.php:27
+#: wp-admin/maint/repair.php:29
 msgid ""
 "To allow use of this page to automatically repair database problems, please "
 "add the following line to your <code>wp-config.php</code> file. Once this "
@@ -2028,7 +2032,7 @@ msgstr ""
 "till följande rad i din <code>wp-config.php</code>. När du lagt till denna "
 "rad i din konfigurationsfil, ladda om denna sida."
 
-#: wp-admin/maint/repair.php:91
+#: wp-admin/maint/repair.php:93
 msgid "http://wordpress.org/support/forum/how-to-and-troubleshooting"
 msgstr "http://wordpress.org/support/forum/how-to-and-troubleshooting"
 
@@ -2121,7 +2125,7 @@ msgstr ""
 "fält, kategorier och etiketter kan inkluderas. Du kan filtrera vilket "
 "innehålls och vilka publiceringsstatusar som ska tas med i WXR-filen."
 
-#: wp-admin/maint/repair.php:61
+#: wp-admin/maint/repair.php:63
 msgid "Failed to repair the %1$s table. Error: %2$s"
 msgstr "Det gick inte att reparera tabellen %1$s. Fel: %2$s"
 
@@ -2221,7 +2225,7 @@ msgstr "Det valda temat är trasigt. Återgår till ett standardtema."
 msgid "Image could not be processed. Please go back and try again."
 msgstr "Bilden kunde inte bearbetas. Var vänlig gå tillbaka och försök igen."
 
-#: wp-admin/maint/repair.php:51
+#: wp-admin/maint/repair.php:53
 msgid ""
 "The %1$s table is not okay. It is reporting the following error: %2$s. "
 "WordPress will attempt to repair this table&hellip;"
@@ -2237,7 +2241,7 @@ msgstr ""
 "Det finns en autosparad version av det här inlägget som är nyare än "
 "versionen nedan. <a href=\"%s\">Visa den autosparade versionen</a>."
 
-#: wp-admin/install.php:215
+#: wp-admin/install.php:217
 msgid ""
 "that isn&#8217;t a valid e-mail address. E-mail addresses look like: "
 "<code>username@example.com</code>"
@@ -2245,7 +2249,7 @@ msgstr ""
 "det är inte en giltig e-postadress. E-postadresser ser ut såhär: "
 "<code>namn@exempel.com</code>"
 
-#: wp-admin/maint/repair.php:97
+#: wp-admin/maint/repair.php:99
 msgid ""
 "Repairs complete. Please remove the following line from wp-config.php to "
 "prevent this page from being used by unauthorized users."
@@ -2253,7 +2257,7 @@ msgstr ""
 "Reparationen är klar. Var vänlig ta bort följande rad i din wp-config.php så "
 "att ingen obehörig använder den här sidan."
 
-#: wp-admin/maint/repair.php:103
+#: wp-admin/maint/repair.php:105
 msgid ""
 "WordPress can automatically look for some common database problems and "
 "repair them. Repairing can take a while, so please be patient."
@@ -2261,7 +2265,7 @@ msgstr ""
 "WordPress kan automatiskt söka efter vissa vanliga problem med databaser och "
 "reparera dem. Reparationen kan ta ett tag, ha tålamod."
 
-#: wp-admin/maint/repair.php:106
+#: wp-admin/maint/repair.php:108
 msgid ""
 "WordPress can also attempt to optimize the database. This improves "
 "performance in some situations. Repairing and optimizing the database can "
@@ -3312,23 +3316,23 @@ msgstr "%s tillägg"
 msgid "%s plugin"
 msgstr "%s tillägg"
 
-#: wp-admin/maint/repair.php:80
+#: wp-admin/maint/repair.php:82
 msgid "Successfully optimized the %s table."
 msgstr "Tabellen %s har optimerats."
 
-#: wp-admin/maint/repair.php:83
+#: wp-admin/maint/repair.php:85
 msgid "Failed to optimize the %1$s table. Error: %2$s"
 msgstr "Det gick inte att optimera tabellen %1$s. Fel: %2$s"
 
-#: wp-admin/maint/repair.php:58
+#: wp-admin/maint/repair.php:60
 msgid "Successfully repaired the %s table."
 msgstr "Tabellen %s har reparerats."
 
-#: wp-admin/maint/repair.php:73
+#: wp-admin/maint/repair.php:75
 msgid "The %s table is already optimized."
 msgstr "Tabellen %s är redan optimerad."
 
-#: wp-admin/maint/repair.php:48
+#: wp-admin/maint/repair.php:50
 msgid "The %s table is okay."
 msgstr "Tabellen %s är okej."
 
@@ -4783,7 +4787,7 @@ msgstr ""
 "över 1000 gratis teman i temakatalogen på WordPress.org när som helst: "
 "klicka bara på <a href=\"%s\">installera teman</a> ovan."
 
-#: wp-admin/maint/repair.php:101
+#: wp-admin/maint/repair.php:103
 msgid ""
 "One or more database tables are unavailable. To allow WordPress to attempt "
 "to repair these tables, press the &#8220;Repair Database&#8221; button. "
@@ -7041,7 +7045,7 @@ msgstr "CSS klasser"
 msgid "Navigation Label"
 msgstr "Navigeringsetikett"
 
-#: wp-admin/includes/schema.php:967
+#: wp-admin/includes/schema.php:971
 msgid ""
 "To use a subdomain configuration, you must have a wildcard entry in your "
 "DNS. This usually means adding a <code>*</code> hostname record pointing at "
@@ -7051,7 +7055,7 @@ msgstr ""
 "din DNS. Detta innebär ofast att man anger en <code>*</code> som en "
 "'hostname'-post pekad mot servern i DNS-konfigurationen."
 
-#: wp-admin/includes/schema.php:963
+#: wp-admin/includes/schema.php:967
 msgid ""
 "The installer attempted to contact a random hostname (<code>%1$s</code>) on "
 "your domain."
@@ -7063,7 +7067,7 @@ msgstr ""
 msgid "Custom Links"
 msgstr "Anpassade länkar"
 
-#: wp-admin/install.php:108
+#: wp-admin/install.php:110
 msgid ""
 "Usernames can have only alphanumeric characters, spaces, underscores, "
 "hyphens, periods and the @ symbol."
@@ -7071,7 +7075,7 @@ msgstr ""
 "Användarnamn kan bara bestå av alfanumeriska tecken, mellanslag, "
 "understreck, bindestreck, punkter och @-tecknen."
 
-#: wp-admin/install.php:203
+#: wp-admin/install.php:205
 msgid "the username you provided has invalid characters."
 msgstr "angivet användarnamn innehåller ogiltiga tecken."
 
@@ -7093,7 +7097,7 @@ msgstr "Lägg till meny"
 
 #: wp-admin/includes/class-wp-plugin-install-list-table.php:96
 #: wp-admin/includes/class-wp-theme-install-list-table.php:101
-#: wp-admin/setup-config.php:168
+#: wp-admin/setup-config.php:169
 msgid "Try again"
 msgstr "Försök igen"
 
@@ -7145,7 +7149,7 @@ msgstr "Visa detaljer"
 msgid "Hide Details"
 msgstr "Göm detaljer"
 
-#: wp-admin/install.php:200
+#: wp-admin/install.php:202
 msgid "you must provide a valid username."
 msgstr "du måste ange ett riktigt användarnamn."
 
@@ -7455,13 +7459,13 @@ msgstr "CSS-klasser (valfritt)"
 msgid "Save Menu"
 msgstr "Spara meny"
 
-#: wp-admin/install.php:117
+#: wp-admin/install.php:119
 msgid ""
 "A password will be automatically generated for you if you leave this blank."
 msgstr ""
 "Ett lösenord kommer att genereras automatiskt om du lämnar dessa fält toma."
 
-#: wp-admin/install.php:116
+#: wp-admin/install.php:118
 msgid "Password, twice"
 msgstr "Lösenord, två gånger"
 
@@ -7469,27 +7473,27 @@ msgstr "Lösenord, två gånger"
 msgid "Updating Theme %1$s (%2$d/%3$d)"
 msgstr "Uppdaterar temat %1$s (%2$d/%3$d)"
 
-#: wp-admin/includes/schema.php:832
+#: wp-admin/includes/schema.php:836
 msgid "You must provide a domain name."
 msgstr "Du måste ange ett domännamn."
 
-#: wp-admin/includes/schema.php:834
+#: wp-admin/includes/schema.php:838
 msgid "You must provide a name for your network of sites."
 msgstr "Du måste ange ett namn för ditt nätverk av webbplatser."
 
-#: wp-admin/includes/schema.php:838
+#: wp-admin/includes/schema.php:842
 msgid "The network already exists."
 msgstr "Nätverket finns redan."
 
-#: wp-admin/includes/schema.php:842
+#: wp-admin/includes/schema.php:846
 msgid "You must provide a valid e-mail address."
 msgstr "Du måste ange en giltig e-postadress."
 
-#: wp-admin/includes/schema.php:965
+#: wp-admin/includes/schema.php:969
 msgid "This resulted in an error message: %s"
 msgstr "Detta resulterade i ett felmeddelande: %s"
 
-#: wp-admin/includes/schema.php:968
+#: wp-admin/includes/schema.php:972
 msgid ""
 "You can still use your site but any subdomain you create may not be "
 "accessible. If you know your DNS is correct, ignore this message."
@@ -7522,7 +7526,7 @@ msgstr "Lösenordet du valde under installationen."
 msgid "User already exists. Password inherited."
 msgstr "Användaren finns redan. Lösenordet ärvdes."
 
-#: wp-admin/install.php:207
+#: wp-admin/install.php:209
 msgid "your passwords do not match. Please try again"
 msgstr "dina lösenord matchar inte. Var vänlig försök igen."
 
@@ -7731,7 +7735,7 @@ msgstr "Anpassad databasklass."
 msgid "Advanced caching plugin."
 msgstr "Avancerat cachetillägg."
 
-#: wp-admin/install.php:158
+#: wp-admin/install.php:160
 msgid ""
 "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s"
 "\">WordPress %1$s</a> requires MySQL version %2$s or higher. You are running "
@@ -7741,7 +7745,7 @@ msgstr ""
 "\">WordPress %1$s</a> eftersom det kräver minst MySQL %2$s eller senare. Du "
 "kör MySQL %3$s."
 
-#: wp-admin/install.php:156
+#: wp-admin/install.php:158
 msgid ""
 "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s"
 "\">WordPress %1$s</a> requires PHP version %2$s or higher. You are running "
@@ -7767,7 +7771,7 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> finns "
 "tillgängligt! <a href=\"%2$s\">Vänligen uppdatera nu</a>."
 
-#: wp-admin/install.php:154
+#: wp-admin/install.php:156
 msgid ""
 "You cannot install because <a href=\"http://codex.wordpress.org/Version_%1$s"
 "\">WordPress %1$s</a> requires PHP version %2$s or higher and MySQL version "
@@ -8106,47 +8110,35 @@ msgstr "Hittade inga lämpliga användare!"
 msgid "WordPress &rsaquo; Installation"
 msgstr "WordPress &rsaquo; Installation"
 
-#: wp-admin/install.php:92
+#: wp-admin/install.php:94
 msgid "<strong>ERROR</strong>: %s"
 msgstr "<strong>FEL</strong>: %s"
 
-#: wp-admin/setup-config.php:138
+#: wp-admin/setup-config.php:139
 msgid "User Name"
 msgstr "Användarnamn"
 
-#: wp-admin/install.php:105
+#: wp-admin/install.php:107
 msgid "User(s) already exists."
 msgstr "Användare(n) existerar redan."
 
-#: wp-admin/install.php:128
+#: wp-admin/install.php:130
 msgid "Your E-mail"
 msgstr "Din e-post"
 
-#: wp-admin/install.php:130
+#: wp-admin/install.php:132
 msgid "Double-check your email address before continuing."
 msgstr "Dubbelkolla e-postadressen innan du fortsätter."
 
-#: wp-admin/install.php:137
+#: wp-admin/install.php:139
 msgid "Install WordPress"
 msgstr "Installera WordPress"
 
-#: wp-admin/install.php:145
-msgid "Already Installed"
-msgstr "Redan installerat"
-
-#: wp-admin/install.php:145
-msgid ""
-"You appear to have already installed WordPress. To reinstall please clear "
-"your old database tables first."
-msgstr ""
-"Du verkar redan ha installerat WordPress. Var god och töm dina gamla "
-"databastabeller före du ominstallerar."
-
-#: wp-admin/install.php:162
+#: wp-admin/install.php:164
 msgid "Insufficient Requirements"
 msgstr "Minimumkraven uppfylls inte"
 
-#: wp-admin/install.php:176
+#: wp-admin/install.php:178
 msgid ""
 "Welcome to the famous five minute WordPress installation process! You may "
 "want to browse the <a href=\"%s\">ReadMe documentation</a> at your leisure. "
@@ -8159,11 +8151,11 @@ msgstr ""
 "inte, fyll i fälten nedan och du är på god väg att kunna börja använda "
 "världens mest flexibla och kraftfulla personliga publiceringsplattform."
 
-#: wp-admin/install.php:178
+#: wp-admin/install.php:180
 msgid "Information needed"
 msgstr "Information som behövs"
 
-#: wp-admin/install.php:179
+#: wp-admin/install.php:181
 msgid ""
 "Please provide the following information. Don&#8217;t worry, you can always "
 "change these settings later."
@@ -8171,15 +8163,15 @@ msgstr ""
 "Var vänlig ange följande information. Bara lugn, du kan ändra dessa "
 "inställningar senare."
 
-#: wp-admin/install.php:211
+#: wp-admin/install.php:213
 msgid "you must provide an e-mail address."
 msgstr "du måste ange en e-postadress."
 
-#: wp-admin/install.php:225
+#: wp-admin/install.php:227
 msgid "Success!"
 msgstr "Klart!"
 
-#: wp-admin/install.php:227
+#: wp-admin/install.php:229
 msgid ""
 "WordPress has been installed. Were you expecting more steps? Sorry to "
 "disappoint."
@@ -8227,7 +8219,7 @@ msgstr "Hittade inte länken."
 msgid "WordPress &rsaquo; Database Repair"
 msgstr "WordPress &rsaquo; Databasreparation"
 
-#: wp-admin/maint/repair.php:91
+#: wp-admin/maint/repair.php:93
 msgid ""
 "Some database problems could not be repaired. Please copy-and-paste the "
 "following list of errors to the <a href=\"%s\">WordPress support forums</a> "
@@ -8237,11 +8229,11 @@ msgstr ""
 "följande rader av felmeddelanden i <a href=\"%s\">WordPress supportforum</a> "
 "för att få assistans."
 
-#: wp-admin/maint/repair.php:105
+#: wp-admin/maint/repair.php:107
 msgid "Repair Database"
 msgstr "Reparera databas"
 
-#: wp-admin/maint/repair.php:107
+#: wp-admin/maint/repair.php:109
 msgid "Repair and Optimize Database"
 msgstr "Reparera och optimera databas"
 
@@ -8323,7 +8315,7 @@ msgstr "Skriva"
 msgid "Reading"
 msgstr "Läsa"
 
-#: wp-admin/install.php:133
+#: wp-admin/install.php:135
 msgid "Privacy"
 msgstr "Integritet"
 
@@ -9619,7 +9611,7 @@ msgstr "Visuell redigerare"
 msgid "Disable the visual editor when writing"
 msgstr "Stäng av den visuella redigeraren när du skriver"
 
-#: wp-admin/includes/misc.php:533 wp-admin/user-edit.php:213
+#: wp-admin/includes/misc.php:534 wp-admin/user-edit.php:213
 msgid "Admin Color Scheme"
 msgstr "Färgschema för adminpanel"
 
@@ -11478,11 +11470,6 @@ msgstr "Från adressen"
 msgid "Gallery"
 msgstr "Galleri"
 
-#: wp-admin/custom-background.php:415 wp-admin/custom-header.php:937
-#: wp-admin/includes/media.php:21 wp-admin/upload.php:141
-msgid "Media Library"
-msgstr "Mediabibliotek"
-
 #: wp-admin/includes/media.php:53
 msgid "Gallery (%s)"
 msgstr "Galleri (%s)"
@@ -12254,7 +12241,7 @@ msgctxt "User role"
 msgid "Subscriber"
 msgstr "Prenumerant"
 
-#: wp-admin/includes/schema.php:903 wp-admin/includes/upgrade.php:135
+#: wp-admin/includes/schema.php:907 wp-admin/includes/upgrade.php:135
 msgid ""
 "Welcome to <a href=\"SITE_URL\">SITE_NAME</a>. This is your first post. Edit "
 "or delete it, then start blogging!"
@@ -12262,7 +12249,7 @@ msgstr ""
 "Välkommen till <a href=\"SITE_URL\">SITE_NAME</a>. Det här är ditt första "
 "inlägg. Redigera eller radera det. Sen är det bara att börja blogga!"
 
-#: wp-admin/includes/schema.php:962
+#: wp-admin/includes/schema.php:966
 msgid "Warning! Wildcard DNS may not be configured correctly!"
 msgstr "Varning! Joker-dns-posten är kanske inte korrekt konfigurerad!"
 
