@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-10-31 23:05+0100\n"
+"PO-Revision-Date: 2012-11-03 12:48+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,15 +20,31 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
+#: wp-includes/script-loader.php:341
+msgid "Continue editing"
+msgstr "Fortsätt redigera"
+
+#: wp-includes/script-loader.php:329
+msgid "Add images"
+msgstr "Lägg till bilder"
+
+#: wp-includes/script-loader.php:339
+msgid "Insert gallery"
+msgstr "Infoga galleri"
+
+#: wp-includes/media.php:1450
+msgid "Gallery Columns"
+msgstr "Kolumner för galleri"
+
 #: wp-includes/media.php:1308
 msgid "Drop files to upload"
 msgstr "Släpp filer för att ladda upp"
 
-#: wp-includes/script-loader.php:330
+#: wp-includes/script-loader.php:332
 msgid "Media Library"
 msgstr "Mediabibliotek"
 
-#: wp-includes/script-loader.php:336
+#: wp-includes/script-loader.php:338
 msgid "Create Gallery"
 msgstr "Skapa galleri"
 
@@ -89,15 +105,15 @@ msgstr ""
 "\n"
 "Inaktivera dessa notifikationer: %3$s"
 
-#: wp-includes/media.php:1423
+#: wp-includes/media.php:1425 wp-includes/media.php:1440
 msgid "Link To"
 msgstr "Länk till"
 
-#: wp-includes/media.php:1426
+#: wp-includes/media.php:1428 wp-includes/media.php:1443
 msgid "Attachment Page"
 msgstr "Sida för bilaga"
 
-#: wp-includes/media.php:1429
+#: wp-includes/media.php:1431 wp-includes/media.php:1446
 msgid "Media File"
 msgstr "Mediafil"
 
@@ -105,25 +121,21 @@ msgstr "Mediafil"
 msgid "No editor could be selected"
 msgstr "Ingen redigerare kunde väljas"
 
-#: wp-includes/media.php:1344 wp-includes/media.php:1378
+#: wp-includes/media.php:1346 wp-includes/media.php:1380
 msgid "Describe this image&hellip;"
 msgstr "Beskriv denna bild&hellip;"
 
-#: wp-includes/media.php:1349 wp-includes/media.php:1383
+#: wp-includes/media.php:1351 wp-includes/media.php:1385
 msgid "Describe this video&hellip;"
 msgstr "Beskriv denna video&hellip;"
 
-#: wp-includes/media.php:1351 wp-includes/media.php:1385
+#: wp-includes/media.php:1353 wp-includes/media.php:1387
 msgid "Describe this audio file&hellip;"
 msgstr "Beskriv denna ljudfil&hellip;"
 
-#: wp-includes/media.php:1353 wp-includes/media.php:1387
+#: wp-includes/media.php:1355 wp-includes/media.php:1389
 msgid "Describe this media file&hellip;"
 msgstr "Beskriv denna mediafil&hellip;"
-
-#: wp-includes/script-loader.php:338
-msgid "Continue editing gallery"
-msgstr "Fortsätt redigera galleri"
 
 #: wp-includes/script-loader.php:340
 msgid "Update gallery"
@@ -205,29 +217,17 @@ msgstr "Oops, angiven data är ogiltig."
 msgid "Insert Media"
 msgstr "Infoga media"
 
-#: wp-includes/script-loader.php:331
+#: wp-includes/script-loader.php:333
 msgid "Create a new gallery"
 msgstr "Skapa ett nytt galleri"
 
-#: wp-includes/script-loader.php:332
+#: wp-includes/script-loader.php:334
 msgid "Insert into post"
 msgstr "Infoga i innehåll"
 
-#: wp-includes/script-loader.php:333
+#: wp-includes/script-loader.php:335
 msgid "Add to gallery"
 msgstr "Lägg till i galleri"
-
-#: wp-includes/script-loader.php:337
-msgid "Return to media library"
-msgstr "Gå tillbaka till mediabiblioteket"
-
-#: wp-includes/script-loader.php:339
-msgid "Insert gallery into post"
-msgstr "Infoga galleri i innehåll"
-
-#: wp-includes/script-loader.php:341
-msgid "Add images from media library"
-msgstr "Lägg till bilder från mediabiblioteket"
 
 #: wp-includes/script-loader.php:449
 msgid "Clear"
@@ -336,7 +336,7 @@ msgstr "eller"
 msgid "Select Files"
 msgstr "Välj filer"
 
-#: wp-includes/media.php:1402
+#: wp-includes/media.php:1404
 msgid "Clear selection"
 msgstr "Rensa val"
 
@@ -1537,8 +1537,8 @@ msgid "Allow link notifications from other blogs (pingbacks and trackbacks)"
 msgstr ""
 "Tillåt länknotifikationer från andra bloggar (pingbacks och trackbacks)"
 
-#: wp-includes/capabilities.php:584 wp-includes/capabilities.php:604
-#: wp-includes/capabilities.php:630
+#: wp-includes/capabilities.php:590 wp-includes/capabilities.php:610
+#: wp-includes/capabilities.php:636
 msgid "Use <code>WP_User->ID</code> instead."
 msgstr "Använd <code>WP_User->ID</code> istället."
 
@@ -2214,7 +2214,7 @@ msgstr ""
 msgid "Permalink: %s"
 msgstr "Permalänk: %s"
 
-#: wp-includes/post.php:5285
+#: wp-includes/post.php:5283
 msgctxt "Post format"
 msgid "Standard"
 msgstr "Standard"
@@ -2236,7 +2236,7 @@ msgctxt "admin bar menu group label"
 msgid "Add New"
 msgstr "Skapa/lägg till"
 
-#: wp-includes/post.php:5294
+#: wp-includes/post.php:5292
 msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
@@ -2273,42 +2273,42 @@ msgstr ""
 "Att passerar antalet poster är föråldrat. Passera en array av argument "
 "istället."
 
-#: wp-includes/post.php:5286
+#: wp-includes/post.php:5284
 msgctxt "Post format"
 msgid "Aside"
 msgstr "Notering"
 
-#: wp-includes/post.php:5287
+#: wp-includes/post.php:5285
 msgctxt "Post format"
 msgid "Chat"
 msgstr "Chat"
 
-#: wp-includes/post.php:5288
+#: wp-includes/post.php:5286
 msgctxt "Post format"
 msgid "Gallery"
 msgstr "Galleri "
 
-#: wp-includes/post.php:5289
+#: wp-includes/post.php:5287
 msgctxt "Post format"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/post.php:5290
+#: wp-includes/post.php:5288
 msgctxt "Post format"
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/post.php:5291
+#: wp-includes/post.php:5289
 msgctxt "Post format"
 msgid "Quote"
 msgstr "Citat"
 
-#: wp-includes/post.php:5292
+#: wp-includes/post.php:5290
 msgctxt "Post format"
 msgid "Status"
 msgstr "Status"
 
-#: wp-includes/post.php:5293
+#: wp-includes/post.php:5291
 msgctxt "Post format"
 msgid "Video"
 msgstr "Video"
@@ -6349,11 +6349,11 @@ msgstr "Kunde inte infoga inlägget i databasen"
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:5036
+#: wp-includes/post.php:5034
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:5211
+#: wp-includes/post.php:5209
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
@@ -7507,7 +7507,7 @@ msgstr "Senast uppdaterat: %s"
 msgid "Bookmarks"
 msgstr "Bokmärken"
 
-#: wp-includes/capabilities.php:914
+#: wp-includes/capabilities.php:920
 msgid ""
 "Usage of user levels by plugins and themes is deprecated. Use roles and "
 "capabilities instead."
@@ -7658,7 +7658,7 @@ msgstr "Kommentar"
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
 
-#: wp-includes/media.php:1460
+#: wp-includes/media.php:1482
 msgid "Edit"
 msgstr "Redigera"
 
@@ -7692,7 +7692,7 @@ msgstr "Kommentarer"
 msgid "Publish"
 msgstr "Publicera"
 
-#: wp-includes/post.php:4846
+#: wp-includes/post.php:4844
 msgid "Excerpt"
 msgstr "Utdrag"
 
@@ -7751,8 +7751,8 @@ msgid "Advanced"
 msgstr "Avancerat"
 
 #: wp-includes/deprecated.php:707
-#: wp-includes/js/tinymce/langs/wp-langs.php:520 wp-includes/media.php:1419
-#: wp-includes/media.php:1432
+#: wp-includes/js/tinymce/langs/wp-langs.php:520 wp-includes/media.php:1421
+#: wp-includes/media.php:1434
 msgid "None"
 msgstr "Ingen"
 
@@ -7817,11 +7817,12 @@ msgstr "Senaste kommentarer"
 
 #: wp-includes/class-wp-editor.php:852
 #: wp-includes/js/tinymce/langs/wp-langs.php:22
-#: wp-includes/script-loader.php:313 wp-includes/script-loader.php:384
+#: wp-includes/script-loader.php:313 wp-includes/script-loader.php:328
+#: wp-includes/script-loader.php:384
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: wp-includes/post.php:4845
+#: wp-includes/post.php:4843
 msgid "Content"
 msgstr "Innehåll"
 
@@ -7929,21 +7930,21 @@ msgstr "Sparat."
 #: wp-includes/class-wp-customize-manager.php:854
 #: wp-includes/js/tinymce/langs/wp-langs.php:82
 #: wp-includes/js/tinymce/langs/wp-langs.php:375
-#: wp-includes/js/tinymce/langs/wp-langs.php:474 wp-includes/media.php:1410
+#: wp-includes/js/tinymce/langs/wp-langs.php:474 wp-includes/media.php:1412
 msgid "Left"
 msgstr "Vänster"
 
 #: wp-includes/class-wp-customize-manager.php:855
 #: wp-includes/js/tinymce/langs/wp-langs.php:83
 #: wp-includes/js/tinymce/langs/wp-langs.php:454
-#: wp-includes/js/tinymce/langs/wp-langs.php:475 wp-includes/media.php:1413
+#: wp-includes/js/tinymce/langs/wp-langs.php:475 wp-includes/media.php:1415
 msgid "Center"
 msgstr "Centrerat"
 
 #: wp-includes/class-wp-customize-manager.php:856
 #: wp-includes/js/tinymce/langs/wp-langs.php:84
 #: wp-includes/js/tinymce/langs/wp-langs.php:376
-#: wp-includes/js/tinymce/langs/wp-langs.php:472 wp-includes/media.php:1416
+#: wp-includes/js/tinymce/langs/wp-langs.php:472 wp-includes/media.php:1418
 msgid "Right"
 msgstr "Höger"
 
@@ -7960,7 +7961,7 @@ msgid "Size"
 msgstr "Storlek"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:81
-#: wp-includes/js/tinymce/langs/wp-langs.php:368 wp-includes/media.php:1407
+#: wp-includes/js/tinymce/langs/wp-langs.php:368 wp-includes/media.php:1409
 msgid "Alignment"
 msgstr "Justering"
 
