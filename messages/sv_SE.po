@@ -2,18 +2,96 @@
 # This file is distributed under the same license as the Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-12-10 15:11+0100\n"
+"PO-Revision-Date: 2013-03-15 05:15+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "Project-Id-Version: WordPress sv_SE\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wpsv.se>\n"
 "Language: Svenska\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: wp-includes/comment-template.php:1449
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">skriver:</span>"
+
+#: wp-includes/comment-template.php:1455
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s kl. %2$s"
+
+#: wp-includes/general-template.php:163
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: wp-includes/general-template.php:167
+msgctxt "label"
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: wp-includes/general-template.php:169
+msgctxt "submit button"
+msgid "Search"
+msgstr "Sök"
+
+#: wp-includes/post-template.php:1487
+msgid " ago "
+msgstr "sedan"
+
+#: wp-login.php:671
+msgid "Please log in again. You will not move away from this page."
+msgstr "Vänligen logga in igen. Du kommer inte att förflyttas från denna sida."
+
+#: wp-includes/post-template.php:1311 wp-includes/post-template.php:1485
+msgctxt "revision date format"
+msgid "j F, Y @ G:i:s"
+msgstr "j F, Y @ H:i:s"
+
+#: wp-includes/post-template.php:1324
+msgid "ago"
+msgstr "sedan"
+
+#: wp-includes/functions.php:3994
+msgid "Session expired"
+msgstr "Sessionen har gått ut"
+
+#: wp-includes/functions.php:3995
+msgid "close"
+msgstr "stäng"
+
+#: wp-includes/taxonomy.php:447
+msgid "No tags found."
+msgstr "Inga etiketter funna."
+
+#: wp-includes/default-widgets.php:321
+msgctxt "meta widget link text"
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+#: wp-includes/functions.wp-scripts.php:127
+msgid ""
+"Do not deregister the %1$s script in the administration area. To target the "
+"frontend theme, use the %2$s hook."
+msgstr ""
+"Avregistrera inte skriptet %1$s i adminpanelen. För att rikta sig mot temat "
+"på sidan, använd hooken %2$s."
+
+#: wp-includes/class-wp-xmlrpc-server.php:321
+msgid "WordPress Address (URL)"
+msgstr "WordPressadress (URL)"
+
+#: wp-includes/class-wp-xmlrpc-server.php:326
+msgid "Site Address (URL)"
+msgstr "Webbplatsadress (URL)"
+
+#: wp-includes/user.php:1456
+msgid "Invalid user ID."
+msgstr "Ogiltigt användar-ID"
 
 #: wp-includes/media-template.php:372
 msgid "Random Order"
@@ -23,15 +101,15 @@ msgstr "Slumpvis ordning"
 msgid "Caption this image&hellip;"
 msgstr "Ge bilden en bildtext&hellip;"
 
-#: wp-includes/media.php:1492
+#: wp-includes/media.php:1494
 msgid "%d selected"
 msgstr "%d valda"
 
-#: wp-includes/media.php:1511
+#: wp-includes/media.php:1513
 msgid "Insert from URL"
 msgstr "Infoga från URL"
 
-#: wp-includes/media.php:1514
+#: wp-includes/media.php:1516
 msgid "Set Featured Image"
 msgstr "Ange utvald bild"
 
@@ -40,19 +118,19 @@ msgctxt "Links widget"
 msgid "Random"
 msgstr "Slumpvis"
 
-#: wp-includes/media.php:1505
+#: wp-includes/media.php:1507
 msgid "No items found."
 msgstr "Inga objekt funna."
 
-#: wp-includes/media.php:1524
+#: wp-includes/media.php:1526
 msgid "Add to Gallery"
 msgstr "Lägg till i galleri"
 
-#: wp-includes/media.php:1525
+#: wp-includes/media.php:1527
 msgid "Reverse order"
 msgstr "Omvänd ordning"
 
-#: wp-includes/media.php:1515
+#: wp-includes/media.php:1517
 msgid "Set featured image"
 msgstr "Ange utvald bild"
 
@@ -60,8 +138,8 @@ msgstr "Ange utvald bild"
 msgid "Deselect"
 msgstr "Avmarkera"
 
-#: wp-includes/class-wp-xmlrpc-server.php:3831
-#: wp-includes/class-wp-xmlrpc-server.php:3841
+#: wp-includes/class-wp-xmlrpc-server.php:3834
+#: wp-includes/class-wp-xmlrpc-server.php:3844
 msgid "Sorry, that file cannot be edited."
 msgstr "Ledsen, den filen kan inte redigeras."
 
@@ -75,7 +153,7 @@ msgstr ""
 "multifilsuppladdaren. Vänligen använd den <a href=\"%1$s\" target=\"%2$s"
 "\">webbläsarbaserade uppladdaren</a> för filer över 100MB."
 
-#: wp-includes/media.php:1508
+#: wp-includes/media.php:1510
 msgid ""
 "You are about to permanently delete this item.\n"
 "  'Cancel' to stop, 'OK' to delete."
@@ -103,7 +181,7 @@ msgstr "Ignorera fel"
 msgid "Error"
 msgstr "Fel"
 
-#: wp-includes/media.php:1187
+#: wp-includes/media.php:1182
 msgid "No editor could be selected."
 msgstr "Ingen redigerare kunde väljas."
 
@@ -111,61 +189,61 @@ msgstr "Ingen redigerare kunde väljas."
 msgid "Uploading"
 msgstr "Laddar upp"
 
-#: wp-includes/post.php:2194
+#: wp-includes/post.php:2126
 msgid "Manage Images"
 msgstr "Hantera bilder"
 
-#: wp-includes/post.php:2194
+#: wp-includes/post.php:2126
 msgid "Image <span class=\"count\">(%s)</span>"
 msgid_plural "Images <span class=\"count\">(%s)</span>"
 msgstr[0] "Bild <span class=\"count\">(%s)</span>"
 msgstr[1] "Bilder <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:2195
+#: wp-includes/post.php:2127
 msgid "Manage Audio"
 msgstr "Hantera ljud"
 
-#: wp-includes/post.php:2195
+#: wp-includes/post.php:2127
 msgid "Audio <span class=\"count\">(%s)</span>"
 msgid_plural "Audio <span class=\"count\">(%s)</span>"
 msgstr[0] "Ljud <span class=\"count\">(%s)</span>"
 msgstr[1] "Ljud <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:2196
+#: wp-includes/post.php:2128
 msgid "Video"
 msgstr "Video"
 
-#: wp-includes/post.php:2196
+#: wp-includes/post.php:2128
 msgid "Manage Video"
 msgstr "Hantera videos"
 
-#: wp-includes/post.php:2196
+#: wp-includes/post.php:2128
 msgid "Video <span class=\"count\">(%s)</span>"
 msgid_plural "Video <span class=\"count\">(%s)</span>"
 msgstr[0] "Video <span class=\"count\">(%s)</span>"
 msgstr[1] "Videos <span class=\"count\">(%s)</span>"
 
-#: wp-includes/media.php:1506
+#: wp-includes/media.php:1508
 msgid "Insert into page"
 msgstr "Infoga på sida"
 
-#: wp-includes/media.php:1507
+#: wp-includes/media.php:1509
 msgid "Uploaded to this page"
 msgstr "Ladda upp till denna sida"
 
-#: wp-includes/media.php:1504
+#: wp-includes/media.php:1506
 msgid "All media items"
 msgstr "Alla mediaobjekt"
 
-#: wp-includes/media.php:1507
+#: wp-includes/media.php:1509
 msgid "Uploaded to this post"
 msgstr "Uppladdat till detta inlägg"
 
-#: wp-includes/post.php:2195
+#: wp-includes/post.php:2127
 msgid "Audio"
 msgstr "Ljud"
 
-#: wp-includes/media.php:1503
+#: wp-includes/media.php:1505
 msgid "&#8592; Return to library"
 msgstr "&#8592; Tillbaka till bibliotek"
 
@@ -185,11 +263,11 @@ msgstr "Alt text"
 msgid "Columns"
 msgstr "Kolumner"
 
-#: wp-includes/media.php:1493
+#: wp-includes/media.php:1495
 msgid "Drag and drop to reorder images."
 msgstr "Dra och släpp för att ändra ordning på bilderna."
 
-#: wp-includes/media-template.php:321 wp-includes/media.php:1367
+#: wp-includes/media-template.php:321 wp-includes/media.php:1362
 msgid "Large"
 msgstr "Stor"
 
@@ -201,15 +279,15 @@ msgstr "Inställningar för bilagsvisning"
 msgid "Gallery Settings"
 msgstr "Inställningar för galleri"
 
-#: wp-includes/media.php:1497
+#: wp-includes/media.php:1499
 msgid "Upload Images"
 msgstr "Ladda upp bilder"
 
-#: wp-includes/media.php:1520
+#: wp-includes/media.php:1522
 msgid "&#8592; Cancel Gallery"
 msgstr "&#8592; Avsluta galleri"
 
-#: wp-includes/ms-functions.php:1688
+#: wp-includes/ms-functions.php:1651
 msgid "WordPress &rsaquo; Success"
 msgstr "WordPress &rsaquo; Klart"
 
@@ -217,11 +295,11 @@ msgstr "WordPress &rsaquo; Klart"
 msgid "Drop files anywhere to upload"
 msgstr "Släpp filer varsomhelst för att ladda upp"
 
-#: wp-includes/media.php:1496
+#: wp-includes/media.php:1498
 msgid "Upload Files"
 msgstr "Ladda upp filer"
 
-#: wp-includes/media.php:1521
+#: wp-includes/media.php:1523
 msgid "Insert gallery"
 msgstr "Infoga galleri"
 
@@ -229,15 +307,15 @@ msgstr "Infoga galleri"
 msgid "Drop files to upload"
 msgstr "Släpp filer för att ladda upp"
 
-#: wp-includes/media.php:1500
+#: wp-includes/media.php:1502
 msgid "Media Library"
 msgstr "Mediabibliotek"
 
-#: wp-includes/media.php:1518
+#: wp-includes/media.php:1520
 msgid "Create Gallery"
 msgstr "Skapa galleri"
 
-#: wp-includes/ms-functions.php:793
+#: wp-includes/ms-functions.php:784
 msgid ""
 "To activate your user, please click the following link:\n"
 "\n"
@@ -252,11 +330,11 @@ msgstr ""
 "När du aktiverat din användare så kommer du att få *ytterligare ett mail* "
 "med dina inloggningsuppgifter."
 
-#: wp-includes/ms-functions.php:1142
+#: wp-includes/ms-functions.php:1131
 msgid "Already Installed"
 msgstr "Redan installerat"
 
-#: wp-includes/ms-functions.php:1142
+#: wp-includes/ms-functions.php:1131
 msgid ""
 "You appear to have already installed WordPress. To reinstall please clear "
 "your old database tables first."
@@ -264,11 +342,11 @@ msgstr ""
 "Du verkar redan ha installerat WordPress. För att installera om, rensa "
 "tabellerna i din databas först."
 
-#: wp-includes/taxonomy.php:335
+#: wp-includes/taxonomy.php:336
 msgid "Taxonomies cannot exceed 32 characters in length"
 msgstr "Taxonomier kan inte bestå av mer än 32 tecken"
 
-#: wp-includes/ms-functions.php:1027
+#: wp-includes/ms-functions.php:1015
 msgid ""
 "New Site: %1$s\n"
 "URL: %2$s\n"
@@ -282,7 +360,7 @@ msgstr ""
 "\n"
 "Inaktivera dessa notifikationer: %4$s"
 
-#: wp-includes/ms-functions.php:1062
+#: wp-includes/ms-functions.php:1050
 msgid ""
 "New User: %1$s\n"
 "Remote IP: %2$s\n"
@@ -299,11 +377,11 @@ msgstr ""
 msgid "Link To"
 msgstr "Länk till"
 
-#: wp-includes/media-template.php:295 wp-includes/media-template.php:351
+#: wp-includes/media-template.php:298 wp-includes/media-template.php:354
 msgid "Attachment Page"
 msgstr "Sida för bilaga"
 
-#: wp-includes/media-template.php:298 wp-includes/media-template.php:354
+#: wp-includes/media-template.php:295 wp-includes/media-template.php:351
 msgid "Media File"
 msgstr "Mediafil"
 
@@ -319,7 +397,7 @@ msgstr "Beskriv denna ljudfil&hellip;"
 msgid "Describe this media file&hellip;"
 msgstr "Beskriv denna mediafil&hellip;"
 
-#: wp-includes/media.php:1522
+#: wp-includes/media.php:1524
 msgid "Update gallery"
 msgstr "Uppdatera galleri"
 
@@ -327,11 +405,11 @@ msgstr "Uppdatera galleri"
 msgid "The requested user does not exist."
 msgstr "Den efterfrågade användaren finns inte."
 
-#: wp-includes/ms-functions.php:472
+#: wp-includes/ms-functions.php:469
 msgid "Please enter a valid email address."
 msgstr "Vänligen ange en giltig e-postadress."
 
-#: wp-login.php:318
+#: wp-login.php:330
 msgid ""
 "<strong>ERROR</strong>: This username is already registered. Please choose "
 "another one."
@@ -391,39 +469,39 @@ msgstr "Lägg till ny"
 msgid "View Attachment Page"
 msgstr "Visa sidan för bilaga"
 
-#: wp-includes/post.php:2797
+#: wp-includes/post.php:2729
 msgid "Whoops, the provided date is invalid."
 msgstr "Oops, angiven data är ogiltig."
 
-#: wp-includes/media.php:1501
+#: wp-includes/media.php:1503
 msgid "Insert Media"
 msgstr "Infoga media"
 
-#: wp-includes/media.php:1502
+#: wp-includes/media.php:1504
 msgid "Create a new gallery"
 msgstr "Skapa ett nytt galleri"
 
-#: wp-includes/media.php:1506
+#: wp-includes/media.php:1508
 msgid "Insert into post"
 msgstr "Infoga i innehåll"
 
-#: wp-includes/media.php:1523
+#: wp-includes/media.php:1525
 msgid "Add to gallery"
 msgstr "Lägg till i galleri"
 
-#: wp-includes/media-template.php:248 wp-includes/script-loader.php:435
+#: wp-includes/media-template.php:248 wp-includes/script-loader.php:446
 msgid "Clear"
 msgstr "Rensa"
 
-#: wp-includes/script-loader.php:437
+#: wp-includes/script-loader.php:448
 msgid "Select Color"
 msgstr "Välj färg"
 
-#: wp-includes/script-loader.php:438
+#: wp-includes/script-loader.php:449
 msgid "Current Color"
 msgstr "Nuvarande färg"
 
-#: wp-includes/taxonomy.php:2238
+#: wp-includes/taxonomy.php:2242
 msgid "Could not insert term relationship into the database"
 msgstr "Kunde inte infoga termrelation i databasen"
 
@@ -444,15 +522,15 @@ msgstr "Tjänsten för XML-RPC är inaktiverad för denna webbplats."
 msgid "There is a revision of this post that is more recent."
 msgstr "Det finns en version av det här inlägget som är nyare."
 
-#: wp-includes/general-template.php:1635
+#: wp-includes/general-template.php:1633
 msgid "%1$s %2$s %3$s Feed"
 msgstr "Flöde för %1$s %2$s %3$s"
 
-#: wp-includes/default-widgets.php:622
+#: wp-includes/default-widgets.php:625
 msgid "Display post date?"
 msgstr "Visa inläggsdatum?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4125
+#: wp-includes/class-wp-xmlrpc-server.php:4128
 msgid "You are not allowed to create pages as this user."
 msgstr "Du saknar behörighet för att kunna skapa sidor som denna användare."
 
@@ -462,10 +540,6 @@ msgstr "Du saknar behörighet för att kunna skapa sidor som denna användare."
 #: wp-includes/class-wp-xmlrpc-server.php:3599
 msgid "Invalid post ID"
 msgstr "Ogiltigt inläggs-ID"
-
-#: wp-includes/class-wp-xmlrpc-server.php:326
-msgid "Home URL"
-msgstr "Hem URL"
 
 #: wp-includes/class-wp-xmlrpc-server.php:2037
 msgid "Sorry, you cannot edit users."
@@ -636,15 +710,15 @@ msgstr "Textfärg för sidhuvud"
 msgid "Colors"
 msgstr "Färger"
 
-#: wp-includes/script-loader.php:315
+#: wp-includes/script-loader.php:326
 msgid "Save &amp; Activate"
 msgstr "Spara &amp; aktivera"
 
-#: wp-includes/script-loader.php:317
+#: wp-includes/script-loader.php:328
 msgid "Saved"
 msgstr "Sparat"
 
-#: wp-login.php:667
+#: wp-login.php:673
 msgid ""
 "<strong>You have successfully updated WordPress!</strong> Please log back in "
 "to experience the awesomeness."
@@ -652,7 +726,7 @@ msgstr ""
 "<strong>WordPress har uppdaterats!</strong> Logga in igen för att ta del av "
 "allt grymt som erbjuds."
 
-#: wp-includes/script-loader.php:316
+#: wp-includes/script-loader.php:327
 msgid "Save &amp; Publish"
 msgstr "Spara &amp; publicera"
 
@@ -660,7 +734,7 @@ msgstr "Spara &amp; publicera"
 msgid "Select File"
 msgstr "Välj fil"
 
-#: wp-includes/admin-bar.php:589
+#: wp-includes/admin-bar.php:591
 msgid "Customize"
 msgstr "Anpassa"
 
@@ -672,11 +746,11 @@ msgstr "Otillräckligt med argument skickades för denna XML-RPC-metod."
 msgid "Sorry, you cannot stick a private post."
 msgstr "Du kan inte klistra ett privat inlägg."
 
-#: wp-content/plugins/akismet/admin.php:142
+#: wp-content/plugins/akismet/admin.php:141
 msgid "This key is invalid."
 msgstr "Denna nyckel är ogiltig."
 
-#: wp-content/plugins/akismet/admin.php:336
+#: wp-content/plugins/akismet/admin.php:318
 msgid ""
 "Some comments have not yet been checked for spam by Akismet. They have been "
 "temporarily held for moderation. Please check your <a href=\"%s\">Akismet "
@@ -687,7 +761,7 @@ msgstr ""
 "\">konfiguration av Akismet</a> och kontakta ditt webbhotell om problemen "
 "kvarstår."
 
-#: wp-content/plugins/akismet/admin.php:358
+#: wp-content/plugins/akismet/admin.php:340
 msgid "Awaiting spam check"
 msgstr "Inväntar skräppostkontroll"
 
@@ -754,31 +828,31 @@ msgstr "textriktning"
 msgid "Toggle Editor Text Direction"
 msgstr "Växla textriktning i redigeraren"
 
-#: wp-includes/ms-functions.php:571
+#: wp-includes/ms-functions.php:565
 msgid "Site name must be at least 4 characters."
 msgstr "Webbplatsnamn måste bestå av minst 4 tecken."
 
-#: wp-includes/ms-functions.php:562
+#: wp-includes/ms-functions.php:556
 msgid "Please enter a site name."
 msgstr "Ange ett webbplatsnamn."
 
-#: wp-includes/ms-functions.php:454
+#: wp-includes/ms-functions.php:451
 msgid "That username is not allowed."
 msgstr "Det användarnamnet är inte tillåtet."
 
-#: wp-includes/ms-functions.php:446
+#: wp-includes/ms-functions.php:443
 msgid "Please enter a username."
 msgstr "Ange ett användarnamn."
 
-#: wp-includes/ms-functions.php:591
+#: wp-includes/ms-functions.php:585
 msgid "Please enter a site title."
 msgstr "Ange en webbplatstitel."
 
-#: wp-includes/ms-functions.php:568
+#: wp-includes/ms-functions.php:562
 msgid "That name is not allowed."
 msgstr "Det namnet är inte tillåtet."
 
-#: wp-includes/ms-functions.php:460
+#: wp-includes/ms-functions.php:457
 msgid "Username must be at least 4 characters."
 msgstr "Användarnamn måste bestå av minst 4 tecken."
 
@@ -786,7 +860,7 @@ msgstr "Användarnamn måste bestå av minst 4 tecken."
 msgid "A static page"
 msgstr "En statisk sida"
 
-#: wp-includes/class-wp-theme.php:208
+#: wp-includes/class-wp-theme.php:209
 msgid "The theme directory does not exist."
 msgstr "Temamappen existerar inte."
 
@@ -872,7 +946,7 @@ msgstr "Ladda upp"
 msgid "Remove"
 msgstr "Ta bort"
 
-#: wp-includes/media.php:1264 wp-includes/script-loader.php:323
+#: wp-includes/media.php:1259 wp-includes/script-loader.php:334
 msgid "Allowed Files"
 msgstr "Tillåtna filer"
 
@@ -952,7 +1026,7 @@ msgstr "Länk-ID"
 msgid "Number of links to show:"
 msgstr "Antal länkar att visa:"
 
-#: wp-includes/class-wp-theme.php:214
+#: wp-includes/class-wp-theme.php:215
 msgid ""
 "ERROR: The themes directory is either empty or doesn&#8217;t exist. Please "
 "check your installation."
@@ -960,11 +1034,11 @@ msgstr ""
 "FEL: Mappen för teman är antingen tom eller saknas. Kontrollera din "
 "installation."
 
-#: wp-includes/class-wp-theme.php:218
+#: wp-includes/class-wp-theme.php:219
 msgid "Stylesheet is not readable."
 msgstr "Stilmallen är inte läsbar."
 
-#: wp-includes/class-wp-theme.php:267 wp-includes/class-wp-theme.php:271
+#: wp-includes/class-wp-theme.php:268 wp-includes/class-wp-theme.php:272
 msgid "The \"%s\" theme is not a valid parent theme."
 msgstr "Temat \"%s\" är inte ett giltigt grundtema."
 
@@ -1022,13 +1096,13 @@ msgstr "Stilar"
 msgid "Use left and right arrows to navigate."
 msgstr "Använd höger och vänster piltangenter för att navigera."
 
-#: wp-includes/formatting.php:2180 wp-includes/script-loader.php:303
+#: wp-includes/formatting.php:2212 wp-includes/script-loader.php:314
 msgctxt "word count: words or characters?"
 msgid "words"
 msgstr "ord"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1013
-#: wp-includes/class-wp-xmlrpc-server.php:4384
+#: wp-includes/class-wp-xmlrpc-server.php:4387
 msgid "The post type may not be changed."
 msgstr "Inläggstypen kan inte ändras."
 
@@ -1048,13 +1122,13 @@ msgstr "Standardjustering för bilder"
 msgid "Sorry, you are not allowed to edit this post."
 msgstr "Du saknar behörighet för att redigera detta inlägg."
 
-#: wp-includes/post.php:3190 wp-includes/script-loader.php:391
-#: wp-includes/script-loader.php:416
+#: wp-includes/post.php:3158 wp-includes/script-loader.php:400
+#: wp-includes/script-loader.php:427
 msgctxt "tag delimiter"
 msgid ","
 msgstr ","
 
-#: wp-includes/admin-bar.php:255
+#: wp-includes/admin-bar.php:257
 msgid "Edit Site"
 msgstr "Redigera webbplats"
 
@@ -1063,7 +1137,7 @@ msgid "Sorry, you are not allowed to edit posts in this post type"
 msgstr "Du saknar behörighet för att redigera inlägg för denna posttyp"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1049
-#: wp-includes/class-wp-xmlrpc-server.php:4133
+#: wp-includes/class-wp-xmlrpc-server.php:4136
 msgid "Invalid author ID."
 msgstr "Ogiltigt författar-ID."
 
@@ -1095,10 +1169,10 @@ msgstr "Posttypen specificerad är ogiltig."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1003
 #: wp-includes/class-wp-xmlrpc-server.php:3432
-#: wp-includes/class-wp-xmlrpc-server.php:4070
-#: wp-includes/class-wp-xmlrpc-server.php:4128
-#: wp-includes/class-wp-xmlrpc-server.php:4380
-#: wp-includes/class-wp-xmlrpc-server.php:4432
+#: wp-includes/class-wp-xmlrpc-server.php:4073
+#: wp-includes/class-wp-xmlrpc-server.php:4131
+#: wp-includes/class-wp-xmlrpc-server.php:4383
+#: wp-includes/class-wp-xmlrpc-server.php:4435
 msgid "Invalid post type"
 msgstr "Ogiltig posttyp"
 
@@ -1111,7 +1185,7 @@ msgstr ""
 "posttyp"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1044
-#: wp-includes/class-wp-xmlrpc-server.php:4121
+#: wp-includes/class-wp-xmlrpc-server.php:4124
 msgid "You are not allowed to create posts as this user."
 msgstr "Du saknar behörighet för att skapa inlägg som denna användare."
 
@@ -1148,7 +1222,7 @@ msgstr ""
 "Svenska=sv,Engelska=en,Danska=da,Holländska=nl,Finska=fi,Franska=fr,Tyska=de,"
 "Italienska=it,Polska=pl,Portugisiska=pt,Spanska=es"
 
-#: wp-includes/formatting.php:37 wp-includes/formatting.php:3270
+#: wp-includes/formatting.php:37 wp-includes/formatting.php:3310
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr "&#8221;"
@@ -1183,7 +1257,7 @@ msgctxt "closing curly single quote"
 msgid "&#8217;"
 msgstr "&#8217;"
 
-#: wp-signup.php:98
+#: wp-signup.php:117
 msgid "Allow search engines to index this site."
 msgstr "Tillåt sökmotorer att indexera denna webbplats."
 
@@ -1219,20 +1293,20 @@ msgstr ""
 msgid "Create a Configuration File"
 msgstr "Skapa en konfigurationsfil"
 
-#: wp-content/plugins/akismet/admin.php:164
+#: wp-content/plugins/akismet/admin.php:163
 msgid "<a href=\"http://akismet.com/get/?return=true\">What is this?</a>"
 msgstr "<a href=\"http://akismet.com/get/?return=true\">Vad är detta?</a>"
 
-#: wp-includes/admin-bar.php:99 wp-includes/default-widgets.php:318
-#: wp-login.php:78
+#: wp-includes/admin-bar.php:101 wp-includes/default-widgets.php:319
+#: wp-login.php:87
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"
 
-#: wp-includes/admin-bar.php:107
+#: wp-includes/admin-bar.php:109
 msgid "http://codex.wordpress.org/"
 msgstr "http://codex.wordpress.org/"
 
-#: wp-activate.php:86
+#: wp-activate.php:85
 msgid ""
 "Your site at <a href=\"%1$s\">%2$s</a> is active. You may now log in to your "
 "site using your chosen username of &#8220;%3$s&#8221;. Please check your "
@@ -1248,7 +1322,7 @@ msgstr ""
 "Om du efter en timme inte mottagit något mail så kan du försöka med att <a "
 "href=\"%5$s\">återställa ditt lösenord</a>."
 
-#: wp-signup.php:221
+#: wp-signup.php:297
 msgid ""
 "<a href=\"http://%1$s\">http://%2$s</a> is your new site. <a href=\"%3$s"
 "\">Log in</a> as &#8220;%4$s&#8221; using your existing password."
@@ -1256,7 +1330,7 @@ msgstr ""
 "<a href=\"http://%1$s\">http://%2$s</a> är din nya webbplats.  <a href=\"%3$s"
 "\">Logga in</a> som &#8221;%4$s&#8221; med ditt nuvarande lösenord."
 
-#: wp-activate.php:84
+#: wp-activate.php:83
 msgid ""
 "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to "
 "the site using your chosen username of &#8220;%2$s&#8221;. Please check your "
@@ -1272,7 +1346,7 @@ msgstr ""
 "Om du efter en timme inte mottagit något mail så kan du försöka med att <a "
 "href=\"%4$s\">återställa ditt lösenord</a>."
 
-#: wp-includes/functions.php:1138
+#: wp-includes/functions.php:1153
 msgid ""
 "One or more database tables are unavailable. The database may need to be <a "
 "href=\"%s\">repaired</a>."
@@ -1284,16 +1358,16 @@ msgstr ""
 msgid "Mission complete. Message <strong>%s</strong> deleted."
 msgstr "Klart. Meddelande <strong>%s</strong> raderat."
 
-#: wp-includes/comment.php:738 wp-includes/comment.php:740
+#: wp-includes/comment.php:740 wp-includes/comment.php:742
 msgid "You are posting comments too quickly. Slow down."
 msgstr "Du postar kommentarer för snabbt. Ta det lugnt."
 
-#: wp-includes/admin-bar.php:524
+#: wp-includes/admin-bar.php:526
 msgctxt "admin bar menu group label"
 msgid "New"
 msgstr "Nytt"
 
-#: wp-includes/admin-bar.php:558
+#: wp-includes/admin-bar.php:560
 msgid "%s comment awaiting moderation"
 msgid_plural "%s comments awaiting moderation"
 msgstr[0] "%s kommentar väntar på granskning"
@@ -1303,7 +1377,7 @@ msgstr[1] "%s kommentarer väntar på granskning"
 msgid "What do I do now?"
 msgstr "Vad gör jag nu?"
 
-#: wp-includes/script-loader.php:218
+#: wp-includes/script-loader.php:226
 msgid ""
 "%s exceeds the maximum upload size for the multi-file uploader when used in "
 "your browser."
@@ -1311,13 +1385,13 @@ msgstr ""
 "%s överstiger den maximala storleken för uppladdningar när de används i din "
 "webbläsare."
 
-#: wp-includes/script-loader.php:217
+#: wp-includes/script-loader.php:225
 msgid "Please try uploading this file with the %1$sbrowser uploader%2$s."
 msgstr ""
 "Försök att ladda upp den här filen med den %1$swebbläsarbaserade uppladdaren"
 "%2$s."
 
-#: wp-includes/script-loader.php:226
+#: wp-includes/script-loader.php:234
 msgid "&#8220;%s&#8221; has failed to upload."
 msgstr "Uppladdningen av &#8220;%s&#8220; misslyckades."
 
@@ -1393,29 +1467,29 @@ msgstr "&#8212;"
 msgid "The menu ID should not be empty."
 msgstr "Meny-ID bör inte vara tomt."
 
-#: wp-includes/admin-bar.php:80 wp-includes/admin-bar.php:89
+#: wp-includes/admin-bar.php:82 wp-includes/admin-bar.php:91
 msgid "About WordPress"
 msgstr "Om WordPress"
 
-#: wp-includes/admin-bar.php:330
+#: wp-includes/admin-bar.php:332
 msgid "Visit Network"
 msgstr "Besök nätverk"
 
-#: wp-includes/admin-bar.php:115
+#: wp-includes/admin-bar.php:117
 msgid "http://wordpress.org/support/"
 msgstr "http://wordpress.org/support/"
 
-#: wp-includes/admin-bar.php:123
+#: wp-includes/admin-bar.php:125
 msgid "http://wordpress.org/support/forum/requests-and-feedback"
 msgstr "http://wordpress.org/support/forum/requests-and-feedback"
 
-#: wp-includes/script-loader.php:206
+#: wp-includes/script-loader.php:214
 msgid "%s exceeds the maximum upload size for this site."
 msgstr ""
 "%s överstiger den maximala filstorleken för uppladdning på den här "
 "webbplatsen."
 
-#: wp-includes/functions.php:2943
+#: wp-includes/functions.php:2985
 msgid ""
 "Please see <a href=\"http://codex.wordpress.org/Debugging_in_WordPress"
 "\">Debugging in WordPress</a> for more information."
@@ -1423,11 +1497,11 @@ msgstr ""
 "Se <a href=\"http://codex.wordpress.org/Debugging_in_WordPress\">Felsökning "
 "i WordPress</a> för mer information."
 
-#: wp-includes/admin-bar.php:122
+#: wp-includes/admin-bar.php:124
 msgid "Feedback"
 msgstr "Feedback"
 
-#: wp-includes/ms-functions.php:1222
+#: wp-includes/ms-functions.php:1211
 msgid ""
 "Dear User,\n"
 "\n"
@@ -1473,16 +1547,16 @@ msgstr "<strong>FEL</strong>: Fyll i de obligatoriska fälten (namn, e-post)."
 msgid "ERROR: Invalid values entered, these are marked in red."
 msgstr "FEL: Ogiltiga värden angivna, dessa är markerade med rött."
 
-#: wp-includes/script-loader.php:449
+#: wp-includes/script-loader.php:460
 msgid "Could not load the preview image. Please reload the page and try again."
 msgstr ""
 "Kunde inte ladda förhandsgranskningsbilden. Ladda om sidan och försök igen."
 
-#: wp-includes/ms-functions.php:290
+#: wp-includes/ms-functions.php:287
 msgid "<strong>ERROR</strong>: Site URL already taken."
 msgstr "<strong>FEL</strong>: Webbplats-URL redan tagen."
 
-#: wp-includes/ms-functions.php:297
+#: wp-includes/ms-functions.php:294
 msgid "<strong>ERROR</strong>: problem creating site entry."
 msgstr "<strong>FEL</strong>: Problem med att skapa webbplatspost."
 
@@ -1640,44 +1714,44 @@ msgstr "Lösenord:"
 msgid "Activate"
 msgstr "Aktivera"
 
-#: wp-includes/admin-bar.php:106
+#: wp-includes/admin-bar.php:108
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: wp-includes/admin-bar.php:114
+#: wp-includes/admin-bar.php:116
 msgid "Support Forums"
 msgstr "Supportforum"
 
-#: wp-includes/formatting.php:2175 wp-includes/general-template.php:1978
+#: wp-includes/formatting.php:2207 wp-includes/general-template.php:1976
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:2734
+#: wp-includes/functions.php:2776
 msgid "Database Error"
 msgstr "Databasfel"
 
-#: wp-includes/functions.php:2738 wp-includes/ms-load.php:237
+#: wp-includes/functions.php:2780 wp-includes/ms-load.php:237
 msgid "Error establishing a database connection"
 msgstr "Ett fel uppstod vid anslutning till databasen"
 
-#: wp-includes/admin-bar.php:98 wp-includes/default-widgets.php:320
+#: wp-includes/admin-bar.php:100
 msgid "WordPress.org"
 msgstr "WordPress.org"
 
-#: wp-includes/admin-bar.php:227
+#: wp-includes/admin-bar.php:229
 msgid "Global Dashboard: %s"
 msgstr "Global adminpanel: %s"
 
-#: wp-includes/admin-bar.php:225
+#: wp-includes/admin-bar.php:227
 msgid "Network Admin: %s"
 msgstr "Nätverksadmin: %s"
 
-#: wp-includes/taxonomy.php:427
+#: wp-includes/taxonomy.php:432
 msgctxt "taxonomy general name"
 msgid "Tags"
 msgstr "Etiketter"
 
-#: wp-includes/taxonomy.php:428
+#: wp-includes/taxonomy.php:433
 msgctxt "taxonomy singular name"
 msgid "Tag"
 msgstr "Etikett"
@@ -1686,9 +1760,9 @@ msgstr "Etikett"
 #: wp-includes/functions.wp-scripts.php:56
 #: wp-includes/functions.wp-scripts.php:90
 #: wp-includes/functions.wp-scripts.php:109
-#: wp-includes/functions.wp-scripts.php:129
-#: wp-includes/functions.wp-scripts.php:153
-#: wp-includes/functions.wp-scripts.php:179
+#: wp-includes/functions.wp-scripts.php:149
+#: wp-includes/functions.wp-scripts.php:173
+#: wp-includes/functions.wp-scripts.php:199
 #: wp-includes/functions.wp-styles.php:30
 #: wp-includes/functions.wp-styles.php:57
 #: wp-includes/functions.wp-styles.php:85
@@ -1713,7 +1787,7 @@ msgstr ""
 msgid "Use <code>WP_User->ID</code> instead."
 msgstr "Använd <code>WP_User->ID</code> istället."
 
-#: wp-includes/ms-functions.php:1688
+#: wp-includes/ms-functions.php:1651
 msgid ""
 "You have been added to this site. Please visit the <a href=\"%s\">homepage</"
 "a> or <a href=\"%s\">log in</a> using your username and password."
@@ -1721,34 +1795,34 @@ msgstr ""
 "Du har lagts till på denna webbplats. Besök gärna <a href=\"%s\">startsidan</"
 "a> eller <a href=\"%s\">logga in</a> med ditt användarnamn och lösenord."
 
-#: wp-includes/script-loader.php:210
+#: wp-includes/script-loader.php:218
 msgid "Memory exceeded. Please try another smaller file."
 msgstr "Minnesgräns överskrids. Prova en annan mindre fil."
 
-#: wp-includes/script-loader.php:211
+#: wp-includes/script-loader.php:219
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Detta är större än den maximala storleken. Prova en annan."
 
-#: wp-includes/script-loader.php:209
+#: wp-includes/script-loader.php:217
 msgid "This file is not an image. Please try another."
 msgstr "Den här filen är inte en bild. Prova en annan."
 
-#: wp-includes/link-template.php:1149
+#: wp-includes/link-template.php:1150
 msgid "Use commas instead of %s to separate excluded categories."
 msgstr ""
 "Använd kommatecken istället för %s för att separera undantagna kategorier."
 
-#: wp-includes/general-template.php:2040
+#: wp-includes/general-template.php:2038
 msgctxt "admin color scheme"
 msgid "Gray"
 msgstr "Grått"
 
-#: wp-includes/general-template.php:2038
+#: wp-includes/general-template.php:2036
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blått"
 
-#: wp-includes/formatting.php:2901
+#: wp-includes/formatting.php:2934
 msgid ""
 "The timezone you have entered is not valid. Please select a valid timezone."
 msgstr "Tidszonen du har angett är inte giltigt. Välj en giltig tidszon."
@@ -1778,12 +1852,12 @@ msgctxt "add new from admin bar"
 msgid "Media"
 msgstr "Media"
 
-#: wp-includes/admin-bar.php:499
+#: wp-includes/admin-bar.php:501
 msgctxt "add new from admin bar"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/admin-bar.php:519
+#: wp-includes/admin-bar.php:521
 msgctxt "add new from admin bar"
 msgid "User"
 msgstr "Användare"
@@ -1796,11 +1870,11 @@ msgstr ""
 "Du bör ange en &#8217;nonce&#8217; åtgärd som skall verifieras med hjälp av "
 "den första parametern."
 
-#: wp-includes/taxonomy.php:435
+#: wp-includes/taxonomy.php:440
 msgid "View Tag"
 msgstr "Visa Tag"
 
-#: wp-includes/taxonomy.php:435
+#: wp-includes/taxonomy.php:440
 msgid "View Category"
 msgstr "Visa kategori"
 
@@ -1820,7 +1894,7 @@ msgstr "Standardbredd"
 msgid "Word count: %s"
 msgstr "Antal ord: %s"
 
-#: wp-activate.php:110
+#: wp-activate.php:109
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the "
 "<a href=\"%2$s\">homepage</a>."
@@ -1828,7 +1902,7 @@ msgstr ""
 "Ditt konto är nu aktiverat. <a href=\"%1$s\">Logga in</a> eller gå tillbaka "
 "till <a href=\"%2$s\">startsidan</a>."
 
-#: wp-activate.php:108
+#: wp-activate.php:107
 msgid ""
 "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a "
 "href=\"%2$s\">Log in</a>"
@@ -1841,7 +1915,7 @@ msgstr ""
 msgid "Help (Alt + Shift + H)"
 msgstr "Hjälp (Alt + Shift + H)"
 
-#: wp-includes/admin-bar.php:141
+#: wp-includes/admin-bar.php:143
 msgid "Howdy, %1$s"
 msgstr "Hej, %1$s"
 
@@ -1853,15 +1927,15 @@ msgstr "Avsluta fullskärmsläge"
 msgid "Just write."
 msgstr "Bara skriv."
 
-#: wp-includes/script-loader.php:363
+#: wp-includes/script-loader.php:372
 msgid "Approve and Reply"
 msgstr "Godkänn och svara"
 
-#: wp-includes/post.php:1507
+#: wp-includes/post.php:1439
 msgid "All Posts"
 msgstr "Alla inlägg"
 
-#: wp-includes/post.php:1507
+#: wp-includes/post.php:1439
 msgid "All Pages"
 msgstr "Alla sidor"
 
@@ -1907,6 +1981,10 @@ msgstr "Infoga/redigera länk (Alt + Skift + A)"
 #: wp-includes/js/tinymce/langs/wp-langs.php:304
 msgid "Unlink (Alt + Shift + S)"
 msgstr "Ta bort länkning (Alt + Skift + S)"
+
+#: wp-includes/comment-template.php:1380
+msgid "Pingback:"
+msgstr "Pingback:"
 
 #: wp-includes/js/tinymce/wp-mce-help.php:232
 msgid ""
@@ -2155,13 +2233,13 @@ msgstr "Ljusturkos"
 msgid "Grayish blue"
 msgstr "Gråblå"
 
-#: wp-includes/class-http.php:145
+#: wp-includes/class-http.php:147
 msgid ""
 "Destination directory for file streaming does not exist or is not writable."
 msgstr ""
 "Destinationskatalog för fil-streaming finns inte eller är inte skrivbar."
 
-#: wp-includes/class-http.php:244
+#: wp-includes/class-http.php:248
 msgid ""
 "There are no HTTP transports available which can complete the requested "
 "request."
@@ -2174,7 +2252,7 @@ msgctxt "post format"
 msgid "Format"
 msgstr "Format"
 
-#: wp-content/plugins/akismet/admin.php:480
+#: wp-content/plugins/akismet/admin.php:462
 msgid ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from %2$s spam comment "
 "already. "
@@ -2188,7 +2266,7 @@ msgstr[1] ""
 "<a href=\"%1$s\">Akismet</a> har redan skyddat din webbplats från %2$s "
 "skräpkommentarer. "
 
-#: wp-content/plugins/akismet/admin.php:491
+#: wp-content/plugins/akismet/admin.php:473
 msgid "There's <a href=\"%2$s\">%1$s comment</a> in your spam queue right now."
 msgid_plural ""
 "There are <a href=\"%2$s\">%1$s comments</a> in your spam queue right now."
@@ -2197,12 +2275,12 @@ msgstr[0] ""
 msgstr[1] ""
 "Det finns <a href=\"%2$s\">%1$s kommentarer</a> markerade som skräp just nu."
 
-#: wp-content/plugins/akismet/admin.php:486
+#: wp-content/plugins/akismet/admin.php:468
 msgid "<a href=\"%1$s\">Akismet</a> blocks spam from getting to your blog. "
 msgstr ""
 "<a href=\"%1$s\">Akismet</a> motverkar att skräppost postas på din webbplats."
 
-#: wp-content/plugins/akismet/admin.php:153
+#: wp-content/plugins/akismet/admin.php:152
 msgid ""
 "<strong>Sign up success!</strong> Please check your email for your Akismet "
 "API Key and enter it below."
@@ -2210,26 +2288,26 @@ msgstr ""
 "<strong>Registrering genomförd!</strong> Kontrollera din e-post för din "
 "Akismet API-nyckel och ange den nedan."
 
-#: wp-content/plugins/akismet/admin.php:362
+#: wp-content/plugins/akismet/admin.php:344
 msgid "Flagged as spam by Akismet"
 msgstr "Flaggat som skräppost av Akismet"
 
-#: wp-content/plugins/akismet/admin.php:382
+#: wp-content/plugins/akismet/admin.php:364
 msgid "History"
 msgstr "Historik"
 
-#: wp-content/plugins/akismet/admin.php:283
+#: wp-content/plugins/akismet/admin.php:265
 msgctxt "comments"
 msgid "Spam"
 msgstr "Skräppost"
 
-#: wp-content/plugins/akismet/admin.php:497
+#: wp-content/plugins/akismet/admin.php:479
 msgid "There's nothing in your <a href='%1$s'>spam queue</a> at the moment."
 msgstr ""
 "Det finns inga poster markerade som <a href='%1$s'>skräppost</a> för "
 "tillfället."
 
-#: wp-content/plugins/akismet/admin.php:364
+#: wp-content/plugins/akismet/admin.php:346
 msgid "Cleared by Akismet"
 msgstr "Godkänd av Akismet"
 
@@ -2261,15 +2339,15 @@ msgstr ""
 "Villkorstyrda query-taggar fungerar inte innan en query körs. Innan det "
 "återger de alltid false."
 
-#: wp-includes/ms-functions.php:841
+#: wp-includes/ms-functions.php:831
 msgid "The user is already active."
 msgstr "Användaren är redan aktiv."
 
-#: wp-includes/functions.php:2944
+#: wp-includes/functions.php:2986
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s kallades <strong>felaktigt</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:2942
+#: wp-includes/functions.php:2984
 msgid "(This message was added in version %s.)"
 msgstr "(Detta meddelande lades till i version %s.)"
 
@@ -2283,15 +2361,15 @@ msgstr ""
 "strong> är felaktig. <a href=\"%2$s\" title=\"Återställning av lösenord"
 "\">Glömt ditt lösenord</a>?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5270
+#: wp-includes/class-wp-xmlrpc-server.php:5276
 msgid "Sorry, you cannot publish this post."
 msgstr "Du kan inte publicera det här inlägget."
 
-#: wp-content/plugins/akismet/admin.php:27
+#: wp-content/plugins/akismet/admin.php:26
 msgid "Comment History"
 msgstr "Kommentarshistorik"
 
-#: wp-content/plugins/akismet/admin.php:235
+#: wp-content/plugins/akismet/admin.php:234
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Click here</a> to confirm that <a href=\"%s"
 "\" target=\"_blank\">Akismet.com is up</a>."
@@ -2303,39 +2381,39 @@ msgstr ""
 msgid "Akismet %s requires WordPress 3.0 or higher."
 msgstr "Akismet %s kräver WordPress 3.0 eller senare."
 
-#: wp-content/plugins/akismet/admin.php:395
+#: wp-content/plugins/akismet/admin.php:377
 msgid "%s approved"
 msgid_plural "%s approved"
 msgstr[0] "%s godkänd"
 msgstr[1] "%s godkända"
 
-#: wp-content/plugins/akismet/admin.php:561
+#: wp-content/plugins/akismet/admin.php:543
 msgid "%s reported this comment as not spam"
 msgstr "%s rapporterade den här kommentaren som, inte skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:289
+#: wp-content/plugins/akismet/akismet.php:292
 msgid "Akismet caught this comment as spam"
 msgstr "Akismet fångade den här kommentaren som skräppost"
 
-#: wp-content/plugins/akismet/admin.php:613
+#: wp-content/plugins/akismet/admin.php:595
 msgid "%s reported this comment as spam"
 msgstr "%s rapporterade den här kommentaren som skräppost"
 
-#: wp-content/plugins/akismet/akismet.php:536
+#: wp-content/plugins/akismet/akismet.php:541
 msgid "Akismet caught this comment as spam during an automatic retry."
 msgstr ""
 "Akismet fångade den här kommentaren som skräpport under en automatisk "
 "körning."
 
-#: wp-content/plugins/akismet/admin.php:225
+#: wp-content/plugins/akismet/admin.php:224
 msgid "Re-trying"
 msgstr "Skannar igen"
 
-#: wp-content/plugins/akismet/admin.php:171
+#: wp-content/plugins/akismet/admin.php:170
 msgid "Auto-delete spam submitted on posts more than a month old."
 msgstr "Radera automatiskt skräppost för inlägg som är äldre än en månad."
 
-#: wp-content/plugins/akismet/admin.php:144
+#: wp-content/plugins/akismet/admin.php:143
 msgid ""
 "Your WordPress home URL %s is invalid.  Please fix the <a href=\"%s\">home "
 "option</a>."
@@ -2343,37 +2421,37 @@ msgstr ""
 "Din hemadress angiven för WordPress: %s är ogiltig. Korrigera "
 "inställningarna för <a href=\"%s\">hemadressen</a>."
 
-#: wp-content/plugins/akismet/admin.php:172
+#: wp-content/plugins/akismet/admin.php:171
 msgid "Show the number of comments you've approved beside each comment author."
 msgstr ""
 "Visa antalet kommentarer du har godkänt bredvid varje kommentarsförfattare."
 
-#: wp-content/plugins/akismet/admin.php:661
+#: wp-content/plugins/akismet/admin.php:643
 msgid "%s changed the comment status to %s"
 msgstr "%s ändrade kommentarsstatus till %s"
 
-#: wp-content/plugins/akismet/akismet.php:291
-#: wp-content/plugins/akismet/akismet.php:299
+#: wp-content/plugins/akismet/akismet.php:294
+#: wp-content/plugins/akismet/akismet.php:302
 msgid "Comment status was changed to %s"
 msgstr "Kommentarsstatus ändrades till %s"
 
-#: wp-content/plugins/akismet/akismet.php:538
+#: wp-content/plugins/akismet/akismet.php:543
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "Akismet godkände den här kommentaren under en automatisk skanning."
 
-#: wp-content/plugins/akismet/akismet.php:294
+#: wp-content/plugins/akismet/akismet.php:297
 msgid "Akismet cleared this comment"
 msgstr "Akismet godkände den här kommentaren"
 
-#: wp-content/plugins/akismet/akismet.php:297
+#: wp-content/plugins/akismet/akismet.php:300
 msgid "Comment was caught by wp_blacklist_check"
 msgstr "Kommentaren fångades av wp_blacklist_check"
 
-#: wp-content/plugins/akismet/admin.php:225
+#: wp-content/plugins/akismet/admin.php:224
 msgid "Accessible"
 msgstr "Tillgänglig"
 
-#: wp-content/plugins/akismet/akismet.php:304
+#: wp-content/plugins/akismet/akismet.php:307
 msgid ""
 "Akismet was unable to check this comment (response: %s), will automatically "
 "retry again later."
@@ -2381,43 +2459,43 @@ msgstr ""
 "Akismet kunde inte kontrollera den här kommentaren (svar: %s), Akismet "
 "kommer automatiskt att försöka igen senare."
 
-#: wp-includes/pluggable.php:1044
+#: wp-includes/pluggable.php:1049
 msgid "Permalink: %s"
 msgstr "Permalänk: %s"
 
-#: wp-includes/post.php:5312
+#: wp-includes/post-formats.php:107
 msgctxt "Post format"
 msgid "Standard"
 msgstr "Standard"
 
-#: wp-includes/post.php:1238
+#: wp-includes/post.php:1170
 msgid "Post types cannot exceed 20 characters in length"
 msgstr "Inläggstyper kan inte överstiga 20 tecken"
 
-#: wp-signup.php:83
+#: wp-signup.php:102
 msgid "Your address will be %s."
 msgstr "Din adress kommer att bli %s."
 
-#: wp-signup.php:82
+#: wp-signup.php:101
 msgid "domain"
 msgstr "domän"
 
-#: wp-includes/admin-bar.php:531
+#: wp-includes/admin-bar.php:533
 msgctxt "admin bar menu group label"
 msgid "Add New"
 msgstr "Skapa/lägg till"
 
-#: wp-includes/post.php:5321
+#: wp-includes/post-formats.php:116
 msgctxt "Post format"
 msgid "Audio"
 msgstr "Ljud"
 
-#: wp-includes/class-wp-xmlrpc-server.php:4092
-#: wp-includes/class-wp-xmlrpc-server.php:4390
+#: wp-includes/class-wp-xmlrpc-server.php:4095
+#: wp-includes/class-wp-xmlrpc-server.php:4393
 msgid "Invalid post format"
 msgstr "Ogiltigt inläggsformat"
 
-#: wp-includes/pluggable.php:1019 wp-includes/pluggable.php:1132
+#: wp-includes/pluggable.php:1024 wp-includes/pluggable.php:1137
 msgid "Whois  : http://whois.arin.net/rest/ip/%s"
 msgstr "Whois  : http://whois.arin.net/rest/ip/%s"
 
@@ -2436,7 +2514,7 @@ msgstr ""
 "Endast en statisk klassmetod eller funktion kan användas för avinstallations-"
 "hook."
 
-#: wp-includes/post.php:2633
+#: wp-includes/post.php:2565
 msgid ""
 "Passing an integer number of posts is deprecated. Pass an array of arguments "
 "instead."
@@ -2444,66 +2522,66 @@ msgstr ""
 "Att passerar antalet poster är föråldrat. Passera en array av argument "
 "istället."
 
-#: wp-includes/post.php:5313
+#: wp-includes/post-formats.php:108
 msgctxt "Post format"
 msgid "Aside"
 msgstr "Notering"
 
-#: wp-includes/post.php:5314
+#: wp-includes/post-formats.php:109
 msgctxt "Post format"
 msgid "Chat"
 msgstr "Chat"
 
-#: wp-includes/post.php:5315
+#: wp-includes/post-formats.php:110
 msgctxt "Post format"
 msgid "Gallery"
 msgstr "Galleri "
 
-#: wp-includes/post.php:5316
+#: wp-includes/post-formats.php:111
 msgctxt "Post format"
 msgid "Link"
 msgstr "Länk"
 
-#: wp-includes/post.php:5317
+#: wp-includes/post-formats.php:112
 msgctxt "Post format"
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/post.php:5318
+#: wp-includes/post-formats.php:113
 msgctxt "Post format"
 msgid "Quote"
 msgstr "Citat"
 
-#: wp-includes/post.php:5319
+#: wp-includes/post-formats.php:114
 msgctxt "Post format"
 msgid "Status"
 msgstr "Status"
 
-#: wp-includes/post.php:5320
+#: wp-includes/post-formats.php:115
 msgctxt "Post format"
 msgid "Video"
 msgstr "Video"
 
-#: wp-includes/post.php:1505
+#: wp-includes/post.php:1437
 msgid "No pages found in Trash."
 msgstr "Hittade inga sidor i papperskorgen."
 
-#: wp-includes/post.php:1504
+#: wp-includes/post.php:1436
 msgid "No pages found."
 msgstr "Hittade inga sidor."
 
-#: wp-includes/post.php:1505
+#: wp-includes/post.php:1437
 msgid "No posts found in Trash."
 msgstr "Inga inlägg hittades i papperskorgen."
 
-#: wp-includes/admin-bar.php:411
+#: wp-includes/admin-bar.php:413
 msgid "Shortlink"
 msgstr "Kortlänk"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1100
 #: wp-includes/class-wp-xmlrpc-server.php:3283
-#: wp-includes/class-wp-xmlrpc-server.php:4275
-#: wp-includes/class-wp-xmlrpc-server.php:4592
+#: wp-includes/class-wp-xmlrpc-server.php:4278
+#: wp-includes/class-wp-xmlrpc-server.php:4595
 msgid "Invalid attachment ID."
 msgstr "Ogiltigt bilags-ID."
 
@@ -2511,7 +2589,7 @@ msgstr "Ogiltigt bilags-ID."
 msgid "This file no longer needs to be included."
 msgstr "Den här filen behöver inte längre inkluderas."
 
-#: wp-login.php:432
+#: wp-login.php:444
 msgid ""
 "Please enter your username or email address. You will receive a link to "
 "create a new password via email."
@@ -2519,7 +2597,7 @@ msgstr ""
 "Ange ditt användarnamn eller e-postadress. Du kommer att få en länk för att "
 "skapa ett nytt lösenord via e-post."
 
-#: wp-includes/default-widgets.php:283 wp-includes/default-widgets.php:515
+#: wp-includes/default-widgets.php:283 wp-includes/default-widgets.php:516
 msgid "Display as dropdown"
 msgstr "Visa som dropdown"
 
@@ -2551,86 +2629,86 @@ msgstr "Höjd för miniatyrer"
 msgid "Thumbnail Width"
 msgstr "Bredd för miniatyrer"
 
-#: wp-includes/script-loader.php:292
+#: wp-includes/script-loader.php:303
 msgid "No matches found."
 msgstr "Inga träffar."
 
-#: wp-login.php:492
+#: wp-login.php:504
 msgid "New password"
 msgstr "Nytt lösenord"
 
-#: wp-login.php:496
+#: wp-login.php:508
 msgid "Confirm new password"
 msgstr "Bekräfta nytt lösenord"
 
-#: wp-login.php:235
+#: wp-login.php:247
 msgid "To reset your password, visit the following address:"
 msgstr "För att återställa ditt lösenord, besök följande adress:"
 
-#: wp-login.php:485 wp-login.php:504
+#: wp-login.php:497 wp-login.php:516
 msgid "Reset Password"
 msgstr "Återställ lösenord"
 
-#: wp-login.php:471
+#: wp-login.php:483
 msgid "The passwords do not match."
 msgstr "Lösenorden matchar inte."
 
-#: wp-login.php:477
+#: wp-login.php:489
 msgid "Password Reset"
 msgstr "Återställning av lösenord"
 
-#: wp-login.php:477
+#: wp-login.php:489
 msgid "Your password has been reset."
 msgstr "Ditt lösenord har återställts."
 
-#: wp-login.php:231
+#: wp-login.php:243
 msgid "Someone requested that the password be reset for the following account:"
 msgstr "Någon har begärt att lösenordet för följande konto återställs:"
 
-#: wp-login.php:234
+#: wp-login.php:246
 msgid "If this was a mistake, just ignore this email and nothing will happen."
 msgstr ""
 "Om detta var ett misstag, ignorera helt enkelt bara detta mail så sker inga "
 "förändringar."
 
-#: wp-login.php:485
+#: wp-login.php:497
 msgid "Enter your new password below."
 msgstr "Ange ditt nya lösenord nedan."
 
-#: wp-includes/post.php:808
+#: wp-includes/post-formats.php:61
 msgid "Invalid post"
 msgstr "Ogiltigt inlägg"
 
-#: wp-includes/admin-bar.php:192
+#: wp-includes/admin-bar.php:194
 msgid "Edit My Profile"
 msgstr "Ändra min profil"
 
-#: wp-includes/admin-bar.php:151
+#: wp-includes/admin-bar.php:153
 msgid "My Account"
 msgstr "Mitt konto"
 
-#: wp-includes/admin-bar.php:379
+#: wp-includes/admin-bar.php:381
 msgid "Manage Comments"
 msgstr "Hantera kommentarer"
 
-#: wp-content/plugins/akismet/admin.php:382
-#: wp-content/plugins/akismet/admin.php:390
+#: wp-content/plugins/akismet/admin.php:364
+#: wp-content/plugins/akismet/admin.php:372
 msgid "View comment history"
 msgstr "Visa kommentarshistorik"
 
-#: wp-content/plugins/akismet/admin.php:422
+#: wp-content/plugins/akismet/admin.php:404
 msgid "Akismet"
 msgstr "Akismet"
 
-#: wp-content/plugins/akismet/admin.php:739
+#: wp-content/plugins/akismet/admin.php:721
 msgid "Akismet was unable to re-check this comment (response: %s)"
 msgstr "Akismet kunde inte kontrollera den här kommentaren på nytt (svar:%s)"
 
-#: wp-content/plugins/akismet/admin.php:368
+#: wp-content/plugins/akismet/admin.php:350
 msgid "Flagged as spam by %s"
 msgstr "Flaggat som skräppost av %s"
 
-#: wp-content/plugins/akismet/admin.php:730
+#: wp-content/plugins/akismet/admin.php:712
 msgid "Akismet re-checked and caught this comment as spam"
 msgstr "Akismet kördes igen och markerade den här kommentaren som skräppost"
 
@@ -2642,15 +2720,15 @@ msgstr ""
 "Var vänlig <a href=\"%s\">uppdatera WordPress</a> till senaste versionen "
 "eller <a href=\"%s\"> gå tillbaka till version 2.4 av tillägget</a>."
 
-#: wp-content/plugins/akismet/admin.php:370
+#: wp-content/plugins/akismet/admin.php:352
 msgid "Un-spammed by %s"
 msgstr "Avmarkerat som skräppost av %s"
 
-#: wp-content/plugins/akismet/admin.php:735
+#: wp-content/plugins/akismet/admin.php:717
 msgid "Akismet re-checked and cleared this comment"
 msgstr "Akismet kördes igen och avmarkerade den här kommentaren"
 
-#: wp-includes/ms-functions.php:439 wp-includes/ms-functions.php:565
+#: wp-includes/ms-functions.php:436 wp-includes/ms-functions.php:559
 msgid "Only lowercase letters (a-z) and numbers are allowed."
 msgstr "Endast små bokstäver (a-z) och siffror är tillåtna."
 
@@ -2684,7 +2762,7 @@ msgstr "Sök länkkategorier"
 msgid "Link Category"
 msgstr "Länkkategori"
 
-#: wp-includes/admin-bar.php:305
+#: wp-includes/admin-bar.php:307
 msgid "Network Admin"
 msgstr "Nätverksadmin"
 
@@ -2734,7 +2812,7 @@ msgstr ""
 "Debugging_a_WordPress_Network\">bug report</a>. Några av dessa riktlinjer "
 "kanske kan hjälpa dig att lista ut vad som gick fel."
 
-#: wp-includes/ms-functions.php:750 wp-includes/ms-functions.php:801
+#: wp-includes/ms-functions.php:741 wp-includes/ms-functions.php:792
 msgid "[%1$s] Activate %2$s"
 msgstr "[%1$s] Aktivera %2$s"
 
@@ -2753,14 +2831,14 @@ msgstr ""
 msgid "Spam Blocked"
 msgstr "Skräpposter blockerade"
 
-#: wp-content/plugins/akismet/admin.php:323
+#: wp-content/plugins/akismet/admin.php:305
 msgid ""
 "You must <a href=\"%1$s\">enter your Akismet API key</a> for it to work."
 msgstr ""
 "Du måste <a href=\"%1$s\">ange din Akismet API-nyckel</a> för att det skall "
 "fungera."
 
-#: wp-content/plugins/akismet/admin.php:158
+#: wp-content/plugins/akismet/admin.php:157
 msgid ""
 "For many people, <a href=\"%1$s\">Akismet</a> will greatly reduce or even "
 "completely eliminate the comment and trackback spam you get on your site. If "
@@ -2774,7 +2852,7 @@ msgstr ""
 "modereringssidan och Akismet kommer att lära av misstagen. Om du inte har en "
 "API-nyckel än kan du få en på <a href=\"%2$s\">Akismet.com</a>."
 
-#: wp-content/plugins/akismet/admin.php:160
+#: wp-content/plugins/akismet/admin.php:159
 msgid "Akismet API Key"
 msgstr "Akismet API-nyckel"
 
@@ -2784,7 +2862,7 @@ msgid ""
 "%3$s."
 msgstr "Din server kör PHP version %1$s men WordPress %2$s kräver minst %3$s."
 
-#: wp-includes/pluggable.php:1113
+#: wp-includes/pluggable.php:1118
 msgid "A new trackback on the post \"%s\" is waiting for your approval"
 msgstr "En ny trackback till inlägget \"%s\" väntar på ditt godkännande "
 
@@ -2808,53 +2886,53 @@ msgid_plural "%1$s Responses to %2$s"
 msgstr[0] "En kommentar till %2$s"
 msgstr[1] "%1$s kommentarer till %2$s"
 
-#: wp-signup.php:382
+#: wp-signup.php:524
 msgctxt "Multisite active signup type"
 msgid "user"
 msgstr "användare"
 
-#: wp-signup.php:381
+#: wp-signup.php:523
 msgctxt "Multisite active signup type"
 msgid "blog"
 msgstr "blogg"
 
-#: wp-signup.php:380
+#: wp-signup.php:522
 msgctxt "Multisite active signup type"
 msgid "none"
 msgstr "inga"
 
-#: wp-signup.php:379
+#: wp-signup.php:521
 msgctxt "Multisite active signup type"
 msgid "all"
 msgstr "alla"
 
-#: wp-includes/default-widgets.php:1098
+#: wp-includes/default-widgets.php:1103
 msgid "Custom Menu"
 msgstr "Anpassad meny"
 
-#: wp-includes/default-widgets.php:1097
+#: wp-includes/default-widgets.php:1102
 msgid "Use this widget to add one of your custom menus as a widget."
 msgstr ""
 "Använd denna widget för att lägga till en av dina anpassade menyer i ett "
 "widgetfält."
 
-#: wp-includes/pluggable.php:1034
+#: wp-includes/pluggable.php:1039
 msgid "New pingback on your post \"%s\""
 msgstr "En ny ping till ditt inlägg \"%s\""
 
-#: wp-includes/pluggable.php:1120
+#: wp-includes/pluggable.php:1125
 msgid "A new pingback on the post \"%s\" is waiting for your approval"
 msgstr "En ny pingning till inlägget \"%s\" inväntar din granskning"
 
-#: wp-includes/pluggable.php:1127
+#: wp-includes/pluggable.php:1132
 msgid "A new comment on the post \"%s\" is waiting for your approval"
 msgstr "En ny kommentar till inlägget \"%s\" inväntar din granskning"
 
-#: wp-includes/pluggable.php:1025
+#: wp-includes/pluggable.php:1030
 msgid "New trackback on your post \"%s\""
 msgstr "En ny trackback till ditt inlägg \\\"%s\\\""
 
-#: wp-includes/pluggable.php:1014
+#: wp-includes/pluggable.php:1019
 msgid "New comment on your post \"%s\""
 msgstr "En ny kommentar till ditt inlägg \"%s\""
 
@@ -3058,26 +3136,26 @@ msgstr "av %1$s &#8212; %2$s @ <a href=\"#comment-%3$s\">%4$s</a>"
 msgid "Leave a comment"
 msgstr "Lämna en kommentar"
 
-#: wp-includes/post-template.php:1441
+#: wp-includes/post-template.php:1458
 msgctxt "revisions column name"
 msgid "New"
 msgstr "Ny"
 
-#: wp-includes/post-template.php:1440
+#: wp-includes/post-template.php:1457
 msgctxt "revisions column name"
 msgid "Old"
 msgstr "Gammal"
 
-#: wp-includes/post-template.php:1442
+#: wp-includes/post-template.php:1459
 msgctxt "revisions column name"
 msgid "Date Created"
 msgstr "Datum skapat"
 
-#: wp-includes/taxonomy.php:441
+#: wp-includes/taxonomy.php:446
 msgid "Choose from the most used tags"
 msgstr "Välj från de mest använda etiketterna"
 
-#: wp-includes/comment-template.php:1539
+#: wp-includes/comment-template.php:1630
 msgid ""
 "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
 "and attributes: %s"
@@ -3085,65 +3163,65 @@ msgstr ""
 "Följande <abbr title=\"HyperText Markup Language\">HTML</abbr>-taggar och "
 "attribut är tillåtna: %s"
 
-#: wp-includes/taxonomy.php:428
+#: wp-includes/taxonomy.php:433
 msgctxt "taxonomy singular name"
 msgid "Category"
 msgstr "Kategori"
 
-#: wp-includes/taxonomy.php:429
+#: wp-includes/taxonomy.php:434
 msgid "Search Tags"
 msgstr "Sök etiketter"
 
-#: wp-includes/taxonomy.php:430
+#: wp-includes/taxonomy.php:435
 msgid "Popular Tags"
 msgstr "Populära etiketter"
 
-#: wp-includes/taxonomy.php:438
+#: wp-includes/taxonomy.php:443
 msgid "New Category Name"
 msgstr "Namn för ny kategori"
 
-#: wp-includes/taxonomy.php:438
+#: wp-includes/taxonomy.php:443
 msgid "New Tag Name"
 msgstr "Namn för ny etikett"
 
-#: wp-includes/taxonomy.php:437
+#: wp-includes/taxonomy.php:442
 msgid "Add New Category"
 msgstr "Lägg till ny kategori"
 
-#: wp-includes/taxonomy.php:437
+#: wp-includes/taxonomy.php:442
 msgid "Add New Tag"
 msgstr "Lägg till en ny etikett"
 
-#: wp-includes/taxonomy.php:436
+#: wp-includes/taxonomy.php:441
 msgid "Update Tag"
 msgstr "Uppdatera etikett"
 
-#: wp-includes/taxonomy.php:433
+#: wp-includes/taxonomy.php:438
 msgid "Parent Category:"
 msgstr "Moderkategori:"
 
-#: wp-includes/taxonomy.php:432
+#: wp-includes/taxonomy.php:437
 msgid "Parent Category"
 msgstr "Kategoriförälder"
 
-#: wp-includes/taxonomy.php:431
+#: wp-includes/taxonomy.php:436
 msgid "All Tags"
 msgstr "Alla etiketter"
 
-#: wp-includes/taxonomy.php:427
+#: wp-includes/taxonomy.php:432
 msgctxt "taxonomy general name"
 msgid "Categories"
 msgstr "Kategorier"
 
-#: wp-signup.php:422
+#: wp-signup.php:564
 msgid "Sorry, new registrations are not allowed at this time."
 msgstr "Beklagar, nya registreringar tillåts inte just nu."
 
-#: wp-signup.php:292 wp-signup.php:356
+#: wp-signup.php:397 wp-signup.php:498
 msgid "Check your inbox at <strong>%s</strong> and click the link given."
 msgstr "Kolla din inkorg för <strong>%s</strong> och klicka på länken given."
 
-#: wp-signup.php:362
+#: wp-signup.php:504
 msgid ""
 "Wait a little longer. Sometimes delivery of email can be delayed by "
 "processes outside of our control."
@@ -3151,7 +3229,7 @@ msgstr ""
 "Vänta en liten stund till. Ibland fördröjs mail av orsaker utanför vår "
 "kontroll."
 
-#: wp-signup.php:363
+#: wp-signup.php:505
 msgid ""
 "Check the junk or spam folder of your email client. Sometime emails wind up "
 "there by mistake."
@@ -3159,7 +3237,7 @@ msgstr ""
 "Kolla ditt skräppostfilter/skräppostmapp i ditt e-postprogram. Ibland hamnar "
 "mail där av misstag."
 
-#: wp-signup.php:385
+#: wp-signup.php:527
 msgid ""
 "Greetings Site Administrator! You are currently allowing &#8220;%s&#8221; "
 "registrations. To change or disable registration go to your <a href=\"%s"
@@ -3169,7 +3247,7 @@ msgstr ""
 "registreringar. För att ändra eller inaktivera registreringsmöjligheter, gå "
 "till  <a href=\"%s\">sidan för inställningar</a>."
 
-#: wp-signup.php:364
+#: wp-signup.php:506
 msgid ""
 "Have you entered your email correctly?  You have entered %s, if it&#8217;s "
 "incorrect, you will not receive your email."
@@ -3177,7 +3255,7 @@ msgstr ""
 "Har du angett din e-postadress korrekt? Du har angett %s, om du angett en "
 "felaktig e-postadress så kommer du inte att få något mail."
 
-#: wp-signup.php:137
+#: wp-signup.php:174
 msgid ""
 "We send your registration email to this address. (Double-check your email "
 "address before continuing.)"
@@ -3185,46 +3263,46 @@ msgstr ""
 "Vi skickar ditt registreringsmail till denna adress. (Kontrollera att rätt e-"
 "postadressen är angiven innan du fortsätter.)"
 
-#: wp-includes/post.php:1503
+#: wp-includes/post.php:1435
 msgid "Search Pages"
 msgstr "Sök sidor"
 
-#: wp-includes/post.php:1499
+#: wp-includes/post.php:1431
 msgid "Add New Post"
 msgstr "Skapa nytt inlägg"
 
-#: wp-includes/post.php:1506
+#: wp-includes/post.php:1438
 msgid "Parent Page:"
 msgstr "Modersida:"
 
-#: wp-includes/post.php:1496
+#: wp-includes/post.php:1428
 msgctxt "post type general name"
 msgid "Posts"
 msgstr "Inlägg"
 
-#: wp-includes/post.php:1500
+#: wp-includes/post.php:1432
 msgid "Edit Page"
 msgstr "Redigera sida"
 
-#: wp-includes/post.php:1503
+#: wp-includes/post.php:1435
 msgid "Search Posts"
 msgstr "Sök inlägg"
 
-#: wp-includes/post.php:1499
+#: wp-includes/post.php:1431
 msgid "Add New Page"
 msgstr "Skapa ny sida"
 
-#: wp-includes/post.php:1496
+#: wp-includes/post.php:1428
 msgctxt "post type general name"
 msgid "Pages"
 msgstr "Sidor"
 
-#: wp-includes/post.php:1497
+#: wp-includes/post.php:1429
 msgctxt "post type singular name"
 msgid "Page"
 msgstr "Sida"
 
-#: wp-includes/post.php:1497
+#: wp-includes/post.php:1429
 msgctxt "post type singular name"
 msgid "Post"
 msgstr "Inlägg"
@@ -3251,7 +3329,7 @@ msgstr ""
 "SUBDOMAIN_INSTALL har påträffats.</strong> Värdet för SUBDOMAIN_INSTALL "
 "kommer att antas vara din konfigurationsinställning för subdomän."
 
-#: wp-login.php:315
+#: wp-login.php:327
 msgid ""
 "<strong>ERROR</strong>: This username is invalid because it uses illegal "
 "characters. Please enter a valid username."
@@ -3259,7 +3337,7 @@ msgstr ""
 "<strong>FEL</strong>: Användarnamnet är ogiltigt eftersom det innehåller "
 "icke tillåtna tecken. Var vänlig och ange ett riktigt användarnamn."
 
-#: wp-includes/comment-template.php:1532
+#: wp-includes/comment-template.php:1623
 msgid "Required fields are marked %s"
 msgstr "Obligatoriska fält är märkta %s"
 
@@ -3287,7 +3365,7 @@ msgstr ""
 "<strong>Kunde inte hitta webbplatsen <code>%1$s</code>.</strong> Sökte efter "
 "tabell <code>%2$s</code> i databas <code>%3$s</code>. Är det korrekt?"
 
-#: wp-includes/general-template.php:410
+#: wp-includes/general-template.php:417
 msgid ""
 "The <code>%s</code> option is deprecated for the family of <code>bloginfo()</"
 "code> functions."
@@ -3295,7 +3373,7 @@ msgstr ""
 "Funktionen <code>%s</code> har upphört i förmån till funktionsfamiljen "
 "<code>bloginfo()</code>."
 
-#: wp-includes/general-template.php:410
+#: wp-includes/general-template.php:417
 msgid "Use the <code>%s</code> option instead."
 msgstr "Använd istället <code>%s</code>."
 
@@ -3303,7 +3381,7 @@ msgstr "Använd istället <code>%s</code>."
 msgid "Your site&#8217;s WordPress Pages"
 msgstr "Listar din webbplats WordPress-sidor"
 
-#: wp-content/plugins/akismet/admin.php:183
+#: wp-content/plugins/akismet/admin.php:182
 msgid ""
 "Your web host or server administrator has disabled PHP's <code>fsockopen</"
 "code> or <code>gethostbynamel</code> functions.  <strong>Akismet cannot work "
@@ -3334,22 +3412,22 @@ msgstr ""
 "webbplatsen."
 
 #: wp-includes/class-wp-xmlrpc-server.php:1016
-#: wp-includes/class-wp-xmlrpc-server.php:3869
+#: wp-includes/class-wp-xmlrpc-server.php:3872
 msgid "Sorry, you are not allowed to post on this site."
 msgstr ""
 "Du har inte tillräcklig behörighet för att skriva inlägg på den här "
 "webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4066
-#: wp-includes/class-wp-xmlrpc-server.php:4079
-#: wp-includes/class-wp-xmlrpc-server.php:4084
+#: wp-includes/class-wp-xmlrpc-server.php:4069
+#: wp-includes/class-wp-xmlrpc-server.php:4082
+#: wp-includes/class-wp-xmlrpc-server.php:4087
 msgid "Sorry, you are not allowed to publish posts on this site."
 msgstr ""
 "Du har inte tillräcklig behörighet för att publicera inlägg på den här "
 "webbplatsen."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4872
-#: wp-includes/class-wp-xmlrpc-server.php:5071
+#: wp-includes/class-wp-xmlrpc-server.php:4878
+#: wp-includes/class-wp-xmlrpc-server.php:5077
 msgid ""
 "Sorry, you must be able to edit posts on this site in order to view "
 "categories."
@@ -3357,17 +3435,17 @@ msgstr ""
 "Du måste ha behörighet att redigera inlägg på webbplatsen för att kunna visa "
 "kategorier."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4055
+#: wp-includes/class-wp-xmlrpc-server.php:4058
 msgid "Sorry, you are not allowed to publish pages on this site."
 msgstr ""
 "Du har inte tillräcklig behörighet för att publicera sidor på den här "
 "webbplatsen."
 
-#: wp-includes/ms-functions.php:602 wp-includes/ms-functions.php:968
+#: wp-includes/ms-functions.php:596 wp-includes/ms-functions.php:956
 msgid "Sorry, that site already exists!"
 msgstr "Den webbplatsen finns redan registrerat!"
 
-#: wp-includes/ms-functions.php:740
+#: wp-includes/ms-functions.php:731
 msgid ""
 "To activate your blog, please click the following link:\n"
 "\n"
@@ -3390,23 +3468,25 @@ msgstr ""
 "\n"
 "%s"
 
-#: wp-includes/ms-functions.php:1034
+#: wp-includes/ms-functions.php:1022
 msgid "New Site Registration: %s"
 msgstr "Ny webbplatsregistrering: %s"
 
-#: wp-includes/ms-functions.php:574
+#: wp-includes/ms-functions.php:568
 msgid "Sorry, site names may not contain the character &#8220;_&#8221;!"
 msgstr "Användarnamn kan inte innehålla tecknet &#8221;_&#8221;!"
 
-#: wp-includes/ms-functions.php:1258
+#: wp-includes/ms-functions.php:1247
 msgid "New %1$s Site: %2$s"
 msgstr "Ny %1$s webbplats: %2$s"
 
-#: wp-includes/ms-functions.php:843
+#: wp-includes/ms-functions.php:833
 msgid "The site is already active."
 msgstr "Webbplatsen är redan aktiverad."
 
 #: wp-includes/class-wp-xmlrpc-server.php:2517
+#: wp-includes/class-wp-xmlrpc-server.php:3788
+#: wp-includes/class-wp-xmlrpc-server.php:4764
 msgid "Sorry, you cannot edit posts on this site."
 msgstr "Du kan inte redigera inlägg på den här webbplatsen."
 
@@ -3428,23 +3508,23 @@ msgstr ""
 "Du har inte tillräcklig behörighet för att visa detaljer om den här "
 "webbplatsen."
 
-#: wp-includes/ms-functions.php:974
+#: wp-includes/ms-functions.php:962
 msgid "Could not create site."
 msgstr "Kunde inte skapa webbplats."
 
-#: wp-includes/default-widgets.php:535
+#: wp-includes/default-widgets.php:536
 msgid "The most recent posts on your site"
 msgstr "Senaste inläggen på din webbplats"
 
-#: wp-includes/default-widgets.php:352
+#: wp-includes/default-widgets.php:353
 msgid "A calendar of your site&#8217;s posts"
 msgstr "En kalender med din webbplats inlägg"
 
-#: wp-includes/ms-functions.php:584
+#: wp-includes/ms-functions.php:578
 msgid "Sorry, site names must have letters too!"
 msgstr "Webbplatsnamn måste innehålla bokstäver också!"
 
-#: wp-includes/ms-functions.php:578
+#: wp-includes/ms-functions.php:572
 msgid "Sorry, you may not use that site name."
 msgstr "Tyvärr, det webbplatsnamnet är inte tillåtet."
 
@@ -3456,17 +3536,17 @@ msgstr "Ett arkiv som visar dina webbplatsinlägg månadsvis"
 msgid "A search form for your site"
 msgstr "Ett sökformulär för din webbplats"
 
-#: wp-includes/ms-functions.php:606
+#: wp-includes/ms-functions.php:600
 msgid "Sorry, that site is reserved!"
 msgstr "Tyvärr, den webbplatsen är reserverad!"
 
-#: wp-includes/ms-functions.php:617
+#: wp-includes/ms-functions.php:611
 msgid "That site is currently reserved but may be available in a couple days."
 msgstr ""
 "Den webbplatsen är för närvarande reserverad, men kan bli tillgänglig igen "
 "om några dagar."
 
-#: wp-includes/pluggable.php:1202
+#: wp-includes/pluggable.php:1204
 msgid "New user registration on your site %s:"
 msgstr "En ny användare har registrerat sig på din webbplats %s:"
 
@@ -3495,10 +3575,6 @@ msgstr ""
 msgid "Site Tagline"
 msgstr "Webbplatsslogan"
 
-#: wp-includes/class-wp-xmlrpc-server.php:321
-msgid "Site URL"
-msgstr "Webbplatsadress"
-
 #: wp-includes/ms-load.php:103
 msgid "This site has been archived or suspended."
 msgstr "Den webbplatsen har blivit arkiverad eller avstängd."
@@ -3520,12 +3596,12 @@ msgstr ""
 "webbplatsen du har efterfrågat är inte installerad korrekt. Var vänlig "
 "kontakta systemadministratören."
 
-#: wp-includes/script-loader.php:463
+#: wp-includes/script-loader.php:474
 msgctxt "search results"
 msgid "No results found."
 msgstr "Inga resultat funna."
 
-#: wp-includes/nav-menu.php:226 wp-includes/nav-menu.php:233
+#: wp-includes/nav-menu.php:227 wp-includes/nav-menu.php:234
 msgid ""
 "The menu name <strong>%s</strong> conflicts with another menu name. Please "
 "try another."
@@ -3533,11 +3609,11 @@ msgstr ""
 "Menynamnet <strong>%s</strong> kolliderar med ett redan befintligt namn, var "
 "vänlig försök med ett annat namn."
 
-#: wp-includes/nav-menu.php:275
+#: wp-includes/nav-menu.php:276
 msgid "The given object ID is not that of a menu item."
 msgstr "Objekt ID angivet är inte det för ett menyobjekt."
 
-#: wp-includes/formatting.php:2763
+#: wp-includes/formatting.php:2796
 msgid ""
 "The email address entered did not appear to be a valid email address. Please "
 "enter a valid email address."
@@ -3545,7 +3621,7 @@ msgstr ""
 "E-postadressen angiven verkar inte vara en giltig e-postadress. Var vänlig "
 "ange en giltig adress."
 
-#: wp-includes/formatting.php:2850
+#: wp-includes/formatting.php:2883
 msgid ""
 "The WordPress address you entered did not appear to be a valid URL. Please "
 "enter a valid URL."
@@ -3553,7 +3629,7 @@ msgstr ""
 "WordPressadressen angiven verkar inte vara en giltig URL. Var vänlig ange en "
 "giltig URL."
 
-#: wp-includes/formatting.php:2860
+#: wp-includes/formatting.php:2893
 msgid ""
 "The Site address you entered did not appear to be a valid URL. Please enter "
 "a valid URL."
@@ -3565,7 +3641,7 @@ msgstr ""
 msgid "A term with the name provided already exists with this parent."
 msgstr "En term med namnet som angavs existerar redan med denna förälder."
 
-#: wp-includes/ms-functions.php:1686
+#: wp-includes/ms-functions.php:1649
 msgid ""
 "An error occurred adding you to this site. Back to the <a href=\"%s"
 "\">homepage</a>."
@@ -3573,7 +3649,7 @@ msgstr ""
 "Ett fel uppstod när du skulle läggas till på denna webbplats. Tillbaka till "
 "<a href=\"%s\">startsidan</a>."
 
-#: wp-includes/ms-functions.php:1610
+#: wp-includes/ms-functions.php:1573
 msgid "This file is too big. Files must be less than %d KB in size."
 msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 
@@ -3581,15 +3657,15 @@ msgstr "Filen är för stor. Filer måste vara mindre än %d Kb."
 msgid "number_format_decimal_point"
 msgstr ","
 
-#: wp-includes/comment-template.php:1538
+#: wp-includes/comment-template.php:1629
 msgid "Your email address will not be published."
 msgstr "E-postadressen publiceras inte."
 
-#: wp-includes/class-http.php:122
+#: wp-includes/class-http.php:124 wp-includes/class-wp-xmlrpc-server.php:5320
 msgid "A valid URL was not provided."
 msgstr "En giltig URL har inte angivits."
 
-#: wp-includes/comment-template.php:1537
+#: wp-includes/comment-template.php:1628
 msgid ""
 "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
 "this account\">Log out?</a>"
@@ -3602,7 +3678,7 @@ msgstr ""
 msgid "Could not calculate resized image dimensions"
 msgstr "Kunde inte beräkna dimensioner för den omskalade bilden"
 
-#: wp-signup.php:83
+#: wp-signup.php:102
 msgid ""
 "Must be at least 4 characters, letters and numbers only. It cannot be "
 "changed, so choose carefully!"
@@ -3610,13 +3686,13 @@ msgstr ""
 "Måste bestå av minst 4 tecken, endast bokstäver och siffror. Detta kan inte "
 "ändras, så välj varsamt!"
 
-#: wp-signup.php:394
+#: wp-signup.php:536
 msgid ""
 "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
 msgstr ""
 "Du måste först <a href=\"%s\">logga in</a>, sen kan du skapa en ny webbplats."
 
-#: wp-signup.php:424
+#: wp-signup.php:566
 msgid "You are logged in already. No need to register again!"
 msgstr "Du är redan inloggad. Du behöver inte registrera dig igen!"
 
@@ -3631,7 +3707,7 @@ msgstr ""
 msgid "This action has been disabled by the administrator."
 msgstr "Den här åtgärden har inaktiverats av administratören."
 
-#: wp-signup.php:169
+#: wp-signup.php:224
 msgid ""
 "Welcome back, %s. By filling out the form below, you can <strong>add another "
 "site to your account</strong>. There is no limit to the number of sites you "
@@ -3642,7 +3718,7 @@ msgstr ""
 "gräns för hur många webbplatser du kan skapa. Publicera material "
 "ansvarsfullt."
 
-#: wp-signup.php:430
+#: wp-signup.php:572
 msgid ""
 "<p><em>The site you were looking for, <strong>%s</strong> does not exist, "
 "but you can create it now!</em></p>"
@@ -3650,18 +3726,18 @@ msgstr ""
 "<p><em>Webbplatsen du letar efter, <strong>%s</strong> finns inte, men du "
 "kan skapa den nu!</em></p>"
 
-#: wp-includes/ms-functions.php:463
+#: wp-includes/ms-functions.php:460
 msgid "Sorry, usernames may not contain the character &#8220;_&#8221;!"
 msgstr "Användarnamn kan inte innehålla tecknet &#8221;_&#8221;!"
 
-#: wp-signup.php:432
+#: wp-signup.php:574
 msgid ""
 "<p><em>The site you were looking for, <strong>%s</strong>, does not exist.</"
 "em></p>"
 msgstr ""
 "<p><em>Webbplatsen du letar efter, <strong>%s</strong> finns inte.</em></p>"
 
-#: wp-signup.php:360
+#: wp-signup.php:502
 msgid ""
 "If you haven&#8217;t received your email yet, there are a number of things "
 "you can do:"
@@ -3686,15 +3762,15 @@ msgstr ""
 msgid "Enter title here"
 msgstr "Ange rubrik här"
 
-#: wp-includes/script-loader.php:427
+#: wp-includes/script-loader.php:438
 msgid "Are you sure you want to install this plugin?"
 msgstr "Är du säker på att du vill installera det här tillägget?"
 
-#: wp-includes/script-loader.php:454
+#: wp-includes/script-loader.php:465
 msgid "Use as featured image"
 msgstr "Använd som utvald bild"
 
-#: wp-includes/script-loader.php:277
+#: wp-includes/script-loader.php:288
 msgid "Mismatch"
 msgstr "Inte matchande"
 
@@ -3728,15 +3804,15 @@ msgstr "Multiwebbplatser fungerar endast utan portnummer i URLen."
 msgid "Links for %s"
 msgstr "Länkar för %s"
 
-#: wp-includes/nav-menu.php:612
+#: wp-includes/nav-menu.php:613
 msgid "Custom"
 msgstr "Anpassad"
 
-#: wp-includes/default-widgets.php:1135
+#: wp-includes/default-widgets.php:1140
 msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
 msgstr "Inga menyer har skapats än.  <a href=\"%s\">Skapa ny</a>."
 
-#: wp-includes/script-loader.php:464
+#: wp-includes/script-loader.php:475
 msgid ""
 "You are about to permanently delete this menu. \n"
 " 'Cancel' to stop, 'OK' to delete."
@@ -3744,7 +3820,7 @@ msgstr ""
 "Vill du radera den här menyn permanent? \n"
 " 'Avbryt' för att avbryta, 'OK' för att radera."
 
-#: wp-includes/link-template.php:2427
+#: wp-includes/link-template.php:2428
 msgid "This is the short link."
 msgstr "Detta är den korta länken."
 
@@ -3764,15 +3840,15 @@ msgid_plural "%d Plugin Updates"
 msgstr[0] "%d uppdatering för tillägg"
 msgstr[1] "%d uppdateringar för tillägg"
 
-#: wp-signup.php:219
+#: wp-signup.php:295
 msgid "The site %s is yours."
 msgstr "Webbplatsen %s är din."
 
-#: wp-signup.php:189
+#: wp-signup.php:244
 msgid "Create Site"
 msgstr "Skapa webbplats"
 
-#: wp-signup.php:184
+#: wp-signup.php:239
 msgid ""
 "If you&#8217;re not going to use a great site domain, leave it for a new "
 "user. Now have at it!"
@@ -3780,7 +3856,7 @@ msgstr ""
 "Om du inte ska använda den här webbplatsdomänen, låt någon annan få "
 "möjligheten att använda den."
 
-#: wp-signup.php:175
+#: wp-signup.php:230
 msgid "Sites you are already a member of:"
 msgstr "Webbplatser som du redan är medlem på:"
 
@@ -3793,43 +3869,43 @@ msgstr ""
 "aktiveringen av din webbplats, var vänlig kontakta <a href=\"mailto:%1$s\">"
 "%1$s</a>."
 
-#: wp-includes/script-loader.php:221
+#: wp-includes/script-loader.php:229
 msgid "File canceled."
 msgstr "Fil annullerad."
 
-#: wp-signup.php:88
+#: wp-signup.php:107
 msgid "Site Title:"
 msgstr "Titel för webbplats:"
 
-#: wp-signup.php:67
+#: wp-signup.php:86
 msgid "Site Domain:"
 msgstr "Webbplatsdomän:"
 
-#: wp-signup.php:65
+#: wp-signup.php:84
 msgid "Site Name:"
 msgstr "Webbplatsnamn:"
 
-#: wp-signup.php:80
+#: wp-signup.php:99
 msgid "sitename"
 msgstr "webbplatsnamn"
 
-#: wp-signup.php:163
+#: wp-signup.php:218
 msgid "Get <em>another</em> %s site in seconds"
 msgstr "Skapa <em>en till</em> %s webbplats på bara några sekunder"
 
-#: wp-signup.php:353
+#: wp-signup.php:495
 msgid "Congratulations! Your new site, %s, is almost ready."
 msgstr "Grattis! Din nya webbplats, %s, är nästan redo att använda."
 
-#: wp-signup.php:408
+#: wp-signup.php:550
 msgid "Site registration has been disabled."
 msgstr "Registrering av nya webbplatser ha inaktiverats."
 
-#: wp-signup.php:256
+#: wp-signup.php:343
 msgid "Gimme a site!"
 msgstr "Ge mig en webbplats!"
 
-#: wp-signup.php:355
+#: wp-signup.php:497
 msgid ""
 "But, before you can start using your site, <strong>you must activate it</"
 "strong>."
@@ -3837,7 +3913,7 @@ msgstr ""
 "Men, innan du kan börja använda din webbplats så <strong>måste du aktivera "
 "den</strong>."
 
-#: wp-signup.php:357
+#: wp-signup.php:499
 msgid ""
 "If you do not activate your site within two days, you will have to sign up "
 "again."
@@ -3845,7 +3921,7 @@ msgstr ""
 "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera "
 "dig igen."
 
-#: wp-includes/default-widgets.php:1144
+#: wp-includes/default-widgets.php:1149
 msgid "Select Menu:"
 msgstr "Välj meny:"
 
@@ -3853,11 +3929,11 @@ msgstr "Välj meny:"
 msgid "Navigation Menu"
 msgstr "Navigeringsmeny"
 
-#: wp-includes/default-widgets.php:1069
+#: wp-includes/default-widgets.php:1074
 msgid "Taxonomy:"
 msgstr "Taxonomi:"
 
-#: wp-includes/admin-bar.php:601
+#: wp-includes/admin-bar.php:603
 msgid "Menus"
 msgstr "Menyer"
 
@@ -3947,11 +4023,11 @@ msgstr "Du måste vara inloggad för att kommentera"
 #: wp-includes/class-wp-xmlrpc-server.php:2973
 #: wp-includes/class-wp-xmlrpc-server.php:2976
 #: wp-includes/class-wp-xmlrpc-server.php:3740
-#: wp-includes/class-wp-xmlrpc-server.php:4373
-#: wp-includes/class-wp-xmlrpc-server.php:4634
-#: wp-includes/class-wp-xmlrpc-server.php:5109
-#: wp-includes/class-wp-xmlrpc-server.php:5155
-#: wp-includes/class-wp-xmlrpc-server.php:5267
+#: wp-includes/class-wp-xmlrpc-server.php:4376
+#: wp-includes/class-wp-xmlrpc-server.php:4637
+#: wp-includes/class-wp-xmlrpc-server.php:5115
+#: wp-includes/class-wp-xmlrpc-server.php:5161
+#: wp-includes/class-wp-xmlrpc-server.php:5273
 msgid "Invalid post ID."
 msgstr "Ogiltigt inläggs ID."
 
@@ -3974,65 +4050,65 @@ msgstr "Du saknar rättigheter för att uppdatera inställningar."
 #: wp-includes/class-wp-xmlrpc-server.php:1404
 #: wp-includes/class-wp-xmlrpc-server.php:3602
 #: wp-includes/class-wp-xmlrpc-server.php:3743
-#: wp-includes/class-wp-xmlrpc-server.php:4637
-#: wp-includes/class-wp-xmlrpc-server.php:4961
-#: wp-includes/class-wp-xmlrpc-server.php:5158
+#: wp-includes/class-wp-xmlrpc-server.php:4640
+#: wp-includes/class-wp-xmlrpc-server.php:4967
+#: wp-includes/class-wp-xmlrpc-server.php:5164
 msgid "Sorry, you cannot edit this post."
 msgstr "Tyvärr, du kan inte redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3792
-#: wp-includes/class-wp-xmlrpc-server.php:5019
+#: wp-includes/class-wp-xmlrpc-server.php:3795
+#: wp-includes/class-wp-xmlrpc-server.php:5025
 msgid "Either there are no posts, or something went wrong."
 msgstr "Antingen finns det inga inlägg eller så gick något fel."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3924
-#: wp-includes/class-wp-xmlrpc-server.php:3978
-#: wp-includes/class-wp-xmlrpc-server.php:4733
-#: wp-includes/class-wp-xmlrpc-server.php:5221
+#: wp-includes/class-wp-xmlrpc-server.php:3927
+#: wp-includes/class-wp-xmlrpc-server.php:3981
+#: wp-includes/class-wp-xmlrpc-server.php:4736
+#: wp-includes/class-wp-xmlrpc-server.php:5227
 msgid "Sorry, no such post."
 msgstr "Beklagar, hittar inget sådant inlägg."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3934
-#: wp-includes/class-wp-xmlrpc-server.php:4537
+#: wp-includes/class-wp-xmlrpc-server.php:3937
+#: wp-includes/class-wp-xmlrpc-server.php:4540
 msgid "Sorry, you do not have the right to publish this post."
 msgstr ""
 "Beklagar, men du saknar rättigheter för att publicera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4425
+#: wp-includes/class-wp-xmlrpc-server.php:4428
 msgid "You are not allowed to change the post author as this user."
 msgstr ""
 "Du saknar rättigheter för att ändra inläggets författare som den här "
 "användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4429
+#: wp-includes/class-wp-xmlrpc-server.php:4432
 msgid "You are not allowed to change the page author as this user."
 msgstr ""
 "Du saknar rättigheter för att ändra sidans författare som den här användaren."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4535
+#: wp-includes/class-wp-xmlrpc-server.php:4538
 msgid "Sorry, you do not have the right to publish this page."
 msgstr "Beklagar, men du saknar rättigheter för att publicera den här sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4573
+#: wp-includes/class-wp-xmlrpc-server.php:4576
 msgid "Sorry, your entry could not be edited. Something wrong happened."
 msgstr "Beklagar, ditt inslag kunde inte redigeras. Ett fel uppstod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:4952
+#: wp-includes/class-wp-xmlrpc-server.php:4958
 msgid "Could not write file %1$s (%2$s)"
 msgstr "Kunde inte skriva till filen %1$s (%2$s)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5112
+#: wp-includes/class-wp-xmlrpc-server.php:5118
 msgid "Sorry, you can not edit this post."
 msgstr "Beklagar, men du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5315
+#: wp-includes/class-wp-xmlrpc-server.php:5325
 msgid "Is there no link to us?"
 msgstr "Finns det ingen länk till oss?"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5355
-#: wp-includes/class-wp-xmlrpc-server.php:5362
-#: wp-includes/class-wp-xmlrpc-server.php:5369
-#: wp-includes/class-wp-xmlrpc-server.php:5476
+#: wp-includes/class-wp-xmlrpc-server.php:5365
+#: wp-includes/class-wp-xmlrpc-server.php:5372
+#: wp-includes/class-wp-xmlrpc-server.php:5379
+#: wp-includes/class-wp-xmlrpc-server.php:5486
 msgid ""
 "The specified target URL cannot be used as a target. It either doesn&#8217;t "
 "exist, or it is not a pingback-enabled resource."
@@ -4040,24 +4116,24 @@ msgstr ""
 "Mål-URLen du angav kan inte användas. Antingen finns det ingenting på den "
 "adressen eller så stöder resursen inte pingar."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5365
+#: wp-includes/class-wp-xmlrpc-server.php:5375
 msgid ""
 "The source URL and the target URL cannot both point to the same resource."
 msgstr "Käll-URLen och mål-URLen kan inte peka på samma resurs."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5373
+#: wp-includes/class-wp-xmlrpc-server.php:5383
 msgid "The pingback has already been registered."
 msgstr "Pingbacken har redan registrerats."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5381
+#: wp-includes/class-wp-xmlrpc-server.php:5391
 msgid "The source URL does not exist."
 msgstr "Den önskade URL:n finns inte."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5393
+#: wp-includes/class-wp-xmlrpc-server.php:5403
 msgid "We cannot find a title on that page."
 msgstr "Vi hittar ingen titel på den sidan."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5429
+#: wp-includes/class-wp-xmlrpc-server.php:5439
 msgid ""
 "The source URL does not contain a link to the target URL, and so cannot be "
 "used as a source."
@@ -4065,11 +4141,11 @@ msgstr ""
 "Käll-URLen innehåller ingen länk till mål-URLen och kan därför inte användas "
 "som källa."
 
-#: wp-includes/class-wp-xmlrpc-server.php:5450
+#: wp-includes/class-wp-xmlrpc-server.php:5460
 msgid "Pingback from %1$s to %2$s registered. Keep the web talking! :-)"
 msgstr "Pingback från %1$s till %2$s har registrerats. Låt webben tala! :-)"
 
-#: wp-includes/class-wp-xmlrpc-server.php:5483
+#: wp-includes/class-wp-xmlrpc-server.php:5493
 msgid "The specified target URL does not exist."
 msgstr "Den önskade mål-URL:n finns inte."
 
@@ -4105,6 +4181,7 @@ msgid ""
 "host. If you still need help you can always visit the <a href='http://"
 "wordpress.org/support/'>WordPress Support Forums</a>.</p>\n"
 msgstr ""
+"\n"
 "<h1>Problem med att skapa en databasanslutning</h1>\n"
 "<p>Detta tyder på att användarnamnet och/eller lösenordet i din <code>wp-"
 "config.php</code>-fil är felaktigt eller att vi inte kan ansluta mot servern "
@@ -4126,26 +4203,26 @@ msgstr "WordPress databasfel för %1$s förfrågan %2$s skapat av %3$s"
 msgid "WordPress database error %1$s for query %2$s"
 msgstr "WordPress databasfel för %1$s förfrågan %2$s"
 
-#: wp-includes/comment-template.php:1544
+#: wp-includes/comment-template.php:1635
 msgid "Cancel reply"
 msgstr "Avbryt svar"
 
-#: wp-includes/comment-template.php:1545
+#: wp-includes/comment-template.php:1636
 msgid "Post Comment"
 msgstr "Skicka kommentar"
 
-#: wp-includes/comment.php:420
+#: wp-includes/comment.php:422
 msgid "Unapproved"
 msgstr "Förkastad"
 
-#: wp-includes/comment.php:679 wp-includes/comment.php:681
+#: wp-includes/comment.php:681 wp-includes/comment.php:683
 msgid ""
 "Duplicate comment detected; it looks as though you&#8217;ve already said "
 "that!"
 msgstr ""
 "Hittade en likadan kommentar; det verkar som om du redan hade sagt det här!"
 
-#: wp-includes/comment.php:1462
+#: wp-includes/comment.php:1459
 msgid "Could not update comment status"
 msgstr "Kunde inte uppdatera kommentarsstatus"
 
@@ -4217,7 +4294,7 @@ msgstr "Visa länkomdöme"
 msgid "Select Month"
 msgstr "Välj månad"
 
-#: wp-includes/default-widgets.php:285 wp-includes/default-widgets.php:518
+#: wp-includes/default-widgets.php:285 wp-includes/default-widgets.php:519
 msgid "Show post counts"
 msgstr "Visa inläggsräknare"
 
@@ -4233,96 +4310,96 @@ msgstr "Prenumerera på den här webbplatsen via RSS 2.0"
 msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "Inlägg via <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
-#: wp-includes/default-widgets.php:353
+#: wp-includes/default-widgets.php:354
 msgid "Calendar"
 msgstr "Kalender"
 
-#: wp-includes/default-widgets.php:393
+#: wp-includes/default-widgets.php:394
 msgid "Arbitrary text or HTML"
 msgstr "Godtycklig text eller HTML"
 
-#: wp-includes/default-widgets.php:395
+#: wp-includes/default-widgets.php:396
 msgid "Text"
 msgstr "Text"
 
-#: wp-includes/default-widgets.php:430
+#: wp-includes/default-widgets.php:431
 msgid "Automatically add paragraphs"
 msgstr "Lägg till styckesindelning automatiskt."
 
-#: wp-includes/default-widgets.php:443
+#: wp-includes/default-widgets.php:444
 msgid "A list or dropdown of categories"
 msgstr "En lista eller dropdown-meny med kategorier"
 
-#: wp-includes/default-widgets.php:462
+#: wp-includes/default-widgets.php:463
 msgid "Select Category"
 msgstr "Välj kategori"
 
-#: wp-includes/default-widgets.php:521
+#: wp-includes/default-widgets.php:522
 msgid "Show hierarchy"
 msgstr "Visa hierarki"
 
-#: wp-includes/default-widgets.php:536 wp-includes/default-widgets.php:561
+#: wp-includes/default-widgets.php:537 wp-includes/default-widgets.php:562
 msgid "Recent Posts"
 msgstr "Senaste inläggen"
 
-#: wp-includes/default-widgets.php:618
+#: wp-includes/default-widgets.php:621
 msgid "Number of posts to show:"
 msgstr "Antal inlägg att visa:"
 
-#: wp-includes/default-widgets.php:635
+#: wp-includes/default-widgets.php:638
 msgid "The most recent comments"
 msgstr "Senaste kommentarerna"
 
-#: wp-includes/default-widgets.php:694
+#: wp-includes/default-widgets.php:699
 msgctxt "widgets"
 msgid "%1$s on %2$s"
 msgstr "%1$s om %2$s"
 
-#: wp-includes/default-widgets.php:739
+#: wp-includes/default-widgets.php:744
 msgid "Entries from any RSS or Atom feed"
 msgstr "Poster från valfritt RSS eller Atom-flöde"
 
-#: wp-includes/default-widgets.php:783
+#: wp-includes/default-widgets.php:788
 msgid "Syndicate this content"
 msgstr "Syndikera innehållet"
 
-#: wp-includes/default-widgets.php:861
+#: wp-includes/default-widgets.php:866
 msgid "Untitled"
 msgstr "Utan titel"
 
-#: wp-includes/default-widgets.php:939
+#: wp-includes/default-widgets.php:944
 msgid "RSS Error: %s"
 msgstr "RSS-fel: %s"
 
-#: wp-includes/default-widgets.php:943
+#: wp-includes/default-widgets.php:948
 msgid "Enter the RSS feed URL here:"
 msgstr "Ange RSS-flödets URL här:"
 
-#: wp-includes/default-widgets.php:946
+#: wp-includes/default-widgets.php:951
 msgid "Give the feed a title (optional):"
 msgstr "Ge flödet en titel (frivilligt):"
 
-#: wp-includes/default-widgets.php:949
+#: wp-includes/default-widgets.php:954
 msgid "How many items would you like to display?"
 msgstr "Hur många inslag vill du visa?"
 
-#: wp-includes/default-widgets.php:958
+#: wp-includes/default-widgets.php:963
 msgid "Display item content?"
 msgstr "Visa postens innehåll?"
 
-#: wp-includes/default-widgets.php:961
+#: wp-includes/default-widgets.php:966
 msgid "Display item author if available?"
 msgstr "Visa författare om tillgängligt?"
 
-#: wp-includes/default-widgets.php:964
+#: wp-includes/default-widgets.php:969
 msgid "Display item date?"
 msgstr "Visa postens datum?"
 
-#: wp-includes/default-widgets.php:1030
+#: wp-includes/default-widgets.php:1035
 msgid "Your most used tags in cloud format"
 msgstr "Dina mesta använda etiketter i molnformat"
 
-#: wp-includes/default-widgets.php:1031
+#: wp-includes/default-widgets.php:1036
 msgid "Tag Cloud"
 msgstr "Etikettmoln"
 
@@ -4334,7 +4411,7 @@ msgstr "Ny WordPress-loop"
 msgid "Last updated"
 msgstr "Senast uppdaterat"
 
-#: wp-includes/deprecated.php:1898 wp-includes/post-template.php:1166
+#: wp-includes/deprecated.php:1898 wp-includes/post-template.php:1172
 msgid "Missing Attachment"
 msgstr "Bilaga saknas"
 
@@ -4363,45 +4440,45 @@ msgid "Protected Comments: Please enter your password to view comments."
 msgstr ""
 "Lösenordsskyddade kommentarer: ange ditt lösenord för att visa kommentarerna."
 
-#: wp-includes/formatting.php:2111
+#: wp-includes/formatting.php:2143
 msgid "%s min"
 msgid_plural "%s mins"
 msgstr[0] "%s minut"
 msgstr[1] "%s minuter"
 
-#: wp-includes/formatting.php:2117
+#: wp-includes/formatting.php:2149
 msgid "%s hour"
 msgid_plural "%s hours"
 msgstr[0] "%s timme"
 msgstr[1] "%s timmar"
 
-#: wp-includes/formatting.php:2123
+#: wp-includes/formatting.php:2155
 msgid "%s day"
 msgid_plural "%s days"
 msgstr[0] "%s dag"
 msgstr[1] "%s dagar"
 
-#: wp-includes/class-wp-theme.php:663 wp-includes/formatting.php:3054
+#: wp-includes/class-wp-theme.php:664 wp-includes/formatting.php:3087
 msgid ", "
 msgstr ", "
 
-#: wp-includes/formatting.php:3056
+#: wp-includes/formatting.php:3089
 msgid ", and "
 msgstr " och "
 
-#: wp-includes/formatting.php:3058
+#: wp-includes/formatting.php:3091
 msgid " and "
 msgstr " och "
 
-#: wp-includes/option.php:109
+#: wp-includes/option.php:108
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s är en skyddad WP-inställning och kan inte ändras"
 
-#: wp-includes/functions.php:994
+#: wp-includes/functions.php:1009
 msgid "ERROR: %s is not a valid feed template."
 msgstr "FEL: %s är inte en giltig flödesmall."
 
-#: wp-includes/functions.php:1587 wp-includes/functions.php:1710
+#: wp-includes/functions.php:1624 wp-includes/functions.php:1747
 msgid ""
 "Unable to create directory %s. Is its parent directory writable by the "
 "server?"
@@ -4409,45 +4486,45 @@ msgstr ""
 "Kan inte skapa katalogen %s. Har servern skrivrättigheter till "
 "moderkatalogen?"
 
-#: wp-includes/functions.php:1684
+#: wp-includes/functions.php:1721
 msgid "Empty filename"
 msgstr "Tomt filnamn"
 
-#: wp-includes/functions.php:1716
+#: wp-includes/functions.php:1753
 msgid "Could not write file %s"
 msgstr "Kunde inte skriva till filen %s"
 
-#: wp-includes/functions.php:1984
+#: wp-includes/functions.php:2026
 msgid "You are attempting to log out of %s"
 msgstr "Du försöker att logga ut ifrån %s"
 
-#: wp-includes/functions.php:1982
+#: wp-includes/functions.php:2024
 msgid "WordPress Failure Notice"
 msgstr "WordPress felmeddelande"
 
-#: wp-includes/functions.php:1985
+#: wp-includes/functions.php:2027
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "Vill du verkligen <a href='%s'>logga ut</a>?"
 
-#: wp-includes/functions.php:1989 wp-includes/ms-functions.php:1641
+#: wp-includes/functions.php:2031 wp-includes/ms-functions.php:1604
 msgid "Please try again."
 msgstr "Var vänlig försök igen."
 
-#: wp-includes/functions.php:2063
+#: wp-includes/functions.php:2105
 msgid "&laquo; Back"
 msgstr "&laquo; Tillbaka"
 
-#: wp-includes/functions.php:2075 wp-load.php:62
+#: wp-includes/functions.php:2117 wp-load.php:62
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; Fel"
 
-#: wp-includes/functions.php:2824 wp-includes/functions.php:2864
+#: wp-includes/functions.php:2866 wp-includes/functions.php:2906
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr ""
 "%1$s har <strong>upphört</strong> sedan version %2$s! Använd %3$s istället."
 
-#: wp-includes/functions.php:2826 wp-includes/functions.php:2866
+#: wp-includes/functions.php:2868 wp-includes/functions.php:2908
 msgid ""
 "%1$s is <strong>deprecated</strong> since version %2$s with no alternative "
 "available."
@@ -4455,7 +4532,7 @@ msgstr ""
 "%1$s har <strong>upphört</strong> sedan version %2$s utan alternativ "
 "tillgängliga."
 
-#: wp-includes/functions.php:2908
+#: wp-includes/functions.php:2950
 msgid ""
 "%1$s was called with an argument that is <strong>deprecated</strong> since "
 "version %2$s! %3$s"
@@ -4463,7 +4540,7 @@ msgstr ""
 "%1$s kallades med ett argument som har <strong>upphört</strong> sedan "
 "version %2$s! %3$s"
 
-#: wp-includes/functions.php:2910
+#: wp-includes/functions.php:2952
 msgid ""
 "%1$s was called with an argument that is <strong>deprecated</strong> since "
 "version %2$s with no alternative available."
@@ -4471,103 +4548,99 @@ msgstr ""
 "%1$s kallades med ett argument som har <strong>upphört</strong> sedan "
 "version %2$s utan alternativ tillgängliga."
 
-#: wp-includes/functions.php:3339
+#: wp-includes/functions.php:3381
 msgid "Select a city"
 msgstr "Välj en stad"
 
-#: wp-includes/functions.php:3384 wp-includes/functions.php:3388
+#: wp-includes/functions.php:3426 wp-includes/functions.php:3430
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:3392
+#: wp-includes/functions.php:3434
 msgid "Manual Offsets"
 msgstr "Manuella kompensationer"
 
-#: wp-includes/general-template.php:162
-msgid "Search for:"
-msgstr "Sök efter:"
-
-#: wp-includes/general-template.php:189 wp-login.php:449 wp-login.php:477
-#: wp-login.php:508 wp-login.php:564
+#: wp-includes/general-template.php:195 wp-login.php:461 wp-login.php:489
+#: wp-login.php:520 wp-login.php:576
 msgid "Log in"
 msgstr "Logga in"
 
-#: wp-includes/general-template.php:191
+#: wp-includes/general-template.php:197
 msgid "Log out"
 msgstr "Logga ut"
 
-#: wp-includes/general-template.php:263 wp-login.php:690
+#: wp-includes/general-template.php:270 wp-login.php:696
 msgid "Remember Me"
 msgstr "Kom ihåg mig"
 
-#: wp-includes/general-template.php:341 wp-login.php:451 wp-login.php:510
-#: wp-login.php:560 wp-login.php:709
+#: wp-includes/general-template.php:348 wp-login.php:463 wp-login.php:522
+#: wp-login.php:572 wp-login.php:715
 msgid "Register"
 msgstr "Registrera"
 
-#: wp-includes/general-template.php:345
+#: wp-includes/general-template.php:352
 msgid "Site Admin"
 msgstr "Administration"
 
-#: wp-includes/general-template.php:580
+#: wp-includes/general-template.php:587
 msgid "Search Results %1$s %2$s"
 msgstr "Sökresultat %1$s %2$s"
 
-#: wp-includes/general-template.php:585
+#: wp-includes/general-template.php:592
 msgid "Page not found"
 msgstr "Sidan kunde inte hittas"
 
-#: wp-includes/general-template.php:937
+#: wp-includes/general-template.php:946
 msgid "%1$s %2$d"
 msgstr "%1$s %2$d"
 
-#: wp-includes/general-template.php:1146
+#: wp-includes/general-template.php:1144
 msgctxt "calendar caption"
 msgid "%1$s %2$s"
 msgstr "%1$s %2$s"
 
-#: wp-includes/general-template.php:1172 wp-includes/general-template.php:1180
+#: wp-includes/general-template.php:1170 wp-includes/general-template.php:1178
 msgid "View posts for %1$s %2$s"
 msgstr "Se inlägg för %1$s %2$s"
 
-#: wp-includes/general-template.php:1600 wp-includes/general-template.php:1623
+#: wp-includes/general-template.php:1598 wp-includes/general-template.php:1621
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
 
-#: wp-includes/general-template.php:1602
+#: wp-includes/general-template.php:1600
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s flöde"
 
-#: wp-includes/general-template.php:1604
+#: wp-includes/general-template.php:1602
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s kommentarsflöde"
 
-#: wp-includes/general-template.php:1625
+#: wp-includes/general-template.php:1623
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s kommentarsflöde"
 
-#: wp-includes/general-template.php:1627
+#: wp-includes/general-template.php:1625
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s %3$s kategoriflöde"
 
-#: wp-includes/general-template.php:1629
+#: wp-includes/general-template.php:1627
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s %3$s etikettflöde"
 
-#: wp-includes/general-template.php:1631
+#: wp-includes/general-template.php:1629
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Inlägg av %3$s -flöde"
 
-#: wp-includes/general-template.php:1633
+#: wp-includes/general-template.php:1631
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Sökresultat för &#8221;%3$s&#8221; -flöde"
 
-#: wp-includes/general-template.php:1930
+#: wp-includes/general-template.php:1928
 msgid "&laquo; Previous"
 msgstr "&laquo; Föregående"
 
-#: wp-includes/general-template.php:1931
+#: wp-includes/general-template.php:1929
 msgid "Next &raquo;"
 msgstr "Nästa &raquo;"
 
@@ -4575,21 +4648,22 @@ msgstr "Nästa &raquo;"
 msgid "Gray"
 msgstr "Grå"
 
-#: wp-includes/class-http.php:125
+#: wp-includes/class-http.php:127
 msgid "User has blocked requests through HTTP."
 msgstr "Användaren har blockerat förfrågningar via HTTP."
 
-#: wp-includes/class-http.php:782 wp-includes/class-http.php:966
-#: wp-includes/class-http.php:1164 wp-includes/class-http.php:1183
+#: wp-includes/class-http.php:805 wp-includes/class-http.php:995
+#: wp-includes/class-http.php:1221 wp-includes/class-http.php:1243
+#: wp-includes/class-http.php:1261
 msgid "Too many redirects."
 msgstr "För många omdirigeringar."
 
-#: wp-includes/class-http.php:866
+#: wp-includes/class-http.php:892
 msgid "Malformed URL: %s"
 msgstr "Felformaterad URL: %s"
 
-#: wp-includes/class-http.php:742 wp-includes/class-http.php:924
-#: wp-includes/class-http.php:943 wp-includes/class-http.php:1123
+#: wp-includes/class-http.php:750 wp-includes/class-http.php:951
+#: wp-includes/class-http.php:971 wp-includes/class-http.php:1188
 msgid "Could not open handle for fopen() to %s"
 msgstr "Kunde inte öppna hantering för fopen() till %s"
 
@@ -4899,7 +4973,7 @@ msgstr "Infoga/redigera bild"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:152
 #: wp-includes/js/tinymce/langs/wp-langs.php:377
-#: wp-includes/script-loader.php:288
+#: wp-includes/script-loader.php:299
 msgid "Insert/edit link"
 msgstr "Infoga/redigera länk"
 
@@ -5029,7 +5103,7 @@ msgid "Cell"
 msgstr "Cell"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:206
-#: wp-includes/script-loader.php:465 wp-includes/script-loader.php:577
+#: wp-includes/script-loader.php:476 wp-includes/script-loader.php:588
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 "Ändringarna du gjort kommer att förloras om du går i från sidan utan att "
@@ -5496,7 +5570,7 @@ msgstr "Sjustera"
 msgid "WMode"
 msgstr "WMode"
 
-#: wp-includes/admin-bar.php:604 wp-includes/js/tinymce/langs/wp-langs.php:413
+#: wp-includes/admin-bar.php:606 wp-includes/js/tinymce/langs/wp-langs.php:413
 msgid "Background"
 msgstr "Bakgrund"
 
@@ -5781,7 +5855,7 @@ msgstr "(Läs mer...)"
 msgid "Next page..."
 msgstr "Nästa sida"
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:511 wp-includes/media.php:1519
+#: wp-includes/js/tinymce/langs/wp-langs.php:511 wp-includes/media.php:1521
 msgid "Edit Gallery"
 msgstr "Redigera galleri"
 
@@ -6042,11 +6116,11 @@ msgstr "Har du Moxie?"
 msgid "Comments Feed"
 msgstr "Flöde för kommentarer"
 
-#: wp-includes/link-template.php:1221 wp-includes/link-template.php:1389
+#: wp-includes/link-template.php:1222 wp-includes/link-template.php:1390
 msgid "Previous Post"
 msgstr "Tidigare inlägg"
 
-#: wp-includes/link-template.php:1221 wp-includes/link-template.php:1389
+#: wp-includes/link-template.php:1222 wp-includes/link-template.php:1390
 msgid "Next Post"
 msgstr "Följande inlägg"
 
@@ -6054,11 +6128,11 @@ msgstr "Följande inlägg"
 msgid "Last Post"
 msgstr "Sista inlägget"
 
-#: wp-includes/link-template.php:1744
+#: wp-includes/link-template.php:1745
 msgid "Newer Comments &raquo;"
 msgstr "Nyare kommentarer &raquo;"
 
-#: wp-includes/link-template.php:1781
+#: wp-includes/link-template.php:1782
 msgid "&laquo; Older Comments"
 msgstr "&laquo; Äldre kommentarer"
 
@@ -6118,7 +6192,7 @@ msgstr "Kunde inte läsa bildens storlek"
 msgid "That user does not exist."
 msgstr "Användaren existerar inte."
 
-#: wp-includes/ms-functions.php:457
+#: wp-includes/ms-functions.php:454
 msgid ""
 "You cannot use that email address to signup. We are having problems with "
 "them blocking some of our email. Please use another email provider."
@@ -6127,34 +6201,30 @@ msgstr ""
 "problem med att dom blockerar vissa av våra mail. Var vänlig använd en annan "
 "e-postleverantör."
 
-#: wp-includes/ms-functions.php:469
+#: wp-includes/ms-functions.php:466
 msgid "Sorry, usernames must have letters too!"
 msgstr "Beklagar, användarnamn måste innehålla bokstäver också!"
 
-#: wp-includes/ms-functions.php:478
+#: wp-includes/ms-functions.php:475
 msgid "Sorry, that email address is not allowed!"
 msgstr "Tyvärr, den e-postadressen är inte tillåten!"
 
-#: wp-includes/ms-functions.php:483 wp-includes/user.php:1313
+#: wp-includes/ms-functions.php:480 wp-includes/user.php:1313
 msgid "Sorry, that username already exists!"
 msgstr "Det användarnamnet finns redan registrerat!"
 
-#: wp-includes/ms-functions.php:487 wp-includes/user.php:1328
+#: wp-includes/ms-functions.php:484 wp-includes/user.php:1328
 msgid "Sorry, that email address is already used!"
 msgstr "Den e-postadressen används redan!"
 
-#: wp-includes/ms-functions.php:499
+#: wp-includes/ms-functions.php:496
 msgid ""
 "That username is currently reserved but may be available in a couple of days."
 msgstr ""
 "De valda användarnamnet är för närvarande reserverat, men kan bli ledigt "
 "igen inom några dagar."
 
-#: wp-includes/ms-functions.php:502
-msgid "username and email used"
-msgstr "användarnamn och e-postadress använt"
-
-#: wp-includes/ms-functions.php:512
+#: wp-includes/ms-functions.php:506
 msgid ""
 "That email address has already been used. Please check your inbox for an "
 "activation email. It will become available in a couple of days if you do "
@@ -6164,27 +6234,27 @@ msgstr ""
 "registrera dig med e-postadressen igen inom några dagar om ingen aktivering "
 "sker."
 
-#: wp-includes/ms-functions.php:837
+#: wp-includes/ms-functions.php:827
 msgid "Invalid activation key."
 msgstr "Ogiltig aktiveringsnyckel."
 
-#: wp-includes/ms-functions.php:859
+#: wp-includes/ms-functions.php:847
 msgid "Could not create user"
 msgstr "Kunde inte skapa användare"
 
-#: wp-includes/ms-functions.php:867
+#: wp-includes/ms-functions.php:855
 msgid "That username is already activated."
 msgstr "Det användarnamnet är redan aktiverat."
 
-#: wp-includes/ms-functions.php:1068
+#: wp-includes/ms-functions.php:1056
 msgid "New User Registration: %s"
 msgstr "Ny användarregistrering: %s"
 
-#: wp-includes/ms-functions.php:1306
+#: wp-includes/ms-functions.php:1295
 msgid "New %1$s User: %2$s"
 msgstr "Ny %1$s användare: %2$s"
 
-#: wp-includes/ms-functions.php:1849
+#: wp-includes/ms-functions.php:1813
 msgid ""
 "Dear User,\n"
 "\n"
@@ -6227,85 +6297,85 @@ msgstr "Databastabeller saknas."
 msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
 msgstr "<strong>FEL</strong>: Felaktigt användarnamn eller e-postadress."
 
-#: wp-includes/pluggable.php:1016 wp-includes/pluggable.php:1129
+#: wp-includes/pluggable.php:1021 wp-includes/pluggable.php:1134
 msgid "Author : %1$s (IP: %2$s , %3$s)"
 msgstr "Författare: %1$s (IP: %2$s, %3$s)"
 
-#: wp-includes/pluggable.php:1017 wp-includes/pluggable.php:1130
+#: wp-includes/pluggable.php:1022 wp-includes/pluggable.php:1135
 msgid "E-mail : %s"
 msgstr "E-post: %s"
 
-#: wp-includes/pluggable.php:1018 wp-includes/pluggable.php:1028
-#: wp-includes/pluggable.php:1037 wp-includes/pluggable.php:1116
-#: wp-includes/pluggable.php:1123 wp-includes/pluggable.php:1131
+#: wp-includes/pluggable.php:1023 wp-includes/pluggable.php:1033
+#: wp-includes/pluggable.php:1042 wp-includes/pluggable.php:1121
+#: wp-includes/pluggable.php:1128 wp-includes/pluggable.php:1136
 msgid "URL    : %s"
 msgstr "URL    : %s"
 
-#: wp-includes/pluggable.php:1020 wp-includes/pluggable.php:1133
+#: wp-includes/pluggable.php:1025 wp-includes/pluggable.php:1138
 msgid "Comment: "
 msgstr "Kommentar:"
 
-#: wp-includes/pluggable.php:1021
+#: wp-includes/pluggable.php:1026
 msgid "You can see all comments on this post here: "
 msgstr "Alla kommentarer till det här inlägget:"
 
-#: wp-includes/pluggable.php:1023
+#: wp-includes/pluggable.php:1028
 msgid "[%1$s] Comment: \"%2$s\""
 msgstr "[%1$s] Kommentar: \"%2$s\""
 
-#: wp-includes/pluggable.php:1027 wp-includes/pluggable.php:1036
+#: wp-includes/pluggable.php:1032 wp-includes/pluggable.php:1041
 msgid "Website: %1$s (IP: %2$s , %3$s)"
 msgstr "Webbplats: %1$s (IP: %2$s, %3$s)"
 
-#: wp-includes/pluggable.php:1029 wp-includes/pluggable.php:1038
+#: wp-includes/pluggable.php:1034 wp-includes/pluggable.php:1043
 msgid "Excerpt: "
 msgstr "Utdrag:"
 
-#: wp-includes/pluggable.php:1030
+#: wp-includes/pluggable.php:1035
 msgid "You can see all trackbacks on this post here: "
 msgstr "Alla trackbacks till det här inlägget:"
 
-#: wp-includes/pluggable.php:1032
+#: wp-includes/pluggable.php:1037
 msgid "[%1$s] Trackback: \"%2$s\""
 msgstr "[%1$s] Trackback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1039
+#: wp-includes/pluggable.php:1044
 msgid "You can see all pingbacks on this post here: "
 msgstr "Alla pingbackar till det här inlägget:"
 
-#: wp-includes/pluggable.php:1041
+#: wp-includes/pluggable.php:1046
 msgid "[%1$s] Pingback: \"%2$s\""
 msgstr "[%1$s] Pingback: \"%2$s\""
 
-#: wp-includes/pluggable.php:1046 wp-includes/pluggable.php:1139
+#: wp-includes/pluggable.php:1051 wp-includes/pluggable.php:1144
 msgid "Trash it: %s"
 msgstr "Kasta i papperskorgen: %s"
 
-#: wp-includes/pluggable.php:1048 wp-includes/pluggable.php:1141
+#: wp-includes/pluggable.php:1053 wp-includes/pluggable.php:1146
 msgid "Delete it: %s"
 msgstr "Radera den: %s"
 
-#: wp-includes/pluggable.php:1049 wp-includes/pluggable.php:1142
+#: wp-includes/pluggable.php:1054 wp-includes/pluggable.php:1147
 msgid "Spam it: %s"
 msgstr "Märk som skräp: %s"
 
-#: wp-includes/pluggable.php:1115 wp-includes/pluggable.php:1122
+#: wp-includes/pluggable.php:1120 wp-includes/pluggable.php:1127
 msgid "Website : %1$s (IP: %2$s , %3$s)"
 msgstr "Webbplats : %1$s (IP: %2$s , %3$s)"
 
-#: wp-includes/pluggable.php:1117
+#: wp-includes/pluggable.php:1122
 msgid "Trackback excerpt: "
 msgstr "Trackback utdrag:"
 
-#: wp-includes/pluggable.php:1124
+#: wp-includes/pluggable.php:1129
 msgid "Pingback excerpt: "
 msgstr "Pingback utdrag:"
 
-#: wp-includes/pluggable.php:1137
+#: wp-includes/pluggable.php:1142
 msgid "Approve it: %s"
 msgstr "Godkänn den: %s"
 
-#: wp-includes/pluggable.php:1144
+#: wp-includes/pluggable.php:1149
 msgid ""
 "Currently %s comment is waiting for approval. Please visit the moderation "
 "panel:"
@@ -6319,32 +6389,32 @@ msgstr[1] ""
 "För närvarande väntar %s kommentarer på ditt godkännande. Vänligen besök "
 "granskningspanelen:"
 
-#: wp-includes/pluggable.php:1148
+#: wp-includes/pluggable.php:1153
 msgid "[%1$s] Please moderate: \"%2$s\""
 msgstr "[%1$s] Vänligen moderera: \"%2$s\""
 
-#: wp-includes/pluggable.php:1174
+#: wp-includes/pluggable.php:1179
 msgid "Password Lost and Changed for user: %s"
 msgstr "Användaren %s har glömt sitt lösenord. Lösenordet har ändrats."
 
-#: wp-includes/pluggable.php:1178
+#: wp-includes/pluggable.php:1183
 msgid "[%s] Password Lost/Changed"
 msgstr "[%s] Lösenordet glömt/ändrat"
 
-#: wp-includes/pluggable.php:1203 wp-includes/pluggable.php:1211
-#: wp-login.php:233
+#: wp-includes/pluggable.php:1205 wp-includes/pluggable.php:1213
+#: wp-login.php:245
 msgid "Username: %s"
 msgstr "Användarnamn: %s"
 
-#: wp-includes/pluggable.php:1206
+#: wp-includes/pluggable.php:1208
 msgid "[%s] New User Registration"
 msgstr "[%s] Registrering av ny användare"
 
-#: wp-includes/pluggable.php:1212
+#: wp-includes/pluggable.php:1214
 msgid "Password: %s"
 msgstr "Lösenord: %s"
 
-#: wp-includes/pluggable.php:1215
+#: wp-includes/pluggable.php:1217
 msgid "[%s] Your username and password"
 msgstr "[%s] Ditt användarnamn och lösenord"
 
@@ -6360,44 +6430,39 @@ msgstr "Privat: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Det finns inget utdrag eftersom det här är ett skyddat inlägg."
 
-#: wp-includes/post-template.php:635
+#: wp-includes/post-template.php:641
 msgid "Next page"
 msgstr "Nästa sida"
 
-#: wp-includes/post-template.php:636
+#: wp-includes/post-template.php:642
 msgid "Previous page"
 msgstr "Föregående sida"
 
-#: wp-includes/post-template.php:899
+#: wp-includes/post-template.php:905
 msgid "Home"
 msgstr "Hem"
 
-#: wp-includes/post-template.php:1226
+#: wp-includes/post-template.php:1232
 msgid ""
 "This post is password protected. To view it please enter your password below:"
 msgstr ""
 "Det här inlägget är lösenordsskyddat. För att se det måste du ange ditt "
 "lösenord nedan:"
 
-#: wp-includes/post-template.php:1304
-msgctxt "revision date format"
-msgid "j F, Y @ G:i"
-msgstr "j F, Y @ H:i"
-
-#: wp-includes/post-template.php:1306
+#: wp-includes/post-template.php:1328
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Autosparat]"
 
-#: wp-includes/post-template.php:1308
+#: wp-includes/post-template.php:1329
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Nuvarande version]"
 
-#: wp-includes/post-template.php:1374
+#: wp-includes/post-template.php:1391
 msgctxt "post revision"
 msgid "%1$s by %2$s"
 msgstr "%1$s av %2$s"
 
-#: wp-includes/post-template.php:1424
+#: wp-includes/post-template.php:1441
 msgid "Compare Revisions"
 msgstr "Jämför versioner"
 
@@ -6471,27 +6536,27 @@ msgid_plural "Trash <span class=\"count\">(%s)</span>"
 msgstr[0] "Papperskorg <span class=\"count\">(%s)</span>"
 msgstr[1] "Papperskorg <span class=\"count\">(%s)</span>"
 
-#: wp-includes/post.php:2731
+#: wp-includes/post.php:2663
 msgid "Content, title, and excerpt are empty."
 msgstr "Innehåll, titel och utdrag är tomma."
 
-#: wp-includes/post.php:2872
+#: wp-includes/post.php:2804
 msgid "Could not update post in the database"
 msgstr "Kunde inte uppdatera inlägget i databasen"
 
-#: wp-includes/post.php:2888
+#: wp-includes/post.php:2820
 msgid "Could not insert post into the database"
 msgstr "Kunde inte infoga inlägget i databasen"
 
-#: wp-includes/post.php:2935
+#: wp-includes/post.php:2867
 msgid "The page template is invalid."
 msgstr "Sidmallen är felaktig."
 
-#: wp-includes/post.php:5063
+#: wp-includes/revision.php:241
 msgid "Cannot create a revision of a revision"
 msgstr "Kan inte skapa en version av en revision"
 
-#: wp-includes/post.php:5238
+#: wp-includes/revision.php:416
 msgid "You do not have permission to preview drafts."
 msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 
@@ -6499,19 +6564,19 @@ msgstr "Du saknar rättigheter för att förhandsgranska utkast."
 msgid "Cannot create a user with an empty login name."
 msgstr "Kan inte skapa en användare med ett tomt inloggningsnamn."
 
-#: wp-includes/user.php:1538
+#: wp-includes/user.php:1544
 msgid "AIM"
 msgstr "AIM"
 
-#: wp-includes/user.php:1539
+#: wp-includes/user.php:1545
 msgid "Yahoo IM"
 msgstr "Yahoo IM"
 
-#: wp-includes/user.php:1540
+#: wp-includes/user.php:1546
 msgid "Jabber / Google Talk"
 msgstr "Jabber / Google Talk"
 
-#: wp-includes/default-widgets.php:847 wp-includes/rss.php:895
+#: wp-includes/default-widgets.php:852 wp-includes/rss.php:895
 msgid ""
 "An error has occurred, which probably means the feed is down. Try again "
 "later."
@@ -6559,31 +6624,31 @@ msgstr "Ange bildens URL"
 msgid "Enter a description of the image"
 msgstr "Ange en beskrivning av bilden"
 
-#: wp-includes/script-loader.php:100 wp-includes/script-loader.php:353
+#: wp-includes/script-loader.php:100 wp-includes/script-loader.php:364
 msgid "You do not have permission to do that."
 msgstr "Du saknar rättigheter för att göra det."
 
-#: wp-includes/script-loader.php:101 wp-includes/script-loader.php:354
+#: wp-includes/script-loader.php:101 wp-includes/script-loader.php:365
 msgid "An unidentified error has occurred."
 msgstr "Ett oidentifierat fel har uppstått."
 
-#: wp-includes/script-loader.php:183
+#: wp-includes/script-loader.php:191
 msgid "Next &gt;"
 msgstr "Nästa &gt;"
 
-#: wp-includes/script-loader.php:184
+#: wp-includes/script-loader.php:192
 msgid "&lt; Prev"
 msgstr "&lt; Föreg."
 
-#: wp-includes/script-loader.php:185
+#: wp-includes/script-loader.php:193
 msgid "Image"
 msgstr "Bild"
 
-#: wp-includes/script-loader.php:186
+#: wp-includes/script-loader.php:194
 msgid "of"
 msgstr "av"
 
-#: wp-includes/script-loader.php:188
+#: wp-includes/script-loader.php:196
 msgid ""
 "This feature requires inline frames. You have iframes disabled or your "
 "browser does not support them."
@@ -6591,126 +6656,130 @@ msgstr ""
 "Den här funktionen kräver inbäddade ramar. Du har iframes inaktiverade eller "
 "så har inte din webbläsare stöd för dem."
 
-#: wp-includes/script-loader.php:201
+#: wp-includes/script-loader.php:209
 msgid "not configured"
 msgstr "ej konfigurerat"
 
-#: wp-includes/script-loader.php:205
+#: wp-includes/script-loader.php:213
 msgid "You have attempted to queue too many files."
 msgstr "Du har försökt att kösätta för många filer."
 
-#: wp-includes/script-loader.php:207
+#: wp-includes/script-loader.php:215
 msgid "This file is empty. Please try another."
 msgstr "Filen är tom. Försök med en annan."
 
-#: wp-includes/script-loader.php:208
+#: wp-includes/script-loader.php:216
 msgid "This file type is not allowed. Please try another."
 msgstr "Denna filtyp är inte tillåten. Försök med en annan."
 
-#: wp-includes/script-loader.php:212
+#: wp-includes/script-loader.php:220
 msgid "An error occurred in the upload. Please try again later."
 msgstr "Ett fel har uppstått vid uppladdningen. Var vänlig försök igen senare."
 
-#: wp-includes/script-loader.php:213
+#: wp-includes/script-loader.php:221
 msgid ""
 "There was a configuration error. Please contact the server administrator."
 msgstr ""
 "Det uppstod ett konfigurationsfel. Var vänlig kontakta serveradministratören."
 
-#: wp-includes/script-loader.php:214
+#: wp-includes/script-loader.php:222
 msgid "You may only upload 1 file."
 msgstr "Du kan bara ladda upp en fil i taget."
 
-#: wp-includes/script-loader.php:215
+#: wp-includes/script-loader.php:223
 msgid "HTTP error."
 msgstr "HTTP fel."
 
-#: wp-includes/script-loader.php:216
+#: wp-includes/script-loader.php:224
 msgid "Upload failed."
 msgstr "Uppladdning misslyckades."
 
-#: wp-includes/script-loader.php:219
+#: wp-includes/script-loader.php:227
 msgid "IO error."
 msgstr "IO fel."
 
-#: wp-includes/script-loader.php:220
+#: wp-includes/script-loader.php:228
 msgid "Security error."
 msgstr "Säkerhetsfel."
 
-#: wp-includes/script-loader.php:222
+#: wp-includes/script-loader.php:230
 msgid "Upload stopped."
 msgstr "Uppladdning stoppad."
 
-#: wp-includes/script-loader.php:224
+#: wp-includes/script-loader.php:232
 msgid "Crunching&hellip;"
 msgstr "Behandlar&hellip;"
 
-#: wp-includes/script-loader.php:225
+#: wp-includes/script-loader.php:233
 msgid "moved to the trash."
 msgstr "flyttad till papperskorgen."
 
-#: wp-includes/script-loader.php:346
+#: wp-includes/script-loader.php:359
 msgid "Separate multiple categories with commas."
 msgstr "Separera flera kategorier med kommatecken."
 
-#: wp-includes/script-loader.php:275
+#: wp-includes/script-loader.php:286
 msgctxt "password strength"
 msgid "Medium"
 msgstr "Medium"
 
-#: wp-includes/script-loader.php:375
+#: wp-includes/script-loader.php:384
 msgid "Publish on:"
 msgstr "Publicera den:"
 
-#: wp-includes/script-loader.php:376
+#: wp-includes/script-loader.php:385
 msgid "Schedule for:"
 msgstr "Tidsinställ för:"
 
-#: wp-includes/script-loader.php:377
+#: wp-includes/script-loader.php:386
 msgid "Published on:"
 msgstr "Publicerat den:"
 
-#: wp-includes/script-loader.php:378
+#: wp-includes/script-loader.php:387
 msgid "Show more comments"
 msgstr "Visa fler kommentarer"
 
-#: wp-includes/script-loader.php:379
+#: wp-includes/script-loader.php:388
 msgid "No more comments found."
 msgstr "Inga fler kommentarer hittade."
 
-#: wp-includes/script-loader.php:388
+#: wp-includes/script-loader.php:397
 msgid "Password Protected"
 msgstr "Lösenordsskyddat"
 
-#: wp-includes/script-loader.php:399
+#: wp-includes/script-loader.php:410
 msgid "Submitted on:"
 msgstr "Skickat den:"
 
-#: wp-includes/script-loader.php:413 wp-includes/script-loader.php:421
+#: wp-includes/script-loader.php:424 wp-includes/script-loader.php:432
 msgid "Error while saving the changes."
 msgstr "Fel vid sparande av ändringar."
 
-#: wp-includes/script-loader.php:414
+#: wp-includes/script-loader.php:425
 msgid "Remove From Bulk Edit"
 msgstr "Ta bort från massredigering"
 
-#: wp-includes/script-loader.php:426
+#: wp-includes/script-loader.php:437
 msgid "Plugin Information:"
 msgstr "Tilläggsinformation:"
 
-#: wp-includes/script-loader.php:455
+#: wp-includes/script-loader.php:466
 msgid "Saving..."
 msgstr "Sparar..."
 
-#: wp-includes/script-loader.php:456
+#: wp-includes/script-loader.php:467
 msgid "Could not set that as the thumbnail image. Try a different attachment."
 msgstr "Kunde inte ange den som miniatyrbild. Försök med en annan bifogad fil."
 
-#: wp-includes/script-loader.php:576
+#: wp-includes/script-loader.php:587
 msgid "Saving Draft&#8230;"
 msgstr "Sparar utkast&#8230;"
 
-#: wp-includes/taxonomy.php:875 wp-includes/taxonomy.php:3002
+#: wp-includes/taxonomy.php:2290
+msgid "Invalid Taxonomy"
+msgstr "Ogiltig taxonomi"
+
+#: wp-includes/taxonomy.php:881 wp-includes/taxonomy.php:3086
 msgid "Empty Term"
 msgstr "Tom term"
 
@@ -6721,7 +6790,7 @@ msgstr "Tom term"
 msgid "Invalid term ID"
 msgstr "Ogiltigt term-ID"
 
-#: wp-includes/taxonomy.php:2055 wp-includes/taxonomy.php:2379
+#: wp-includes/taxonomy.php:2055 wp-includes/taxonomy.php:2463
 msgid "A name is required for this term"
 msgstr "Ett namn krävs för denna term"
 
@@ -6730,23 +6799,23 @@ msgstr "Ett namn krävs för denna term"
 msgid "Could not insert term into the database"
 msgstr "Kunde inte infoga term i databasen"
 
-#: wp-includes/taxonomy.php:2412
+#: wp-includes/taxonomy.php:2496
 msgid "The slug &#8220;%s&#8221; is already in use by another term"
 msgstr "Permalänken &#8221;%s&#8221; används redan"
 
-#: wp-includes/taxonomy.php:3163
+#: wp-includes/taxonomy.php:3247
 msgid "Invalid object ID"
 msgstr "Ogiltigt objekt ID."
 
-#: wp-includes/class-wp-theme.php:236
+#: wp-includes/class-wp-theme.php:237
 msgid "Template is missing."
 msgstr "Mall saknas."
 
-#: wp-includes/class-wp-theme.php:255
+#: wp-includes/class-wp-theme.php:256
 msgid "The parent theme is missing. Please install the \"%s\" parent theme."
 msgstr "Modertemat saknas. Var vänlig installera modertemat \"%s\"."
 
-#: wp-includes/class-wp-theme.php:210
+#: wp-includes/class-wp-theme.php:211
 msgid "Stylesheet is missing."
 msgstr "Stilmall saknas."
 
@@ -6775,7 +6844,7 @@ msgstr ""
 msgid "Please log in again."
 msgstr "Var vänlig logga in igen."
 
-#: wp-includes/widgets.php:488 wp-includes/widgets.php:547
+#: wp-includes/widgets.php:488 wp-includes/widgets.php:558
 msgid "Sidebar %d"
 msgstr "Sidopanel %d"
 
@@ -6783,53 +6852,53 @@ msgstr "Sidopanel %d"
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>FEL</strong>: WordPress %1$s kräver MySQL %2$s eller senare"
 
-#: wp-login.php:79
+#: wp-login.php:88
 msgid "Powered by WordPress"
 msgstr "Drivs med WordPress"
 
-#: wp-login.php:189
+#: wp-login.php:201
 msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
 msgstr "<strong>FEL</strong>: Var vänlig ange användarnamn eller e-postadress."
 
-#: wp-login.php:193
+#: wp-login.php:205
 msgid ""
 "<strong>ERROR</strong>: There is no user registered with that email address."
 msgstr ""
 "<strong>FEL</strong>: Det finns ingen registrerad med den e-postadressen."
 
-#: wp-login.php:205
+#: wp-login.php:217
 msgid "<strong>ERROR</strong>: Invalid username or e-mail."
 msgstr "<strong>FEL</strong>: Felaktigt användarnamn eller e-postadress."
 
-#: wp-login.php:219
+#: wp-login.php:231
 msgid "Password reset is not allowed for this user"
 msgstr "Återställning av lösenordet ej tillåtet för denna användaren"
 
-#: wp-login.php:245
+#: wp-login.php:257
 msgid "[%s] Password Reset"
 msgstr "[%s] Lösenordet återställt"
 
-#: wp-login.php:251
+#: wp-login.php:263
 msgid "The e-mail could not be sent."
 msgstr "Kunde inte skicka e-post."
 
-#: wp-login.php:251
+#: wp-login.php:263
 msgid "Possible reason: your host may have disabled the mail() function..."
 msgstr "Möjlig anledning: din servervärd kan ha stängt av mail()-funktionen."
 
-#: wp-login.php:271 wp-login.php:274 wp-login.php:279
+#: wp-login.php:283 wp-login.php:286 wp-login.php:291
 msgid "Invalid key"
 msgstr "Ogiltig nyckel"
 
-#: wp-login.php:323
+#: wp-login.php:335
 msgid "<strong>ERROR</strong>: Please type your e-mail address."
 msgstr "<strong>FEL</strong>: Var vänlig och ange din e-postadress."
 
-#: wp-login.php:325
+#: wp-login.php:337
 msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
 msgstr "<strong>FEL</strong>: E-postadressen är inte riktig."
 
-#: wp-login.php:341
+#: wp-login.php:353
 msgid ""
 "<strong>ERROR</strong>: Couldn&#8217;t register you... please contact the <a "
 "href=\"mailto:%s\">webmaster</a> !"
@@ -6837,55 +6906,55 @@ msgstr ""
 "<strong>FEL</strong>: Kunde inte registrera dig. Var vänlig och kontakta den "
 "<a href=\"mailto:%s\">webbansvariga</a>!"
 
-#: wp-login.php:428
+#: wp-login.php:440
 msgid "Sorry, that key does not appear to be valid."
 msgstr "Tyvärr, den nyckeln verkar inte stämma."
 
-#: wp-login.php:432
+#: wp-login.php:444
 msgid "Lost Password"
 msgstr "Glömt lösenordet"
 
-#: wp-login.php:440
+#: wp-login.php:452
 msgid "Username or E-mail:"
 msgstr "Användarnamn eller E-post:"
 
-#: wp-login.php:445
+#: wp-login.php:457
 msgid "Get New Password"
 msgstr "Få ett nytt lösenord"
 
-#: wp-login.php:143
+#: wp-login.php:155
 msgid "Are you lost?"
 msgstr "Gått vilse?"
 
-#: wp-login.php:143
+#: wp-login.php:155
 msgid "&larr; Back to %s"
 msgstr "&larr; Tillbaka till %s"
 
-#: wp-login.php:544
+#: wp-login.php:556
 msgid "Registration Form"
 msgstr "Registreringsformulär"
 
-#: wp-login.php:544
+#: wp-login.php:556
 msgid "Register For This Site"
 msgstr "Registrera dig på den här webbplatsen"
 
-#: wp-login.php:557
+#: wp-login.php:569
 msgid "A password will be e-mailed to you."
 msgstr "Ett lösenord kommer att skickas till dig per e-post."
 
-#: wp-login.php:565 wp-login.php:710 wp-login.php:712
+#: wp-login.php:577 wp-login.php:717
 msgid "Password Lost and Found"
 msgstr "Ändra lösenord"
 
-#: wp-login.php:565 wp-login.php:710 wp-login.php:712
+#: wp-login.php:577 wp-login.php:717
 msgid "Lost your password?"
 msgstr "Glömt lösenordet?"
 
-#: wp-login.php:614
+#: wp-login.php:626
 msgid "You have logged in successfully."
 msgstr "Du har loggats in."
 
-#: wp-login.php:651
+#: wp-login.php:657
 msgid ""
 "<strong>ERROR</strong>: Cookies are blocked or not supported by your "
 "browser. You must <a href='http://www.google.com/cookies.html'>enable "
@@ -6895,29 +6964,25 @@ msgstr ""
 "hantera dom. Du måste <a href='http://www.google.com/cookies.html'>aktivera "
 "cookies</a> för att använda WordPress."
 
-#: wp-login.php:655
+#: wp-login.php:661
 msgid "You are now logged out."
 msgstr "Du är nu utloggad."
 
-#: wp-login.php:657
+#: wp-login.php:663
 msgid "User registration is currently not allowed."
 msgstr "Registreringsfunktionen är avstängd just nu."
 
-#: wp-login.php:659
+#: wp-login.php:665
 msgid "Check your e-mail for the confirmation link."
 msgstr "Kolla efter bekräftelselänken i din e-post."
 
-#: wp-login.php:661
+#: wp-login.php:667
 msgid "Check your e-mail for your new password."
 msgstr "Kolla efter ditt nya lösenord i din e-post."
 
-#: wp-login.php:663
+#: wp-login.php:669
 msgid "Registration complete. Please check your e-mail."
 msgstr "Registreringen är slutförd. Kontrollera nu din e-post."
-
-#: wp-login.php:665
-msgid "Your session has expired. Please log-in again."
-msgstr "Sessionen har upphört. Vänligen logga in igen."
 
 #: wp-mail.php:29
 msgid "Slow down cowboy, no need to check for new mails so often!"
@@ -6943,41 +7008,41 @@ msgstr "<strong>Postad titel:</strong> %s"
 msgid "Oops: %s"
 msgstr "Oops: %s"
 
-#: wp-signup.php:97
+#: wp-signup.php:116
 msgid "Privacy:"
 msgstr "Integritet:"
 
-#: wp-signup.php:130
+#: wp-signup.php:167
 msgid "(Must be at least 4 characters, letters and numbers only.)"
 msgstr "(Måste bestå av minst 4 tecken, endast bokstäver och siffror.)"
 
-#: wp-signup.php:133
+#: wp-signup.php:170
 msgid "Email&nbsp;Address:"
 msgstr "E-postadress:"
 
-#: wp-signup.php:166
+#: wp-signup.php:221
 msgid "There was a problem, please correct the form below and try again."
 msgstr ""
 "Ett fel har uppstått. Var vänlig kontrollera formuläret nedan och försök "
 "igen."
 
-#: wp-signup.php:243
+#: wp-signup.php:330
 msgid "Get your own %s account in seconds"
 msgstr "Skapa ett eget %s konto på bara några sekunder"
 
-#: wp-signup.php:259
+#: wp-signup.php:346
 msgid "Just a username, please."
 msgstr "Bara ett användarnamn, tack."
 
-#: wp-signup.php:263
+#: wp-signup.php:350
 msgid "Next"
 msgstr "Nästa"
 
-#: wp-signup.php:290
+#: wp-signup.php:395
 msgid "%s is your new username"
 msgstr "%s är ditt nya användarnamn"
 
-#: wp-signup.php:291
+#: wp-signup.php:396
 msgid ""
 "But, before you can start using your new username, <strong>you must activate "
 "it</strong>."
@@ -6985,7 +7050,7 @@ msgstr ""
 "Men, innan du kan börja använda ditt nya användarnamn så <strong>måste du "
 "aktivera det</strong>."
 
-#: wp-signup.php:293
+#: wp-signup.php:398
 msgid ""
 "If you do not activate your username within two days, you will have to sign "
 "up again."
@@ -6993,19 +7058,19 @@ msgstr ""
 "Om du inte aktiverar ditt användarnamn inom 2 dagar så måste du registrera "
 "dig igen."
 
-#: wp-signup.php:319
+#: wp-signup.php:437
 msgid "Signup"
 msgstr "Registrera dig"
 
-#: wp-signup.php:358
+#: wp-signup.php:500
 msgid "Still waiting for your email?"
 msgstr "Väntar du fortfarande på ditt mail?"
 
-#: wp-signup.php:391
+#: wp-signup.php:533
 msgid "Registration has been disabled."
 msgstr "Nya registreringar har inaktiverats."
 
-#: wp-signup.php:402
+#: wp-signup.php:544
 msgid "User registration has been disabled."
 msgstr "Registrering av nya användare ha inaktiverats."
 
@@ -7068,11 +7133,11 @@ msgstr "Bredd"
 msgid "About"
 msgstr "Om"
 
-#: wp-login.php:313
+#: wp-login.php:325
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>FEL</strong>: Var vänlig och ange ett användarnamn."
 
-#: wp-login.php:328
+#: wp-login.php:340
 msgid ""
 "<strong>ERROR</strong>: This email is already registered, please choose "
 "another one."
@@ -7084,11 +7149,11 @@ msgstr ""
 msgid "There are no options for this widget."
 msgstr "Det finns inga inställningar för denna widget."
 
-#: wp-includes/script-loader.php:271 wp-login.php:500
+#: wp-includes/script-loader.php:282 wp-login.php:512
 msgid "Strength indicator"
 msgstr "Indikator för styrka"
 
-#: wp-login.php:501
+#: wp-login.php:513
 msgid ""
 "Hint: The password should be at least seven characters long. To make it "
 "stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
@@ -7098,27 +7163,27 @@ msgstr ""
 "använd stora som små bokstäver, siffror och symboler så som ! \" ? $ % ^ "
 "&amp; )."
 
-#: wp-includes/script-loader.php:272
+#: wp-includes/script-loader.php:283
 msgid "Very weak"
 msgstr "Väldigt svagt"
 
-#: wp-includes/script-loader.php:273
+#: wp-includes/script-loader.php:284
 msgid "Weak"
 msgstr "Svagt"
 
-#: wp-includes/script-loader.php:276
+#: wp-includes/script-loader.php:287
 msgid "Strong"
 msgstr "Starkt"
 
-#: wp-includes/taxonomy.php:434
+#: wp-includes/taxonomy.php:439
 msgid "Edit Category"
 msgstr "Redigera kategori"
 
-#: wp-includes/link-template.php:1050
+#: wp-includes/link-template.php:1051
 msgid "Edit Link"
 msgstr "Redigera länken"
 
-#: wp-includes/post.php:1498
+#: wp-includes/post.php:1430
 msgctxt "page"
 msgid "Add New"
 msgstr "Skapa ny"
@@ -7149,7 +7214,7 @@ msgstr "Höjd"
 #: wp-includes/class-wp-customize-control.php:739
 #: wp-includes/class-wp-customize-control.php:768
 #: wp-includes/js/tinymce/langs/wp-langs.php:249
-#: wp-includes/script-loader.php:436
+#: wp-includes/script-loader.php:447
 msgid "Default"
 msgstr "Förvald"
 
@@ -7167,14 +7232,14 @@ msgstr "Visuell"
 
 #: wp-content/plugins/akismet/widget.php:72 wp-includes/default-widgets.php:66
 #: wp-includes/default-widgets.php:215 wp-includes/default-widgets.php:281
-#: wp-includes/default-widgets.php:339 wp-includes/default-widgets.php:379
-#: wp-includes/default-widgets.php:425 wp-includes/default-widgets.php:511
-#: wp-includes/default-widgets.php:615 wp-includes/default-widgets.php:722
-#: wp-includes/default-widgets.php:1067 wp-includes/default-widgets.php:1140
+#: wp-includes/default-widgets.php:340 wp-includes/default-widgets.php:380
+#: wp-includes/default-widgets.php:426 wp-includes/default-widgets.php:512
+#: wp-includes/default-widgets.php:618 wp-includes/default-widgets.php:727
+#: wp-includes/default-widgets.php:1072 wp-includes/default-widgets.php:1145
 msgid "Title:"
 msgstr "Titel:"
 
-#: wp-includes/taxonomy.php:439
+#: wp-includes/taxonomy.php:444
 msgid "Separate tags with commas"
 msgstr "Separera etiketter med kommatecken"
 
@@ -7187,38 +7252,38 @@ msgstr "Välj alla"
 msgid "(required)"
 msgstr "(måste anges)"
 
-#: wp-includes/comment-template.php:1528
+#: wp-includes/comment-template.php:1619
 #: wp-includes/theme-compat/comments.php:83
 msgid "Website"
 msgstr "Webbplats"
 
-#: wp-includes/admin-bar.php:598 wp-includes/functions.php:2676
+#: wp-includes/admin-bar.php:600 wp-includes/functions.php:2718
 msgid "Widgets"
 msgstr "Widgets"
 
 #: wp-includes/class-wp-xmlrpc-server.php:1217
-#: wp-includes/class-wp-xmlrpc-server.php:3889
-#: wp-includes/class-wp-xmlrpc-server.php:4296
+#: wp-includes/class-wp-xmlrpc-server.php:3892
+#: wp-includes/class-wp-xmlrpc-server.php:4299
 msgid "Sorry, your entry could not be posted. Something wrong happened."
 msgstr "Tyvärr, ditt inlägg kunde inte publiceras. Ett fel uppstod."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3929
-#: wp-includes/class-wp-xmlrpc-server.php:4376
+#: wp-includes/class-wp-xmlrpc-server.php:3932
+#: wp-includes/class-wp-xmlrpc-server.php:4379
 msgid "Sorry, you do not have the right to edit this post."
 msgstr "Tyvärr, du saknar rättigheter för att redigera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3945
+#: wp-includes/class-wp-xmlrpc-server.php:3948
 msgid ""
 "For some strange yet very annoying reason, this post could not be edited."
 msgstr ""
 "Av någon märklig men mycket irriterande orsak kan det här inlägget inte "
 "redigeras."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3981
+#: wp-includes/class-wp-xmlrpc-server.php:3984
 msgid "Sorry, you do not have the right to delete this post."
 msgstr "Tyvärr, du saknar rättigheter för att radera det här inlägget."
 
-#: wp-includes/class-wp-xmlrpc-server.php:3986
+#: wp-includes/class-wp-xmlrpc-server.php:3989
 msgid ""
 "For some strange yet very annoying reason, this post could not be deleted."
 msgstr ""
@@ -7233,25 +7298,25 @@ msgstr "Tyvärr är kommentarer avstängda för det här inlägget."
 msgid "Sorry, you must be logged in to post a comment."
 msgstr "Tyvärr måste du vara inloggad för att skriva en kommentar."
 
-#: wp-content/plugins/akismet/admin.php:151
-#: wp-content/plugins/akismet/admin.php:844
-#: wp-content/plugins/akismet/admin.php:847
+#: wp-content/plugins/akismet/admin.php:150
+#: wp-content/plugins/akismet/admin.php:827
+#: wp-content/plugins/akismet/admin.php:830
 msgid "Akismet Configuration"
 msgstr "Konfigurera Akismet"
 
-#: wp-content/plugins/akismet/admin.php:135
+#: wp-content/plugins/akismet/admin.php:134
 msgid "Your key has been cleared."
 msgstr "Din nyckel har nollställts."
 
-#: wp-content/plugins/akismet/admin.php:136
+#: wp-content/plugins/akismet/admin.php:135
 msgid "Your key has been verified. Happy blogging!"
 msgstr "Din nyckel är bekräftad. Blogga på!"
 
-#: wp-content/plugins/akismet/admin.php:137
+#: wp-content/plugins/akismet/admin.php:136
 msgid "The key you entered is invalid. Please double-check it."
 msgstr "Din nyckel verkar inte vara korrekt. Kontrollera den igen."
 
-#: wp-content/plugins/akismet/admin.php:138
+#: wp-content/plugins/akismet/admin.php:137
 msgid ""
 "The key you entered could not be verified because a connection to akismet."
 "com could not be established. Please check your server configuration."
@@ -7259,7 +7324,7 @@ msgstr ""
 "Nyckeln som du gav kunde inte verifieras eftersom det inte gick att kontakta "
 "akismet.com. Vänligen kontrollera din serverkonfiguration."
 
-#: wp-content/plugins/akismet/admin.php:139
+#: wp-content/plugins/akismet/admin.php:138
 msgid ""
 "There was a problem connecting to the Akismet server. Please check your "
 "server configuration."
@@ -7267,7 +7332,7 @@ msgstr ""
 "Kunde inte kontakta Akismet-servern. Vänligen kontrollera din "
 "serverkonfiguration."
 
-#: wp-content/plugins/akismet/admin.php:140
+#: wp-content/plugins/akismet/admin.php:139
 msgid ""
 "Please enter an API key. (<a href=\"%s\" style=\"color:#fff\">Get your key.</"
 "a>)"
@@ -7275,11 +7340,11 @@ msgstr ""
 "Ange en API-nyckel. (<a href=\"%s\" style=\"color:#fff\">Skaffa dig en "
 "nyckel.</a>)"
 
-#: wp-content/plugins/akismet/admin.php:141
+#: wp-content/plugins/akismet/admin.php:140
 msgid "This key is valid."
 msgstr "Denna nyckel är giltig."
 
-#: wp-content/plugins/akismet/admin.php:143
+#: wp-content/plugins/akismet/admin.php:142
 msgid ""
 "The key below was previously validated but a connection to akismet.com can "
 "not be established at this time. Please check your server configuration."
@@ -7287,11 +7352,11 @@ msgstr ""
 "Nyckeln har tidigare godkänts men nu kunde akismet.com inte kontaktas. "
 "Vänligen kontrollera din serverkonfiguration."
 
-#: wp-content/plugins/akismet/admin.php:166
+#: wp-content/plugins/akismet/admin.php:165
 msgid "Why might my key be invalid?"
 msgstr "Hur kan det komma sig att min nyckel är ogiltig?"
 
-#: wp-content/plugins/akismet/admin.php:167
+#: wp-content/plugins/akismet/admin.php:166
 msgid ""
 "This can mean one of two things, either you copied the key wrong or that the "
 "plugin is unable to reach the Akismet servers, which is most often caused by "
@@ -7302,19 +7367,19 @@ msgstr ""
 "vilket oftast beror på att ditt webbhotell har problem med brandväggar eller "
 "liknande."
 
-#: wp-content/plugins/akismet/admin.php:173
+#: wp-content/plugins/akismet/admin.php:172
 msgid "Update options &raquo;"
 msgstr "Uppdatera inställningar &raquo;"
 
-#: wp-content/plugins/akismet/admin.php:178
+#: wp-content/plugins/akismet/admin.php:177
 msgid "Server Connectivity"
 msgstr "Servertillgänglighet"
 
-#: wp-content/plugins/akismet/admin.php:191
+#: wp-content/plugins/akismet/admin.php:190
 msgid "Unable to reach some Akismet servers."
 msgstr "Det går inte att nå vissa Akismet-servrar."
 
-#: wp-content/plugins/akismet/admin.php:192
+#: wp-content/plugins/akismet/admin.php:191
 msgid ""
 "A network problem or firewall is blocking some connections from your web "
 "server to Akismet.com.  Akismet is working but this may cause problems "
@@ -7328,11 +7393,11 @@ msgstr ""
 "för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information "
 "om Akismet och brandväggar</a>."
 
-#: wp-content/plugins/akismet/admin.php:196
+#: wp-content/plugins/akismet/admin.php:195
 msgid "Unable to reach any Akismet servers."
 msgstr "Det går inte att nå någon Akismet-server."
 
-#: wp-content/plugins/akismet/admin.php:197
+#: wp-content/plugins/akismet/admin.php:196
 msgid ""
 "A network problem or firewall is blocking all connections from your web "
 "server to Akismet.com.  <strong>Akismet cannot work correctly until this is "
@@ -7346,23 +7411,23 @@ msgstr ""
 "för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information "
 "om Akismet och brandväggar</a>."
 
-#: wp-content/plugins/akismet/admin.php:201
+#: wp-content/plugins/akismet/admin.php:200
 msgid "All Akismet servers are available."
 msgstr "Alla Akismetservrar är tillgänliga."
 
-#: wp-content/plugins/akismet/admin.php:202
+#: wp-content/plugins/akismet/admin.php:201
 msgid "Akismet is working correctly.  All servers are accessible."
 msgstr "Akismet fungerar korrekt. Samtliga servrar tillgängliga."
 
-#: wp-content/plugins/akismet/admin.php:182
+#: wp-content/plugins/akismet/admin.php:181
 msgid "Network functions are disabled."
 msgstr "Nätverksfunktioner inaktiverade."
 
-#: wp-content/plugins/akismet/admin.php:207
+#: wp-content/plugins/akismet/admin.php:206
 msgid "Unable to find Akismet servers."
 msgstr "Det går inte att hitta någon Akismet-server."
 
-#: wp-content/plugins/akismet/admin.php:208
+#: wp-content/plugins/akismet/admin.php:207
 msgid ""
 "A DNS problem or firewall is preventing all access from your web server to "
 "Akismet.com.  <strong>Akismet cannot work correctly until this is fixed.</"
@@ -7376,32 +7441,32 @@ msgstr ""
 "för brandvägg och ge dem <a href=\"%s\" target=\"_blank\">denna information "
 "om Akismet och brandväggar</a>."
 
-#: wp-content/plugins/akismet/admin.php:216
+#: wp-content/plugins/akismet/admin.php:215
 msgid "Akismet server"
 msgstr "Akismetserver"
 
-#: wp-content/plugins/akismet/admin.php:216
+#: wp-content/plugins/akismet/admin.php:215
 msgid "Network Status"
 msgstr "Nätverksstatus"
 
-#: wp-content/plugins/akismet/admin.php:233
+#: wp-content/plugins/akismet/admin.php:232
 msgid "Last checked %s ago."
 msgstr "Senast kontrollerat för %s sedan."
 
-#: wp-content/plugins/akismet/admin.php:234
+#: wp-content/plugins/akismet/admin.php:233
 msgid "Check network status &raquo;"
 msgstr "Kontrollera nätverksstatus &raquo;"
 
-#: wp-content/plugins/akismet/admin.php:845
-#: wp-content/plugins/akismet/admin.php:848
+#: wp-content/plugins/akismet/admin.php:828
+#: wp-content/plugins/akismet/admin.php:831
 msgid "Akismet Stats"
 msgstr "Akismet statistik"
 
-#: wp-content/plugins/akismet/admin.php:323
+#: wp-content/plugins/akismet/admin.php:305
 msgid "Akismet is almost ready."
 msgstr "Akismet är nästan redo."
 
-#: wp-content/plugins/akismet/admin.php:336
+#: wp-content/plugins/akismet/admin.php:318
 msgid "Akismet has detected a problem."
 msgstr "Akismet har upptäckt ett problem."
 
@@ -7490,13 +7555,13 @@ msgstr "Sök skräppost"
 
 #: wp-content/plugins/akismet/legacy.php:239
 #: wp-content/plugins/akismet/legacy.php:306
-#: wp-includes/link-template.php:1606 wp-includes/link-template.php:1642
+#: wp-includes/link-template.php:1607 wp-includes/link-template.php:1643
 msgid "&laquo; Previous Page"
 msgstr "&laquo; Föregående sida"
 
 #: wp-content/plugins/akismet/legacy.php:260
 #: wp-content/plugins/akismet/legacy.php:327
-#: wp-includes/link-template.php:1535 wp-includes/link-template.php:1643
+#: wp-includes/link-template.php:1536 wp-includes/link-template.php:1644
 msgid "Next Page &raquo;"
 msgstr "Nästa sida &raquo;"
 
@@ -7520,7 +7585,7 @@ msgstr ""
 msgid "No results found."
 msgstr "Hittade inga resultat."
 
-#: wp-content/plugins/akismet/admin.php:289
+#: wp-content/plugins/akismet/admin.php:271
 msgid ""
 "<a href=\"%1$s\">Akismet</a> has protected your site from <a href=\"%2$s\">"
 "%3$s spam comments</a>."
@@ -7538,7 +7603,7 @@ msgstr[1] ""
 msgid "Recheck Queue for Spam"
 msgstr "Sök igenom kö på nytt efter skräppost"
 
-#: wp-content/plugins/akismet/admin.php:515
+#: wp-content/plugins/akismet/admin.php:497
 msgid "Check for Spam"
 msgstr "Kolla efter skräppost"
 
@@ -7546,7 +7611,7 @@ msgstr "Kolla efter skräppost"
 msgid "Comments on %s"
 msgstr "Kommentarer till %s"
 
-#: wp-includes/default-widgets.php:318 wp-includes/theme-compat/sidebar.php:75
+#: wp-includes/default-widgets.php:320 wp-includes/theme-compat/sidebar.php:75
 msgid ""
 "Powered by WordPress, state-of-the-art semantic personal publishing platform."
 msgstr "Drivs med WordPress, en toppmodern, semantisk publiceringsplattform."
@@ -7567,12 +7632,12 @@ msgstr "1 kommentar"
 msgid "% Comments"
 msgstr "% kommentarer"
 
-#: wp-includes/link-template.php:725 wp-includes/link-template.php:932
-#: wp-includes/link-template.php:1007 wp-includes/link-template.php:1048
+#: wp-includes/link-template.php:725 wp-includes/link-template.php:933
+#: wp-includes/link-template.php:1008 wp-includes/link-template.php:1049
 msgid "Edit This"
 msgstr "Redigera det här"
 
-#: wp-includes/comment-template.php:1536
+#: wp-includes/comment-template.php:1627
 #: wp-includes/theme-compat/comments.php:65
 msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
 msgstr "Du måste vara <a href=\"%s\">inloggad</a> för att skriva en kommentar."
@@ -7585,7 +7650,7 @@ msgstr "Etiketter:"
 msgid "(more...)"
 msgstr "(Läs mer...)"
 
-#: wp-includes/post-template.php:633
+#: wp-includes/post-template.php:635
 msgid "Pages:"
 msgstr "Sidor:"
 
@@ -7597,19 +7662,19 @@ msgstr "De senaste kommentarerna till alla inlägg via RSS"
 msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 msgstr "Kommentarer via <abbr title=\"Really Simple Syndication\">RSS</abbr>"
 
-#: wp-includes/comment-template.php:1354
+#: wp-includes/comment-template.php:1408
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">skriver:</span>"
 
-#: wp-includes/comment-template.php:1357
+#: wp-includes/comment-template.php:1411 wp-includes/comment-template.php:1462
 msgid "Your comment is awaiting moderation."
 msgstr "Din kommentar inväntar granskning."
 
-#: wp-includes/comment-template.php:1364
+#: wp-includes/comment-template.php:1418
 msgid "%1$s at %2$s"
 msgstr "%1$s kl. %2$s"
 
-#: wp-includes/comment-template.php:1364
+#: wp-includes/comment-template.php:1418
 msgid "(Edit)"
 msgstr "(Redigera)"
 
@@ -7645,7 +7710,7 @@ msgstr "Senast uppdaterat: %s"
 msgid "Bookmarks"
 msgstr "Bokmärken"
 
-#: wp-includes/capabilities.php:920
+#: wp-includes/capabilities.php:921
 msgid ""
 "Usage of user levels by plugins and themes is deprecated. Use roles and "
 "capabilities instead."
@@ -7768,44 +7833,45 @@ msgstr "Logga in för att lämna en kommentar"
 msgid "Click here to cancel reply."
 msgstr "Klicka här för att avbryta svar."
 
-#: wp-includes/comment-template.php:1196 wp-includes/comment-template.php:1542
+#: wp-includes/comment-template.php:1196 wp-includes/comment-template.php:1633
 #: wp-includes/theme-compat/comments.php:58
 msgid "Leave a Reply"
 msgstr "Kommentera"
 
-#: wp-includes/comment-template.php:1197 wp-includes/comment-template.php:1543
+#: wp-includes/comment-template.php:1197 wp-includes/comment-template.php:1634
 #: wp-includes/theme-compat/comments.php:58
 msgid "Leave a Reply to %s"
 msgstr "Lämna ett svar till %s"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:342
-#: wp-includes/post-template.php:1443 wp-includes/theme-compat/sidebar.php:21
+#: wp-includes/post-template.php:1460 wp-includes/theme-compat/sidebar.php:21
 msgid "Author"
 msgstr "Författare"
 
-#: wp-includes/class-wp-editor.php:817 wp-includes/media.php:1483
+#: wp-includes/class-wp-editor.php:817 wp-includes/media.php:1485
 msgid "URL"
 msgstr "URL"
 
-#: wp-includes/comment-template.php:678 wp-includes/comment-template.php:1535
+#: wp-includes/comment-template.php:678 wp-includes/comment-template.php:1626
 msgctxt "noun"
 msgid "Comment"
 msgstr "Kommentar"
 
-#: wp-includes/deprecated.php:3175 wp-includes/functions.php:1987
+#: wp-includes/deprecated.php:3175 wp-includes/functions.php:2029
 msgid "Are you sure you want to do this?"
 msgstr "Är du säker på att du vill göra det här?"
 
+#: wp-includes/comment-template.php:1380 wp-includes/comment-template.php:1458
 #: wp-includes/media-template.php:245
 msgid "Edit"
 msgstr "Redigera"
 
-#: wp-includes/post-template.php:1401
+#: wp-includes/post-template.php:1418
 msgid "Restore"
 msgstr "Återställ"
 
-#: wp-content/plugins/akismet/admin.php:410
-#: wp-content/plugins/akismet/admin.php:438
+#: wp-content/plugins/akismet/admin.php:392
+#: wp-content/plugins/akismet/admin.php:420
 msgid "%s ago"
 msgstr "%s sedan"
 
@@ -7826,11 +7892,11 @@ msgstr "Utför"
 msgid "Comments"
 msgstr "Kommentarer"
 
-#: wp-includes/script-loader.php:380
+#: wp-includes/script-loader.php:389
 msgid "Publish"
 msgstr "Publicera"
 
-#: wp-includes/post.php:4870
+#: wp-includes/revision.php:34
 msgid "Excerpt"
 msgstr "Utdrag"
 
@@ -7838,12 +7904,12 @@ msgstr "Utdrag"
 msgid "Revisions"
 msgstr "Version"
 
-#: wp-includes/comment.php:422
+#: wp-includes/comment.php:424
 msgctxt "adjective"
 msgid "Approved"
 msgstr "Godkänd"
 
-#: wp-includes/comment.php:424
+#: wp-includes/comment.php:426
 msgctxt "adjective"
 msgid "Spam"
 msgstr "Skräp"
@@ -7852,7 +7918,7 @@ msgstr "Skräp"
 msgid "Link Categories"
 msgstr "Länkkategorier"
 
-#: wp-includes/taxonomy.php:429
+#: wp-includes/taxonomy.php:434
 msgid "Search Categories"
 msgstr "Sök kategorier"
 
@@ -7860,11 +7926,11 @@ msgstr "Sök kategorier"
 msgid "Edit Link Category"
 msgstr "Redigera länkkategori"
 
-#: wp-includes/taxonomy.php:436
+#: wp-includes/taxonomy.php:441
 msgid "Update Category"
 msgstr "Uppdatera kategori"
 
-#: wp-includes/class-wp-editor.php:853 wp-includes/script-loader.php:290
+#: wp-includes/class-wp-editor.php:853 wp-includes/script-loader.php:301
 msgid "Add Link"
 msgstr "Lägg till länk"
 
@@ -7873,8 +7939,8 @@ msgstr "Lägg till länk"
 msgid "Save"
 msgstr "Spara"
 
-#: wp-includes/category-template.php:422 wp-includes/default-widgets.php:444
-#: wp-includes/default-widgets.php:450 wp-includes/theme-compat/sidebar.php:63
+#: wp-includes/category-template.php:422 wp-includes/default-widgets.php:445
+#: wp-includes/default-widgets.php:451 wp-includes/theme-compat/sidebar.php:63
 msgid "Categories"
 msgstr "Kategorier"
 
@@ -7904,48 +7970,48 @@ msgstr "Inget"
 #: wp-includes/class-wp-xmlrpc-server.php:1725
 #: wp-includes/class-wp-xmlrpc-server.php:1792
 #: wp-includes/class-wp-xmlrpc-server.php:1845
-#: wp-includes/class-wp-xmlrpc-server.php:1924 wp-includes/taxonomy.php:518
-#: wp-includes/taxonomy.php:880 wp-includes/taxonomy.php:1009
-#: wp-includes/taxonomy.php:1197 wp-includes/taxonomy.php:1901
+#: wp-includes/class-wp-xmlrpc-server.php:1924 wp-includes/taxonomy.php:524
+#: wp-includes/taxonomy.php:886 wp-includes/taxonomy.php:1015
+#: wp-includes/taxonomy.php:1203 wp-includes/taxonomy.php:1901
 #: wp-includes/taxonomy.php:2045 wp-includes/taxonomy.php:2176
-#: wp-includes/taxonomy.php:2353
+#: wp-includes/taxonomy.php:2437
 msgid "Invalid taxonomy"
 msgstr "Ogiltig taxonomi"
 
-#: wp-includes/taxonomy.php:434
+#: wp-includes/taxonomy.php:439
 msgid "Edit Tag"
 msgstr "Redigera etikett"
 
-#: wp-includes/post.php:1498
+#: wp-includes/post.php:1430
 msgctxt "post"
 msgid "Add New"
 msgstr "Skapa nytt"
 
-#: wp-content/plugins/akismet/legacy.php:294 wp-includes/post.php:1502
+#: wp-content/plugins/akismet/legacy.php:294 wp-includes/post.php:1434
 msgid "View Post"
 msgstr "Visa inlägg"
 
-#: wp-includes/post.php:1500
+#: wp-includes/post.php:1432
 msgid "Edit Post"
 msgstr "Redigera inlägg"
 
-#: wp-includes/script-loader.php:457
+#: wp-includes/script-loader.php:468
 msgid "Done"
 msgstr "Klart"
 
-#: wp-includes/class-wp-theme.php:656 wp-includes/comment-template.php:30
+#: wp-includes/class-wp-theme.php:657 wp-includes/comment-template.php:30
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: wp-includes/post-template.php:1227
+#: wp-includes/post-template.php:1233
 msgid "Submit"
 msgstr "Skicka"
 
-#: wp-includes/default-widgets.php:741
+#: wp-includes/default-widgets.php:746
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/functions.php:1688
+#: wp-includes/functions.php:1725
 msgid "Invalid file type"
 msgstr "Ogiltig filtyp"
 
@@ -7954,25 +8020,25 @@ msgstr "Ogiltig filtyp"
 msgid "Preview"
 msgstr "Förhandsgranska"
 
-#: wp-includes/default-widgets.php:636 wp-includes/default-widgets.php:677
+#: wp-includes/default-widgets.php:639 wp-includes/default-widgets.php:681
 msgid "Recent Comments"
 msgstr "Senaste kommentarer"
 
 #: wp-includes/class-wp-editor.php:856
-#: wp-includes/js/tinymce/langs/wp-langs.php:22 wp-includes/media.php:1487
-#: wp-includes/script-loader.php:318 wp-includes/script-loader.php:374
+#: wp-includes/js/tinymce/langs/wp-langs.php:22 wp-includes/media.php:1489
+#: wp-includes/script-loader.php:329 wp-includes/script-loader.php:383
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: wp-includes/post.php:4869
+#: wp-includes/revision.php:33
 msgid "Content"
 msgstr "Innehåll"
 
-#: wp-includes/default-widgets.php:1041
+#: wp-includes/default-widgets.php:1046
 msgid "Tags"
 msgstr "Etiketter"
 
-#: wp-includes/script-loader.php:384
+#: wp-includes/script-loader.php:393
 msgid "Save Draft"
 msgstr "Spara utkast"
 
@@ -7980,11 +8046,11 @@ msgstr "Spara utkast"
 msgid "No comments yet."
 msgstr "Inga kommentarer ännu."
 
-#: wp-includes/link-template.php:1009
+#: wp-includes/link-template.php:1010
 msgid "Edit comment"
 msgstr "Redigera kommentar"
 
-#: wp-includes/comment-template.php:1038 wp-includes/script-loader.php:364
+#: wp-includes/comment-template.php:1038 wp-includes/script-loader.php:373
 msgid "Reply"
 msgstr "Svara"
 
@@ -7996,19 +8062,19 @@ msgstr "Pingback"
 msgid "Trackback"
 msgstr "Trackback"
 
-#: wp-includes/default-widgets.php:725
+#: wp-includes/default-widgets.php:730
 msgid "Number of comments to show:"
 msgstr "Antal kommentarer att visa:"
 
-#: wp-includes/default-widgets.php:831
+#: wp-includes/default-widgets.php:836
 msgid "<strong>RSS Error</strong>: %s"
 msgstr "<strong>RSS Fel</strong>: %s"
 
-#: wp-includes/default-widgets.php:777
+#: wp-includes/default-widgets.php:782
 msgid "Unknown Feed"
 msgstr "Okänt flöde"
 
-#: wp-includes/admin-bar.php:607
+#: wp-includes/admin-bar.php:609
 msgid "Header"
 msgstr "Sidhuvud"
 
@@ -8021,7 +8087,7 @@ msgstr "Sidopanel"
 msgid "Archives"
 msgstr "Arkiv"
 
-#: wp-includes/general-template.php:262 wp-login.php:686
+#: wp-includes/general-template.php:269 wp-login.php:692
 msgid "Password"
 msgstr "Lösenord"
 
@@ -8034,7 +8100,7 @@ msgid "Scale"
 msgstr "Skala"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:522
-#: wp-includes/media-template.php:319 wp-includes/media.php:1365
+#: wp-includes/media-template.php:319 wp-includes/media.php:1360
 msgid "Thumbnail"
 msgstr "Miniatyr"
 
@@ -8050,7 +8116,7 @@ msgstr "GD-grafikbiblioteket är inte installerat."
 msgid "File &#8220;%s&#8221; is not an image."
 msgstr "Filen &#8221;%s&#8221; är inte en bild."
 
-#: wp-includes/js/tinymce/langs/wp-langs.php:507 wp-includes/media.php:1484
+#: wp-includes/js/tinymce/langs/wp-langs.php:507 wp-includes/media.php:1486
 msgid "Add Media"
 msgstr "Lägg till media"
 
@@ -8095,12 +8161,12 @@ msgid "Right"
 msgstr "Höger"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:523
-#: wp-includes/media-template.php:320 wp-includes/media.php:1366
+#: wp-includes/media-template.php:320 wp-includes/media.php:1361
 msgid "Medium"
 msgstr "Medium"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:524
-#: wp-includes/media-template.php:322 wp-includes/media.php:1368
+#: wp-includes/media-template.php:322 wp-includes/media.php:1363
 msgid "Full Size"
 msgstr "Full storlek"
 
@@ -8138,50 +8204,50 @@ msgstr "Redigera bild"
 msgid "Image URL"
 msgstr "Bildadress"
 
-#: wp-includes/script-loader.php:383
+#: wp-includes/script-loader.php:392
 msgid "Save as Pending"
 msgstr "Spara som väntande"
 
-#: wp-includes/script-loader.php:389
+#: wp-includes/script-loader.php:398
 msgid "Privately Published"
 msgstr "Publicerat privat"
 
-#: wp-includes/script-loader.php:373
+#: wp-includes/script-loader.php:382
 msgid "OK"
 msgstr "OK"
 
-#: wp-includes/post.php:868 wp-includes/post.php:888
-#: wp-includes/script-loader.php:385
+#: wp-includes/post.php:800 wp-includes/post.php:820
+#: wp-includes/script-loader.php:394
 msgid "Private"
 msgstr "Privat"
 
-#: wp-includes/script-loader.php:387
+#: wp-includes/script-loader.php:396
 msgid "Public, Sticky"
 msgstr "Publik, Klistrad"
 
-#: wp-includes/script-loader.php:381
+#: wp-includes/script-loader.php:390
 msgid "Schedule"
 msgstr "Tidsinställ"
 
-#: wp-includes/taxonomy.php:440
+#: wp-includes/taxonomy.php:445
 msgid "Add or remove tags"
 msgstr "Lägg till eller ta bort etiketter"
 
-#: wp-includes/script-loader.php:345
+#: wp-includes/script-loader.php:358
 msgid "Add"
 msgstr "Lägg till"
 
-#: wp-includes/taxonomy.php:431
+#: wp-includes/taxonomy.php:436
 msgid "All Categories"
 msgstr "Alla kategorier"
 
-#: wp-includes/script-loader.php:106 wp-includes/script-loader.php:223
+#: wp-includes/script-loader.php:106 wp-includes/script-loader.php:231
 msgid "Dismiss"
 msgstr "Avfärda"
 
-#: wp-content/plugins/akismet/legacy.php:176 wp-includes/admin-bar.php:646
+#: wp-content/plugins/akismet/legacy.php:176 wp-includes/admin-bar.php:648
 #: wp-includes/class-wp-editor.php:831 wp-includes/default-widgets.php:194
-#: wp-includes/general-template.php:164 wp-includes/media.php:1485
+#: wp-includes/media.php:1487
 msgid "Search"
 msgstr "Sök"
 
@@ -8193,15 +8259,15 @@ msgstr "Version"
 msgid "Version:"
 msgstr "Version:"
 
-#: wp-includes/class-wp-theme.php:653
+#: wp-includes/class-wp-theme.php:654
 msgid "Visit author homepage"
 msgstr "Besök författarens webbplats"
 
-#: wp-includes/post.php:2194
+#: wp-includes/post.php:2126
 msgid "Images"
 msgstr "Bilder"
 
-#: wp-includes/post.php:1502
+#: wp-includes/post.php:1434
 msgid "View Page"
 msgstr "Visa sida"
 
@@ -8213,27 +8279,27 @@ msgstr "Länkar"
 msgid "Uncategorized"
 msgstr "Okategoriserade"
 
-#: wp-includes/pluggable.php:1204
+#: wp-includes/pluggable.php:1206
 msgid "E-mail: %s"
 msgstr "E-post: %s"
 
 #: wp-includes/default-widgets.php:18 wp-includes/default-widgets.php:24
-#: wp-includes/post-template.php:818 wp-includes/theme-compat/sidebar.php:55
+#: wp-includes/post-template.php:824 wp-includes/theme-compat/sidebar.php:55
 msgid "Pages"
 msgstr "Sidor"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:23
 #: wp-includes/js/tinymce/wp-mce-help.php:245
-#: wp-includes/media-template.php:32 wp-includes/script-loader.php:187
-#: wp-includes/script-loader.php:319 wp-login.php:620
+#: wp-includes/media-template.php:32 wp-includes/script-loader.php:195
+#: wp-includes/script-loader.php:330
 msgid "Close"
 msgstr "Stäng"
 
-#: wp-includes/media.php:1486
+#: wp-includes/media.php:1488
 msgid "Select"
 msgstr "Välj"
 
-#: wp-includes/post.php:1501
+#: wp-includes/post.php:1433
 msgid "New Page"
 msgstr "Ny sida"
 
@@ -8241,48 +8307,48 @@ msgstr "Ny sida"
 msgid "Edit Media"
 msgstr "Redigera media"
 
-#: wp-includes/admin-bar.php:370 wp-includes/post.php:1501
+#: wp-includes/admin-bar.php:372 wp-includes/post.php:1433
 msgid "New Post"
 msgstr "Nytt inlägg"
 
-#: wp-includes/script-loader.php:291 wp-includes/script-loader.php:415
+#: wp-includes/script-loader.php:302 wp-includes/script-loader.php:426
 msgid "(no title)"
 msgstr "(utan rubrik)"
 
-#: wp-activate.php:61
+#: wp-activate.php:60
 msgid "Activation Key Required"
 msgstr "Aktiveringsnyckel krävs"
 
-#: wp-activate.php:64
+#: wp-activate.php:63
 msgid "Activation Key:"
 msgstr "Aktiveringsnyckel:"
 
-#: wp-activate.php:80 wp-activate.php:100
+#: wp-activate.php:79 wp-activate.php:99
 msgid "Your account is now active!"
 msgstr "Ditt konto är nu aktiverat!"
 
-#: wp-activate.php:91
+#: wp-activate.php:90
 msgid "An error occurred during the activation"
 msgstr "Ett fel uppstod vid aktiveringen"
 
-#: wp-activate.php:103 wp-signup.php:125
+#: wp-activate.php:102 wp-signup.php:162
 msgid "Username:"
 msgstr "Användarnamn:"
 
-#: wp-includes/post.php:1504
+#: wp-includes/post.php:1436
 msgid "No posts found."
 msgstr "Hittade inga inlägg."
 
-#: wp-includes/post.php:869 wp-includes/post.php:889
-#: wp-includes/script-loader.php:390
+#: wp-includes/post.php:801 wp-includes/post.php:821
+#: wp-includes/script-loader.php:399
 msgid "Published"
 msgstr "Publicerat"
 
-#: wp-includes/post.php:867
+#: wp-includes/post.php:799
 msgid "Pending Review"
 msgstr "Väntar på granskning"
 
-#: wp-includes/post.php:866 wp-includes/post.php:887
+#: wp-includes/post.php:798 wp-includes/post.php:819
 msgid "Draft"
 msgstr "Utkast"
 
@@ -8290,18 +8356,18 @@ msgstr "Utkast"
 msgid "Y/m/d"
 msgstr "Y/m/d"
 
-#: wp-includes/admin-bar.php:247 wp-includes/admin-bar.php:387
+#: wp-includes/admin-bar.php:249 wp-includes/admin-bar.php:389
 #: wp-includes/deprecated.php:2847
 msgid "Visit Site"
 msgstr "Besök sida"
 
-#: wp-includes/admin-bar.php:198 wp-includes/class-wp-admin-bar.php:357
+#: wp-includes/admin-bar.php:200 wp-includes/class-wp-admin-bar.php:357
 msgid "Log Out"
 msgstr "Logga ut"
 
 #: wp-includes/class-wp-xmlrpc-server.php:3278
 #: wp-includes/class-wp-xmlrpc-server.php:3323
-#: wp-includes/class-wp-xmlrpc-server.php:4925
+#: wp-includes/class-wp-xmlrpc-server.php:4931
 msgid "You do not have permission to upload files."
 msgstr "Du har inte tillräcklig behörighet för att ladda upp filer."
 

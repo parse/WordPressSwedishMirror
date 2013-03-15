@@ -2,18 +2,130 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2012-11-22 09:23+0100\n"
+"PO-Revision-Date: 2013-03-15 05:14+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.4\n"
-"Project-Id-Version: WordPress Nätverksadmin sv_SE\n"
+"X-Generator: Poedit 1.5.5\n"
+"Project-Id-Version: WordPress Network Admin sv_SE\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wpsv.se>\n"
 "Language: Svenska\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: wp-admin/network/index.php:25
+msgid ""
+"Welcome to your Network Admin. This area of the Administration Screens is "
+"used for managing all aspects of your Multisite Network."
+msgstr ""
+"Välkommen till din nätverksadministration. Denna del av administrationen "
+"används för att hantera alla aspekter av ditt webbplatsnätverk."
+
+#: wp-admin/network/index.php:26
+msgid "From here you can:"
+msgstr "Här kan du:"
+
+#: wp-admin/network/index.php:27
+msgid "Add and manage sites or users"
+msgstr "Skapa och hantera webbplatser eller användare"
+
+#: wp-admin/network/index.php:28
+msgid "Install and activate themes or plugins"
+msgstr "Installera och aktivera teman eller tillägg"
+
+#: wp-admin/network/index.php:29
+msgid "Update your network"
+msgstr "Uppdatera ditt nätverk"
+
+#: wp-admin/network/index.php:30
+msgid "Modify global network settings"
+msgstr "Ändra globala nätverksinställningar"
+
+#: wp-admin/network/index.php:38
+msgid ""
+"The Right Now widget on this screen provides current user and site counts on "
+"your network."
+msgstr ""
+"Panelen Just nu på denna sida visar antalet användare och webbplatser i ditt "
+"nätverk."
+
+#: wp-admin/network/index.php:39
+msgid "To add a new user <strong>click Create a New User</strong>"
+msgstr ""
+"För att lägga till en ny användare, klicka på <strong>Skapa en ny användare</"
+"strong>"
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site <strong>click Create a New Site</strong>"
+msgstr ""
+"För att skapa en ny webbplats, klicka på <strong>Skapa en ny webbplats</"
+"strong>"
+
+#: wp-admin/network/index.php:41
+msgid "To search for a user or site, use the search boxes."
+msgstr "För att söka efter en användare eller webbplats, använd sökfälten."
+
+#: wp-admin/network/index.php:42
+msgid ""
+"<strong>To search for a user</strong> enter all or part of a username or "
+"email address"
+msgstr ""
+"<strong>För att söka efter en användare</strong>, ange hela eller delar av "
+"ett användarnamn eller e-postadress"
+
+#: wp-admin/network/index.php:43
+msgid "<strong>To search for a site</strong> enter the path or domain"
+msgstr ""
+"<strong>För att söka efter en webbplats</strong>, ange sökväg eller domän"
+
+#: wp-admin/network/index.php:47
+msgid "Quick Tasks"
+msgstr "Snabbuppgifter"
+
+#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
+#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:91
+msgid "Upgrade Network"
+msgstr "Uppdatera nätverk"
+
+#: wp-admin/network/upgrade.php:25
+msgid ""
+"Only use this screen once you have updated to a new version of WordPress "
+"through Updates/Available Updates (via the Network Administration navigation "
+"menu or the Toolbar). Clicking the Upgrade Network button will step through "
+"each site in the network, five at a time, and make sure any database updates "
+"are applied."
+msgstr ""
+"Använd endast denna sida när du uppdaterat till en ny version av WordPress "
+"via Uppdateringar/Tillgängliga uppdateringar (via nätverksadministrationens "
+"meny eller verktygsfält). Att klicka på knappen Uppdatera nätverk kommer att "
+"gå igenom vardera webbplats i nätverket, fem i taget, och kontrollera så att "
+"all databasuppdateringar genomförs."
+
+#: wp-admin/network/upgrade.php:32
+msgid ""
+"<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
+"\"_blank\">Documentation on Upgrade Network</a>"
+msgstr ""
+"<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
+"\"_blank\">Dokumentation för uppdatering av nätverk</a>"
+
+#: wp-admin/network/upgrade.php:88
+msgid "Database Upgrade Required"
+msgstr "Databasuppdatering krävs"
+
+#: wp-admin/network/upgrade.php:89
+msgid ""
+"WordPress has been updated! Before we send you on your way, we need to "
+"individually upgrade the sites in your network."
+msgstr ""
+"WordPress har uppdaterats! Innan vi låter dig fortsätta så behöver vi "
+"uppdatera webbplatserna i nätverket individuellt."
+
+#: wp-admin/network/upgrade.php:90
+msgid "The upgrade process may take a little while, so please be patient."
+msgstr "Uppdateringsprocessen kan ta en liten stund, ha tålamod."
 
 #: wp-admin/network/site-new.php:88
 msgid ""
@@ -37,7 +149,7 @@ msgstr ""
 "sluta redigera här... */</code>) och <code>.htaccess</code> (som ersätter de "
 "nuvarande reglerna för WordPress)."
 
-#: wp-admin/network.php:229 wp-admin/network.php:460 wp-admin/network.php:494
+#: wp-admin/network.php:229 wp-admin/network.php:465 wp-admin/network.php:499
 msgid ""
 "Subdirectory networks may not be fully compatible with custom wp-content "
 "directories."
@@ -56,21 +168,6 @@ msgstr "Vad ska göras med inlägg och länkar som ägs av <em>%s</em>?"
 #: wp-admin/network/settings.php:94
 msgid "What you would like to call this network."
 msgstr "Vad vill du kalla detta nätverk."
-
-#: wp-admin/network/upgrade.php:25
-msgid ""
-"Only use this screen once you have updated to a new version of WordPress "
-"through Updates/Available Updates (via the Network Administration navigation "
-"menu or the Toolbar). Clicking the Update Network button will step through "
-"each site in the network, five at a time, and make sure any database updates "
-"are applied."
-msgstr ""
-"Använd endast den här sidan när du har uppdaterat till en ny version av "
-"WordPress via Uppdateringar/Tillgängliga uppdateringar (via "
-"Nätverksadministrationens meny eller verktygsmenyn). Om du klickar på "
-"knappen Uppdatera nätverk så söker WordPress igenom varje webbplats i "
-"nätverket, fem i taget och ser till att eventuella uppdateringar av "
-"databasen tillämpas."
 
 #: wp-admin/network/settings.php:38
 msgid ""
@@ -158,7 +255,7 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target="
 "\"_blank\">Dokumentation för nätverksteman</a>"
 
-#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:94
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:96
 #: wp-admin/network/site-themes.php:143 wp-admin/network/site-users.php:187
 msgid "Info"
 msgstr "Info"
@@ -215,7 +312,7 @@ msgstr ""
 "Lägg till användare kommer att skapa ett nytt användarkonto i nätverket och "
 "skicka dem ett mail med deras användarnamn och lösenord."
 
-#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:78
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:80
 #: wp-admin/network/site-themes.php:129 wp-admin/network/site-users.php:163
 msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
 msgstr "Redigera webbplats: <a href=\"%1$s\">%2$s</a>"
@@ -261,7 +358,7 @@ msgstr ""
 "som tillgängligt i webbplatsens utseendemeny. För att aktivera ett tema för "
 "hela nätverket, se sidan för <a href=\"%s\">Nätverksteman</a>"
 
-#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:79
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:81
 #: wp-admin/network/site-themes.php:130 wp-admin/network/site-users.php:164
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
@@ -342,7 +439,7 @@ msgstr ""
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
-#: wp-admin/network/site-settings.php:74
+#: wp-admin/network/site-settings.php:76
 msgid "Site options updated."
 msgstr "Webbplatsinställningar uppdaterade."
 
@@ -364,7 +461,7 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Sites_Screens\" target="
 "\"_blank\">Dokumentation för hantering av webbplatser</a>"
 
-#: wp-admin/network/index.php:38 wp-admin/network/site-info.php:33
+#: wp-admin/network/index.php:54 wp-admin/network/site-info.php:33
 #: wp-admin/network/site-new.php:30 wp-admin/network/site-settings.php:33
 #: wp-admin/network/site-themes.php:33 wp-admin/network/site-users.php:36
 #: wp-admin/network/sites.php:46 wp-admin/network/user-new.php:30
@@ -385,7 +482,7 @@ msgstr "Skapa ny"
 msgid "All Sites"
 msgstr "Alla webbplatser"
 
-#: wp-admin/network/index.php:37
+#: wp-admin/network/index.php:53
 msgid ""
 "<a href=\"http://codex.wordpress.org/Network_Admin\" target=\"_blank"
 "\">Documentation on the Network Admin</a>"
@@ -476,14 +573,6 @@ msgstr ""
 msgid "An Edit link to a separate Edit Site screen."
 msgstr "En Redigera-länk på en separat redigeringssida."
 
-#: wp-admin/network/upgrade.php:32
-msgid ""
-"<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
-"\"_blank\">Documentation on Update Network</a>"
-msgstr ""
-"<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
-"\"_blank\">Dokumentation för uppdatering av nätverk</a>"
-
 #: wp-admin/network/site-new.php:23
 msgid ""
 "This screen is for Super Admins to add new sites to the network. This is not "
@@ -495,18 +584,6 @@ msgstr ""
 #: wp-admin/network/menu.php:53
 msgid "Updates"
 msgstr "Uppdateringar"
-
-#: wp-admin/network/index.php:32
-msgid ""
-"The Right Now box provides the network administrator with links to the "
-"screens to either create a new site or user, or to search existing users and "
-"sites. Screens for Sites and Users are also accessible through the left-hand "
-"navigation in the Network Admin section."
-msgstr ""
-"Panelen Just nu tillhandahåller nätverksadministratören länkar till sidorna "
-"för att antingen skapa en ny webbplats eller användare eller för att söka "
-"befintliga användare och webbplatser. Sidorna för webbplatser och användare "
-"är också tillgängliga via den vänstra huvudnavigering i nätverksadmin."
 
 #: wp-admin/network/settings.php:33
 msgid ""
@@ -585,15 +662,15 @@ msgstr "E-postadress för admin"
 msgid "Your email address."
 msgstr "Din e-postadress."
 
-#: wp-admin/network.php:332
+#: wp-admin/network.php:339
 msgid "The original configuration steps are shown here for reference."
 msgstr "Standardstegen för en konfiguration visas här som referens."
 
-#: wp-admin/network.php:337
+#: wp-admin/network.php:344
 msgid "An existing WordPress network was detected."
 msgstr "Ett existerande WordPress-nätverk har upptäckts."
 
-#: wp-admin/network.php:338
+#: wp-admin/network.php:345
 msgid ""
 "Please complete the configuration steps. To create a new network, you will "
 "need to empty or remove the network database tables."
@@ -601,11 +678,11 @@ msgstr ""
 "Var vänlig fullfölj stegen för konfigurationen. För att skapa ett nätverk så "
 "behöver du tömma eller radera databastabellerna för nätverket."
 
-#: wp-admin/network.php:349
+#: wp-admin/network.php:356
 msgid "Enabling the Network"
 msgstr "Aktiverar nätverket"
 
-#: wp-admin/network.php:350
+#: wp-admin/network.php:357
 msgid ""
 "Complete the following steps to enable the features for creating a network "
 "of sites."
@@ -613,7 +690,7 @@ msgstr ""
 "Genomför följande steg för att aktivera funktionerna för att skapa ett "
 "nätverk av webbplatser."
 
-#: wp-admin/network.php:353 wp-admin/network.php:355
+#: wp-admin/network.php:360 wp-admin/network.php:362
 msgid ""
 "<strong>Caution:</strong> We recommend you back up your existing <code>wp-"
 "config.php</code> and <code>%s</code> files."
@@ -621,7 +698,7 @@ msgstr ""
 "<strong>Varning:</strong> Vi rekommenderar att du säkerhetskopierar dina "
 "befintliga filer <code>wp-config.php</code> och <code>%s</code>."
 
-#: wp-admin/network.php:357
+#: wp-admin/network.php:364
 msgid ""
 "<strong>Caution:</strong> We recommend you back up your existing <code>wp-"
 "config.php</code> file."
@@ -629,7 +706,7 @@ msgstr ""
 "<strong>Observera:</strong> Vi rekommenderar att du tar en backup av din "
 "existerande <code>wp-config.php</code>."
 
-#: wp-admin/network.php:363
+#: wp-admin/network.php:370
 msgid ""
 "Add the following to your <code>wp-config.php</code> file in <code>%s</code> "
 "<strong>above</strong> the line reading <code>/* That&#8217;s all, stop "
@@ -661,7 +738,7 @@ msgstr ""
 "Försäkra dig om att Apache-modulen<code>mod_rewrite</code> är installerad då "
 "den kommer att användas i slutet av den här installationen."
 
-#: wp-admin/network.php:395
+#: wp-admin/network.php:402
 msgid ""
 "This unique authentication key is also missing from your <code>wp-config."
 "php</code> file."
@@ -723,7 +800,7 @@ msgstr "Varning!"
 msgid "Sub-domains"
 msgstr "Subdomäner"
 
-#: wp-admin/network.php:395
+#: wp-admin/network.php:402
 msgid "To make your installation more secure, you should also add:"
 msgstr "För att göra din installation mer säker så bör du också lägga till:"
 
@@ -754,7 +831,7 @@ msgstr ""
 "synliga så att du kan hitta .htaccess. Du kan behöva skapa denna fil om det "
 "inte redan finns en. Gör säkerhetskopior av dessa två filer."
 
-#: wp-admin/network.php:457
+#: wp-admin/network.php:462
 msgid ""
 "Add the following to your <code>web.config</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -762,7 +839,7 @@ msgstr ""
 "Lägg till följande i din <code>web.config</code>-fil i <code>%s</code>, och "
 "ersätt befintliga regler för WordPress:"
 
-#: wp-admin/network.php:491
+#: wp-admin/network.php:496
 msgid ""
 "Add the following to your <code>.htaccess</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -770,7 +847,7 @@ msgstr ""
 "Lägg till följande i din <code>.htaccess</code>, <code>%s</code>, och skriv "
 "över eventuellt existerande WordPressregler:"
 
-#: wp-admin/network.php:503
+#: wp-admin/network.php:508
 msgid ""
 "Once you complete these steps, your network is enabled and configured. You "
 "will have to log in again."
@@ -871,8 +948,8 @@ msgstr "Gå till adminpanelen"
 msgid "The Network creation panel is not for WordPress MU networks."
 msgstr "Panelen för skapande av nätverk är inte för WordPress MU nätverk."
 
-#: wp-admin/network.php:156 wp-admin/network.php:337 wp-admin/network.php:460
-#: wp-admin/network.php:494
+#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:465
+#: wp-admin/network.php:499
 msgid "Warning:"
 msgstr "Varning:"
 
@@ -1033,33 +1110,9 @@ msgstr ""
 "för specifika webbplatser när du redigerar en viss webbplats. Tillåtna "
 "filtyper är också listade (separerade endast med mellanslag)."
 
-#: wp-admin/network/index.php:31
-msgid "Blogs are now called Sites; Site is now called Network."
-msgstr "Bloggar kallas nu webbplatser; Webbplats kallas nätverk."
-
-#: wp-admin/network/index.php:30
-msgid ""
-"Site Admin is now Super Admin (we highly encourage you to get yourself a "
-"cape!)."
-msgstr ""
-"Webbplatsadmin är nu mer Superadmin (klädsel i form av en superhjälte "
-"rekommenderas!)."
-
 #: wp-admin/network/sites.php:38
 msgid "Visit to go to the frontend site live."
 msgstr "Besök för att se framsidan av webbplatsen live."
-
-#: wp-admin/network/index.php:29
-msgid ""
-"Until WordPress 3.0, running multiple sites required using WordPress MU "
-"instead of regular WordPress. In version 3.0, these applications have "
-"merged. If you are a former MU user, you should be aware of the following "
-"changes:"
-msgstr ""
-"Fram till WordPress 3.0 så krävdes WordPress MU för att köra flera "
-"webbplatser i en installation istället för vanliga WordPress. I 3.0 har "
-"dessa versioner av WordPress slagits ihop. Om du är tidigare MU-användare så "
-"bör du vara medveten om följande förändringar:"
 
 #: wp-admin/network/settings.php:30
 msgid ""
@@ -1413,21 +1466,6 @@ msgstr "Webbplatsadressen saknas eller är felaktig."
 #: wp-admin/network/site-new.php:59
 msgid "Missing email address."
 msgstr "E-postadress saknas."
-
-#: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
-#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:88
-msgid "Update Network"
-msgstr "Uppdatera nätverk"
-
-#: wp-admin/network/upgrade.php:87
-msgid ""
-"You can update all the sites on your network through this page. It works by "
-"calling the update script of each site automatically. Hit the link below to "
-"update."
-msgstr ""
-"Du kan uppdatera alla bloggar i nätverket på den här sidan. Detta utförs "
-"genom att starta uppdateringsskriptet i vardera blogg automatiskt. Klicka på "
-"länken nedan för att uppdatera."
 
 #: wp-admin/network/settings.php:99
 msgid "Network Admin Email"
