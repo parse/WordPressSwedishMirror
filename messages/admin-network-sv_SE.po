@@ -2,18 +2,22 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-03-27 21:57+0100\n"
+"PO-Revision-Date: 2013-07-31 11:07+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.5\n"
-"Project-Id-Version: WordPress Network Admin sv_SE\n"
+"X-Generator: Poedit 1.5.7\n"
+"Project-Id-Version: WordPress Network Admin 3.6 sv_SE\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wpsv.se>\n"
 "Language: Svenska\n"
 "X-Poedit-SourceCharset: UTF-8\n"
+
+#: wp-admin/network/settings.php:78
+msgid "Options saved."
+msgstr "Inställningar sparade."
 
 #: wp-admin/network/index.php:25
 msgid ""
@@ -149,7 +153,7 @@ msgstr ""
 "sluta redigera här... */</code>) och <code>.htaccess</code> (som ersätter de "
 "nuvarande reglerna för WordPress)."
 
-#: wp-admin/network.php:229 wp-admin/network.php:465 wp-admin/network.php:499
+#: wp-admin/network.php:229 wp-admin/network.php:464 wp-admin/network.php:498
 msgid ""
 "Subdirectory networks may not be fully compatible with custom wp-content "
 "directories."
@@ -177,19 +181,19 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target="
 "\"_blank\">Dokumentation för nätverksinställningar</a>"
 
-#: wp-admin/network/site-users.php:226
+#: wp-admin/network/site-users.php:224
 msgid "Enter the username and email."
 msgstr "Ange användarnamn och e-post."
 
-#: wp-admin/network/site-users.php:214
+#: wp-admin/network/site-users.php:212
 msgid "Select a user to change role."
 msgstr "Välj en användare att ändra roll för."
 
-#: wp-admin/network/site-users.php:220
+#: wp-admin/network/site-users.php:218
 msgid "Select a user to remove."
 msgstr "Välj en användare att ta bort."
 
-#: wp-admin/network/site-users.php:223
+#: wp-admin/network/site-users.php:221
 msgid "User created."
 msgstr "Användare skapad."
 
@@ -203,7 +207,7 @@ msgstr ""
 msgid "Site: %s"
 msgstr "Webbplats: %s"
 
-#: wp-admin/network/site-users.php:273 wp-admin/network/user-new.php:103
+#: wp-admin/network/site-users.php:271 wp-admin/network/user-new.php:103
 msgid "Add User"
 msgstr "Lägg till användare"
 
@@ -215,7 +219,7 @@ msgstr "Kan inte lägga till användare."
 msgid "You are not allowed to delete the site."
 msgstr "Du kan inte radera webbplatsen."
 
-#: wp-admin/network/site-users.php:205
+#: wp-admin/network/site-users.php:203
 msgid "User is already a member of this site."
 msgstr "Användaren är redan medlem av denna webbplats."
 
@@ -227,11 +231,11 @@ msgstr "Webbplatsinformation uppdaterad."
 msgid "Warning! User %s cannot be deleted."
 msgstr "Varning! Användaren %s kan inte raderas."
 
-#: wp-admin/network/site-users.php:208
+#: wp-admin/network/site-users.php:206
 msgid "Enter the username of an existing user."
 msgstr "Ange användarnamnet för en befintlig användare."
 
-#: wp-admin/network/themes.php:247
+#: wp-admin/network/themes.php:249
 msgid "You cannot delete a theme while it is active on the main site."
 msgstr ""
 "Du kan inte radera ett tema när det är aktivt på den primära webbplatsen."
@@ -240,7 +244,7 @@ msgstr ""
 msgid "Add New Site"
 msgstr "Lägg till ny webbplats"
 
-#: wp-admin/network/themes.php:243
+#: wp-admin/network/themes.php:245
 msgctxt "network"
 msgid "Theme deleted."
 msgid_plural "%s themes deleted."
@@ -255,8 +259,8 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Themes_Screen\" target="
 "\"_blank\">Dokumentation för nätverksteman</a>"
 
-#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:96
-#: wp-admin/network/site-themes.php:143 wp-admin/network/site-users.php:187
+#: wp-admin/network/site-info.php:104 wp-admin/network/site-settings.php:90
+#: wp-admin/network/site-themes.php:143 wp-admin/network/site-users.php:185
 msgid "Info"
 msgstr "Info"
 
@@ -312,8 +316,8 @@ msgstr ""
 "Lägg till användare kommer att skapa ett nytt användarkonto i nätverket och "
 "skicka dem ett mail med deras användarnamn och lösenord."
 
-#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:80
-#: wp-admin/network/site-themes.php:129 wp-admin/network/site-users.php:163
+#: wp-admin/network/site-info.php:88 wp-admin/network/site-settings.php:74
+#: wp-admin/network/site-themes.php:129 wp-admin/network/site-users.php:161
 msgid "Edit Site: <a href=\"%1$s\">%2$s</a>"
 msgstr "Redigera webbplats: <a href=\"%1$s\">%2$s</a>"
 
@@ -322,7 +326,7 @@ msgid "You do not have sufficient permissions to delete themes for this site."
 msgstr ""
 "Du har inte tillräcklig behörighet för att ta bort teman på denna webbplats."
 
-#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:240
+#: wp-admin/network/site-themes.php:160 wp-admin/network/themes.php:242
 msgid "Theme disabled."
 msgid_plural "%s themes disabled."
 msgstr[0] "Tema inaktiverat."
@@ -333,13 +337,13 @@ msgstr[1] "%s teman inaktiverade."
 msgid "Invalid site ID."
 msgstr "Ogiltig webbplats-ID."
 
-#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:237
+#: wp-admin/network/site-themes.php:157 wp-admin/network/themes.php:239
 msgid "Theme enabled."
 msgid_plural "%s themes enabled."
 msgstr[0] "Tema aktiverat."
 msgstr[1] "%s teman aktiverade"
 
-#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:245
+#: wp-admin/network/site-themes.php:162 wp-admin/network/themes.php:247
 msgid "No theme selected."
 msgstr "Inget tema valt."
 
@@ -358,8 +362,8 @@ msgstr ""
 "som tillgängligt i webbplatsens utseendemeny. För att aktivera ett tema för "
 "hela nätverket, se sidan för <a href=\"%s\">Nätverksteman</a>"
 
-#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:81
-#: wp-admin/network/site-themes.php:130 wp-admin/network/site-users.php:164
+#: wp-admin/network/site-info.php:89 wp-admin/network/site-settings.php:75
+#: wp-admin/network/site-themes.php:130 wp-admin/network/site-users.php:162
 msgid "Edit Site: %s"
 msgstr "Redigera webbplats: %s"
 
@@ -439,7 +443,7 @@ msgstr ""
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
-#: wp-admin/network/site-settings.php:76
+#: wp-admin/network/site-settings.php:70
 msgid "Site options updated."
 msgstr "Webbplatsinställningar uppdaterade."
 
@@ -535,7 +539,7 @@ msgstr ""
 "Du har inte tillräcklig behörighet för att lägga till webbplatser i detta "
 "nätverk."
 
-#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:229
+#: wp-admin/network/menu.php:32 wp-admin/network/themes.php:231
 msgctxt "theme"
 msgid "Add New"
 msgstr "Lägg till nytt"
@@ -738,7 +742,7 @@ msgstr ""
 "Försäkra dig om att Apache-modulen<code>mod_rewrite</code> är installerad då "
 "den kommer att användas i slutet av den här installationen."
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid ""
 "This unique authentication key is also missing from your <code>wp-config."
 "php</code> file."
@@ -800,7 +804,7 @@ msgstr "Varning!"
 msgid "Sub-domains"
 msgstr "Subdomäner"
 
-#: wp-admin/network.php:402
+#: wp-admin/network.php:401
 msgid "To make your installation more secure, you should also add:"
 msgstr "För att göra din installation mer säker så bör du också lägga till:"
 
@@ -831,7 +835,7 @@ msgstr ""
 "synliga så att du kan hitta .htaccess. Du kan behöva skapa denna fil om det "
 "inte redan finns en. Gör säkerhetskopior av dessa två filer."
 
-#: wp-admin/network.php:462
+#: wp-admin/network.php:461
 msgid ""
 "Add the following to your <code>web.config</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -839,7 +843,7 @@ msgstr ""
 "Lägg till följande i din <code>web.config</code>-fil i <code>%s</code>, och "
 "ersätt befintliga regler för WordPress:"
 
-#: wp-admin/network.php:496
+#: wp-admin/network.php:495
 msgid ""
 "Add the following to your <code>.htaccess</code> file in <code>%s</code>, "
 "replacing other WordPress rules:"
@@ -847,7 +851,7 @@ msgstr ""
 "Lägg till följande i din <code>.htaccess</code>, <code>%s</code>, och skriv "
 "över eventuellt existerande WordPressregler:"
 
-#: wp-admin/network.php:508
+#: wp-admin/network.php:507
 msgid ""
 "Once you complete these steps, your network is enabled and configured. You "
 "will have to log in again."
@@ -948,8 +952,8 @@ msgstr "Gå till adminpanelen"
 msgid "The Network creation panel is not for WordPress MU networks."
 msgstr "Panelen för skapande av nätverk är inte för WordPress MU nätverk."
 
-#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:465
-#: wp-admin/network.php:499
+#: wp-admin/network.php:156 wp-admin/network.php:344 wp-admin/network.php:464
+#: wp-admin/network.php:498
 msgid "Warning:"
 msgstr "Varning:"
 
@@ -1524,7 +1528,7 @@ msgstr "Bekräfta"
 msgid "Cannot create an empty user."
 msgstr "Kan inte skapa en tom användare."
 
-#: wp-admin/network/site-users.php:229
+#: wp-admin/network/site-users.php:227
 msgid "Duplicated username or email address."
 msgstr "Dubbelt användarnamn eller e-postadress."
 
@@ -1612,6 +1616,6 @@ msgid "The username and password will be mailed to this email address."
 msgstr ""
 "Användarnamn och lösenord kommer att mailas till den här e-postadressen."
 
-#: wp-admin/network/site-users.php:303 wp-admin/network/user-new.php:99
+#: wp-admin/network/site-users.php:301 wp-admin/network/user-new.php:99
 msgid "Username and password will be mailed to the above email address."
 msgstr "Användarnamn och lösenord kommer att skickas till ovan angiven adress."
