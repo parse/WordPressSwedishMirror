@@ -2,20 +2,51 @@
 # This file is distributed under the same license as the Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2013-07-31 11:07+0100\n"
+"PO-Revision-Date: 2013-10-02 21:38+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 1.5.7\n"
-"Project-Id-Version: WordPress Network Admin 3.6 sv_SE\n"
+"Project-Id-Version: WordPress Network Admin sv_SE\n"
 "POT-Creation-Date: \n"
 "Last-Translator: Mattias Tengblad <mst@eyesx.com>\n"
 "Language-Team: WordPress Sverige <info@wpsv.se>\n"
 "Language: Svenska\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: wp-admin/network/settings.php:78
+#: wp-admin/network/index.php:39
+msgid "To add a new user, <strong>click Create a New User</strong>."
+msgstr ""
+"För att lägga till en ny användare, klicka på <strong>Skapa ny användare</"
+"strong>."
+
+#: wp-admin/network/index.php:40
+msgid "To add a new site, <strong>click Create a New Site</strong>."
+msgstr ""
+"För att skapa en ny webbplats, klicka på <strong>Skapa en ny webbplats</"
+"strong>."
+
+#: wp-admin/network/index.php:42
+msgid ""
+"To search for a user, <strong>enter an email address or username</strong>. "
+"Use a wildcard to search for a partial username, such as user&#42;."
+msgstr ""
+"För att söka efter en användare, <strong>ange en e-postadress eller ett "
+"användarnamn</strong>. Använd jokertecken för att söka efter delar av ett "
+"användarnamn, t.ex anv&#42;."
+
+#: wp-admin/network/index.php:43
+msgid "To search for a site, <strong>enter the path or domain</strong>."
+msgstr ""
+"För att söka efter en webbplats, <strong>ange sökväg eller domän</strong>."
+
+#: wp-admin/network/upgrade.php:93
+msgid ""
+"The database upgrade process may take a little while, so please be patient."
+msgstr "Uppdateringen av databasen kan ta en liten stund, ha tålamod."
+
+#: wp-admin/network/settings.php:77
 msgid "Options saved."
 msgstr "Inställningar sparade."
 
@@ -55,41 +86,16 @@ msgstr ""
 "Panelen Just nu på denna sida visar antalet användare och webbplatser i ditt "
 "nätverk."
 
-#: wp-admin/network/index.php:39
-msgid "To add a new user <strong>click Create a New User</strong>"
-msgstr ""
-"För att lägga till en ny användare, klicka på <strong>Skapa en ny användare</"
-"strong>"
-
-#: wp-admin/network/index.php:40
-msgid "To add a new site <strong>click Create a New Site</strong>"
-msgstr ""
-"För att skapa en ny webbplats, klicka på <strong>Skapa en ny webbplats</"
-"strong>"
-
 #: wp-admin/network/index.php:41
 msgid "To search for a user or site, use the search boxes."
 msgstr "För att söka efter en användare eller webbplats, använd sökfälten."
-
-#: wp-admin/network/index.php:42
-msgid ""
-"<strong>To search for a user</strong> enter all or part of a username or "
-"email address"
-msgstr ""
-"<strong>För att söka efter en användare</strong>, ange hela eller delar av "
-"ett användarnamn eller e-postadress"
-
-#: wp-admin/network/index.php:43
-msgid "<strong>To search for a site</strong> enter the path or domain"
-msgstr ""
-"<strong>För att söka efter en webbplats</strong>, ange sökväg eller domän"
 
 #: wp-admin/network/index.php:47
 msgid "Quick Tasks"
 msgstr "Snabbuppgifter"
 
 #: wp-admin/network/menu.php:59 wp-admin/network/upgrade.php:18
-#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:91
+#: wp-admin/network/upgrade.php:43 wp-admin/network/upgrade.php:94
 msgid "Upgrade Network"
 msgstr "Uppdatera nätverk"
 
@@ -115,21 +121,17 @@ msgstr ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Updates_Screen\" target="
 "\"_blank\">Dokumentation för uppdatering av nätverk</a>"
 
-#: wp-admin/network/upgrade.php:88
+#: wp-admin/network/upgrade.php:89
 msgid "Database Upgrade Required"
 msgstr "Databasuppdatering krävs"
 
-#: wp-admin/network/upgrade.php:89
+#: wp-admin/network/upgrade.php:90
 msgid ""
 "WordPress has been updated! Before we send you on your way, we need to "
 "individually upgrade the sites in your network."
 msgstr ""
 "WordPress har uppdaterats! Innan vi låter dig fortsätta så behöver vi "
 "uppdatera webbplatserna i nätverket individuellt."
-
-#: wp-admin/network/upgrade.php:90
-msgid "The upgrade process may take a little while, so please be patient."
-msgstr "Uppdateringsprocessen kan ta en liten stund, ha tålamod."
 
 #: wp-admin/network/site-new.php:88
 msgid ""
@@ -169,11 +171,11 @@ msgstr "Överför eller ta bort inlägg innan du raderar användare."
 msgid "What should be done with posts owned by <em>%s</em>?"
 msgstr "Vad ska göras med inlägg och länkar som ägs av <em>%s</em>?"
 
-#: wp-admin/network/settings.php:94
+#: wp-admin/network/settings.php:93
 msgid "What you would like to call this network."
 msgstr "Vad vill du kalla detta nätverk."
 
-#: wp-admin/network/settings.php:38
+#: wp-admin/network/settings.php:37
 msgid ""
 "<a href=\"http://codex.wordpress.org/Network_Admin_Settings_Screen\" target="
 "\"_blank\">Documentation on Network Settings</a>"
@@ -431,7 +433,7 @@ msgstr ""
 msgid "Dashboard leads to the Dashboard for that site."
 msgstr "Adminpanel leder till adminpanelen för den webbplatsen."
 
-#: wp-admin/network/settings.php:141
+#: wp-admin/network/settings.php:140
 msgid ""
 "Allow site administrators to add new users to their site via the \"Users "
 "&rarr; Add New\" page."
@@ -439,7 +441,7 @@ msgstr ""
 "Tillåt administratörer att lägga till nya användare till deras webbplats via "
 "\"Användare &rarr; Lägg till ny\"."
 
-#: wp-admin/network/settings.php:267
+#: wp-admin/network/settings.php:266
 msgid "Language Settings"
 msgstr "Språkinställningar"
 
@@ -589,7 +591,7 @@ msgstr ""
 msgid "Updates"
 msgstr "Uppdateringar"
 
-#: wp-admin/network/settings.php:33
+#: wp-admin/network/settings.php:32
 msgid ""
 "Super admins can no longer be added on the Options screen. You must now go "
 "to the list of existing users on Network Admin > Users and click on Username "
@@ -1031,20 +1033,6 @@ msgstr ""
 "Varning! Användaren kan inte modifieras. Användaren %s är en "
 "nätverksadministratör."
 
-#: wp-admin/network/settings.php:28
-msgid ""
-"Dashboard Site is an option to give a site to users who do not have a site "
-"on the system. Their default role is Subscriber, but that default can be "
-"changed. The Admin Notice Feed can provide a notice on all dashboards of the "
-"latest post via RSS or Atom, or provide no such notice if left blank."
-msgstr ""
-"Adminwebbplats är ett alternativ för att tilldela en medlemswebbplats för "
-"användare som inte har en egen sida i nätverket. Deras standardroll är "
-"prenumerant, standardrollen kan ändras. Flöde för "
-"administratörsnotifikationer kan skicka notifikationer till användarnas "
-"adminpaneler om det senaste inlägget via RSS eller Atom. Alternativt "
-"inaktivera det genom att lämna fältet tomt."
-
 #: wp-admin/network/site-new.php:24
 msgid ""
 "If the admin email for the new site does not exist in the database, a new "
@@ -1102,7 +1090,7 @@ msgstr ""
 "inlägg borttagna och kommer inte att kunna registrera sig med samma e-"
 "postadress igen."
 
-#: wp-admin/network/settings.php:31
+#: wp-admin/network/settings.php:30
 msgid ""
 "Upload settings control the size of the uploaded files and the amount of "
 "available upload space for each site. You can change the default value for "
@@ -1118,7 +1106,7 @@ msgstr ""
 msgid "Visit to go to the frontend site live."
 msgstr "Besök för att se framsidan av webbplatsen live."
 
-#: wp-admin/network/settings.php:30
+#: wp-admin/network/settings.php:29
 msgid ""
 "New site settings are defaults applied when a new site is created in the "
 "network. These include welcome email for when a new site or user account is "
@@ -1163,7 +1151,7 @@ msgstr ""
 "nätverket och nätverksinställningarna hämtas från den ursprungliga "
 "webbplatsens inställningar."
 
-#: wp-admin/network/settings.php:29
+#: wp-admin/network/settings.php:28
 msgid ""
 "Registration settings can disable/enable public signups. If you let others "
 "sign up for a site, install spam plugins. Spaces, not commas, should "
@@ -1174,7 +1162,7 @@ msgstr ""
 "(tillägg). Mellanslag, inte kommatecken används för att separera förbjudna "
 "namn på webbplatser för nätverket."
 
-#: wp-admin/network/settings.php:32
+#: wp-admin/network/settings.php:31
 msgid ""
 "Menu setting enables/disables the plugin menus from appearing for non super "
 "admins, so that only super admins, not site admins, have access to activate "
@@ -1275,7 +1263,7 @@ msgstr ""
 "Varning! Det uppstod ett problem vid uppdateringen av %1$s. Din server "
 "kanske inte kan ansluta till webbplatserna. Felmeddelande: <em>%2$s</em>"
 
-#: wp-admin/network/settings.php:162
+#: wp-admin/network/settings.php:161
 msgid ""
 "If you want to limit site registrations to certain domains. One domain per "
 "line."
@@ -1283,14 +1271,14 @@ msgstr ""
 "Om du vill begränsa webbplatsregistreringar till vissa domäner. Ange ett "
 "domän per rad."
 
-#: wp-admin/network/settings.php:172
+#: wp-admin/network/settings.php:171
 msgid ""
 "If you want to ban domains from site registrations. One domain per line."
 msgstr ""
 "Om du vill bannlysa vissa e-postdomän från registrering. Ange ett domän per "
 "rad."
 
-#: wp-admin/network/settings.php:122
+#: wp-admin/network/settings.php:121
 msgid ""
 "If registration is disabled, please set <code>NOBLOGREDIRECT</code> in "
 "<code>wp-config.php</code> to a URL you will redirect visitors to if they "
@@ -1378,12 +1366,12 @@ msgstr "Ett fel har uppstått, användaren kunde inte skapas."
 msgid "You are not allowed to change the current site."
 msgstr "Du har inte tillräcklig behörighet för att ändra den här webbplatsen."
 
-#: wp-admin/network/settings.php:258
+#: wp-admin/network/settings.php:257
 msgctxt "File size in kilobytes"
 msgid "%s KB"
 msgstr "%s KB"
 
-#: wp-admin/network/settings.php:103
+#: wp-admin/network/settings.php:102
 msgid ""
 "Registration and support emails will come from this address. An address such "
 "as <code>support@%s</code> is recommended."
@@ -1391,31 +1379,31 @@ msgstr ""
 "Registrerings- och supportmail kommer att skickas från följande adress. En "
 "adress som t.ex <code>support@%s</code> rekommenderas."
 
-#: wp-admin/network/settings.php:252
+#: wp-admin/network/settings.php:251
 msgid "Upload file types"
 msgstr "Filtyper för uppladdning"
 
-#: wp-admin/network/settings.php:247
+#: wp-admin/network/settings.php:246
 msgid "Limit total size of files uploaded to %s MB"
 msgstr "Begränsa total storlek för uppladdade filer till %s MB"
 
-#: wp-admin/network/settings.php:230
+#: wp-admin/network/settings.php:229
 msgid "The author of the first comment on a new site."
 msgstr "Första kommentarsförfattaren för en ny webbplats."
 
-#: wp-admin/network/settings.php:204
+#: wp-admin/network/settings.php:203
 msgid "The first post on a new site."
 msgstr "Första inlägget för en ny webbplats."
 
-#: wp-admin/network/settings.php:213
+#: wp-admin/network/settings.php:212
 msgid "The first page on a new site."
 msgstr "Första sidan för en ny webbplats."
 
-#: wp-admin/network/settings.php:222
+#: wp-admin/network/settings.php:221
 msgid "The first comment on a new site."
 msgstr "Första kommentaren för en ny webbplats."
 
-#: wp-admin/network/settings.php:238
+#: wp-admin/network/settings.php:237
 msgid "The URL for the first comment on a new site."
 msgstr "URL för den första kommentaren för en ny webbplats."
 
@@ -1423,39 +1411,39 @@ msgstr "URL för den första kommentaren för en ny webbplats."
 msgid "All done!"
 msgstr "Allt klart!"
 
-#: wp-admin/network/settings.php:119
+#: wp-admin/network/settings.php:118
 msgid "Logged in users may register new sites."
 msgstr "Inloggade användare kan skapa nya webbplatser."
 
-#: wp-admin/network/settings.php:120
+#: wp-admin/network/settings.php:119
 msgid "Both sites and user accounts can be registered."
 msgstr "Både webbplatser och användarkonton kan skapas."
 
-#: wp-admin/network/settings.php:118
+#: wp-admin/network/settings.php:117
 msgid "User accounts may be registered."
 msgstr "Användarkonton kan skapas."
 
-#: wp-admin/network/settings.php:117
+#: wp-admin/network/settings.php:116
 msgid "Registration is disabled."
 msgstr "Registreringar har inaktiverats."
 
-#: wp-admin/network/settings.php:285
+#: wp-admin/network/settings.php:284
 msgid "Enable administration menus"
 msgstr "Aktivera administrationsmenyer"
 
-#: wp-admin/network/settings.php:87
+#: wp-admin/network/settings.php:86
 msgid "Operational Settings"
 msgstr "Driftsinställningar"
 
-#: wp-admin/network/settings.php:242
+#: wp-admin/network/settings.php:241
 msgid "Upload Settings"
 msgstr "Uppladdningsinställningar"
 
-#: wp-admin/network/settings.php:177
+#: wp-admin/network/settings.php:176
 msgid "New Site Settings"
 msgstr "Inställningar för nya webbplatser"
 
-#: wp-admin/network/settings.php:107
+#: wp-admin/network/settings.php:106
 msgid "Registration Settings"
 msgstr "Registreringsinställningar"
 
@@ -1467,11 +1455,11 @@ msgstr "Webbplatsadressen saknas eller är felaktig."
 msgid "Missing email address."
 msgstr "E-postadress saknas."
 
-#: wp-admin/network/settings.php:99
+#: wp-admin/network/settings.php:98
 msgid "Network Admin Email"
 msgstr "E-post för nätverksadmin"
 
-#: wp-admin/network/settings.php:90
+#: wp-admin/network/settings.php:89
 msgid "Network Name"
 msgstr "Nätverksnamn"
 
@@ -1483,15 +1471,15 @@ msgstr "[%s] Ny webbplats skapad"
 msgid "WordPress &rsaquo; Confirm your action"
 msgstr "WordPress &rsaquo; Bekräfta åtgärd"
 
-#: wp-admin/network/settings.php:186
+#: wp-admin/network/settings.php:185
 msgid "The welcome email sent to new site owners."
 msgstr "Välkomstmeddelande som skickas via e-post till nya webbplatsägare."
 
-#: wp-admin/network/settings.php:245
+#: wp-admin/network/settings.php:244
 msgid "Site upload space"
 msgstr "Utrymmeskvot för uppladdning på webbplats"
 
-#: wp-admin/network/settings.php:134
+#: wp-admin/network/settings.php:133
 msgid ""
 "Send the network admin an email notification every time someone registers a "
 "site or user account."
@@ -1499,7 +1487,7 @@ msgstr ""
 "Skicka nätverksadministratören ett meddelande varje gång någon registrerar "
 "en webbplats eller ett användarkonto."
 
-#: wp-admin/network/settings.php:150
+#: wp-admin/network/settings.php:149
 msgid ""
 "Users are not allowed to register these sites. Separate names by spaces."
 msgstr ""
@@ -1532,63 +1520,63 @@ msgstr "Kan inte skapa en tom användare."
 msgid "Duplicated username or email address."
 msgstr "Dubbelt användarnamn eller e-postadress."
 
-#: wp-admin/network/settings.php:110
+#: wp-admin/network/settings.php:109
 msgid "Allow new registrations"
 msgstr "Tillåta nya registreringar"
 
-#: wp-admin/network/settings.php:128
+#: wp-admin/network/settings.php:127
 msgid "Registration notification"
 msgstr "Registreringsnotifikation"
 
-#: wp-admin/network/settings.php:139
+#: wp-admin/network/settings.php:138
 msgid "Add New Users"
 msgstr "Lägga till nya användare"
 
-#: wp-admin/network/settings.php:146
+#: wp-admin/network/settings.php:145
 msgid "Banned Names"
 msgstr "Förbjudna namn"
 
-#: wp-admin/network/settings.php:155
+#: wp-admin/network/settings.php:154
 msgid "Limited Email Registrations"
 msgstr "Begränsad e-postregistrering"
 
-#: wp-admin/network/settings.php:167
+#: wp-admin/network/settings.php:166
 msgid "Banned Email Domains"
 msgstr "Förbjudna e-postdomäner"
 
-#: wp-admin/network/settings.php:181
+#: wp-admin/network/settings.php:180
 msgid "Welcome Email"
 msgstr "Välkomstmeddelande"
 
-#: wp-admin/network/settings.php:190
+#: wp-admin/network/settings.php:189
 msgid "Welcome User Email"
 msgstr "Välkomstmeddelande användare"
 
-#: wp-admin/network/settings.php:195
+#: wp-admin/network/settings.php:194
 msgid "The welcome email sent to new users."
 msgstr "Välkomstmeddelande som skickas via e-post till nya användare."
 
-#: wp-admin/network/settings.php:208
+#: wp-admin/network/settings.php:207
 msgid "First Page"
 msgstr "Första sidan"
 
-#: wp-admin/network/settings.php:217
+#: wp-admin/network/settings.php:216
 msgid "First Comment"
 msgstr "Första kommentaren"
 
-#: wp-admin/network/settings.php:226
+#: wp-admin/network/settings.php:225
 msgid "First Comment Author"
 msgstr "Första kommentarsförfattare"
 
-#: wp-admin/network/settings.php:234
+#: wp-admin/network/settings.php:233
 msgid "First Comment URL"
 msgstr "Första kommentars-url"
 
-#: wp-admin/network/settings.php:257
+#: wp-admin/network/settings.php:256
 msgid "Max upload file size"
 msgstr "Maximal storlek för filuppladdning"
 
-#: wp-admin/network/settings.php:270
+#: wp-admin/network/settings.php:269
 msgid "Default Language"
 msgstr "Standardspråk"
 
